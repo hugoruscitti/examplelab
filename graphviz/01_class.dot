@@ -1,0 +1,9 @@
+digraph G
+{
+    node [shape=record, style="filled", fillcolor="#FFFFBB"]
+
+    Object [label="{Object||}"]
+    Person [label="{Person|name\nages|move()\nhelp()}"]
+
+    Person -> Object
+}

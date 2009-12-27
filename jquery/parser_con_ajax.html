@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Parser</title>
+    <script src="jquery.js" type="text/javascript" language="text/javascript"></script>
+
+    <style>
+        div.wait
+        {
+            background-image: url('wait.gif');
+            width: 32px;
+            height: 32px;
+        }
+
+
+
+        div#placeholder
+        {
+            border: 1px solid green;
+            padding: 1em;
+            margin: 1em;
+        }
+    </style>
+
+    <script>
+
+        function show_running_message()
+        {
+            $("#placeholder").html("<div class='wait'></div>");
+        }
+
+        function on_enviar__clicked()
+        {
+            var textarea_content = $("#texto").val();
+            var post = {'texto': textarea_content};
+
+            $.post("php/parser.php", post, on_ajax__done);
+            show_running_message();
+        }
+
+        function on_ajax__done(data)
+        {
+            $("#placeholder").html(data);
+        }
+
+        $(document).ready(
+        function()
+        {
+            $("#enviar").click(on_enviar__clicked);
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Parser simple</h1>
+
+    <p>
+    Este ejemplo le permite procesar texto mediante un programa
+    PHP que funciona en el servidor.
+
+
+    <form>
+        <table>
+            <tr>
+            <td>
+                <textarea id="texto">Texto para procesar con PHP.</textarea>
+            </td>
+            </tr>
+
+            <tr>
+            <td>
+                <input type='button' value='Enviar' id='enviar'/>
+            </td>
+            </tr>
+        </table>
+    </form>
+
+
+    <div id='placeholder'>
+    </div>
+
+
+</body>
+        
+</html>
