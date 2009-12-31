@@ -5,42 +5,56 @@ from common import *
 screen = pygame.display.set_mode((320, 200))
 background = pygame.image.load('background.bmp')
 
-restore(screen, background)
-convert = pygame.transform.flip(image, True, True)
-save_screenshot("flip", convert, "pygame.transform.flip(image, True, True)")
+
+
+test_codes = [
+    ('flip',  "pygame.transform.flip(image, True, False)"),
+    ('scale', "pygame.transform.scale(image, (121, 50))"),
+    ('rotate', "pygame.transform.rotate(image, 190)"),
+    ('rotozoom', "pygame.transform.rotozoom(image, 45, 0.5)"),
+    ('scale2x', "pygame.transform.scale2x(image)"),
+    ('smoothscale', "pygame.transform.smoothscale(image, (121, 50))"),
+    ('chop', "pygame.transform.chop(image, (20, 20, 30, 30))"),
+    ('laplacian', "pygame.transform.laplacian(image)"),
+    ]
+
+
+for (name, code) in test_codes:
+    restore(screen, background)
+    converted_image = eval(code)
+    save_screenshot(screen, name, converted_image, code)
+
+'''
+
+restore(screen,background)
+convert = 
+
+restore(screen,background)
+convert = 
+save_screenshot(screen, "rotate", convert, "pygame.transform.rotate(image, 190)")
 
 
 restore(screen,background)
-convert = pygame.transform.scale(image, (121, 50))
-save_screenshot("scale", convert, "pygame.transform.scale(image, (121, 50))")
-
-
-
-restore(screen,background)
-convert = pygame.transform.rotate(image, 190)
-save_screenshot("rotate", convert, "pygame.transform.rotate(image, 190)")
+convert = 
+save_screenshot(screen, "rotozoom", convert, "pygame.transform.rotozoom(image, 45, 0.5)")
 
 
 restore(screen,background)
-convert = pygame.transform.rotozoom(image, 45, 0.5)
-save_screenshot("rotozoom", convert, "pygame.transform.rotozoom(image, 45, 0.5)")
+convert = 
+save_screenshot(screen, "scale2x", convert, "pygame.transform.scale2x(image)")
 
 
 restore(screen,background)
-convert = pygame.transform.scale2x(image)
-save_screenshot("scale2x", convert, "pygame.transform.scale2x(image)")
+convert = 
+save_screenshot(screen, "smoothscale", convert, "pygame.transform.smoothscale(image, (121, 50))")
 
 
 restore(screen,background)
-convert = pygame.transform.smoothscale(image, (121, 50))
-save_screenshot("smoothscale", convert, "pygame.transform.smoothscale(image, (121, 50))")
+convert = 
+save_screenshot(screen, "chop", convert, "pygame.transform.chop(image, (20, 20, 30, 30))")
 
 
 restore(screen,background)
-convert = pygame.transform.chop(image, (20, 20, 30, 30))
-save_screenshot("chop", convert, "pygame.transform.chop(image, (20, 20, 30, 30))")
-
-
-restore(screen,background)
-convert = pygame.transform.laplacian(image)
-save_screenshot("laplacian", convert, "pygame.transform.laplacian(image)")
+convert = 
+save_screenshot(screen, "laplacian", convert, "pygame.transform.laplacian(image)")
+'''
