@@ -21,7 +21,7 @@ sound.Play()
 color = sf.Color(200, 200, 200)
 
 playing_music = False
-message = sf.String("Press Space to start Music")
+message = sf.String("Press Space to start Music or click for sound.")
 
 while True:
     app.Clear(color)
@@ -46,5 +46,7 @@ while True:
                 music.OpenFromFile('otro.ogg')
 
                 music.Play()
+        elif event.Type == sf.Event.MouseButtonPressed:
+            sound.Play()
 
     app.Display()
