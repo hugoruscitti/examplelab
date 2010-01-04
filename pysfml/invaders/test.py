@@ -1,8 +1,7 @@
 from PySFML import sf
 import random
 
-window = sf.RenderWindow(sf.VideoMode(640, 480), "My game")
-#        sf.Style.Fullscreen)
+window = sf.RenderWindow(sf.VideoMode(640, 480), "My game", sf.Style.Fullscreen)
 
 def area_to_tuple(area):
     left = area.Left
