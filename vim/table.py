@@ -82,4 +82,6 @@ def create_table(content):
 
     return '\n'.join(result)
 
-print create_table([['software', 'vesion'], ['python', '2.6'], ['vim', '7.2']])
+
+if __name__ == '__main__':
+    print create_table([['software', 'vesion'], ['python', '2.6'], ['vim', '7.2']])
