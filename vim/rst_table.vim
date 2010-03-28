@@ -192,7 +192,7 @@ def CreateTable():
     top, bottom = get_table_bounds(row - 1, are_in_a_paragraph)
     lines = extract_words_as_lists(vim.current.buffer, top, bottom)
     table_content = create_table(lines)
-    copy_to_buffer(vim.current.buffer, table_content, top)
+    vim.current.buffer[top:bottom+1] = table_content.split('\n')
 
 
 EOF
