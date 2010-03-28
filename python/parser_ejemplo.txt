@@ -1,0 +1,15 @@
+Padre
+    attr1
+    attr2
+    Hijo
+        subitem
+        method()
+    OtroHijo:
+        mas
+        nombre
+Otro:
+    pepe
+
+    HijoDeOtro:
+        attr
+        attr2

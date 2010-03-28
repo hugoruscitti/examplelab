@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Enemy	test.py	/^class Enemy(Sprite):$/;"	c	inherits:Sprite
+Ship	test.py	/^class Ship(Sprite):$/;"	c	inherits:Sprite
+Shot	test.py	/^class Shot(Sprite):$/;"	c	inherits:Sprite
+Sprite	test.py	/^class Sprite(sf.Sprite):$/;"	c	inherits:sf.Sprite
+SpriteGroup	test.py	/^class SpriteGroup:$/;"	c	inherits:
+__init__	test.py	/^    def __init__(self):$/;"	m	class:SpriteGroup	access:public
+__init__	test.py	/^    def __init__(self, image):$/;"	m	class:Enemy	access:public
+__init__	test.py	/^    def __init__(self, image, center=(0, 0)):$/;"	m	class:Sprite	access:public
+__init__	test.py	/^    def __init__(self, sprites):$/;"	m	class:Ship	access:public
+__init__	test.py	/^    def __init__(self, sprites, image, x, y):$/;"	m	class:Shot	access:public
+_create_collision_area	test.py	/^    def _create_collision_area(self):$/;"	m	class:Sprite	access:public
+_load_sounds	test.py	/^    def _load_sounds(self):$/;"	m	class:Ship	access:public
+_propagate	test.py	/^    def _propagate(self, id, *k):$/;"	m	class:SpriteGroup	access:public
+_set_initial_position	test.py	/^    def _set_initial_position(self):$/;"	m	class:Ship	access:public
+add	test.py	/^    def add(self, sprite):$/;"	m	class:SpriteGroup	access:public
+collide_with	test.py	/^    def collide_with(self, other_sprite):$/;"	m	class:Sprite	access:public
+create_collision_preview	test.py	/^    def create_collision_preview(self, color):$/;"	m	class:Sprite	access:public
+die	test.py	/^    def die(self):$/;"	m	class:Shot	access:public
+draw	test.py	/^    def draw(self, window, debug_color=None):$/;"	m	class:SpriteGroup	access:public
+get_collisions_with	test.py	/^    def get_collisions_with(self, other_group):$/;"	m	class:SpriteGroup	access:public
+post_update	test.py	/^    def post_update(self):$/;"	m	class:Sprite	access:public
+remove	test.py	/^    def remove(self, sprite):$/;"	m	class:SpriteGroup	access:public
+shot	test.py	/^    def shot(self):$/;"	m	class:Ship	access:public
+update	test.py	/^    def update(self, input, dt):$/;"	m	class:Enemy	access:public
+update	test.py	/^    def update(self, input, dt):$/;"	m	class:Ship	access:public
+update	test.py	/^    def update(self, input, dt):$/;"	m	class:Shot	access:public
+update	test.py	/^    def update(self, input, dt):$/;"	m	class:SpriteGroup	access:public

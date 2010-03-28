@@ -1,0 +1,11 @@
+digraph G
+{
+    node [fontsize=10]
+
+
+    AMS -> "MIDlet Paused" [label="new()"]
+    "MIDlet Paused" -> "MIDlet Active" [label="startApp()"]
+    "MIDlet Active" -> "MIDlet Paused" [label="pauseApp()"]
+    "MIDlet Active" -> "MIDlet Destroyed" [label="destroyApp()"]
+    "MIDlet Paused" -> "MIDlet Destroyed" [label="destroyApp()"]
+}
