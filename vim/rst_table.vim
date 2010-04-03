@@ -107,22 +107,22 @@ def get_table_bounds(current_row_index, are_in_callback):
     Retorna ambos valores como una tupla.
     """
 
-    bottom = 0
     top = 0
     buffer = vim.current.buffer
     max = len(buffer)
+    bottom = max - 1
 
-    for a in range(current_row_index, 0, -1):
+    for a in range(current_row_index, top, -1):
         if not are_in_callback(buffer[a]):
-            top = a
+            top = a + 1
             break
 
     for b in range(current_row_index, max):
         if not are_in_callback(buffer[b]):
-            bottom = b
+            bottom = b - 1
             break
 
-    return top + 1, bottom - 1
+    return top, bottom
 
 def remove_spaces(string):
     "Elimina los espacios innecesarios de una fila de tabla."
