@@ -36,8 +36,8 @@ if __name__ == '__main__':
             "Integrate sprites",
             "Hugo Ruscitti",
             "Hugo Ruscitti",
-            "2008",
-            "<Image>/Python-Fu/Sprite/Integrate",
+            "2010",
+            "<Image>/Python-Fu/SpriteTool/Integrate",
             "RGB*, GRAY*",
             [
                 (PF_SPINNER, "frames", "Frames", 2, (0, 50, 1)),
