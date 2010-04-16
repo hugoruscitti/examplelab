@@ -1,6 +1,6 @@
 from bottle import route, run
-@route('/')
 
+@route('/')
 def home():
     return "Hola mundo !!"
 
