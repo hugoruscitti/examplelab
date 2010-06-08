@@ -6,8 +6,8 @@ import re
 import string
  
 DEFAULT_MARK = '☐'
-MARKS = ['☐', '☑', '[_]', '[X]', '☒', '✗']
-INDENT_WIDTH = 4
+MARKS = ['☐', '☑', '[_]', '[X]', '☒']
+INDENT_WIDTH = 2
 TO_DONE_DICT = {
                 '☐': '☑', 
                 '[_]': '[X]',
@@ -24,36 +24,47 @@ TO_CANCEL_DICT = {
                 '☑': '☒',
                }
 
+TO_OTL = {
+        '☐': '[_]',
+        '☒': '[-]',
+        '☑': '[X]',
+}
+
+TO_BOX = {
+        '[_]': '☐',
+        '[-]': '☒',
+        '[X]': '☑',
+}
+
 
 def replace_all(text, dic):
+    """Reemplaza varias palabras de una cadena:
+
+        >>> replace_all("Hola mundo", {'Hola': 'chau', 'do': 'dos'})
+        >>> 'chau mundos'
+    """
     for i, j in dic.iteritems():
         text = text.replace(i, j)
     return text
 
-def get_current_line():
-    (row, col) = vim.current.window.cursor
-    return vim.current.buffer[row-1]
-    
-def set_current_line(line):
-    (row, col) = vim.current.window.cursor
-    vim.current.buffer[row-1] = line
-
 def have_any_of_this_charactes(string, words):
+    """Indica si una linea de texto contiene algunas palabras particulares::
+
+        >>> have_any_of_this_charactes("a bb ccc", ['a'])
+        >>> True
+    """
     for w in words:
         if w in string:
             return True
 
 def MarkDone():
-    line = get_current_line()
-    new_line = replace_all(line, TO_DONE_DICT)
-    set_current_line(new_line)
+    vim.current.line = replace_all(vim.current.line, TO_DONE_DICT)
 
 def MarkCancel():
-    line = get_current_line()
-    new_line = replace_all(line, TO_CANCEL_DICT)
-    set_current_line(new_line)
+    vim.current.line = replace_all(vim.current.line, TO_CANCEL_DICT)
 
 def CreateTask():
+    "Genera una nueva tarea sobre la linea actual."
     line = vim.current.line
 
     if have_any_of_this_charactes(line, MARKS):
@@ -64,57 +75,87 @@ def CreateTask():
         elif re.match("^(\s+)", line):
             new_line = re.sub("^(\s+)", "\\1%s " %(DEFAULT_MARK), line, count=1)
         else:
-            new_line = DEFAULT_MARK + " .."
+            new_line = DEFAULT_MARK + " "
 
     vim.current.line = new_line
 
 def tlConvertToOTL():
+    "Convierte todas las casillas de tarea al formato de vimoutliner"
     size = len(vim.current.buffer)
 
     for i in range(0, size):
-        vim.current.buffer[i] = vim.current.buffer[i] = "hola"
+        vim.current.buffer[i] = replace_all(vim.current.buffer[i], TO_OTL)
+    
+    ChangeDefaultMark('[_]')
 
-#a = vim.current.line
-#(row, col) = vim.current.window.cursor
+def tlConvertToBOX():
+    "Convierte todas las casillas estilo vimoutliner al formato de cajas UTF8"
+    size = len(vim.current.buffer)
+
+    for i in range(0, size):
+        vim.current.buffer[i] = replace_all(vim.current.buffer[i], TO_BOX)
+
+    ChangeDefaultMark('☐')
+
+def has_a_task_mark_in_this_line():
+    "Indica si la linea actual tiene una casilla de tarea."
+    for x in MARKS:
+        if x in vim.current.line:
+            return True
 
 
 def CreateTaskIndent(extra_indent=0):
     "Genera una tarea en el mismo nivel de indentacion que la linea actual."
 
-
     # Genera la identacion de espacios que se le pida.
     indent = " " * INDENT_WIDTH * extra_indent
 
-    if DEFAULT_MARK in vim.current.line:
+    if has_a_task_mark_in_this_line():
         # Copia la linea actual para preservar la identación.
         vim.command("normal yyp")
 
         # Preserva la identación y coloca la marca de tarea sin texto.
         vim.current.line = re.sub("\S.*", indent + DEFAULT_MARK + " ", vim.current.line)
     else:
+        # Si la linea actual no tiene marcas entonces genera una marca a derecha
+        # de los espacios iniciales.
         CreateTask()
 
+
+def CreateSubTask():
+    "Genera una subtarea en base a la que se encuentra mas arriba."
+    CreateTaskIndent(1)
+
+def ChangeDefaultMark(new_mark):
+    global DEFAULT_MARK
+    DEFAULT_MARK = new_mark
 EOF
 
 
-imap ,c <ESC>:python CreateTask()<CR>
-map ,c a,c
 
-
-
-imap ,d <ESC>:python MarkDone()<CR>A
-map  ,d :python MarkDone()<CR>
-
-imap ,s <ESC>:python MarkCancel()<CR>A
-map  ,s :python MarkCancel()<CR>
-
-
+" Transforma de una notación a la otra
 map ,1 :python tlConvertToOTL()<CR>
+map ,2 :python tlConvertToBOX()<CR>
 
+" Crea o limpia una tarea. 
+" 'C' viene de Create y Clear.
+map ,c :python CreateTask()<CR>A
+imap ,c <ESC>,c
 
+" Agrega una tarea a la lista actual.
+" 'A' viene de append.
 map ,a :python CreateTaskIndent()<CR>A
 imap ,a <ESC>,a
 
+" Genera una subtarea para la tarea actual.
+" 'S' viene de SubTask.
+map  ,s :python CreateSubTask()<CR>A
+imap ,s <ESC>,s
+
+" Marca una tarea como realizada.
+" 'D' viene de Done.
+imap ,d <ESC>:python MarkDone()<CR>A
+map  ,d :python MarkDone()<CR>
 
 au BufRead,BufNewFile *.tl\= set ft=tl
 
