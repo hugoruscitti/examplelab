@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Ajax</title>
+    <script src="jquery.js" type="text/javascript" language="text/javascript"></script>
+
+    <style>
+
+        div.resultado
+        {
+            width: 50%;
+            margin-left: 1em;
+            border: 3px solid black;
+            padding: 1em;
+        }
+
+        form
+        {
+            margin:1em;
+        }
+
+        div#mensaje_procesando
+        {
+            color: red;
+        }
+
+    </style>
+
+    <script>
+
+    $(document).ready(
+    function()
+    {
+        // oculta 
+        function on_done()
+        {
+            // se puede ocultar el mensaje
+        }
+
+        function mostrar_mensaje_procesando()
+        {
+            $(".resultado").html("<div id='mensaje_procesando'>Procesando ...</div>");
+        }
+
+        $("#ejecutar").click(
+        function()
+        {
+            mostrar_mensaje_procesando();
+            $(".resultado").load("php/proceso_costoso.php", "", on_done);
+        });
+    });
+
+
+    </script>
+</head>
+
+<body>
+    <h1>Ajax repesado</h1>
+
+    <p>
+    El siguiente ejemplo ejecutará un script de PHP
+    que demora bastante en terminar.
+
+    <p>
+    Pulse el botón <em>Ejecutar proceso</em> para invocar
+    al script.
+
+    <form>
+        <input type='button' value='Ejecutar proceso' id='ejecutar'/>
+    </form>
+
+    <div class='resultado'>
+    </div>
+
+</body>
+        
+</html>

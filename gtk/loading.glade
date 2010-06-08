@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.5 on Thu May 29 21:58:05 2008 -->
+<glade-interface>
+  <widget class="GtkWindow" id="loading">
+    <property name="border_width">12</property>
+    <property name="title" translatable="yes">Cargando</property>
+    <property name="resizable">False</property>
+    <property name="modal">True</property>
+    <property name="type_hint">GDK_WINDOW_TYPE_HINT_DIALOG</property>
+    <child>
+      <widget class="GtkVBox" id="vbox1">
+        <property name="visible">True</property>
+        <property name="spacing">8</property>
+        <child>
+          <widget class="GtkLabel" id="label1">
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">Cargando el juego ...</property>
+          </widget>
+        </child>
+        <child>
+          <widget class="GtkProgressBar" id="progress">
+            <property name="visible">True</property>
+            <property name="text" translatable="yes"></property>
+          </widget>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

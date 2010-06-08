@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Fechas</title>
+    <script src="jquery.js" type="text/javascript" language="text/javascript"></script>
+
+    <style>
+
+        div.fecha
+        {
+            width: 50%;
+            margin-left: 1em;
+            border: 3px solid black;
+            padding: 1em;
+        }
+
+        span#veces
+        {
+            font-weight: bold;
+            color: red;
+        }
+
+    </style>
+
+    <script>
+
+    $(document).ready(
+    function()
+    {
+        $(".fecha").click(
+        function()
+        {
+            $(this).load("php/obtener_fecha.php");
+
+            // incrementa el contador de veces.
+            var veces = $("#veces").html();
+            veces = parseInt(veces) + 1;
+
+            $("#veces").html(veces);
+        });
+
+    });
+
+
+    </script>
+</head>
+
+<body>
+    <h1>Reloj</h1>
+
+    <p>
+    Esta página solicita a un script de php la fecha actual. Si bien
+    esto se puede hacer de mil formas, aquí la idea es usar AJAX.
+
+    <p>
+    Pulse sobre el panel para actualizar el contenido del mismo.
+
+    <div class='fecha'>
+        fecha
+    </div>
+
+    <p>
+    Ha pulsado <span id='veces'>0</span> veces el panel.
+
+
+</body>
+        
+</html>
