@@ -1,0 +1,26 @@
+---
+layout: post
+title: FMSL 2013
+date: '2014-01-19 21:52:52'
+---
+
+El mes pasado tuve la posibilidad de asistir y participar como orador del [Festival Misionero de Software Libre](http://fmsl.com.ar/).
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/DyB948J38XY" frameborder="0" allowfullscreen></iframe>
+
+La experiencia fué alucinante, viajé junto a *Héctor Sanchez* desde Buenos Aires, y allá en misiones nos recibió *Josi Guaimas*.
+
+Les dejo algunas de las fotos que tomaron los organizadores del evento:
+
+![](/images/2013/Dec/DSC_0722-1.jpg)
+![](/images/2013/Dec/DSC_0606-1.jpg)
+![](/images/2013/Dec/DSC_0734-1.jpg)
+![](/images/2013/Dec/DSC_0620-1.jpg)
+![](/images/2013/Dec/DSC_0351-1.jpg)
+![](/images/2013/Dec/DSC_0542-2.jpg)
+![](/images/2013/Dec/DSC_0488-1.jpg)
+![](/images/2013/Dec/DSC_0691_19_11_45.jpg)
+![](/images/2013/Dec/DSC_0407-1.jpg)
+![](/images/2013/Dec/DSC_0648-1.jpg)
+
+¡ Mil agradecimientos a *Josi Guaimas* y a todos los que hicieron posible el festival !!!
