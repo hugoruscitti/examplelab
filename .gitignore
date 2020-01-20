@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 dist
 .DS_Store
+public

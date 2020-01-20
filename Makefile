@@ -41,3 +41,4 @@ deploy_a_produccion:
 	@cd dist; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git push -f
 	rm -rf public
 	rm -rf dist
+	@echo "${G}Listo, se hizo el deploy en https://examplelab.com.ar${N}"
