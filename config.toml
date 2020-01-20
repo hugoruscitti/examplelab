@@ -1,0 +1,45 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-modificado"
+paginate = 10
+
+[params]
+  contentTypeName = "posts"
+  defaultTheme = "light"
+  showMenuItems = 2
+  showReadingTime = false
+
+[languages]
+  [languages.en]
+    title = "Examplelab"
+    subtitle = "Mi blog"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mostrar más"
+    writtenBy = "Creado por"
+    readMore = "Leer más"
+    readOtherPosts = "Leer otros artículos"
+    newerPosts = "Artículos nuevos"
+    olderPosts = "Artículos anteriores"
+    minuteReadingTime = "tiempo de lectura"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "examplelab"
+      logoHomeLink = "/"
+
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "acerca de"
+        name = "Acerca de"
+        url = "/about/index.html"
+      [[languages.en.menu.main]]
+        identifier = "articulos"
+        name = "Artículos"
+        url = "/posts/index.html"

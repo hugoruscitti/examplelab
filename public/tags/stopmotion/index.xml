@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stopmotion on Examplelab</title>
+    <link>/tags/stopmotion/</link>
+    <description>Recent content in stopmotion on Examplelab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Apr 2014 21:29:49 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/stopmotion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>StopMotion de &#34;yie ar kung-fu&#34;</title>
+      <link>/posts/2014-04-19-stopmotion_kungfu/</link>
+      <pubDate>Sat, 19 Apr 2014 21:29:49 +0000</pubDate>
+      
+      <guid>/posts/2014-04-19-stopmotion_kungfu/</guid>
+      <description>Esta semana estuvimos haciendo nuestro primer mini corto de stomotion con Walter Velazquez:
+Hicimos un pequeño homenajeando al videojuego &amp;ldquo;yie ar kung-fu&amp;rdquo;, un juego que habíamos jugado miles de veces cuando eramos chicos, usando la consola family game (también llamada NES).
+Así se veía el mítico videojuego original en sus días de gloria:
+Nuestra idea era homenajearlo con una animación de stopmotion, usando personajes de papel y huayra-motion.
+Recursos Empezamos definiendo rápidamente la idea de la animación, Walter ya tenía en mente las secuencias principales y los materiales para utilizar.</description>
+    </item>
+    
+  </channel>
+</rss>

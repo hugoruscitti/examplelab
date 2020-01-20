@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>¡ The Zombie Smasher ! :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!
+En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:
+¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
+Lo que aprendimos Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2016-04-26-publicamos-the-zombie-smasher/" />
+
+
+
+
+<script src="/js/turbolinks-5.2.0.js"></script>
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/css/estilo.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="¡ The Zombie Smasher !"/>
+<meta name="twitter:description" content="Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!
+En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:
+¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
+Lo que aprendimos Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo."/>
+
+
+
+<meta property="og:title" content="¡ The Zombie Smasher !" />
+<meta property="og:description" content="Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!
+En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:
+¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
+Lo que aprendimos Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2016-04-26-publicamos-the-zombie-smasher/" />
+<meta property="article:published_time" content="2016-04-26T19:18:46+00:00" />
+<meta property="article:modified_time" content="2016-04-26T19:18:46+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">examplelab</span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2016-04-26-publicamos-the-zombie-smasher/">¡ The Zombie Smasher !</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2016-04-26
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      <p>Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!</p>
+<p>En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:</p>
+<p><img src="/images/2016/04/teaser.jpg" alt=""></p>
+<!-- raw HTML omitted -->
+<h2 id="de-qué-se-trata">¿De qué se trata?</h2>
+<p>El juego tiene una mecánica muy similar a <a href="http://examplelab.com.ar/nuestro-juego-nuevo-dragon-punch/">Dragon Punch</a>, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:</p>
+<p><img src="/images/2016/04/2-1.jpeg" alt="">
+<img src="/images/2016/04/4.jpeg" alt="">
+<img src="/images/2016/04/6-1.jpeg" alt="">
+<img src="/images/2016/04/7-1.jpeg" alt="">
+<img src="/images/2016/04/8-1.jpeg" alt=""></p>
+<p><img src="/images/2016/04/sprites-final-hero.jpg" alt=""></p>
+<h2 id="lo-que-aprendimos">Lo que aprendimos</h2>
+<p>Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo.</p>
+<p><img src="/images/2016/04/gameScene-unity---unity-the-zombie-smasher---iPhone--iPod-Touch-and-iPad--Personal--2016-04-26-15-45-20.jpg" alt=""></p>
+<p>Lo primero que llevamos adelante es mejorar el workflow para realizar pruebas. Comenzamos llevando todo el código a bitbucket, y configurando la compilación en la nube de unity:</p>
+<p><img src="/images/2016/04/-Commits---Bitbucket-2016-04-25-11-27-38.png" alt=""></p>
+<p><img src="/images/2016/04/History---Unity-Cloud-Build-2016-04-25-11-12-11.png" alt=""></p>
+<p>Esto nos permite delegar la compilación del juego a los servidores de unity.</p>
+<p>Por último, para probar el juego en nuestros teléfonos y tablets, usamos itunes-connect y una aplicación llamada testflight:</p>
+<p><img src="/images/2016/04/iTunes-Connect-2016-04-25-11-02-57.png" alt=""></p>
+<p>Otra cosa que mejoramos desde el principio es el manejo de imágenes, preparamos todo para minimizar el uso de texturas. Así que empaquetamos todos los sprites en spritesheets:</p>
+<p><img src="/images/2016/04/Sprites-2016-04-25-10-49-49.png" alt=""></p>
+<p>Por último, también mejoramos mucho el proceso de composición para músicas y sonidos. Dejamos de trabajar en mp3 y usamos el formato OGG. el cambio fue drástico en el muestreo y calidad de los tracks:</p>
+<p>Particularmente the zombie smasher tiene 4 tracks compuestos especialmente para la temática de cada nivel.</p>
+<p>Usando algunas técnicas aprendidas en libro de Gryzor87: &ldquo;Cool music for videogames&rdquo;, pudimos darle una sensación de progresión de dificultad a través de la mezcla y utilización de instrumentos en FL STUDIOS.</p>
+<p><img src="/images/2016/04/3d03b088-6651-499d-881e-484dbc7ed8d6.jpg" alt=""></p>
+<p><img src="/images/2016/04/Foto-resen-a-1.jpg" alt=""></p>
+<h2 id="dónde-se-puede-conseguir-el-juego">¿Dónde se puede conseguir el juego?</h2>
+<p>El juego está publicado en la tienda oficial de apple, tanto para ipad, iphone y ipod touch:</p>
+<p><a href="https://itunes.apple.com/us/app/the-zombie-smasher/id1065520591">https://itunes.apple.com/us/app/the-zombie-smasher/id1065520591</a></p>
+<p><img src="/images/2016/04/The-Zombie-Smasher-on-the-App-Store-2016-04-24-23-51-17.png" alt="https://itunes.apple.com/us/app/the-zombie-smasher/id1065520591"></p>
+<p>Posiblemente en unas semanas vamos realizarle algunas mejoras adicionales y subirlo a google play también, ¿tenés android?, ¿te gustaría comprar el juego? ¡Avísanos!.</p>
+<p>Links útiles:</p>
+<ul>
+<li><a href="http://www.twoplayers.com.ar">La web de twoplayers.</a></li>
+<li><a href="https://itunes.apple.com/us/app/the-zombie-smasher/id1065520591">Página de la tienda AppStore.</a></li>
+<li><a href="http://examplelab.com.ar/convertir-videos-en-imagenes-con-canal-alpha/">Post sobre efectos utilizados.</a></li>
+</ul>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Creando un visor de videos offline con electron y ember</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/">
+                  <span class="button__text">Agregando efectos especiales en juegos 2D</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">examplelab</span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2020 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

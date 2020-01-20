@@ -1,0 +1,20 @@
+p img {
+  margin: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+p,
+.post-content {
+  font-weight: lighter !important;
+  font-size: large;
+  text-align: justify;
+}
+
+.post {
+  max-width: 660px;
+}

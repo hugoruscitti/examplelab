@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Examplelab</title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on Examplelab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2013 23:32:32 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Semana de la juventud en Bariloche</title>
+      <link>/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
+      <pubDate>Sun, 03 Nov 2013 23:32:32 +0000</pubDate>
+      
+      <guid>/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</guid>
+      <description>Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre pilas-engine a chicos de escuelas secundarias.
+El evento estuvo espectacular, los chicos armaron stands, participaron de talleres de edición de videos con openshot, competencias de fútbol tenis, bailes y mucho más:
+Y por si fuera poco, el centro cívico de la ciudad de Bariloche es espectacular, la vista al Lago Nahuel Huapi es increible:
+Ojalá pueda visitar nuevamente bariloche con un taller de pilas-engine renovado.</description>
+    </item>
+    
+    <item>
+      <title>Pilas en pycon 2013 Rosario</title>
+      <link>/posts/2013-11-01-pilas-en-pycon-2013-rosario/</link>
+      <pubDate>Fri, 01 Nov 2013 21:24:50 +0000</pubDate>
+      
+      <guid>/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
+      <description>Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013 de la ciudad de Rosario.
+Aquí estan las diapositivas:
+y el video:</description>
+    </item>
+    
+    <item>
+      <title>Haciendo un cargador de juegos python</title>
+      <link>/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</link>
+      <pubDate>Sat, 18 Aug 2012 15:00:00 +0000</pubDate>
+      
+      <guid>/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</guid>
+      <description>Si escribes juegos usando python, seguramente te has encontrado en problemas al distribuir juegos sobre windows.
+Python es un gran lenguaje, pero cuando se utiliza con varias bibliotecas sobre Windows termina siendo algo difícil de transportar de un equipo a otro, y si quieres presentar tus juegos a muchas personas eso termina convirtiendose en un problema.
+En este artículo veremos una alternativa para empaquetar y distribuir nuestros juegos sobre windows de manera bastante sencilla, crearemos varios cargadores de juegos para bibliotecas como pygame, cocos2d y pilas-engine.</description>
+    </item>
+    
+    <item>
+      <title>Cocos y pyglet en modo interactivo</title>
+      <link>/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</link>
+      <pubDate>Wed, 30 Jun 2010 15:00:00 +0000</pubDate>
+      
+      <guid>/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</guid>
+      <description>Python tiene una herramienta super interesante para los nuevos programadores: una consola interactiva donde se puede editar, corregir y ejecutar código de manera super sencilla.
+Esto resulta de mucha utilidad cuando quieres dar clases sobre programación o simplemente dar una demostración sobre alguna biblioteca.
+Introducción Lamentablemente la consola de python no se puede usar en cualquier escenario, por ejemplo si quieres dar una demostración de la biblioteca cocos2d desde la consola interactiva se te pueden presentar algunos problemas.</description>
+    </item>
+    
+  </channel>
+</rss>

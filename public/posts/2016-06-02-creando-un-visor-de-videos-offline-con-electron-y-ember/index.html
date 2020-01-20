@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Creando un visor de videos offline con electron y ember :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Introducción Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5:
+La aplicación en sí es muy simple, está pensanda para crear una biblioteca de videos para mirar con los más chiquitos de la familia sin necesidad de Internet, youtube o publicidades.
+Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/" />
+
+
+
+
+<script src="/js/turbolinks-5.2.0.js"></script>
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/css/estilo.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Creando un visor de videos offline con electron y ember"/>
+<meta name="twitter:description" content="Introducción Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5:
+La aplicación en sí es muy simple, está pensanda para crear una biblioteca de videos para mirar con los más chiquitos de la familia sin necesidad de Internet, youtube o publicidades.
+Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5."/>
+
+
+
+<meta property="og:title" content="Creando un visor de videos offline con electron y ember" />
+<meta property="og:description" content="Introducción Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5:
+La aplicación en sí es muy simple, está pensanda para crear una biblioteca de videos para mirar con los más chiquitos de la familia sin necesidad de Internet, youtube o publicidades.
+Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/" />
+<meta property="article:published_time" content="2016-06-02T19:17:18+00:00" />
+<meta property="article:modified_time" content="2016-06-02T19:17:18+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">examplelab</span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/">Creando un visor de videos offline con electron y ember</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2016-06-02
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      <h2 id="introducción">Introducción</h2>
+<p>Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5:</p>
+<p><img src="/images/2016/06/preview.png" alt="preview"></p>
+<p>La aplicación en sí es muy simple, está pensanda para crear una biblioteca de videos para mirar con los más chiquitos de la familia sin necesidad de Internet, youtube o publicidades.</p>
+<p><img src="/images/2016/06/visor-1.png" alt="visor"></p>
+<p>Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.</p>
+<h2 id="creando-la-aplicación">Creando la aplicación</h2>
+<p>El primer paso fue crear la aplicación ember e instalar algunas pocas extensiones:</p>
+<pre><code>ember new visor-offline
+cd visor-offline
+
+ember install ember-electron
+ember install ember-bootstrap
+</code></pre><p>Luego, para tener todo el código respaldado en un repositorio utilicé github:</p>
+<ul>
+<li><a href="https://github.com/hugoruscitti/visor-offline">https://github.com/hugoruscitti/visor-offline</a></li>
+</ul>
+<h2 id="previsualizando-la-aplicación">Previsualizando la aplicación</h2>
+<p>Lo interesante de ember-electron es que te permite simplificar un montón de pasos, por ejemplo, para ejecutar la aplicación podemos escribir:</p>
+<pre><code>ember electron
+</code></pre><p>y lo que veremos en pantalla es la aplicación corriendo dentro del entorno de electron:</p>
+<p><img src="/images/2016/06/primer-version.png" alt="primer-version"></p>
+<p>y al igual que sucede cuando ejecutamos <code>ember serve</code>, cualquier cambio que hagamos en el código nos va a mostrar los cambios inmediatamente.</p>
+<h2 id="cargando-datos">Cargando datos</h2>
+<p>Mi intensión es tener una aplicación sencilla y segura. Sin muchas opciones o modos de uso: El visor-offline inicia, busca videos mp4 en el directorio de la aplicación y permite visualizarlos.</p>
+<p>Nada más.</p>
+<p>Entonces, para descargar videos necesitaba de otra aplicación. Así que elegí usar ClipGrab, una aplicación muy sencilla que permite descargar videos desde youtube en distintos formatos:</p>
+<p><img src="/images/2016/06/descargas.png" alt="descargas"></p>
+<p>Ahora, para generar las miniaturas usé un pequeño script, que internamente invoca al comando <code>ffmpegthumbnailer</code>:</p>
+<pre><code># Archivo: crear_miniaturas.py
+import os
+
+for x in os.listdir('.'):
+  if x.lower().endswith('.mp4'):
+    print(&quot;Creando miniatura para: &quot; + x)
+    video_input = x
+    file_output = &quot;thumbs/&quot; + video_input.replace(&quot;.mp4&quot;, &quot;.jpg&quot;)
+    os.system(&quot;ffmpegthumbnailer -i '%s' -o '%s' -s400&quot; %(video_input, file_output))
+</code></pre><h2 id="cargando-el-listado-de-videos">Cargando el listado de videos</h2>
+<p>Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.</p>
+<p>Así que adopté la siguiente convención: los videos se deberían grabar directamente en el directorio <code>c:\videos</code> y las miniaturas generadas en <code>c:\videos\thumbs</code>, así el visor de video solo tendría que ir a buscarlos en esos directorios.</p>
+<p>En el caso de osx y linux el procedimiento es muy similar, solamente que buscará videos en <code>$HOME/videos</code> y las miniaturas en <code>$HOME/videos/thumbs</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/routes/index.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">Ember</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;ember&#39;</span>;
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">Route</span>.<span style="color:#a6e22e">extend</span>({
+  <span style="color:#a6e22e">videos</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">inject</span>.<span style="color:#a6e22e">service</span>(),
+  
+  <span style="color:#a6e22e">model</span>() {
+    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#34;videos&#34;</span>).<span style="color:#a6e22e">getVideos</span>();
+  }
+});
+</code></pre></div><p>Y como el hook &ldquo;model&rdquo; está preparado para manejar promesas, implementé la función <code>getVideos</code> para que retorne una promesa:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/services/video.js
+</span><span style="color:#75715e"></span>
+[...]
+
+<span style="color:#a6e22e">getVideos</span>() {
+    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">RSVP</span>.Promise((<span style="color:#a6e22e">resolve</span>) =&gt; {
+      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">_get_video_path</span>();
+
+
+      <span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">readdir</span>(<span style="color:#a6e22e">videoPath</span>, (<span style="color:#a6e22e">error</span>, <span style="color:#a6e22e">data</span>) =&gt; {
+
+        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">items</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">map</span>((<span style="color:#a6e22e">file</span>) =&gt; {
+          <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">&#34;.mp4&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>);
+
+          <span style="color:#66d9ef">return</span> {
+            <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">title</span>,
+            <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">title</span>,
+            <span style="color:#a6e22e">img</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/thumbs/&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;.jpg&#34;</span>,
+            <span style="color:#a6e22e">video</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">file</span>
+          };
+        });
+
+        <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">items</span>);
+
+      });
+
+    });
+  }
+},
+
+[...]
+</code></pre></div><p>El siguiente paso es recorrer la lista de videos desde el template:</p>
+<pre><code>{{#each model as |video|}}
+  {{v-videoThumb video=video}}
+{{else}}
+
+  &lt;div class=&quot;mensaje-error&quot;&gt;
+    &lt;p&gt;Lo siento, no hay videos para mostrar.&lt;/p&gt;
+
+    &lt;p&gt;Por favor descarga los videos que quieras visualizar
+      en &lt;code&gt;c:\videos&lt;/code&gt; (o en &lt;code&gt;$HOME/videos&lt;/code&gt; en linux y osx).
+    &lt;/p&gt;
+  &lt;/div&gt;
+  
+{{/if}}
+</code></pre><p>Y luego de algunos retoques de estilo quedo así:</p>
+<p><img src="/images/2016/06/preview2.png" alt="preview2"></p>
+<h3 id="automatizando-la-generación-de-binarios">Automatizando la generación de binarios</h3>
+<p>En este punto, si quisiéramos crear los binarios desde nuestra propia computadora tendríamos que ejecutar el siguiente comando:</p>
+<pre><code>ember electron:package --platform=win32 --ignore &quot;node_modules/\.bin&quot;
+</code></pre><p>Sin embargo, algo más interesante es automatizar este procedimiento, hacer que los binarios se generen en un servidor remoto y se suban a github.</p>
+<p>Para eso configuré el servicio <a href="travis-ci.org">travis-ci</a> que va a ejecutar los tests, generar los binarios y los sube a github. Todo de manera automatizada, sin ocupar recursos en mi computadora y super rápido:</p>
+<p><img src="/images/2016/06/travis.png" alt=""></p>
+<p><img src="/images/2016/06/release.png" alt="release"></p>
+<p>Por cierto, si querés probar la aplicación compilada podés descargarla desde acá:</p>
+<ul>
+<li><a href="https://github.com/hugoruscitti/visor-offline/releases">https://github.com/hugoruscitti/visor-offline/releases</a></li>
+</ul>
+<h3 id="conclusiones">Conclusiones</h3>
+<p>Ember y electron hacen una muy buena combinación, es super productivo dedicarle algunas horas a un proyecto sencillo como este, y los resultados son muy buenos. Al menos mis sobrinos nos se han quejado aún :P</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2018-03-04-comenzamos-pilas-engine-2/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">¡Comenzamos Pilas Engine 2!</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2016-04-26-publicamos-the-zombie-smasher/">
+                  <span class="button__text">¡ The Zombie Smasher !</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">examplelab</span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2020 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

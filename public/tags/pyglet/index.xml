@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pyglet on Examplelab</title>
+    <link>/tags/pyglet/</link>
+    <description>Recent content in pyglet on Examplelab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Jun 2010 15:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/pyglet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cocos y pyglet en modo interactivo</title>
+      <link>/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</link>
+      <pubDate>Wed, 30 Jun 2010 15:00:00 +0000</pubDate>
+      
+      <guid>/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</guid>
+      <description>Python tiene una herramienta super interesante para los nuevos programadores: una consola interactiva donde se puede editar, corregir y ejecutar código de manera super sencilla.
+Esto resulta de mucha utilidad cuando quieres dar clases sobre programación o simplemente dar una demostración sobre alguna biblioteca.
+Introducción Lamentablemente la consola de python no se puede usar en cualquier escenario, por ejemplo si quieres dar una demostración de la biblioteca cocos2d desde la consola interactiva se te pueden presentar algunos problemas.</description>
+    </item>
+    
+  </channel>
+</rss>
