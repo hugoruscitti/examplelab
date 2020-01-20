@@ -9,6 +9,9 @@ paginate = 10
   showMenuItems = 2
   showReadingTime = false
 
+[markup.goldmark.renderer]
+  unsafe= true
+  
 [languages]
   [languages.en]
     title = "Examplelab"

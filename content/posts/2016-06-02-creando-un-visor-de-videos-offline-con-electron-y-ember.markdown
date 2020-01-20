@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Creando un visor de videos offline con electron y ember
-date: '2016-06-02 19:17:18'
+date: "2016-06-02 19:17:18"
+description: "Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5..."
+cover: "/images/2016/06/preview.png"
 ---
 
 ## Introducción
@@ -15,10 +17,6 @@ La aplicación en sí es muy simple, está pensanda para crear una biblioteca de
 ![visor](/images/2016/06/visor-1.png)
 
 Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.
-
-
-
-
 
 ## Creando la aplicación
 
@@ -44,7 +42,7 @@ Lo interesante de ember-electron es que te permite simplificar un montón de pas
 ember electron
 ```
 
-y lo que veremos en pantalla es la aplicación corriendo dentro del entorno de electron: 
+y lo que veremos en pantalla es la aplicación corriendo dentro del entorno de electron:
 
 ![primer-version](/images/2016/06/primer-version.png)
 
@@ -74,8 +72,6 @@ for x in os.listdir('.'):
     os.system("ffmpegthumbnailer -i '%s' -o '%s' -s400" %(video_input, file_output))
 ```
 
-
-
 ## Cargando el listado de videos
 
 Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.
@@ -84,27 +80,21 @@ Así que adopté la siguiente convención: los videos se deberían grabar direct
 
 En el caso de osx y linux el procedimiento es muy similar, solamente que buscará videos en `$HOME/videos` y las miniaturas en `$HOME/videos/thumbs`.
 
- 
-
 ```javascript
 // archivo: app/routes/index.js
 
-import Ember from 'ember';
+import Ember from "ember";
 
 export default Ember.Route.extend({
   videos: Ember.inject.service(),
-  
+
   model() {
     return this.get("videos").getVideos();
   }
 });
 ```
 
-
-
 Y como el hook "model" está preparado para manejar promesas, implementé la función `getVideos` para que retorne una promesa:
-
-
 
 ```javascript
 // archivo: app/services/video.js
@@ -154,19 +144,15 @@ El siguiente paso es recorrer la lista de videos desde el template:
       en <code>c:\videos</code> (o en <code>$HOME/videos</code> en linux y osx).
     </p>
   </div>
-  
+
 {{/if}}
 ```
 
-Y luego de algunos retoques de estilo quedo así:  
+Y luego de algunos retoques de estilo quedo así:
 
 ![preview2](/images/2016/06/preview2.png)
 
-
-
 ### Automatizando la generación de binarios
-
-
 
 En este punto, si quisiéramos crear los binarios desde nuestra propia computadora tendríamos que ejecutar el siguiente comando:
 
@@ -189,5 +175,3 @@ Por cierto, si querés probar la aplicación compilada podés descargarla desde 
 ### Conclusiones
 
 Ember y electron hacen una muy buena combinación, es super productivo dedicarle algunas horas a un proyecto sencillo como este, y los resultados son muy buenos. Al menos mis sobrinos nos se han quejado aún :P
-
-

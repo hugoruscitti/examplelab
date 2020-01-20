@@ -15,7 +15,7 @@
       <div class="post-meta">
         {{ if .Date }}
           <span class="post-date">
-            {{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}
+            {{ .Date.Format "02/01/2006" }}
           </span>
         {{ end }}
         {{ with .Params.Author }}<span class="post-author">— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>{{ end }}
@@ -37,7 +37,7 @@
         {{ if .Params.UseRelativeCover }}
           <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" class="post-cover" />
         {{ else }}
-          <img src="{{ .Params.Cover | absURL }}" class="post-cover" />
+          <a href="{{.RelPermalink}}"><img src="{{ .Params.Cover | absURL }}" class="br" /></a>
         {{ end }}
       {{ end }}
 

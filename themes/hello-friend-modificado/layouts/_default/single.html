@@ -4,7 +4,7 @@
     <div class="post-meta">
       {{ with .Date | default nil }}
         <span class="post-date">
-            {{ .Format ($.Site.Params.DateFormatSingle | default "2006-01-02") }}
+            {{ .Format "02/01/2006" }}
         </span>
       {{ end }}
       {{ with .Params.Author }}<span class="post-author">— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>{{ end }}
@@ -21,6 +21,7 @@
       </span>
     {{ end }}
 
+    <!--
     {{ if .Params.Cover }}
       {{ if .Params.UseRelativeCover }}
         <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" class="post-cover" />
@@ -28,6 +29,7 @@
         <img src="{{ .Params.Cover | absURL }}" class="post-cover" />
       {{ end }}
     {{ end }}
+    -->
 
     <div class="post-content">
       {{ .Content }}
@@ -60,13 +62,13 @@
         </div>
       {{ end }}
     {{ end }}
-    
+
 
     {{ if not (eq .Params.Comments "false") }}
       {{ if or (eq .Type $.Site.Params.contentTypeName) (.Params.Comments) }}
         {{ partial "comments.html" . }}
       {{ end }}
     {{ end }}
-    
+
     </div>
 {{ end }}
