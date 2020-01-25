@@ -12,7 +12,7 @@ all:
 	@echo "    ${G}ejecutar${N}                   ejecuta el modo servidor sin mostrar borradores."
 	@echo "    ${G}ejecutar_con_borradores${N}    ejecuta el modo servidor mostrando borradores."
 	@echo "    ${G}compilar${N}                   genera todos los archivos estáticos."
-	@echo "    ${G}deploy_a_produccion${N}        sube el sitio para que esté online."
+	@echo "    ${G}deploy${N}                     sube el sitio para que esté online."
 	@echo ""
 	@echo ""
 
@@ -28,7 +28,7 @@ ejecutar_con_borradores:
 compilar:
 	hugo
 
-deploy_a_produccion:
+deploy:
 	rm -rf public
 	rm -rf dist
 	@echo "Compilando el sitio."
