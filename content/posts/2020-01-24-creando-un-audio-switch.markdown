@@ -107,7 +107,7 @@ haciendo ruido.
 
 Y luego de buscar y buscar, di con esta imagen de MashTips:
 
-![](/images/2020/01/DA40FC8F-B6FB-4928-9805-1DA4AD547F10-18361-000025CDAC9A246C/external-content.duckduckgo.jpg)
+![](/images/2020/01/external-content.duckduckgo.jpg)
 
 Uno de los errores que estaba cometiendo era que “asumí”, como cuando cometo
 errores programando, que los conectores de Mac eran estándar, y que el conector
