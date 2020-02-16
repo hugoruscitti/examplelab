@@ -20,7 +20,7 @@ si te gustaría hacer algo similar y estás buscando ideas.
 
 Por cierto, Dragon Punch es un juego que hicimos con Wally hace unos años,
 usando Unity y con gráficos propios inspirados en la serie Dragon Ball. [Podes
-más sobre ese juego en este
+ver más sobre ese juego en este
 link](https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/)
 
 ## Primeros pasos
