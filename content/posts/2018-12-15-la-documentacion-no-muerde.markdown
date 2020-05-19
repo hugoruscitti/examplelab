@@ -3,6 +3,7 @@ layout: post
 title: La documentación no muerde
 date: "2018-12-15 14:11:38"
 description: "Una historia personal que me recuerda investigar, leer y comprender en lugar de explorar rápidamente una solución en stackoverflow."
+cover: "/images/2018/12/portada.jpg"
 ---
 
 Sé que suena un poco fuerte, pero no te ofendas... esta leyenda es para mí, y la escribo acá como una forma de no olvidarme lo que pasó hoy y seguir aprendiendo.

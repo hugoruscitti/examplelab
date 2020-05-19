@@ -3,7 +3,7 @@ layout: post
 title: Armando un Audio Switch
 date: '2020-01-24 23:00:00'
 description: "Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar de trabajo: comp..."
-cover: "/images/2020/01/caja.jpg"
+cover: "/images/2020/01/portada.jpg"
 tags:
 - electrónica
 ---
@@ -46,7 +46,7 @@ aún así, funciona!!
 
 ![](/images/2020/01/73AD1EB0-A000-438F-A9B9-167AFC53544E.png)
 
-## El armado 
+## El armado
 
 Estas son las fotos de los componentes que conseguí: una caja
 pequeña, audio plugs de 4 conectores, una llave palanca 4 polos (gracias Oscar
@@ -57,7 +57,7 @@ conectores).
 
 ![](/images/2020/01/8EF76E9C-0DB9-4A71-8635-83AB64229515_1_105_c.jpeg)
 
-Si bien parecen componentes comunes, me costó tiempo encontrarlos. 
+Si bien parecen componentes comunes, me costó tiempo encontrarlos.
 
 Resulta que los conectores de audio más comunes son de 3 conectores (canal
 izquierdo, canal derecho y masa) sin embargo yo buscaba conectores de 4
@@ -73,7 +73,7 @@ todo, empecé por medir y armar la caja así:
 
 ![](/images/2020/01/23B46C32-BE32-46DB-ABB9-C5934ECCEDCF_1_105_c.jpeg)
 
-Mi idea original era armar todos los cables y para eso iba a usar los plugs. 
+Mi idea original era armar todos los cables y para eso iba a usar los plugs.
 
 Sin embargo, encontré en casa un cable que me iba a evitar el armado de algunas
 fichas:

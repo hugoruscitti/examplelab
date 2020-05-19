@@ -3,6 +3,8 @@ layout: post
 title: "¡ The Zombie Smasher !"
 image: "/images/2016/04/header.jpg"
 date: '2016-04-26 19:18:46'
+cover: "/images/2016/04/portada.jpg"
+description: "Publicamos un nuevo videojuego iOS: ¡The Zombie Smasher!, y en este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos."
 ---
 
 Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!

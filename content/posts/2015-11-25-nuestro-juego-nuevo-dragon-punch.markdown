@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "¡ Dragon Punch !"
-image: "/images/2015/11/Monosnap-2015-11-25-12-13-38_Fotor.jpg"
 date: '2015-11-25 16:17:33'
+cover: "/images/2015/11/portada.jpg"
+description: "Hicimos un videojuego nuevo llamado Dragon Punch, inspirado en la serie animada Dragon Ball..."
 ---
 
 Hoy quiero mostrarles un juego en el que venimos trabajando hace algunos meses: **Dragon Punch**, inspirado en la serie animada Dragon Ball.
@@ -19,7 +20,7 @@ El juego está orientado a usuarios de dispositivos móviles, como celulares y t
 
 El objetivo del juego es que el jugador pueda controlar a **yamcha** para defenderse de los **saibamens**, dando golpes de puño y patadas. El juego entregará puntos por cada **saibamens** que se golpee.
 
-## ¿Y cómo surgió? 
+## ¿Y cómo surgió?
 
 La idea del juego surgió de Wally, que pensó en homenajear [una escena de Dragon Ball](https://www.youtube.com/watch?v=MfW4RRoUdy8) muy recordada por todos los fans de la serie, "La muerte de Yamcha":
 
@@ -47,7 +48,7 @@ Balbinos se encargó de todo lo relacionado a los efectos y músicas del juego; 
 
 ## Imágenes
 
-Walter realizó todas las imágenes del juego, comenzando con diseños en papel, remarcando, escaneando, y finalizando el proceso de pintura directamente en photoshop. 
+Walter realizó todas las imágenes del juego, comenzando con diseños en papel, remarcando, escaneando, y finalizando el proceso de pintura directamente en photoshop.
 
 Aquí van algunas fotos del paso a paso:
 
