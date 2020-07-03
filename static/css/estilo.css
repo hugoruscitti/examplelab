@@ -10,7 +10,6 @@ body {
 
 p,
 .post-content {
-  font-weight: lighter !important;
   font-size: large;
   text-align: justify;
 }
@@ -38,7 +37,6 @@ p,
 
 .post-title {
   text-align: center;
-  font-weight: 100;
 }
 
 .tc {
