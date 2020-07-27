@@ -3,6 +3,10 @@ layout: post
 title: Buscar e instalar en Huayra
 image: "/images/2015/05/2015-05-19-23-26-58-copia.jpg"
 date: '2015-05-20 03:13:32'
+
+description: "Creamos una herramienta para facilitar la instalación de software en Huayra"
+cover: '/images/2015/05/portada.jpg'
+
 ---
 
 Esta semana creamos una herramienta nueva para todos los usuarios de huayra linux: **huayra-alias**.

@@ -1,15 +1,5 @@
 {{ define "main" }}
 
-<style>
-  .no-mw {
-    max-width: none;
-  }
-
-  .measure-2 {
-    max-width: 700px;
-  }
-</style>
-
   <div>
     {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
     {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
@@ -27,7 +17,7 @@
 
     <div class="center tl measure-2 mb5 pa2">
 
-      <div class="f3"><a href="{{ .Permalink }}" class="link">{{ .Title | markdownify }}</a></div>
+      <div class="f3 fw6"><a href="{{ .Permalink }}" class="link">{{ .Title | markdownify }}</a></div>
 
       <div class="gray f7 pv2">
         <svg fill="currentColor" viewBox="0 0 20 20" class="w1 v-top">

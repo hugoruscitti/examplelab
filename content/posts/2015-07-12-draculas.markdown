@@ -1,23 +1,24 @@
 ---
 layout: post
 title: "¡ Publicamos Dracula's Nightmare !"
-image: "/images/2015/07/b.jpg"
+image: '/images/2015/07/b.jpg'
 date: '2015-07-12 22:18:39'
+
+description: "Publicamos nuestro nuevo videojuego Dracula's Nightmare, tanto para android como para iOS..."
+cover: '/images/2015/07/12/portada.jpg'
 ---
 
-Esta semana [Wally](https://www.facebook.com/walter.velazquez.94), [BalbiNos](https://www.facebook.com/balbinos) y yo, publicamos nuestro primer videojuego para iOS (y pronto android): **Dracula's Nightmare** en el marco de nuestro emprendimiento independiente *2players* :
+Esta semana [Wally](https://www.facebook.com/walter.velazquez.94), [BalbiNos](https://www.facebook.com/balbinos) y yo, publicamos nuestro primer videojuego para iOS (y pronto android): **Dracula's Nightmare** en el marco de nuestro emprendimiento independiente _2players_ :
 
 ![](/images/2015/07/1-1.jpg)
 
 ![](/images/2015/07/5.jpg)
-
 
 ### ¿En que consiste?
 
 El juego es super sencillo, es un juego de supervivencia donde manejamos un pequeño vampiro que tiene que sobrevivir a todos los objetos que le arrojan los pueblerinos enfurecidos:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/mqCYd2yqp9w" frameborder="0" allowfullscreen></iframe>
-
 
 ### El proceso de desarrollo
 
@@ -41,12 +42,11 @@ Hacer algo sencillo nos iba a permitir experimentar todas las fases de desarroll
 
 Incluso varios gráficos del juego ya los teníamos realizados de un proyecto anterior, así que pudimos focalizarnos por completo en el gameplay, el audio y varias cosas propias del dispositivo mobile (como los acelerómetros).
 
-
 ### El proceso de publicación
 
 Algo muy nuevo de esta experiencia fué la publicación en el store de apple, el primer paso fué registrar una licencia de desarrollador para iOS, que costó unos 100 USD ಠ_ಠ y dura un periodo de 12 meses.
 
-Pero más allá de eso, el proceso completo para subir la aplicación y ponerla en venta es super práctico, incluso todo el proceso de testing está muy bien automatizado, por ejemplo, apple provee una aplicación llamada *TestFlight* que te permite publicar versiones betas a diferentes personas del equipo de desarrollo o testing.
+Pero más allá de eso, el proceso completo para subir la aplicación y ponerla en venta es super práctico, incluso todo el proceso de testing está muy bien automatizado, por ejemplo, apple provee una aplicación llamada _TestFlight_ que te permite publicar versiones betas a diferentes personas del equipo de desarrollo o testing.
 
 Una vez que concluimos las pruebas y nuestro juego estaba para publicar, lo subimos al appstore usando itunes connect. Esta es una de las pantallas que observábamos en el momento de la aprobación:
 
@@ -56,15 +56,11 @@ y así se ve [desde el appstore](https://itunes.apple.com/ar/app/draculas-nigthm
 
 ![](/images/2015/07/iTunes-2015-07-12-18-34-42.png)
 
-
-
-
-
 ### Ideas a futuro
 
 Quedamos super contentos con la publicación, así que vamos a seguir desarrollando y publicando juegos así.
 
-Tenemos varios bocetos para refinar y convertir en juegos completos. *"Don Ceferino"* y *"Chicken or nuggets"* son dos de ellos, ¡ entre otras ideas más !
+Tenemos varios bocetos para refinar y convertir en juegos completos. _"Don Ceferino"_ y _"Chicken or nuggets"_ son dos de ellos, ¡ entre otras ideas más !
 
 ¡Manos a la obra!
 
@@ -72,8 +68,3 @@ Tenemos varios bocetos para refinar y convertir en juegos completos. *"Don Cefer
 ![](/images/2015/07/chicken.jpg)
 
 ¡ Saludos !
-
-
-
-
-

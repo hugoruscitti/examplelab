@@ -3,11 +3,14 @@ layout: post
 title: La renovación de pilas-engine
 image: "/images/2015/01/DSCN1110.JPG"
 date: '2015-01-21 02:26:10'
+
+description: "Estamos muy cerca de lanzar la versión ``0.91`` de *pilas-engine*, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión..."
+cover: '/images/2015/01/portada.jpg'
 ---
 
 Estamos muy cerca de lanzar la versión ``0.91`` de *pilas-engine*, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión y contarte el por qué de estos cambios.
 
-Esta es una versión muy especial, principalemente porque añadimos muchos cambios en la estructura completa del motor.
+Esta es una versión muy especial, principalmente porque añadimos muchos cambios en la estructura completa del motor.
 
 Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero, Walter Velazquez y el equipo de HuayraLinux hicieron posible esta nueva versión.
 
@@ -96,7 +99,7 @@ Pienso que esta funcionalidad puede ser útil para conocer “qué” hace pilas
 
 ## Manejo de errores
 
-Otro punto a mejorar en las versiones anteriores de *pilas* era el manejo de errores. Porque inicialmente nunca habíamos pensando exactamente el flujo de errores y notificaciones para el programador. Cuando pilas fallaba, la aplicación entera podía quedar "congelada" o cerrarse de forma abrupta... 
+Otro punto a mejorar en las versiones anteriores de *pilas* era el manejo de errores. Porque inicialmente nunca habíamos pensando exactamente el flujo de errores y notificaciones para el programador. Cuando pilas fallaba, la aplicación entera podía quedar "congelada" o cerrarse de forma abrupta...
 
 Ahora, cada vez que hay un error, **pilas** detiene su bucle principal y pone un cartel con el motivo del error.
 

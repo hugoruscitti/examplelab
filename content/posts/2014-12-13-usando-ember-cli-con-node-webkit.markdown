@@ -2,6 +2,9 @@
 layout: post
 title: Usando ember-cli con node-webkit
 date: '2014-12-13 08:38:28'
+
+description: "En este artículo vemos cómo integrar una aplicación emberjs dentro de node-webkit..."
+cover: '/images/2014/12/portada.jpg'
 ---
 
 Hace unas semanas estoy muy entusiasmado con [emberjs](http://emberjs.com/) y la posibilidad de incorporarlo en las aplicaciones desktop que desarrollamos en  [huayra](http://huayra.conectarigualdad.gob.ar) y [conectar igualdad](http://www.conectarigualdad.gob.ar/).

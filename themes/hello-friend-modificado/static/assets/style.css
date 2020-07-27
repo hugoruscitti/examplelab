@@ -119,8 +119,7 @@ a.read-more,a.read-more:active,a.read-more:hover{
     color:inherit
 }
 .header{
-    background:#fafafa;
-    background:var(--light-header);
+    background:#ececec;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -144,8 +143,7 @@ a.read-more,a.read-more:active,a.read-more:hover{
 .header__inner{
     justify-content:space-between;
     margin:0 auto;
-    width:760px;
-    max-width:100%
+    width: 100%;
 }
 .header__inner,.theme-toggle{
     display:flex;
@@ -166,9 +164,7 @@ a.read-more,a.read-more:active,a.read-more:hover{
     text-decoration:none;
     font-weight:700
 }
-.logo img{
-    height:44px
-}
+
 .logo__mark{
     display:inline-flex;
     align-items:center;
@@ -368,12 +364,14 @@ html{
 body{
     margin:0;
     padding:0;
-    font-family:Inter,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+
+
     font-size:1rem;
-    font-weight:600;
-    line-height:1.54;
+    font-weight:400;
+    line-height:1.5;
     background-color:#fff;
-    background-color:var(--light-background);
     color:#222;
     color:var(--light-color);
     text-rendering:optimizeLegibility;
@@ -1082,4 +1080,13 @@ div.code-toolbar>.toolbar a:focus,div.code-toolbar>.toolbar a:hover,div.code-too
 }
 .command-line-prompt>span[data-prompt]:before{
     content:attr(data-prompt)
+}
+
+
+.no-mw {
+  max-width: none;
+}
+
+.measure-2 {
+  max-width: 700px;
 }

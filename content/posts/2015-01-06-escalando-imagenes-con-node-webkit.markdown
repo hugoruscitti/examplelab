@@ -3,6 +3,9 @@ layout: post
 title: Escalando imágenes con node-webkit
 image: ''
 date: '2015-01-06 18:37:43'
+
+description: "En este artículo quiero mostrar cómo se pueden procesar imágenes de manera rápida y multiplataforma desde node-webkit..."
+cover: '/images/2015/01/portada-escalar.jpg'
 ---
 
 En este artículo quiero mostrar cómo se pueden procesar imágenes de manera rápida y multiplataforma desde [node-webkit](https://github.com/rogerwang/node-webkit), usando [ImageMagick](http://www.imagemagick.org/) y [emberjs](http://emberjs.com/).
@@ -100,7 +103,7 @@ Con esto ya tenemos div especial, que se pinta de color cuando estamos por solta
 
 ## Incorporando ImageMagick
 
-Para incorporar ImageMagick lo mas sencillo es instalar un paquete de node llamado [imagemagick](https://github.com/yourdeveloper/node-imagemagick): 
+Para incorporar ImageMagick lo mas sencillo es instalar un paquete de node llamado [imagemagick](https://github.com/yourdeveloper/node-imagemagick):
 
 ```
 npm install imagemagick --save-dev
@@ -127,7 +130,7 @@ Así que para convertir o identificar un archivo primero tengo que requerir el m
 
 ## Incorporando binarios
 
-Ahora bien, que nuestra aplicación dependa de tener instalado ImageMagick en el equipo no es lo que buscamos, esto podría ser válido en un sistema con dependencias de software como *GNU/Linux*, pero en windows (por ejemplo) no es nada común... el usuario espera que la aplicación funcione sin instalar nada adicional. 
+Ahora bien, que nuestra aplicación dependa de tener instalado ImageMagick en el equipo no es lo que buscamos, esto podría ser válido en un sistema con dependencias de software como *GNU/Linux*, pero en windows (por ejemplo) no es nada común... el usuario espera que la aplicación funcione sin instalar nada adicional.
 
 Así que vamos a incorporar imageMagick "dentro" de nuestra aplicación:
 

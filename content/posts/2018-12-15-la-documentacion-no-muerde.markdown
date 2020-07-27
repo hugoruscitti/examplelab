@@ -48,9 +48,11 @@ Sin embargo, hice una pausa, me preparé un café y recordé algo...
 
 ## Nacho, hay que aprender más de vos
 
-Hace unas semanas nos reunimos a experimentar usando "Go" junto a unos amigos. Programar con otras personas en grupo deja algunas cosas curiosas. Por ejemplo, notamos Nacho no se lanzaba directamente a escribir código o realizar prototipos de las cosas rápido; Nacho hacía una pausa, abría la documentación y leía, analizaba y trataba de llegar al fondo de las cosas.
+Hace unas semanas nos reunimos a experimentar usando "Go" junto a unos amigos. Programar con otras personas en grupo deja algunas cosas curiosas. Por ejemplo, notamos que Nacho no se lanzaba directamente a escribir código y realizar pruebas de las cosas tan rápido; en lugar de eso: Nacho hacía una pausa, abría la documentación y leía, analizaba y trataba de llegar al fondo de las cosas.
 
-Al poco tiempo de trabajar juntos, se notaba que nacho iba por buen camino. Él hacía las cosas bastante diferentes a lo que hago yo, mi forma de hacer las cosas daba muchos fallos y era desgastante, hasta frustrante en algunos casos... yo estaba mas preocupado por explorar rápidamente y encontrar una solución en lugar de comprender ...
+Al poco tiempo de trabajar juntos, se notaba que nacho iba por buen camino. Ya que podía dar paso seguro sobre las cosas que iba haciendo y podía explicar sus pasos fácilmente.
+
+Claramente Nacho hacía las cosas de una forma diferente a mí: mi forma de hacer las cosas daba muchos fallos y era desgastante, hasta frustrante en algunos casos... yo estaba mas preocupado por escribir código lo antes posible y "tener algo que funcione" en lugar de comprender y luego implementar.
 
 ## La solución: cómo formatear números
 
@@ -72,4 +74,4 @@ Parece una tontería señalar esto, pero creo que no lo es: "la documentación n
 
 Y no solo eso, comprender no es lo mismo que explorar rápidamente. Lleva tiempo leer y comprender un manual, y está bien, se compensa rápidamente.
 
-Y, nuevamente, esto es un recordatorio para mí... stack overflow es una mierda.
+Y, nuevamente, esto es un recordatorio para mí... la documentación no muerde.

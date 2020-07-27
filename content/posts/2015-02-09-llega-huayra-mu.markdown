@@ -3,6 +3,9 @@ layout: post
 title: "¡ huayra-mu !"
 image: "/images/2015/02/2015-02-07-00-59-29.jpg"
 date: '2015-02-09 16:31:56'
+
+description: "Hoy quiero presentarles una aplicación nueva, diseñada especialmente para el nuevo huayra 3..."
+cover: '/images/2015/02/portada.jpg'
 ---
 
 Hoy quiero presentarles una aplicación nueva, diseñada especialmente para el nuevo huayra 3.0, [huayra-mu](https://github.com/hugoruscitti/huayra-mu):

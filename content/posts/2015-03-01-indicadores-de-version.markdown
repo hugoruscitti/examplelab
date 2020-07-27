@@ -3,6 +3,10 @@ layout: post
 title: Haciendo indicadores de actualización
 image: "/images/2014/10/1204-image_versioning_intro_1.jpg"
 date: '2015-03-01 04:30:33'
+
+description: "Esta semana pusimos en marcha un indicador de versiones muy simple para las aplicaciones de Huayra ..."
+cover: '/images/2015/03/portada.jpg'
+
 ---
 
 Esta semana pusimos en marcha un indicador de versiones muy simple para las aplicaciones de [huayra](http://huayra.conectarigualdad.gob.ar/).
