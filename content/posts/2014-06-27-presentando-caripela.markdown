@@ -2,6 +2,8 @@
 layout: post
 title: Presentando huayra-caripela
 date: '2014-06-27 22:00:00'
+description: Hace unas semanas empezamos a realizar una aplicación que sirve para hacer avatares y personalizar...
+cover: /images/2014/Jun/portada-caripela.jpg
 ---
 
 Hace unas semanas empezamos a realizar una aplicación nueva:  *huayra-caripela*.
@@ -61,7 +63,7 @@ Obviamente esta versión online es sólo un experimento, lo creamos para evaluar
 Actualmente la aplicación se puede descargar  desde [github](https://github.com/hugoruscitti/caripela) e incluso se puede instalar en huayra con el siguiente comando:
 
 	sudo apt-get install caripela
-    
+
 y luego va a estar visible en el menú:
 
 ![](/images/2014/Jun/huayra_rc4__Running__2014_06_22_19_12_27_2014_06_22_19_12_55.png)

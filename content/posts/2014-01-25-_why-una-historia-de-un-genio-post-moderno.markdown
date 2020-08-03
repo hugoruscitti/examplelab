@@ -7,16 +7,18 @@ tags:
 - programacion
 - traduccion
 - inspiracion
+description: Why the Lucky Stiff fue uno de los programadores mas brillantes e inspiradores de estos tiempos...
+cover: /images/2014/Jan/portada-why.jpg
 ---
 
 <div class='nota'>
 
   <p>Esta es una traducción de un <a href="http://www.smashingmagazine.com/2010/05/15/why-a-tale-of-a-post-modern-genius/">artículo</a> publicado por <a href="http://www.smashingmagazine.com/">Smash Magazine</a> en el 2010.</p>
-  
+
   <p>Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. </p>
-  
+
   <p>¡Que la disfruten!</p>
-  
+
 </div>
 
 
@@ -28,7 +30,7 @@ Incluso aquellos que no llegaron a leer la Guía de \_Why, no podrían programar
 
 Tal vez hayan notado que nos referimos a \_Why en pasado. Así que la pregunta es, ¿desapareció?  Si. Por lo mucho que vale para nosotros, solamente tenemos su presencia online: "Why the lucky stiff". Nadie supo su nombre real o cual es su trabajo, ni siquiera de dónde vino. En agosto del 2009, cerró casi todas sus cuentas online y sitios web, incluyendo sus repositorios de software, con todo el código que cientos de programadores esperaban usar como dependecias.
 
-Su desaparición ha dejado una horda de códigos huérfanos. Y mientras que nadie sabe bien por qué hizo lo que hizo, hay teorías sólidas, las más fuertes son que su identidad real se descubrió, por muy raro que suene. 
+Su desaparición ha dejado una horda de códigos huérfanos. Y mientras que nadie sabe bien por qué hizo lo que hizo, hay teorías sólidas, las más fuertes son que su identidad real se descubrió, por muy raro que suene.
 
 Este artículo cuenta las historias de este artista post-moderno, que la gente llegó a conocer como *Why the Lucky Stiff*.
 
@@ -58,7 +60,7 @@ Aquí hay un video de la presentación de \_why en el evento Art && Code, donde 
 <iframe src="//player.vimeo.com/video/5047563" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/5047563">ART && CODE Symposium: Hackety Hack, why the lucky stiff</a> from <a href="http://vimeo.com/sfci">STUDIO for Creative Inquiry</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
-> Un dia _Why apareció inesperadamente en mi casa para una comida. Le ofrecí llevarlo a su hotel o casa con mi auto, pero el insistió en tomar el autobús y encontrar su propia manera de llegar. 
+> Un dia _Why apareció inesperadamente en mi casa para una comida. Le ofrecí llevarlo a su hotel o casa con mi auto, pero el insistió en tomar el autobús y encontrar su propia manera de llegar.
 
 > -- <cite>Geoffrey Grosenbach</cite>
 
@@ -77,13 +79,13 @@ No solamente se convirtió en un hit de culto en la comunidad Ruby, sino que tam
 
 ![](/images/2014/Jan/shoes.JPG)
 
-“El maravilloso regalo de Shoes”: (10 primeros puntos escenciales): 
+“El maravilloso regalo de Shoes”: (10 primeros puntos escenciales):
 
-1. "PARA" pronunciado como Anna Apera. 
-2. y 3. Son stacks & flows (muy muy importante) 
+1. "PARA" pronunciado como Anna Apera.
+2. y 3. Son stacks & flows (muy muy importante)
 4. BOTÓN
 5. Imágen (totalmente fácil)
-6. Editar-Linea (puede hablar sobre cajas editables brevemente) 
+6. Editar-Linea (puede hablar sobre cajas editables brevemente)
 7. LINK (igualito al de la página web web web)
 8. Ocho es papel tapiz;
 9. Shoes.url; y finalmente...
@@ -146,11 +148,11 @@ b.tune sound, “32 + C E F# 8:A G E C – 8:A 8:F# 8:F# 8:F# 2:G”
 b.play
 sleep 1 while !b.stopped?
 ```
-    
-> Mi primera experiencia viendo a _Why en persona fue en el año 2005 en FOSCON en Portland, Oregon. Fue en una reunión abierta de Rubystas en una tarde, durante el transcurso de la conferencia de OSCON.
-> Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGeek, un lugar perfecto. Uno camina entre estántes llenos de equipos viejos de computación y partes listas para ser reconstruídas y donadas a personas. _Why y su banda, un trío, se subieron al escenario y tocaron un repertorio de canciones originales con letras humorísticas sobre Ruby. Durante ello, su laptop se quedó sin batería, y le trajeron un cargador de batería del taller de reciclado. 
 
-> Como es de esperarse de un no-conformista con la Rubycomunidad, el tenía una laptop con Linux, mientras que la mayoría tenía su sistema Apple. Mientras el conectaba el cargador, las luces disminuyeron y la laptop resaltó con brillantéz. Nosotros estábamos seguros de que iba a prenderse en llamas, pero sobrevivió. 
+> Mi primera experiencia viendo a _Why en persona fue en el año 2005 en FOSCON en Portland, Oregon. Fue en una reunión abierta de Rubystas en una tarde, durante el transcurso de la conferencia de OSCON.
+> Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGeek, un lugar perfecto. Uno camina entre estántes llenos de equipos viejos de computación y partes listas para ser reconstruídas y donadas a personas. _Why y su banda, un trío, se subieron al escenario y tocaron un repertorio de canciones originales con letras humorísticas sobre Ruby. Durante ello, su laptop se quedó sin batería, y le trajeron un cargador de batería del taller de reciclado.
+
+> Como es de esperarse de un no-conformista con la Rubycomunidad, el tenía una laptop con Linux, mientras que la mayoría tenía su sistema Apple. Mientras el conectaba el cargador, las luces disminuyeron y la laptop resaltó con brillantéz. Nosotros estábamos seguros de que iba a prenderse en llamas, pero sobrevivió.
 
 > Como también hizo en muchos otros conciertos, el no estaba ahí solamente para cantarle a la audiencia. Escribió un servidor al que la audiencia podía conectarse con su intérprete de Ruby (Drb en realidad) y cambiar los colores que aparecían en la pantalla del escenario. Captó varias risotadas mientras que chisporroteaba de vida.
 
@@ -202,7 +204,7 @@ A pesar de las diferentes repercusiones de su decisión al borrar su prescencia 
 
 <b></b>
 
-> Desafortunadamente, el decidió irse, y no hay explicación oficial para ello. El sólo se fue. Después de todo lo que hizo, pienso que nadie puede demandar nada de el :-) Pero lo extrañaremos porque el fue un programador excepcional. 
+> Desafortunadamente, el decidió irse, y no hay explicación oficial para ello. El sólo se fue. Después de todo lo que hizo, pienso que nadie puede demandar nada de el :-) Pero lo extrañaremos porque el fue un programador excepcional.
 
 > -- <cite>Fábio Akita</cite>
 
@@ -225,7 +227,7 @@ Pathos es “el poder de evocar sentimientos”. Es también uno de los tres mod
 
 #### No temas correr riesgos
 
-Aquí es donde \_Why se pone controversial. Contrario a lo que la mayoría de los desarrolladores creen y respaldan, el estilo de programación de \_Why no era limpio, legible o testeado. Todo lo opuesto. Esto le daría escalofrios a la mayoría de los programadores de metodologías ágiles, pero \_Why tenía un argumento, y esta carta que escribió en el 2005 lo explica claramente. 
+Aquí es donde \_Why se pone controversial. Contrario a lo que la mayoría de los desarrolladores creen y respaldan, el estilo de programación de \_Why no era limpio, legible o testeado. Todo lo opuesto. Esto le daría escalofrios a la mayoría de los programadores de metodologías ágiles, pero \_Why tenía un argumento, y esta carta que escribió en el 2005 lo explica claramente.
 
 > Yo no escribo test para mis códigos. No escribo muchos comentarios. Cambio de estilos muy frecuentemente. Y a la mayoría de ellos, les doy la espalda a la forma predominante de “coding”, porque eso iría en contra de la esencia misma de experimentación. Acortado: todo lo que hago es no darle importancia.
 
@@ -245,5 +247,3 @@ Aquí es donde \_Why se pone controversial. Contrario a lo que la mayoría de lo
 > Cuando no creas cosas, te conviertes en algo definido por tus gustos más que por tu habilidad. Tus gustos sólo alejan y excluyen a las personas, así que creá.
 >
 > -- <cite>Why the Lucky Stiff</cite>
-
-

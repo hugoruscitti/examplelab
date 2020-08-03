@@ -2,6 +2,8 @@
 layout: post
 title: Paneles animados
 date: "2014-01-11 17:15:41"
+description: Hace unos dias, implementé animaciones en los paneles de huayra-stopmotion...
+cover: /images/2014/Jan/portada-paneles.jpg
 ---
 
 Hace unos dias, implementé animaciones en los paneles de **huayra-stopmotion**. Al principio opté por usar la forma mas rudimentaria de mostrar y ocultar paneles, pero luego descubrí como implementarlo usando css3 y un poquito de javascript:

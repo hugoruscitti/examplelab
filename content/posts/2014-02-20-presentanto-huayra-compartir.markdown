@@ -2,6 +2,8 @@
 layout: post
 title: Presentando huayra-compartir
 date: '2014-02-20 13:14:26'
+description: Esta semana quiero presentarles un software que estamos escribiendo en conectar igualdad...
+cover: /images/2014/Feb/portada-huayra-compartir.jpg
 ---
 
 Esta semana quiero presentarles un software que estamos escribiendo en conectar igualdad. Es una aplicación que vamos a incluir en el sistema operativo **huayra GNU/Linux 2.0**:
@@ -105,7 +107,7 @@ Además, este formato de datos "enlazados" se pueden navegar de manera muy senci
 
 ### Descubriendo equipos con "polo"
 
-Para descubrir los equipos comencé investigando  varias bibliotecas en [npmjs.org](http://npmjs.org). 
+Para descubrir los equipos comencé investigando  varias bibliotecas en [npmjs.org](http://npmjs.org).
 
 Casi todas las bibliotecas que probé hacían prácticamente lo mismo, ofrecián una capa de abstracción sobre zeroconf/bonjour/mdns.
 
@@ -132,7 +134,7 @@ Hay varias cosas que nos gustaría implementar en las próximas versiones: estar
 
 Cuando mostramos el software en la oficina volaron mil ideas, y saltaron algunos bugs también (naturalmente).
 
-Te invito a visitar el repositorio del proyecto, me gustaría que nos cuentes que cosas le agregarías o te gustaría cambiar. 
+Te invito a visitar el repositorio del proyecto, me gustaría que nos cuentes que cosas le agregarías o te gustaría cambiar.
 
 Seguramente vamos a estar implementando mas cosas por ahí pronto:
 

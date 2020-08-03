@@ -8,6 +8,8 @@ tags:
 - linux
 - nodewebkit
 - html5
+description: Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en Temuco Chile...
+cover: /images/2013/Nov/portada-temuco.jpg
 ---
 
 Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en la ciudad de Temuco:

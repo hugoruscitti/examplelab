@@ -6,6 +6,8 @@ tags:
 - charla
 - programacion
 - arte
+description: Bret Victor dió una charla impresionante llamada Inventing on Principle, invitando a las personas a descubrir un principio, algo que los guíe, una causa por qué pelear...
+cover: /images/2014/May/portada-principle.jpg
 ---
 
 *Bret Victor* dió una charla impresionante llamada **Inventing on Principle**, invitando a las personas a descubrir un principio, algo que los guíe, una causa por que pelear.

@@ -2,6 +2,8 @@
 layout: post
 title: "¡Empezó el curso online de pilas!"
 date: '2014-05-26 02:49:18'
+description: Esta semana arrancó la clase 3 del curso online de pilas-engine...
+cover: /images/2014/May/portada-curso-de-pilas.jpg
 ---
 
 Esta semana arrancó la clase 3 del curso online de [pilas-engine](http://pilas-engine.com.ar), un tutorial completo de programación, orientado a jóvenes que quieren crear sus propios videojuegos.

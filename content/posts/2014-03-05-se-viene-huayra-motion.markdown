@@ -2,6 +2,8 @@
 layout: post
 title: Se viene huayra-motion ...
 date: '2014-03-05 17:42:52'
+description: Una de las novedades que tenemos preparadas para huayra 2 es huayra stopmotion...
+cover: /images/2014/Mar/portada-presentacion-huayra-stopmotion.jpg
 ---
 
 **Huayra-motion** es una de las novedades que tenemos preparadas para el lanzamiento de  **huayra 2**:
@@ -31,7 +33,7 @@ Luego, cuando inicias un proyecto, hay 4 partes principales en la interfaz:
 3 - Las operaciones básicas.
 4 - Una línea de tiempo, con un cursor indicando el cuadro actual.
 
-En este caso abrí una animación muy básica que armé con lo único que tenía a mano en el bar donde suelo ponerme a escribir el blog. 
+En este caso abrí una animación muy básica que armé con lo único que tenía a mano en el bar donde suelo ponerme a escribir el blog.
 
 Con solo ajustar la cámara web y pulsando el botón "capturar" se pueden hacer cosas sencillas en poco tiempo.
 
@@ -121,7 +123,7 @@ Por el contrario, mientras la aplicación funciona podés hacer ajustes, seguir 
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/xZIgKShW0po?rel=0" frameborder="0" allowfullscreen></iframe>
 
-Pienso que este enfoque es mucho útil a la hora de trabajar, te permite observar y construir de manera más fluida, sin interrupciones o demoras. 
+Pienso que este enfoque es mucho útil a la hora de trabajar, te permite observar y construir de manera más fluida, sin interrupciones o demoras.
 
 Lamentablemente algunas cosas siguen siendo bloqueantes para los usuarios en este momento, por ejemplo cuando exportas una película el programa te hace esperar hasta que el video está listo. Aunque creo que si seguimos investigando, podemos hacerlo funcionar de otra manera.
 

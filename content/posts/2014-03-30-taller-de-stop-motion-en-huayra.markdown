@@ -2,9 +2,11 @@
 layout: post
 title: Taller de stop-motion en huayra
 date: '2014-03-30 05:51:10'
+description: El viernes pasado armamos con los chicos de huayra un taller de stopmotion...
+cover: /images/2014/Mar/portada-taller.jpg
 ---
 
-El viernes pasado armamos con los chicos de huayra un taller de **stopmotion**. 
+El viernes pasado armamos con los chicos de huayra un taller de **stopmotion**.
 
 En el taller [Claudio Andaur](http://maleficomics.blogspot.com.ar/) resumió en una animación muy ilustrativa 3 técnicas de stopmotion. Primero nos mostró como trabajar mediante *sustitución* usando unas figuras de papel que había preparado:
 

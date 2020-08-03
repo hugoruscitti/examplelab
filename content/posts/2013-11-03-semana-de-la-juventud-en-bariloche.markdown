@@ -6,6 +6,8 @@ tags:
 - python
 - evento
 - pilas
+description: Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre pilas-engine...
+cover: /images/2013/Nov/portada-semana-de-la-juventud.jpg
 ---
 
 Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre [pilas-engine](http://www.pilas-engine.com.ar) a chicos de escuelas secundarias.

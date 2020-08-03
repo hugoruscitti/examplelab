@@ -2,6 +2,8 @@
 layout: post
 title: FMSL 2013
 date: '2014-01-19 21:52:52'
+description: El mes pasado tuve la posibilidad de asistir y participar como orador del Festival Misionero de Software Libre...
+cover: /images/2013/Dec/portada-festival.jpg
 ---
 
 El mes pasado tuve la posibilidad de asistir y participar como orador del [Festival Misionero de Software Libre](http://fmsl.com.ar/).

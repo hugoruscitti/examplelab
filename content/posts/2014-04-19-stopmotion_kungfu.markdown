@@ -4,6 +4,8 @@ title: StopMotion de "yie ar kung-fu"
 date: '2014-04-19 21:29:49'
 tags:
 - stopmotion
+description: Esta semana estuvimos haciendo nuestro primer mini corto de stopmotion...
+cover: /images/2014/Apr/portada-stopmotion.jpg
 ---
 
 Esta semana estuvimos haciendo nuestro primer mini corto de **stomotion** con *Walter Velazquez*:
@@ -63,7 +65,7 @@ Esta es la versión generada con efectos de sonido y algunos arreglos:
 
 ## Cosas que aprendimos
 
-Algo que no tuvimos en cuenta cuando empezamos es la importancia de la cámara y la iluminación. 
+Algo que no tuvimos en cuenta cuando empezamos es la importancia de la cámara y la iluminación.
 
 Quiero decir, teníamos en mente que no era un detalle menor, y anteriormente nos habían aconsejado cómo iluminar la escena. Pero no teníamos la experiencia personal de ver "cómo quedaba" si nos equivocábamos o que limitaciones de la cámara ibamos a poder evitar o no.
 

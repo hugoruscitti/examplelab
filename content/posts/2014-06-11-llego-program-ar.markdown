@@ -7,6 +7,8 @@ tags:
 - pilas
 - nodewebkit
 - programacion
+description: Este viernes se realizó al hackatón del primer foro regional Programar en la universidad de Quilmes. ...
+cover: /images/2014/Jun/portada-programar.jpg
 ---
 
 Este viernes se realizó al hackatón del primer foro regional ``<program.AR\>`` en la universidad de Quilmes.
@@ -69,4 +71,3 @@ Ah, también está el sitio oficial de [program.ar](http://program.ar), con tuto
 Este es sólo el primero de varios foros regionales **Program.AR**.
 
 ¡Espero poder asistir a muchos más!
-
