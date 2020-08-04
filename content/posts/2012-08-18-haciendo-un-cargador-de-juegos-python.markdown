@@ -5,6 +5,8 @@ date: '2012-08-18 15:00:00'
 tags:
 - python
 - windows
+description: En este artículo veremos una alternativa para empaquetar y distribuir nuestros juegos sobre windows de manera bastante sencilla...
+cover: /images/2013/Oct/portada-cargador.jpg
 ---
 
 Si escribes juegos usando python, seguramente te has encontrado en problemas al distribuir juegos sobre windows.
@@ -236,7 +238,7 @@ a editar el archivo ``setup.py`` e incluir a [pilas-engine]:
 A diferencia de los anteriores, [pilas-engine] necesita varios archivos de
 recursos para funcionar correctamente. Vé al directorio donde se encuentra
 el código fuente de [pilas-engine] en tu equipo, y copia el directorio ``data``
-completamente dentro del directorio ``build`` que contiene al cargador (y 
+completamente dentro del directorio ``build`` que contiene al cargador (y
 el archivo ``run.py``)
 
 Ahora sí, ejecutando el cargador obtendremos:
@@ -257,4 +259,3 @@ Puedes ver un ejemplo de cargador [pilas-engine] en [github][github_pilas].
 Los cargadores de juegos son una gran oportunidad para distribuir juegos y hacerlos mucho mas accesibles a los usuarios.
 
 Espero que este documento te resulte útil, y recuerda que tenemos un repositorio en [github] con la última versión de los cargadores. Estás invitado a participar del desarrollo.
-

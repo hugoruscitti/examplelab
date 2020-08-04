@@ -2,6 +2,8 @@
 layout: post
 title: Rediseñando los eventos de pilas-engine
 date: '2012-02-29 15:00:00'
+description: Hoy pude rediseñar el sistema de eventos de PilasEngine con varias mejoras que tenía en mente ...
+cover: /images/2013/Oct/portada-eventos.jpg
 ---
 
 El sistema de eventos de [pilas-engine] necesitaba
@@ -36,7 +38,7 @@ compleja. Comienzas a tener contadores, barras de energía, personajes, enemigos
 
 Incluso si has previsto todas estas cosas antes de empezar, no es
 una buena idea diseñar con todo eso en mente. Es mejor ir paso a paso, modificando
-lo existente y adaptándolo, progresando mediante prototipos simples y que se 
+lo existente y adaptándolo, progresando mediante prototipos simples y que se
 puedan extender.
 
 Aquí es donde el sistema de eventos de [pilas-engine] se destaca
@@ -85,7 +87,7 @@ mostrar la energía de otros enemigos.
 
 ¿Cómo tendría que diseñar las cosas si mi juego tiene mas enemigos?.
 
-La respuesta inmediata sería: "enviarle a la energía una lista de enemigos, 
+La respuesta inmediata sería: "enviarle a la energía una lista de enemigos,
 en lugar de uno solo". Pero si hago eso, ¿Cómo hago para que la barra
 de energía sepa el momento justo en que he logrado golpear a otro enemigo?.
 
@@ -131,7 +133,7 @@ barra solamente será notificada cuando el evento ``cuando_golpean`` sea
 Por último, en el código del enemigo quero emitir la señal:
 
     class Enemigo(Actor):
-        
+
         def recibir_golpe(self):
             self.energia -= 10
 
@@ -174,7 +176,7 @@ actores: un ``contador de puntaje`` que se incrementa con cada pastilla y
 una ``escena``, que podría tener un contador sencillo para saber cuando
 tiene que pasar al siguiente nivel.
 
-Otro evento llamado ``muere_pacman`` podría ser observado por un actor 
+Otro evento llamado ``muere_pacman`` podría ser observado por un actor
 ``contador de vidas``, que maneje un visor de vidas al costado de la pantalla.
 
 Y un evento como ``come_pastilla_especial`` podría hacer que todos los

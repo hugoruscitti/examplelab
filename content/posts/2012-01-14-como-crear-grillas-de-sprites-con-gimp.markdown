@@ -6,6 +6,8 @@ tags:
 - juegos
 - gimp
 - shaolin
+description: En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego...
+cover: /images/2013/Oct/portada-grilla.jpg
 ---
 
 En este artículo veremos cómo crear una grilla de
@@ -35,7 +37,7 @@ muchísimo la programación.
 
 Además, las grillas no solo sirven para animaciones
 de personajes, también pueden ser utilizadas para todo
-tipo de imágenes. 
+tipo de imágenes.
 
 # Herramientas
 
@@ -62,7 +64,7 @@ Listo, ahora solo hay que reiniciar [gimp].
 Ten en cuenta que hay una descripción mucho mas detallada
 de estos complementos en la [página de losersjuegos](http://www.losersjuegos.com.ar/software/Gimp)
 
-    
+
 
 
 # Comencemos
@@ -154,7 +156,7 @@ código que nos nos permite ver la animación sería:
     grilla = pilas.imagenes.cargar_grilla('animacion.png', 3)
 
     animacion = pilas.actores.Animacion(grilla, ciclica=True)
-    
+
 Esta es una imagen de la sesión interactiva de pilas:
 
 ![](/images/2013/Oct/prueba.jpg)
@@ -173,4 +175,4 @@ programa y se aprende rápido.
 
 [gimp]: http://www.gimp.org/
 [pilas]: http://www.pilas-engine.com.ar
-[sbfury]: https://github.com/hugoruscitti/sbfury 
+[sbfury]: https://github.com/hugoruscitti/sbfury

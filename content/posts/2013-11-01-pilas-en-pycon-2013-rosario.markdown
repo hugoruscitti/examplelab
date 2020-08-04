@@ -7,6 +7,8 @@ tags:
 - evento
 - pilas
 - charla
+description: Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013...
+cover: /images/2013/pilas/portada.jpg
 ---
 
 Esta semana publiqué el video de mi charla sobre **pilas-engine** en el evento [PyCon 2013](http://ar.pycon.org/2013) de la ciudad de Rosario.

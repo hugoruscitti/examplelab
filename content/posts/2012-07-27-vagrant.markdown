@@ -4,6 +4,9 @@ title: Vagrant para entornos web
 date: '2012-07-27 15:00:00'
 tags:
 - tip
+description: Vagrant permite facilitar la instalación y armado de entornos para aplicaciones ...
+cover: /images/2013/Oct/portada-vagrant.jpg
+
 ---
 
 [vagrant] es una herramienta ideal para programadores de aplicaciones web. Permite tener entornos configurados, independientes y fáciles de compartir.
@@ -12,7 +15,7 @@ tags:
 
 El objetivo de este **post** es recomendar la herramienta y compartir algunos de los comandos que mas utilizo con [vagrant].
 
-[vagrant]: http://vagrantup.com 
+[vagrant]: http://vagrantup.com
 
 ## ¿Por qué usar vagrant?
 
