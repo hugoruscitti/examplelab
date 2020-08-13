@@ -78,7 +78,7 @@ que teníamos algunos Sprites de mas por las dudas):
 Luego, para los relieves usamos goma eva y cinta doble faz para crear unas
 especies de “ladrillitos” de varios niveles:
 
-![](Creando%20un%20cuadro%203D%20de%20Dragon%20Punch/60AA3A59-B405-43C9-8726-D3FF42928B40_1_105_c.jpeg)
+![](/images/2020/02/15/60AA3A59-B405-43C9-8726-D3FF42928B40_1_105_c.jpeg)
 
 Aunque luego de algunas pruebas, terminamos usando solamente los que habíamos
 armado con 6 y 4 capas de goma eva:
