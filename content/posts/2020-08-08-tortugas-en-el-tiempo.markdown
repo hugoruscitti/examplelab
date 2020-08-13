@@ -6,13 +6,15 @@ description: En este artículo describo como realicé un pequeño editor de cód
 cover: /images/2020/08/portada.jpg
 ---
 
-
 En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para
 dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de
 aprendizaje y código.
 
 ![](/images/2020/08/inicio.png)
 
+Podes ver el proyecto aquí:
+
+- https://hugoruscitti.github.io/tortugas-en-el-tiempo
 
 <style>
 video {
