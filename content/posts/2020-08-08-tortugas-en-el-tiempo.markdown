@@ -69,7 +69,7 @@ elementos de un programa podemos hacer “visibles” a los usuarios?
 ## Pensando en un proyecto
 
 Pienso que desde que vi esa charla comencé a ver las herramienta de otra forma, re diseñe
-[Pilas](www.pilas-engine.com.ar) “dando vueltas” muchas cosas, y hasta hoy sigo imaginando cómo
+[Pilas](https://www.pilas-engine.com.ar) “dando vueltas” muchas cosas, y hasta hoy sigo imaginando cómo
 resolver los problemas que plantea Bret Victor.
 
 No es sencillo abordar todo lo que plantea en su charla, hacer visible el contexto de un programa y
