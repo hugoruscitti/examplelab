@@ -1,0 +1,115 @@
+---
+layout: post
+title: Volviendo a jugar Doom
+date: '2020-08-25 00:00:00'
+description: |
+  Volví a jugar Doom después de casi 25 años y te cuento en detalle
+  cómo fue reencontrarme con este gran video juego.
+cover: /images/2020/doom/portada.jpg
+---
+
+Volví a jugar doom después de casi 25 años y la experiencia fue fenomenal.
+
+![](/images/2020/doom/title.jpg)
+
+No solo pude experimentar la nostalgia de volver disfrutar un videojuego que me
+encantaba de chico, volver a escuchar los mismos sonidos, los gráficos
+pixelados y recordar niveles; también me volví a encontrar con un gran juego
+perfectamente diseñado.
+
+¿Qué lo hace un gran juego? ¿Por qué vale la pena volver a jugarlo en 2020?
+
+## El Doom clásico
+
+Doom era espectacular a primera vista porque no había nada igual en aquellos
+años… el juego combinaba super bien los gráficos en 2D y 3D: los enemigos
+tenían rostro, jadeaban indicando que estaban al asecho y te permitía usar
+distintas técnicas para combatirlos, y si el juego te resultaba muy difícil
+podías ir guardando la partida poco a poco.
+
+![](/images/2020/doom/url.jpg)
+
+Los enemigos tenían la resistencia justa, con un poco de práctica los podías
+eliminar con unos pocos disparos sin sufrir demasiado y evitando contacto con
+ellos.
+
+A cada enemigo se lo combatía de manera diferente, pero en general los
+comportamientos se parecían entre sí. Los enemigos estaban esperando, y cuando
+se percataban que estabas ahí se acercaban a vos disparando, lanzando bolas de
+fuego o intentando morderte. Una estrategia muy útil cuando estabas al borde de
+morir era alejarse y esperarlos en un lugar seguro.
+
+Creo que a los enemigos que más veía en el juego era a los Imp, estos
+personajes marrones que lanzaban bolas de fuegos que podías esquivar hacia los
+costados.
+
+![](/images/2020/doom/imp.png)
+
+Estos no eran los enemigos más difíciles, sin embargo cuando estos enemigos
+aparecían en manada junto a otros enemigos con armas de fuego la cosa
+se ponía complicada…
+
+Otra cosa alucinante del juego, era que los enemigos se podían disparar entre
+ellos, y a veces en medio de una escena de acción podías verlos luchando entre
+sí, como si estuvieran en una riña interna porque alguien disparó
+accidentalmente.
+
+Algo que también añadía variedad y diversión eran los barriles explosivos. El
+juego tenía varios barriles distribuidos en los escenarios, así que en plena
+batalla contra los enemigos tal vez tenías la suerte de poder dispararle a un
+barril para que explote y esa explosión reviente a todos los enemigos cercanos.
+
+![](/images/2020/doom/barriles.png)
+
+Pero lo que sin dudas hacía a doom especial eran sus mods. Algo que alargaba la
+vida del juego, tanto para quienes jugábamos como para quienes querían
+construir sus propios niveles.
+
+## Doom en la actualidad
+
+Para mi sorpresa, el hecho de que doom se pueda expandir mediante mods y
+motores mejorados, hizo que el juego siga se mantenja vigente todos
+estos años.
+
+Por ejemplo, esta semana estuve jugando un montón a un mod llamado “Brutal
+Doom”:
+
+- [Brutal Doom v21 Gold Release Trailer - YouTube](https://www.youtube.com/watch?v=iPyq0jFgVjI)
+
+En este mod las armas son más rápidas, los enemigos tienen habilidades nuevas
+como saltar o esconderse, y hay montones de efectos agregados como humo,
+sangre, partículas etc…
+
+![](/images/2020/doom/deathmatch.jpg)
+
+Además, Brutal Doom te permite volver a jugar los mismos niveles clásicos de
+Doom 2  de manera renovada.
+
+# ¿Cómo jugar a Doom hoy?
+
+Hoy existen re-ediciones del clásico doom para varias plataformas, Doom está en
+[Steam](https://store.steampowered.com/sub/18397/),
+[Switch](https://www.nintendo.com/games/detail/doom-ii-classic-switch/) pero
+también se puede jugar con motores alternativos como GZDoom, PRBoom y
+Zandronum.
+
+Zandronum es el que más me impresionó, apareció en 2005 con un montón de
+mejoras gráficas y soporte para jugar online hasta 64 jugadores.
+
+- [Welcome To Zandronum! - YouTube](https://www.youtube.com/watch?v=5mLDugjh0Ro)
+
+Además, es multi plataforma (linux, osx, windows) e incluye una herramienta
+llamada [Doomseeker](https://doomseeker.drdteam.org) para encontrar salas y
+jugar online:
+
+![](/images/2020/doom/doomseek.jpg)
+
+# Recomendaciones
+
+Si te dieron ganas de jugar Doom te recomiendo descargar Zandronum, bajar
+algunos .wad y dedicarle unas cuantas horas.
+
+Doom no solo es un gran juego, también logró perdurar todos estos años
+volviéndose cada vez mejor, parece mentira que ya pasaron más de 25 años desde
+su lanzamiento y aún así vale la pena jugar.
+
