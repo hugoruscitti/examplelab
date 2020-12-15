@@ -30,15 +30,11 @@ compilar:
 
 deploy:
 	rm -rf public
-	rm -rf dist
 	@echo "Compilando el sitio."
 	make compilar
-	@echo "Clonando repositorio para realizar el deploy."
-	git clone --depth 1 dokku@hugoruscitti.com.ar:examplelab dist/
-	@echo "Moviendo archivos..."
-	@cp -r public/* dist/
+	@echo "Creando directiva para deployar en dokku..."
+	touch public/.static
 	@echo "Realizando deploy..."
-	@cd dist; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git push -f
+	@cd public; git init; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git remote add origin dokku@examplelab.com.ar:examplelab; git push --set-upstream origin master -f
 	rm -rf public
-	rm -rf dist
-	@echo "${G}Listo, se hizo el deploy en https://examplelab.com.ar${N}"
+	@echo "${G}Listo, se hizo el deploy en https://examplelab.examplelab.com.ar${N}"
