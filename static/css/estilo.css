@@ -46,3 +46,7 @@ p,
 .dib {
   display: inline-block;
 }
+
+.link, .link:active, .link:focus, .link:hover, .link:link, .link:visited {
+    transition: none !important;
+}

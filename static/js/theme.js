@@ -1,4 +1,4 @@
-document.addEventListener("turbolinks:load", function() {
+document.addEventListener("DOMContentLoaded", function() {
   const getTheme = window.localStorage && window.localStorage.getItem("theme");
   const themeToggle = document.querySelector(".theme-toggle");
   const isDark = getTheme === "dark";
