@@ -28,13 +28,18 @@ ejecutar_con_borradores:
 compilar:
 	hugo
 
-deploy:
+public_remoto:
+	git clone dokku@examplelab.com.ar:examplelab public_remoto
+
+deploy: public_remoto
 	rm -rf public
 	@echo "Compilando el sitio."
 	make compilar
 	@echo "Creando directiva para deployar en dokku..."
 	touch public/.static
 	@echo "Realizando deploy..."
-	@cd public; git init; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git remote add origin dokku@examplelab.com.ar:examplelab; git push --set-upstream origin master -f
-	rm -rf public
+	@cd public_remoto; git checkout -f; git pull
+	@cp -r public/* public_remoto
+	@cd public_remoto; git add .; git commit -am "rebuild"; git push origin master
+	@rm -rf public
 	@echo "${G}Listo, se hizo el deploy en https://examplelab.examplelab.com.ar${N}"
