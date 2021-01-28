@@ -1,0 +1,57 @@
+---
+layout: post
+title: Falacias, falacias por todos lados
+date: '2021-01-25 00:00:00'
+description: |
+  Las falacias están en todos lados, desde la oficina
+  hasta los newsletters de JavaScript.
+cover: /images/2021/falacias/portada.jpg
+---
+
+No soy bueno argumentando, de hecho, en muchas discusiones 
+me siento frustrado al sentir que no puedo dar a entender mi punto
+de vista ... y alguna vez, incluso sin darme cuenta, me han hecho notar
+que mal interpreté argumentos de otras personas y caí en alguna de las
+falacias más conocidas.
+
+Hoy recordé una de esas conversaciones, una especie de discusión sobre
+tests y calidad de software que terminaron en nada.
+
+En aquella conversación, yo sentía que tenía la razón, mientras que la otra
+persona imaginó que él tenía razón también; y como te podrás imaginar el resultado
+de todo eso es fue que ninguno de los dos aprendió nada... es una lástima que 
+algunas conversaciones técnicas terminen en la nada...
+
+Recordar aquella conversación me hizo pensar en algo que no conocía en
+aquel momento: Existen una serie de errores de razonamiento llamados
+"falacias lógicas", razonamientos que a simple
+vista parecen ciertos, lógicos y razonables, pero que esconden un error
+profundo o son simplemente falsos.
+
+Estas falacias están en todas partes, ya sea que nos demos cuenta o no, es
+común caer en una de estas "trampas" lógicas cuando estamos conversando o intentando
+argumentar algún punto.
+
+Lo malo de desconocer las falacias es que podes quedar como un tonto si caes
+en una de ellas en medio de un argumento, o lo que es peor, la conversación
+podría terminar en nada porque el tema se vuelve confuso o los puntos
+de vista se polarizan.
+
+## Dos falacias que veo en tecnología
+
+No me siento muy capacitado para profundizar sobre falacias en general, apenas
+estoy investigando y aprendiendo sobre ellas. Incluso vi que hay 
+[un libro hermoso](https://bookofbadarguments.com/es/?view=allpages) acerca de
+falacias ilustradas y con ejemplos muy claros.
+
+Sin embargo me gustaría mencionar alguna las falacias más comunes que veo
+en nuestro oficio, y reflexionar sobre cómo generar mejores argumentos y
+conversaciones libres de falacias.
+
+<!--
+![](/images/2021/ceferino/capturas.png)
+
+{{<figure src="/images/2021/ceferino/piezas.png" caption="Wally armaba los sprites separados por piezas en Animator Pro">}}
+-->
+
+: Pendiente, continuará...
