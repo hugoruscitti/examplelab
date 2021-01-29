@@ -48,10 +48,88 @@ Sin embargo me gustaría mencionar alguna las falacias más comunes que veo
 en nuestro oficio, y reflexionar sobre cómo generar mejores argumentos y
 conversaciones libres de falacias.
 
-<!--
-![](/images/2021/ceferino/capturas.png)
+# Falacia del falso dilema
 
-{{<figure src="/images/2021/ceferino/piezas.png" caption="Wally armaba los sprites separados por piezas en Animator Pro">}}
--->
+Una falacia muy común a la hora de hablar de tecnología consiste en
+limitar las opciones disponibles, sin considerar otras. Quien comete esta
+falacia suele presentar dos opciones y si rechazamos una de ellas, casi da por
+sentado que estamos eligiendo la otra.
 
-: Pendiente, continuará...
+Por ejemplo, evaluemos estos razonamientos:
+
+- Usemos un framework de terceros, sino vamos a terminar escribiendo nuestro propio framework.
+- O usamos React o vamos directamente con Angular.
+- Tenemos que usar programación funcional y estado inmutable, sino el código que maneja estado va a ser super complejo e inmanejable.
+
+Claro, en cualquiera de estos ejemplos se presentan dos opciones como las únicas
+a considerar cuando en realidad podríamos considerar otras completamente válidas.
+
+Un ejemplo que me llama la atención se ve en el sitio web de emberjs:
+
+{{<figure src="/images/2021/falacias/baterias.png" caption="Baterias incluidas o lo vas a tener que armar vos mismo...">}}
+
+Me gusta este ejemplo porque va en la linea del razonamiento "o usamos este framework o vamos a tener
+que armarlo todo nosotros mismos". Cuando en realidad, no usar un framework no necesariamente
+te obliga a escribir uno propio, ¡no todas las personas viven de hacer frameworks!, hay otras
+opciones válidas como usar bibliotecas o encarar una aquitectura modesta, sin necesidad de
+generalizarla ni pretender reutilizarla en otros proyectos.
+
+Creo que esto sucede muchas veces de forma involuntaria, como programadores casi
+siempre intentamos limitar las opciones y tomar conclusiones rápido; es mucho
+más sencillo elegir así. 
+
+# Falacia "Strawman"
+
+Esta falacia se suele ver cuando los debates "se calientan" o alguna persona
+se siente emocionalmente afectada... todo esto lo digo en tercera persona jeje, pero
+es lo que suele pasarme a mí cuando se habla de algo que me apasiona.
+
+Alguien podría argumentar: "Necesitamos reducir el número de dependencias que estamos
+usando en este proyecto, se está volviendo tedioso mantener actualizado el entorno a
+la última versión" mientras que otra persona podría usar la falacia y argumentar
+"¡Ah, pero sería una locura reinventar la rueda y escribir todo ese código nosotros
+mismos como estás proponiendo!".
+
+El problema en este ejemplo es que la primer persona no está proponiendo reescribir
+todo desde cero ni reinventar nada... solo está proponiendo reducir la cantidad
+de dependencias.
+
+Esta falacia me parece una de las más importantes, porque hace que algunas
+conversaciones se vuelvan completamente inservibles. Imagina cuantas
+cosas interesantes se podrían hacer si evitamos caer en esa falacia. ¿Qué tal
+si atacamos el problema de "actualizar" nuestro software de otra forma?, ¿El
+problema realmente son las dependencias?, ¿Qué otras estrategias podemos
+utilizar para resolver este problema?, ¿Hay algo que podamos aprender
+para encarar este tipo de problemas?
+
+# Apelar a la autoridad o popularidad
+
+
+La falacia de apelar a la autoridad o popularidad suele aparecer
+cuando se intenta justificar que una tecnología es "la ideal" mediante
+argumentos como este:
+
+- Personas más inteligentes que nosotros lo diseñaron así, deben estar en lo cierto.
+- Esta biblioteca tiene 2000 estrellas en github, deberíamos usarla en lugar de la otra.
+- Si Facebook y Google promueven microservicios nosotros deberíamos alinearnos con eso también.
+- Tenemos que diseñar pensando en escalar, es indispensable en nuestra industria porque las startups líderes lo hacen.
+
+Las herramientas que promueven las empresas más grandes o innovadoras
+pueden ser muy interesantes, pero no por eso van a ser las mejores
+herramientas para nosotros.
+
+Algo similar ocurre con la popularidad, no siempre alcanza para decir
+que alguna decisión es la correcta.
+
+# ¿Qué podemos aprender de estas falacias?
+
+Conocer estas falacias y poder quitarlas de nuestro razonamiento hace que las
+conversaciones se vuelvan mucho más enriquecedoras, creo que aprender acerca de
+ellas nos ayuda a detectarlas en nuestros argumentos y a comprender el punto de los
+demás.
+
+Incluso un argumento válido queda entorpecido si se intenta defender con
+una falacia cometida por accidente. En la mayoría de las conversaciones
+técnicas que terminaron en la nada me pasó algo como eso.
+
+El falso dilema más grande de todos es que "las discusiones se ganan o se pierden", ¿no?.
