@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Falacias, falacias por todos lados
-date: '2021-01-25 00:00:00'
+date: '2021-01-27 00:00:00'
 description: |
   Las falacias están en todos lados, desde la oficina
   hasta los newsletters de JavaScript.
