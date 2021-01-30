@@ -27,7 +27,7 @@ expresa algo tan valioso para vos que quisieras preservar y recomendar a tus ami
 - https://steve-yegge.blogspot.com/2008/09/programmings-dirtiest-little-secret.html
 
 ¿Cuántos años seguirá funcionando ese link?, ¿qué tal si el dueño de ese blog pierde el interés en
-su blog?, ¿qué pasará si la plataforma blogspot.com deja de existir como yahoo sites o geocities?
+su blog?, ¿qué pasará si la plataforma blogspot.com deja de existir como [geocities](https://es.wikipedia.org/wiki/GeoCities)?
 
 Lo más probable es que pase esto:
 
