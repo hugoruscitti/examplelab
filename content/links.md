@@ -17,3 +17,4 @@ Expliqué mi motivación al realizar este archivo de artículos
 </div>
 
 - [Stevey's Blog Rants: Programming's Dirtiest Little Secret](/links-files/programmings-dirtiest-little-secret)
+- [I’m a boring programmer (and proud of it) - Signal v. Noise](/links-files/iam-boring-programmer)
