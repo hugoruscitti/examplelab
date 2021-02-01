@@ -16,4 +16,4 @@ Expliqué mi motivación al realizar este archivo de artículos
   <img src="/images/links.png" width="100" height="100" class="br-100 dib">
 </div>
 
-- [Stevey's Blog Rants: Programming's Dirtiest Little Secret](links-files/programmings-dirtiest-little-secret)
+- [Stevey's Blog Rants: Programming's Dirtiest Little Secret](/links-files/programmings-dirtiest-little-secret)
