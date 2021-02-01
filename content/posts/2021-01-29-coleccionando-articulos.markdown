@@ -54,15 +54,21 @@ descargando:
 Por ejemplo, el artículo que cité antes se podría descargar y conservar para que
 se vea así:
 
+![](/images/2021/coleccionando-articulos/comparativa.png)
+
+Para mí es mucho más fácil preservar un histórico de esta forma, además me da
+la opción de quitar comentarios o secciones extra, solo guardo el texto que realmente
+me interesa conservar.
 
 # Automatizando el proceso
 
-Descargar un artículo directamente con el navegador es fácil, sin embargo mi idea no
-es solo descargar sino descargar, almacenar, clasificar y formar una buena colección
-de artículos fácilmente, con un solo comando.
+Descargar un artículo directamente con el navegador es fácil, sin embargo mi intención
+no es solo descar sino almacenar, clasificar y crear una buena colección
+de artículos que luego pueda compartir directamente desde mi blog.
 
-Para eso hice una nueva página en mi blog llamada ["links"](/links), en donde voy
-a colocar todos los artículos descargados.
+Para eso hice una nueva página en mi blog llamada ["links"](/links), similar a como
+hace [Osiux en su blog](https://osiux.com/index.html), en donde voy a colocar todos
+los artículos descargados.
 
 Además, para hacer más sencillo el proceso armé un script en python
 que me permite agregar páginas en ese archivo:
