@@ -6,7 +6,7 @@ paginate = 100
 [params]
   contentTypeName = "posts"
   defaultTheme = "light"
-  showMenuItems = 2
+  showMenuItems = 3
   showReadingTime = false
 
 [markup.goldmark.renderer]
@@ -32,11 +32,6 @@ paginate = 100
       logoText = "examplelab"
       logoHomeLink = "/"
 
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "acerca de"
@@ -46,3 +41,7 @@ paginate = 100
         identifier = "articulos"
         name = "Artículos"
         url = "/posts/index.html"
+      [[languages.en.menu.main]]
+        identifier = "links"
+        name = "Links"
+        url = "/links/index.html"
