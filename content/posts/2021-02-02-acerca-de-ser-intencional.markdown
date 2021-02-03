@@ -60,12 +60,12 @@ bolsa de caramelos dulces sobre la mesa, es imposible resistirse.
 
 # Sobre ser intencional
 
-Ser "intencional" sobre aquello que queremos hacer es una gran habilidad, te
+Ser "intencional" sobre aquello que queremos hacer es muy valioso, te
 permite hacer foco en las cosas importantes y no pasar horas en piloto automático
 desperdiciando el tiempo.
 
-También es una habilidad, no alcanza con saber que está ahí, también hay que ejercitarla
-y volverse bueno practicándola todos los días.
+También es una habilidad que se puede desarrollar, no alcanza con saber que está ahí,
+hay que ejercitarla y volverse bueno practicándola todos los días.
 
 Creo que es una de las cosas más interesantes que tomé de 
 [Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/) es que
@@ -84,8 +84,10 @@ es un pequeño Addon llamado
 
 {{<figure src="/images/2021/intencion/sin-recomendaciones.png" caption="Sin recomendaciones">}}
 
-De esta forma, ya no me invade la curiosidad ni la novedad de los contenidos, no soy
-invitado a dar un recorrido de la mano por la plataforma, mi intencionalidad está en
-primer lugar, así que si me interesa ver algo tengo que buscarlo, y si no, me voy a
-hacer algo más productivo.
+De esta forma, ya no me invade la curiosidad ni la novedad de los contenidos, youtube
+ya no me invita a dar un recorrido de la mano por la plataforma, mi intencionalidad está en
+primer lugar.
+
+Así, me veo obligado a preguntar: "¿qué quiero hacer?"; y si no tengo una respuesta interesante
+que me motive a hacer una búsqueda me voy a hacer algo más productivo.
 
