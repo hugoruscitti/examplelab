@@ -69,4 +69,4 @@ la importación para visibilizar mi trabajo y mejoré la descripción de varias 
 que teníamos relevadas pobremente para encarar dentro de unos días. 
 
 Si bien no parece mucho, estas pequeñas mejoras se suman a otras que hice
-hace uno días y con suerte en unos meses den resultados visibles.
+hace unos días y con suerte en unos meses den resultados visibles.
