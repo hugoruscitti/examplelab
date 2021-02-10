@@ -1,12 +1,12 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "hello-friend-modificado"
+theme = "simple"
 paginate = 100
 
 [params]
   contentTypeName = "posts"
   defaultTheme = "light"
-  showMenuItems = 3
+  showMenuItems = 4
   showReadingTime = false
 
 [markup.goldmark.renderer]
@@ -45,3 +45,7 @@ paginate = 100
         identifier = "links"
         name = "Links"
         url = "/links/index.html"
+      [[languages.en.menu.main]]
+        identifier = "xarchivo"
+        name = "Archivo"
+        url = "/archivo/index.html"

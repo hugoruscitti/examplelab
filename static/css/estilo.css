@@ -50,3 +50,15 @@ p,
 .link, .link:active, .link:focus, .link:hover, .link:link, .link:visited {
     transition: none !important;
 }
+
+h1.titulo-de-archivo {
+  text-align: left;
+}
+
+li.item-de-archivo {
+  text-align: left;
+}
+
+li.item-de-archivo a {
+  text-decoration: none;
+}

@@ -1,0 +1,43 @@
+{{ define "main" }}
+<section>
+  <div class="container">
+    <div class="columns">
+      <div class="column is-7">
+
+      {{ $type := .Type }}
+      {{ $.Scratch.Set "count" 1 }}
+
+        {{ range (.Site.RegularPages.GroupByDate "2006") }}
+          {{ if (gt .Key 2000) }}
+
+            {{ range (where .Pages "Type" $type) }}
+              {{ if (eq ($.Scratch.Get "count") 1) }}
+                {{ $.Scratch.Set "count" 0 }}
+                <h1 class="title is-4 has-text-weight-normal titulo-de-archivo">{{ .Date.Format "2006" }}</h1>
+              {{ end }}
+            {{ end }}
+
+            {{ $.Scratch.Set "count" 1 }}
+
+              <ul class="article__list">
+              {{ range (where .Pages "Type" $type) }}
+                {{ if (ne .Params.hidden true) }}
+                  <li class="item-de-archivo">
+                    <a class="is-block" href="{{ .RelPermalink }}">
+                      <span class="has-text-grey-dark">{{ .Date.Format "02 Jan" }}</span> — {{ .Title }}
+                    </a>
+                  </li>
+                {{ end }}
+              {{ end }}
+              </ul>
+
+            <br>
+
+        {{ end }}
+      {{ end }}
+
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
