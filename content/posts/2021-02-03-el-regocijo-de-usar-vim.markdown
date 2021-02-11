@@ -96,8 +96,8 @@ y ninguna interrupción.
 
 El momento más importante para mí al usar Vim fue cuando comprendí las
 reglas básicas del lenguaje y cómo se podían componer comandos. Antes
-de ese ese momento, me movía como loco y pulsaba muchas veces la mismas
-teclas para borrar o moverme por el texto.
+de ese momento, me movía como loco y pulsaba muchas veces la mismas
+teclas para borrar o recorrer el texto, letra por letra.
 
 Y aquí es donde creo que experimenté un "click" al momento de usar el
 editor. No se si fue un "click" saludable, tal vez el "click" es el
