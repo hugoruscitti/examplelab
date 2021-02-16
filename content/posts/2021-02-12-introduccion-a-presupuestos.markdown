@@ -41,7 +41,7 @@ se pueda reflexionar, en un momento y lugar definido, un sistema
 en donde se vuelque toda nuestra información financiera para que
 el cerebro se libere y pueda gastar recursos en ideas y no en preocupaciones.
 
-El sistema que empecé a usar aquella vez fue YNAB, y hasta hoy lo sigo usando; pero
+El sistema que empecé a usar aquella vez fue [YNAB](https://www.youneedabudget.com/), y hasta hoy lo sigo usando; pero
 creo que las ideas más importantes no dependen del software en sí, sino
 del método que enseñan y cómo se puede cambiar la "sensación" que te
 produce la plata cuando encontrás el método para gestionarla.
@@ -52,7 +52,7 @@ mientras tomaba el control de mis finanzas.
 # La idea central de YNAB: Necesitas un presupuesto
 
 Tener un presupuesto puede significar diferentes cosas para cada persona, sin
-embargo en YNAB la idea comienza con esta idea:
+embargo en [YNAB](https://www.youneedabudget.com/) la idea comienza con esta idea:
 
 > ¿Qué trabajo quieres asignarle a tu plata?, ¿Qué tiene que hacer por vos?
 
@@ -66,7 +66,7 @@ idea es que el presupuesto permita que le asignes un objetivo a tu plata. Y
 este presupuesto tiene que reflejar las cosas que son importantes en tu vida
 y nadie puede armarlo por vos.
 
-Aquí hay una captura de pantalla de la documentación de YNAB:
+Aquí hay una captura de pantalla de la documentación de [YNAB](https://www.youneedabudget.com/):
 
 ![](/images/2021/introduccion-a-presupuestos/presupuestos.png)
 
@@ -126,7 +126,7 @@ la plata, y el presupuesto te permite verlo con claridad y decidir mejor.
 
 # Romper el ciclo de vivir al día
 
-Otra de las ideas que comencé a valorar es lo que en YNAB llaman "madurar el dinero".
+Otra de las ideas que comencé a valorar es lo que en [YNAB](https://www.youneedabudget.com/) llaman "madurar el dinero".
 
 La idea es sencilla: gran parte de las preocupaciones se originan porque
 llegamos a fin de mes con lo justo, y tenemos que esperar a cobrar para
