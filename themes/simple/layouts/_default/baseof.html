@@ -7,6 +7,10 @@
     {{ partial "head.html" . }}
   </head>
   <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
+    <script>
+      procesar_theme();
+    </script>
+
     <div class="container">
       {{ partial "header.html" . }}
 

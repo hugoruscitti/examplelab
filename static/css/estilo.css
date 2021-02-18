@@ -62,3 +62,8 @@ li.item-de-archivo {
 li.item-de-archivo a {
   text-decoration: none;
 }
+
+
+.no-user-select {
+  user-select: none;
+}
