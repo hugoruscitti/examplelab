@@ -16,7 +16,7 @@ Al principio imaginé que podría hacer dos versiones diferentes
 de [pilas-engine](https://pilas-engine.com.ar/), ya que 
 algunas personas podrían querer
 programar en código, mientras que otras podrían preferir usar 
-bloques (como en [stratch](https://scratch.mit.edu/)).
+bloques (como en [scratch](https://scratch.mit.edu/)).
 
 Sin embargo noté que las dos cosas pueden funcionar juntas. Los
 actores podría responder a las órdenes que les damos escribiendo código
@@ -26,7 +26,7 @@ o encastrando bloques.
 
 Esto me animó a seguir experimentando y a pensar si realmente hay tal
 cosa como una "lucha" entre código vs bloques. Tengo argumentos a favor
-de un enfoque versos el otro, pero tal vez ni si quiera importe. 
+de un enfoque versus el otro, pero tal vez ni si quiera importe. 
 
 Después de todo, quiero que [pilas-engine](https://pilas-engine.com.ar/) sea una 
 herramienta que permita aprender a programar creando videojuegos, y cuantas más
