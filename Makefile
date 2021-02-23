@@ -42,4 +42,4 @@ deploy: public_remoto
 	@cp -r public/* public_remoto
 	@cd public_remoto; git add .; git commit -am "rebuild"; git push origin master
 	@rm -rf public
-	@echo "${G}Listo, se hizo el deploy en https://examplelab.examplelab.com.ar${N}"
+	@echo "${G}Listo, se hizo el deploy en https://www.examplelab.com.ar${N}"
