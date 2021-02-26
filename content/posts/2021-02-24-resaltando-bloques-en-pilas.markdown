@@ -57,8 +57,8 @@ Blockly.JavaScript.STATEMENT_PREFIX = `
 `;
 ```
 
-[Blockly](https://developers.google.com/blockly/) se va a encargar de insertar esta llamada a pilas antes de cada una de las
-sentencias, por ejemplo:
+[Blockly](https://developers.google.com/blockly/) se va a encargar de insertar 
+esta llamada a pilas antes de cada una de las sentencias, por ejemplo:
 
 ![](/images/2021/resaltando-bloques-en-pilas/comparativa.png)
 
@@ -68,16 +68,54 @@ poner en ejecución el juego.
 
 ## Almacenando información de ejecución
 
-> TODO
+Para saber qué bloques ir resaltando hice que la función `notificar_ejecucion_del_bloque`
+simplemente almacene en un diccionario todos los bloques
+a resaltar por actor.
 
-## Avisando al editor qué se ejecutó
+![](/images/2021/resaltando-bloques-en-pilas/notificar.png)
 
-> TODO
+Así, el diccionario `instrumentacion_de_bloques` se va llenando con
+todos los bloques que se ejecutan en un solo ciclo del pilas.
 
-## Añadiendo resaltado al modo pausa
+Por ejemplo, en una escena donde hay dos actores con bloques
+el diccionario puede quedar así:
 
-> TODO
+```javascript
+{
+  1278: [
+    "M.ujdyfst~C9SNlx%%~W",
+    "n#Df-%|n/TtB*Qc([e(d"
+  ],
+  1585: [
+    "Sux_IEGyGca,_Slu#R?!"
+  ]
+}
+```
+
+Los números `1278` y `1585` son los identificadores de actores, mientras
+que las cadenas de texto como `"M.ujdyfst...` son los identificadores
+de bloques.
+
+## Resaltando bloques
+
+Ahora, con este diccionario la tarea se volvió mucho más sencilla, porque
+pude separar en dos lugares independientes "qué bloques colorear" vs "dónde colorearlos".
+
+Pilas tiene un sistema de eventos similar al que comenté en 
+[este otro post](/posts/2021-02-09-sistema-de-eventos-tipados), así que pude enviar
+el diccionario a través de un evento que puede capturar el componente de Blockly.
+
+Este es un ejemplo de cómo quedó la integración cuando se usa el modo
+pausa:
+
+![](/images/2021/resaltando-bloques-en-pilas/animacion.gif)
 
 # Conclusión
 
-> TODO
+Me quedé muy contento con la forma en la que se colorean los bloques. Pensé que iba
+a ser mucho más sencillo de implementar, pero aún así creo que llegué a
+una buena forma de resolverlo.
+
+Más adelante voy a poner a prueba el rendimiento a ver si no afecta mucho
+la velocidad del motor.
+
