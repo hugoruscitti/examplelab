@@ -59,7 +59,7 @@ computadora y mi memoria.
 También noté que no me sirve guardar artículos enteros, poner videos en playlist de
 youtube, marcarlos como favoritos o añadir páginas a los bookmarks del navegador.
 
-Hace unos años hacía eso, pero me di cuenta que me resultaba.
+Hace unos años hacía eso, pero me di cuenta que no me resultaba.
 
 Creo que recolectar material sin procesar no me sirve porque es fácil, no
 tengo que hacer ningún esfuerzo ni reflexión.
