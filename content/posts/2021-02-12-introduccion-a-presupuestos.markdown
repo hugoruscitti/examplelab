@@ -117,11 +117,11 @@ algún gasto más. Si tenes unos pesos extra, ¿cómo no vas a salir cenar afuer
 Para mí, tener un presupuesto no supone restricciones, al contrario, me deja
 comprar cosas y darme lujos sin culpa; pero tengo que priorizar. El presupuesto
 te hacer "dividir" la plata que tenes en categorías, así que no hay lugar
-a dudas, si planificar gastar plata saliendo a cenar afuera, no vas a poder reservar
+a dudas, si planificas gastar plata saliendo a cenar afuera entonces no vas a poder reservar
 dinero para comprar ese teclado mecánico que te gusta. ¿Qué vas a priorizar?.
 
 De alguna forma, es como si el presupuesto te estuviera ayudando a generar
-ese rigor de la escasez. Cosa que suena horrible, pero es como realmente funciona
+ese rigor de la escasez. Cosa que suena horrible, pero es así como funciona
 la plata, y el presupuesto te permite verlo con claridad y decidir mejor.
 
 # Romper el ciclo de vivir al día
