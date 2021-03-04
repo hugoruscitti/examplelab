@@ -109,7 +109,7 @@ los meses hace que el problema no sea tán grande.
 # Ganándole a la ley de Parkinson
 
 La ley de Parkinson señala, medio en broma, medio en serio, que nuestros gastos
-se van a equipar a nuestros ingresos. ¡Y tiene sentido suponer esto!.
+se van a equiparar a nuestros ingresos. ¡Y tiene sentido suponer esto!.
 
 Imaginá que logras un aumento de sueldo, ese dinero extra va a invitarnos a hacer
 algún gasto más. Si tenes unos pesos extra, ¿cómo no vas a salir cenar afuera?!.
