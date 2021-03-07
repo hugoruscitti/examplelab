@@ -4,11 +4,11 @@ title: Volviendo a jugar Doom
 date: '2020-08-25 00:00:00'
 description: |
   Volví a jugar Doom después de casi 25 años y te cuento en detalle
-  cómo fue reencontrarme con este gran video juego.
+  cómo fue reencontrarme con este gran videojuego.
 cover: /images/2020/doom/portada.jpg
 ---
 
-Volví a jugar doom después de casi 25 años y la experiencia fue fenomenal.
+Volví a jugar al juego Doom después de casi 25 años y la experiencia fue fenomenal.
 
 ![](/images/2020/doom/title.jpg)
 
@@ -22,7 +22,7 @@ perfectamente diseñado.
 ## El Doom clásico
 
 Doom era espectacular a primera vista porque no había nada igual en aquellos
-años… el juego combinaba super bien los gráficos en 2D y 3D: los enemigos
+años… el juego combinaba muy bien los gráficos en 2D y 3D: los enemigos
 tenían rostro, jadeaban indicando que estaban al asecho y te permitía usar
 distintas técnicas para combatirlos, y si el juego te resultaba muy difícil
 podías ir guardando la partida poco a poco.
@@ -61,14 +61,14 @@ barril para que explote y esa explosión reviente a todos los enemigos cercanos.
 
 ![](/images/2020/doom/barriles.png)
 
-Pero lo que sin dudas hacía a doom especial eran sus mods. Algo que alargaba la
+Pero lo que sin dudas hacía a Doom especial eran sus MODS. Algo que alargaba la
 vida del juego, tanto para quienes jugábamos como para quienes querían
 construir sus propios niveles.
 
 ## Doom en la actualidad
 
 Para mi sorpresa, el hecho de que doom se pueda expandir mediante mods y
-motores mejorados, hizo que el juego siga se mantenja vigente todos
+motores mejorados, hizo que el juego se mantenga vigente todos
 estos años.
 
 Por ejemplo, esta semana estuve jugando un montón a un mod llamado “Brutal
@@ -78,7 +78,7 @@ Doom”:
 
 En este mod las armas son más rápidas, los enemigos tienen habilidades nuevas
 como saltar o esconderse, y hay montones de efectos agregados como humo,
-sangre, partículas etc…
+sangre, partículas etc.
 
 ![](/images/2020/doom/deathmatch.jpg)
 
@@ -87,7 +87,7 @@ Doom 2  de manera renovada.
 
 # ¿Cómo jugar a Doom hoy?
 
-Hoy existen re-ediciones del clásico doom para varias plataformas, Doom está en
+Hoy existen reediciones del clásico doom para varias plataformas, Doom está en
 [Steam](https://store.steampowered.com/sub/18397/),
 [Switch](https://www.nintendo.com/games/detail/doom-ii-classic-switch/) pero
 también se puede jugar con motores alternativos como GZDoom, PRBoom y
@@ -111,5 +111,5 @@ algunos .wad y dedicarle unas cuantas horas.
 
 Doom no solo es un gran juego, también logró perdurar todos estos años
 volviéndose cada vez mejor, parece mentira que ya pasaron más de 25 años desde
-su lanzamiento y aún así vale la pena jugar.
+su lanzamiento y aun así vale la pena jugar.
 

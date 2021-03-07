@@ -10,8 +10,8 @@ cover: /images/2021/falacias/portada.jpg
 
 No soy bueno argumentando, de hecho, en muchas discusiones 
 me siento frustrado al sentir que no puedo dar a entender mi punto
-de vista ... y alguna vez, incluso sin darme cuenta, me han hecho notar
-que mal interpreté argumentos de otras personas y caí en alguna de las
+de vista ... Y alguna vez, incluso sin darme cuenta, me han hecho notar
+que malinterpreté argumentos de otras personas y caí en alguna de las
 falacias más conocidas.
 
 Hoy recordé una de esas conversaciones, una especie de discusión sobre
@@ -32,7 +32,7 @@ Estas falacias están en todas partes, ya sea que nos demos cuenta o no, es
 común caer en una de estas "trampas" lógicas cuando estamos conversando o intentando
 argumentar algún punto.
 
-Lo malo de desconocer las falacias es que podes quedar como un tonto si caes
+Lo malo de desconocer las falacias es que podés quedar como un tonto si caes
 en una de ellas en medio de un argumento, o lo que es peor, la conversación
 podría terminar en nada porque el tema se vuelve confuso o los puntos
 de vista se polarizan.
@@ -57,25 +57,25 @@ sentado que estamos eligiendo la otra.
 
 Por ejemplo, evaluemos estos razonamientos:
 
-- Usemos un framework de terceros, sino vamos a terminar escribiendo nuestro propio framework.
+- Usemos un framework de terceros, si no vamos a terminar escribiendo nuestro propio framework.
 - O usamos React o vamos directamente con Angular.
-- Tenemos que usar programación funcional y estado inmutable, sino el código que maneja estado va a ser super complejo e inmanejable.
+- Tenemos que usar programación funcional y estado inmutable, si no el código que maneja estado va a ser muy complejo e inmanejable.
 
 Claro, en cualquiera de estos ejemplos se presentan dos opciones como las únicas
 a considerar cuando en realidad podríamos considerar otras completamente válidas.
 
-Un ejemplo que me llama la atención se ve en el sitio web de emberjs:
+Un ejemplo que me llama la atención se ve en el sitio web de EmberJS:
 
 {{<figure src="/images/2021/falacias/baterias.png" caption="Baterias incluidas o lo vas a tener que armar vos mismo...">}}
 
-Me gusta este ejemplo porque va en la linea del razonamiento "o usamos este framework o vamos a tener
+Me gusta este ejemplo porque va en la línea del razonamiento "o usamos este framework o vamos a tener
 que armarlo todo nosotros mismos". Cuando en realidad, no usar un framework no necesariamente
 te obliga a escribir uno propio, ¡no todas las personas viven de hacer frameworks!, hay otras
-opciones válidas como usar bibliotecas o encarar una aquitectura modesta, sin necesidad de
+opciones válidas como usar bibliotecas o encarar una arquitectura modesta, sin necesidad de
 generalizarla ni pretender reutilizarla en otros proyectos.
 
 Creo que esto sucede muchas veces de forma involuntaria, como programadores casi
-siempre intentamos limitar las opciones y tomar conclusiones rápido; es mucho
+siempre intentamos limitar las opciones y tomar conclusiones rápidas; es mucho
 más sencillo elegir así. 
 
 # Falacia "Strawman"
@@ -90,7 +90,7 @@ la última versión" mientras que otra persona podría usar la falacia y argumen
 "¡Ah, pero sería una locura reinventar la rueda y escribir todo ese código nosotros
 mismos como estás proponiendo!".
 
-El problema en este ejemplo es que la primer persona no está proponiendo reescribir
+El problema en este ejemplo es que la persona no está proponiendo reescribir
 todo desde cero ni reinventar nada... solo está proponiendo reducir la cantidad
 de dependencias.
 

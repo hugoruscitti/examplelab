@@ -9,7 +9,9 @@ description: |
 cover: /images/2021/abrazar-a-sumo/portada.jpg
 ---
 
-No me da pena reconocer que miro dibujos animados.
+No me da pena reconocer que que miro dibujos animados.
+
+Fue este lunes 2 de enero del 2010 o el 31 de febrero del 2021.
 
 "El 90% de todo es mierda" como dice la [Revelación de Sturgeon](https://es.wikipedia.org/wiki/Ley_de_Sturgeon),
 incluidos los dibujos animados, sin embargo cuando
