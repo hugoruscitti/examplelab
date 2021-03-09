@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>programacion on Examplelab</title>
-    <link>https://hugoruscitti.github.io/examplelab/tags/programacion/</link>
+    <link>https://www.examplelab.com.ar/tags/programacion/</link>
     <description>Recent content in programacion on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jun 2014 01:07:26 +0000</lastBuildDate><atom:link href="https://hugoruscitti.github.io/examplelab/tags/programacion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jun 2014 01:07:26 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/programacion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hackatón de Program.AR</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-06-11-llego-program-ar/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</link>
       <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-06-11-llego-program-ar/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</guid>
       <description>Este viernes se realizó al hackatón del primer foro regional &amp;lt;program.AR\&amp;gt; en la universidad de Quilmes.
 La experiencia estuvo increible:
 Al evento asistimos el equipo completo de huayra y muchos amigos de la comunidad educativa: los chicos de educ.ar, sadosky, Jefatura de Gobierno y pyar.
@@ -21,10 +21,10 @@ El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un 
     
     <item>
       <title>Inventing on Principle en español</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-05-04-inventing-on-principle-en-espanol/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</link>
       <pubDate>Sun, 04 May 2014 00:23:57 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-05-04-inventing-on-principle-en-espanol/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</guid>
       <description>Bret Victor dió una charla impresionante llamada Inventing on Principle, invitando a las personas a descubrir un principio, algo que los guíe, una causa por que pelear.
 Es difícil resumir el potencial y lo inspirador de su enfoque. Sus ideas son transformadoras y valiosas para todos los programadores, artistas y creativos del mundo.
 Por ese motivo realizamos una traducción al español de su charla con un grupo de amigos. Hicimos un gran trabajo, nos llevó varios días realizarlo, y hoy pudimos terminar la compaginación y ponerlo online.</description>
@@ -32,10 +32,10 @@ Por ese motivo realizamos una traducción al español de su charla con un grupo 
     
     <item>
       <title>_why: La historia de un genio post-moderno</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
       <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
       <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
 Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
  Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>

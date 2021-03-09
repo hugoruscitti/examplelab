@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Examplelab</title>
-    <link>https://hugoruscitti.github.io/examplelab/posts/</link>
+    <link>https://www.examplelab.com.ar/posts/</link>
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugoruscitti.github.io/examplelab/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mejoras en el corrector ortográfico de VIM</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</link>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</guid>
       <description>VIM incluye un corrector ortográfico que se puede activar con estos comandos:
 set spell set spelllang=es Sin embargo, este corrector solamente puede ayudarnos a detectar typos y algunas faltas de ortografía simples.
 Lo bueno es que VIM puede usar un corrector más completo llamado LanguageTool, que además de detectar errores ortográficos también detecta otros tipos de errores, como usos incorrectos de artículos, frases complejas y más.
@@ -21,10 +21,10 @@ Lo bueno es que VIM puede usar un corrector más completo llamado LanguageTool, 
     
     <item>
       <title>Abrazar a Sumo</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-03-05-abrazar-a-sumo/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-03-05-abrazar-a-sumo/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-03-05-abrazar-a-sumo/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-03-05-abrazar-a-sumo/</guid>
       <description>No me da pena reconocer que que miro dibujos animados.
 Fue este lunes 2 de enero del 2010 o el 31 de febrero del 2021.
 &amp;ldquo;El 90% de todo es mierda&amp;rdquo; como dice la Revelación de Sturgeon, incluidos los dibujos animados, sin embargo cuando miramos de cerca y buscamos ese 10% restante podemos encontrar cosas que vale la pena rescatar, historias que pueden transmitirnos sentimientos y miradas del mundo que ningún otro medio puede hacer.</description>
@@ -32,10 +32,10 @@ Fue este lunes 2 de enero del 2010 o el 31 de febrero del 2021.
     
     <item>
       <title>Replanteando la Programación Funcional</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-03-03-replanteando-la-programacion-funcional/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-03-03-replanteando-la-programacion-funcional/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</guid>
       <description>Esta semana escuché una entrevista a Eric Normand en donde describía la programación funcional de una manera completamente diferente para mí.
 Resulta que mis nociones de programación funcional vienen de mi paso por la facultad de ingeniería, donde descubrí la programación funcional en una materia llamada Paradigmas de Programación.
 En esa materia abordamos la programación funcional desde sus fundamentos, usando haskell y resolviendo ejercicios para familiarizarnos con el enfoque del paradigma.</description>
@@ -43,10 +43,10 @@ En esa materia abordamos la programación funcional desde sus fundamentos, usand
     
     <item>
       <title>Recortes y apuntes</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-03-01-recortes-y-apuntes/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-03-01-recortes-y-apuntes/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-03-01-recortes-y-apuntes/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-03-01-recortes-y-apuntes/</guid>
       <description>Tenemos mucha suerte de vivir en una época en donde existe acceso a tantas formas de aprendizaje.
 Tenemos acceso a videos, blogs, conferencias y podcasts de forma prácticamente gratuita, solo necesitas algo de tiempo y una conexión a Internet.
 Sin embargo, si te pasa lo mismo que a mí, mucho de lo que veas se te va a olvidar. Incluso aquellas cosas útiles y valiosas.
@@ -55,20 +55,20 @@ Aquí es donde entra en juego la idea de apuntes y recortes.</description>
     
     <item>
       <title>Escribiendo en el blog todos los días durante un mes</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/</link>
       <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/</guid>
       <description>Hace un mes nos desafiamos con OSiUX a escribir en nuestros blogs durante un mes, y yo gané. Bueno, en realidad, los dos ganamos&amp;hellip;
 Resulta que hace un mes OSiUX me envió un artículo llamado Prove you can write regularly before you think about the tools donde el autor menciona una realidad: mucha personas se preocupan más por encontrar la mejor herramienta para crear sus blogs que en escribir regularmente.</description>
     </item>
     
     <item>
       <title>Resaltando bloques en Pilas</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-24-resaltando-bloques-en-pilas/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/</link>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-24-resaltando-bloques-en-pilas/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/</guid>
       <description>Pilas permite visualizar el código que se está ejecutando en todo momento.
 La aplicación pinta con un color diferente las lineas de código que efectivamente se ejecutaron:
 Este resaltado es útil incluso para los que programamos hace tiempo. Porque sin esto te ves obligado a llenar el código de console.log para asegurarte de qué está haciendo el programa.
@@ -77,20 +77,20 @@ Sin embargo, cuando empecé a jugar con la idea de añadir bloques a Pilas, not�
     
     <item>
       <title>Tomar notas en VIM</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-23-tomar-notas-en-vim/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-23-tomar-notas-en-vim/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-23-tomar-notas-en-vim/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-23-tomar-notas-en-vim/</guid>
       <description>Tomar notas está bueno, te da mucha claridad sobre lo que estás haciendo día a día y es una buena oportunidad para hacer una pausa, reflexionar y tomar alguna que otra decisión.
 Uso una aplicación llamada Bear para tomar todas mis notas, algunas notas se convierten en bocetos de artículos que me interesan, resúmenes de libros e incluso algunas notas van dedicadas a una especie de diario personal que uso para reflexionar.</description>
     </item>
     
     <item>
       <title>Portapapeles en VIM</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-22-portapapeles-en-vim/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-22-portapapeles-en-vim/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-22-portapapeles-en-vim/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-22-portapapeles-en-vim/</guid>
       <description>VIM tiene un sistema de portapapeles propio, independiente del sistema.
 Esto nos permite tener múltiples portapapeles dentro de VIM y algo de independencia con el resto del sistema.
 Sin embargo, muchas veces me pasa que quiero copiar y pegar texto entre distintas aplicaciones, y VIM es un poquito incómodo a la hora de hacer estas cosas.
@@ -99,10 +99,10 @@ Resulta que VIM gestiona todo lo que copiamos o pegamos en registros nombrados. 
     
     <item>
       <title>Sobre Bloques vs Código</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-19-bloques-y-codigo/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-19-bloques-y-codigo/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/</guid>
       <description>Hace unas semanas me propuse hacer un experimento dentro de pilas-engine para permitir que las personas puedan programar usando bloques.
 Al principio imaginé que podría hacer dos versiones diferentes de pilas-engine, ya que algunas personas podrían querer programar en código, mientras que otras podrían preferir usar bloques (como en scratch).
 Sin embargo noté que las dos cosas pueden funcionar juntas. Los actores podría responder a las órdenes que les damos escribiendo código o encastrando bloques.</description>
@@ -110,10 +110,10 @@ Sin embargo noté que las dos cosas pueden funcionar juntas. Los actores podría
     
     <item>
       <title>Controlando el navegador con el teclado</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-18-controlando-el-navegador-con-el-teclado/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-18-controlando-el-navegador-con-el-teclado/</link>
       <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-18-controlando-el-navegador-con-el-teclado/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-18-controlando-el-navegador-con-el-teclado/</guid>
       <description>Usar el teclado para navegar dentro de un editor se volvió un camino de ida para mí, a tal punto que empecé a reemplazar el mouse por el teclado en todo los lugares que pude, por ejemplo en el navegador:
 Hace unos años vengo utilizando una extensión llamada SurfingKeys que está disponible para Brave, Firefox y Chrome.
 Esta extensión hace que usar el navegador se parezca un poquito más a utilizar VIM, tiene modos, atajos de teclado y hasta un mini-editor de textos para sentirse como en VIM.</description>
@@ -121,40 +121,40 @@ Esta extensión hace que usar el navegador se parezca un poquito más a utilizar
     
     <item>
       <title>Personalizando el teclado</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-17-personalizando-el-teclado/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-17-personalizando-el-teclado/</link>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-17-personalizando-el-teclado/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-17-personalizando-el-teclado/</guid>
       <description>Hace unos meses leí un artículo que me animó a practicar mecanografía todos los días. No solo me dieron ganas de escribir más rápido, sino que hizo re-diseñar la forma en la que uso el teclado.
 Y es que con los años fui desarrollando la costumbre de escribir muy libremente y hoy estoy tratando de &amp;ldquo;volver a aprender&amp;rdquo; para mejorar varios problemas: casi no uso los dedos meñiques, mis manos se desplazan un montón mientras escribo porque al no usar los meñiques me cuesta alcanzar algunas teclas, y suelo cometer varios errores al escribir.</description>
     </item>
     
     <item>
       <title>La culpa no es del DOM</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-16-la-culpa-no-es-del-dom/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-16-la-culpa-no-es-del-dom/</link>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-16-la-culpa-no-es-del-dom/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-16-la-culpa-no-es-del-dom/</guid>
       <description>Usar un Framework para escribir tu aplicación JavaScript tiene varias ventajas, sin embargo, creo que hay que revisar una idea que vi en varias charlas técnicas y algún que otro tutorial cuando se intenta justificar el uso de un Framework que me parece incorrecta.
 Se suele decir que cambiar el DOM con las APIs nativas del navegador es un proceso costoso (computacionalmente hablando) y que por ese motivo conviene usar virtualDom o una abstracción similar.</description>
     </item>
     
     <item>
       <title>Introducción a presupuestos</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-12-introduccion-a-presupuestos/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-12-introduccion-a-presupuestos/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-12-introduccion-a-presupuestos/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-12-introduccion-a-presupuestos/</guid>
       <description>La plata se puede volver un tema de estrés y mucha incertidumbre, incluso si tenes el privilegio de contar con un trabajo que te permite llegar a fin de mes sin sobresaltos. Cuanto más ganas, más gastas, nos pasa a todos.
 El estrés está en cada momento en que me pregunto: ¿podré afrontar este gasto?, ¿estaré hipotecando mi futuro si hago este pago en cuotas?, ¿será que voy a poder tomarme vacaciones?</description>
     </item>
     
     <item>
       <title>Abandonar libros está bien</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-10-abandonar-libros-esta-bien/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-10-abandonar-libros-esta-bien/</link>
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-10-abandonar-libros-esta-bien/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-10-abandonar-libros-esta-bien/</guid>
       <description>Leer libros es algo que parece natural y que nadie nos tiene que decir cómo hacerlo. Sin embargo, creo que durante muchos años estuve leyendo con algunas ideas incorrectas sobre la lectura en general.
 Alguna de las ideas que tenía en mente sobre la lectura creo que las aprendí en la escuela, pero nunca reflexioné sobre ellas como para darme cuenta que no funcionan bien en mi vida.
 Una de esas ideas era que los libros había que leerlos completos; comenzar por el principio, leerlos en orden y llegar a la conclusión para dar el libro por finalizado.</description>
@@ -162,10 +162,10 @@ Una de esas ideas era que los libros había que leerlos completos; comenzar por 
     
     <item>
       <title>Haciendo un sistema de eventos tipado</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-09-sistema-de-eventos-tipados/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-09-sistema-de-eventos-tipados/</link>
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-09-sistema-de-eventos-tipados/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-09-sistema-de-eventos-tipados/</guid>
       <description>Cuando empecé a investigar acerca de TypeScript no le vi mucha utilidad. Declarar tipos de datos para variables simples como number o string no me parecía nada valioso.
 Sin embargo, cuando se trata de estructuras de datos la cosa se pone interesante. TypeScript nos permite describir la &amp;ldquo;forma&amp;rdquo; que deberán tener ciertas estructuras de datos y eso hace que nuestro código gane algo de consistencia adicional.
 Después de todo, la pieza más importante de un programa son sus estructuras de datos y ayuda mucho poder detectar inconsistencias mientras estamos escribiendo el código.</description>
@@ -173,10 +173,10 @@ Después de todo, la pieza más importante de un programa son sus estructuras de
     
     <item>
       <title>Una estructura de proyecto minimalista en TypeScript</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-08-estructura-de-proyecto-minimalista/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-08-estructura-de-proyecto-minimalista/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-08-estructura-de-proyecto-minimalista/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-08-estructura-de-proyecto-minimalista/</guid>
       <description>Hace algunos meses me empecé a interesar en formas simples en hacer proyectos en JavaScript, leí el libro Modest JS Works y también empecé a usar algunas ideas de The VanillaJS Toolkit.
 Realmente extraño la sensación de hacer aplicaciones completas por mi mismo, sin depender de cientos de megabytes en dependencias, frameworks sofisticados y un ecosistema de herramientas que están cambiando todo el tiempo.
 ¿Por qué? Hace unos años, podías escribir un sistema completo por tu propia cuenta, necesitabas Apache, PHP, un editor de textos y ganas de programar.</description>
@@ -184,10 +184,10 @@ Realmente extraño la sensación de hacer aplicaciones completas por mi mismo, s
     
     <item>
       <title>¿Y si programamos en castellano?</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-05-programar-en-castellano/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-05-programar-en-castellano/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</guid>
       <description>Tomar decisiones todo el día demanda mucha energía, incluso cosas simples como: qué vas a almorzar, o qué nombre le vas a poner a esa función en el código.
 Cada pequeña decisión te consume un poco de tiempo y energía.
 Por eso creo que vamos desarrollando la tendencia a responder en modo automático, como si nos dijéramos a nosotros mismos:
@@ -196,30 +196,30 @@ Por eso creo que vamos desarrollando la tendencia a responder en modo automátic
     
     <item>
       <title>Mejorar 1% cada día</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-04-mejorar-1-por-ciento/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-04-mejorar-1-por-ciento/</link>
       <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-04-mejorar-1-por-ciento/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-04-mejorar-1-por-ciento/</guid>
       <description>Siempre que termino de trabajar me pongo a pensar si el día me sirvió o no. Me gusta sentir que aprendí algo nuevo, que pude resolver un problema o simplemente saber que no estuve perdiendo el tiempo frente a la computadora.
 Sin embargo hay días donde es difícil hacer esa lectura, ya sea porque me quedó una tarea muy aburrida por hacer o porque algún detalle me hizo retroceder y pelear con la herramienta en lugar de avanzar.</description>
     </item>
     
     <item>
       <title>El regocijo de usar VIM</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-03-el-regocijo-de-usar-vim/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-03-el-regocijo-de-usar-vim/</link>
       <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-03-el-regocijo-de-usar-vim/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-03-el-regocijo-de-usar-vim/</guid>
       <description>VIM es un editor de texto muy particular, para empezar: está ligeramente orientado a facilitar operaciones como navegar y editar texto en lugar de ser un editor principalmente para escribir. Esto hace que toda la experiencia de usar la herramienta esté mediada por este enfoque inicial.
 Por ejemplo, cuando ingresas en VIM, el editor espera que ingreses comandos pulsando teclas, en lugar de trasladar esas teclas en caracteres y colocarlas en el archivo de texto como hacen la mayoría de los editores de texto.</description>
     </item>
     
     <item>
       <title>Acerca de ser intencional</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-02-02-acerca-de-ser-intencional/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-02-02-acerca-de-ser-intencional/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-02-02-acerca-de-ser-intencional/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-02-02-acerca-de-ser-intencional/</guid>
       <description>Algo valioso de tener la oportunidad de leer libros e indagar en las ideas de otras personas es poder encontrarse con palabras que describen exactamente lo que que antes era invisible.
 Este es el caso de la palabra &amp;ldquo;intención&amp;rdquo; para mí.
 Al principio del año pasado pude leer el libro Digital Minimalism en donde se menciona este concepto de &amp;ldquo;intención&amp;rdquo; como uno de los pilares a la hora de pensar en Internet como una herramienta a nuestro servicio y todo lo que trae aparejado para nuestra dieta de información.</description>
@@ -227,10 +227,10 @@ Al principio del año pasado pude leer el libro Digital Minimalism en donde se m
     
     <item>
       <title>Coleccionado artículos web</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-01-29-coleccionando-articulos/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-01-29-coleccionando-articulos/</link>
       <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-01-29-coleccionando-articulos/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-01-29-coleccionando-articulos/</guid>
       <description>Hace unos meses vi un artículo llamado This Page is Designed to Last que me hizo pensar en lo efímera que es la web.
 El artículo describe cómo va cambiando la web con los años: y como los artículos, foros, tutoriales y recursos dejan de existir de un día para otro.
 Y esto no es algo que solo afecta a quienes publican contenido en la web, también afecta a quienes leemos, aprendemos y queremos compartir lo que nos gusta de la web con otras personas:</description>
@@ -238,30 +238,30 @@ Y esto no es algo que solo afecta a quienes publican contenido en la web, tambi�
     
     <item>
       <title>Falacias, falacias por todos lados</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-01-27-falacias/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-01-27-falacias/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-01-27-falacias/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-01-27-falacias/</guid>
       <description>No soy bueno argumentando, de hecho, en muchas discusiones me siento frustrado al sentir que no puedo dar a entender mi punto de vista &amp;hellip; Y alguna vez, incluso sin darme cuenta, me han hecho notar que malinterpreté argumentos de otras personas y caí en alguna de las falacias más conocidas.
 Hoy recordé una de esas conversaciones, una especie de discusión sobre tests y calidad de software que terminaron en nada.</description>
     </item>
     
     <item>
       <title>Haciendo un Remix del juego Ceferino</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2021-01-25-remix-de-ceferino/</link>
+      <link>https://www.examplelab.com.ar/posts/2021-01-25-remix-de-ceferino/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2021-01-25-remix-de-ceferino/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2021-01-25-remix-de-ceferino/</guid>
       <description>Don Ceferino Hazaña es uno de los primeros juegos que hicimos con Walter Velazquez allá por el año 2004:
 Creo que fue uno de los juegos a los que más tiempo y ganas le dedicamos, yo apenas estaba aprendiendo a programar así que me costó el triple de lo que esperaba al principio. Fue una de las primeras estimaciones &amp;ldquo;fallidas&amp;rdquo; de mi vida, imaginé que el juego completo se podría hacer en &amp;ldquo;un par de semanas&amp;rdquo;, y casi estuvimos un año entero haciéndolo :P</description>
     </item>
     
     <item>
       <title>Volviendo a jugar Doom</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2020-08-25-doom/</link>
+      <link>https://www.examplelab.com.ar/posts/2020-08-25-doom/</link>
       <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2020-08-25-doom/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2020-08-25-doom/</guid>
       <description>Volví a jugar al juego Doom después de casi 25 años y la experiencia fue fenomenal.
 No solo pude experimentar la nostalgia de volver disfrutar un videojuego que me encantaba de chico, volver a escuchar los mismos sonidos, los gráficos pixelados y recordar niveles; también me volví a encontrar con un gran juego perfectamente diseñado.
 ¿Qué lo hace un gran juego? ¿Por qué vale la pena volver a jugarlo en 2020?</description>
@@ -269,10 +269,10 @@ No solo pude experimentar la nostalgia de volver disfrutar un videojuego que me 
     
     <item>
       <title>Tortugas en el tiempo</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2020-08-08-tortugas-en-el-tiempo/</link>
+      <link>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2020-08-08-tortugas-en-el-tiempo/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</guid>
       <description>En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
 Podes ver el proyecto aquí:
  https://hugoruscitti.github.io/tortugas-en-el-tiempo   video { width: 100%; border: 1px solid gray; margin-top: 0.5em; margin-bottom: 0.5em; }  Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.</description>
@@ -280,10 +280,10 @@ Podes ver el proyecto aquí:
     
     <item>
       <title>Creando un cuadro 3D de Dragon Punch</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/</link>
+      <link>https://www.examplelab.com.ar/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/</link>
       <pubDate>Sat, 15 Feb 2020 23:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/</guid>
       <description>Junto a Wally nos propusimos hacer unos cuadros para homenajear un video juego que habíamos hecho hace un par de años.
 Lo divertido de ese mini proyecto es que nos aventuramos a realizar el cuadro usando relieve, para que tenga un aspecto de profundidad entre el fondo de la escena y los Sprites del juego:
 El proyecto fue tan divertido que me pareció buena idea escribir sobre ello por si te gustaría hacer algo similar y estás buscando ideas.</description>
@@ -291,40 +291,40 @@ El proyecto fue tan divertido que me pareció buena idea escribir sobre ello por
     
     <item>
       <title>Armando un Audio Switch</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2020-01-24-creando-un-audio-switch/</link>
+      <link>https://www.examplelab.com.ar/posts/2020-01-24-creando-un-audio-switch/</link>
       <pubDate>Fri, 24 Jan 2020 23:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2020-01-24-creando-un-audio-switch/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2020-01-24-creando-un-audio-switch/</guid>
       <description>Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar de trabajo: compré una silla para mejorar mi postura, un escritorio grande, un monitor y algunas cosas más … Después de todo, la computadora (y sus accesorios) son mi herramienta de trabajo, por mas tonto que suene, me pagan por hacer cosas con ella :|
 Sin embargo, había una pequeña piedra en el zapato que desató un proyecto simple y divertido:</description>
     </item>
     
     <item>
       <title>La documentación no muerde</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2018-12-15-la-documentacion-no-muerde/</link>
+      <link>https://www.examplelab.com.ar/posts/2018-12-15-la-documentacion-no-muerde/</link>
       <pubDate>Sat, 15 Dec 2018 14:11:38 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2018-12-15-la-documentacion-no-muerde/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2018-12-15-la-documentacion-no-muerde/</guid>
       <description>Sé que suena un poco fuerte, pero no te ofendas&amp;hellip; esta leyenda es para mí, y la escribo acá como una forma de no olvidarme lo que pasó hoy y seguir aprendiendo.
 Si sos como yo, y programas hace algunos años, seguramente recurrís con urgencia a google o stack overflow cuando algo no sale bien, ya sea por un error imprevisto o un desafío que parece trivial, es fácil recurrir rápidamente a Internet como una herramienta auxiliar.</description>
     </item>
     
     <item>
       <title>¡Comenzamos Pilas Engine 2!</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2018-03-04-comenzamos-pilas-engine-2/</link>
+      <link>https://www.examplelab.com.ar/posts/2018-03-04-comenzamos-pilas-engine-2/</link>
       <pubDate>Sun, 04 Mar 2018 21:00:46 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2018-03-04-comenzamos-pilas-engine-2/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2018-03-04-comenzamos-pilas-engine-2/</guid>
       <description>Wooow, ¡Pilas está cerca de cumplir 8 años!, y semejante acontecimiento me hizo tomar valor para encarar un cambio muy grande que veníamos planeando con la comunidad hace tiempo: crear la versión 2 de Pilas Engine.
 Desde que el proyecto comenzó el 1 de Agosto de 2010 pudimos transitar todos estos años mejorando y ayudando a un montón de personas a aprender a programar videojuegos. El motor creció, formamos una gran comunidad y aprendimos mucho.</description>
     </item>
     
     <item>
       <title>Creando un visor de videos offline con electron y ember</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/</link>
+      <link>https://www.examplelab.com.ar/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/</link>
       <pubDate>Thu, 02 Jun 2016 19:17:18 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/</guid>
       <description>Introducción Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5:
 La aplicación en sí es muy simple, está pensanda para crear una biblioteca de videos para mirar con los más chiquitos de la familia sin necesidad de Internet, youtube o publicidades.
 Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.</description>
@@ -332,10 +332,10 @@ Técnicamente hablando, la aplicación simplemente busca videos en un directorio
     
     <item>
       <title>¡ The Zombie Smasher !</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2016-04-26-publicamos-the-zombie-smasher/</link>
+      <link>https://www.examplelab.com.ar/posts/2016-04-26-publicamos-the-zombie-smasher/</link>
       <pubDate>Tue, 26 Apr 2016 19:18:46 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2016-04-26-publicamos-the-zombie-smasher/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2016-04-26-publicamos-the-zombie-smasher/</guid>
       <description>Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!
 En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:
  ¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
@@ -344,10 +344,10 @@ Lo que aprendimos Unity es fascinante, no sólo para desarrollar el juego en sí
     
     <item>
       <title>Agregando efectos especiales en juegos 2D</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</link>
+      <link>https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</link>
       <pubDate>Fri, 15 Apr 2016 21:02:50 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</guid>
       <description>Esta semana estuvimos agregando efectos especiales a uno de nuestros juegos en unity:
 Pero a diferencia de lo que hicimos en otros juegos, aquí no usamos partículas sino efectos prediseñados de video, que luego de procesarlos como imágenes se pueden integrar a unity.
 ¿Por qué? Los efectos de videos tienen una apariencia espectacular, sobretodo cuando de trata de juegos 2d, caricaturescos y divertidos.
@@ -356,10 +356,10 @@ Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como l
     
     <item>
       <title>¡ Dragon Punch !</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</link>
+      <link>https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</link>
       <pubDate>Wed, 25 Nov 2015 16:17:33 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</guid>
       <description>Hoy quiero mostrarles un juego en el que venimos trabajando hace algunos meses: Dragon Punch, inspirado en la serie animada Dragon Ball.
 Gameplay El juego está orientado a usuarios de dispositivos móviles, como celulares y tablets, así que la forma de jugar es haciendo movimientos de desplazamiento sobre la pantalla:
  El objetivo del juego es que el jugador pueda controlar a yamcha para defenderse de los saibamens, dando golpes de puño y patadas.</description>
@@ -367,10 +367,10 @@ Gameplay El juego está orientado a usuarios de dispositivos móviles, como celu
     
     <item>
       <title>¡ Publicamos Dracula&#39;s Nightmare !</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2015-07-12-draculas/</link>
+      <link>https://www.examplelab.com.ar/posts/2015-07-12-draculas/</link>
       <pubDate>Sun, 12 Jul 2015 22:18:39 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2015-07-12-draculas/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2015-07-12-draculas/</guid>
       <description>Esta semana Wally, BalbiNos y yo, publicamos nuestro primer videojuego para iOS (y pronto android): Dracula&amp;rsquo;s Nightmare en el marco de nuestro emprendimiento independiente 2players :
 ¿En que consiste? El juego es super sencillo, es un juego de supervivencia donde manejamos un pequeño vampiro que tiene que sobrevivir a todos los objetos que le arrojan los pueblerinos enfurecidos:
  El proceso de desarrollo Para realizar el juego nos pusimos a investigar varias alternativas, probamos con HTML5 junto cocoonjs, V-Play, SpriteKit y Unity.</description>
@@ -378,10 +378,10 @@ Gameplay El juego está orientado a usuarios de dispositivos móviles, como celu
     
     <item>
       <title>Buscar e instalar en Huayra</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2015-05-20-buscar-e-instalar-en-huayra/</link>
+      <link>https://www.examplelab.com.ar/posts/2015-05-20-buscar-e-instalar-en-huayra/</link>
       <pubDate>Wed, 20 May 2015 03:13:32 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2015-05-20-buscar-e-instalar-en-huayra/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2015-05-20-buscar-e-instalar-en-huayra/</guid>
       <description>Esta semana creamos una herramienta nueva para todos los usuarios de huayra linux: huayra-alias.
 El objetivo de esta herramienta es facilitar la búsqueda e instalación de paquetes con dos comandos nuevos. Ayudando a simplificar tutoriales, acortar instrucciones y escribir menos :)
 Pensando en comandos &amp;hellip; Huayra está basado en debian gnu/linux, una de las distribuciones más sólidas y prestigiosas impulsada por la comunidad de software libre.
@@ -390,10 +390,10 @@ Y en debian, como en muchas otras distribuciones de linux, se utilizan comandos 
     
     <item>
       <title>Haciendo indicadores de actualización</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2015-03-01-indicadores-de-version/</link>
+      <link>https://www.examplelab.com.ar/posts/2015-03-01-indicadores-de-version/</link>
       <pubDate>Sun, 01 Mar 2015 04:30:33 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2015-03-01-indicadores-de-version/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2015-03-01-indicadores-de-version/</guid>
       <description>Esta semana pusimos en marcha un indicador de versiones muy simple para las aplicaciones de huayra.
 Hicimos algo similar a lo que venía haciendo en pilas-engine, pero de manera mas sencilla:
 La idea es muy simple, cada vez que se abre una aplicación, buscamos informar a los usuarios si existe una versión mas reciente en nuestros servidores, y si es así, lo informamos.
@@ -402,10 +402,10 @@ La idea es muy simple, cada vez que se abre una aplicación, buscamos informar a
     
     <item>
       <title>¡ huayra-mu !</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2015-02-09-llega-huayra-mu/</link>
+      <link>https://www.examplelab.com.ar/posts/2015-02-09-llega-huayra-mu/</link>
       <pubDate>Mon, 09 Feb 2015 16:31:56 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2015-02-09-llega-huayra-mu/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2015-02-09-llega-huayra-mu/</guid>
       <description>Hoy quiero presentarles una aplicación nueva, diseñada especialmente para el nuevo huayra 3.0, huayra-mu:
 La herramienta está orientada principalmente a programadores y diseñadores, porque permite crear la estructura inicial de un proyecto con mucha facilidad, siguiendo buenas prácticas y de manera muy rápida.
 La idea es simple, huayra-mu se inicia desde una terminal, pregunta el nombre del proyecto, la tecnología a utilizar y listo:
@@ -414,10 +414,10 @@ El proyecto generado quedará guardado dentro de un directorio, en donde podemos
     
     <item>
       <title>La renovación de pilas-engine</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2015-01-21-la-renovacion-de-pilas-engine/</link>
+      <link>https://www.examplelab.com.ar/posts/2015-01-21-la-renovacion-de-pilas-engine/</link>
       <pubDate>Wed, 21 Jan 2015 02:26:10 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2015-01-21-la-renovacion-de-pilas-engine/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2015-01-21-la-renovacion-de-pilas-engine/</guid>
       <description>Estamos muy cerca de lanzar la versión 0.91 de pilas-engine, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión y contarte el por qué de estos cambios.
 Esta es una versión muy especial, principalmente porque añadimos muchos cambios en la estructura completa del motor.
 Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero, Walter Velazquez y el equipo de HuayraLinux hicieron posible esta nueva versión.</description>
@@ -425,10 +425,10 @@ Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero
     
     <item>
       <title>Escalando imágenes con node-webkit</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2015-01-06-escalando-imagenes-con-node-webkit/</link>
+      <link>https://www.examplelab.com.ar/posts/2015-01-06-escalando-imagenes-con-node-webkit/</link>
       <pubDate>Tue, 06 Jan 2015 18:37:43 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2015-01-06-escalando-imagenes-con-node-webkit/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2015-01-06-escalando-imagenes-con-node-webkit/</guid>
       <description>En este artículo quiero mostrar cómo se pueden procesar imágenes de manera rápida y multiplataforma desde node-webkit, usando ImageMagick y emberjs.
 ImageMagick es un conjunto de herramientas para procesar imágenes: escalar, recortar, convertir y aplicar efectos principalmente.
 Un pequeño ejemplo Para mostrar cómo combinar estas dos tecnologías, armé un proyecto mas pequeño a modo de ejemplo. Está disponible en el repositorio hugoruscitti/image-resizer-node-webkit de mi cuenta en github.
@@ -437,10 +437,10 @@ La aplicación simplemente convierte la imagen que enviemos a 2 tamaños diferen
     
     <item>
       <title>Usando ember-cli con node-webkit</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-12-13-usando-ember-cli-con-node-webkit/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-12-13-usando-ember-cli-con-node-webkit/</link>
       <pubDate>Sat, 13 Dec 2014 08:38:28 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-12-13-usando-ember-cli-con-node-webkit/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-12-13-usando-ember-cli-con-node-webkit/</guid>
       <description>Hace unas semanas estoy muy entusiasmado con emberjs y la posibilidad de incorporarlo en las aplicaciones desktop que desarrollamos en huayra y conectar igualdad.
 emberjs es un framework javascript para construir aplicaciones web, en cierta manera es similar a angularjs, pero con un enfoque diferente y algunas herramientas fantásticas como ember-cli.
 Mi sorpresa principal fue encontrarme que ember-cli, no funcionaba junto a node-webkit inmediatamente. Me llevó varias horas comprender el motivo y poder resolverlo, así que en este post voy a resumir lo que aprendí y lo quiero compartir con ustedes.</description>
@@ -448,10 +448,10 @@ Mi sorpresa principal fue encontrarme que ember-cli, no funcionaba junto a node-
     
     <item>
       <title>Presentando huayra-caripela</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-06-27-presentando-caripela/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-06-27-presentando-caripela/</link>
       <pubDate>Fri, 27 Jun 2014 22:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-06-27-presentando-caripela/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-06-27-presentando-caripela/</guid>
       <description>Hace unas semanas empezamos a realizar una aplicación nueva: huayra-caripela.
 Es una aplicación muy sencilla, que sirve para hacer avatares y personalizar las preferencias de tu usuario en huayra linux:
 Como se puede ver en la captura, &amp;ldquo;caripela&amp;rdquo; te muestra una galería de objetos en pantalla para armar un rostro, con muchas posibles combinaciones:
@@ -460,10 +460,10 @@ Como se puede ver en la captura, &amp;ldquo;caripela&amp;rdquo; te muestra una g
     
     <item>
       <title>Hackatón de Program.AR</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-06-11-llego-program-ar/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</link>
       <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-06-11-llego-program-ar/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</guid>
       <description>Este viernes se realizó al hackatón del primer foro regional &amp;lt;program.AR\&amp;gt; en la universidad de Quilmes.
 La experiencia estuvo increible:
 Al evento asistimos el equipo completo de huayra y muchos amigos de la comunidad educativa: los chicos de educ.ar, sadosky, Jefatura de Gobierno y pyar.
@@ -472,10 +472,10 @@ El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un 
     
     <item>
       <title>¡Empezó el curso online de pilas!</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-05-26-empezo-el-curso-online-de-pilas/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-05-26-empezo-el-curso-online-de-pilas/</link>
       <pubDate>Mon, 26 May 2014 02:49:18 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-05-26-empezo-el-curso-online-de-pilas/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-05-26-empezo-el-curso-online-de-pilas/</guid>
       <description>Esta semana arrancó la clase 3 del curso online de pilas-engine, un tutorial completo de programación, orientado a jóvenes que quieren crear sus propios videojuegos.
 El curso está online gracias a educ.ar, que nos capacitó y puso a nuestra disposición un sin-fin de herramientas y apoyo.
 ¿ Y cómo es ? El curso va dirigido a jóvenes de escuelas secundarias, con ganas de aprender a realizar sus propios videojuegos; programando, diseñando e incluso haciendo sus propios gráficos.</description>
@@ -483,10 +483,10 @@ El curso está online gracias a educ.ar, que nos capacitó y puso a nuestra disp
     
     <item>
       <title>Inventing on Principle en español</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-05-04-inventing-on-principle-en-espanol/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</link>
       <pubDate>Sun, 04 May 2014 00:23:57 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-05-04-inventing-on-principle-en-espanol/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</guid>
       <description>Bret Victor dió una charla impresionante llamada Inventing on Principle, invitando a las personas a descubrir un principio, algo que los guíe, una causa por que pelear.
 Es difícil resumir el potencial y lo inspirador de su enfoque. Sus ideas son transformadoras y valiosas para todos los programadores, artistas y creativos del mundo.
 Por ese motivo realizamos una traducción al español de su charla con un grupo de amigos. Hicimos un gran trabajo, nos llevó varios días realizarlo, y hoy pudimos terminar la compaginación y ponerlo online.</description>
@@ -494,10 +494,10 @@ Por ese motivo realizamos una traducción al español de su charla con un grupo 
     
     <item>
       <title>StopMotion de &#34;yie ar kung-fu&#34;</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-04-19-stopmotion_kungfu/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-04-19-stopmotion_kungfu/</link>
       <pubDate>Sat, 19 Apr 2014 21:29:49 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-04-19-stopmotion_kungfu/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-04-19-stopmotion_kungfu/</guid>
       <description>Esta semana estuvimos haciendo nuestro primer mini corto de stomotion con Walter Velazquez:
 Hicimos un pequeño homenajeando al videojuego &amp;ldquo;yie ar kung-fu&amp;rdquo;, un juego que habíamos jugado miles de veces cuando eramos chicos, usando la consola family game (también llamada NES).
 Así se veía el mítico videojuego original en sus días de gloria:
@@ -507,10 +507,10 @@ Recursos Empezamos definiendo rápidamente la idea de la animación, Walter ya t
     
     <item>
       <title>Taller de stop-motion en huayra</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-03-30-taller-de-stop-motion-en-huayra/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-03-30-taller-de-stop-motion-en-huayra/</link>
       <pubDate>Sun, 30 Mar 2014 05:51:10 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-03-30-taller-de-stop-motion-en-huayra/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-03-30-taller-de-stop-motion-en-huayra/</guid>
       <description>El viernes pasado armamos con los chicos de huayra un taller de stopmotion.
 En el taller Claudio Andaur resumió en una animación muy ilustrativa 3 técnicas de stopmotion. Primero nos mostró como trabajar mediante sustitución usando unas figuras de papel que había preparado:
 Luego nos ejemplificó el principio de squash y stretch, haciendo una animación con una pelotita de plastilina que rebotaba por el escenario (¿ era tiro oblícuo al final ?</description>
@@ -518,10 +518,10 @@ Luego nos ejemplificó el principio de squash y stretch, haciendo una animación
     
     <item>
       <title>Se viene huayra-motion ...</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-03-05-se-viene-huayra-motion/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-03-05-se-viene-huayra-motion/</link>
       <pubDate>Wed, 05 Mar 2014 17:42:52 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-03-05-se-viene-huayra-motion/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-03-05-se-viene-huayra-motion/</guid>
       <description>Huayra-motion es una de las novedades que tenemos preparadas para el lanzamiento de huayra 2:
 Un programa que te permite crear películas y cortos animados usando la técnica de stop-motion de manera sencilla y divertida.
 En este post te voy a contar las características principales y un poquito de historia sobre el proyecto.
@@ -531,19 +531,19 @@ Cuando abrís el programa aparece un asistente que te guia en los primeros pasos
     
     <item>
       <title>Interrumpiendo al programador</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-02-28-interrumpiendo-al-programador/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-02-28-interrumpiendo-al-programador/</link>
       <pubDate>Fri, 28 Feb 2014 22:56:09 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-02-28-interrumpiendo-al-programador/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-02-28-interrumpiendo-al-programador/</guid>
       <description>Esta simple caricatura explica el impacto de las interrupciones en la cabeza de un programador:</description>
     </item>
     
     <item>
       <title>Presentando huayra-compartir</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-02-20-presentanto-huayra-compartir/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-02-20-presentanto-huayra-compartir/</link>
       <pubDate>Thu, 20 Feb 2014 13:14:26 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-02-20-presentanto-huayra-compartir/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-02-20-presentanto-huayra-compartir/</guid>
       <description>Esta semana quiero presentarles un software que estamos escribiendo en conectar igualdad. Es una aplicación que vamos a incluir en el sistema operativo huayra GNU/Linux 2.0:
 huayra-compartir es una herramienta que permite intercambiar archivos de manera muy sencilla; la aplicación puede descubrir a todos los equipos en la red automáticamente, ofrece una interfaz de usuario muy simple y no necesita acceso a Internet para funcionar:
 El software surgió de una idea que teníamos en el equipo hace tiempo; por suerte los primeros prototipos salieron tan bien que arrancamos con todo!</description>
@@ -551,10 +551,10 @@ El software surgió de una idea que teníamos en el equipo hace tiempo; por suer
     
     <item>
       <title>Como instalar nodejs en huayra-linux</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-01-29-como-instalar-nodejs-en-huayra-linux/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-01-29-como-instalar-nodejs-en-huayra-linux/</link>
       <pubDate>Wed, 29 Jan 2014 21:04:56 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-01-29-como-instalar-nodejs-en-huayra-linux/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-01-29-como-instalar-nodejs-en-huayra-linux/</guid>
       <description>Importante: En huayra 3.0 se incluyó nodejs de forma nativa, así que estas instrucciones no son necesaria, solamente son útiles para versiones anteriores a la huayra 3.0 u otros sistemas que no incluyan nodejs.
 Nodejs es una de las herramientas que estoy utilizando en huayra como plataforma para las aplicaciones nuevas, como huayra-compatir, huayra-motion y el visor de manual.
 Hoy lamentablemente no tenemos nodejs como paquete pre-instalado en la distribución, así que para tenerlo funcionando hay que hacer algunos pasos previos.</description>
@@ -562,10 +562,10 @@ Hoy lamentablemente no tenemos nodejs como paquete pre-instalado en la distribuc
     
     <item>
       <title>_why: La historia de un genio post-moderno</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
       <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
       <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
 Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
  Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
@@ -573,10 +573,10 @@ Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la ha
     
     <item>
       <title>FMSL 2013</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-01-19-misol-2013/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-01-19-misol-2013/</link>
       <pubDate>Sun, 19 Jan 2014 21:52:52 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-01-19-misol-2013/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-01-19-misol-2013/</guid>
       <description>El mes pasado tuve la posibilidad de asistir y participar como orador del Festival Misionero de Software Libre.
  La experiencia fué alucinante, viajé junto a Héctor Sanchez desde Buenos Aires, y allá en misiones nos recibió Josi Guaimas.
 Les dejo algunas de las fotos que tomaron los organizadores del evento:
@@ -585,10 +585,10 @@ Les dejo algunas de las fotos que tomaron los organizadores del evento:
     
     <item>
       <title>Paneles animados</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2014-01-11-paneles-animados/</link>
+      <link>https://www.examplelab.com.ar/posts/2014-01-11-paneles-animados/</link>
       <pubDate>Sat, 11 Jan 2014 17:15:41 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-01-11-paneles-animados/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2014-01-11-paneles-animados/</guid>
       <description>Hace unos dias, implementé animaciones en los paneles de huayra-stopmotion. Al principio opté por usar la forma mas rudimentaria de mostrar y ocultar paneles, pero luego descubrí como implementarlo usando css3 y un poquito de javascript:
 En este post me gustaría contarte cómo lo implementé, ya que puede resultarte útil a la hora de hacer algo similar.
 Acá está la versión completa en jsfiddle:
@@ -597,10 +597,10 @@ Acá está la versión completa en jsfiddle:
     
     <item>
       <title>Automatizando lanzamientos en node-webkit</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
+      <link>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
       <pubDate>Thu, 26 Dec 2013 01:15:39 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
       <description>Existe una tarea para grunt que nos permite automatizar el empaquetado de nuestras aplicaciones para cada plataforma: grunt-node-webkit-builder.
 Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;
 Instalación El primer paso es instalarnos la tarea para grunt:
@@ -610,10 +610,10 @@ Por ejemplo, mi archivo GruntFile.js a la hora de comenzar un proyecto nuevo se 
     
     <item>
       <title>Encuentro Linux en Temuco, Chile</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2013-11-18-encuentro-linux-en-temuco-chile/</link>
+      <link>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</link>
       <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2013-11-18-encuentro-linux-en-temuco-chile/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</guid>
       <description>Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en la ciudad de Temuco:
 Es la primera vez que visito Temuco, y de principio a fin estuvo espectacular, la Universidad de la Frontera en donde se realizó el evento es muy linda, está rodeada de jardines y espacios comunes grandes y cómodos:
 El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pilas-engine y al dia siguiente otra sobre node-webkit.</description>
@@ -621,10 +621,10 @@ El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pi
     
     <item>
       <title>Semana de la juventud en Bariloche</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
+      <link>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
       <pubDate>Sun, 03 Nov 2013 23:32:32 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</guid>
       <description>Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre pilas-engine a chicos de escuelas secundarias.
 El evento estuvo espectacular, los chicos armaron stands, participaron de talleres de edición de videos con openshot, competencias de fútbol tenis, bailes y mucho más:
 Y por si fuera poco, el centro cívico de la ciudad de Bariloche es espectacular, la vista al Lago Nahuel Huapi es increible:
@@ -633,10 +633,10 @@ Ojalá pueda visitar nuevamente bariloche con un taller de pilas-engine renovado
     
     <item>
       <title>Pilas en pycon 2013 Rosario</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2013-11-01-pilas-en-pycon-2013-rosario/</link>
+      <link>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</link>
       <pubDate>Fri, 01 Nov 2013 21:24:50 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
       <description>Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013 de la ciudad de Rosario.
 Aquí estan las diapositivas:
  y el video:
@@ -645,10 +645,10 @@ Aquí estan las diapositivas:
     
     <item>
       <title>Haciendo un cargador de juegos python</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</link>
+      <link>https://www.examplelab.com.ar/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</link>
       <pubDate>Sat, 18 Aug 2012 15:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</guid>
       <description>Si escribes juegos usando python, seguramente te has encontrado en problemas al distribuir juegos sobre windows.
 Python es un gran lenguaje, pero cuando se utiliza con varias bibliotecas sobre Windows termina siendo algo difícil de transportar de un equipo a otro, y si quieres presentar tus juegos a muchas personas eso termina convirtiendose en un problema.
 En este artículo veremos una alternativa para empaquetar y distribuir nuestros juegos sobre windows de manera bastante sencilla, crearemos varios cargadores de juegos para bibliotecas como pygame, cocos2d y pilas-engine.</description>
@@ -656,10 +656,10 @@ En este artículo veremos una alternativa para empaquetar y distribuir nuestros 
     
     <item>
       <title>Vagrant para entornos web</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2012-07-27-vagrant/</link>
+      <link>https://www.examplelab.com.ar/posts/2012-07-27-vagrant/</link>
       <pubDate>Fri, 27 Jul 2012 15:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2012-07-27-vagrant/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2012-07-27-vagrant/</guid>
       <description>vagrant es una herramienta ideal para programadores de aplicaciones web. Permite tener entornos configurados, independientes y fáciles de compartir.
 El objetivo de este post es recomendar la herramienta y compartir algunos de los comandos que mas utilizo con vagrant.
 ¿Por qué usar vagrant? Si desarrollas aplicaciones web, es muy probable que necesites configurar tu entorno instalando bases de datos, bibliotecas, servidores etc.
@@ -668,10 +668,10 @@ vagrant te permite manejar máquinas virtuales, y mantener los entornos de tu ap
     
     <item>
       <title>Rediseñando los eventos de pilas-engine</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</link>
+      <link>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</link>
       <pubDate>Wed, 29 Feb 2012 15:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</guid>
       <description>El sistema de eventos de pilas-engine necesitaba varias mejoras. Desde que lo implementé, siempre tuve la sensación de que se podía simplificar y mejorar notablemente.
 Por suerte hoy logré implementar los cambios que quería, le dediqué varias horas pero valió la pena el esfuerzo, quedó mucho mejor de lo que esperaba, y en el camino aprendí varias cosas nuevas.
 ¿Por qué es importante? Casi todos los motores de juegos tienen algún sistema de eventos, de alguna u otra forma se te permite conocer el estado de las teclas, del mouse etc.</description>
@@ -679,10 +679,10 @@ Por suerte hoy logré implementar los cambios que quería, le dediqué varias ho
     
     <item>
       <title>Como crear grillas de sprites con Gimp</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/</link>
+      <link>https://www.examplelab.com.ar/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/</link>
       <pubDate>Sat, 14 Jan 2012 15:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/</guid>
       <description>En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego.
 Usaremos gimp junto a unos complementos que escribí hace varios meses. Y por último, vamos a poner esa grilla en acción usando el motor pilas
 Conceptos iniciales Básicamente, una grilla se utiliza en los videojuegos 2D para representar todos los cuadros de una animación:
@@ -691,10 +691,10 @@ Por ejemplo, en la imagen anterior tenemos 5 cuadros de animación en la misma i
     
     <item>
       <title>Creando intérpretes interactivos con python</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</link>
+      <link>https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</link>
       <pubDate>Thu, 22 Jul 2010 15:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</guid>
       <description>Python, al ser un lenguaje dinámico, facilita mucho la creación de intérpretes.
 En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos. Algo básico con readline
 Readline es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.
@@ -703,10 +703,10 @@ Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se p
     
     <item>
       <title>Cocos y pyglet en modo interactivo</title>
-      <link>https://hugoruscitti.github.io/examplelab/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</link>
+      <link>https://www.examplelab.com.ar/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</link>
       <pubDate>Wed, 30 Jun 2010 15:00:00 +0000</pubDate>
       
-      <guid>https://hugoruscitti.github.io/examplelab/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</guid>
+      <guid>https://www.examplelab.com.ar/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</guid>
       <description>Python tiene una herramienta super interesante para los nuevos programadores: una consola interactiva donde se puede editar, corregir y ejecutar código de manera super sencilla.
 Esto resulta de mucha utilidad cuando quieres dar clases sobre programación o simplemente dar una demostración sobre alguna biblioteca.
 Introducción Lamentablemente la consola de python no se puede usar en cualquier escenario, por ejemplo si quieres dar una demostración de la biblioteca cocos2d desde la consola interactiva se te pueden presentar algunos problemas.</description>
