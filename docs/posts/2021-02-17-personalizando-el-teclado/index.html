@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Personalizando el teclado :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Hace unos meses leí un artículo que me animó a practicar mecanografía todos los días. No solo me dieron ganas de escribir más rápido, sino que hizo re-diseñar la forma en la que uso el teclado.
+Y es que con los años fui desarrollando la costumbre de escribir muy libremente y hoy estoy tratando de &amp;ldquo;volver a aprender&amp;rdquo; para mejorar varios problemas: casi no uso los dedos meñiques, mis manos se desplazan un montón mientras escribo porque al no usar los meñiques me cuesta alcanzar algunas teclas, y suelo cometer varios errores al escribir."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2021-02-17-personalizando-el-teclado/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Personalizando el teclado"/>
+<meta name="twitter:description" content="Hice algunos ajustes al mapa de teclado para que sea más
+sencillo pulsar ESC y otras mini-optimizaciones.
+"/>
+
+
+
+<meta property="og:title" content="Personalizando el teclado" />
+<meta property="og:description" content="Hice algunos ajustes al mapa de teclado para que sea más
+sencillo pulsar ESC y otras mini-optimizaciones.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2021-02-17-personalizando-el-teclado/" />
+<meta property="article:published_time" content="2021-02-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-17T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2021-02-17-personalizando-el-teclado/">Personalizando el teclado</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            17/02/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Hace unos meses leí <a href="/links-files/programmings-dirtiest-little-secret/">un artículo</a> que me animó a practicar
+mecanografía todos los días. No solo me dieron ganas de escribir
+más rápido, sino que hizo re-diseñar la forma en la que uso el teclado.</p>
+<p>Y es que con los años fui desarrollando la costumbre de escribir muy
+libremente y hoy estoy tratando de &ldquo;volver a aprender&rdquo; para mejorar varios
+problemas: casi no uso los dedos meñiques, mis manos se desplazan un
+montón mientras escribo porque al no usar los meñiques me cuesta alcanzar algunas teclas, y suelo
+cometer varios errores al escribir. Casi no miro el teclado al escribir, lo que es bueno, pero
+necesito buscar con la mirada algunas teclas que no uso muy seguido como los números o símbolos como | ^ &amp;&hellip;</p>
+<h1 id="reposar-las-manos-en-la-fila-normal">Reposar las manos en la fila normal</h1>
+<p>Una de las ideas principales de aprender mecanografía es mantener las manos en
+una posición que nos permita alcanzar cualquier tecla fácilmente:</p>
+<p><img src="/images/2021/personalizando-el-teclado/teclado.png" alt=""></p>
+<p>Así que me puse a practicar con un software llamado
+<a href="https://github.com/alexei-matveev/gtypist">gtypist</a>, y a prestarle atención
+a mis manos mientras trabajo. Comencé a usar más los dedos meñiques y a mantener
+mis manos en la fila normal.</p>
+<p>Sin embargo, hay algunas teclas que son difíciles de alcanzar incluso prestando
+mucha atención. Por ejemplo en VIM se pulsa mucho la tecla ESC, lo que te obliga a mover
+la mano izquierda fuera de la fila principal. Lo mismo pasa en una consola cuando
+necesitas recorrer el historial de comandos pulsando las flechitas ↑ o ↓.</p>
+<p>Así que me puse a buscar si algún otro loco en Internet tenía esta misma inquietud y llegué
+a un software llamado <a href="https://karabiner-elements.pqrs.org/">Karabiner-Elements</a></p>
+<p>Este software te permite personalizar el mapa de teclado para ajustarlo
+a tus preferencias.</p>
+<p>Por ejemplo, yo noté que puedo mantener mis manos en la fila principal si hago
+que la tecla <code>Caps Lock</code> en realidad sustituya a la tecla <code>ESC</code> que uso un
+motón en VIM:</p>
+<p><img src="/images/2021/personalizando-el-teclado/karabiner.png" alt=""></p>
+<p>Otras de las configuraciones que añadí son la posibilidad de bloquear mayúsculas
+pulsando las dos teclas <code>shift</code> y sustituir las flechitas
+del teclado por <code>hjkl</code> mientras mantengo pulsado <code>Caps Lock</code>.</p>
+<p>Al principio me costó adoptar estos cambios, pero a los días noté que
+puedo re-aprender y moldear mis costumbres dedicando algo de atención y práctica.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2021-02-18-controlando-el-navegador-con-el-teclado/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Controlando el navegador con el teclado</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2021-02-16-la-culpa-no-es-del-dom/">
+                  <span class="button__text">La culpa no es del DOM</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

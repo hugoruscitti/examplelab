@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Como crear grillas de sprites con Gimp :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego.
+Usaremos gimp junto a unos complementos que escribí hace varios meses. Y por último, vamos a poner esa grilla en acción usando el motor pilas
+Conceptos iniciales Básicamente, una grilla se utiliza en los videojuegos 2D para representar todos los cuadros de una animación:
+Por ejemplo, en la imagen anterior tenemos 5 cuadros de animación en la misma imagen (tomado el juego sbfury de losersjuegos)."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Como crear grillas de sprites con Gimp"/>
+<meta name="twitter:description" content="En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego..."/>
+
+
+
+<meta property="og:title" content="Como crear grillas de sprites con Gimp" />
+<meta property="og:description" content="En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/" />
+<meta property="article:published_time" content="2012-01-14T15:00:00+00:00" />
+<meta property="article:modified_time" content="2012-01-14T15:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/">Como crear grillas de sprites con Gimp</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            14/01/2012
+        </span>
+      
+      
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/juegos/">juegos</a>&nbsp;
+        
+          #<a href="/tags/gimp/">gimp</a>&nbsp;
+        
+          #<a href="/tags/shaolin/">shaolin</a>&nbsp;
+        
+      </span>
+    
+
+    <div class="post-content">
+      <p>En este artículo veremos cómo crear una grilla de
+imágenes para colocar en un videojuego.</p>
+<p>Usaremos <a href="http://www.gimp.org/">gimp</a> junto a unos complementos que escribí
+hace varios meses. Y por último, vamos
+a poner esa grilla en acción usando el motor <a href="http://www.pilas-engine.com.ar">pilas</a></p>
+<h1 id="conceptos-iniciales">Conceptos iniciales</h1>
+<p>Básicamente, una grilla se utiliza en los videojuegos 2D
+para representar todos los cuadros de una animación:</p>
+<p><img src="/images/2013/Oct/special-2.jpg" alt="image"></p>
+<p>Por ejemplo, en la imagen anterior tenemos 5 cuadros
+de animación en la misma imagen (tomado el juego
+<a href="https://github.com/hugoruscitti/sbfury">sbfury</a> de losersjuegos).</p>
+<p>En un juego tradicional, podrías tener muchos cuadros
+de animación, así que las grillas ayudan a reducir
+la cantidad de imágenes drásticamente. Además, facilitan
+muchísimo la programación.</p>
+<p>Además, las grillas no solo sirven para animaciones
+de personajes, también pueden ser utilizadas para todo
+tipo de imágenes.</p>
+<h1 id="herramientas">Herramientas</h1>
+<p>Vamos a usar dos herramientas, una es <a href="http://www.gimp.org/">gimp</a>, un editor
+de imágenes muy popular en Gnu/Linux, y un conjunto
+de plugins:</p>
+<p><img src="/images/2013/Oct/gimp-1.jpg" alt=""></p>
+<h1 id="instalar-los-plugins">Instalar los plugins</h1>
+<p>Vamos a instalar unas extensiones para <a href="http://www.gimp.org/">gimp</a>. En la
+consola de tu equipo escribí los siguientes comandos:</p>
+<pre><code>cd .Gimp-2.6/plug-ins/
+
+wget http://www.losersjuegos.com.ar/_media/software/Gimp/spritetool.zip
+
+unzip spritetool.zip
+</code></pre>
+<p>Listo, ahora solo hay que reiniciar <a href="http://www.gimp.org/">gimp</a>.</p>
+<p>Ten en cuenta que hay una descripción mucho mas detallada
+de estos complementos en la <a href="http://www.losersjuegos.com.ar/software/Gimp">página de losersjuegos</a></p>
+<h1 id="comencemos">Comencemos</h1>
+<p>Vamos a tomar una imagen con varios cuadros de animación
+y lo vamos a convertir en una grilla.</p>
+<p>Tomemos la imagen de <em>hannias</em>, uno de los enemigos del
+juego <a href="https://github.com/hugoruscitti/sbfury">sbfury</a>:</p>
+<p><img src="/images/2013/Oct/hannias.jpg" alt=""></p>
+<p>Este imagen tiene varios cuadros de animación, pero están
+desorganizados, no los podemos incorporar en el juego
+directamente, necesitamos organizarlo.</p>
+<p>Usando <a href="http://www.gimp.org/">gimp</a>, vamos a copiar y pegar cada una de los cuadros
+que nos interesan en una nueva imagen. Aquí podrías usar
+la opción <em>pegar en nueva imagen</em>.</p>
+<h1 id="capas">Capas</h1>
+<p>Ten en cuenta que al momento de pegar, <a href="http://www.gimp.org/">gimp</a> <strong>no hace</strong> una nueva
+capa. Tienes que pulsar el botón <code>Nueva capa</code> para que
+esto ocurra.</p>
+<p>Por ejemplo, al pegar la ventana de capas me muestra la selección:</p>
+<p><img src="/images/2013/Oct/pegar.jpg" alt=""></p>
+<p>Pero al momento de pulsar el icono <code>nueva capa</code> aparecen
+las dos capas:</p>
+<p><img src="/images/2013/Oct/pegar_en_capa.jpg" alt=""></p>
+<p>Es importante tener cada cuadro en su propia capa, esto es lo que
+nos va a permitir alinear todos los cuadros de animación y hacerlo
+de manera prolija.</p>
+<p>La ventana de capas de <a href="http://www.gimp.org/">gimp</a> te permitirá organizar las capas, ocultarlas
+o incluso modificar la transparencia (bastante útil a la hora de
+alinear los cuadros).</p>
+<p>Por ejemplo, acá cambié la transparencia de una de las capas para
+lograr la alineación que quería:</p>
+<p><img src="/images/2013/Oct/alpha.jpg" alt=""></p>
+<p>Ten en cuenta que hay dos atajos de teclas
+super útiles:</p>
+<ul>
+<li>La tecla <code>TAB</code> oculta todas las ventanas auxiliares de manera temporal.</li>
+<li>La tecla <code>m</code> te permite seleccionar la herramienta para trabajar con capas, así que luego de pulsar <code>m</code> vas a poder mover las capas con el teclado, usando las flechas direccionales.</li>
+</ul>
+<h2 id="arreglo-de-capas">Arreglo de capas</h2>
+<p>El siguiente paso es hacer que las capas ocupen el área de la
+imagen. Esto se puede hacer pulsando el botón derecho sobre el panel
+de capas y seleccionando <code>capa al tamaño de la imagen</code>. Esto
+se tiene que hacer en cada una de las capas.</p>
+<h2 id="generando-la-grilla">Generando la grilla</h2>
+<p>Ahora si, podemos activar el plugin para convertir nuestras
+capas en una grilla.</p>
+<p>Pulsa el botón derecho sobre la ventana de la imagen y seleccionar
+<code>Python-fu</code> → <code>SpriteTool</code> → <code>Create Sheet</code>.</p>
+<p>La imagen se va a convertir en un grilla lista para usar:</p>
+<p><img src="/images/2013/Oct/final.jpg" alt=""></p>
+<h2 id="haciendo-una-prueba-con-pilas">Haciendo una prueba con pilas</h2>
+<p>Para probar la grilla podemos guardar la imagen cómo un
+archivo <code>png</code> y hacer una prueba usando pilas-engine_:</p>
+<p>Vamos a suponer que nuestro archivo se llama <code>animacion.png</code>, el
+código que nos nos permite ver la animación sería:</p>
+<pre><code>import pilas
+pilas.iniciar()
+
+grilla = pilas.imagenes.cargar_grilla('animacion.png', 3)
+
+animacion = pilas.actores.Animacion(grilla, ciclica=True)
+</code></pre>
+<p>Esta es una imagen de la sesión interactiva de pilas:</p>
+<p><img src="/images/2013/Oct/prueba.jpg" alt=""></p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Amigarse con el manejo de grillas en un videojuego es muy
+valioso, hay un montón de trabajo fino que necesitas
+hacer, incluso si solamente te dedicas a la programación.</p>
+<p>Ojalá te animes a tomarle la mano a <a href="http://www.gimp.org/">gimp</a>, es un gran
+programa y se aprende rápido.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Rediseñando los eventos de pilas-engine</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/">
+                  <span class="button__text">Creando intérpretes interactivos con python</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

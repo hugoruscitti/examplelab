@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>La documentación no muerde :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Sé que suena un poco fuerte, pero no te ofendas&amp;hellip; esta leyenda es para mí, y la escribo acá como una forma de no olvidarme lo que pasó hoy y seguir aprendiendo.
+Si sos como yo, y programas hace algunos años, seguramente recurrís con urgencia a google o stack overflow cuando algo no sale bien, ya sea por un error imprevisto o un desafío que parece trivial, es fácil recurrir rápidamente a Internet como una herramienta auxiliar."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2018-12-15-la-documentacion-no-muerde/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="La documentación no muerde"/>
+<meta name="twitter:description" content="Una historia personal que me recuerda investigar, leer y comprender en lugar de explorar rápidamente una solución en stackoverflow."/>
+
+
+
+<meta property="og:title" content="La documentación no muerde" />
+<meta property="og:description" content="Una historia personal que me recuerda investigar, leer y comprender en lugar de explorar rápidamente una solución en stackoverflow." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2018-12-15-la-documentacion-no-muerde/" />
+<meta property="article:published_time" content="2018-12-15T14:11:38+00:00" />
+<meta property="article:modified_time" content="2018-12-15T14:11:38+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2018-12-15-la-documentacion-no-muerde/">La documentación no muerde</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            15/12/2018
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Sé que suena un poco fuerte, pero no te ofendas&hellip; esta leyenda es para mí, y la escribo acá como una forma de no olvidarme lo que pasó hoy y seguir aprendiendo.</p>
+<p>Si sos como yo, y programas hace algunos años, seguramente recurrís con urgencia a google o stack overflow cuando algo no sale bien, ya sea por un error imprevisto o un desafío que parece trivial, es fácil recurrir rápidamente a Internet como una herramienta auxiliar.</p>
+<p>Pero hoy hice las cosas un poco diferente, leí la documentación, y el resultado de lo que tenía que hacer mejoró notablemente.</p>
+<p>Te cuento con un ejemplo lo que pasó:</p>
+<h2 id="primer-intento-cómo-formatear-números">Primer intento: cómo formatear números</h2>
+<p>Hoy me encontré en la necesidad de mostrar un número grande (float con valor 52000.32) dentro de una aplicación web. Pero quería que el número se vea de manera legible, separado por milésimas. Algo así:</p>
+<p>52.000,32</p>
+<p>Naturalmente esto no parece difícil, pero es una de esas &ldquo;cosas&rdquo; que no se hacer &ldquo;de memoria&rdquo;, ni me parece muy importantes como para aprender a hacerlas&hellip; así que por impulso fui directo a stack overflow y encontré esto:</p>
+<p>&ldquo;How to print a number with commas as thousands separators in JavaScript&rdquo;</p>
+<p><img src="/images/2018/12/image-20181211172619832.png" alt="image-20181211172619832"></p>
+<p>y más abajo vi esto, aparentemente mejor por la cantidad de votos:</p>
+<p><img src="/images/2018/12/image-20181211172703438.png" alt="image-20181211172703438"></p>
+<h2 id="segundo-intento-cómo-formatear-números">Segundo intento: cómo formatear números</h2>
+<p>Incluso encontré en google rápidamente que alguien mencionó la existencia de una biblioteca javascript para resolver esto llamada numeral.js:</p>
+<p><img src="/images/2018/12/image-20181211172850568.png" alt="image-20181211172850568"></p>
+<h2 id="mmm--un-momento-">mmm &hellip; un momento &hellip;</h2>
+<p>Si llegaste acá atentamente, y no hiciste alt+tab o multitasking frenéticamente como yo. Seguramente habrás notado algo.</p>
+<p>Convertir un número a un formato legible con Javascript se vuelve un horror&hellip; o bien implica agregar una función rara de por ahí, o incluir una dependencia llamada numeral.js que seguro hace mil cosas que ni se necesitan (y va por la versión 2.0.6 !!).</p>
+<p>En este punto casi dejo todo a un lado y me conformo con ver los números tal y como son&hellip; no me gustan ninguna de las cosas que intenté hasta ahora para mostrar los números formateados.</p>
+<p>Sin embargo, hice una pausa, me preparé un café y recordé algo&hellip;</p>
+<h2 id="nacho-hay-que-aprender-más-de-vos">Nacho, hay que aprender más de vos</h2>
+<p>Hace unas semanas nos reunimos a experimentar usando &ldquo;Go&rdquo; junto a unos amigos. Programar con otras personas en grupo deja algunas cosas curiosas. Por ejemplo, notamos que Nacho no se lanzaba directamente a escribir código y realizar pruebas de las cosas tan rápido; en lugar de eso: Nacho hacía una pausa, abría la documentación y leía, analizaba y trataba de llegar al fondo de las cosas.</p>
+<p>Al poco tiempo de trabajar juntos, se notaba que nacho iba por buen camino. Ya que podía dar paso seguro sobre las cosas que iba haciendo y podía explicar sus pasos fácilmente.</p>
+<p>Claramente Nacho hacía las cosas de una forma diferente a mí: mi forma de hacer las cosas daba muchos fallos y era desgastante, hasta frustrante en algunos casos&hellip; yo estaba mas preocupado por escribir código lo antes posible y &ldquo;tener algo que funcione&rdquo; en lugar de comprender y luego implementar.</p>
+<h2 id="la-solución-cómo-formatear-números">La solución: cómo formatear números</h2>
+<p>Así que recordando ese día, se me ocurrió cerrar stack overflow, google y simplemente leer la documentación de Javascript. ¡Fue lo mejor que hice esta tarde!</p>
+<p>Los números en Javascript se representan con un tipo de objeto llamado Number, y tienen asociados una serie de funciones:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number</a></li>
+</ul>
+<p>y para mi sorpresa, leer la documentación fue mucho mas productivo que cualquier cosa&hellip; existe un método especialmente diseñado para el caso que yo quería resolver (toLocaleString)</p>
+<p><img src="/images/2018/12/image-20181211174816305.png" alt="image-20181211174816305"></p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Creo que lo importante en este punto no es exactamente cómo convertir números, sino qué proceso o estrategia elijo a la hora de resolver un desafío.</p>
+<p>Parece una tontería señalar esto, pero creo que no lo es: &ldquo;la documentación no muerde&rdquo;, la documentación debería ser la fuente de información principal a la que deberíamos recurrir cada vez que algo no anda bien.</p>
+<p>Y no solo eso, comprender no es lo mismo que explorar rápidamente. Lleva tiempo leer y comprender un manual, y está bien, se compensa rápidamente.</p>
+<p>Y, nuevamente, esto es un recordatorio para mí&hellip; la documentación no muerde.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2020-01-24-creando-un-audio-switch/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Armando un Audio Switch</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2018-03-04-comenzamos-pilas-engine-2/">
+                  <span class="button__text">¡Comenzamos Pilas Engine 2!</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Creando un cuadro 3D de Dragon Punch :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Junto a Wally nos propusimos hacer unos cuadros para homenajear un video juego que habíamos hecho hace un par de años.
+Lo divertido de ese mini proyecto es que nos aventuramos a realizar el cuadro usando relieve, para que tenga un aspecto de profundidad entre el fondo de la escena y los Sprites del juego:
+El proyecto fue tan divertido que me pareció buena idea escribir sobre ello por si te gustaría hacer algo similar y estás buscando ideas."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Creando un cuadro 3D de Dragon Punch"/>
+<meta name="twitter:description" content="Junto a Wally creamos un cuadro con relieve en homenaje a nuestro juego Dragon Punch. Usamos tijeras, gomitas, pegamento..."/>
+
+
+
+<meta property="og:title" content="Creando un cuadro 3D de Dragon Punch" />
+<meta property="og:description" content="Junto a Wally creamos un cuadro con relieve en homenaje a nuestro juego Dragon Punch. Usamos tijeras, gomitas, pegamento..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/" />
+<meta property="article:published_time" content="2020-02-15T23:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-15T23:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/">Creando un cuadro 3D de Dragon Punch</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            15/02/2020
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Junto a Wally nos propusimos hacer unos cuadros para homenajear un video juego
+que habíamos hecho hace un par de años.</p>
+<p>Lo divertido de ese mini proyecto es que nos aventuramos a realizar el cuadro
+usando relieve, para que tenga un aspecto de profundidad entre el fondo de la
+escena y los Sprites del juego:</p>
+<p><img src="/images/2020/02/15/C44FD51B-A9D1-494D-AB0F-69AE137C723F_1_105_c.jpeg" alt=""></p>
+<p>El proyecto fue tan divertido que me pareció buena idea escribir sobre ello por
+si te gustaría hacer algo similar y estás buscando ideas.</p>
+<p>Por cierto, Dragon Punch es un juego que hicimos con Wally hace unos años,
+usando Unity y con gráficos propios inspirados en la serie Dragon Ball. <a href="https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/">Podes
+ver más sobre ese juego en este
+link</a></p>
+<h2 id="primeros-pasos">Primeros pasos</h2>
+<p>El primer paso fue crear una imagen del tamaño correcto en un software que soporte capas.</p>
+<p>En nuestro caso el cuadro que teníamos para utilizar tenía 15x20 cm. Así que
+armé dos capas en Seashore, una para el fondo y otra para los Sprites así:</p>
+<p><img src="/images/2020/02/15/sin-titulo-2.jpg" alt=""></p>
+<p>Luego, para los elementos de interfaz que habíamos creado usando Unity en tiempo
+de ejecución no tenía Sprites, así que tuve que tratar de imitarlos. Además,
+como Seashore no tiene un buen manejo de fuentes pasé a usar Gimp y recrear el
+mismo texto con bordes negros:</p>
+<p><img src="/images/2020/02/15/sin-titulo-5.png" alt=""></p>
+<p>Y una vez que tenía las dos capas, las exporté para que sea fácil enviarlas a
+imprimir y que estén por separado los Sprites del fondo:</p>
+<p><img src="/images/2020/02/15/sin-titulo-7.png" alt=""></p>
+<p>También añadí algunos Sprites duplicados, por si al momento de armarlo
+decidíamos cambiar algunas cosas.</p>
+<h2 id="imprimiendo-y-preparando-los-materiales">Imprimiendo y preparando los materiales</h2>
+<p>Envié a imprimir las dos versiones de las imágenes a una imprenta, conseguimos
+unos marcos tipo Box, goma eva, cinta y tijeras:</p>
+<p><img src="/images/2020/02/15/D153094D-5E43-4426-81FA-7B23505C810A_1_105_c.jpeg" alt=""></p>
+<p>El marco que se ve en la foto es uno VGO con marco ancho, creo que llaman tipo
+Box con vidrio.</p>
+<p>En las tiendas de fotos hay varios marcos similares, lo único particular que
+tenía este era que el vidrio quedaba bien separado del fondo, lo que nos iba a
+permitir que el dibujo tenga bastante relieve y el vidrio cubra todo.</p>
+<p><img src="/images/2020/02/15/EB2F13EC-6BF2-4066-92F3-3836E0F47351.png" alt=""></p>
+<h2 id="recortando-y-haciendo-los-relieves">Recortando y haciendo los relieves</h2>
+<p>A la hora de recortar dejamos un marco blanco al rededor de cada Sprite, sino
+iba a ser super difícil hacer los cortes sin estropear los bordes:</p>
+<p><img src="/images/2020/02/15/4A648C19-D2FE-4056-B896-968CCC11A3FB_1_105_c.jpeg" alt=""></p>
+<p>y una vez que recortamos todo, elegimos la escena exacta a recrear del juego (ya
+que teníamos algunos Sprites de mas por las dudas):</p>
+<p><img src="/images/2020/02/15/54ADD791-A633-48FF-9D90-B46E583D71B9_1_201_a.jpeg" alt=""></p>
+<p>Luego, para los relieves usamos goma eva y cinta doble faz para crear unas
+especies de “ladrillitos” de varios niveles:</p>
+<p><img src="/images/2020/02/15/60AA3A59-B405-43C9-8726-D3FF42928B40_1_105_c.jpeg" alt=""></p>
+<p>Aunque luego de algunas pruebas, terminamos usando solamente los que habíamos
+armado con 6 y 4 capas de goma eva:</p>
+<p><img src="/images/2020/02/15/0A340F6B-FD3F-4131-AEE7-2633235C5257_1_105_c.jpeg" alt=""></p>
+<p>Y la misma cinta doble faz nos sirvió para fijar los recortes y pegarlos al
+fondo:</p>
+<p><img src="/images/2020/02/15/1B9C89DF-530C-412F-8369-13BF5D9C80BA_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/02/15/32EA528B-7C07-4C55-87F1-D3382019B9BF_1_105_c.jpeg" alt=""></p>
+<p>y una vez que pegamos todo, lo acomodamos sobre el dibujo de fondo y armamos el
+cuadro:</p>
+<p><img src="/images/2020/02/15/8AF53631-0BE4-4485-8954-B9F02D4B4161_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/02/15/9616293E-54C6-4A2B-9C49-3BB412475B1C_1_105_c.jpeg" alt=""></p>
+<p>El resultado final nos quedó así:</p>
+<p><img src="/images/2020/02/15/007EB6E5-E70B-4C40-A2DE-2460420CC9F7_1_105_c.jpeg" alt=""></p>
+<p>y así (la otra variante con la energía y los logos abajo):</p>
+<p><img src="/images/2020/02/15/75A734DB-C32F-4129-AE0F-DED20074B376_1_105_c.jpeg" alt=""></p>
+<h2 id="otros-proyectos-similares">Otros proyectos similares</h2>
+<p>Buscando en internet “diorama Juego” o &ldquo;cuadro 3d Juegos” vas a encontrar un
+montón de ideas para hacer algo similar a lo que armamos.</p>
+<p><img src="/images/2020/02/15/dioramas.jpg" alt=""></p>
+<p>De hecho, se pueden ver cosas mucho más complejas, como mapas en relieve de
+juegos de plataformas o Beat ‘em all.</p>
+<h2 id="cierre">Cierre</h2>
+<p>Rescato muchas cosas divertidas de haber hecho este proyecto, creo que la
+principal es que como programador de software paso mucho tiempo “construyendo
+cosas”, pero muy pocas son para mí y tan concretas como para colgar de una
+pared.</p>
+<p>Además, es una linda decoración para recordar que logramos hacer ese juego que
+tanto nos gusta.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2020-08-08-tortugas-en-el-tiempo/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Tortugas en el tiempo</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2020-01-24-creando-un-audio-switch/">
+                  <span class="button__text">Armando un Audio Switch</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

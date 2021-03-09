@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Falacias, falacias por todos lados :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="No soy bueno argumentando, de hecho, en muchas discusiones me siento frustrado al sentir que no puedo dar a entender mi punto de vista &amp;hellip; Y alguna vez, incluso sin darme cuenta, me han hecho notar que malinterpreté argumentos de otras personas y caí en alguna de las falacias más conocidas.
+Hoy recordé una de esas conversaciones, una especie de discusión sobre tests y calidad de software que terminaron en nada."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2021-01-27-falacias/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Falacias, falacias por todos lados"/>
+<meta name="twitter:description" content="Las falacias están en todos lados, desde la oficina
+hasta los newsletters de JavaScript.
+"/>
+
+
+
+<meta property="og:title" content="Falacias, falacias por todos lados" />
+<meta property="og:description" content="Las falacias están en todos lados, desde la oficina
+hasta los newsletters de JavaScript.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2021-01-27-falacias/" />
+<meta property="article:published_time" content="2021-01-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-27T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2021-01-27-falacias/">Falacias, falacias por todos lados</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            27/01/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>No soy bueno argumentando, de hecho, en muchas discusiones
+me siento frustrado al sentir que no puedo dar a entender mi punto
+de vista &hellip; Y alguna vez, incluso sin darme cuenta, me han hecho notar
+que malinterpreté argumentos de otras personas y caí en alguna de las
+falacias más conocidas.</p>
+<p>Hoy recordé una de esas conversaciones, una especie de discusión sobre
+tests y calidad de software que terminaron en nada.</p>
+<p>En aquella conversación, yo sentía que tenía la razón, mientras que la otra
+persona imaginó que él tenía razón también; y como te podrás imaginar el resultado
+de todo eso es fue que ninguno de los dos aprendió nada&hellip; es una lástima que
+algunas conversaciones técnicas terminen en la nada&hellip;</p>
+<p>Recordar aquella conversación me hizo pensar en algo que no conocía en
+aquel momento: Existen una serie de errores de razonamiento llamados
+&ldquo;falacias lógicas&rdquo;, razonamientos que a simple
+vista parecen ciertos, lógicos y razonables, pero que esconden un error
+profundo o son simplemente falsos.</p>
+<p>Estas falacias están en todas partes, ya sea que nos demos cuenta o no, es
+común caer en una de estas &ldquo;trampas&rdquo; lógicas cuando estamos conversando o intentando
+argumentar algún punto.</p>
+<p>Lo malo de desconocer las falacias es que podés quedar como un tonto si caes
+en una de ellas en medio de un argumento, o lo que es peor, la conversación
+podría terminar en nada porque el tema se vuelve confuso o los puntos
+de vista se polarizan.</p>
+<h2 id="dos-falacias-que-veo-en-tecnología">Dos falacias que veo en tecnología</h2>
+<p>No me siento muy capacitado para profundizar sobre falacias en general, apenas
+estoy investigando y aprendiendo sobre ellas. Incluso vi que hay
+<a href="https://bookofbadarguments.com/es/?view=allpages">un libro hermoso</a> acerca de
+falacias ilustradas y con ejemplos muy claros.</p>
+<p>Sin embargo me gustaría mencionar alguna las falacias más comunes que veo
+en nuestro oficio, y reflexionar sobre cómo generar mejores argumentos y
+conversaciones libres de falacias.</p>
+<h1 id="falacia-del-falso-dilema">Falacia del falso dilema</h1>
+<p>Una falacia muy común a la hora de hablar de tecnología consiste en
+limitar las opciones disponibles, sin considerar otras. Quien comete esta
+falacia suele presentar dos opciones y si rechazamos una de ellas, casi da por
+sentado que estamos eligiendo la otra.</p>
+<p>Por ejemplo, evaluemos estos razonamientos:</p>
+<ul>
+<li>Usemos un framework de terceros, si no vamos a terminar escribiendo nuestro propio framework.</li>
+<li>O usamos React o vamos directamente con Angular.</li>
+<li>Tenemos que usar programación funcional y estado inmutable, si no el código que maneja estado va a ser muy complejo e inmanejable.</li>
+</ul>
+<p>Claro, en cualquiera de estos ejemplos se presentan dos opciones como las únicas
+a considerar cuando en realidad podríamos considerar otras completamente válidas.</p>
+<p>Un ejemplo que me llama la atención se ve en el sitio web de EmberJS:</p>
+
+  <figure class="flex flex-column items-center">
+    <img src="/images/2021/falacias/baterias.png"   />
+    
+      <figcaption class="center" >Baterias incluidas o lo vas a tener que armar vos mismo&hellip;</figcaption>
+    
+  </figure>
+
+
+<p>Me gusta este ejemplo porque va en la línea del razonamiento &ldquo;o usamos este framework o vamos a tener
+que armarlo todo nosotros mismos&rdquo;. Cuando en realidad, no usar un framework no necesariamente
+te obliga a escribir uno propio, ¡no todas las personas viven de hacer frameworks!, hay otras
+opciones válidas como usar bibliotecas o encarar una arquitectura modesta, sin necesidad de
+generalizarla ni pretender reutilizarla en otros proyectos.</p>
+<p>Creo que esto sucede muchas veces de forma involuntaria, como programadores casi
+siempre intentamos limitar las opciones y tomar conclusiones rápidas; es mucho
+más sencillo elegir así.</p>
+<h1 id="falacia-strawman">Falacia &ldquo;Strawman&rdquo;</h1>
+<p>Esta falacia se suele ver cuando los debates &ldquo;se calientan&rdquo; o alguna persona
+se siente emocionalmente afectada&hellip; todo esto lo digo en tercera persona jeje, pero
+es lo que suele pasarme a mí cuando se habla de algo que me apasiona.</p>
+<p>Alguien podría argumentar: &ldquo;Necesitamos reducir el número de dependencias que estamos
+usando en este proyecto, se está volviendo tedioso mantener actualizado el entorno a
+la última versión&rdquo; mientras que otra persona podría usar la falacia y argumentar
+&ldquo;¡Ah, pero sería una locura reinventar la rueda y escribir todo ese código nosotros
+mismos como estás proponiendo!&rdquo;.</p>
+<p>El problema en este ejemplo es que la persona no está proponiendo reescribir
+todo desde cero ni reinventar nada&hellip; solo está proponiendo reducir la cantidad
+de dependencias.</p>
+<p>Esta falacia me parece una de las más importantes, porque hace que algunas
+conversaciones se vuelvan completamente inservibles. Imagina cuantas
+cosas interesantes se podrían hacer si evitamos caer en esa falacia. ¿Qué tal
+si atacamos el problema de &ldquo;actualizar&rdquo; nuestro software de otra forma?, ¿El
+problema realmente son las dependencias?, ¿Qué otras estrategias podemos
+utilizar para resolver este problema?, ¿Hay algo que podamos aprender
+para encarar este tipo de problemas?</p>
+<h1 id="apelar-a-la-autoridad-o-popularidad">Apelar a la autoridad o popularidad</h1>
+<p>La falacia de apelar a la autoridad o popularidad suele aparecer
+cuando se intenta justificar que una tecnología es &ldquo;la ideal&rdquo; mediante
+argumentos como este:</p>
+<ul>
+<li>Personas más inteligentes que nosotros lo diseñaron así, deben estar en lo cierto.</li>
+<li>Esta biblioteca tiene 2000 estrellas en github, deberíamos usarla en lugar de la otra.</li>
+<li>Si Facebook y Google promueven microservicios nosotros deberíamos alinearnos con eso también.</li>
+<li>Tenemos que diseñar pensando en escalar, es indispensable en nuestra industria porque las startups líderes lo hacen.</li>
+</ul>
+<p>Las herramientas que promueven las empresas más grandes o innovadoras
+pueden ser muy interesantes, pero no por eso van a ser las mejores
+herramientas para nosotros.</p>
+<p>Algo similar ocurre con la popularidad, no siempre alcanza para decir
+que alguna decisión es la correcta.</p>
+<h1 id="qué-podemos-aprender-de-estas-falacias">¿Qué podemos aprender de estas falacias?</h1>
+<p>Conocer estas falacias y poder quitarlas de nuestro razonamiento hace que las
+conversaciones se vuelvan mucho más enriquecedoras, creo que aprender acerca de
+ellas nos ayuda a detectarlas en nuestros argumentos y a comprender el punto de los
+demás.</p>
+<p>Incluso un argumento válido queda entorpecido si se intenta defender con
+una falacia cometida por accidente. En la mayoría de las conversaciones
+técnicas que terminaron en la nada me pasó algo como eso.</p>
+<p>El falso dilema más grande de todos es que &ldquo;las discusiones se ganan o se pierden&rdquo;, ¿no?.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2021-01-29-coleccionando-articulos/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Coleccionado artículos web</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2021-01-25-remix-de-ceferino/">
+                  <span class="button__text">Haciendo un Remix del juego Ceferino</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Resaltando bloques en Pilas :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Pilas permite visualizar el código que se está ejecutando en todo momento.
+La aplicación pinta con un color diferente las lineas de código que efectivamente se ejecutaron:
+Este resaltado es útil incluso para los que programamos hace tiempo. Porque sin esto te ves obligado a llenar el código de console.log para asegurarte de qué está haciendo el programa.
+Sin embargo, cuando empecé a jugar con la idea de añadir bloques a Pilas, noté que el resaltado de código era algo que faltaba."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2021-02-24-resaltando-bloques-en-pilas/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Resaltando bloques en Pilas"/>
+<meta name="twitter:description" content="Cuento cómo hice que los bloques de pilas
+se resalten cuando entran en ejecución.
+"/>
+
+
+
+<meta property="og:title" content="Resaltando bloques en Pilas" />
+<meta property="og:description" content="Cuento cómo hice que los bloques de pilas
+se resalten cuando entran en ejecución.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2021-02-24-resaltando-bloques-en-pilas/" />
+<meta property="article:published_time" content="2021-02-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-24T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2021-02-24-resaltando-bloques-en-pilas/">Resaltando bloques en Pilas</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            24/02/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Pilas permite visualizar el código que se está ejecutando en todo momento.</p>
+<p>La aplicación pinta con un color diferente las lineas de código que
+efectivamente se ejecutaron:</p>
+<p><img src="/images/2021/resaltando-bloques-en-pilas/resaltado-de-codigo.png" alt=""></p>
+<p>Este resaltado es útil incluso para los que programamos hace tiempo. Porque
+sin esto te ves obligado a llenar el código de <code>console.log</code> para asegurarte
+de qué está haciendo el programa.</p>
+<p>Sin embargo, cuando empecé a jugar con la idea de <a href="/posts/2021-02-19-bloques-y-codigo">añadir bloques a Pilas</a>, noté
+que el resaltado de código era algo que faltaba. Sin resaltado me veo obligado a tener
+que imaginarme el programa ejecutando en mi cabeza, imaginando qué bloque se está ejecutando.</p>
+<p>Claramente necesitaba poder resaltar bloques en pilas.</p>
+<h2 id="el-problema">El problema</h2>
+<p>La <a href="https://developers.google.com/blockly/">biblioteca que estoy utilizando</a> para incorporar bloques tiene
+una función dedicada
+a resaltar bloques llamada <code>highlightBlock</code>:</p>
+<p><img src="/images/2021/resaltando-bloques-en-pilas/bloque-resaltado.png" alt=""></p>
+<p>El problema es que el editor de pilas está dividido en varios componentes independientes entre
+sí. Por ejemplo el área que visualiza el juego es un componente que a su vez tiene
+un <code>iframe</code> dentro para independizar el <code>scope</code> de ejecución. Y a su vez, el área de bloques
+también está en su propio componente con un <code>iframe</code>:</p>
+<p><img src="/images/2021/resaltando-bloques-en-pilas/iframes.png" alt=""></p>
+<p>Así que para resaltar bloque tuve que seguir varios pasos.</p>
+<h2 id="instrumentando-código">Instrumentando código</h2>
+<p>Al igual que como hice con el resaltado de código en el editor de texto, aquí tuve que
+insertar automáticamente código de seguimiento para saber qué partes del
+código resaltar.</p>
+<p>Por suerte <a href="https://developers.google.com/blockly/">Blockly</a> ya incluye algo para hacer
+esto muy fácilmente, solamente hay que escribir algo como esto:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">Blockly</span>.<span style="color:#a6e22e">JavaScript</span>.<span style="color:#a6e22e">STATEMENT_PREFIX</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`
+</span><span style="color:#e6db74">  this.pilas.notificar_ejecucion_del_bloque(%1, this.id);
+</span><span style="color:#e6db74">`</span>;
+</code></pre></div><p><a href="https://developers.google.com/blockly/">Blockly</a> se va a encargar de insertar
+esta llamada a pilas antes de cada una de las sentencias, por ejemplo:</p>
+<p><img src="/images/2021/resaltando-bloques-en-pilas/comparativa.png" alt=""></p>
+<p>Quienes usen pilas no van a notar que este código se agrega automáticamente, ya que
+esta versión modificada el código se genera en memoria y se procesa justo antes de
+poner en ejecución el juego.</p>
+<h2 id="almacenando-información-de-ejecución">Almacenando información de ejecución</h2>
+<p>Para saber qué bloques ir resaltando hice que la función <code>notificar_ejecucion_del_bloque</code>
+simplemente almacene en un diccionario todos los bloques
+a resaltar por actor.</p>
+<p><img src="/images/2021/resaltando-bloques-en-pilas/notificar.png" alt=""></p>
+<p>Así, el diccionario <code>instrumentacion_de_bloques</code> se va llenando con
+todos los bloques que se ejecutan en un solo ciclo del pilas.</p>
+<p>Por ejemplo, en una escena donde hay dos actores con bloques
+el diccionario puede quedar así:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">{
+  <span style="color:#ae81ff">1278</span><span style="color:#f92672">:</span> [
+    <span style="color:#e6db74">&#34;M.ujdyfst~C9SNlx%%~W&#34;</span>,
+    <span style="color:#e6db74">&#34;n#Df-%|n/TtB*Qc([e(d&#34;</span>
+  ],
+  <span style="color:#ae81ff">1585</span><span style="color:#f92672">:</span> [
+    <span style="color:#e6db74">&#34;Sux_IEGyGca,_Slu#R?!&#34;</span>
+  ]
+}
+</code></pre></div><p>Los números <code>1278</code> y <code>1585</code> son los identificadores de actores, mientras
+que las cadenas de texto como <code>&quot;M.ujdyfst...</code> son los identificadores
+de bloques.</p>
+<h2 id="resaltando-bloques">Resaltando bloques</h2>
+<p>Ahora, con este diccionario la tarea se volvió mucho más sencilla, porque
+pude separar en dos lugares independientes &ldquo;qué bloques colorear&rdquo; vs &ldquo;dónde colorearlos&rdquo;.</p>
+<p>Pilas tiene un sistema de eventos similar al que comenté en
+<a href="/posts/2021-02-09-sistema-de-eventos-tipados">este otro post</a>, así que pude enviar
+el diccionario a través de un evento que puede capturar el componente de Blockly.</p>
+<p>Este es un ejemplo de cómo quedó la integración cuando se usa el modo
+pausa:</p>
+<p><img src="/images/2021/resaltando-bloques-en-pilas/animacion.gif" alt=""></p>
+<h1 id="conclusión">Conclusión</h1>
+<p>Me quedé muy contento con la forma en la que se colorean los bloques. Pensé que iba
+a ser mucho más sencillo de implementar, pero aún así creo que llegué a
+una buena forma de resolverlo.</p>
+<p>Más adelante voy a poner a prueba el rendimiento a ver si no afecta mucho
+la velocidad del motor.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Escribiendo en el blog todos los días durante un mes</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2021-02-23-tomar-notas-en-vim/">
+                  <span class="button__text">Tomar notas en VIM</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

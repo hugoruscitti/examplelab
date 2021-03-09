@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>La culpa no es del DOM :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Usar un Framework para escribir tu aplicación JavaScript tiene varias ventajas, sin embargo, creo que hay que revisar una idea que vi en varias charlas técnicas y algún que otro tutorial cuando se intenta justificar el uso de un Framework que me parece incorrecta.
+Se suele decir que cambiar el DOM con las APIs nativas del navegador es un proceso costoso (computacionalmente hablando) y que por ese motivo conviene usar virtualDom o una abstracción similar."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2021-02-16-la-culpa-no-es-del-dom/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="La culpa no es del DOM"/>
+<meta name="twitter:description" content="Seguramente escuchaste a alguien sostener que usar frameworks
+JavaScript hace que las aplicaciones sean más rápidas porque 
+&#34;el DOM es lento&#34;. Aquí te voy a contar por qué es una idea equivocada.
+"/>
+
+
+
+<meta property="og:title" content="La culpa no es del DOM" />
+<meta property="og:description" content="Seguramente escuchaste a alguien sostener que usar frameworks
+JavaScript hace que las aplicaciones sean más rápidas porque 
+&#34;el DOM es lento&#34;. Aquí te voy a contar por qué es una idea equivocada.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2021-02-16-la-culpa-no-es-del-dom/" />
+<meta property="article:published_time" content="2021-02-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-16T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2021-02-16-la-culpa-no-es-del-dom/">La culpa no es del DOM</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            16/02/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Usar un Framework para escribir tu aplicación JavaScript tiene varias
+ventajas, sin embargo, creo que hay que revisar una idea que vi en varias charlas
+técnicas y algún que otro tutorial cuando se intenta justificar el
+uso de un Framework que me parece incorrecta.</p>
+<p>Se suele decir que cambiar <a href="https://www.reddit.com/r/javascript/comments/6115ay/why_do_developers_think_the_dom_is_slow/">el DOM con las APIs nativas del navegador
+es un proceso costoso</a>
+(computacionalmente hablando) y que por ese motivo conviene usar virtualDom o una abstracción similar.</p>
+<p>Lo cierto es que acceder al DOM no es lento, de hecho, la única forma
+de hacer que ocurran cosas en la pantalla del navegador con JavaScript
+es alterando el DOM, incluso si usas un Framework.</p>
+<p>Tal vez tu código de aplicación no esté accediendo directamente a los
+nodos del DOM, sin embargo el Framework sí lo va a estar haciendo, ¡es la
+única forma que existe de alterar la interfaz!</p>
+<p>Entonces, ¿de donde proviene esa idea de que el DOM es lento?</p>
+<h1 id="es-fácil-escribir-código-ineficiente">Es fácil escribir código ineficiente</h1>
+<p>Si escribimos código que accede al DOM directamente, sin saber
+exactamente lo que estamos haciendo, podemos llegar a escribir
+código ineficiente que va a poner a trabajar al navegador de más.</p>
+<p>Tomemos como ejemplo esta situación: tienes una lista de productos en un
+array y quieres convertirlo en una tabla para mostrarlos en el DOM del navegador.</p>
+<p>Una forma sencilla de pensarlo es así:</p>
+<blockquote>
+<p>Comienzo capturando un nodo del DOM, en donde quiero colocar el listado, y luego voy
+insertando elementos al DOM a medida que leo el array de productos.</p>
+</blockquote>
+<p>Que en código podría ser algo así:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">tbody</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;cuerpo&#34;</span>);
+
+<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">u</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">usuarios</span>) {
+  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">tr</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;tr&#34;</span>);
+  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">tdNombre</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;td&#34;</span>);
+  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">tdEmail</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;td&#34;</span>);
+
+  <span style="color:#a6e22e">tdNombre</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">name</span>;
+  <span style="color:#a6e22e">tdEmail</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">email</span>;
+
+  <span style="color:#a6e22e">tr</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">tdNombre</span>);
+  <span style="color:#a6e22e">tr</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">tdEmail</span>);
+
+  <span style="color:#a6e22e">tbody</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">tr</span>);
+}
+</code></pre></div><p>Ahora bien, el código va a funcionar bien, pero ese <code>tbody.appendChild(tr);</code> que
+aparece al final va a obligar al navegador a trabajar más de lo necesario.</p>
+<p>Resulta que cuando añadimos un elemento al DOM el navegador tiene que
+recalcular el tamaño del documento, avisar a cualquier observador del cambio
+del DOM, procesar nuevamente la disposición de los elementos, tal vez extender
+la barra de desplazamiento vertical y algunas cosas más.</p>
+<p>El problema aquí no es el DOM en sí, sino que nuestro algoritmo no tiene en
+cuenta que el navegador prefiere que hagamos las cosas en lote.</p>
+<p>Si queremos mostrar 100 elementos en una lista, ¿por qué no los mostramos todos juntos en lugar
+de hacerlo uno a uno?.</p>
+<p>Esta optimización es muy fácil de hacer:</p>
+<p>Primero tenemos que crear un
+<a href="https://developer.mozilla.org/es/docs/Web/API/DocumentFragment">DocumentFragment</a>,
+que es básicamente un nodo que no forma parte del documento:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">df</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createDocumentFragment</span>();
+</code></pre></div><p>Luego podemos añadir ahí todos los elementos de la tabla, uno a uno, en lugar
+de añadirlos a la tabla.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">df</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">tr</span>);
+</code></pre></div><p>Y por último, podemos agregar todos los elementos juntos a la tabla, produciendo
+un solo cambio en el dom del documento:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">tbody</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">df</span>);
+</code></pre></div><p>Tomando el algoritmo original, estos son todos los cambios que tendríamos
+que hacer:</p>
+
+  <figure class="flex flex-column items-center">
+    <img src="/images/2021/la-culpa-no-es-del-dom/diff.png"   />
+    
+      <figcaption class="center" >La versión anterior y la optimizada</figcaption>
+    
+  </figure>
+
+
+<h1 id="conclusión">Conclusión</h1>
+<p>Si tenemos en cuenta cómo trabaja el navegador hay un montón de oportunidades
+para optimizar cosas.</p>
+<p>Creo que las críticas que se hacen al DOM, y su rendimiento, muchas veces
+están alentadas por desconocer alguno de estos detalles; o por escribir código
+a la ligera. Después de todo, es mucho más fácil culpar a la herramienta, ¡todos hacemos eso de vez en cuando!.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2021-02-17-personalizando-el-teclado/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Personalizando el teclado</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2021-02-12-introduccion-a-presupuestos/">
+                  <span class="button__text">Introducción a presupuestos</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Armando un Audio Switch :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar de trabajo: compré una silla para mejorar mi postura, un escritorio grande, un monitor y algunas cosas más … Después de todo, la computadora (y sus accesorios) son mi herramienta de trabajo, por mas tonto que suene, me pagan por hacer cosas con ella :|
+Sin embargo, había una pequeña piedra en el zapato que desató un proyecto simple y divertido:"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2020-01-24-creando-un-audio-switch/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Armando un Audio Switch"/>
+<meta name="twitter:description" content="Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar de trabajo: comp..."/>
+
+
+
+<meta property="og:title" content="Armando un Audio Switch" />
+<meta property="og:description" content="Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar de trabajo: comp..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2020-01-24-creando-un-audio-switch/" />
+<meta property="article:published_time" content="2020-01-24T23:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-24T23:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2020-01-24-creando-un-audio-switch/">Armando un Audio Switch</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            24/01/2020
+        </span>
+      
+      
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/electr%C3%B3nica/">electrónica</a>&nbsp;
+        
+      </span>
+    
+
+    <div class="post-content">
+      <p>Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar
+de trabajo: compré una silla para mejorar mi postura, un escritorio grande, un
+monitor y algunas cosas más … Después de todo, la computadora (y sus
+accesorios) son mi herramienta de trabajo, por mas tonto que suene, me pagan
+por hacer cosas con ella :|</p>
+<p>Sin embargo, había una pequeña piedra en el zapato que desató un proyecto
+simple y divertido:</p>
+<p>Mi equipo tiene un solo conector para los auriculares y los parlantes externos
+que uso para escuchar música, y en cada reunión tengo que desconectar los
+parlantes, conectar los auriculares (con micrófono incluido) y desconectar todo
+al terminar la reunión.</p>
+<p>Este no es un problema grave, ni siquiera sé si es un “problema” realmente…
+pero me pareció una buena excusa para ver si lo podía mejorar: “Sería genial
+poder tener conectadas las dos cosas (auriculares y parlantes), apretar un
+botón y listo”.</p>
+<p>Resulta que buscando en Internet di con algo llamado “audio switch”, que
+básicamente es un caja pequeña que te permite tener todo conectado y alternar
+entre auriculares y parlantes accionando un interruptor:</p>
+<p><img src="/images/2020/01/08A2C219-4AE3-4830-9845-049CE44A478F.png" alt=""></p>
+<p>Mi primer opción fue tratar de comprar algo para resolverlo rápido y fácil,
+pero luego de contarles la idea a algunos amigos y a mi hermano, me
+convencieron de hacer el “audio switch” comprando los componentes y armando la
+caja.</p>
+<p>¡Y qué buena idea me dieron!, porque después de armarla me sentí bastante
+orgulloso, no será la el “audio switch” mas lindo del mundo, pero es mío, lo
+hice yo, cortando los cables con una tijera vieja y soldando como me salió. Y
+aún así, funciona!!</p>
+<p><img src="/images/2020/01/73AD1EB0-A000-438F-A9B9-167AFC53544E.png" alt=""></p>
+<h2 id="el-armado">El armado</h2>
+<p>Estas son las fotos de los componentes que conseguí: una caja
+pequeña, audio plugs de 4 conectores, una llave palanca 4 polos (gracias Oscar
+por darme el nombre correcto) y unos audio Jacks (o fichas hembra de audio de 4
+conectores).</p>
+<p><img src="/images/2020/01/D702C98E-7399-466A-B680-B6F734C26FF1_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/01/8EF76E9C-0DB9-4A71-8635-83AB64229515_1_105_c.jpeg" alt=""></p>
+<p>Si bien parecen componentes comunes, me costó tiempo encontrarlos.</p>
+<p>Resulta que los conectores de audio más comunes son de 3 conectores (canal
+izquierdo, canal derecho y masa) sin embargo yo buscaba conectores de 4
+conectores, porque mis auriculares con micrófono y el conector de audio de la
+Mac es de 4 conectores.</p>
+<p>Por ejemplo, el interruptor de 4 polos que buscaba era exactamente como este:</p>
+<p><img src="/images/2020/01/8584C9AA-A221-4EEA-9992-0C4992989846_1_105_c.jpeg" alt=""></p>
+<p>Armar la caja y empezar a soldar todo fue lo más divertido y constructivo de
+todo, empecé por medir y armar la caja así:</p>
+<p><img src="/images/2020/01/23B46C32-BE32-46DB-ABB9-C5934ECCEDCF_1_105_c.jpeg" alt=""></p>
+<p>Mi idea original era armar todos los cables y para eso iba a usar los plugs.</p>
+<p>Sin embargo, encontré en casa un cable que me iba a evitar el armado de algunas
+fichas:</p>
+<p><img src="/images/2020/01/9DB2ACC9-CF2A-45DB-8C25-1BE3353F99ED_1_105_c.jpeg" alt=""></p>
+<p>Luego fui detectando con un Tester a qué partes de la ficha correspondían cada
+uno de los cables:</p>
+<p><img src="/images/2020/01/B18B6735-331C-4AD4-B2C1-4A599515C215_1_105_c.jpeg" alt=""></p>
+<p>Y armé los Jacks siguiendo el diagrama y la caja:</p>
+<p><img src="/images/2020/01/22C1DC58-3E5F-4867-920F-3920273AF11E_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/01/47EF425E-667C-47AA-9B3E-8D63FF4EBC22_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/01/8659EDBC-80D3-4AA5-BB95-0870BCC9CF9D_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/01/D1B40A4B-5C20-4CE5-AF97-CDFED1DA6079_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/01/2F94A2DF-5CF7-42F8-A185-26420DE62276_1_105_c.jpeg" alt=""></p>
+<p>Sin embargo, al probarlos me di cuenta que casi todo funcionaba bien, excepto
+el micrófono: había un ruido constante super molesto, como si el cable del
+micrófono estuviera tocando con algún otro cable…</p>
+<p>Desarmé todo, conecté nuevamente y me pasaba lo mismo… incluso probé quitando
+el interruptor y conectando los cables “con cinta, para probar” y seguía
+haciendo ruido.</p>
+<p>Y luego de buscar y buscar, di con esta imagen de MashTips:</p>
+<p><img src="/images/2020/01/external-content.duckduckgo.jpg" alt=""></p>
+<p>Uno de los errores que estaba cometiendo era que “asumí”, como cuando cometo
+errores programando, que los conectores de Mac eran estándar, y que el conector
+mas cercano a la ficha sería la masa… de hecho, ni siquiera se me cruzó por la
+cabeza que podría existir otra forma 🤦‍♂️.</p>
+<p>Así que luego de ese último problema, pude armar correctamente la caja y
+empezar a usarla:</p>
+<p><img src="/images/2020/01/B6729924-FAAE-48DC-89D2-43AA0AA4F4F1_1_105_c.jpeg" alt=""></p>
+<p><img src="/images/2020/01/0DD07822-8F4F-4B9E-B453-CC75993AB018_1_105_c.jpeg" alt=""></p>
+<p>Ojalá se me cruce alguna otra cosa divertida para hacer pronto, este
+experimento me dio muchas satisfacciones y ganas de seguir aprendiendo.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Creando un cuadro 3D de Dragon Punch</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2018-12-15-la-documentacion-no-muerde/">
+                  <span class="button__text">La documentación no muerde</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Tortugas en el tiempo :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
+Podes ver el proyecto aquí:
+ https://hugoruscitti.github.io/tortugas-en-el-tiempo   video { width: 100%; border: 1px solid gray; margin-top: 0.5em; margin-bottom: 0.5em; }  Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2020-08-08-tortugas-en-el-tiempo/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tortugas en el tiempo"/>
+<meta name="twitter:description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código."/>
+
+
+
+<meta property="og:title" content="Tortugas en el tiempo" />
+<meta property="og:description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2020-08-08-tortugas-en-el-tiempo/" />
+<meta property="article:published_time" content="2020-08-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-08T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2020-08-08-tortugas-en-el-tiempo/">Tortugas en el tiempo</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            08/08/2020
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para
+dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de
+aprendizaje y código.</p>
+<p><img src="/images/2020/08/inicio.png" alt=""></p>
+<p>Podes ver el proyecto aquí:</p>
+<ul>
+<li><a href="https://hugoruscitti.github.io/tortugas-en-el-tiempo">https://hugoruscitti.github.io/tortugas-en-el-tiempo</a></li>
+</ul>
+<style>
+video {
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+</style>
+<h2 id="motivación">Motivación</h2>
+<p>Hace algunos años vi una charla llamada <a href="https://youtu.be/e7QYMgSk9s0">“Inventing on Principle”</a>
+que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y
+pensamos acerca del código.</p>
+<p>En esta charla Bret Victor comienza mencionando una situación típica de nuestra profesión:</p>
+<blockquote>
+<p>Así es como programamos: escribes un montón de código en un editor de textos, tratas de imaginar
+en tu cabeza que hará cada linea de código. Luego lo compilas, ejecutas y algo sucede. Pero si
+algo sale mal, tienes que ir devuelta al código.</p>
+</blockquote>
+<p>y sigue con una frase que me quedó resonando en la cabeza:</p>
+<blockquote>
+<p>La mayoría del tiempo estamos frente al código, trabajando a ciegas en un editor de texto, sin tener una conexión con lo que estamos haciendo.</p>
+</blockquote>
+<p>Y da un ejemplo adicional:</p>
+<p><img src="/images/2020/08/034947C6-A4E5-4B97-9633-E80CDE1C5ABF.png" alt=""></p>
+<blockquote>
+<p>[…] La búsqueda binaria se ve así. Desde mi perspectiva, aquí no se puede ver nada. Veo la
+variable “array” pero no veo su contenido. Entonces, para escribir código de esta manera, tienes
+que imaginarte un array en tu cabeza, y esencialmente debes jugar a ser una computadora, debes
+simular en tu cabeza lo que cada líneas de código haría en la computadora. Y las personas que
+consideramos hábiles desarrolladores de software son solamente aquellas personas que son hábiles
+jugando a ser computadoras.</p>
+<p>Pero para escribir código en la computadora… ¿Por qué simulamos lo
+que haría la computadora en nuestra mente?, ¿Porqué simplemente no lo hace la computadora y nos
+muestra?</p>
+<p>(<a href="https://youtu.be/e7QYMgSk9s0?t=1043">https://youtu.be/e7QYMgSk9s0?t=1043</a>)</p>
+</blockquote>
+<p>Luego de ver esta charla me quedé con una sensación incómoda con respecto al código y cómo
+programamos. Pienso que estas ideas son una suerte punto de partida para pensar y diseñar formas
+nuevas de programación.</p>
+<p>¿Cómo podríamos diseñar una interfaz que acompañe a desarrollares a entender sus programas?, ¿Qué
+elementos de un programa podemos hacer “visibles” a los usuarios?</p>
+<h2 id="pensando-en-un-proyecto">Pensando en un proyecto</h2>
+<p>Pienso que desde que vi esa charla comencé a ver las herramienta de otra forma, re diseñe
+<a href="https://www.pilas-engine.com.ar">Pilas</a> “dando vueltas” muchas cosas, y hasta hoy sigo imaginando cómo
+resolver los problemas que plantea Bret Victor.</p>
+<p>No es sencillo abordar todo lo que plantea en su charla, hacer visible el contexto de un programa y
+permitirle a las personas manipular directamente sus programas es muy desafiante, y se requiere
+práctica.</p>
+<p>Así que en búsqueda de tener algo de práctica con estas ideas y como excusa para volver a leer
+textos como <a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a> me propuse crear
+una herramienta de programación similar a
+<a href="https://es.wikipedia.org/wiki/Logo_(lenguaje_de_programaci%C3%B3n)">logo</a>, pero mucho más acotado, y
+con algunas mejoras como el resaltado de código, la posibilidad de realizar una depuración paso a
+paso y algunas cosas más.</p>
+<h2 id="qué-permite-hacer-esta-herramienta">¿Qué permite hacer esta herramienta?</h2>
+<p>La herramienta te permite realizar dibujos controlando la tortuga que aparece en pantalla usando
+código.</p>
+<p><img src="/images/2020/08/E9158063-9158-4D4E-9B95-21A084A572F4.png" alt=""></p>
+<p>La tortuga solo entiende unas pocas palabras, como “avanzar”, “girarDerecha” o “cuadrado”; pero se
+le pueden enseñar más palabras creando funciones nuevas.</p>
+<p>Sin embargo, lo interesante es que cada una de las acciones que realiza la tortuga se pueden
+visualizar progresivamente, mientras el código se resalta para mostrar qué linea de código está
+siendo ejecutada.</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/ejecucion.mp4" type="video/mp4">
+  <source src="/videos/2020/08/ejecucion.webm" type="video/webm">
+</video>
+<p>Además, una vez que termina la ejecución del programa el usuario puede pulsar el botón “pausa” y
+revisar la ejecución del programa retrocediendo o avanzando en el tiempo:</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/depuracion.mp4" type="video/mp4">
+  <source src="/videos/2020/08/depuracion.webm" type="video/webm">
+</video>
+<h2 id="bucle-principal">Bucle principal</h2>
+<p>Una característica que me interesaba re-crear para las personas que usen esta herramienta es poder
+ver cómo se produce el dibujo de manera gradual, como si estuviera dibujando sobre una pizarra con
+un marcador:</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/screencast.mp4" type="video/mp4">
+  <source src="/videos/2020/08/screencast.webm" type="video/webm">
+</video>
+<p>Obviamente es mucho más sencillo crear un entorno en donde el código se ejecuta al instante, de
+forma sincrónica, sin embargo eso hubiera hecho que el programa se vuelva mucho más difícil de
+entender. Cuando el código se ejecuta inmediatamente las personas se ven obligadas a “pensar como
+una computadora” para entender qué está haciendo el código.</p>
+<p>Así que fui directo por una implementación similar a la que se realiza en el desarrollo de
+videojuegos, creando un temporizador que mantiene la escena “viva” dibujado una y otra vez la
+posición de la tortuga y reaccionando a los cambios de atributos.</p>
+<p><img src="/images/2020/08/game-loop.png" alt=""></p>
+<p>Tener un temporizador encargado de dibujar la pantalla hace que el resto del sistema sea mucho más
+simple, porque a partir de ahí cualquier cambio que realicemos a la tortuga se va a reflejar en el
+canvas automáticamente.</p>
+<p>Por ejemplo, esta es una de las primeras pruebas que realicé, en donde puse a funcionar el bucle
+principal y comencé a editar la estructura de datos que representa la tortuga con algunos
+controladores:</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/propiedades.mp4" type="video/mp4">
+  <source src="/videos/2020/08/propiedades.webm" type="video/webm">
+</video>
+<p>Es decir, con solo alterar alguno de esos atributos de forma directa el usuario va a percibir
+“movimientos” graduales en lugar de cambios inmediatos.</p>
+<h2 id="dibujado-en-pantalla">Dibujado en pantalla</h2>
+<p>Para realizar dibujos utilicé el elemento <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial">Canvas de
+HTML</a>, pero en lugar de usar
+un solo elemento tuve que usar dos separados.</p>
+<p><img src="/images/2020/08/8291458D-A0AE-4DE5-AB43-A6AEB2FDF874.png" alt=""></p>
+<p>La razón por la que tuve que separarlos es porque quería poder controlar la tortuga como si se
+tratara de un Sprite de video juego, pudiendo moverlo o aplicándole transformaciones fácilmente por
+un lado, y por otro lado lograr que el dibujado que hace el usuario sobre la pantalla quede estable
+sin necesidad de volver a dibujarlo.</p>
+<p>Después de todo, por más que se trate de dos elementos diferentes, es fácil mostrarlos solapados,
+uno arriba del otro, como si se tratara de “capas” de la misma porción de la pantalla.</p>
+<h2 id="modo-pausa">Modo pausa</h2>
+<p>El editor también incluye una funcionalidad para detener la ejecución del programa y analizar paso
+a paso qué movimiento realizó la tortuga.</p>
+<p>Para activar este modo hay que ejecutar el programa y luego pulsar el botón “Pausar”:</p>
+<p><img src="/images/2020/08/950D1711-7C1E-44F2-84DC-133112873C91.png" alt=""></p>
+<p>En ese punto, el editor ingresa en un modo especial, en donde el usuario puede manipular una linea
+de tiempo para revisar el movimiento de la tortuga. Y no solo el movimiento, también puede ver qué
+linea de código se ejecutó en ese instante:</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/modo-pausa.mp4" type="video/mp4">
+  <source src="/videos/2020/08/modo-pausa.webm" type="video/webm">
+</video>
+<p>Ahora bien, ¿cómo está implementada esta funcionalidad?: El entorno tiene una lista en memoria en
+donde va guardando cada una de las acciones que hace la tortuga.</p>
+<p>Esta lista se podría ejemplificar así: imagina que tenemos un código que dibuja un triángulo:</p>
+<p><img src="/images/2020/08/861E3835-CA41-4523-953D-94A2D1C4A4BE.png" alt=""></p>
+<p>Cuando pulsamos el botón ejecutar la lista debería quedar con un solo elemento, la posición inicial
+de la tortuga:</p>
+<pre><code>pasos = [
+	{
+		tipo: &quot;posicion-inicial&quot;,
+		x: 150,
+		y: 150,
+		lapiz: &quot;abajo&quot;,
+		# rotación, etc ...
+	}
+]
+</code></pre><p>Luego, como el programa está en ejecución se va a procesar la linea que dice <code>avanzar(50)</code> y cuando
+terminé de realizarse esa acción, se va a añadir este elemento a la lista:</p>
+<pre><code>lista.push({
+	tipo: &quot;movimiento-de-dibujado&quot;,
+	x: 150,
+	y: 200,
+	lapiz: &quot;abajo&quot;,
+	# rotación, etc ...
+})
+</code></pre><p>Es decir, cada acción va a añadir un elemento en esta lista de pasos, detallando la posición de la
+tortuga y algunos atributos mas. Con solo guardar esos datos alcanza para “recrear” toda la escena
+una vez que se activa el modo pausa.</p>
+<p>Este video muestra una versión más completa de esta estructura de datos y cómo se van a agregando
+elementos a la lista de pasos:</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/pasos-del-depurador.mp4" type="video/mp4">
+  <source src="/videos/2020/08/pasos-del-depurador.webm" type="video/webm">
+</video>
+<p>Por cierto, esta estrategia de depuración también la implementé en <a href="https://www.pilas-engine.com.ar">Pilas Engine
+2</a>, donde incluso puede haber muchos actores en movimiento
+interactuando entre sí:</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/depuracion-en-pilas.mp4" type="video/mp4">
+  <source src="/videos/2020/08/depuracion-en-pilas.webm" type="video/webm">
+</video>
+<p>Ah, y como dato curioso, incluso algunos videojuegos usan esta técnica de guardar el estado del
+programa para realizar efectos de repetición (como los juegos de fútbol) o incluso para lograr
+mecánicas como el control de tiempo. Pienso que el juego
+<a href="https://www.youtube.com/watch?v=R9Exh6uhJno">Braid</a> es el mejor ejemplo de esto, incluso hay una
+charla de su autor <a href="https://youtu.be/8dinUbg2h70?t=408">explicando cómo está implementada esa
+característica</a> por si te resulta interesante para investigar.</p>
+<h2 id="editor-de-código">Editor de código</h2>
+<p>En las primeras pruebas de este proyecto comencé trabajando con un elemento de tipo HTML TextArea
+simple, pero al poco tiempo noté que para escribir código necesitaba números de lineas, coloreado
+de sintaxis y alguna forma de resaltar lineas.</p>
+<p>Así que armé un componente de VueJS basado en <a href="https://microsoft.github.io/monaco-editor/index.html">Monaco
+Editor</a>, una biblioteca que provee un editor
+de código muy completo, con soporte de auto-completado, resaltado de sintaxis y varias opciones de
+configuración para utilizarlo en donde sea.</p>
+<p>Una de las características de Monaco que más exploré es la posibilidad de configurar el módulo de
+auto-completado; de hecho resultó ser más sencillo de lo que imaginaba, simplemente tenemos que
+enviarle las definiciones de funciones a Monaco así:</p>
+<p><img src="/images/2020/08/editor.png" alt=""></p>
+<p>Esta definición alcanza para que el editor autocomplete el nombre de las funciones, detecte errores
+y nos muestre documentación de cada función:</p>
+<p><img src="/images/2020/08/4A9FD284-3E0F-428D-B86B-33738E872D61.png" alt=""></p>
+<h2 id="código-visible">Código visible</h2>
+<p>Algo que menciona Bret Victor <a href="http://worrydream.com/LearnableProgramming/">en el ensayo que mencioné
+antes</a> es que las funciones y elementos del lenguaje
+deberían estar a la vista de las personas. Así que intenté explorar la posibilidad de colocar las
+funciones disponibles para utilizar en un panel a la derecha del editor:</p>
+<video preload="false" controls>
+  <source src="/videos/2020/08/ingresar-codigo-desde-panel.mp4" type="video/mp4">
+  <source src="/videos/2020/08/ingresar-codigo-desde-panel.webm" type="video/webm">
+</video>
+<p>Igualmente, siento que este panel de funciones se podría mejorar un montón; me imagino que se le
+podría presentar a las personas una previsualización de qué hace cada función, algo más de
+información sobre sus parámetros o algo de documentación.</p>
+<h2 id="resaltado-de-código-al-ejecutar">Resaltado de código al ejecutar</h2>
+<p>Pienso que lo más importante de este prototipo es que logra resaltar las lineas de código cada vez
+que la tortuga realiza una acción:</p>
+<p><img src="/images/2020/08/B9CC4EA7-4016-4E5A-82EA-B0574B289396.png" alt=""></p>
+<p>Para implementar esta característica utilicé una biblioteca JavaScript llamada
+<a href="https://neil.fraser.name/software/JS-Interpreter/docs.html">JS-Interpreter</a>. Esta biblioteca te
+provee de una clase llamada <code>Interpreter</code> que se puede configurar para ejecutar código paso a paso.</p>
+<p>Este es un ejemplo básico de lo cómo se puede enviar código a esa clase e iniciar la ejecución del
+programa:</p>
+<p><img src="/images/2020/08/interpreter.png" alt=""></p>
+<p>A grandes rasgos parece similar a tener el código en una cadena de texto como
+<code>código</code> y luego llamar a <code>eval(código)</code>.</p>
+<p>Sin embargo, este intérprete hace mucho más que eso:</p>
+<p>Una de las características que incluye es la posibilidad de ejecutar código de manera aislada del
+resto de entorno, así que podemos controlar qué cosas puede ejecutar el código que le enviemos
+limitando el acceso a objetos o APIs que nosotros queramos.</p>
+<p>De hecho, este intérprete nos permite vincular funciones asincrónicas y que el programador las
+perciba como simples funciones sincrónicas.</p>
+<p>Por ejemplo, el movimiento de la tortuga se ve como una función muy sencilla: <code>avanzar(20)</code>, pero
+internamente se implementó como un comportamiento asincrónico, que gradualmente va avanzando pixel
+a pixel y dibujando hasta que la tortuga llega al punto solicitado:</p>
+<p><img src="/images/2020/08/secuencia.png" alt=""></p>
+<p>Algo que también permite este intérprete es analizar el programa completo y saber qué linea de
+código está ejecutando en cada momento, cosa que utilicé para resaltar el código del editor.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Hacer este experimento me sirvió muchísimo… pude volver a leer algunas ideas de Seymour Paper, de
+Bret Victor y ver varios videos de Logo.</p>
+<p>También me sirvió para aprender a utilizar VueJs, Monaco y Cypress de forma práctica, con un
+proyecto realizable en manos.</p>
+<p>Además, si bien se trata de un programa muy pequeño (e incompleto si lo comparamos con una
+herramienta de verdad) me dio mucho impulso para programar algunos experimentos nuevos.</p>
+<p>Hasta la próxima, ¡y gracias por leer!</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2020-08-25-doom/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Volviendo a jugar Doom</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/">
+                  <span class="button__text">Creando un cuadro 3D de Dragon Punch</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

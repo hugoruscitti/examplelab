@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Buscar e instalar en Huayra :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Esta semana creamos una herramienta nueva para todos los usuarios de huayra linux: huayra-alias.
+El objetivo de esta herramienta es facilitar la búsqueda e instalación de paquetes con dos comandos nuevos. Ayudando a simplificar tutoriales, acortar instrucciones y escribir menos :)
+Pensando en comandos &amp;hellip; Huayra está basado en debian gnu/linux, una de las distribuciones más sólidas y prestigiosas impulsada por la comunidad de software libre.
+Y en debian, como en muchas otras distribuciones de linux, se utilizan comandos para casi todo: hay comandos para procesar archivos, instalar software, iniciar servicios, compartir archivos etc&amp;hellip;"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2015-05-20-buscar-e-instalar-en-huayra/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Buscar e instalar en Huayra"/>
+<meta name="twitter:description" content="Creamos una herramienta para facilitar la instalación de software en Huayra"/>
+
+
+
+<meta property="og:title" content="Buscar e instalar en Huayra" />
+<meta property="og:description" content="Creamos una herramienta para facilitar la instalación de software en Huayra" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2015-05-20-buscar-e-instalar-en-huayra/" />
+<meta property="article:published_time" content="2015-05-20T03:13:32+00:00" />
+<meta property="article:modified_time" content="2015-05-20T03:13:32+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2015-05-20-buscar-e-instalar-en-huayra/">Buscar e instalar en Huayra</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            20/05/2015
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Esta semana creamos una herramienta nueva para todos los usuarios de huayra linux: <strong>huayra-alias</strong>.</p>
+<p>El objetivo de esta herramienta es facilitar la búsqueda e instalación de paquetes con dos comandos nuevos. Ayudando a simplificar tutoriales, acortar instrucciones y escribir menos :)</p>
+<h2 id="pensando-en-comandos-">Pensando en comandos &hellip;</h2>
+<p>Huayra está basado en <strong>debian gnu/linux</strong>, una de las distribuciones más sólidas y prestigiosas impulsada por la comunidad de software libre.</p>
+<p>Y en <strong>debian</strong>, como en muchas otras distribuciones de linux, se utilizan comandos para casi todo: hay comandos para procesar archivos, instalar software, iniciar servicios, compartir archivos etc&hellip;</p>
+<p>Pero curiosamente, entre estos comandos, no se incluyen atajos pensados para facilitarnos el uso de la computadora. Por ejemplo, para buscar software a veces terminamos escribiendo algo como <em>&ldquo;sudo apt-get update; apt-get search &hellip;&quot;</em>  y algunas cosas más.</p>
+<p>Pienso que algunos comandos se diseñaron como si fueran <a href="http://es.wikipedia.org/wiki/Navaja_suiza">navajas suizas</a>, con muchos parámetros y opciones pensadas para contemplar un montón de casos de uso.</p>
+<p>Por suerte podemos cambiar esto, y construir comandos rápidos para realizar las tareas más cotidianas, como <em>buscar</em> e <em>instalar</em>.</p>
+<h2 id="buscar">Buscar</h2>
+<p>El primer comando que creamos es <strong>buscar</strong>, que simplemente se encarga de realizar búsquedas en la base de datos de software disponible en los repositorio y mantener actualizados lo índices de búsqueda para responder rápido.</p>
+<p>Por ejemplo, si escribimos <strong>buscar stopmotion</strong> en una consola de huayra:</p>
+<p><img src="/images/2015/05/huayra-3-0--i386---Running--2015-05-19-23-29-26.png" alt=""></p>
+<p>aparecerán dos opciones, donde la primer columna de nombres en color verde son los nombres de paquetes, y lo que sigue es una descripción breve.</p>
+<p>Y también vale comentar que el comando <strong>buscar</strong> realizará una actualización y optimización de búsquedas si fuera necesario, automáticamente:</p>
+<p><img src="/images/2015/05/huayra-3-0--i386---Running--2015-05-19-23-28-32-png.png" alt=""></p>
+<h2 id="instalar">Instalar</h2>
+<p>El siguiente comando es <strong>instalar</strong>, que nos sirve para descargar, instalar y configurar un paquete de forma automática escribiendo solamente su nombre.</p>
+<p>Volviendo al ejemplo anterior, si quisiéramos instalar o actualizar <strong>huayra-stopmotion</strong> podemos escribir:</p>
+<p><img src="/images/2015/05/huayra-3-0--i386---Running--2015-05-19-23-30-03.png" alt=""></p>
+<p>y listo: El mismo comando nos puede servir para realizar instalaciones y actualizar, ya sea un paquete o varios.</p>
+<h2 id="ideas-a-futuro">Ideas a futuro</h2>
+<p>Una vez que implementamos la primer versión, como era de esperar, nos dimos cuenta que llegamos a algo interesante, y que podemos comenzar a implementar funcionalidades nuevas poco a poco.</p>
+<p>Por ejemplo, nos gustaría añadirle una ayuda al comando <em>instalar</em>, y que nos guíe si equivocamos el nombre de un paquete, algo así como hace google cuando nos muestra un texto que dice &ldquo;usted quiso decir &hellip;&rdquo;, o incluso, que nos muestre una lista de los paquetes que podríamos actualizar.</p>
+<p>También podemos añadir algunos comandos como <em>doctor</em>, para detectar problemas de configuración o imprimir sugerencias de actualización o algo así&hellip;</p>
+<p>En fin, los dejo con el <a href="https://github.com/HuayraLinux/huayra-alias">link al proyecto en github</a>, donde te invitamos a participar del desarrollo junto a nosotros: pensar funcionalidades nuevas, buscar errores y programar :)</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2015-07-12-draculas/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">¡ Publicamos Dracula&#39;s Nightmare !</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2015-03-01-indicadores-de-version/">
+                  <span class="button__text">Haciendo indicadores de actualización</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

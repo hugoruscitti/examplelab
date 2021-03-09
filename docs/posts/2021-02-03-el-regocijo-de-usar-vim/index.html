@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>El regocijo de usar VIM :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="VIM es un editor de texto muy particular, para empezar: está ligeramente orientado a facilitar operaciones como navegar y editar texto en lugar de ser un editor principalmente para escribir. Esto hace que toda la experiencia de usar la herramienta esté mediada por este enfoque inicial.
+Por ejemplo, cuando ingresas en VIM, el editor espera que ingreses comandos pulsando teclas, en lugar de trasladar esas teclas en caracteres y colocarlas en el archivo de texto como hacen la mayoría de los editores de texto."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2021-02-03-el-regocijo-de-usar-vim/" />
+
+
+
+
+<script src="/js/menu.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="El regocijo de usar VIM"/>
+<meta name="twitter:description" content="VIM es un editor único, incorpora un lenguaje para hacer
+operaciones de manera muy directa y tal vez eso sea lo
+más interesante de todo.
+"/>
+
+
+
+<meta property="og:title" content="El regocijo de usar VIM" />
+<meta property="og:description" content="VIM es un editor único, incorpora un lenguaje para hacer
+operaciones de manera muy directa y tal vez eso sea lo
+más interesante de todo.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2021-02-03-el-regocijo-de-usar-vim/" />
+<meta property="article:published_time" content="2021-02-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-03T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2021-02-03-el-regocijo-de-usar-vim/">El regocijo de usar VIM</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            03/02/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>VIM es un editor de texto muy particular, para empezar: está
+ligeramente orientado a facilitar operaciones como navegar y editar
+texto en lugar de ser un editor principalmente para escribir. Esto
+hace que toda la experiencia de usar la herramienta esté mediada
+por este enfoque inicial.</p>
+<p>Por ejemplo, cuando ingresas en VIM, el editor espera que ingreses
+comandos pulsando teclas, en lugar de trasladar esas teclas en caracteres
+y colocarlas en el archivo de texto como hacen la mayoría de los
+editores de texto.</p>
+<p>Esto tiene algo bueno y algo malo:</p>
+<p>Lo bueno es que tu teclado se transforma en una especie de tablero
+de control que te permite hacer casi cualquier cosa de manera
+muy rápida y eficiente.</p>
+<p>Lo malo es que todas esas perillas y comandos están ocultas, invisibles
+hasta que sabes cómo usarlas.</p>
+<h1 id="comandos-de-alto-nivel">Comandos de alto nivel</h1>
+<p>Gran parte de las operaciones y cambios que hago en el código o
+en los textos es de la forma &ldquo;Quiero cambiar el contenido de este
+string&rdquo;, &ldquo;quiero mover este tag html a un template diferente&rdquo;, &ldquo;Necesito
+agregar otro parámetro a esta función&rdquo; etc&hellip;</p>
+<p>Vim tiene un lenguaje para hacer todas estas cosas, nunca te ves
+obligado a hacer desplazamientos hacia arriba y abajo buscando cosas
+o pulsando 20 veces <code>backspace</code> para sustituir una cosa por otra.</p>
+<p>Por ejemplo, para cambiar el contenido de un string basta con
+escribir <code>ci&quot;</code> (que se puede interpretar como <strong>c</strong>hange <strong>i</strong>nner <strong>&quot;</strong>).</p>
+<p>Algo similar ocurre con los tags html, si queremos seleccionar una
+región de etiquetas podemos invocar <code>vit</code> (<strong>v</strong>isual select <strong>i</strong>n <strong>t</strong>ag)
+o <code>vat</code> (para seleccionar el tag completo, y no solo su contenido).</p>
+<p>Y esta regla básica del lenguaje sirve para construir varias combinaciones
+diferentes:</p>
+
+  <figure class="flex flex-column items-center">
+    <img src="/images/2021/el-regocijo-de-usar-vim/lenguaje.png"   />
+    
+      <figcaption class="center" >Descomposición de una operación de selección en vim</figcaption>
+    
+  </figure>
+
+
+<p>Y lo más interesante, es que en el momento en que tomas práctica te
+das cuenta que ni siquiera necesitas seleccionar el texto antes de hacer
+algo con él.</p>
+<p>VIM me permite evitar las ceremonias antes de hacer cambios, si quiero
+borrar algo no necesito seleccionarlo previamente. Por ejemplo <code>dap</code> sirve
+para borrar un párrafo entero.</p>
+<h1 id="movimientos-rápidos">Movimientos rápidos</h1>
+<p>Los movimiento del cursor también son importantes, no solo para navegar
+el código, sino también para hacer ajustes rápidos.</p>
+<p>Yo uso un montón el comando <code>/</code> y <code>?</code> que sirven para iniciar una búsqueda
+rápida y mover el cursor. Además, uso mucho <code>c-o</code> para volver a la posición
+anterior del cursor.</p>
+<p>Es muy práctico moverse así, el editor recuerda todos nuestros movimientos.</p>
+<p>Otro ejemplo, si estoy editando código Python es probable que ejecute
+el comando <code>/def</code> para ir al primer método o función de un archivo, ahí puedo
+pulsar <code>n</code> para ir al siguiente método e ir saltando entre funciones.</p>
+<p>En otros editores que no tienen un lenguaje como este lo más fácil termina
+siendo usar el mouse para seleccionar zonas particulares, o pulsar muchas
+veces las flechas del teclado para movernos por el código.</p>
+<h1 id="sin-distracciones">Sin distracciones</h1>
+<p>Otra cosa curiosa del editor es que su interfaz es mínima, casi todo
+está disponible a unas pulsaciones de teclas y no necesita de iconos, menúes
+o ventanas.</p>
+
+  <figure class="flex flex-column items-center">
+    <img src="/images/2021/el-regocijo-de-usar-vim/goyo.png"   />
+    
+      <figcaption class="center" >Vim con el plugin Goyo activo para escribir</figcaption>
+    
+  </figure>
+
+
+<p>A mí me resulta estéticamente atractivo, la pantalla está disponible al 100%
+para lo que estoy haciendo, los caracteres se ven grandes, sin distracciones
+y ninguna interrupción.</p>
+<h1 id="vine-por-la-eficiencia-pero-me-quedé-por-la-diversión">Vine por la eficiencia pero me quedé por la diversión</h1>
+<p>El momento más importante para mí al usar Vim fue cuando comprendí las
+reglas básicas del lenguaje y cómo se podían componer comandos. Antes
+de ese momento, me movía como loco y pulsaba muchas veces la mismas
+teclas para borrar o recorrer el texto, letra por letra.</p>
+<p>Y aquí es donde creo que experimenté un &ldquo;click&rdquo; al momento de usar el
+editor. No se si fue un &ldquo;click&rdquo; saludable, tal vez el &ldquo;click&rdquo; es el
+sonido de un tornillo que se cayó o algo así&hellip; pero lo cierto es
+que desde ese momento comencé a disfrutar mucho de este editor.</p>
+<p>La sensación de poder expresar con pocas teclas operaciones casi a la
+velocidad del pensamiento es muy atractiva, operar usando comandos
+de bloques o crear macros es casi como armar rompecabezas en el aire
+y verlos funcionar en la pantalla.</p>
+<p>Es cierto que este enfoque hace que seas más rápido a la hora de hacer
+cambios, aunque para mí es más importante sentir que el proceso de usar
+la herramienta es desafiante y se aprende algo nuevo cada tanto.</p>
+<p>Me sigue sorprendiendo que después de tantos años siga
+siendo divertido usar este editor para trabajar todos los días.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/2021-02-04-mejorar-1-por-ciento/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Mejorar 1% cada día</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/2021-02-02-acerca-de-ser-intencional/">
+                  <span class="button__text">Acerca de ser intencional</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>
