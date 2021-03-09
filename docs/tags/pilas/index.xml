@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pilas on Examplelab</title>
-    <link>/tags/pilas/</link>
+    <link>https://hugoruscitti.github.io/examplelab/tags/pilas/</link>
     <description>Recent content in pilas on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jun 2014 01:07:26 +0000</lastBuildDate><atom:link href="/tags/pilas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jun 2014 01:07:26 +0000</lastBuildDate><atom:link href="https://hugoruscitti.github.io/examplelab/tags/pilas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hackatón de Program.AR</title>
-      <link>/posts/2014-06-11-llego-program-ar/</link>
+      <link>https://hugoruscitti.github.io/examplelab/posts/2014-06-11-llego-program-ar/</link>
       <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
       
-      <guid>/posts/2014-06-11-llego-program-ar/</guid>
+      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-06-11-llego-program-ar/</guid>
       <description>Este viernes se realizó al hackatón del primer foro regional &amp;lt;program.AR\&amp;gt; en la universidad de Quilmes.
 La experiencia estuvo increible:
 Al evento asistimos el equipo completo de huayra y muchos amigos de la comunidad educativa: los chicos de educ.ar, sadosky, Jefatura de Gobierno y pyar.
@@ -21,10 +21,10 @@ El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un 
     
     <item>
       <title>Encuentro Linux en Temuco, Chile</title>
-      <link>/posts/2013-11-18-encuentro-linux-en-temuco-chile/</link>
+      <link>https://hugoruscitti.github.io/examplelab/posts/2013-11-18-encuentro-linux-en-temuco-chile/</link>
       <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
       
-      <guid>/posts/2013-11-18-encuentro-linux-en-temuco-chile/</guid>
+      <guid>https://hugoruscitti.github.io/examplelab/posts/2013-11-18-encuentro-linux-en-temuco-chile/</guid>
       <description>Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en la ciudad de Temuco:
 Es la primera vez que visito Temuco, y de principio a fin estuvo espectacular, la Universidad de la Frontera en donde se realizó el evento es muy linda, está rodeada de jardines y espacios comunes grandes y cómodos:
 El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pilas-engine y al dia siguiente otra sobre node-webkit.</description>
@@ -32,10 +32,10 @@ El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pi
     
     <item>
       <title>Semana de la juventud en Bariloche</title>
-      <link>/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
+      <link>https://hugoruscitti.github.io/examplelab/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
       <pubDate>Sun, 03 Nov 2013 23:32:32 +0000</pubDate>
       
-      <guid>/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</guid>
+      <guid>https://hugoruscitti.github.io/examplelab/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</guid>
       <description>Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre pilas-engine a chicos de escuelas secundarias.
 El evento estuvo espectacular, los chicos armaron stands, participaron de talleres de edición de videos con openshot, competencias de fútbol tenis, bailes y mucho más:
 Y por si fuera poco, el centro cívico de la ciudad de Bariloche es espectacular, la vista al Lago Nahuel Huapi es increible:
@@ -44,10 +44,10 @@ Ojalá pueda visitar nuevamente bariloche con un taller de pilas-engine renovado
     
     <item>
       <title>Pilas en pycon 2013 Rosario</title>
-      <link>/posts/2013-11-01-pilas-en-pycon-2013-rosario/</link>
+      <link>https://hugoruscitti.github.io/examplelab/posts/2013-11-01-pilas-en-pycon-2013-rosario/</link>
       <pubDate>Fri, 01 Nov 2013 21:24:50 +0000</pubDate>
       
-      <guid>/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
+      <guid>https://hugoruscitti.github.io/examplelab/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
       <description>Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013 de la ciudad de Rosario.
 Aquí estan las diapositivas:
  y el video:

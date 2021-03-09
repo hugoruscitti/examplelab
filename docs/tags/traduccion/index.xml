@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>traduccion on Examplelab</title>
-    <link>/tags/traduccion/</link>
+    <link>https://hugoruscitti.github.io/examplelab/tags/traduccion/</link>
     <description>Recent content in traduccion on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2014 22:01:47 +0000</lastBuildDate><atom:link href="/tags/traduccion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jan 2014 22:01:47 +0000</lastBuildDate><atom:link href="https://hugoruscitti.github.io/examplelab/tags/traduccion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>_why: La historia de un genio post-moderno</title>
-      <link>/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
+      <link>https://hugoruscitti.github.io/examplelab/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
       <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
       
-      <guid>/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
+      <guid>https://hugoruscitti.github.io/examplelab/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
       <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
 Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
  Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
