@@ -28,18 +28,11 @@ ejecutar_con_borradores:
 compilar:
 	hugo
 
-public_remoto:
-	git clone dokku@examplelab.com.ar:examplelab public_remoto
-
-deploy: public_remoto
-	rm -rf public
+deploy: 
 	@echo "Compilando el sitio."
-	make compilar
-	@echo "Creando directiva para deployar en dokku..."
-	touch public/.static
-	@echo "Realizando deploy..."
-	@cd public_remoto; git checkout -f; git pull
-	@cp -r public/* public_remoto
-	@cd public_remoto; git add .; git commit -am "rebuild"; git push origin master
-	@rm -rf public
+	git pull origin master
+	hugo -d docs
+	git add docs
+	git commit -am "actualizando archivos .html"
+	git push origin master
 	@echo "${G}Listo, se hizo el deploy en https://www.examplelab.com.ar${N}"
