@@ -10,7 +10,6 @@ all:
 	@echo "${B}Comandos disponibles${N}"
 	@echo ""
 	@echo "    ${G}ejecutar${N}                   ejecuta el modo servidor sin mostrar borradores."
-	@echo "    ${G}ejecutar_con_borradores${N}    ejecuta el modo servidor mostrando borradores."
 	@echo "    ${G}compilar${N}                   genera todos los archivos estáticos."
 	@echo "    ${G}deploy${N}                     sube el sitio para que esté online."
 	@echo ""
@@ -21,18 +20,16 @@ ejecutar:
 	@echo "${G}Ejecutando el servidor en http://localhost:1313/ ...${N}"
 	hugo serve --disableLiveReload
 
-ejecutar_con_borradores:
-	@echo ${G}"Ejecutando el servidor (con borradores) en http://localhost:1313/ ...${N}"
-	hugo serve --disableLiveReload -D
-
 compilar:
 	hugo
 
 deploy: 
+	@echo "Sincronizando repositorio"
+	@git pull origin master > /dev/null
 	@echo "Compilando el sitio."
-	git pull origin master
-	hugo -d docs
-	git add docs
-	git commit -am "actualizando archivos .html"
-	git push origin master
+	@hugo -d docs
+	@echo "Subiendo cambios"
+	@git add docs
+	@git commit -am "actualizando archivos .html"
+	@git push origin master
 	@echo "${G}Listo, se hizo el deploy en https://www.examplelab.com.ar${N}"
