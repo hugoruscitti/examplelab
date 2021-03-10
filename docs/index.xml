@@ -6,7 +6,18 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mis juegos favoritos</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-09-mis-juegos-favoritos-1/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-09-mis-juegos-favoritos-1/</guid>
+      <description>Hay un montón de videojuegos que me gustaría recomendar a otras personas, así que se me ocurrió hacer un listado de los juegos que más me gustaron y publicarlos en el blog.
+El listado no tiene ningún orden en particular y está incompleto, estimo que dentro de unos días haré otro post para incluir más juegos.
+The Beginner&amp;rsquo;s Guide Este juego entra en un género llamado Walking simulator, una clase de juegos que se disfrutan recorriendo escenas, leyendo textos y disfrutando de narraciones de una voz en off que nos va contando una historia.</description>
+    </item>
+    
     <item>
       <title>Mejoras en el corrector ortográfico de VIM</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</link>
