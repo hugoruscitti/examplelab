@@ -13,7 +13,7 @@
       <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.examplelab.com.ar/posts/2021-03-10-provisorio-hasta-que-haga-falta/</guid>
-      <description>Hace más de dos años hice una API para que los usuarios de pilas-engine puedan guardar y combatir sus juegos a través de una url pública.
+      <description>Hace más de dos años hice una API para que los usuarios de pilas-engine puedan guardar y compartir sus juegos a través de una url pública.
 Esto funcionó a la perfección por más de dos años&amp;hellip; pero ayer empezó a dar problemas: El equipo en donde estaba corriendo esta aplicación se quedó sin espacio disponible y cuando me puse a investigar encontré que una de las bases de datos había crecido un montón.</description>
     </item>
     
