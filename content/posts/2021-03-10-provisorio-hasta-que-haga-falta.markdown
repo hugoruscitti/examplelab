@@ -11,7 +11,7 @@ cover: /images/2021/provisorio-hasta-que-haga-falta/portada.jpg
 
 Hace más de dos años hice una *API* para que los usuarios de
 [pilas-engine](https://www.pilas-engine.com.ar) puedan guardar
-y combatir sus juegos a través de una *url* pública.
+y compartir sus juegos a través de una *url* pública.
 
 ![](/images/2021/provisorio-hasta-que-haga-falta/exportar.png)
 
