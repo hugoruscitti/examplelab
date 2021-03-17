@@ -6,7 +6,18 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hay que reinventar esta rueda</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-16-hay-que-reinventar-esta-rueda/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-16-hay-que-reinventar-esta-rueda/</guid>
+      <description>A veces es gracioso como algunas recomendaciones se vuelven dogmas que repetimos una y otra vez.
+&amp;ldquo;No reinventes la rueda&amp;rdquo; es una de esas frases que los programadores pronunciamos como una verdad absoluta, pero que a veces es una pésima recomendación.
+El problema no está en el consejo en sí, porque casi siempre se hace con buenas intenciones. El problema está en perder de vista que esta recomendación tienen sentido en algunos contextos pero no en otros.</description>
+    </item>
+    
     <item>
       <title>Provisorio hasta que haga falta</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-10-provisorio-hasta-que-haga-falta/</link>
