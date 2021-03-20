@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aprendiendo Ember, otra vez</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</guid>
+      <description>Hace más o menos 7 años mi biblioteca favorita para programar en JavaScript era AngularJS. Usaba la biblioteca en todos los proyectos que podía y me leía cada post que aparecía para aprender más. Quería hacer aplicaciones web conociendo la herramienta de principio a fin.
+Aprendí mucho, y al tiempo noté que trabajaba bastante bien con AngularJS, conocía algunos trucos para hacer las cosas de manera modular, comunicar componentes sin que la cosa se volviera inmanejable y escribir tests, que era algo que ni sabía como hacer al principio.</description>
+    </item>
+    
     <item>
       <title>Hay que reinventar esta rueda</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-16-hay-que-reinventar-esta-rueda/</link>
@@ -58,8 +68,8 @@ Lo bueno es que VIM puede usar un corrector más completo llamado LanguageTool, 
       
       <guid>https://www.examplelab.com.ar/posts/2021-03-05-abrazar-a-sumo/</guid>
       <description>No me da pena reconocer que que miro dibujos animados.
-Fue este lunes 2 de enero del 2010 o el 31 de febrero del 2021.
-&amp;ldquo;El 90% de todo es mierda&amp;rdquo; como dice la Revelación de Sturgeon, incluidos los dibujos animados, sin embargo cuando miramos de cerca y buscamos ese 10% restante podemos encontrar cosas que vale la pena rescatar, historias que pueden transmitirnos sentimientos y miradas del mundo que ningún otro medio puede hacer.</description>
+&amp;ldquo;El 90% de todo es mierda&amp;rdquo; como dice la Revelación de Sturgeon, incluidos los dibujos animados, sin embargo cuando miramos de cerca y buscamos ese 10% restante podemos encontrar cosas que vale la pena rescatar, historias que pueden transmitirnos sentimientos y miradas del mundo que ningún otro medio puede hacer.
+Este es el caso de algunos de los episodios de Clarence, una serie de Cartoon Network que me parece diferente a todas las demás.</description>
     </item>
     
     <item>

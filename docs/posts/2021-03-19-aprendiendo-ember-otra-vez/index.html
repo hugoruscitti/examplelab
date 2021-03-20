@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Aprendiendo Ember, otra vez :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Hace más o menos 7 años mi biblioteca favorita para programar en JavaScript era AngularJS. Usaba la biblioteca en todos los proyectos que podía y me leía cada post que aparecía para aprender más. Quería hacer aplicaciones web conociendo la herramienta de principio a fin.
+Aprendí mucho, y al tiempo noté que trabajaba bastante bien con AngularJS, conocía algunos trucos para hacer las cosas de manera modular, comunicar componentes sin que la cosa se volviera inmanejable y escribir tests, que era algo que ni sabía como hacer al principio."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Aprendiendo Ember, otra vez"/>
+<meta name="twitter:description" content="Ember cambió mucho en estos años, así que para ponerme
+al día tuve que volver a aprender desde cero, como si
+no conociera nada de la herramienta que uso hace años.
+"/>
+
+
+
+<meta property="og:title" content="Aprendiendo Ember, otra vez" />
+<meta property="og:description" content="Ember cambió mucho en estos años, así que para ponerme
+al día tuve que volver a aprender desde cero, como si
+no conociera nada de la herramienta que uso hace años.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/" />
+<meta property="article:published_time" content="2021-03-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-19T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/archivo/index.html">Archivo</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/archivo/index.html">Archivo</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto ma2 vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/">Aprendiendo Ember, otra vez</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            19/03/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Hace más o menos 7 años mi biblioteca favorita para programar
+en JavaScript era <a href="https://angularjs.org/">AngularJS</a>. Usaba la biblioteca en todos
+los proyectos que podía y me leía cada post que aparecía para
+aprender más. Quería hacer aplicaciones web
+conociendo la herramienta de principio a fin.</p>
+<p>Aprendí mucho, y al tiempo noté que trabajaba
+bastante bien con <em>AngularJS</em>, conocía algunos trucos para hacer
+las cosas de manera modular, comunicar componentes sin que la
+cosa se volviera inmanejable y escribir tests, que era algo que
+ni sabía como hacer al principio.</p>
+<p>Pero en 2014, la gente de <em>AngularJS</em> anunció una nueva versión
+de su framework donde cambiaban prácticamente todo:</p>
+<p><img src="/images/2021/aprendiendo-ember-otra-vez/rip.jpg" alt=""></p>
+<p>Y como yo venía usando <em>AngularJS</em> hace tiempo, estos cambios
+hicieron que me dieran ganas de tirar todo al demonio. El equipo
+de desarrollo anunciaba que eliminaban un montón de piezas
+esenciales del framework, cambiaban la sintaxis, el lenguaje,
+las herramientas, los patrones, ¡todo!.</p>
+<p>Lo que sabía de <em>AngularJS</em> ya no me servía, tenía que empezar
+de cero si quería seguir usando la herramienta sin quedar atrás.</p>
+<h1 id="cambiando-de-herramienta">Cambiando de herramienta</h1>
+<p>En ese momento recuerdo que el anuncio me generó mucha frustración, y
+por lo que entiendo a muchos programadores les pasó lo mismo:</p>
+<p><img src="/images/2021/aprendiendo-ember-otra-vez/comentarios.png" alt=""></p>
+<p>Así que en lugar de seguir por ese camino, me puse a investigar
+otras herramientas y di con <a href="https://emberjs.com/">Ember</a>.</p>
+<p>¡Estaba con bronca en serio!</p>
+<h1 id="pero-ember-también-cambia-">Pero Ember también cambia &hellip;</h1>
+<p><em>Ember</em> tiene muchas cosas buenas, no solo como herramienta
+sino como proyecto y comunidad. Sin embargo también realiza
+cambios que pueden afectar tu trabajo.</p>
+<p>Te aburriría enumerando todas las cosas que aprendí a usar dentro
+de <em>Ember</em> que ya no existen. Uso <em>Ember</em> hace 6 o 7 años, y en ese
+tiempo he visto montón de cosas que dejaron de funcionar, conceptos que
+se fueron agregando, bibliotecas que quedaron en el camino, montones de problemas
+al llevar el código de los proyectos de una versión a otra.</p>
+<p>No sé por qué los frameworks JavaScript tiene que estar en
+constante cambio, supongo que la gente que hace estas herramientas
+se aburre rápido, están completamente dementes, o solo quieren que
+la herramienta siga siendo relevante, que no se quede en el tiempo
+acumulando polvo.</p>
+<p>Supongo que las cosas cambian por una combinación de todo eso junto.</p>
+<p>Pero de cualquier forma, hace tiempo empecé a usar otra estrategia, me hice a la
+idea de aceptar que cada tanto hay que volver a aprender cosas.</p>
+<p>Y eso es lo que me tocó vivir esta semana, tuve que volver a aprender
+a usar <em>Ember</em> casi desde cero.</p>
+<p>Los proyectos que hago en <em>Ember</em> no los actualizo hace tiempo, así que me
+tocó abordar muchos cambios y mejoras que se hicieron en los últimos meses.</p>
+<h1 id="cómo-volver-a-aprender">¿Cómo volver a aprender?</h1>
+<p>Mi primer reacción al ver los cambios en <em>Ember</em> fue incómoda, al principio
+tenía la sensación de que los cambios no estaban buenos, que la forma vieja
+de hacer las cosas era mejor.</p>
+<p>Pero decidí hacer una pausa, y mentalizarme en aceptar los cambios. Si me pongo
+en una actitud negativa sé con seguridad que no voy a aprender nada&hellip; así que acepté
+la idea de seguir aprendiendo desde cero, sin juzgar mucho y ver que sucedía.</p>
+<p>También hice un pequeño apunte de la sintaxis nueva, algunos ejemplos y nombres
+de funciones:</p>
+<p><img src="/images/2021/aprendiendo-ember-otra-vez/apunte.jpg" alt=""></p>
+<p>Esto me ayudó mucho, porque me evita hacer búsquedas en Google cada vez que no sé
+cómo hacer algo que antes sabía de &ldquo;memoria&rdquo;.</p>
+<p>Pero teniendo un apunte sobre la mesa, donde puedo consultar rápido, cambia por completo
+la experiencia de aprendizaje. ¡Aparte puedo escribir con una lapicera si me doy cuenta
+de que faltó algo!.</p>
+<p>Otra cosa que me sirvió es ponerme a hacer un mini proyecto, siento que es mucho más
+entretenido aprender mientras estoy construyendo algo, por más que sea un prototipo que
+después voy a borrar, saber que estoy haciendo algo me ayuda a aprender.</p>
+<p>En resumen, noté que para volver a aprender me sirvieron estas ideas:</p>
+<ul>
+<li>Aceptar que estoy aprendiendo desde cero, va a ser incómodo y está bien.</li>
+<li>Tener un apunte en papel y hacerle anotaciones.</li>
+<li>Hacer un proyecto pequeño para que sea más entretenido.</li>
+</ul>
+<p>Creo que estas ideas son muy básicas, pero aun así son bastante difíciles de seguir. Tal
+vez porque van en contra del ego y esa sensación de seguridad que da saber algo.</p>
+<p>Voy a tratar de tener estas ideas en mente cuando se presente otro &ldquo;cambio&rdquo; que me
+exija volver a aprender desde cero.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://www.examplelab.com.ar/posts/2021-03-16-hay-que-reinventar-esta-rueda/">
+                  <span class="button__text">Hay que reinventar esta rueda</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>
