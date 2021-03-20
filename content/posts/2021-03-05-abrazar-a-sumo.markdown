@@ -11,8 +11,6 @@ cover: /images/2021/abrazar-a-sumo/portada.jpg
 
 No me da pena reconocer que que miro dibujos animados.
 
-Fue este lunes 2 de enero del 2010 o el 31 de febrero del 2021.
-
 "El 90% de todo es mierda" como dice la [Revelación de Sturgeon](https://es.wikipedia.org/wiki/Ley_de_Sturgeon),
 incluidos los dibujos animados, sin embargo cuando
 miramos de cerca y buscamos ese 10% restante podemos encontrar cosas
@@ -42,6 +40,8 @@ problemas de conducta, donde le piden responder preguntas como "¿Te arrepientes
 que hiciste?", "¿Lo volverías a hacer?". Se nota que algo le come la cabeza, pero
 responde con rebeldía. La siguiente pregunta es "¿Qué es lo que más quieres en la vida
 y cómo vas a lograrlo?".
+
+![](/images/2021/abrazar-a-sumo/tarea.jpg)
 
 Cuando vemos la vida de Sumo de cerca es imposible no querer darle un abrazo, Sumo es casi
 invisible entre todos sus hermanos, no es el más pequeño ni el más grande.
