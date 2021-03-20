@@ -45,7 +45,3 @@ paginate = 10000
         identifier = "links"
         name = "Links"
         url = "/links/index.html"
-      [[languages.en.menu.main]]
-        identifier = "xarchivo"
-        name = "Archivo"
-        url = "/archivo/index.html"

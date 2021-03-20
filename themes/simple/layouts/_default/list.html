@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+  <div class="w-100 measure-2 tr pa3">
+    <a href="/archivo/index.html" class="link">Ver archivo por año</a>
+  </div>
+
   <div>
     {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
     {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
@@ -15,9 +19,11 @@
     {{ range $paginator.Pages }}
 
 
+    {{ if eq .Title "Posts Archive" }}
+
+    {{ else }}
+
     <div class="center tl measure-2 mb5 pa2">
-
-
       <div class="f3 fw6"><a href="{{ .Permalink }}" class="link">{{ .Title | markdownify }}</a></div>
 
       <div class="gray f7 pv2">
@@ -65,6 +71,11 @@
         </div>
       </div>
     </div>
+
+    {{ end }}
+
+
+
 
 
 
