@@ -74,8 +74,8 @@ idea de aceptar que cada tanto hay que volver a aprender cosas.
 Y eso es lo que me tocó vivir esta semana, tuve que volver a aprender
 a usar *Ember* casi desde cero. 
 
-Los proyectos que hago en *Ember* no los actualizo hace tiempo, así que me
-tocó abordar muchos cambios y mejoras que se hicieron en los últimos meses.
+Los proyectos en los que estoy trabajando actualmente en *Ember* no los actualizo
+hace tiempo, así que muchas cosas nuevas del Framework me resultan muy ajenas.
 
 # ¿Cómo volver a aprender?
 
@@ -93,8 +93,8 @@ de funciones:
 ![](/images/2021/aprendiendo-ember-otra-vez/apunte.jpg)
 
 
-Esto me ayudó mucho, porque me evita hacer búsquedas en Google cada vez que no sé
-cómo hacer algo que antes sabía de "memoria".
+Esto me ayudó mucho, porque me evita hacer búsquedas en Google todo el tiempo, algo
+que me desanima un montón.
 
 Pero teniendo un apunte sobre la mesa, donde puedo consultar rápido, cambia por completo
 la experiencia de aprendizaje. ¡Aparte puedo escribir con una lapicera si me doy cuenta
@@ -111,7 +111,8 @@ En resumen, noté que para volver a aprender me sirvieron estas ideas:
 - Hacer un proyecto pequeño para que sea más entretenido.
 
 Creo que estas ideas son muy básicas, pero aun así son bastante difíciles de seguir. Tal
-vez porque van en contra del ego y esa sensación de seguridad que da saber algo.
+vez porque van en contra del ego y esa sensación de seguridad que tenemos al conocer
+una herramienta por completo.
 
-Voy a tratar de tener estas ideas en mente cuando se presente otro "cambio" que me
+Voy a tratar de tener estas ideas en mente cuando se presente otro desafío que me
 exija volver a aprender desde cero.
