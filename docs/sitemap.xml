@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</loc>
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
+    <loc>https://www.examplelab.com.ar/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.examplelab.com.ar/</loc>
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
+    <loc>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.examplelab.com.ar/posts/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
   </url>
   

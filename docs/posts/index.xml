@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planificar y hacer</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</guid>
+      <description>Esta semana empecé a leer un libro sobre productividad que comienza con una idea muy simple:
+ El problema de la productividad es que muchas personas tratamos de hacer dos cosas al mismo tiempo: Un minuto estamos &amp;ldquo;planificando&amp;rdquo;, luego nos ponemos a &amp;ldquo;hacer&amp;rdquo;, en unos instantes volvemos a &amp;ldquo;planificar&amp;rdquo; y así continuamos durante todo el día.
+ Creo que es fácil advertir donde está el problema, cambiar de contexto durante el transcurso día es muy abrumador.</description>
+    </item>
+    
     <item>
       <title>Aprendiendo Ember, otra vez</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</link>
