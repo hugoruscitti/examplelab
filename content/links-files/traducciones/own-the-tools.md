@@ -1,4 +1,4 @@
-Se dueño de las herramientas
+Sé dueño de las herramientas
 ============================
 
 - Artículo extraído desde:
@@ -25,7 +25,7 @@ la palabra en Google.
 <!--offers a better experience in every way except the speed.-->
 
 Usar un diccionario físico no es de cascarrabias. Tampoco es una cuestión romántica
-con el papel ni una cosa hipster, o algo como "Amo como huelen los libros". Sino
+con el papel ni una cosa hipster, o algo como "Amo como huelen los libros". Si no
 que encontré que un diccionario real ofrece una mejor experiencia que un diccionario
 online en todos los aspectos (excepto en la velocidad).
 
@@ -35,7 +35,7 @@ online en todos los aspectos (excepto en la velocidad).
 <!--dictionary has inside it a small patch of print that will perfectly solve your-->
 <!--issue. It exists only to deliver this solution, and has no ulterior motives.-->
 
-La experiencia completa es limpia y mas significativa. Un diccionario de papel
+La experiencia completa es limpia y más significativa. Un diccionario de papel
 contiene respuestas completas para casi cualquier problema del tipo "¿Qué significa
 esta palabra?". Y nada más. No importa que palabra que ha desconcertado, el diccionario
 tiene dentro un pequeño texto que resolverá perfectamente tu inquietud. Y solo existe
@@ -48,7 +48,7 @@ para entregarte esa solución, sin ninguna otra motivación.
 <!--“dysphoria” mean — so that you can carry on with your work.-->
 
 Cuando usas esta herramienta, no vas a encontrarte accidentalmente viendo un titular
-de política provocativo, ni ajustando una alineación futbolística de fantacía. El diccionario
+de política provocativo, ni ajustando una alineación futbolística de fantasía. El diccionario
 de papel, al igual que una lapicera o una manopla para tomar bandejas calientes del
 horno, fue diseñado exclusivamente para realizar la tarea que solicita en el momento
 justo: saber qué significa "obtuso" o "disfonía" en ese momento y seguir con tu trabajo.
@@ -59,10 +59,10 @@ justo: saber qué significa "obtuso" o "disfonía" en ese momento y seguir con t
 <!--transparent way we used to pay for everything: as singular purchases of-->
 <!--single-purpose tools that aren’t trying to take anything more from you.-->
 
-El diccionario está alineado con nuestras necesidades porque lo compranos y
-nos pertenece. Además, su rol en nuestra vida permanence claro y simple, todo
+El diccionario está alineado con nuestras necesidades porque lo compramos y
+nos pertenece. Además, su rol en nuestra vida permanece claro y simple, todo
 lo contrario a lo que sucede con las herramientas a las que accedemos
-a través de una navegador web. Compraste el diccionario físico en la
+a través de un navegador web. Compraste el diccionario físico en la
 forma más simple y transparente en la que compramos el resto de las
 cosas: mediante una compra, pagando dinero por herramientas de un solo
 propósito que no intentan obtener nada más de vos.
@@ -82,7 +82,7 @@ comprar un auto Nissan Murano. Secretamente deseará que cuando consultes su
 base de datos no solo quieras aprender qué significa "genuino", sino que también
 te suscribas a un periodo de pruebas de Adobe Creative Cloud. Sus intenciones
 no están alineadas con las tuyas. Su lealtad, si es que la tiene, no es con
-vos, porque a diferencia del diccionario físico, no sos su dueño.
+vos, porque a diferencia del diccionario físico, no eres su dueño.
 
 <!--I’ve rejected this maladaptive arrangement in favor of a real dictionary, which-->
 <!--is better in every way except that it takes fifteen seconds to find the word-->
@@ -99,8 +99,8 @@ palabra en lugar de tres.
 <!--was gained.-->
 
 Mi único arrepentimiento es no darme cuenta antes de lo mucho que valoro otras
-cualidades diferenteds a la velocidad: claridad, transparencia, lealtad a mis
-intereses, sin mencionar el caracter físico de toda la experiencia. No me había
+cualidades diferentes a la velocidad: claridad, transparencia, lealtad a mis
+intereses, sin mencionar el carácter físico de toda la experiencia. No me había
 dado cuenta todo lo que relegué por usar la web en lugar de un
 diccionario físico y lo poco que gané a cambio.
 
@@ -108,8 +108,8 @@ diccionario físico y lo poco que gané a cambio.
 <!--want to write down: whenever you can, own the tools, or you never stop paying-->
 <!--for them.-->
 
-Este pequeña idea sugiere un principio que nosotros, los vagabundos del siglo 21
-podríamos escribir así: Siempre que puedas, se dueño de las herramientas, o nunca
+Esta pequeña idea sugiere un principio que nosotros, los vagabundos del siglo 21
+podríamos escribir así: Siempre que puedas, sé dueño de las herramientas, o nunca
 vas a terminar de pagar por ellas.
 
 <!--Tool ownership is a great way to use gift cards you receive during the-->
