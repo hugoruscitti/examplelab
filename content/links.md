@@ -16,11 +16,11 @@ Expliqué mi motivación al realizar este archivo de artículos
   <img src="/images/links.png" width="100" height="100" class="br-100 dib">
 </div>
 
-- [Stevey's Blog Rants: Programming's Dirtiest Little Secret](/links-files/programmings-dirtiest-little-secret)
-- [I’m a boring programmer (and proud of it) - Signal v. Noise](/links-files/iam-boring-programmer)
-- [Disparar y avanzar - The Joel on Software Translation Project](/links-files/disparar-y-avanzar)
+- [Programming's Dirtiest Little Secret](/links-files/programmings-dirtiest-little-secret)
+- [I’m a boring programmer (and proud of it)](/links-files/iam-boring-programmer)
+- [Disparar y avanzar](/links-files/disparar-y-avanzar)
 - [This is Why You Spent All that Time Learning to Program](/links-files/all-time-learning-to-program)
 - [Write Code Like You Just Learned How to Program](/links-files/87)
-- [Own the Tools](/links-files/own-the-tools)
+- [Own the Tools](/links-files/own-the-tools) - [🇦🇷 traducción](/links-files/traducciones/own-the-tools/)
 
 
