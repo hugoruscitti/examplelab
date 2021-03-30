@@ -6,7 +6,19 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo crear apuntes de referencia</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/</guid>
+      <description>Algo que me sirve mucho a la hora de programar es ir tomando notas de aquellos nombres de funciones, módulos o ejemplos que me resultan útiles.
+A estas notas las suelo compactar y reducir para que me sirvan de apunte. Solo recolecto aquello que uso con frecuencia.
+Después de todo, programar está lleno de símbolos a los que tenemos que recurrir una y otra vez.
+Si no tomo nota de estas cosas, me veo obligado a abrir un navegador, ingresar a google y realizar búsquedas para encontrar la respuesta a algo que ya hice con anterioridad.</description>
+    </item>
+    
     <item>
       <title>Planificar y hacer</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</link>
