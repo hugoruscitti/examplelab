@@ -38,6 +38,16 @@ Fijo. Llego a la oficina, doy un par de vueltas, veo si hay correo cada diez seg
     
     <item>
       <title></title>
+      <link>https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript/</guid>
+      <description>Everything is fine with JavaScript  Artículo extraído desde:  https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html     this is the only paper that’s willing to tell the truth: that everything is just fine.
+ There’s a sort of blog post you’ve probably read - a sarcastic stab at JavaScript and npm and frameworks. There are too many, it’ll say, and it’s confusing, and how did we make such complicated things? It’ll grab names from the ecosystem and present them as equal choices in a comic attempt to construct decision paralysis.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.examplelab.com.ar/links-files/iam-boring-programmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -66,6 +76,16 @@ My switch back to paper wasn’t motivated by cantankerousness. It wasn’t a ro
       <guid>https://www.examplelab.com.ar/links-files/programmings-dirtiest-little-secret/</guid>
       <description>Programming&amp;rsquo;s Dirtiest Little Secret  Archivo descargado desde: steve-yegge.blogspot.com  This is another one I&amp;rsquo;ve wanted to write forever. Man, I&amp;rsquo;ve tried a bunch of times. No ruck. Not Rucky. Once again I&amp;rsquo;m stuck feeling so strongly about something that I&amp;rsquo;m tripping over myself trying to get my point across.
 So! Only one thing left to try: bust open a bottle of wine and see if that gets the ol&#39; creative juices flowing all over my keyboard.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</guid>
+      <description>Todo está bien con JavaScript  Artículo extraído desde:  https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html   Traducción por Hugo Ruscitti   Este es el único diario dispuesto a decir la verdad: todo está bien.
+ Hay una serie de blog posts que seguramente has leído - una puñalada sarcástica sobre JavaScript, npm y frameworks. Estos artículos mencionan que hay demasiadas opciones, que es confuso, y sobre lo complicadas que parecen las cosas. También toman montones de nombres del ecosistema y los presentan como opciones equivalentes en un intento cómico por construir un escenario de parálisis de decisión.</description>
     </item>
     
     <item>

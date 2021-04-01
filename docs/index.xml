@@ -5397,6 +5397,89 @@ modo, arrancar el editor.&lt;/p&gt;
     
     <item>
       <title></title>
+      <link>https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript/</guid>
+      <description>&lt;h1 id=&#34;everything-is-fine-with-javascript&#34;&gt;Everything is fine with JavaScript&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Artículo extraído desde:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&#34;&gt;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/everything-is-fine-with-javascript-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;this is the only paper that’s willing to tell the truth: that
+everything is just fine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There’s a sort of blog post you’ve probably read - a sarcastic stab at
+JavaScript and &lt;code&gt;npm&lt;/code&gt; and frameworks. There are too many, it’ll say, and
+it’s confusing, and how did we make such complicated things? It’ll grab
+names from the ecosystem and present them as equal choices in a comic
+attempt to construct decision paralysis. Everything moves too fast, and
+there is too much of it.&lt;/p&gt;
+&lt;p&gt;I think it’s a decent time to review some principles&lt;/p&gt;
+&lt;h2 id=&#34;obsession-with-shiny-things-is-a-personal-problem-and-something-you-can-avoid&#34;&gt;Obsession with shiny things is a personal problem and something you can avoid&lt;/h2&gt;
+&lt;p&gt;I occasionally hang out on guitar forums. They have a name for this
+thing: &lt;strong&gt;Gear Acquisition Syndrome&lt;/strong&gt;, or GAS. It is what it sounds like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;when you’re more concerned with getting an OCD Fuzz pedal to round out
+your rig than you are with learning how to play the instrument.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;GAS with guitars works the same way as with programming: you start
+asking whether you’re using the &lt;em&gt;best possible&lt;/em&gt; distortion pedal, start
+your research, and a few weeks later you own $2,000 worth of distortion
+pedals.&lt;/p&gt;
+&lt;p&gt;Coding is a craft, for which you need tools. Some of them are shiny,
+some are new, some are old. They all basically work. Change your tools
+if they aren’t working for you, and otherwise don’t. Heck, for many
+startups and almost all early-stage startups, &lt;a href=&#34;https://www.codingvc.com/why-startup-technical-diligence-is-a-waste-of-time/&#34;&gt;the choice of technology
+stack really doesn’t
+matter&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;you-have-to-use-different-tools-for-different-problems&#34;&gt;You have to use different tools for different problems&lt;/h2&gt;
+&lt;p&gt;Creating a data visualization? Probably use d3. An application? React
+and Redux. A library? You might not need any framework.&lt;/p&gt;
+&lt;p&gt;This is pinned on the JavaScript ecosystem, somehow. If you look at the
+context, though, it’s what you have to do when you create literally
+anything. If you’re a Python developer, do you use Twisted or asyncio?
+If you’re an architect, do you use wood or brick? Do you use pen or
+pencil?&lt;/p&gt;
+&lt;p&gt;Sometimes materials are best-in-class for what they do: now that there’s
+&lt;a href=&#34;https://lodash.com/&#34;&gt;lodash&lt;/a&gt;, there are relatively few reasons to use
+&lt;a href=&#34;https://underscorejs.org/&#34;&gt;underscore&lt;/a&gt;. Other times they’re still
+duking it out to see what’s best - browserify or webpack, for example,
+fix the same problem. But a lot of the time they’re clearly for
+different purposes: I, for instance, use React when writing a large
+application like Mapbox Studio, but don’t use a framework writing
+libraries that need to be small.&lt;/p&gt;
+&lt;p&gt;As you learn and grow, you’ll acquire a go-to list of technology for
+each task. It isn’t the same as an exhaustive list: at most you might
+know 5 systems thoroughly. You mainly become capable by mastering these
+systems, not by tinkering with every alternative.&lt;/p&gt;
+&lt;h2 id=&#34;if-someone-is-holier-than-thou-about-technology-choices-theyre-wrong-and-you-should-ignore-them&#34;&gt;If someone is holier-than-thou about technology choices, they’re wrong and you should ignore them&lt;/h2&gt;
+&lt;p&gt;If you read the snark, it sounds like you’re required to switch
+frameworks as soon as a new one accrues more stars on GitHub. Or that
+you &lt;em&gt;must&lt;/em&gt; use functional programming. This may be the case in San
+Francisco - I don’t live there - but in the rest of the world, that’s
+nonsense. There are successful companies using every stack, from PHP to
+Haskell.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;So enjoy the rants, if you do, but when you read &lt;a href=&#34;https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.ima7p0eob&#34;&gt;How it feels to learn
+JavaScript in
+2016&lt;/a&gt;,
+ask yourself: is the problem with the technology, or is it the unnamed
+antagonist with that judgmental snark? Or is it that the conversation is
+never driven by a problem that needs to be solved, but instead organized
+as a grand tour of all possible tools?&lt;/p&gt;
+&lt;p&gt;October 4, 2016 
+&lt;a href=&#34;https://twitter.com/intent/follow?screen_name=tmcw&amp;amp;user_id=1458271&#34; title=&#34;Follow me on Twitter&#34;&gt;@tmcw&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.examplelab.com.ar/links-files/iam-boring-programmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -5892,6 +5975,138 @@ success stories. Send me mail. It&amp;rsquo;ll make my day!&lt;/p&gt;
     
     <item>
       <title></title>
+      <link>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</guid>
+      <description>&lt;h1 id=&#34;todo-está-bien-con-javascript&#34;&gt;Todo está bien con JavaScript&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Artículo extraído desde:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&#34;&gt;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Traducción por Hugo Ruscitti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/everything-is-fine-with-javascript-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Este es el único diario dispuesto a decir la verdad: todo está bien.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--There’s a sort of blog post you’ve probably read - a sarcastic stab at--&gt;
+&lt;!--JavaScript and `npm` and frameworks. There are too many, it’ll say, and--&gt;
+&lt;!--it’s confusing, and how did we make such complicated things? It’ll grab--&gt;
+&lt;!--names from the ecosystem and present them as equal choices in a comic--&gt;
+&lt;!--attempt to construct decision paralysis. Everything moves too fast, and--&gt;
+&lt;!--there is too much of it.--&gt;
+&lt;p&gt;Hay una serie de blog posts que seguramente has leído - una puñalada sarcástica
+sobre JavaScript, &lt;code&gt;npm&lt;/code&gt; y frameworks. Estos artículos mencionan que hay demasiadas
+opciones, que es confuso, y sobre lo complicadas que parecen las cosas. También
+toman montones de nombres del ecosistema y los presentan como opciones equivalentes
+en un intento cómico por construir un escenario de parálisis de decisión. Todo se
+mueve muy rápido y hay demasiado de todo.&lt;/p&gt;
+&lt;!--I think it’s a decent time to review some principles--&gt;
+&lt;p&gt;Pienso que es tiempo de revisar algunos principios.&lt;/p&gt;
+&lt;h2 id=&#34;la-obsesión-con-las-cosas-nuevas-es-un-problema-personal-y-no-tecnológico&#34;&gt;La obsesión con las cosas nuevas es un problema personal y no tecnológico&lt;/h2&gt;
+&lt;!--I occasionally hang out on guitar forums. They have a name for this--&gt;
+&lt;!--thing: **Gear Acquisition Syndrome**, or GAS. It is what it sounds like--&gt;
+&lt;!--- when you’re more concerned with getting an OCD Fuzz pedal to round out--&gt;
+&lt;!--your rig than you are with learning how to play the instrument.--&gt;
+&lt;p&gt;Ocasionalmente paso el rato en foros sobre guitarras. Ahí, tienen nombre
+para esto: &lt;strong&gt;Síndrome de la adquisición de pedal&lt;/strong&gt;, o simplemente &lt;em&gt;GAS&lt;/em&gt;. Y es
+como suena, es cuando estás más preocupado por conseguir ese pedal Fuzz OCD para
+manipular tus sonidos en lugar de aprender a tocar el instrumento.&lt;/p&gt;
+&lt;!--GAS with guitars works the same way as with programming: you start--&gt;
+&lt;!--asking whether you’re using the *best possible* distortion pedal, start--&gt;
+&lt;!--your research, and a few weeks later you own $2,000 worth of distortion--&gt;
+&lt;!--pedals.--&gt;
+&lt;p&gt;Esto que sucede con las guitarras funciona de la misma manera con la programación: comienzas
+preguntándote si estás usando el &lt;em&gt;mejor pedal de distorsión&lt;/em&gt;, comienzas a investigar, y
+unas semanas después tienes un gasto de $2.000 en pedales de distorsión.&lt;/p&gt;
+&lt;!--Coding is a craft, for which you need tools. Some of them are shiny,--&gt;
+&lt;!--some are new, some are old. They all basically work. Change your tools--&gt;
+&lt;!--if they aren’t working for you, and otherwise don’t. Heck, for many--&gt;
+&lt;!--startups and almost all early-stage startups, [the choice of technology--&gt;
+&lt;!--stack really doesn’t--&gt;
+&lt;!--matter](https://www.codingvc.com/why-startup-technical-diligence-is-a-waste-of-time/).--&gt;
+&lt;p&gt;Programar es un oficio, para los cuales necesitas herramientas. Algunas de
+esas herramientas son relucientes, otras nuevas y algunas viejas. Todas básicamente
+funcionan. Solo cambia tus herramientas cuando dejan de funcionarte, si no no las
+cambies. Demonios, para muchas startups y casi todas las empresas que recién
+comienzan &lt;a href=&#34;https://www.codingvc.com/why-startup-technical-diligence-is-a-waste-of-time/&#34;&gt;la decisión del stack de tecnología ni siquiera importa&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tienes-que-usar-diferentes-herramientas-para-diferentes-problemas&#34;&gt;Tienes que usar diferentes herramientas para diferentes problemas&lt;/h2&gt;
+&lt;!--Creating a data visualization? Probably use d3. An application? React--&gt;
+&lt;!--and Redux. A library? You might not need any framework.--&gt;
+&lt;p&gt;¿Estás creando una visualización de datos?, probablemente puedas usar
+d3. ¿Haces una aplicación?, react y redux. ¿Haces una biblioteca?, tal vez
+no necesites ningún framework.&lt;/p&gt;
+&lt;!--This is pinned on the JavaScript ecosystem, somehow. If you look at the--&gt;
+&lt;!--context, though, it’s what you have to do when you create literally--&gt;
+&lt;!--anything. If you’re a Python developer, do you use Twisted or asyncio?--&gt;
+&lt;!--If you’re an architect, do you use wood or brick? Do you use pen or--&gt;
+&lt;!--pencil?--&gt;
+&lt;p&gt;De alguna forma, esto está anclado al ecosistema de JavaScript. Si miras
+a través del contexto, esto es algo que tienes que afrontar para crear
+casi cualquier cosa. Si eres un desarrollador Python, ¿vas a usar Twisted
+o asyncio?. Si eres un arquitecto, ¿usarás madera o ladrillo?, ¿vas a elegir
+una lapicera o un lápiz?.&lt;/p&gt;
+&lt;!--Sometimes materials are best-in-class for what they do: now that there’s--&gt;
+&lt;!--[lodash](https://lodash.com/), there are relatively few reasons to use--&gt;
+&lt;!--[underscore](https://underscorejs.org/). Other times they’re still--&gt;
+&lt;!--duking it out to see what’s best - browserify or webpack, for example,--&gt;
+&lt;!--fix the same problem. But a lot of the time they’re clearly for--&gt;
+&lt;!--different purposes: I, for instance, use React when writing a large--&gt;
+&lt;!--application like Mapbox Studio, but don’t use a framework writing--&gt;
+&lt;!--libraries that need to be small.--&gt;
+&lt;p&gt;Algunos materiales son mejores que otros en ciertas áreas: ahora
+que existe &lt;a href=&#34;https://lodash.com/&#34;&gt;lodash&lt;/a&gt; hay muy pocas razones
+para usar &lt;a href=&#34;https://underscorejs.org/&#34;&gt;underscore&lt;/a&gt;. Otras veces hay
+que sumergirse para ver cuál es la mejor. Webpack o browserify es un
+ejemplo de dos herramientas que intentan solucionar el mismo problema. Pero
+muchas veces las herramientas están claramente resolviendo diferentes
+propósitos: Yo, por ejemplo, uso React cuando escribo una aplicación
+grande como Mapbox Studio, sin embargo no uso ningún framework cuando
+escribo bibliotecas que necesito que sean pequeñas.&lt;/p&gt;
+&lt;!--As you learn and grow, you’ll acquire a go-to list of technology for--&gt;
+&lt;!--each task. It isn’t the same as an exhaustive list: at most you might--&gt;
+&lt;!--know 5 systems thoroughly. You mainly become capable by mastering these--&gt;
+&lt;!--systems, not by tinkering with every alternative.--&gt;
+&lt;p&gt;A medida que aprendes, vas adquiriendo una lista de tecnologías para resolver
+cada tarea. Esta no es una lista exhaustiva de herramientas, como mucho puede
+que conozcas 5 sistemas por completo. Posiblemente te vuelvas productivo
+conociendo estos sistemas, no por juguetear con cada alternativa.&lt;/p&gt;
+&lt;h2 id=&#34;si-alguien-es-más-apasionado-que-vos-sobre-decisiones-tecnológias-está-equivocado-y-deberías-ignorarlo&#34;&gt;Si alguien es más apasionado que vos sobre decisiones tecnológias, está equivocado y deberías ignorarlo&lt;/h2&gt;
+&lt;!--If you read the snark, it sounds like you’re required to switch--&gt;
+&lt;!--frameworks as soon as a new one accrues more stars on GitHub. Or that--&gt;
+&lt;!--you *must* use functional programming. This may be the case in San--&gt;
+&lt;!--Francisco - I don’t live there - but in the rest of the world, that’s--&gt;
+&lt;!--nonsense. There are successful companies using every stack, from PHP to--&gt;
+&lt;!--Haskell.--&gt;
+&lt;p&gt;Si lees entre líneas, suena como si tuvieras que cambiar de framework
+cada vez que surge una nueva herramienta que consigue más estrellas
+en GitHub. O cambiar porque ahora muchos dicen que &lt;em&gt;tienes&lt;/em&gt; que usar programación
+funcional. Tal vez ese sea el caso en San Francisco, pero yo no vivo ahí, y
+sé que en el resto del mundo es un sin-sentido cambiar de herramientas así.
+Además, hay modelos de empresas exitosas en cada stack, desde PHP hasta
+Haskell.&lt;/p&gt;
+&lt;hr&gt;
+&lt;!--So enjoy the rants, if you do, but when you read [How it feels to learn--&gt;
+&lt;!--JavaScript in--&gt;
+&lt;!--2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.ima7p0eob),--&gt;
+&lt;!--ask yourself: is the problem with the technology, or is it the unnamed--&gt;
+&lt;!--antagonist with that judgmental snark? Or is it that the conversation is--&gt;
+&lt;!--never driven by a problem that needs to be solved, but instead organized--&gt;
+&lt;!--as a grand tour of all possible tools?--&gt;
+&lt;p&gt;Así que disfruta leyendo cómo las personas despotrican contra todas las opciones
+que existen, pero cuando leas
+&lt;a href=&#34;https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.ima7p0eob&#34;&gt;Cómo se siente aprender JavaScript en 2016&lt;/a&gt;
+pregúntate a vos mismo: ¿este es un problema de la tecnología?, ¿es acaso
+el hecho de que existen tantas opciones? ¿o en realidad el problema es que este
+tipo de miradas nunca está dirigida por un problema concreto a resolver?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/own-the-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -6040,6 +6255,7 @@ desparecen de Internet.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/all-time-learning-to-program&#34;&gt;This is Why You Spent All that Time Learning to Program&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/87&#34;&gt;Write Code Like You Just Learned How to Program&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/own-the-tools&#34;&gt;Own the Tools&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/own-the-tools/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript&#34;&gt;Everything is fine with JavaScript&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
