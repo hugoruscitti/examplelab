@@ -6,7 +6,58 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devolviendo el control a tu navegador</title>
+      <link>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</guid>
+      <description>&lt;p&gt;Algo que me gusta mucho de la web es que está diseñada para ser interpretada
+por un navegador:&lt;/p&gt;
+&lt;p&gt;Tomemos como ejemplo alguna de las extensiones para bloquear contenido
+tipo &lt;a href=&#34;https://es.wikipedia.org/wiki/AdBlock&#34;&gt;AdBlock&lt;/a&gt;, ¿acaso no es una
+genialidad poder bloquear
+publicidades usando JavaScript?. ¿Y qué tal poder aumentar el tamaño de los textos pulsando
+&lt;code&gt;CTRL +&lt;/code&gt;?, ¿y ver la actividad de red y bloquear dominios?.&lt;/p&gt;
+&lt;p&gt;Es fácil habituarse a un navegador, dar por sentado que todo lo que hace es algo común, pero lo cierto
+es que casi ningún otro medio nos permite tener tanto control sobre el contenido como hace
+un navegador. Con un navegador podemos inspeccionar y ver cómo están hechas las cosas, incluso modificarlas.&lt;/p&gt;
+&lt;p&gt;Y de esto último me gustaría escribir hoy: el navegador nos permite modificar cosas de
+las web que visitamos.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, una vez al mes suelo ingresar al sitio de &lt;em&gt;visa&lt;/em&gt; para consultar
+mis gastos de la tarjeta de crédito y tomar notas en mi presupuesto.&lt;/p&gt;
+&lt;p&gt;Una de las primeras pantallas que visito siempre tiene una imagen ofreciendo ayuda para obtener
+una clave que tengo hace más de 10 años, lo que hace que el mensaje esté de más
+para mí:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/devolviendo-el-control-a-tu-navegador/login.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;y luego, cuando ingreso al sitio hay un panel de chat que se mueve llamando la atención
+cada 5 segundos y un carrusel de publicidades, ¡sí, un carrusel de publicidades que
+se mueve todo el tiempo!:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/devolviendo-el-control-a-tu-navegador/home.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ahora bien, como el navegador es un intérprete, hay ciertas cosas que se pueden inspeccionar
+y cambiar.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, el logo de la pantalla inicial se puedo ocultar usando este &lt;em&gt;css&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;imagen-login&lt;/span&gt; {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;mientras que el molesto carrusel de publicidades y el chat se pueden ocultar así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;banner&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;container-12&lt;/span&gt; {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt;;
+}
+
+#AgentAppContainer {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;!important&lt;/span&gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ahora, para que este estilo se aplique automáticamente cada vez que ingresamos
+a esta web se puede instalar algo como
+&lt;a href=&#34;https://github.com/luciopaiva/witchcraft&#34;&gt;witchcraft&lt;/a&gt; y guardar nuestros estilos
+css en archivos, así quedan privados en nuestro disco.&lt;/p&gt;
+&lt;p&gt;Además, &lt;em&gt;witchcraft&lt;/em&gt; también nos permite inyectar archivos JavaScript, para añadir
+algo de personalización más avanzada.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Cambiar palabras en VIM</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/</link>

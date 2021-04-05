@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devolviendo el control a tu navegador</title>
+      <link>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</guid>
+      <description>Algo que me gusta mucho de la web es que está diseñada para ser interpretada por un navegador:
+Tomemos como ejemplo alguna de las extensiones para bloquear contenido tipo AdBlock, ¿acaso no es una genialidad poder bloquear publicidades usando JavaScript?. ¿Y qué tal poder aumentar el tamaño de los textos pulsando CTRL +?, ¿y ver la actividad de red y bloquear dominios?.
+Es fácil habituarse a un navegador, dar por sentado que todo lo que hace es algo común, pero lo cierto es que casi ningún otro medio nos permite tener tanto control sobre el contenido como hace un navegador.</description>
+    </item>
+    
     <item>
       <title>Cambiar palabras en VIM</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/</link>
