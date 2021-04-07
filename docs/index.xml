@@ -5254,6 +5254,72 @@ experience.&lt;/p&gt;
     
     <item>
       <title></title>
+      <link>https://www.examplelab.com.ar/links-files/advice-from-an-old-programmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/advice-from-an-old-programmer/</guid>
+      <description>&lt;h1 id=&#34;advice-from-an-old-programmer&#34;&gt;Advice from an Old Programmer&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Artículo extraído del libro:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnpythonthehardway.org/python3/&#34;&gt;Learn Python the hard way de Zed Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You’ve finished this book and have decided to continue with programming. Maybe
+it will be a career for you, or maybe it will be a hobby. You’ll need some
+advice to make sure you continue on the right path and get the most enjoyment
+out of your newly chosen activity.&lt;/p&gt;
+&lt;p&gt;I’ve been programming for a very long time. So long that it’s incredibly boring
+to me. At the time that I wrote this book, I knew about 20 programming
+languages and could learn new ones in about a day to a week depending on how
+weird they were. Eventually, though, this just became boring and couldn’t hold
+my interest anymore. This doesn’t mean I think programming is boring, or that
+you will think it’s boring, only that I find it uninteresting at this point in
+my journey.&lt;/p&gt;
+&lt;p&gt;What I discovered after this journey of learning is that it’s not the languages
+that matter but what you do with them. Actually, I always knew that, but I’d
+get distracted by the languages and forget it periodically.  Now I never forget
+it, and neither should you.&lt;/p&gt;
+&lt;p&gt;Which programming language you learn and use doesn’t matter. Do not get sucked
+into the religion surrounding programming languages as that will only blind you
+to their true purpose of being your tool for doing interesting things.&lt;/p&gt;
+&lt;p&gt;Programming as an intellectual activity is the only art form that allows you to
+create interactive art. You can create projects that other people can play
+with, and you can talk to them indirectly. No other art form is quite this
+interactive. Movies flow to the audience in one direction. Paintings do not
+move. Code goes both ways.&lt;/p&gt;
+&lt;p&gt;Programming as a profession is only moderately interesting. It can be a good
+job, but you could make about the same money and be happier running a fast food
+joint. You’re much better off using code as your secret weapon in another
+profession.&lt;/p&gt;
+&lt;p&gt;People who can code in the world of technology companies are a dime a dozen and
+get no respect.  People who can code in biology, medicine, government,
+sociology, physics, history, and mathematics are respected and can do
+amazing things to advance those disciplines.&lt;/p&gt;
+&lt;p&gt;Of course, all of this advice is pointless. If you liked learning to write
+software with this book, you should try to use it to improve your life any way
+you can. Go out and explore this weird, wonderful, new intellectual pursuit
+that barely anyone in the last 50 years has been able to explore. Might as well
+enjoy it while you can.&lt;/p&gt;
+&lt;p&gt;Finally, I’ll say that learning to create software changes you and makes you
+different. Not better or worse, just different. You may find that people treat
+you harshly because you can create software, maybe using words like “nerd.”
+Maybe you’ll find that because you can dissect their logic they hate arguing
+with you. You may even find that simply knowing how a computer works makes you
+annoying and weird to them.&lt;/p&gt;
+&lt;p&gt;To this I have just one piece of advice: they can go to hell. The world needs
+more weird people who know how things work and who love to figure it all out.
+When they treat you like this, just remember that this is your journey, not
+theirs. Being different is not a crime, and people who tell you it is are just
+jealous that you’ve picked up a skill they never in their wildest dreams could
+acquire.  You can code.&lt;/p&gt;
+&lt;p&gt;They cannot. That is pretty damn cool.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.examplelab.com.ar/links-files/all-time-learning-to-program/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -6026,6 +6092,124 @@ success stories. Send me mail. It&amp;rsquo;ll make my day!&lt;/p&gt;
     
     <item>
       <title></title>
+      <link>https://www.examplelab.com.ar/links-files/traducciones/advice-from-an-old-programmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/traducciones/advice-from-an-old-programmer/</guid>
+      <description>&lt;h1 id=&#34;consejo-de-un-viejo-programador&#34;&gt;Consejo de un viejo programador&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Artículo extraído del libro:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnpythonthehardway.org/python3/&#34;&gt;Learn Python the hard way de Zed Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Traducción por Hugo Ruscitti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--You’ve finished this book and have decided to continue with programming. Maybe--&gt;
+&lt;!--it will be a career for you, or maybe it will be a hobby. You’ll need some--&gt;
+&lt;!--advice to make sure you continue on the right path and get the most enjoyment--&gt;
+&lt;!--out of your newly chosen activity.--&gt;
+&lt;p&gt;Has finalizado este libro y has decidido continuar con la programación. Tal vez
+esto se convierta en una carrera para vos, o tal vez un hobby. Por ese motivo
+te daré un consejo para que puedas continuar por el camino correcto y disfrutar
+lo mayor posible de esta nueva habilidad.&lt;/p&gt;
+&lt;!--I’ve been programming for a very long time. So long that it’s incredibly boring--&gt;
+&lt;!--to me. At the time that I wrote this book, I knew about 20 programming--&gt;
+&lt;!--languages and could learn new ones in about a day to a week depending on how--&gt;
+&lt;!--weird they were. Eventually, though, this just became boring and couldn’t hold--&gt;
+&lt;!--my interest anymore. This doesn’t mean I think programming is boring, or that--&gt;
+&lt;!--you will think it’s boring, only that I find it uninteresting at this point in--&gt;
+&lt;!--my journey.--&gt;
+&lt;p&gt;He programado durante muchos años, tanto tiempo que se volvió increíblemente aburrido
+para mí. En este momento sé programar en unos 20 lenguajes de programación
+y podría aprender algún otro en una semana o un día dependiendo de cuan raro
+sea ese lenguaje. Eventualmente llegué a pensar: esto se volvió aburrido y no
+voy a perder interés en esto. Esto no significa que programar sea aburrido, o que
+tú puedas llegar a pensar que programar es aburrido, sino que encontré que la
+programación se volvió menos interesante para mí en este punto de mi recorrido.&lt;/p&gt;
+&lt;!--What I discovered after this journey of learning is that it’s not the languages--&gt;
+&lt;!--that matter but what you do with them. Actually, I always knew that, but I’d--&gt;
+&lt;!--get distracted by the languages and forget it periodically.  Now I never forget--&gt;
+&lt;!--it, and neither should you.--&gt;
+&lt;p&gt;Lo que descubrí luego de estos años es que lo que importa no el lenguaje sino lo que
+puedas hacer con él. En realidad, siempre supe eso, pero en algún punto comencé a
+distraerme por los lenguajes y me olvidé de esta idea. Ahora, nunca me olvido de eso, y
+te recomiendo a vos que nunca lo hagas.&lt;/p&gt;
+&lt;!--Which programming language you learn and use doesn’t matter. Do not get sucked--&gt;
+&lt;!--into the religion surrounding programming languages as that will only blind you--&gt;
+&lt;!--to their true purpose of being your tool for doing interesting things.--&gt;
+&lt;p&gt;El lenguaje de programación que aprendes y usas realmente no importa. No te dejes
+atrapar por esa cultura de lenguajes de programación y sus dogmas, ya que te nublarán
+la vista. El verdadero propósito de los lenguajes de programación es el de ser
+una herramienta para hacer cosas interesantes.&lt;/p&gt;
+&lt;!--Programming as an intellectual activity is the only art form that allows you to--&gt;
+&lt;!--create interactive art. You can create projects that other people can play--&gt;
+&lt;!--with, and you can talk to them indirectly. No other art form is quite this--&gt;
+&lt;!--interactive. Movies flow to the audience in one direction. Paintings do not--&gt;
+&lt;!--move. Code goes both ways.--&gt;
+&lt;p&gt;La programación, vista como una actividad intelectual, es la única forma de arte
+que te permite crear arte interactivo. Puedes crear proyectos que otras personas
+pueden usar e interactuar. No hay tantas formas de artes que permitan este tipo
+de interactividad. Las películas conducen al público en una dirección. La pintura
+no se mueve. El código puede ir en dos direcciones.&lt;/p&gt;
+&lt;!--Programming as a profession is only moderately interesting. It can be a good--&gt;
+&lt;!--job, but you could make about the same money and be happier running a fast food--&gt;
+&lt;!--joint. You’re much better off using code as your secret weapon in another--&gt;
+&lt;!--profession.--&gt;
+&lt;p&gt;La programación, vista como una profesión, es solamente interesante de manera moderada. Puede
+ser un buen trabajo, aunque podrías hacer casi el mismo dinero y ser más feliz articulando
+un negocio de comidas rápidas. Lo que sí te puede beneficiar mucho es usar tus habilidades
+de programación para potenciar otra profesión.&lt;/p&gt;
+&lt;!--People who can code in the world of technology companies are a dime a dozen and--&gt;
+&lt;!--get no respect.  People who can code in biology, medicine, government,--&gt;
+&lt;!--sociology, physics, history, and mathematics are respected and can do--&gt;
+&lt;!--amazing things to advance those disciplines.--&gt;
+&lt;p&gt;Las personas que saben programar en el mundo de las compañías de tecnología
+valen muy poco y no obtienen mucho respeto. En cambio, las personas que saben
+programar en biología, medicina, gobiernos, sociología, física, historia y matemáticas
+son respetadas y valoradas, pueden hacer cosas impresionantes y avanzar a grandes
+pasos en esas disciplinas.&lt;/p&gt;
+&lt;!--Of course, all of this advice is pointless. If you liked learning to write--&gt;
+&lt;!--software with this book, you should try to use it to improve your life any way--&gt;
+&lt;!--you can. Go out and explore this weird, wonderful, new intellectual pursuit--&gt;
+&lt;!--that barely anyone in the last 50 years has been able to explore. Might as well--&gt;
+&lt;!--enjoy it while you can.--&gt;
+&lt;p&gt;Por su puesto, esta recomendación por si sola no es útil. Si has disfrutado aprender
+a escribir software con este libro, deberías intentar usarlo para mejorar tu vida
+en todas las formas que puedas. Ve a explorar esta rara y maravillosa habilidad intelectual
+que hace pocos años que comenzó a ser explorada.&lt;/p&gt;
+&lt;!--Finally, I’ll say that learning to create software changes you and makes you--&gt;
+&lt;!--different. Not better or worse, just different. You may find that people treat--&gt;
+&lt;!--you harshly because you can create software, maybe using words like “nerd.”--&gt;
+&lt;!--Maybe you’ll find that because you can dissect their logic they hate arguing--&gt;
+&lt;!--with you. You may even find that simply knowing how a computer works makes you--&gt;
+&lt;!--annoying and weird to them.--&gt;
+&lt;p&gt;Además, me gustaría decir que aprender a crear software te cambia y hacer que
+te veas diferente en una profesión. No digo que te hace mejor o peor, solamente
+diferente. Podría suceder que las personas te empiecen a tratar con un poco
+de rudeza porque puedes crear software, tal vez usando palabras como &amp;ldquo;nerd&amp;rdquo;. Tal
+vez encuentres que te traten así porque disecas sus argumentos en una discusión. O tal
+vez encuentres que se deba a que te hace molesto y raro ante ellos que vos simplemente
+sepas cómo funciona una computadora.&lt;/p&gt;
+&lt;!--To this I have just one piece of advice: they can go to hell. The world needs--&gt;
+&lt;!--more weird people who know how things work and who love to figure it all out.--&gt;
+&lt;!--When they treat you like this, just remember that this is your journey, not--&gt;
+&lt;!--theirs. Being different is not a crime, and people who tell you it is are just--&gt;
+&lt;!--jealous that you’ve picked up a skill they never in their wildest dreams could--&gt;
+&lt;!--acquire.  You can code.--&gt;
+&lt;p&gt;Para esto último, tengo una recomendación adicional: mandalos a la mierda. El mundo
+necesita muchas más personas raras que sepan como funcionan las cosas, personas que
+amen descubrir cosas. Cuando otras personas te traten con rudeza, recuerda que esta
+es tu aventura, no la de ellos. Ser diferente no es un crimen, y las personas que te
+digan lo contrario solamente están celosas que has adquirido una habilidad que ellos
+en sus más remotos sueños podrían adquirir. Vos podés programar.&lt;/p&gt;
+&lt;!--They cannot. That is pretty damn cool.--&gt;
+&lt;p&gt;Ellos no, y eso es bastante cool.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -6307,6 +6491,7 @@ desparecen de Internet.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/87&#34;&gt;Write Code Like You Just Learned How to Program&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/own-the-tools&#34;&gt;Own the Tools&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/own-the-tools/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript&#34;&gt;Everything is fine with JavaScript&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/advice-from-an-old-programmer&#34;&gt;Advice from an Old Programmer&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/advice-from-an-old-programmer/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
