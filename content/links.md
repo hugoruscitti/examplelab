@@ -24,3 +24,5 @@ Expliqué mi motivación al realizar este archivo de artículos
 - [Own the Tools](/links-files/own-the-tools) - [🇦🇷 traducción](/links-files/traducciones/own-the-tools/)
 - [Everything is fine with JavaScript](/links-files/everything-is-fine-with-javascript) - [🇦🇷 traducción](/links-files/traducciones/everything-is-fine-with-javascript/)
 - [Advice from an Old Programmer](/links-files/advice-from-an-old-programmer) - [🇦🇷 traducción](/links-files/traducciones/advice-from-an-old-programmer/)
+- [Writing to Remember](/links-files/writing-to-remember)
+- [Write Like You Talk](/links-files/talk)
