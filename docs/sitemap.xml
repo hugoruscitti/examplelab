@@ -4,12 +4,17 @@
   
   <url>
     <loc>https://www.examplelab.com.ar/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.examplelab.com.ar/posts/2021-04-13-mis-juegos-favoritos-2/</loc>
+    <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.examplelab.com.ar/posts/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -520,6 +525,10 @@
   </url>
   
   <url>
+    <loc>https://www.examplelab.com.ar/links-files/talk/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.examplelab.com.ar/links-files/traducciones/advice-from-an-old-programmer/</loc>
   </url>
   
@@ -529,6 +538,10 @@
   
   <url>
     <loc>https://www.examplelab.com.ar/links-files/traducciones/own-the-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.examplelab.com.ar/links-files/writing-to-remember/</loc>
   </url>
   
   <url>
