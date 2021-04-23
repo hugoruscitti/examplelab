@@ -6,7 +6,58 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verbalizar para clarificar</title>
+      <link>https://www.examplelab.com.ar/posts/2021-04-23-verbalizar-para-clarificar/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-04-23-verbalizar-para-clarificar/</guid>
+      <description>&lt;p&gt;Hoy pude terminar de resolver un problema que tenía
+en un proyecto hace días.&lt;/p&gt;
+&lt;p&gt;Básicamente tenía que lograr que dos sistemas se hablen
+entré si, a través de una &lt;em&gt;api&lt;/em&gt;, pero la única forma que tenía
+de hacer pruebas era mediante una interfaz web que no me
+daba mucha información:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/verbalizar-para-clarificar/webapi.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;No veía si efectivamente se llamaba a la &lt;em&gt;api&lt;/em&gt;, si se estaban
+enviando los parámetros correctamente, si había algún tipo
+conversión de datos en el medio, o si la respuesta tenía algún
+tipo de incongruencia.&lt;/p&gt;
+&lt;p&gt;Cuando me encuentro haciendo cosas de esta manera me cuesta
+tener claridad, puedo pasar un buen rato  peleando conmigo mismo
+haciendo pruebas tras pruebas sin dar con la solución como en esta
+imagen (pero con menos pelo):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/verbalizar-para-clarificar/meme.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El punto es que todo se vuelve peor cuando no tengo claridad, sigo abriendo
+pestañas en el navegador intentando dar con la respuesta a algo que ni
+siquiera comprendo.&lt;/p&gt;
+&lt;h1 id=&#34;cambiando-de-enfoque&#34;&gt;Cambiando de enfoque&lt;/h1&gt;
+&lt;p&gt;Lo que me ayudó a resolver el problema fue cambiar de enfoque, en lugar de
+seguir probando cosas comencé a verbalizar:&lt;/p&gt;
+&lt;p&gt;Verbalizar consiste en hacerse
+preguntas tontas como las siguientes: ¿Qué problema tengo?, ¿cómo
+se lo explicaría a alguien desde el principio? o ¿qué pruebas estoy haciendo y
+qué conclusiones puedo sacar de ellas?.&lt;/p&gt;
+&lt;p&gt;Insisto en que son preguntas tontas, porque obviamente sé qué problema tengo: ¡la cosa no
+funciona y no veo el error!. Sin embargo, cuando me pongo a verbalizar empiezo
+a construir un modo de pensar distinto; si tuviera que explicarle a alguien el
+problema en voz alta no le diría &amp;ldquo;es que no anda, y no sé por qué&amp;rdquo;. Me esfuerzo
+por ser más claro y detallado.&lt;/p&gt;
+&lt;p&gt;Cuando verbalizo un problema me resulta natural empezar por el principio, separo las
+cosas importantes de las que no lo son, me doy cuenta de que mis ideas y las frustraciones
+son cosas distintas y busco ser objetivo sobre las cosas que estoy probando.&lt;/p&gt;
+&lt;p&gt;Así que hoy hice ese ejercicio, comencé a escribir un documento con el detalle del
+problema, algunas capturas de pantalla para describir las pruebas que estaba haciendo y
+mientras escribía logré darme cuenta de dónde estaba el problema.&lt;/p&gt;
+&lt;p&gt;Esto no es nuevo, de hecho hace un tiempo escuché que algunas personas usan
+un método llamado &lt;a href=&#34;https://en.wikipedia.org/wiki/Rubber_duck_debugging&#34;&gt;Rubber Duck Debugging&lt;/a&gt; que
+simplemente consiste en tratar de explicar el problema en voz alta para clarificar ideas.&lt;/p&gt;
+&lt;p&gt;Claro, el truco no está en el patito de goma o el documento que escribís, sino en el ejercicio
+de sacar cosas de la cabeza, ordenarlas y poder clarificarlas.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Todo está bien</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-18-todo-esta-bien/</link>

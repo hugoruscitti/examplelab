@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verbalizar para clarificar</title>
+      <link>https://www.examplelab.com.ar/posts/2021-04-23-verbalizar-para-clarificar/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-04-23-verbalizar-para-clarificar/</guid>
+      <description>Hoy pude terminar de resolver un problema que tenía en un proyecto hace días.
+Básicamente tenía que lograr que dos sistemas se hablen entré si, a través de una api, pero la única forma que tenía de hacer pruebas era mediante una interfaz web que no me daba mucha información:
+No veía si efectivamente se llamaba a la api, si se estaban enviando los parámetros correctamente, si había algún tipo conversión de datos en el medio, o si la respuesta tenía algún tipo de incongruencia.</description>
+    </item>
+    
     <item>
       <title>Todo está bien</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-18-todo-esta-bien/</link>
