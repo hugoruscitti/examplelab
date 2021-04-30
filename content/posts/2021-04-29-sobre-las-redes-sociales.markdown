@@ -79,16 +79,17 @@ Me llamó la atención no ver ninguna orientación al respecto en el documental.
 hubiera alcanzado con mencionar que el aburrimiento es un gran incentivo para hacer
 cosas útiles o disfrutar lo que pasa al rededor nuestro.
 
+El aburrimiento pierde toda su utilidad cuando usamos el teléfono y pasamos el rato viendo
+qué hacen otras personas en las redes.
+
 Así, una buena forma de resolver todo esto es encontrar cosas útiles para
-invertir nuestro tiempo libre, algo de equilibrio y no abusar de llas redes
+invertir nuestro tiempo libre, encontrar algo de equilibrio y no abusar de las redes
 sociales, pasar tiempo de calidad con personas cercanas y poner algunos
 límites. 
 
 Es decir, poner nuestras intenciones en primer lugar para usar las herramientas
 con un propósito claro.
 
-El aburrimiento pierde toda su utilidad cuando usamos el teléfono y pasamos el rato viendo
-qué hacen otras personas en las redes.
 
 # ¿Y qué conviene explorar si me preocupa todo esto?
 
