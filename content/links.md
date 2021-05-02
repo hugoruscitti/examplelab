@@ -26,3 +26,5 @@ Expliqué mi motivación al realizar este archivo de artículos
 - [Advice from an Old Programmer](/links-files/advice-from-an-old-programmer) - [🇦🇷 traducción](/links-files/traducciones/advice-from-an-old-programmer/)
 - [Writing to Remember](/links-files/writing-to-remember)
 - [Write Like You Talk](/links-files/talk)
+- [The Productivity Funnel](/links-files/the-productivity-funnel) - [🇦🇷 traducción](/links-files/traducciones/the-productivity-funnel/)
+
