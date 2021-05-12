@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escribiendo un libro</title>
+      <link>https://www.examplelab.com.ar/posts/2021-05-11-escribiendo-un-libro/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-05-11-escribiendo-un-libro/</guid>
+      <description>Hace unos meses que estoy escribiendo un software para crear presupuestos personales, mi intención es crear un producto que permita resolver el problema de estrés y falta de control que muchas personas tienen con sus finanzas personales.
+Sin embargo el software por sí solo no alcanza, creo que para resolver el problema de las finanzas personales hay que tener en cuenta varios principios y técnicas, volverlo una metodología que se pueda sostener en el tiempo y tenga sentido.</description>
+    </item>
+    
     <item>
       <title>Seguimiento de hábitos</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-04-seguimiento-de-habitos/</link>
