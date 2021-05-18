@@ -6,7 +6,71 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creando un timer</title>
+      <link>https://www.examplelab.com.ar/posts/2021-05-18-creando-un-timer/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-05-18-creando-un-timer/</guid>
+      <description>&lt;p&gt;El mes pasado escribí sobre como me ayuda &lt;a href=&#34;../2021-04-09-una-cosa-a-la-vez&#34;&gt;hacer una sola cosa a la vez&lt;/a&gt; para
+realizar tareas durante el día.&lt;/p&gt;
+&lt;p&gt;Sin embargo en el artículo me faltó describir cómo armé mi temporizador
+externo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/temporizador.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El temporizador lo pude construir usando una plaqueta arduino, un display LCD 16x2, un
+botón de arcade y algunas cosas más.&lt;/p&gt;
+&lt;p&gt;Empecé viendo algunos videos de youtube donde explicaban como conectar la plaqueta
+arduino, cargar un programa e incluso mostrar mensajes en la pantalla LCD:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/prototipo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Miré unos cuantos videos, es increíble lo fácil que lo tienen muchos chicos de hoy
+en día para aprender cosas nuevas; el formato en video para aprender sobre estas
+placas es ideal, no me imagino cómo podría haber aprendido lo mismo leyendo un
+libro.&lt;/p&gt;
+&lt;p&gt;En fin, una vez que vi los videos empecé a conectar los componentes usando una
+&lt;em&gt;protoboard&lt;/em&gt; siguiendo una guía que mostraba cómo interactuar con un pulsador:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/proto.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El programa que usé como referencia solamente imprimía la frase &amp;ldquo;hola mundo&amp;rdquo; cuando
+se pusaba el botón, pero como yo ya tenía en mente hacer el temporizador adapté el mensaje para que se vea como
+especie de barra de progreso con un
+indicador de minutos como el que se ve en la foto.&lt;/p&gt;
+&lt;p&gt;Es tan sencillo modificar y relanzar el programa en &lt;em&gt;arduino&lt;/em&gt; que uno siente como
+si estuviera programando contra un test, te anima a probar el código rápido sin
+pasar mucho tiempo en el editor. Y el solo hecho de &amp;ldquo;verlo andar&amp;rdquo; en la plaqueta
+es muy motivador.&lt;/p&gt;
+&lt;p&gt;Luego para darle forma de accesorio y no tener la plaqueta con todos los cables
+sobre la mesa encargué una caja a una imprenta que hace impresiones 3D:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/case.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La caja quedó muy bien, pero al tiempo me di cuenta de que era muy pequeña para el
+tipo de botón que tenía pensado agregarle.&lt;/p&gt;
+&lt;p&gt;Resulta que hace un tiempo armé un arcade y tenía un par de botones que me gustaban
+mucho. En esta foto se puede ver que el botón es apenas más largo que la caja:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/boton.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Estos botones son muy buenos, pasé gran parte de mi infancia jugando
+arcades y quería tener un botón de esos en el temporizador, ya era una cuestión de
+capricho personal.&lt;/p&gt;
+&lt;p&gt;Así que me puse a adaptar un poquito el botón por dentro: en lugar de usar el pulsador
+negro que viene con el arcade pegué dos botones de arduino entre sí, y recorté el
+plástico blanco del botón de arcade para que sea &amp;ldquo;cortito&amp;rdquo; y quepa dentro de la
+caja:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/recorte.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El efecto de pulsación no es igual a lo que quería, pero aun así me gustó
+como quedó.&lt;/p&gt;
+&lt;p&gt;Luego terminé de hacer el programa y me puse a empalmar los cables entre sí para no
+tener que usar el protoboard:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/soldar.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/soldar2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Y una vez finalizado, quedó mucho más compacto de lo que parecía al principio:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/fin.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Luego para mejorar un poco el diseño de la caja la pinté de negro y le busqué un
+lugar en el escritorio:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-un-timer/desktop.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ya hace dos años que estoy usando este temporizador y estoy muy contento, tendría que
+haber hecho este post hace tiempo porque incluso ahora que estoy escribiendo
+esto no recuerdo dónde puse el código que cargué en la plaqueta.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Escribiendo un libro</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-11-escribiendo-un-libro/</link>
