@@ -51,9 +51,9 @@
 
         <div>
           {{ if .Params.Cover }}
-            <a href="{{.RelPermalink}}"><img width="128" height="128" src="{{ .Params.Cover | absURL }}" class="no-mw ba"/></a>
+            <a href="{{.RelPermalink}}" style="display: block; min-width: 128px; min-height: 128px; background-color: gray;"><img src="{{ .Params.Cover | absURL }}" class="no-mw ba"/></a>
           {{ else }}
-            <a href="{{.RelPermalink}}"><div style="width: 128px; height: 128px" class="dib bg-silver"></div></a>
+            <a href="{{.RelPermalink}}" style="display: block; min-width: 128px; min-height: 128px; background-color: gray;"><div class="dib bg-silver"></div></a>
            {{ end }}
         </div>
 
