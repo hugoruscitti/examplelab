@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ordenando Música</title>
+      <link>https://www.examplelab.com.ar/posts/2021-05-25-ordenando-musica/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-05-25-ordenando-musica/</guid>
+      <description>Hace unos días di de baja mi suscripción a Spotify Premium.
+El servicio de Spotify es bastante bueno, sin embargo, me di cuenta de que necesito algo más simple y fácil de gestionar.
+Empecé a notar que tengo demasiados álbumes en mi perfil de usuario; hay muchas canciones sueltas y playlists que crecieron orgánicamente. Algunas cosas me gustan mucho, pero otras no tanto.
+El problema de tener tantas cosas es que aquellas que me gusta muchísimo se mezclan con las que simplemente me gustan un poco.</description>
+    </item>
+    
     <item>
       <title>Creando un timer</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-18-creando-un-timer/</link>
