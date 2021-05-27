@@ -3,7 +3,7 @@ layout: post
 title: Escribiendo un libro
 date: '2021-05-11 00:00:00'
 description: |
-  Empecé a escribir un libro muy breve sobre finazas personales y cómo llevarlas adelante usando principios.
+  Empecé a escribir un libro muy breve sobre finanzas personales y cómo llevarlas adelante usando principios.
 cover: /images/2021/escribiendo-un-libro/portada.jpg
 ---
 
