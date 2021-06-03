@@ -7478,6 +7478,276 @@ brindar claridad acerca de lo que queremos decir cuando hablamos acerca de produ
     
     <item>
       <title></title>
+      <link>https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers/</guid>
+      <description>&lt;h1 id=&#34;why-interruptions-are-frustrating-to-developers&#34;&gt;Why interruptions are frustrating to developers&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Artículo extraído desde:
+&lt;a href=&#34;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&#34;&gt;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Imagine your focus was a card tower and interruptions were knocking it
+down. If your productivity depended on having a card tower, wouldn’t you
+get frustrated?&lt;/p&gt;
+&lt;p&gt;I heard this analogy from a friend of mine several years ago. I’ve
+repeated the analogy for a quick visual of focus and have always liked
+it, so I reached out to my friend to see if he had a source.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/asking-for-source.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you’ve ever attempted to build a card tower, you know how time
+consuming it can be to balance the cards and control the environment
+around you. It’s especially frustrating when your friend closes a door
+and causes a rush of wind that somehow finds a direct path towards your
+card tower.&lt;/p&gt;
+&lt;p&gt;Just like card towers, a developer’s focus is carefully built, combines
+multiple items together, and can be easily destroyed.&lt;/p&gt;
+&lt;h1 id=&#34;focus-fuels-flow&#34;&gt;Focus fuels flow&lt;/h1&gt;
+&lt;p&gt;Coding requires a great deal of thinking. Some days are better than
+others, but the goal for each day is to achieve flow or a state of
+absolute focus.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Also known as “the zone,” flow is the mental state of operation in
+which a programmer is immersed in a feeling of energized focus,
+complete involvement, and enjoyment in the process of coding. Flow is
+not a concept unique to computer programming, but software developers
+are very familiar with it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;- &lt;a href=&#34;https://www.coderhood.com/15-best-ways-to-achieve-flow/&#34;&gt;CoderHood 15 Best Ways to Achieve
+Flow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once I’m in flow, I want to keep it that way as long as possible. It’s
+not voodoo magic or anything, but it’s enjoyable to be completely
+immersed in my work.&lt;/p&gt;
+&lt;p&gt;Many have different opinions of flow, but a common theme is that it is a
+period of time where your best work happens. Take a look at some of the
+top results of a google search for “software achieving flow” and see for
+yourself. You’ll find: &lt;a href=&#34;https://link.springer.com/article/10.1007/s10270-017-0621-x&#34;&gt;The importance of flow in software
+development&lt;/a&gt;,
+&lt;a href=&#34;https://simpleprogrammer.com/flow-state/&#34;&gt;How To Get Into Flow State | Become A Productive
+BEAST!&lt;/a&gt;, and &lt;a href=&#34;https://www.vegard.net/flow-in-agile-software-development-what-why-and-how/&#34;&gt;Flow in Agile
+Software Development: What, Why and
+How&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The articles relate how flow is a period of time where you achieve your
+best work. In my experience, it’s not necessarily when I do my best
+work; it may be the only work I accomplish in a day.&lt;/p&gt;
+&lt;h1 id=&#34;building-a-tower-of-focus&#34;&gt;Building a Tower of Focus&lt;/h1&gt;
+&lt;p&gt;Getting to flow requires focus and is a complicated subject. Factors in
+flow can range from how much sleep I’ve had, if work is challenging
+enough or too challenging, my salary, the company’s vision, all the way
+down to if I like my co-workers or not.&lt;/p&gt;
+&lt;p&gt;To simplify flow a bit, I’ve decided to narrow it down to the process of
+gathering context (or information) of a bug in a piece of code.
+Gathering context is a long and tedious process. To illustrate, I’ve
+attempted to walk through what goes on during a typical coding session.
+It starts with building a Tower of Focus.&lt;/p&gt;
+&lt;p&gt;The tower has a foundation, middle layer, and peak. A simple 3-layer
+card tower has 15 cards. 8 cards for the base, 5 cards for the middle,
+and 2 cards for the peak. I’ve named the layers “The WHY”, “Trade-offs”,
+and “Verify”, respectively.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/card-towers-are-like-coding.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Each one of these cards is context for the task I’m doing. I build these
+layers one card at a time, carefully leaning them against one another.&lt;/p&gt;
+&lt;h2 id=&#34;base---understanding-the-why-of-the-code&#34;&gt;Base - Understanding the why of the code&lt;/h2&gt;
+&lt;p&gt;The base layer represents finding “the why”, or the original intent. It
+is the hardest context to gather, in my opinion. In order to make a
+change to code with confidence, I need to discover the initial intent
+that went into it.&lt;/p&gt;
+&lt;p&gt;So what does looking for intent look like? Let’s look at a piece of
+code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/why-so-many-comments.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It’s pretty obvious there were some things the original author
+discovered when writing this. I can tell because they’ve put lots of
+lines with comments (lines beginning with //). I’ll start to wonder, why
+did they put so much effort into this?&lt;/p&gt;
+&lt;p&gt;The surprise comes when learning that this code is part of a bigger
+picture and any change to it can have unintended side-effects higher up
+in the chain. (It’s executed from a spaghetti of methods and is inside
+multiple &lt;code&gt;for&lt;/code&gt; loops).&lt;/p&gt;
+&lt;p&gt;If I’m investigating a bug related to this code, I’ll have to digest
+each one of the lines. Variable names such as &lt;code&gt;reader&lt;/code&gt; and &lt;code&gt;n&lt;/code&gt;, the
+subtle differences between each &lt;code&gt;if&lt;/code&gt; statement, etc. As I go, I add a
+card to my focus tower for each one.&lt;/p&gt;
+&lt;p&gt;I’ll explore tests, commit messages or even chat with the original
+author (if they’re still around) to try to understand what they were
+trying to do. Finding original intent is more or less like being a
+detective in a murder mystery.&lt;/p&gt;
+&lt;p&gt;Except the above is the exception to the rule. It actually had comments…
+What usually happens is I’m thrown into the same kind of code as above,
+but with no comments and useless commit messages. I really have no other
+choice but to read all of the code to understand it in it’s triple
+nested &lt;code&gt;for&lt;/code&gt; loop glory.&lt;/p&gt;
+&lt;p&gt;To make matters worse, it’s only lightly tested which puts me at a
+crossroad. If I change it, I’ll have no idea if I’m setting a land mine
+to be later detonated at the worst possible time.&lt;/p&gt;
+&lt;p&gt;Do I spend a large amount of time improving the tests or do I just cross
+my fingers, test it a little bit and move on?&lt;/p&gt;
+&lt;p&gt;Each thing I discover keeps adding cards to my base layer of my focus
+tower. If the code is even slightly complicated, I’m setting myself up
+to build a 4-layer or even a 5-layer focus tower. In this case, let’s
+say I only needed a 3 triangle base or 3-layers overall.&lt;/p&gt;
+&lt;h2 id=&#34;middle-layer---trade-offs-and-workarounds&#34;&gt;Middle Layer - Trade-offs and workarounds&lt;/h2&gt;
+&lt;p&gt;The next layer is determining what needs to change or what is broken and
+how it can be fixed.&lt;/p&gt;
+&lt;p&gt;Continuing with the example of fixing a bug, I’ll start diving into
+where certain log messages were printed in which parts of the code. A
+log message can be thought of as evidence or a record of a program’s
+behavior (the blood on the carpet, if you’re a detective). Sometimes
+logs show a complete picture, but often they’re incomplete and missing
+information.&lt;/p&gt;
+&lt;p&gt;What I’ll have to do is try and reproduce the bug. I’ll add more log
+messages or I’ll use a debugger tool (a way to walk through a program
+one line at a time). I’ll add some comments or notes about how it
+executes. I may change a variable or two to see how it impacts the
+output of the program. Usually by doing these things a few times I can
+narrow down or isolate what section of the code is broken.&lt;/p&gt;
+&lt;p&gt;If I’m lucky, I get a solid reproduction of the bug and that’s enough to
+figure out a fix, but otherwise, I need to list out a couple trade-offs
+or workarounds. The harder problems can be solved in varying degrees but
+it essentially boils down to 2 options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A real fix (takes a lot of time)&lt;/li&gt;
+&lt;li&gt;A hotfix (may break later, but is really fast)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;More often than not, the business is okay with the hotfix to get the
+problem solved faster (that’s a subject for an entire blog post for
+another time). All of it adds cards to my tower and it becomes quite the
+balancing act.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/triangles-in-a-focus-tower.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;peak---test-and-verify&#34;&gt;Peak - Test and Verify&lt;/h2&gt;
+&lt;p&gt;The final layer is making sure it works in production. Production is
+just a fancy word for the customer-facing part of software. Best
+practice is to add some tests, but sometimes a dry run of the code on a
+developer’s computer will do. The important part is to continue on while
+the context is still fresh in your head and the layers are still stacked
+on one another. At that point in time, you know the most about the code
+and how to fix it if something goes wrong.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/keeping-coding-context-in-your-head.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;interrupted-flow---perils-of-context-decay&#34;&gt;Interrupted flow - Perils of context decay&lt;/h1&gt;
+&lt;p&gt;In the perfect world, I would be free to move from the base layer,
+middle layer, and then onto the peak with no interruptions. But the
+reality is, my day is broken up with meetings or interruptions.&lt;/p&gt;
+&lt;p&gt;Charity Majors, the CTO of Honeycomb, says it best when referring to why
+they practice “15 minutes or bust”.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you have a rapid feedback loop…You have that original intent that’s
+fresh in your head, you know exactly what you’re trying to do: the
+why, all the trade-offs you had to make, all the variable names, and
+everything. You can never get that back again. It starts to decay
+immediately as soon as you switch your focus away from it…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;- Charity Majors, CTO of Honeycomb, &lt;a href=&#34;https://youtu.be/5sAJ3N6KNdQ?t=90&#34;&gt;The New Faces of Continuous
+Improvement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Imagine I’ve just spent a couple hours building my focus tower and then
+the rush of wind hits. An interruption. I get paged to help solve
+problem X and it’s super “urgent” (In Slack, @channel is a way to notify
+everyone and implies urgency).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@channel just wanted to let you know that we changed the meeting in
+two weeks to Friday. The update is in your calendar&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@channel so and so just wrote in saying they’d like to try X. Is that
+possible?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Since they’ve used the signal that an enemy has arrived and war is about
+to break out or otherwise known as @channel, I feel like I’m immediately
+obligated to help.&lt;/p&gt;
+&lt;p&gt;I’d say 95% of the time @channel is unnecessary and is a great
+contributor to destroyed focus towers. Most things can wait for support
+meetings or handed off to a single person assigned to help that day.
+Shifts can be scheduled on a rotation to spread the task across multiple
+team members (checkout &lt;a href=&#34;https://www.examplelab.com.ar/&#34;&gt;Tellspin&lt;/a&gt; as an easy way to rotate @mentions
+in Slack).&lt;/p&gt;
+&lt;p&gt;These interruptions pull me from my work and my focus tower immediately
+starts to decay. If I’m away for an hour or more, you might as well just
+point a hair dryer at my tower and blow it over.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/destroyed-coding-context-tower.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To be clear, small interruptions for a few minutes are usually okay. I
+can return back to my task without noticing. I’d argue, however, even
+from a small nudge, there’s a high risk that I won’t bounce right back
+to what I was doing. I’ll go off and check my email or view the likes on
+my twitter feed. The longer it takes to get back to my original task,
+the greater the extent of the decay.&lt;/p&gt;
+&lt;h1 id=&#34;battling-context-decay&#34;&gt;Battling context decay&lt;/h1&gt;
+&lt;p&gt;So what can we do? The most important thing is to be aware that
+interruptions aren’t free. There’s probably a reason that your co-worker
+put a block in their calendar or has periods of do not disturb set. Be
+nice to one another.&lt;/p&gt;
+&lt;p&gt;On the other hand, I’m often my own worst enemy when it comes to
+distractions. I’ve compiled a list of things I’ve found helpful for me
+to focus.&lt;/p&gt;
+&lt;h3 id=&#34;1-reduce-slack-interruptions-at-a-team-level&#34;&gt;1. Reduce Slack interruptions at a team level&lt;/h3&gt;
+&lt;p&gt;If you specifically deal with interruptions from Slack, take a look at
+my tips for &lt;a href=&#34;https://www.examplelab.com.ar/blog/reduce-interruptions-tips-for-slack/&#34;&gt;reducing Slack interruptions for your
+team&lt;/a&gt;. It talks specifically
+about ways you can work with your frontline support teams to help spread
+the interruption load across your internal team members. My recommended
+tip from there would be to plan for interruptions by setting up a
+on-call rotation shift schedule.&lt;/p&gt;
+&lt;h3 id=&#34;2-create-friction-to-your-distractions&#34;&gt;2. Create friction to your distractions&lt;/h3&gt;
+&lt;p&gt;I created a tiny bit of friction by moving my top distractions to
+another desktop such as Slack, twitter, linked-in, or email to a
+different desktop. Whenever I get the urge to look at those things, I
+have to press a few keys to switch. The friction serves as a reminder
+that I wanted to focus and works great. I’ve also increased friction
+further by minimizing the window or closing it altogether.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/split-tasks-on-desktop.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-create-an-off-limits-chrome-tab-group&#34;&gt;3. Create an off-limits chrome tab group&lt;/h3&gt;
+&lt;p&gt;One thing I struggle with is checking the metrics of my business
+constantly. To assist myself in this goal, I created an off-limits red
+chrome tab group.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/improve-focus-by-using-tab-groups.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The group contains communities I belong to, linked-in, twitter, Slack,
+and my analytics pages. I know to not open the group during periods of
+deep focus. Yes, yes, I know, I could close the tabs altogether, but I
+have a habit of reopening sites. Keeping them locked up in a group helps
+me remember they’re my top distractions.&lt;/p&gt;
+&lt;p&gt;Another thing I’ve been trying to adopt is strategy laid out by Michael
+Lynch of only checking metrics once a week on the end-of-day Friday. He
+also had trouble with metric checking:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Checking metrics is “shallow work”: it doesn’t require deep focus or
+critical thinking, but it feels productive. … Until I broke the habit
+of constant stat-checking, I never realized how much space it occupied
+in my brain.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;- Michael Lynch, &lt;a href=&#34;https://mtlynch.io/keep-growing-never-profit/&#34;&gt;How to Grow Quickly and Never Turn a
+Profit.&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;4-record-context-as-you-go&#34;&gt;4. Record context as you go&lt;/h3&gt;
+&lt;p&gt;The final tip to combating context decay is making notes as I go. What I
+like to do is have a bash script in each directory named &lt;code&gt;.zing&lt;/code&gt;. It’s
+ignored by my global git-ignore so I can place them right alongside the
+code I’m working on. Here’s an example of one I was working with last
+week.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Todos:&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - check if ran twice if it updates the usage for that day&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - use end_ts for date&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - use the last-in record&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - ceil monthly usage 219.002 == 220&lt;/span&gt;
+
+./report_to_stripe.rb 05/
+exit
+../bin/monthly_report.rb 05/
+exit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;My &lt;code&gt;.zing&lt;/code&gt; file serves two purposes. It keeps a list of todos and notes,
+but it also is a history of the last command I executed. When I come
+back in the morning, I can execute the script, see the output of the
+code, and jump start my day back into what I was doing.&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://github.com/jewel/zing&#34;&gt;https://github.com/jewel/zing&lt;/a&gt; to execute the script from vim or
+my terminal by typing &lt;code&gt;,z&lt;/code&gt;. It’s a handy way to speed up my iterations
+too.&lt;/p&gt;
+&lt;h1 id=&#34;lets-build-focus-towers-together&#34;&gt;Let’s build focus towers together&lt;/h1&gt;
+&lt;p&gt;Everyday is a battle to keep my focus tower built and free from the
+rushing wind of distractions and interruptions. Working together to stop
+unnecessary interruptions is a team effort and if done correctly can
+have a huge impact on productivity and increase developers chances in
+reaching flow.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.examplelab.com.ar/links-files/writing-to-remember/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -7608,6 +7878,7 @@ desparecen de Internet.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/writing-to-remember&#34;&gt;Writing to Remember&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/talk&#34;&gt;Write Like You Talk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/the-productivity-funnel&#34;&gt;The Productivity Funnel&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/the-productivity-funnel/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers&#34;&gt;Why interruptions are frustrating to developers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
