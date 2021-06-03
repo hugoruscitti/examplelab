@@ -6,7 +6,40 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Jun 2021 10:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recuperando mis viejos posts</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/</link>
+      <pubDate>Thu, 03 Jun 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/</guid>
+      <description>Hace algunos meses el blog de la empresa para la que trabajo se cayó y tardamos unos días en darnos cuenta y volver a levantarlo.
+Sin embargo, me dejó algo preocupado notar que algunos artículos que escribí y que me gustaría conservar pueden perderse porque no los tengo a mano.
+Me gusta la idea de conservar esos artículos en mi dominio, solo así sé que los voy a tener como referencia siempre que los necesite y voy a poder resguardarlos, hacerles mejoras o borrarlos si ya no me gustan o los veo irrelevantes.</description>
+    </item>
+    
+    <item>
+      <title>Cómo crear migraciones de datos con Django</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</guid>
+      <description>Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.
+ Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en producción realizadas con Django y nos pareció buena idea mencionar cómo lo resolvimos.
+Django incluye un sistema de migraciones que permite modificar la estructura de la base de datos de forma reproducible y consistente. Cada cambio que hacemos en los modelos, como agregar o modificar campos, generan migraciones automáticas para propagar los cambios sobre la base de datos.</description>
+    </item>
+    
+    <item>
+      <title>Emails con Django en modo desarrollo</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</guid>
+      <description>Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.
+ Es un práctica común configurar e implementar envío de emails desde un sistema web. Casi todas las empresas llegan a tener la necesidad de informar a sus usuarios sobre eventos del sistema como las notificaciones o recuperación de contraseñas.
+En este artículo queremos contarte la forma que encontramos en enjambre-bit para implementar esas tareas de forma segura y sencilla.</description>
+    </item>
+    
     <item>
       <title>Ordenando Música</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-25-ordenando-musica/</link>

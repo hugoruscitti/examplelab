@@ -6,7 +6,253 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Jun 2021 10:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recuperando mis viejos posts</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/</link>
+      <pubDate>Thu, 03 Jun 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/</guid>
+      <description>&lt;p&gt;Hace algunos meses el blog de la empresa para la que trabajo
+se cayó y tardamos unos días en darnos cuenta y volver a levantarlo.&lt;/p&gt;
+&lt;p&gt;Sin embargo, me dejó algo preocupado notar que algunos artículos que escribí y
+que me gustaría conservar pueden perderse porque no los tengo a mano.&lt;/p&gt;
+&lt;p&gt;Me gusta la idea de conservar esos artículos en mi dominio, solo así
+sé que los voy a tener como referencia siempre que los necesite y voy a poder
+resguardarlos, hacerles mejoras o borrarlos si ya no me gustan o los veo
+irrelevantes.&lt;/p&gt;
+&lt;p&gt;Así que hoy traje a este blog dos artículos que escribí originalmente para el
+blog de la empresa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../2021-06-03-como-crear-migraciones-de-datos-con-django/&#34;&gt;Como crear migraciones de dato con Django&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../2021-06-03-emails-con-django-en-modo-desarrollo/&#34;&gt;Emails en modo desarrollo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Este ejercicio de traer los artículos al blog también me sirvió para volver a
+leerlos y reconocer que mejoré bastante algunas cuestiones de escritura y
+claridad.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cómo crear migraciones de datos con Django</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en
+producción realizadas con Django y nos pareció buena idea mencionar cómo lo
+resolvimos.&lt;/p&gt;
+&lt;p&gt;Django incluye un sistema de migraciones que permite modificar la estructura de
+la base de datos de forma reproducible y consistente. Cada cambio que hacemos
+en los modelos, como agregar o modificar campos, generan migraciones
+automáticas para propagar los cambios sobre la base de datos.&lt;/p&gt;
+&lt;p&gt;Sin embargo, las migraciones no solamente sirven para eso. En este artículo
+queremos mostrar un tipo muy particular de migraciones: las migraciones de
+datos.&lt;/p&gt;
+&lt;h1 id=&#34;un-caso-real&#34;&gt;Un caso real&lt;/h1&gt;
+&lt;p&gt;En una de las aplicaciones que estamos realizando tenemos un recurso llamado
+Paquete, que contiene información sobre un pedido de desbloqueo de un equipo
+del programa Conectar Igualdad.&lt;/p&gt;
+&lt;p&gt;El problema que encontramos es que algunos campos de la base de datos
+destinados a almacenar un número Hexadecimal tenía errores de carga.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, donde claramente el valor debería ser un número hexadecimal como
+&lt;code&gt;A2F&lt;/code&gt; nos encontramos con un número equivalente como &lt;code&gt;000A2F&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Los números habían sido cargado por usuarios de forma masiva, así que teníamos
+cientos de registros como estos, donde los ceros a la izquierda del número nos
+impedía localizar esos recursos fácilmente.&lt;/p&gt;
+&lt;p&gt;Así se veían algunos de los registros que presentaban este problema.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-crear-migraciones-de-datos-con-django/admin.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Así que usamos una migración personalizada de datos para resolverlo, de forma
+tal que los cambios no solamente arreglen el problema en el sistema en
+producción, sino que además se pueda reproducir de forma local y forme parte
+del repositorio de código.&lt;/p&gt;
+&lt;h1 id=&#34;creando-la-migración-de-datos-para-corregir-el-problema&#34;&gt;Creando la migración de datos para corregir el problema&lt;/h1&gt;
+&lt;p&gt;Para crear un migración de este tipo en Django hay que ejecutar el siguiente
+comando, especificando el nombre de la aplicación y de la migración:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;python manage.py makemigrations APP --empty -n NOMBRE
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;En nuestro caso, como la aplicación se llama escuelas, y estamos usando pipenv,
+el comando debería quedar así:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py makemigrations escuelas --empty -n corregir_valores_hexadecimales_con_ceros_a_izquierda&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;En pantalla nos debería aparecer el nombre del archivo generado:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py makemigrations escuelas etc...
+Loading .env environment variables…
+Migrations for &#39;escuelas&#39;:
+  escuelas/migrations/0054_corregir_valores_hexadecimales_con_ceros_a_izquierda.py:
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;El archivo en este punto no tiene casi nada de contenido, solamente una
+estructura inicial y una descripción de la migración que la precede:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-crear-migraciones-de-datos-con-django/migracion.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ahora bien, para nuestro caso, tendremos que crear una función para corregir
+los datos Hexadecimales y agregar una referencia a la lista de operaciones:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# -*- coding: utf-8 -*-&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Generated by Django 1.10.4 on 2018-05-08 00:36&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; __future__ &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; unicode_literals
+
+&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; django.db &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; migrations
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;corregir_valores_hexa&lt;/span&gt;(apps, schema_editor):
+    Paquete &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; apps&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_model(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;escuelas&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Paquete&amp;#34;&lt;/span&gt;)
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; paquete &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; Paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;objects&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;all():
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
+            paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ma_hexa &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; hex(int(paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ma_hexa, &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt;))[&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:]
+            paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;save()
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;ValueError&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;TypeError&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; error:
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Imposible corregir el paquete id={}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;format(paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id))
+
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Migration&lt;/span&gt;(migrations&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Migration):
+
+    dependencies &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [
+        (&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;escuelas&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;0053_paquete_zip_devolucion&amp;#39;&lt;/span&gt;),
+    ]
+
+    operations &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [
+        migrations&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;RunPython(corregir_valores_hexa, migrations&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;RunPython&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;noop),
+    ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Luego, para ejecutar la migración podemos ejecutar el comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;O incluso ejecutar la migración de forma explícita usando el identificador numérico:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate escuelas 0054&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Esta última forma de ejecutar la migración es bastante útil cuando queremos
+revertir y volver a ejecutar la migración varias veces. Por ejemplo, si queres
+ejecutar varias veces la migración 0054 deberías revertirla ejecutando primero
+la migración anterior, la 0053:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate escuelas 0053&amp;quot;
+pipenv run &amp;quot;python manage.py migrate escuelas 0054&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y con esto, corregimos los datos correctamente:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-crear-migraciones-de-datos-con-django/admin2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h1&gt;
+&lt;p&gt;Django es una fuente de soluciones y workflows muy sólida, con varios proyectos
+productivos sobre sus hombros.&lt;/p&gt;
+&lt;p&gt;Da gusto encontrarse con una herramienta que va más allá de las necesidades
+iniciales y tiene pensada una solución para este caso de problemas tan delicado
+ambientes de producción.&lt;/p&gt;
+&lt;p&gt;Las migraciones son solo una parte muy pequeña de estas convenciones y
+soluciones compartidas por la comunidad de Django. Sin embargo, nos resultan de
+tanta utilidad que quisimos compartirlas aquí.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emails con Django en modo desarrollo</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Es un práctica común configurar e implementar envío de emails desde un sistema
+web. Casi todas las empresas llegan a tener la necesidad de informar a sus
+usuarios sobre eventos del sistema como las notificaciones o recuperación de
+contraseñas.&lt;/p&gt;
+&lt;p&gt;En este artículo queremos contarte la forma que encontramos en enjambre-bit
+para implementar esas tareas de forma segura y sencilla.&lt;/p&gt;
+&lt;h1 id=&#34;por-qué-configurar-pensando-en-modo-desarrollo&#34;&gt;¿Por qué configurar pensando en modo desarrollo?&lt;/h1&gt;
+&lt;p&gt;Realizar un circuito que involucre enviar emails en un sistema web parece muy
+sencillo al principio. Enviar emails desde un framework como Django es la parte
+más sencilla de todas.&lt;/p&gt;
+&lt;p&gt;Sin embargo, integrar emails a una aplicación web no consiste solamente en
+enviar un email.&lt;/p&gt;
+&lt;p&gt;Mientras estamos programando necesitamos realizar varias pruebas que pueden ser
+incómodas y repetitivas.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, imaginemos un requerimiento común en varias aplicaciones web:
+&amp;ldquo;crear un sistema para registrar usuarios nuevos&amp;rdquo;:&lt;/p&gt;
+&lt;p&gt;Como mínimo necesitamos que una persona pueda cargar su dirección de email en
+un formulario para iniciar el proceso de creación de cuenta, y luego deberíamos
+entrar en este circuito:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Necesitamos emitir el mail a una dirección de correo real.&lt;/li&gt;
+&lt;li&gt;Deberíamos validar que la persona logra recibir el email con una URL para
+iniciar el proceso de creación de cuenta.&lt;/li&gt;
+&lt;li&gt;Al ingresar en la URL, tiene que poder cargar su contraseña inicial y
+confirmar.&lt;/li&gt;
+&lt;li&gt;El sistema tiene que enviar un segundo email de bienvenida informando que la
+cuenta se creó correctamente.  Y si bien con esto alcanzaría para decir
+&amp;ldquo;tenemos implementado el circuito de creación de cuentas en modo desarrollo&amp;rdquo;,
+el paso siguiente es llevar eso a un entorno de producción con la menor
+cantidad de cambios posibles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Además, ¿qué sucedería si queremos cambiar algo de este circuito en el futuro?,
+¿cómo podemos asegurar que no vamos a enviar correos a usuarios reales
+mientras hacemos pruebas?&lt;/p&gt;
+&lt;h1 id=&#34;entonces-qué-enfoque-podemos-utilizar&#34;&gt;¿Entonces?, ¿qué enfoque podemos utilizar?&lt;/h1&gt;
+&lt;p&gt;Primero, veamos el desafío de probar los circuitos de envío de email de forma
+local:&lt;/p&gt;
+&lt;p&gt;En lugar de configurar un servidor de SMTP real, se puede descargar una
+aplicación llamada &amp;ldquo;maildev&amp;rdquo; para iniciar un servidor de mails local:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://danfarrelly.nyc/MailDev/&#34;&gt;https://danfarrelly.nyc/MailDev/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lo interesante de maildev es que se puede instalar muy fácilmente con npm y se
+puede ejecutar para lanzar un servidor de mails local con una interfaz web que
+simula un cliente de webmail.&lt;/p&gt;
+&lt;p&gt;Para instalarlo, se puede ejecutar:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install -g maildev
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y para ejecutarlo maildev:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/emails-con-django-en-modo-desarrollo/ima.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Una vez que se ejecuta, si abrís un navegador con esa dirección 1080 se puede
+ver cómo sería la bandeja de entrada de quién recibirá nuestros emails en modo
+desarrollo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/emails-con-django-en-modo-desarrollo/mail.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ahora bien, desde Django, para emitir los emails a este servidor de prueba
+simplemente hay que configurar la variable EMAIL_PORT en el archivo
+settings.py:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;EMAIL_PORT = 1025
+EMAIL_HOST = localhost
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y por último, cada vez que emitamos un email, aparecerá en nuestro maildev
+directamente:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/emails-con-django-en-modo-desarrollo/a.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;¡ Yep !&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/emails-con-django-en-modo-desarrollo/jerris.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;separando-entornos-de-desarrollo-y-producción&#34;&gt;Separando entornos de desarrollo y producción&lt;/h1&gt;
+&lt;p&gt;El siguiente paso para tener una buena implementación de este flujo es hacer
+que el servicio de emails funcione de manera diferente en producción y
+desarrollo.&lt;/p&gt;
+&lt;p&gt;Siguiendo las recomendaciones de &lt;a href=&#34;https://12factor.net/es/&#34;&gt;12 factor&lt;/a&gt;, si
+colocamos la configuración de nuestros entornos de ejecución en variables de
+entorno, podemos hacer que la aplicación automáticamente use un SMTP local si
+está en modo desarrollo o un servidor real si está en producción.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, si tenemos un archivo de configuración (&lt;code&gt;backend/settings.py&lt;/code&gt;)
+así:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;EMAIL_PORT = os.environ.get(&#39;EMAIL_PORT&#39;)
+EMAIL_HOST = os.environ.get(&#39;EMAIL_HOST&#39;)
+EMAIL_HOST_USER = os.environ.get(&#39;EMAIL_HOST_USER&#39;, &#39;&#39;)
+EMAIL_HOST_PASSWORD = os.environ.get(&#39;EMAIL_HOST_PASSWORD&#39;, &#39;&#39;)
+EMAIL_USE_TLS = os.environ.get(&#39;EMAIL_USE_TLS&#39;, &#39;&#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Es fácil hacer que en nuestro entorno local se utilice el servidor STMP de
+maildev, simplemente tenemos que colocar en el archivo &lt;code&gt;.env&lt;/code&gt; (que lee pipenv)
+el puerto de pruebas de SMTP:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;DATABASE_URL=&amp;quot;postgres://post...&amp;quot;
+DISABLE_COLLECTSTATIC=1
+EMAIL_PORT=1025
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y en producción, si usamos dokku podemos simplemente especificar un SMTP real
+usando &lt;code&gt;dokku config&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; ssh dokku@enjam... config app-backend | grep EMAIL
+EMAIL_HOST_PASSWORD:      f6TYtNv***
+EMAIL_PORT:               587
+EMAIL_HOST_USER:          hu****
+EMAIL_USE_TLS:            True
+EMAIL_HOST:               smtp.sendgrid.net
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;alternativas&#34;&gt;Alternativas&lt;/h1&gt;
+&lt;p&gt;Maildev nos dá buenos resultados, sin embargo, si en tu caso no te resulta
+útil, hay alternativas como mailtrap (que funciona como servicio), MailSlurper
+o incluso el minimalista dsmtpd.&lt;/p&gt;
+&lt;p&gt;Y si solamente quieres ver un log para certificar que el correo sale
+correctamente, también podrías ejecutar esto comando sin necesidad de instalar
+nada:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;python -m smtpd -n -c DebuggingServer localhost:1025
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Otra alternativa, muy similar a la anterior. Es especificar la variable
+&lt;code&gt;&amp;quot;EMAIL_BACKEND&amp;quot;&lt;/code&gt; en la configuración de Django:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;EMAIL_BACKEND = &#39;django.core.mail.backends.console.EmailBackend&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Esta configuración hace que Django emita por consola el contenido de los emails
+en lugar de enviarlos al servidor smtp.&lt;/p&gt;
+&lt;p&gt;¡Gracias Agus por comentarnos esta última alternativa!&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Ordenando Música</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-25-ordenando-musica/</link>

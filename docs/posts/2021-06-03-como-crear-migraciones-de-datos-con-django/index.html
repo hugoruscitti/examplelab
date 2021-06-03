@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Cómo crear migraciones de datos con Django :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.
+ Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en producción realizadas con Django y nos pareció buena idea mencionar cómo lo resolvimos.
+Django incluye un sistema de migraciones que permite modificar la estructura de la base de datos de forma reproducible y consistente. Cada cambio que hacemos en los modelos, como agregar o modificar campos, generan migraciones automáticas para propagar los cambios sobre la base de datos."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cómo crear migraciones de datos con Django"/>
+<meta name="twitter:description" content="Cómo automatizar carga de datos en un proyecto Django.
+"/>
+
+
+
+<meta property="og:title" content="Cómo crear migraciones de datos con Django" />
+<meta property="og:description" content="Cómo automatizar carga de datos en un proyecto Django.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/" />
+<meta property="article:published_time" content="2021-06-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-06-03T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/">Cómo crear migraciones de datos con Django</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            03/06/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <blockquote>
+<p>Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.</p>
+</blockquote>
+<p>Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en
+producción realizadas con Django y nos pareció buena idea mencionar cómo lo
+resolvimos.</p>
+<p>Django incluye un sistema de migraciones que permite modificar la estructura de
+la base de datos de forma reproducible y consistente. Cada cambio que hacemos
+en los modelos, como agregar o modificar campos, generan migraciones
+automáticas para propagar los cambios sobre la base de datos.</p>
+<p>Sin embargo, las migraciones no solamente sirven para eso. En este artículo
+queremos mostrar un tipo muy particular de migraciones: las migraciones de
+datos.</p>
+<h1 id="un-caso-real">Un caso real</h1>
+<p>En una de las aplicaciones que estamos realizando tenemos un recurso llamado
+Paquete, que contiene información sobre un pedido de desbloqueo de un equipo
+del programa Conectar Igualdad.</p>
+<p>El problema que encontramos es que algunos campos de la base de datos
+destinados a almacenar un número Hexadecimal tenía errores de carga.</p>
+<p>Por ejemplo, donde claramente el valor debería ser un número hexadecimal como
+<code>A2F</code> nos encontramos con un número equivalente como <code>000A2F</code>.</p>
+<p>Los números habían sido cargado por usuarios de forma masiva, así que teníamos
+cientos de registros como estos, donde los ceros a la izquierda del número nos
+impedía localizar esos recursos fácilmente.</p>
+<p>Así se veían algunos de los registros que presentaban este problema.</p>
+<p><img src="/images/2021/como-crear-migraciones-de-datos-con-django/admin.png" alt=""></p>
+<p>Así que usamos una migración personalizada de datos para resolverlo, de forma
+tal que los cambios no solamente arreglen el problema en el sistema en
+producción, sino que además se pueda reproducir de forma local y forme parte
+del repositorio de código.</p>
+<h1 id="creando-la-migración-de-datos-para-corregir-el-problema">Creando la migración de datos para corregir el problema</h1>
+<p>Para crear un migración de este tipo en Django hay que ejecutar el siguiente
+comando, especificando el nombre de la aplicación y de la migración:</p>
+<pre><code>python manage.py makemigrations APP --empty -n NOMBRE
+</code></pre><p>En nuestro caso, como la aplicación se llama escuelas, y estamos usando pipenv,
+el comando debería quedar así:</p>
+<pre><code>pipenv run &quot;python manage.py makemigrations escuelas --empty -n corregir_valores_hexadecimales_con_ceros_a_izquierda&quot;
+</code></pre><p>En pantalla nos debería aparecer el nombre del archivo generado:</p>
+<pre><code>pipenv run &quot;python manage.py makemigrations escuelas etc...
+Loading .env environment variables…
+Migrations for 'escuelas':
+  escuelas/migrations/0054_corregir_valores_hexadecimales_con_ceros_a_izquierda.py:
+</code></pre><p>El archivo en este punto no tiene casi nada de contenido, solamente una
+estructura inicial y una descripción de la migración que la precede:</p>
+<p><img src="/images/2021/como-crear-migraciones-de-datos-con-django/migracion.png" alt=""></p>
+<p>Ahora bien, para nuestro caso, tendremos que crear una función para corregir
+los datos Hexadecimales y agregar una referencia a la lista de operaciones:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<span style="color:#75715e"># Generated by Django 1.10.4 on 2018-05-08 00:36</span>
+<span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> unicode_literals
+
+<span style="color:#f92672">from</span> django.db <span style="color:#f92672">import</span> migrations
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">corregir_valores_hexa</span>(apps, schema_editor):
+    Paquete <span style="color:#f92672">=</span> apps<span style="color:#f92672">.</span>get_model(<span style="color:#e6db74">&#34;escuelas&#34;</span>, <span style="color:#e6db74">&#34;Paquete&#34;</span>)
+    <span style="color:#66d9ef">for</span> paquete <span style="color:#f92672">in</span> Paquete<span style="color:#f92672">.</span>objects<span style="color:#f92672">.</span>all():
+        <span style="color:#66d9ef">try</span>:
+            paquete<span style="color:#f92672">.</span>ma_hexa <span style="color:#f92672">=</span> hex(int(paquete<span style="color:#f92672">.</span>ma_hexa, <span style="color:#ae81ff">16</span>))[<span style="color:#ae81ff">2</span>:]
+            paquete<span style="color:#f92672">.</span>save()
+        <span style="color:#66d9ef">except</span> (<span style="color:#a6e22e">ValueError</span>, <span style="color:#a6e22e">TypeError</span>) <span style="color:#66d9ef">as</span> error:
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Imposible corregir el paquete id={}&#34;</span><span style="color:#f92672">.</span>format(paquete<span style="color:#f92672">.</span>id))
+
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Migration</span>(migrations<span style="color:#f92672">.</span>Migration):
+
+    dependencies <span style="color:#f92672">=</span> [
+        (<span style="color:#e6db74">&#39;escuelas&#39;</span>, <span style="color:#e6db74">&#39;0053_paquete_zip_devolucion&#39;</span>),
+    ]
+
+    operations <span style="color:#f92672">=</span> [
+        migrations<span style="color:#f92672">.</span>RunPython(corregir_valores_hexa, migrations<span style="color:#f92672">.</span>RunPython<span style="color:#f92672">.</span>noop),
+    ]
+</code></pre></div><p>Luego, para ejecutar la migración podemos ejecutar el comando:</p>
+<pre><code>pipenv run &quot;python manage.py migrate
+</code></pre><p>O incluso ejecutar la migración de forma explícita usando el identificador numérico:</p>
+<pre><code>pipenv run &quot;python manage.py migrate escuelas 0054&quot;
+</code></pre><p>Esta última forma de ejecutar la migración es bastante útil cuando queremos
+revertir y volver a ejecutar la migración varias veces. Por ejemplo, si queres
+ejecutar varias veces la migración 0054 deberías revertirla ejecutando primero
+la migración anterior, la 0053:</p>
+<pre><code>pipenv run &quot;python manage.py migrate escuelas 0053&quot;
+pipenv run &quot;python manage.py migrate escuelas 0054&quot;
+</code></pre><p>y con esto, corregimos los datos correctamente:</p>
+<p><img src="/images/2021/como-crear-migraciones-de-datos-con-django/admin2.png" alt=""></p>
+<h1 id="conclusión">Conclusión</h1>
+<p>Django es una fuente de soluciones y workflows muy sólida, con varios proyectos
+productivos sobre sus hombros.</p>
+<p>Da gusto encontrarse con una herramienta que va más allá de las necesidades
+iniciales y tiene pensada una solución para este caso de problemas tan delicado
+ambientes de producción.</p>
+<p>Las migraciones son solo una parte muy pequeña de estas convenciones y
+soluciones compartidas por la comunidad de Django. Sin embargo, nos resultan de
+tanta utilidad que quisimos compartirlas aquí.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Recuperando mis viejos posts</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/">
+                  <span class="button__text">Emails con Django en modo desarrollo</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>
