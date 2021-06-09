@@ -27,4 +27,4 @@ Expliqué mi motivación al realizar este archivo de artículos
 - [Writing to Remember](/links-files/writing-to-remember)
 - [Write Like You Talk](/links-files/talk)
 - [The Productivity Funnel](/links-files/the-productivity-funnel) - [🇦🇷 traducción](/links-files/traducciones/the-productivity-funnel/)
-- [Why interruptions are frustrating to developers](/links-files/why-interruptions-are-frustrating-to-developers)
+- [Why interruptions are frustrating to developers](/links-files/why-interruptions-are-frustrating-to-developers) - [🇦🇷 traducción](/links-files/traducciones/why-interruptions-are-frustrating-to-developers/)

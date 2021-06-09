@@ -1,0 +1,657 @@
+¿Por qué las interrupciones son frustrantes para los programadores?
+===================================================================
+
+- Artículo extraído desde:
+ [https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers](https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers)
+
+<!--Imagine your focus was a card tower and interruptions were knocking it-->
+<!--down. If your productivity depended on having a card tower, wouldn’t you-->
+<!--get frustrated?-->
+
+Imagina que tu atención es como una torre de cartas y las interrupciones son
+como tirarlas abajo de un golpe. Si tu productividad depende de tener una
+torre de cartas, ¿no te sentirías frustrado al verla caer?.
+
+<!--I heard this analogy from a friend of mine several years ago. I’ve-->
+<!--repeated the analogy for a quick visual of focus and have always liked-->
+<!--it, so I reached out to my friend to see if he had a source.-->
+
+Escuché esta analogía de un amigo mío hace varios años, y la estuve repitiendo
+cada vez que quería explicar el concepto de concentración de forma
+visual, así que contacté a mi amigo para saber si él tenía la fuente
+de esa analogía:
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/asking-for-source.png)
+
+<!--If you’ve ever attempted to build a card tower, you know how time-->
+<!--consuming it can be to balance the cards and control the environment-->
+<!--around you. It’s especially frustrating when your friend closes a door-->
+<!--and causes a rush of wind that somehow finds a direct path towards your-->
+<!--card tower.-->
+
+Si alguna vez intentó construir una torre de cartas seguramente sabrá todo
+el tiempo que lleva lograr el balance de las cartas y controlar el
+entorno para que no se caigan. Es frustrante cuando tus amigos cierran
+una puerta y esto causa una brisa que de alguna forma encuentra la forma
+de alcanzar tu torre de cartas.
+
+<!--Just like card towers, a developer’s focus is carefully built, combines-->
+<!--multiple items together, and can be easily destroyed.-->
+
+Y al igual que las torres de cartas, el foco de un programador se construye
+de forma cuidadosa, combinando varios elementos juntos y puede ser
+destruida muy fácilmente.
+
+<!--Focus fuels flow-->
+<!--================-->
+
+Enfocar el flujo de combustible
+===============================
+
+<!--Coding requires a great deal of thinking. Some days are better than-->
+<!--others, but the goal for each day is to achieve flow or a state of-->
+<!--absolute focus.-->
+
+Programar requiere a un gran esfuerzo de pensamiento. Algunos días son
+mejores que otros, pero el objetivo de cada día es alcanzar un estado
+de concentración absoluto.
+
+
+<!--> Also known as “the zone,” flow is the mental state of operation in-->
+<!--> which a programmer is immersed in a feeling of energized focus,-->
+<!--> complete involvement, and enjoyment in the process of coding. Flow is-->
+<!--> not a concept unique to computer programming, but software developers-->
+<!--> are very familiar with it.-->
+
+> También llamado "La zona" o "flow", el foco es el estado mental en el que el programador
+> está inmerso en una concentración absoluta, involucrado completamente, y 
+> entusiasmado en el proceso de codificar. Esta concentración no es un
+> un concepto exclusivo de la programación de computadoras, pero los programadores
+> están muy familiarizados con ella.
+
+<!--Once I’m in flow, I want to keep it that way as long as possible. It’s-->
+<!--not voodoo magic or anything, but it’s enjoyable to be completely-->
+<!--immersed in my work.-->
+
+"Cuando estoy enfocado, quiero mantenerme en ese estado todo lo que pueda. No
+es magia ni nada de eso, pero es entusiasmante estar completamente inmerso
+en mi trabajo".
+
+<!--Many have different opinions of flow, but a common theme is that it is a-->
+<!--period of time where your best work happens. Take a look at some of the-->
+<!--top results of a google search for “software achieving flow” and see for-->
+<!--yourself. You’ll find: [The importance of flow in software-->
+<!--development](https://link.springer.com/article/10.1007/s10270-017-0621-x),-->
+<!--[How To Get Into Flow State | Become A Productive-->
+<!--BEAST!](https://simpleprogrammer.com/flow-state/), and [Flow in Agile-->
+<!--Software Development: What, Why and-->
+<!--How](https://www.vegard.net/flow-in-agile-software-development-what-why-and-how/).-->
+
+Las personas tienen diferentes opiniones sobre el tema, pero todos coinciden
+en que en ese momento de foco es cuando se produce el trabajo de mejor
+calidad. Dale una mirada a algunos de los resultados más relevantes de una búsqueda
+en google sobre "cómo alcanzar el foco en software" y encontrarás: [La importancia
+del foco en el desarrollo de Software](https://link.springer.com/article/10.1007/s10270-017-0621-x), 
+[Cómo lograr un estado de concentración](https://simpleprogrammer.com/flow-state/) y
+[Logrando Foco en las metodologías ágiles](https://www.vegard.net/flow-in-agile-software-development-what-why-and-how/)
+
+<!--The articles relate how flow is a period of time where you achieve your-->
+<!--best work. In my experience, it’s not necessarily when I do my best-->
+<!--work; it may be the only work I accomplish in a day.-->
+
+Estos artículos describen a la concentración profunda como el periodo de tiempo
+en que alcanzas tu mejor trabajo. En mi experiencia, este no es el momento donde
+hago mi mejor trabajo, sino el único momento en donde puedo trabajar.
+
+<!--Building a Tower of Focus-->
+<!--=========================-->
+
+Construyendo una torre de foco
+==============================
+
+<!--Getting to flow requires focus and is a complicated subject. Factors in-->
+<!--flow can range from how much sleep I’ve had, if work is challenging-->
+<!--enough or too challenging, my salary, the company’s vision, all the way-->
+<!--down to if I like my co-workers or not.-->
+
+Conseguir este estado de concentración requiere esfuerzo y es un asunto
+complicado. Los factores que pueden influir van en un rango desde cuanto
+pude dormir, si el trabajo es lo suficientemente desafiante, mi salario, la
+visión de la empresa, si me agradan mis compañeros de trabajo o no.
+
+
+<!--To simplify flow a bit, I’ve decided to narrow it down to the process of-->
+<!--gathering context (or information) of a bug in a piece of code.-->
+<!--Gathering context is a long and tedious process. To illustrate, I’ve-->
+<!--attempted to walk through what goes on during a typical coding session.-->
+<!--It starts with building a Tower of Focus.-->
+
+Para simplificar un poco las cosas, he decidido reducirlo al proceso de recopilar
+contexto (o información) de un bug en una porción de código. Recopilar contexto
+mental para resolver un bug es un proceso tedioso. Intentaré ilustrarlo
+mencionando lo que suele suceder en una sesión de programación típica: Todo comienza
+con la construcción de una Torre de Concentración.
+
+
+<!--The tower has a foundation, middle layer, and peak. A simple 3-layer-->
+<!--card tower has 15 cards. 8 cards for the base, 5 cards for the middle,-->
+<!--and 2 cards for the peak. I’ve named the layers “The WHY”, “Trade-offs”,-->
+<!--and “Verify”, respectively.-->
+
+La torre tiene un cimiento, una capa intermedia y una cima. Una torre de tres niveles
+simple tiene 15 cartas. 8 cartas para la base, 5 cartas para el medio y 2 cartas
+para la cima. He llamado a estas capas "El porqué", "concesiones" y "verificación" respectivamente.
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/card-towers-are-like-coding.png)
+
+
+<!--Each one of these cards is context for the task I’m doing. I build these-->
+<!--layers one card at a time, carefully leaning them against one another.-->
+
+Cada una de esas cartas es el contexto para la tarea que estoy realizando. He construido
+esos niveles de una carta a la vez, colocando cuidadosamente cada una de esas
+cartas sobre otras.
+
+
+<!--Base - Understanding the why of the code-->
+<!-------------------------------------------->
+
+La Base: Entender el porqué del código
+--------------------------------------
+
+
+<!--The base layer represents finding “the why”, or the original intent. It-->
+<!--is the hardest context to gather, in my opinion. In order to make a-->
+<!--change to code with confidence, I need to discover the initial intent-->
+<!--that went into it.-->
+
+El nivel inferior, que sirve de cimiento, representa la búsqueda del "porque", 
+o la intención inicial del código. Esta es la parte del contexto más difícil
+de recolectar en mi opinión. Porque para hacer un cambio en el código con
+confianza necesito descubrir la intención inicial que está involucrada
+en ese código.
+
+<!--So what does looking for intent look like? Let’s look at a piece of-->
+<!--code.-->
+
+¿Y cómo se siente buscar la intención en el código?, veamos esta pieza
+de código:
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/why-so-many-comments.png)
+
+<!--It’s pretty obvious there were some things the original author-->
+<!--discovered when writing this. I can tell because they’ve put lots of-->
+<!--lines with comments (lines beginning with //). I’ll start to wonder, why-->
+<!--did they put so much effort into this?-->
+
+Es evidente que el autor original descubrió cosas mientras escribía este
+código. Lo digo porque puso un montón de comentarios. Aquí es donde
+comienzo a preguntarme, ¿por qué puso tanto esfuerzo en explicar todo eso?.
+
+
+<!--The surprise comes when learning that this code is part of a bigger-->
+<!--picture and any change to it can have unintended side-effects higher up-->
+<!--in the chain. (It’s executed from a spaghetti of methods and is inside-->
+<!--multiple `for` loops).-->
+
+La sorpresa llega cuando luego de indagar en este código descubro que
+forma parte de una pieza más grande, y que cualquier cambio que se haga
+ahí podría tener efectos colaterales no deseados. Este código es invocado
+desde un *spaguetti* de métodos que a su vez están dentro de sentencias
+de repetición.
+
+
+
+<!--If I’m investigating a bug related to this code, I’ll have to digest-->
+<!--each one of the lines. Variable names such as `reader` and `n`, the-->
+<!--subtle differences between each `if` statement, etc. As I go, I add a-->
+<!--card to my focus tower for each one.-->
+
+Si estoy investigando un bug relacionado con este código, tengo que digerir
+cada una de esas líneas. Nombres de variables como `reader` o `n`, la
+diferencia sutil entre cada una de las sentencias `if`, etc. A medida
+que avanzo tengo que agregar una carta en mi torre por cada una de estas
+cosas.
+
+<!--I’ll explore tests, commit messages or even chat with the original-->
+<!--author (if they’re still around) to try to understand what they were-->
+<!--trying to do. Finding original intent is more or less like being a-->
+<!--detective in a murder mystery.-->
+
+Debo explorar los tests, los mensajes asociados a *commits* o incluso hacerle
+consultas por chat al autor (si aún sigue trabajando en esta empresa) para
+tratar de entender que trató de hacer. Encontrar la intención inicial es
+más o menos como ser un detective en un misterio de crimen.
+
+
+<!--Except the above is the exception to the rule. It actually had comments…-->
+<!--What usually happens is I’m thrown into the same kind of code as above,-->
+<!--but with no comments and useless commit messages. I really have no other-->
+<!--choice but to read all of the code to understand it in it’s triple-->
+<!--nested `for` loop glory.-->
+
+Aunque hay una pequeña diferencia en este ejemplo, ese código que mencioné
+tiene comentarios. Por lo general suelo encontrarme con código muy similar
+al de arriba, pero que no tiene comentarios y con comentarios en los
+*commits* poco útiles. Generalmente no tengo otra opción que leer todo el
+código para entenderlo en toda su gloria anidada.
+
+
+<!--To make matters worse, it’s only lightly tested which puts me at a-->
+<!--crossroad. If I change it, I’ll have no idea if I’m setting a land mine-->
+<!--to be later detonated at the worst possible time.-->
+
+Para empeorar las cosas, el código suele tener test muy superficiales
+que me ponen en una situación muy incómoda: Si lo cambio, no tendré idea si
+estoy colocando una mina explosiva que podría explotar en el peor momento
+posible.
+
+<!--Do I spend a large amount of time improving the tests or do I just cross-->
+<!--my fingers, test it a little bit and move on?-->
+
+¿Debo dedicar una gran cantidad de tiempo a mejorar los tests o solo debería
+cruzar los dedos?, ¿tal vez hacer una pocas pruebas y pasar a otra cosa?
+
+<!--Each thing I discover keeps adding cards to my base layer of my focus-->
+<!--tower. If the code is even slightly complicated, I’m setting myself up-->
+<!--to build a 4-layer or even a 5-layer focus tower. In this case, let’s-->
+<!--say I only needed a 3 triangle base or 3-layers overall.-->
+
+Cada cosa que descubro me hace añadir más cartas a mi torre de concentración. Si
+el código es ligeramente más complicado, tendré que construir una torre de
+4 niveles o incluso 5.
+
+
+<!--Middle Layer - Trade-offs and workarounds-->
+<!--------------------------------------------->
+
+La capa del medio: Concesiones y parches
+----------------------------------------
+
+<!--The next layer is determining what needs to change or what is broken and-->
+<!--how it can be fixed.-->
+
+El siguiente nivel consiste en determinar qué se necesita cambiar o
+qué está roto y cómo se tiene que reparar.
+
+<!--Continuing with the example of fixing a bug, I’ll start diving into-->
+<!--where certain log messages were printed in which parts of the code. A-->
+<!--log message can be thought of as evidence or a record of a program’s-->
+<!--behavior (the blood on the carpet, if you’re a detective). Sometimes-->
+<!--logs show a complete picture, but often they’re incomplete and missing-->
+<!--information.-->
+
+Continuando con el ejemplo de reparar un bug, comencé a indagar colocando
+mensajes que se imprimen en pantalla para determinar qué partes del código
+se ejecutan y cuáles no. Un mensaje que se emite en la pantalla puede
+ser interpretado como evidencia o un registro del comportamiento
+de un programa (es como la sangre en la alfombra en el caso de un
+detective). A veces, un mensaje muestra la imagen completa, pero a veces
+es una pieza incompleta a la que le falta información.
+
+
+<!--What I’ll have to do is try and reproduce the bug. I’ll add more log-->
+<!--messages or I’ll use a debugger tool (a way to walk through a program-->
+<!--one line at a time). I’ll add some comments or notes about how it-->
+<!--executes. I may change a variable or two to see how it impacts the-->
+<!--output of the program. Usually by doing these things a few times I can-->
+<!--narrow down or isolate what section of the code is broken.-->
+
+Lo que hago es tratar de reproducir el bug. Agrego más mensajes en pantalla
+para trazar el problema o uso una herramienta de depuración (una manera
+de recorrer el programa en tiempo de ejecución paso a paso). También
+agrego algunos comentarios sobre cómo se ejecuta. Tal vez cambio una o dos
+variables para ver cómo impacta en el comportamiento del programa. Generalmente
+haciendo estas cosas suelo acortar o asilar la sección de código que está
+dando problemas.
+
+<!--If I’m lucky, I get a solid reproduction of the bug and that’s enough to-->
+<!--figure out a fix, but otherwise, I need to list out a couple trade-offs-->
+<!--or workarounds. The harder problems can be solved in varying degrees but-->
+<!--it essentially boils down to 2 options:-->
+
+Si tengo suerte, puedo lograr reproducir el problema de tal forma que es
+suficiente para encontrar una solución, pero otras veces, necesito hacer una
+lista de concesiones o parches para lidiar con el problema. Los problemas
+más difíciles se pueden resolver en varios niveles, pero generalmente se
+reducen a dos opciones:
+
+<!--1.  A real fix (takes a lot of time)-->
+<!--2.  A hotfix (may break later, but is really fast)-->
+
+1. Un arreglo real (que toma un montón de tiempo)
+2. Un parche (que podría romperse después, pero es realmente rápido de hacer)
+
+<!--More often than not, the business is okay with the hotfix to get the-->
+<!--problem solved faster (that’s a subject for an entire blog post for-->
+<!--another time). All of it adds cards to my tower and it becomes quite the-->
+<!--balancing act.-->
+
+Lo más frecuente es que en el negocio se elija la opción de aplicar un parche
+y resolver el problema de la forma más rápida. De modo que la torre de cartas
+se vuelve más grande y esto hace más delicado mantenerla en equilibrio.
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/triangles-in-a-focus-tower.png)
+
+
+<!--Peak - Test and Verify-->
+<!-------------------------->
+
+La cima - Probar y verificar
+----------------------------
+
+<!--The final layer is making sure it works in production. Production is-->
+<!--just a fancy word for the customer-facing part of software. Best-->
+<!--practice is to add some tests, but sometimes a dry run of the code on a-->
+<!--developer’s computer will do. The important part is to continue on while-->
+<!--the context is still fresh in your head and the layers are still stacked-->
+<!--on one another. At that point in time, you know the most about the code-->
+<!--and how to fix it if something goes wrong.-->
+
+La capa final consiste en asegurarse de que funciona en producción. Producción es
+solo una palabra bonita para identificar la parte del software que efectivamente
+ve el cliente. La mejor práctica es agregar algunos tests, pero muchas veces solamente
+se corre el código en la computadora del desarrollador para validar que funciona. La parte
+importante es continuar en esto mientras el contacto está fresco en tu cabeza y las
+capas de la torre siguen de pie. En este punto, sabes la mayor parte del código
+y cómo repararlo si algo sale mal.
+
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/keeping-coding-context-in-your-head.png)
+
+
+<!--Interrupted flow - Perils of context decay-->
+<!--==========================================-->
+
+Interrupciones - Los peligros del deterioro de contexto
+=======================================================
+
+<!--In the perfect world, I would be free to move from the base layer,-->
+<!--middle layer, and then onto the peak with no interruptions. But the-->
+<!--reality is, my day is broken up with meetings or interruptions.-->
+
+En un mundo perfecto, tendría la posibilidad de moverme por la base de
+la torre, subir al siguiente nivel y luego a la cima sin interrupciones. Pero
+la realidad es que mi día está partido al medio entre interrupciones y reuniones.
+
+<!--Charity Majors, the CTO of Honeycomb, says it best when referring to why-->
+<!--they practice “15 minutes or bust”.-->
+
+Charity Majors, CTO de Honeycomb, lo describe mucho mejor de esta manera:
+
+<!-- If you have a rapid feedback loop…You have that original intent that’s-->
+<!-- fresh in your head, you know exactly what you’re trying to do: the-->
+<!-- why, all the trade-offs you had to make, all the variable names, and-->
+<!-- everything. You can never get that back again. It starts to decay-->
+<!-- immediately as soon as you switch your focus away from it…-->
+
+> Si logras tener un circuito de respuesta inmediata, lo que obtienes es que
+> la intención inicial se queda fresca en tu cabeza, sabes exactamente qué
+> estás intentando hacer: el motivo, todas las concesiones que has hecho, los
+> nombres de las variables y todo lo demás. Pero todo eso se desmorona inmediatamente
+> en el momento que cambias tu atención a otra cosa.
+
+\- Extracto de [The New Faces of Continuous Improvement](https://youtu.be/5sAJ3N6KNdQ?t=90) de Charity Majors.
+
+<!--Imagine I’ve just spent a couple hours building my focus tower and then-->
+<!--the rush of wind hits. An interruption. I get paged to help solve-->
+<!--problem X and it’s super “urgent” (In Slack, @channel is a way to notify-->
+<!--everyone and implies urgency).-->
+
+Imagina que he invertido una serie de horas construyendo mi torre de concentración
+y luego una ráfaga de viento la hace caer, como una interrupción. Me llaman para ayudar
+a resolver el problema X y es muy "urgente" (En Slack, usar el texto @channel es
+una forma de notificarle a todos y suele implicar urgencia).
+
+<!--
+
+> @channel just wanted to let you know that we changed the meeting in
+> two weeks to Friday. The update is in your calendar
+
+> @channel so and so just wrote in saying they’d like to try X. Is that
+> possible?
+
+
+-->
+
+> @channel solo quería hacerles saber que cambiamos la reunión dentro
+> de dos semanas al viernes. Esta actualización está en sus calendarios.
+
+> @channel alguien escribió diciendo que le gustaría probar X, ¿eso es posible?
+
+
+<!--Since they’ve used the signal that an enemy has arrived and war is about-->
+<!--to break out or otherwise known as @channel, I feel like I’m immediately-->
+<!--obligated to help.-->
+
+Como usaron la señal de que un enemigo ha arribado y la guerra está por
+empezar (también conocido como @channel), me siento de alguna forma obligado
+a ayudar.
+
+
+<!--I’d say 95% of the time @channel is unnecessary and is a great-->
+<!--contributor to destroyed focus towers. Most things can wait for support-->
+<!--meetings or handed off to a single person assigned to help that day.-->
+<!--Shifts can be scheduled on a rotation to spread the task across multiple-->
+<!--team members (checkout [Tellspin](/) as an easy way to rotate @mentions-->
+<!--in Slack).-->
+
+Escribir @channel la mayoría de las veces es innecesario y es un gran contribuidor
+a destruir la torre de concentración. La mayoría de las cosas puede esperar
+a una reunión de soporte o ser tratadas por una sola persona asignada
+a ayudar ese día.
+
+<!--These interruptions pull me from my work and my focus tower immediately-->
+<!--starts to decay. If I’m away for an hour or more, you might as well just-->
+<!--point a hair dryer at my tower and blow it over.-->
+
+Estas interrupciones me sacan de mi trabajo y mi torre de concentración se
+comienza a derrumbar. Si estoy alejado de mi trabajo por una hora o más, es
+como si apuntaras con un secador de pelo a mi torre de cartas para que se vuele
+por completo.
+
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/destroyed-coding-context-tower.png)
+
+<!--To be clear, small interruptions for a few minutes are usually okay. I-->
+<!--can return back to my task without noticing. I’d argue, however, even-->
+<!--from a small nudge, there’s a high risk that I won’t bounce right back-->
+<!--to what I was doing. I’ll go off and check my email or view the likes on-->
+<!--my twitter feed. The longer it takes to get back to my original task,-->
+<!--the greater the extent of the decay.-->
+
+Para ser claros, pequeñas interrupciones por unos pocos minutos no son
+graves, puedo retornar a mi trabajo sin notarlo. Aun así, incluso cuando
+se trata de un pequeño desenfoque, hay un gran riesgo en que no pueda
+volver a retomar mi trabajo en el punto en el que estaba. Iré a revisar
+mi correo o ver mi cantidad de *likes* en mi cuenta de twitter. Cuanto
+más tiempo me lleve regresar a mi tarea original, más grande será el
+impacto negativo en la distracción.
+
+
+<!--Battling context decay-->
+<!--======================-->
+
+Luchando contra el derrumbe
+===========================
+
+<!--So what can we do? The most important thing is to be aware that-->
+<!--interruptions aren’t free. There’s probably a reason that your co-worker-->
+<!--put a block in their calendar or has periods of do not disturb set. Be-->
+<!--nice to one another.-->
+
+Entonces, ¿qué podemos hacer?. Lo más importante es ser consciente que las
+interrupciones no son gratuitas. Está puede ser la razón por la que tus
+compañeros de trabajo ponen bloques en sus calendarios para prevenir
+interrupciones. Seamos respetuosos entre nosotros.
+
+<!--On the other hand, I’m often my own worst enemy when it comes to-->
+<!--distractions. I’ve compiled a list of things I’ve found helpful for me-->
+<!--to focus.-->
+
+Por otro lado, yo suelo ser mi peor enemigo conmigo mismo cuando se trata
+de distracciones. Esta es una lista de las cosas que recopilé y me
+resultan útiles para mantener el foco.
+
+<!--### 1. Reduce Slack interruptions at a team level-->
+
+### 1. Reducir las interrupciones de slack a nivel de equipo
+
+<!--If you specifically deal with interruptions from Slack, take a look at-->
+<!--my tips for [reducing Slack interruptions for your-->
+<!--team](/blog/reduce-interruptions-tips-for-slack/). It talks specifically-->
+<!--about ways you can work with your frontline support teams to help spread-->
+<!--the interruption load across your internal team members. My recommended-->
+<!--tip from there would be to plan for interruptions by setting up a-->
+<!--on-call rotation shift schedule.-->
+
+Si tienes que lidiar con interrupciones de slack, dale un vistazo
+a mis consejos [sobre cómo reducir las interrupciones
+de slack en tu equipo](/blog/reduce-interruptions-tips-for-slack/). Estos consejos
+tratan de forma específica sobre formas en las que puedes trabajar con un equipo
+de soporte para distribuir las interrupciones entre los integrantes
+del equipo. Mi consejo en este sentido es planificar las interrupciones definiendo
+una planificación de rotación.
+
+
+<!--### 2. Create friction to your distractions-->
+
+### 2. Crear fricción con tus distracciones
+
+<!--I created a tiny bit of friction by moving my top distractions to-->
+<!--another desktop such as Slack, twitter, linked-in, or email to a-->
+<!--different desktop. Whenever I get the urge to look at those things, I-->
+<!--have to press a few keys to switch. The friction serves as a reminder-->
+<!--that I wanted to focus and works great. I’ve also increased friction-->
+<!--further by minimizing the window or closing it altogether.-->
+
+He creado un poco de fricción moviendo mis distracciones más grandes a otro escritorio. Distracciones
+como Slack, twitter, linked-in, o el email. Cuando tengo interés en mirar esas cosas, necesito
+pulsar algunas teclas para hacer el cambio de escritorio. Esta fricción me sirve como un
+recordatorio de que quiero mantener el foco en mi trabajo y funciona muy bien. También he
+incrementado la fricción minimizando las ventanas o cerrándolas completamente.
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/split-tasks-on-desktop.png)
+
+
+<!--### 3. Create an off-limits chrome tab group-->
+
+### 3. Crear un grupo de pestañas oculto
+
+<!--One thing I struggle with is checking the metrics of my business-->
+<!--constantly. To assist myself in this goal, I created an off-limits red-->
+<!--chrome tab group.-->
+
+Una de las cosas con las que peleo constantemente es mirar las métricas de
+mi negocio todo el tiempo. Así que para ayudarme a ganar la pelea he creado
+un grupo de pestañas en chrome.
+
+
+![](/images/link-files/why-interruptions-are-frustrating-to-developers/improve-focus-by-using-tab-groups.png)
+
+<!--The group contains communities I belong to, linked-in, twitter, Slack,-->
+<!--and my analytics pages. I know to not open the group during periods of-->
+<!--deep focus. Yes, yes, I know, I could close the tabs altogether, but I-->
+<!--have a habit of reopening sites. Keeping them locked up in a group helps-->
+<!--me remember they’re my top distractions.-->
+
+Este grupo de pestañas contiene comunidades a las que pertenezco, como linked-in, twitter,
+slack y mis páginas de métricas. Sé que no tengo que abrir este grupo durante
+periodos de concentración. Sí, ya sé que podría cerrar todos los tabs juntos, pero
+tengo el hábito de reabrir los sitios si no lo hago así. Tenerlos agrupados
+de esa manera me ayuda a recordar que son mi mayor distracción.
+
+
+<!--Another thing I’ve been trying to adopt is strategy laid out by Michael-->
+<!--Lynch of only checking metrics once a week on the end-of-day Friday. He-->
+<!--also had trouble with metric checking:-->
+
+Otra cosa que he estado intentando adoptar es la estrategia expuesta por
+Michael Lynch de solo mirar las métricas una vez a la semana. Él también
+tiene este problema de mirar las métricas muy seguido:
+
+<!--
+
+> Checking metrics is “shallow work”: it doesn’t require deep focus or
+> critical thinking, but it feels productive. … Until I broke the habit
+> of constant stat-checking, I never realized how much space it occupied
+> in my brain.
+
+-->
+
+> Mirar las métricas es un "trabajo superficial": no requiere hacer foco
+> o pensar de forma crítica, pero se siente como algo productivo. Hasta
+> que rompí con el hábito de mirar constantemente estas métricas nunca
+> me había dado cuenta todo el espacio que ocupaba en mi cerebro.
+
+\- Michael Lynch, [How to Grow Quickly and Never Turn a Profit.](https://mtlynch.io/keep-growing-never-profit/)
+
+<!--### 4. Record context as you go-->
+
+### 4. Registra el contexto periódicamente
+
+
+<!--The final tip to combating context decay is making notes as I go. What I-->
+<!--like to do is have a bash script in each directory named `.zing`. It’s-->
+<!--ignored by my global git-ignore so I can place them right alongside the-->
+<!--code I’m working on. Here’s an example of one I was working with last-->
+<!--week.-->
+
+El último consejo para combatir el derrumbe del contexto es ir
+haciendo notas a medida que vas avanzando. Lo que me gusta hacer es
+tener un script de bash en cada directorio llamado `.zing`. Este
+tipo de script se marcan como ignorados en git así que puedo
+colocarlo junto al código en el que estoy trabajando. Este es un
+ejemplo de uno de esos archivos en los que estuve trabajando
+la semana pasada:
+
+```bash
+#!/bin/bash
+
+# Todos (para hacer):
+# - verificar si se ejecuta dos veces si se actualiza el uso para eses día.
+# - usar end_ts para la fecha.
+# - usar el registro `last-in`
+# - redondear los valores de uso mensual 219.002 == 220
+
+./report_to_stripe.rb 05/
+exit
+../bin/monthly_report.rb 05/
+exit
+```
+
+<!--My `.zing` file serves two purposes. It keeps a list of todos and notes,-->
+<!--but it also is a history of the last command I executed. When I come-->
+<!--back in the morning, I can execute the script, see the output of the-->
+<!--code, and jump start my day back into what I was doing.-->
+
+Mi archivo `.zing` sirve para dos propósitos: Almacena una lista de tareas
+y notas, pero también contiene un histórico del último comando que ejecuté. Cuando
+regreso la mañana siguiente puedo ejecutar el script y saltar directamente a lo
+que estaba haciendo en ese momento.
+
+<!--I use <https://github.com/jewel/zing> to execute the script from vim or-->
+<!--my terminal by typing `,z`. It’s a handy way to speed up my iterations-->
+<!--too.-->
+
+Uso [zing](https://github.com/jewel/zing) para ejecutar mi script desde
+vim o mi terminal usando `,z`. Este atajo también me ayuda a hacer las
+cosas más rápido.
+
+<!--Let’s build focus towers together-->
+<!--=================================-->
+
+Construyamos una torre de concentración juntos.
+===============================================
+
+<!--Everyday is a battle to keep my focus tower built and free from the-->
+<!--rushing wind of distractions and interruptions. Working together to stop-->
+<!--unnecessary interruptions is a team effort and if done correctly can-->
+<!--have a huge impact on productivity and increase developers chances in-->
+<!--reaching flow.-->
+
+Cada día es una batalla para mantener mi torre de cartas libre de las
+ráfagas de viento de la distracción y las interrupciones. Trabajar juntos
+para detener las distracciones innecesarias es un esfuerzo de equipo y si
+se hace correctamente puede influir de forma significativa en la productividad
+y ayuda a los desarrolladores a alcanzar su mejor trabajo.
