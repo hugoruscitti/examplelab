@@ -7517,6 +7517,511 @@ brindar claridad acerca de lo que queremos decir cuando hablamos acerca de produ
     
     <item>
       <title></title>
+      <link>https://www.examplelab.com.ar/links-files/traducciones/why-interruptions-are-frustrating-to-developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/links-files/traducciones/why-interruptions-are-frustrating-to-developers/</guid>
+      <description>&lt;h1 id=&#34;por-qué-las-interrupciones-son-frustrantes-para-los-programadores&#34;&gt;¿Por qué las interrupciones son frustrantes para los programadores?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Artículo extraído desde:
+&lt;a href=&#34;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&#34;&gt;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--Imagine your focus was a card tower and interruptions were knocking it--&gt;
+&lt;!--down. If your productivity depended on having a card tower, wouldn’t you--&gt;
+&lt;!--get frustrated?--&gt;
+&lt;p&gt;Imagina que tu atención es como una torre de cartas y las interrupciones son
+como tirarlas abajo de un golpe. Si tu productividad depende de tener una
+torre de cartas, ¿no te sentirías frustrado al verla caer?.&lt;/p&gt;
+&lt;!--I heard this analogy from a friend of mine several years ago. I’ve--&gt;
+&lt;!--repeated the analogy for a quick visual of focus and have always liked--&gt;
+&lt;!--it, so I reached out to my friend to see if he had a source.--&gt;
+&lt;p&gt;Escuché esta analogía de un amigo mío hace varios años, y la estuve repitiendo
+cada vez que quería explicar el concepto de concentración de forma
+visual, así que contacté a mi amigo para saber si él tenía la fuente
+de esa analogía:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/asking-for-source.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--If you’ve ever attempted to build a card tower, you know how time--&gt;
+&lt;!--consuming it can be to balance the cards and control the environment--&gt;
+&lt;!--around you. It’s especially frustrating when your friend closes a door--&gt;
+&lt;!--and causes a rush of wind that somehow finds a direct path towards your--&gt;
+&lt;!--card tower.--&gt;
+&lt;p&gt;Si alguna vez intentó construir una torre de cartas seguramente sabrá todo
+el tiempo que lleva lograr el balance de las cartas y controlar el
+entorno para que no se caigan. Es frustrante cuando tus amigos cierran
+una puerta y esto causa una brisa que de alguna forma encuentra la forma
+de alcanzar tu torre de cartas.&lt;/p&gt;
+&lt;!--Just like card towers, a developer’s focus is carefully built, combines--&gt;
+&lt;!--multiple items together, and can be easily destroyed.--&gt;
+&lt;p&gt;Y al igual que las torres de cartas, el foco de un programador se construye
+de forma cuidadosa, combinando varios elementos juntos y puede ser
+destruida muy fácilmente.&lt;/p&gt;
+&lt;!--Focus fuels flow--&gt;
+&lt;!--================--&gt;
+&lt;h1 id=&#34;enfocar-el-flujo-de-combustible&#34;&gt;Enfocar el flujo de combustible&lt;/h1&gt;
+&lt;!--Coding requires a great deal of thinking. Some days are better than--&gt;
+&lt;!--others, but the goal for each day is to achieve flow or a state of--&gt;
+&lt;!--absolute focus.--&gt;
+&lt;p&gt;Programar requiere a un gran esfuerzo de pensamiento. Algunos días son
+mejores que otros, pero el objetivo de cada día es alcanzar un estado
+de concentración absoluto.&lt;/p&gt;
+&lt;!--&gt; Also known as “the zone,” flow is the mental state of operation in--&gt;
+&lt;!--&gt; which a programmer is immersed in a feeling of energized focus,--&gt;
+&lt;!--&gt; complete involvement, and enjoyment in the process of coding. Flow is--&gt;
+&lt;!--&gt; not a concept unique to computer programming, but software developers--&gt;
+&lt;!--&gt; are very familiar with it.--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;También llamado &amp;ldquo;La zona&amp;rdquo; o &amp;ldquo;flow&amp;rdquo;, el foco es el estado mental en el que el programador
+está inmerso en una concentración absoluta, involucrado completamente, y
+entusiasmado en el proceso de codificar. Esta concentración no es un
+un concepto exclusivo de la programación de computadoras, pero los programadores
+están muy familiarizados con ella.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--Once I’m in flow, I want to keep it that way as long as possible. It’s--&gt;
+&lt;!--not voodoo magic or anything, but it’s enjoyable to be completely--&gt;
+&lt;!--immersed in my work.--&gt;
+&lt;p&gt;&amp;ldquo;Cuando estoy enfocado, quiero mantenerme en ese estado todo lo que pueda. No
+es magia ni nada de eso, pero es entusiasmante estar completamente inmerso
+en mi trabajo&amp;rdquo;.&lt;/p&gt;
+&lt;!--Many have different opinions of flow, but a common theme is that it is a--&gt;
+&lt;!--period of time where your best work happens. Take a look at some of the--&gt;
+&lt;!--top results of a google search for “software achieving flow” and see for--&gt;
+&lt;!--yourself. You’ll find: [The importance of flow in software--&gt;
+&lt;!--development](https://link.springer.com/article/10.1007/s10270-017-0621-x),--&gt;
+&lt;!--[How To Get Into Flow State | Become A Productive--&gt;
+&lt;!--BEAST!](https://simpleprogrammer.com/flow-state/), and [Flow in Agile--&gt;
+&lt;!--Software Development: What, Why and--&gt;
+&lt;!--How](https://www.vegard.net/flow-in-agile-software-development-what-why-and-how/).--&gt;
+&lt;p&gt;Las personas tienen diferentes opiniones sobre el tema, pero todos coinciden
+en que en ese momento de foco es cuando se produce el trabajo de mejor
+calidad. Dale una mirada a algunos de los resultados más relevantes de una búsqueda
+en google sobre &amp;ldquo;cómo alcanzar el foco en software&amp;rdquo; y encontrarás: &lt;a href=&#34;https://link.springer.com/article/10.1007/s10270-017-0621-x&#34;&gt;La importancia
+del foco en el desarrollo de Software&lt;/a&gt;,
+&lt;a href=&#34;https://simpleprogrammer.com/flow-state/&#34;&gt;Cómo lograr un estado de concentración&lt;/a&gt; y
+&lt;a href=&#34;https://www.vegard.net/flow-in-agile-software-development-what-why-and-how/&#34;&gt;Logrando Foco en las metodologías ágiles&lt;/a&gt;&lt;/p&gt;
+&lt;!--The articles relate how flow is a period of time where you achieve your--&gt;
+&lt;!--best work. In my experience, it’s not necessarily when I do my best--&gt;
+&lt;!--work; it may be the only work I accomplish in a day.--&gt;
+&lt;p&gt;Estos artículos describen a la concentración profunda como el periodo de tiempo
+en que alcanzas tu mejor trabajo. En mi experiencia, este no es el momento donde
+hago mi mejor trabajo, sino el único momento en donde puedo trabajar.&lt;/p&gt;
+&lt;!--Building a Tower of Focus--&gt;
+&lt;!--=========================--&gt;
+&lt;h1 id=&#34;construyendo-una-torre-de-foco&#34;&gt;Construyendo una torre de foco&lt;/h1&gt;
+&lt;!--Getting to flow requires focus and is a complicated subject. Factors in--&gt;
+&lt;!--flow can range from how much sleep I’ve had, if work is challenging--&gt;
+&lt;!--enough or too challenging, my salary, the company’s vision, all the way--&gt;
+&lt;!--down to if I like my co-workers or not.--&gt;
+&lt;p&gt;Conseguir este estado de concentración requiere esfuerzo y es un asunto
+complicado. Los factores que pueden influir van en un rango desde cuanto
+pude dormir, si el trabajo es lo suficientemente desafiante, mi salario, la
+visión de la empresa, si me agradan mis compañeros de trabajo o no.&lt;/p&gt;
+&lt;!--To simplify flow a bit, I’ve decided to narrow it down to the process of--&gt;
+&lt;!--gathering context (or information) of a bug in a piece of code.--&gt;
+&lt;!--Gathering context is a long and tedious process. To illustrate, I’ve--&gt;
+&lt;!--attempted to walk through what goes on during a typical coding session.--&gt;
+&lt;!--It starts with building a Tower of Focus.--&gt;
+&lt;p&gt;Para simplificar un poco las cosas, he decidido reducirlo al proceso de recopilar
+contexto (o información) de un bug en una porción de código. Recopilar contexto
+mental para resolver un bug es un proceso tedioso. Intentaré ilustrarlo
+mencionando lo que suele suceder en una sesión de programación típica: Todo comienza
+con la construcción de una Torre de Concentración.&lt;/p&gt;
+&lt;!--The tower has a foundation, middle layer, and peak. A simple 3-layer--&gt;
+&lt;!--card tower has 15 cards. 8 cards for the base, 5 cards for the middle,--&gt;
+&lt;!--and 2 cards for the peak. I’ve named the layers “The WHY”, “Trade-offs”,--&gt;
+&lt;!--and “Verify”, respectively.--&gt;
+&lt;p&gt;La torre tiene un cimiento, una capa intermedia y una cima. Una torre de tres niveles
+simple tiene 15 cartas. 8 cartas para la base, 5 cartas para el medio y 2 cartas
+para la cima. He llamado a estas capas &amp;ldquo;El porqué&amp;rdquo;, &amp;ldquo;concesiones&amp;rdquo; y &amp;ldquo;verificación&amp;rdquo; respectivamente.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/card-towers-are-like-coding.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--Each one of these cards is context for the task I’m doing. I build these--&gt;
+&lt;!--layers one card at a time, carefully leaning them against one another.--&gt;
+&lt;p&gt;Cada una de esas cartas es el contexto para la tarea que estoy realizando. He construido
+esos niveles de una carta a la vez, colocando cuidadosamente cada una de esas
+cartas sobre otras.&lt;/p&gt;
+&lt;!--Base - Understanding the why of the code--&gt;
+&lt;!--------------------------------------------&gt;
+&lt;h2 id=&#34;la-base-entender-el-porqué-del-código&#34;&gt;La Base: Entender el porqué del código&lt;/h2&gt;
+&lt;!--The base layer represents finding “the why”, or the original intent. It--&gt;
+&lt;!--is the hardest context to gather, in my opinion. In order to make a--&gt;
+&lt;!--change to code with confidence, I need to discover the initial intent--&gt;
+&lt;!--that went into it.--&gt;
+&lt;p&gt;El nivel inferior, que sirve de cimiento, representa la búsqueda del &amp;ldquo;porque&amp;rdquo;,
+o la intención inicial del código. Esta es la parte del contexto más difícil
+de recolectar en mi opinión. Porque para hacer un cambio en el código con
+confianza necesito descubrir la intención inicial que está involucrada
+en ese código.&lt;/p&gt;
+&lt;!--So what does looking for intent look like? Let’s look at a piece of--&gt;
+&lt;!--code.--&gt;
+&lt;p&gt;¿Y cómo se siente buscar la intención en el código?, veamos esta pieza
+de código:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/why-so-many-comments.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--It’s pretty obvious there were some things the original author--&gt;
+&lt;!--discovered when writing this. I can tell because they’ve put lots of--&gt;
+&lt;!--lines with comments (lines beginning with //). I’ll start to wonder, why--&gt;
+&lt;!--did they put so much effort into this?--&gt;
+&lt;p&gt;Es evidente que el autor original descubrió cosas mientras escribía este
+código. Lo digo porque puso un montón de comentarios. Aquí es donde
+comienzo a preguntarme, ¿por qué puso tanto esfuerzo en explicar todo eso?.&lt;/p&gt;
+&lt;!--The surprise comes when learning that this code is part of a bigger--&gt;
+&lt;!--picture and any change to it can have unintended side-effects higher up--&gt;
+&lt;!--in the chain. (It’s executed from a spaghetti of methods and is inside--&gt;
+&lt;!--multiple `for` loops).--&gt;
+&lt;p&gt;La sorpresa llega cuando luego de indagar en este código descubro que
+forma parte de una pieza más grande, y que cualquier cambio que se haga
+ahí podría tener efectos colaterales no deseados. Este código es invocado
+desde un &lt;em&gt;spaguetti&lt;/em&gt; de métodos que a su vez están dentro de sentencias
+de repetición.&lt;/p&gt;
+&lt;!--If I’m investigating a bug related to this code, I’ll have to digest--&gt;
+&lt;!--each one of the lines. Variable names such as `reader` and `n`, the--&gt;
+&lt;!--subtle differences between each `if` statement, etc. As I go, I add a--&gt;
+&lt;!--card to my focus tower for each one.--&gt;
+&lt;p&gt;Si estoy investigando un bug relacionado con este código, tengo que digerir
+cada una de esas líneas. Nombres de variables como &lt;code&gt;reader&lt;/code&gt; o &lt;code&gt;n&lt;/code&gt;, la
+diferencia sutil entre cada una de las sentencias &lt;code&gt;if&lt;/code&gt;, etc. A medida
+que avanzo tengo que agregar una carta en mi torre por cada una de estas
+cosas.&lt;/p&gt;
+&lt;!--I’ll explore tests, commit messages or even chat with the original--&gt;
+&lt;!--author (if they’re still around) to try to understand what they were--&gt;
+&lt;!--trying to do. Finding original intent is more or less like being a--&gt;
+&lt;!--detective in a murder mystery.--&gt;
+&lt;p&gt;Debo explorar los tests, los mensajes asociados a &lt;em&gt;commits&lt;/em&gt; o incluso hacerle
+consultas por chat al autor (si aún sigue trabajando en esta empresa) para
+tratar de entender que trató de hacer. Encontrar la intención inicial es
+más o menos como ser un detective en un misterio de crimen.&lt;/p&gt;
+&lt;!--Except the above is the exception to the rule. It actually had comments…--&gt;
+&lt;!--What usually happens is I’m thrown into the same kind of code as above,--&gt;
+&lt;!--but with no comments and useless commit messages. I really have no other--&gt;
+&lt;!--choice but to read all of the code to understand it in it’s triple--&gt;
+&lt;!--nested `for` loop glory.--&gt;
+&lt;p&gt;Aunque hay una pequeña diferencia en este ejemplo, ese código que mencioné
+tiene comentarios. Por lo general suelo encontrarme con código muy similar
+al de arriba, pero que no tiene comentarios y con comentarios en los
+&lt;em&gt;commits&lt;/em&gt; poco útiles. Generalmente no tengo otra opción que leer todo el
+código para entenderlo en toda su gloria anidada.&lt;/p&gt;
+&lt;!--To make matters worse, it’s only lightly tested which puts me at a--&gt;
+&lt;!--crossroad. If I change it, I’ll have no idea if I’m setting a land mine--&gt;
+&lt;!--to be later detonated at the worst possible time.--&gt;
+&lt;p&gt;Para empeorar las cosas, el código suele tener test muy superficiales
+que me ponen en una situación muy incómoda: Si lo cambio, no tendré idea si
+estoy colocando una mina explosiva que podría explotar en el peor momento
+posible.&lt;/p&gt;
+&lt;!--Do I spend a large amount of time improving the tests or do I just cross--&gt;
+&lt;!--my fingers, test it a little bit and move on?--&gt;
+&lt;p&gt;¿Debo dedicar una gran cantidad de tiempo a mejorar los tests o solo debería
+cruzar los dedos?, ¿tal vez hacer una pocas pruebas y pasar a otra cosa?&lt;/p&gt;
+&lt;!--Each thing I discover keeps adding cards to my base layer of my focus--&gt;
+&lt;!--tower. If the code is even slightly complicated, I’m setting myself up--&gt;
+&lt;!--to build a 4-layer or even a 5-layer focus tower. In this case, let’s--&gt;
+&lt;!--say I only needed a 3 triangle base or 3-layers overall.--&gt;
+&lt;p&gt;Cada cosa que descubro me hace añadir más cartas a mi torre de concentración. Si
+el código es ligeramente más complicado, tendré que construir una torre de
+4 niveles o incluso 5.&lt;/p&gt;
+&lt;!--Middle Layer - Trade-offs and workarounds--&gt;
+&lt;!---------------------------------------------&gt;
+&lt;h2 id=&#34;la-capa-del-medio-concesiones-y-parches&#34;&gt;La capa del medio: Concesiones y parches&lt;/h2&gt;
+&lt;!--The next layer is determining what needs to change or what is broken and--&gt;
+&lt;!--how it can be fixed.--&gt;
+&lt;p&gt;El siguiente nivel consiste en determinar qué se necesita cambiar o
+qué está roto y cómo se tiene que reparar.&lt;/p&gt;
+&lt;!--Continuing with the example of fixing a bug, I’ll start diving into--&gt;
+&lt;!--where certain log messages were printed in which parts of the code. A--&gt;
+&lt;!--log message can be thought of as evidence or a record of a program’s--&gt;
+&lt;!--behavior (the blood on the carpet, if you’re a detective). Sometimes--&gt;
+&lt;!--logs show a complete picture, but often they’re incomplete and missing--&gt;
+&lt;!--information.--&gt;
+&lt;p&gt;Continuando con el ejemplo de reparar un bug, comencé a indagar colocando
+mensajes que se imprimen en pantalla para determinar qué partes del código
+se ejecutan y cuáles no. Un mensaje que se emite en la pantalla puede
+ser interpretado como evidencia o un registro del comportamiento
+de un programa (es como la sangre en la alfombra en el caso de un
+detective). A veces, un mensaje muestra la imagen completa, pero a veces
+es una pieza incompleta a la que le falta información.&lt;/p&gt;
+&lt;!--What I’ll have to do is try and reproduce the bug. I’ll add more log--&gt;
+&lt;!--messages or I’ll use a debugger tool (a way to walk through a program--&gt;
+&lt;!--one line at a time). I’ll add some comments or notes about how it--&gt;
+&lt;!--executes. I may change a variable or two to see how it impacts the--&gt;
+&lt;!--output of the program. Usually by doing these things a few times I can--&gt;
+&lt;!--narrow down or isolate what section of the code is broken.--&gt;
+&lt;p&gt;Lo que hago es tratar de reproducir el bug. Agrego más mensajes en pantalla
+para trazar el problema o uso una herramienta de depuración (una manera
+de recorrer el programa en tiempo de ejecución paso a paso). También
+agrego algunos comentarios sobre cómo se ejecuta. Tal vez cambio una o dos
+variables para ver cómo impacta en el comportamiento del programa. Generalmente
+haciendo estas cosas suelo acortar o asilar la sección de código que está
+dando problemas.&lt;/p&gt;
+&lt;!--If I’m lucky, I get a solid reproduction of the bug and that’s enough to--&gt;
+&lt;!--figure out a fix, but otherwise, I need to list out a couple trade-offs--&gt;
+&lt;!--or workarounds. The harder problems can be solved in varying degrees but--&gt;
+&lt;!--it essentially boils down to 2 options:--&gt;
+&lt;p&gt;Si tengo suerte, puedo lograr reproducir el problema de tal forma que es
+suficiente para encontrar una solución, pero otras veces, necesito hacer una
+lista de concesiones o parches para lidiar con el problema. Los problemas
+más difíciles se pueden resolver en varios niveles, pero generalmente se
+reducen a dos opciones:&lt;/p&gt;
+&lt;!--1.  A real fix (takes a lot of time)--&gt;
+&lt;!--2.  A hotfix (may break later, but is really fast)--&gt;
+&lt;ol&gt;
+&lt;li&gt;Un arreglo real (que toma un montón de tiempo)&lt;/li&gt;
+&lt;li&gt;Un parche (que podría romperse después, pero es realmente rápido de hacer)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--More often than not, the business is okay with the hotfix to get the--&gt;
+&lt;!--problem solved faster (that’s a subject for an entire blog post for--&gt;
+&lt;!--another time). All of it adds cards to my tower and it becomes quite the--&gt;
+&lt;!--balancing act.--&gt;
+&lt;p&gt;Lo más frecuente es que en el negocio se elija la opción de aplicar un parche
+y resolver el problema de la forma más rápida. De modo que la torre de cartas
+se vuelve más grande y esto hace más delicado mantenerla en equilibrio.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/triangles-in-a-focus-tower.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--Peak - Test and Verify--&gt;
+&lt;!--------------------------&gt;
+&lt;h2 id=&#34;la-cima---probar-y-verificar&#34;&gt;La cima - Probar y verificar&lt;/h2&gt;
+&lt;!--The final layer is making sure it works in production. Production is--&gt;
+&lt;!--just a fancy word for the customer-facing part of software. Best--&gt;
+&lt;!--practice is to add some tests, but sometimes a dry run of the code on a--&gt;
+&lt;!--developer’s computer will do. The important part is to continue on while--&gt;
+&lt;!--the context is still fresh in your head and the layers are still stacked--&gt;
+&lt;!--on one another. At that point in time, you know the most about the code--&gt;
+&lt;!--and how to fix it if something goes wrong.--&gt;
+&lt;p&gt;La capa final consiste en asegurarse de que funciona en producción. Producción es
+solo una palabra bonita para identificar la parte del software que efectivamente
+ve el cliente. La mejor práctica es agregar algunos tests, pero muchas veces solamente
+se corre el código en la computadora del desarrollador para validar que funciona. La parte
+importante es continuar en esto mientras el contacto está fresco en tu cabeza y las
+capas de la torre siguen de pie. En este punto, sabes la mayor parte del código
+y cómo repararlo si algo sale mal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/keeping-coding-context-in-your-head.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--Interrupted flow - Perils of context decay--&gt;
+&lt;!--==========================================--&gt;
+&lt;h1 id=&#34;interrupciones---los-peligros-del-deterioro-de-contexto&#34;&gt;Interrupciones - Los peligros del deterioro de contexto&lt;/h1&gt;
+&lt;!--In the perfect world, I would be free to move from the base layer,--&gt;
+&lt;!--middle layer, and then onto the peak with no interruptions. But the--&gt;
+&lt;!--reality is, my day is broken up with meetings or interruptions.--&gt;
+&lt;p&gt;En un mundo perfecto, tendría la posibilidad de moverme por la base de
+la torre, subir al siguiente nivel y luego a la cima sin interrupciones. Pero
+la realidad es que mi día está partido al medio entre interrupciones y reuniones.&lt;/p&gt;
+&lt;!--Charity Majors, the CTO of Honeycomb, says it best when referring to why--&gt;
+&lt;!--they practice “15 minutes or bust”.--&gt;
+&lt;p&gt;Charity Majors, CTO de Honeycomb, lo describe mucho mejor de esta manera:&lt;/p&gt;
+&lt;!-- If you have a rapid feedback loop…You have that original intent that’s--&gt;
+&lt;!-- fresh in your head, you know exactly what you’re trying to do: the--&gt;
+&lt;!-- why, all the trade-offs you had to make, all the variable names, and--&gt;
+&lt;!-- everything. You can never get that back again. It starts to decay--&gt;
+&lt;!-- immediately as soon as you switch your focus away from it…--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si logras tener un circuito de respuesta inmediata, lo que obtienes es que
+la intención inicial se queda fresca en tu cabeza, sabes exactamente qué
+estás intentando hacer: el motivo, todas las concesiones que has hecho, los
+nombres de las variables y todo lo demás. Pero todo eso se desmorona inmediatamente
+en el momento que cambias tu atención a otra cosa.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;- Extracto de &lt;a href=&#34;https://youtu.be/5sAJ3N6KNdQ?t=90&#34;&gt;The New Faces of Continuous Improvement&lt;/a&gt; de Charity Majors.&lt;/p&gt;
+&lt;!--Imagine I’ve just spent a couple hours building my focus tower and then--&gt;
+&lt;!--the rush of wind hits. An interruption. I get paged to help solve--&gt;
+&lt;!--problem X and it’s super “urgent” (In Slack, @channel is a way to notify--&gt;
+&lt;!--everyone and implies urgency).--&gt;
+&lt;p&gt;Imagina que he invertido una serie de horas construyendo mi torre de concentración
+y luego una ráfaga de viento la hace caer, como una interrupción. Me llaman para ayudar
+a resolver el problema X y es muy &amp;ldquo;urgente&amp;rdquo; (En Slack, usar el texto @channel es
+una forma de notificarle a todos y suele implicar urgencia).&lt;/p&gt;
+&lt;!--
+
+&gt; @channel just wanted to let you know that we changed the meeting in
+&gt; two weeks to Friday. The update is in your calendar
+
+&gt; @channel so and so just wrote in saying they’d like to try X. Is that
+&gt; possible?
+
+
+--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@channel solo quería hacerles saber que cambiamos la reunión dentro
+de dos semanas al viernes. Esta actualización está en sus calendarios.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@channel alguien escribió diciendo que le gustaría probar X, ¿eso es posible?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--Since they’ve used the signal that an enemy has arrived and war is about--&gt;
+&lt;!--to break out or otherwise known as @channel, I feel like I’m immediately--&gt;
+&lt;!--obligated to help.--&gt;
+&lt;p&gt;Como usaron la señal de que un enemigo ha arribado y la guerra está por
+empezar (también conocido como @channel), me siento de alguna forma obligado
+a ayudar.&lt;/p&gt;
+&lt;!--I’d say 95% of the time @channel is unnecessary and is a great--&gt;
+&lt;!--contributor to destroyed focus towers. Most things can wait for support--&gt;
+&lt;!--meetings or handed off to a single person assigned to help that day.--&gt;
+&lt;!--Shifts can be scheduled on a rotation to spread the task across multiple--&gt;
+&lt;!--team members (checkout [Tellspin](/) as an easy way to rotate @mentions--&gt;
+&lt;!--in Slack).--&gt;
+&lt;p&gt;Escribir @channel la mayoría de las veces es innecesario y es un gran contribuidor
+a destruir la torre de concentración. La mayoría de las cosas puede esperar
+a una reunión de soporte o ser tratadas por una sola persona asignada
+a ayudar ese día.&lt;/p&gt;
+&lt;!--These interruptions pull me from my work and my focus tower immediately--&gt;
+&lt;!--starts to decay. If I’m away for an hour or more, you might as well just--&gt;
+&lt;!--point a hair dryer at my tower and blow it over.--&gt;
+&lt;p&gt;Estas interrupciones me sacan de mi trabajo y mi torre de concentración se
+comienza a derrumbar. Si estoy alejado de mi trabajo por una hora o más, es
+como si apuntaras con un secador de pelo a mi torre de cartas para que se vuele
+por completo.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/destroyed-coding-context-tower.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--To be clear, small interruptions for a few minutes are usually okay. I--&gt;
+&lt;!--can return back to my task without noticing. I’d argue, however, even--&gt;
+&lt;!--from a small nudge, there’s a high risk that I won’t bounce right back--&gt;
+&lt;!--to what I was doing. I’ll go off and check my email or view the likes on--&gt;
+&lt;!--my twitter feed. The longer it takes to get back to my original task,--&gt;
+&lt;!--the greater the extent of the decay.--&gt;
+&lt;p&gt;Para ser claros, pequeñas interrupciones por unos pocos minutos no son
+graves, puedo retornar a mi trabajo sin notarlo. Aun así, incluso cuando
+se trata de un pequeño desenfoque, hay un gran riesgo en que no pueda
+volver a retomar mi trabajo en el punto en el que estaba. Iré a revisar
+mi correo o ver mi cantidad de &lt;em&gt;likes&lt;/em&gt; en mi cuenta de twitter. Cuanto
+más tiempo me lleve regresar a mi tarea original, más grande será el
+impacto negativo en la distracción.&lt;/p&gt;
+&lt;!--Battling context decay--&gt;
+&lt;!--======================--&gt;
+&lt;h1 id=&#34;luchando-contra-el-derrumbe&#34;&gt;Luchando contra el derrumbe&lt;/h1&gt;
+&lt;!--So what can we do? The most important thing is to be aware that--&gt;
+&lt;!--interruptions aren’t free. There’s probably a reason that your co-worker--&gt;
+&lt;!--put a block in their calendar or has periods of do not disturb set. Be--&gt;
+&lt;!--nice to one another.--&gt;
+&lt;p&gt;Entonces, ¿qué podemos hacer?. Lo más importante es ser consciente que las
+interrupciones no son gratuitas. Está puede ser la razón por la que tus
+compañeros de trabajo ponen bloques en sus calendarios para prevenir
+interrupciones. Seamos respetuosos entre nosotros.&lt;/p&gt;
+&lt;!--On the other hand, I’m often my own worst enemy when it comes to--&gt;
+&lt;!--distractions. I’ve compiled a list of things I’ve found helpful for me--&gt;
+&lt;!--to focus.--&gt;
+&lt;p&gt;Por otro lado, yo suelo ser mi peor enemigo conmigo mismo cuando se trata
+de distracciones. Esta es una lista de las cosas que recopilé y me
+resultan útiles para mantener el foco.&lt;/p&gt;
+&lt;!--### 1. Reduce Slack interruptions at a team level--&gt;
+&lt;h3 id=&#34;1-reducir-las-interrupciones-de-slack-a-nivel-de-equipo&#34;&gt;1. Reducir las interrupciones de slack a nivel de equipo&lt;/h3&gt;
+&lt;!--If you specifically deal with interruptions from Slack, take a look at--&gt;
+&lt;!--my tips for [reducing Slack interruptions for your--&gt;
+&lt;!--team](/blog/reduce-interruptions-tips-for-slack/). It talks specifically--&gt;
+&lt;!--about ways you can work with your frontline support teams to help spread--&gt;
+&lt;!--the interruption load across your internal team members. My recommended--&gt;
+&lt;!--tip from there would be to plan for interruptions by setting up a--&gt;
+&lt;!--on-call rotation shift schedule.--&gt;
+&lt;p&gt;Si tienes que lidiar con interrupciones de slack, dale un vistazo
+a mis consejos &lt;a href=&#34;https://www.examplelab.com.ar/blog/reduce-interruptions-tips-for-slack/&#34;&gt;sobre cómo reducir las interrupciones
+de slack en tu equipo&lt;/a&gt;. Estos consejos
+tratan de forma específica sobre formas en las que puedes trabajar con un equipo
+de soporte para distribuir las interrupciones entre los integrantes
+del equipo. Mi consejo en este sentido es planificar las interrupciones definiendo
+una planificación de rotación.&lt;/p&gt;
+&lt;!--### 2. Create friction to your distractions--&gt;
+&lt;h3 id=&#34;2-crear-fricción-con-tus-distracciones&#34;&gt;2. Crear fricción con tus distracciones&lt;/h3&gt;
+&lt;!--I created a tiny bit of friction by moving my top distractions to--&gt;
+&lt;!--another desktop such as Slack, twitter, linked-in, or email to a--&gt;
+&lt;!--different desktop. Whenever I get the urge to look at those things, I--&gt;
+&lt;!--have to press a few keys to switch. The friction serves as a reminder--&gt;
+&lt;!--that I wanted to focus and works great. I’ve also increased friction--&gt;
+&lt;!--further by minimizing the window or closing it altogether.--&gt;
+&lt;p&gt;He creado un poco de fricción moviendo mis distracciones más grandes a otro escritorio. Distracciones
+como Slack, twitter, linked-in, o el email. Cuando tengo interés en mirar esas cosas, necesito
+pulsar algunas teclas para hacer el cambio de escritorio. Esta fricción me sirve como un
+recordatorio de que quiero mantener el foco en mi trabajo y funciona muy bien. También he
+incrementado la fricción minimizando las ventanas o cerrándolas completamente.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/split-tasks-on-desktop.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--### 3. Create an off-limits chrome tab group--&gt;
+&lt;h3 id=&#34;3-crear-un-grupo-de-pestañas-oculto&#34;&gt;3. Crear un grupo de pestañas oculto&lt;/h3&gt;
+&lt;!--One thing I struggle with is checking the metrics of my business--&gt;
+&lt;!--constantly. To assist myself in this goal, I created an off-limits red--&gt;
+&lt;!--chrome tab group.--&gt;
+&lt;p&gt;Una de las cosas con las que peleo constantemente es mirar las métricas de
+mi negocio todo el tiempo. Así que para ayudarme a ganar la pelea he creado
+un grupo de pestañas en chrome.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/why-interruptions-are-frustrating-to-developers/improve-focus-by-using-tab-groups.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;!--The group contains communities I belong to, linked-in, twitter, Slack,--&gt;
+&lt;!--and my analytics pages. I know to not open the group during periods of--&gt;
+&lt;!--deep focus. Yes, yes, I know, I could close the tabs altogether, but I--&gt;
+&lt;!--have a habit of reopening sites. Keeping them locked up in a group helps--&gt;
+&lt;!--me remember they’re my top distractions.--&gt;
+&lt;p&gt;Este grupo de pestañas contiene comunidades a las que pertenezco, como linked-in, twitter,
+slack y mis páginas de métricas. Sé que no tengo que abrir este grupo durante
+periodos de concentración. Sí, ya sé que podría cerrar todos los tabs juntos, pero
+tengo el hábito de reabrir los sitios si no lo hago así. Tenerlos agrupados
+de esa manera me ayuda a recordar que son mi mayor distracción.&lt;/p&gt;
+&lt;!--Another thing I’ve been trying to adopt is strategy laid out by Michael--&gt;
+&lt;!--Lynch of only checking metrics once a week on the end-of-day Friday. He--&gt;
+&lt;!--also had trouble with metric checking:--&gt;
+&lt;p&gt;Otra cosa que he estado intentando adoptar es la estrategia expuesta por
+Michael Lynch de solo mirar las métricas una vez a la semana. Él también
+tiene este problema de mirar las métricas muy seguido:&lt;/p&gt;
+&lt;!--
+
+&gt; Checking metrics is “shallow work”: it doesn’t require deep focus or
+&gt; critical thinking, but it feels productive. … Until I broke the habit
+&gt; of constant stat-checking, I never realized how much space it occupied
+&gt; in my brain.
+
+--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mirar las métricas es un &amp;ldquo;trabajo superficial&amp;rdquo;: no requiere hacer foco
+o pensar de forma crítica, pero se siente como algo productivo. Hasta
+que rompí con el hábito de mirar constantemente estas métricas nunca
+me había dado cuenta todo el espacio que ocupaba en mi cerebro.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;- Michael Lynch, &lt;a href=&#34;https://mtlynch.io/keep-growing-never-profit/&#34;&gt;How to Grow Quickly and Never Turn a Profit.&lt;/a&gt;&lt;/p&gt;
+&lt;!--### 4. Record context as you go--&gt;
+&lt;h3 id=&#34;4-registra-el-contexto-periódicamente&#34;&gt;4. Registra el contexto periódicamente&lt;/h3&gt;
+&lt;!--The final tip to combating context decay is making notes as I go. What I--&gt;
+&lt;!--like to do is have a bash script in each directory named `.zing`. It’s--&gt;
+&lt;!--ignored by my global git-ignore so I can place them right alongside the--&gt;
+&lt;!--code I’m working on. Here’s an example of one I was working with last--&gt;
+&lt;!--week.--&gt;
+&lt;p&gt;El último consejo para combatir el derrumbe del contexto es ir
+haciendo notas a medida que vas avanzando. Lo que me gusta hacer es
+tener un script de bash en cada directorio llamado &lt;code&gt;.zing&lt;/code&gt;. Este
+tipo de script se marcan como ignorados en git así que puedo
+colocarlo junto al código en el que estoy trabajando. Este es un
+ejemplo de uno de esos archivos en los que estuve trabajando
+la semana pasada:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Todos (para hacer):&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - verificar si se ejecuta dos veces si se actualiza el uso para eses día.&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - usar end_ts para la fecha.&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - usar el registro `last-in`&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# - redondear los valores de uso mensual 219.002 == 220&lt;/span&gt;
+
+./report_to_stripe.rb 05/
+exit
+../bin/monthly_report.rb 05/
+exit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!--My `.zing` file serves two purposes. It keeps a list of todos and notes,--&gt;
+&lt;!--but it also is a history of the last command I executed. When I come--&gt;
+&lt;!--back in the morning, I can execute the script, see the output of the--&gt;
+&lt;!--code, and jump start my day back into what I was doing.--&gt;
+&lt;p&gt;Mi archivo &lt;code&gt;.zing&lt;/code&gt; sirve para dos propósitos: Almacena una lista de tareas
+y notas, pero también contiene un histórico del último comando que ejecuté. Cuando
+regreso la mañana siguiente puedo ejecutar el script y saltar directamente a lo
+que estaba haciendo en ese momento.&lt;/p&gt;
+&lt;!--I use &lt;https://github.com/jewel/zing&gt; to execute the script from vim or--&gt;
+&lt;!--my terminal by typing `,z`. It’s a handy way to speed up my iterations--&gt;
+&lt;!--too.--&gt;
+&lt;p&gt;Uso &lt;a href=&#34;https://github.com/jewel/zing&#34;&gt;zing&lt;/a&gt; para ejecutar mi script desde
+vim o mi terminal usando &lt;code&gt;,z&lt;/code&gt;. Este atajo también me ayuda a hacer las
+cosas más rápido.&lt;/p&gt;
+&lt;!--Let’s build focus towers together--&gt;
+&lt;!--=================================--&gt;
+&lt;h1 id=&#34;construyamos-una-torre-de-concentración-juntos&#34;&gt;Construyamos una torre de concentración juntos.&lt;/h1&gt;
+&lt;!--Everyday is a battle to keep my focus tower built and free from the--&gt;
+&lt;!--rushing wind of distractions and interruptions. Working together to stop--&gt;
+&lt;!--unnecessary interruptions is a team effort and if done correctly can--&gt;
+&lt;!--have a huge impact on productivity and increase developers chances in--&gt;
+&lt;!--reaching flow.--&gt;
+&lt;p&gt;Cada día es una batalla para mantener mi torre de cartas libre de las
+ráfagas de viento de la distracción y las interrupciones. Trabajar juntos
+para detener las distracciones innecesarias es un esfuerzo de equipo y si
+se hace correctamente puede influir de forma significativa en la productividad
+y ayuda a los desarrolladores a alcanzar su mejor trabajo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -7917,7 +8422,7 @@ desparecen de Internet.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/writing-to-remember&#34;&gt;Writing to Remember&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/talk&#34;&gt;Write Like You Talk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/the-productivity-funnel&#34;&gt;The Productivity Funnel&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/the-productivity-funnel/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers&#34;&gt;Why interruptions are frustrating to developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers&#34;&gt;Why interruptions are frustrating to developers&lt;/a&gt; - &lt;a href=&#34;https://www.examplelab.com.ar/links-files/traducciones/why-interruptions-are-frustrating-to-developers/&#34;&gt;🇦🇷 traducción&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
