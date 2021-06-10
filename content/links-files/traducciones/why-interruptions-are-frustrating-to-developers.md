@@ -56,12 +56,13 @@ Programar requiere a un gran esfuerzo de pensamiento. Algunos días son
 mejores que otros, pero el objetivo de cada día es alcanzar un estado
 de concentración absoluto.
 
-
-<!--> Also known as “the zone,” flow is the mental state of operation in-->
-<!--> which a programmer is immersed in a feeling of energized focus,-->
-<!--> complete involvement, and enjoyment in the process of coding. Flow is-->
-<!--> not a concept unique to computer programming, but software developers-->
-<!--> are very familiar with it.-->
+<!--
+> Also known as “the zone,” flow is the mental state of operation in
+> which a programmer is immersed in a feeling of energized focus,
+> complete involvement, and enjoyment in the process of coding. Flow is
+> not a concept unique to computer programming, but software developers
+> are very familiar with it.
+-->
 
 > También llamado "La zona" o "flow", el foco es el estado mental en el que el programador
 > está inmerso en una concentración absoluta, involucrado completamente, y 
@@ -302,7 +303,7 @@ para trazar el problema o uso una herramienta de depuración (una manera
 de recorrer el programa en tiempo de ejecución paso a paso). También
 agrego algunos comentarios sobre cómo se ejecuta. Tal vez cambio una o dos
 variables para ver cómo impacta en el comportamiento del programa. Generalmente
-haciendo estas cosas suelo acortar o asilar la sección de código que está
+haciendo estas cosas suelo acortar o aislar la sección de código que está
 dando problemas.
 
 <!--If I’m lucky, I get a solid reproduction of the bug and that’s enough to-->

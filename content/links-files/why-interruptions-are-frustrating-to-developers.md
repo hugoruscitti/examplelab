@@ -1,5 +1,3 @@
-
-
 Why interruptions are frustrating to developers
 ===============================================
 
