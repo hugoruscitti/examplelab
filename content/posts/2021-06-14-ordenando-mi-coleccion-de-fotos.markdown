@@ -27,7 +27,7 @@ Es como tener muchas pertenencias físicas, podés guardarlas en un armario, per
 van a quedar olvidadas o mezcladas con otras cosas.
 
 Así que me tomé el tiempo de ponerme a ordenar fotos comenzando con esta premisa: 
-solo me quiero quedar con las fotos que realmente quiero conservar. 
+solo me quiero quedar con las fotos que realmente me producen felicidad.
 
 Para hacer orden seguí una estrategia [de un libro que estoy leyendo hace unos
 días](https://www.amazon.com/-/es/Marie-Kondo-ebook/dp/B00QSIV6L0): en lugar de
@@ -41,10 +41,9 @@ similar a la anterior o no estás 100% seguro de querer guardarla pasas a la
 siguiente y listo, esa foto no vale la pena conservarla. El solo hecho de
 no estar seguro es un indicio de que hay otras más importantes esperando.
 
-Creo que reducir la cantidad de fotos hacen que pueda disfrutar aún más las que
-conservé. Ahora puedo recorrer mis fotos sin navegar por miles y miles de
-fotos, cada una de las que veo me gusta y la disfruto, no tengo que hacer
-scroll o sentir que tengo pendiente ponerme a limpiar las fotos algún día en
-el futuro.
+Para mí, tener menos fotos es mejor, puedo recordar momentos sin tener que
+navegar por miles y miles de fotos, cada una de las que veo me gusta y la
+disfruto, no tengo que hacer scroll o sentir que tengo pendiente ponerme a
+limpiar las fotos algún día en el futuro.
 
 Es como terminar de pagar una deuda conmigo mismo, se siente bien.
