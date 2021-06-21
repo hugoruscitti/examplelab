@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Es lindo usar prettier :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Prettier es una herramienta que ajusta automáticamente el estilo de tu código, como ajustar la indentación del código de forma consistente, colocar ; en cada línea, separar con un espacio los operadores y varias cosas más.
+Al principio parece algo puramente accesorio, pero con el tiempo se vuelve una herramienta con mucho sentido.
+Usando prettier se puede delegar a la computadora muchas tareas pequeñas de consistencia sin alterar el funcionamiento del programa."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Es lindo usar prettier"/>
+<meta name="twitter:description" content="Algunas razones para usar prettier a la hora de programar.
+"/>
+
+
+
+<meta property="og:title" content="Es lindo usar prettier" />
+<meta property="og:description" content="Algunas razones para usar prettier a la hora de programar.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/" />
+<meta property="article:published_time" content="2021-06-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-06-21T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/">Es lindo usar prettier</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            21/06/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p><a href="https://prettier.io/">Prettier</a> es una herramienta que ajusta automáticamente
+el estilo de tu código, como ajustar la indentación del código de forma
+consistente, colocar <code>;</code> en cada línea, separar con un espacio los operadores y
+varias cosas más.</p>
+<p>Al principio parece algo puramente accesorio, pero con el tiempo se vuelve una
+herramienta con mucho sentido.</p>
+<p>Usando <a href="https://prettier.io/">prettier</a> se puede delegar a la computadora
+muchas tareas pequeñas de consistencia sin alterar el funcionamiento del
+programa. La computadora no solo hace eso a la perfección, sino que además te
+libera tiempo y energía para que puedas invertirla en otras cosas.</p>
+<p>Y para mí, esa es la utilidad de <a href="https://prettier.io/">prettier</a>, quitarte de
+la cabeza una tarea que no aporta tanto valor, y brindarte tiempo y energía
+para cosas más valiosas, como buscar que el comportamiento del programa sea
+simple y legible, que los comentarios aporten claridad y que los errores del
+programa se informen correctamente al usuario.</p>
+<p>Así que si te gusta esta idea, te recomiendo instalar
+<a href="https://github.com/sbdchd/neoformat">neoformat</a> y configurarlo para que se
+ejecute automáticamente al guardar el código. Neoformat también se puede
+configurar para interactuar con otras herramientas como <code>yapf</code> para procesar
+código en python u otros lenguajes.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://www.examplelab.com.ar/posts/2021-06-14-ordenando-mi-coleccion-de-fotos/">
+                  <span class="button__text">Ordenando mi colección de fotos</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

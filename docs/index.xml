@@ -6,7 +6,36 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Es lindo usar prettier</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://prettier.io/&#34;&gt;Prettier&lt;/a&gt; es una herramienta que ajusta automáticamente
+el estilo de tu código, como ajustar la indentación del código de forma
+consistente, colocar &lt;code&gt;;&lt;/code&gt; en cada línea, separar con un espacio los operadores y
+varias cosas más.&lt;/p&gt;
+&lt;p&gt;Al principio parece algo puramente accesorio, pero con el tiempo se vuelve una
+herramienta con mucho sentido.&lt;/p&gt;
+&lt;p&gt;Usando &lt;a href=&#34;https://prettier.io/&#34;&gt;prettier&lt;/a&gt; se puede delegar a la computadora
+muchas tareas pequeñas de consistencia sin alterar el funcionamiento del
+programa. La computadora no solo hace eso a la perfección, sino que además te
+libera tiempo y energía para que puedas invertirla en otras cosas.&lt;/p&gt;
+&lt;p&gt;Y para mí, esa es la utilidad de &lt;a href=&#34;https://prettier.io/&#34;&gt;prettier&lt;/a&gt;, quitarte de
+la cabeza una tarea que no aporta tanto valor, y brindarte tiempo y energía
+para cosas más valiosas, como buscar que el comportamiento del programa sea
+simple y legible, que los comentarios aporten claridad y que los errores del
+programa se informen correctamente al usuario.&lt;/p&gt;
+&lt;p&gt;Así que si te gusta esta idea, te recomiendo instalar
+&lt;a href=&#34;https://github.com/sbdchd/neoformat&#34;&gt;neoformat&lt;/a&gt; y configurarlo para que se
+ejecute automáticamente al guardar el código. Neoformat también se puede
+configurar para interactuar con otras herramientas como &lt;code&gt;yapf&lt;/code&gt; para procesar
+código en python u otros lenguajes.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Ordenando mi colección de fotos</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-14-ordenando-mi-coleccion-de-fotos/</link>
@@ -28,7 +57,7 @@ hacer más difícil encontrar las fotos que más nos gustan?.&lt;/p&gt;
 &lt;p&gt;Es como tener muchas pertenencias físicas, podés guardarlas en un armario, pero
 van a quedar olvidadas o mezcladas con otras cosas.&lt;/p&gt;
 &lt;p&gt;Así que me tomé el tiempo de ponerme a ordenar fotos comenzando con esta premisa:
-solo me quiero quedar con las fotos que realmente quiero conservar.&lt;/p&gt;
+solo me quiero quedar con las fotos que realmente me producen felicidad.&lt;/p&gt;
 &lt;p&gt;Para hacer orden seguí una estrategia &lt;a href=&#34;https://www.amazon.com/-/es/Marie-Kondo-ebook/dp/B00QSIV6L0&#34;&gt;de un libro que estoy leyendo hace unos
 días&lt;/a&gt;: en lugar de
 seleccionar qué fotos borrar, elegí qué fotos realmente quería conservar y
@@ -39,11 +68,10 @@ fácil hacer foco en lo que queremos conservar al 100%. Si ves una foto y es
 similar a la anterior o no estás 100% seguro de querer guardarla pasas a la
 siguiente y listo, esa foto no vale la pena conservarla. El solo hecho de
 no estar seguro es un indicio de que hay otras más importantes esperando.&lt;/p&gt;
-&lt;p&gt;Creo que reducir la cantidad de fotos hacen que pueda disfrutar aún más las que
-conservé. Ahora puedo recorrer mis fotos sin navegar por miles y miles de
-fotos, cada una de las que veo me gusta y la disfruto, no tengo que hacer
-scroll o sentir que tengo pendiente ponerme a limpiar las fotos algún día en
-el futuro.&lt;/p&gt;
+&lt;p&gt;Para mí, tener menos fotos es mejor, puedo recordar momentos sin tener que
+navegar por miles y miles de fotos, cada una de las que veo me gusta y la
+disfruto, no tengo que hacer scroll o sentir que tengo pendiente ponerme a
+limpiar las fotos algún día en el futuro.&lt;/p&gt;
 &lt;p&gt;Es como terminar de pagar una deuda conmigo mismo, se siente bien.&lt;/p&gt;
 </description>
     </item>

@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Es lindo usar prettier</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</guid>
+      <description>Prettier es una herramienta que ajusta automáticamente el estilo de tu código, como ajustar la indentación del código de forma consistente, colocar ; en cada línea, separar con un espacio los operadores y varias cosas más.
+Al principio parece algo puramente accesorio, pero con el tiempo se vuelve una herramienta con mucho sentido.
+Usando prettier se puede delegar a la computadora muchas tareas pequeñas de consistencia sin alterar el funcionamiento del programa.</description>
+    </item>
+    
     <item>
       <title>Ordenando mi colección de fotos</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-14-ordenando-mi-coleccion-de-fotos/</link>
