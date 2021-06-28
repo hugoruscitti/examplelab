@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Traducir textos en vim :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Estoy trabajando en una aplicación web que tiene que soportar tres idiomas diferentes: inglés, español y portugués.
+Tenemos tres archivos con los mensajes de la aplicación separados, un archivo por cada idioma así:
+{ [...] cargarNuevamente: &amp;#34;Seus dados já foram enviados. Não é {NAME}?&amp;#34;, cargarNuevamenteLink: &amp;#34; Clique aqui.&amp;#34;, cerrar: &amp;#34;Fechar&amp;#34;, ciudad: &amp;#34;Cidade&amp;#34;, comienzo: &amp;#34;Começo do projeto&amp;#34;, completeDatos: &amp;#34;Registre-se e obtenha as informações das oportunidades.&amp;#34;, [...] } El tema es que cada vez que agregamos mensajes o pantallas tengo que salir del editor, y traducir los mensajes a todos los idiomas."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Traducir textos en vim"/>
+<meta name="twitter:description" content="Cómo traducir cadenas de textos desde VIM muy rápidamente.
+"/>
+
+
+
+<meta property="og:title" content="Traducir textos en vim" />
+<meta property="og:description" content="Cómo traducir cadenas de textos desde VIM muy rápidamente.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/" />
+<meta property="article:published_time" content="2021-06-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-06-28T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/">Traducir textos en vim</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            28/06/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Estoy trabajando en una aplicación web que tiene que soportar
+tres idiomas diferentes: inglés, español y portugués.</p>
+<p>Tenemos tres archivos con los mensajes de la aplicación separados, un
+archivo por cada idioma así:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">{
+[...]
+  <span style="color:#a6e22e">cargarNuevamente</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Seus dados já foram enviados. Não é {NAME}?&#34;</span>,
+  <span style="color:#a6e22e">cargarNuevamenteLink</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34; Clique aqui.&#34;</span>,
+  <span style="color:#a6e22e">cerrar</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Fechar&#34;</span>,
+  <span style="color:#a6e22e">ciudad</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Cidade&#34;</span>,
+  <span style="color:#a6e22e">comienzo</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Começo do projeto&#34;</span>,
+  <span style="color:#a6e22e">completeDatos</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Registre-se e obtenha as informações das oportunidades.&#34;</span>,
+[...]
+}
+</code></pre></div><p>El tema es que cada vez que agregamos mensajes o pantallas tengo que
+salir del editor, y traducir los mensajes a todos los idiomas. Para
+esto tengo que abrir Google Translate, buscar, copiar y pegar.</p>
+<p>Hacer esto por cada texto es incómodo, sin bien no me lleva mucho tiempo, el
+problema es que me obliga a hacer un &ldquo;cambio de contexto&rdquo; que podría evitarlo.</p>
+<p>Así que me puse a buscar herramientas y di con un complemento para vim
+llamado <a href="https://github.com/voldikss/vim-translator">vim-translator</a>.</p>
+<p>Este complemento me permite traducir textos directamente desde el editor, sin
+tener que salir ni abrir un navegador. Además, viene con varios comandos para
+traducir texto selecciona o el contenido del archivo completo.</p>
+<p>Ahora en mi caso, como los textos están generalmente enmarcados entre comillas,
+hice tres atajos para agilizar las cosas.</p>
+<pre><code>map ttn vi&quot;:'&lt;,'&gt;TranslateR --target_lang=en&lt;cr&gt;
+map tte vi&quot;:'&lt;,'&gt;TranslateR --target_lang=es&lt;cr&gt;
+map ttp vi&quot;:'&lt;,'&gt;TranslateR --target_lang=pt&lt;cr&gt;
+</code></pre><p>Así, cuando estoy posicionado sobre un texto y pulso <code>ttn</code> el texto se traduce
+al inglés, cuando estoy sobre un texto y pulso <code>tte</code> se traduce a español y con
+<code>ttp</code> se traduce al portugués.</p>
+<p>El complemento detecta el lenguaje de origen, así que alcanza con indicarle a qué
+idioma queremos traducir el texto y listo.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/">
+                  <span class="button__text">Es lindo usar prettier</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

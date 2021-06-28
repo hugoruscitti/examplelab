@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traducir textos en vim</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</guid>
+      <description>Estoy trabajando en una aplicación web que tiene que soportar tres idiomas diferentes: inglés, español y portugués.
+Tenemos tres archivos con los mensajes de la aplicación separados, un archivo por cada idioma así:
+{ [...] cargarNuevamente: &amp;#34;Seus dados já foram enviados. Não é {NAME}?&amp;#34;, cargarNuevamenteLink: &amp;#34; Clique aqui.&amp;#34;, cerrar: &amp;#34;Fechar&amp;#34;, ciudad: &amp;#34;Cidade&amp;#34;, comienzo: &amp;#34;Começo do projeto&amp;#34;, completeDatos: &amp;#34;Registre-se e obtenha as informações das oportunidades.&amp;#34;, [...] } El tema es que cada vez que agregamos mensajes o pantallas tengo que salir del editor, y traducir los mensajes a todos los idiomas.</description>
+    </item>
+    
     <item>
       <title>Es lindo usar prettier</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</link>

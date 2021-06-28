@@ -6,7 +6,50 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traducir textos en vim</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</guid>
+      <description>&lt;p&gt;Estoy trabajando en una aplicación web que tiene que soportar
+tres idiomas diferentes: inglés, español y portugués.&lt;/p&gt;
+&lt;p&gt;Tenemos tres archivos con los mensajes de la aplicación separados, un
+archivo por cada idioma así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;{
+[...]
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;cargarNuevamente&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Seus dados já foram enviados. Não é {NAME}?&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;cargarNuevamenteLink&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; Clique aqui.&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;cerrar&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Fechar&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;ciudad&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Cidade&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;comienzo&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Começo do projeto&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;completeDatos&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Registre-se e obtenha as informações das oportunidades.&amp;#34;&lt;/span&gt;,
+[...]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El tema es que cada vez que agregamos mensajes o pantallas tengo que
+salir del editor, y traducir los mensajes a todos los idiomas. Para
+esto tengo que abrir Google Translate, buscar, copiar y pegar.&lt;/p&gt;
+&lt;p&gt;Hacer esto por cada texto es incómodo, sin bien no me lleva mucho tiempo, el
+problema es que me obliga a hacer un &amp;ldquo;cambio de contexto&amp;rdquo; que podría evitarlo.&lt;/p&gt;
+&lt;p&gt;Así que me puse a buscar herramientas y di con un complemento para vim
+llamado &lt;a href=&#34;https://github.com/voldikss/vim-translator&#34;&gt;vim-translator&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Este complemento me permite traducir textos directamente desde el editor, sin
+tener que salir ni abrir un navegador. Además, viene con varios comandos para
+traducir texto selecciona o el contenido del archivo completo.&lt;/p&gt;
+&lt;p&gt;Ahora en mi caso, como los textos están generalmente enmarcados entre comillas,
+hice tres atajos para agilizar las cosas.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;map ttn vi&amp;quot;:&#39;&amp;lt;,&#39;&amp;gt;TranslateR --target_lang=en&amp;lt;cr&amp;gt;
+map tte vi&amp;quot;:&#39;&amp;lt;,&#39;&amp;gt;TranslateR --target_lang=es&amp;lt;cr&amp;gt;
+map ttp vi&amp;quot;:&#39;&amp;lt;,&#39;&amp;gt;TranslateR --target_lang=pt&amp;lt;cr&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Así, cuando estoy posicionado sobre un texto y pulso &lt;code&gt;ttn&lt;/code&gt; el texto se traduce
+al inglés, cuando estoy sobre un texto y pulso &lt;code&gt;tte&lt;/code&gt; se traduce a español y con
+&lt;code&gt;ttp&lt;/code&gt; se traduce al portugués.&lt;/p&gt;
+&lt;p&gt;El complemento detecta el lenguaje de origen, así que alcanza con indicarle a qué
+idioma queremos traducir el texto y listo.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Es lindo usar prettier</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</link>
