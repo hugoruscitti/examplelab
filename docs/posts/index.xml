@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Grabando un nuevo screencast</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</guid>
+      <description>Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de programación usando pilas-engine. Hablé de variables, valores, funciones y condicionales, todo dentro del editor de pilas:
+ Ver el video en youtube  Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace varios meses, pero nunca daba el primer paso para empezar a grabar.
+Hacer el video me llevó casi 11 horas de realización, unas horas del viernes, sábado y domingo.</description>
+    </item>
+    
+    <item>
       <title>Traducir textos en vim</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>

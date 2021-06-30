@@ -8,6 +8,56 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Grabando un nuevo screencast</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</guid>
+      <description>&lt;p&gt;Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de
+programación usando pilas-engine. Hablé de variables, valores, funciones y
+condicionales, todo dentro del editor de pilas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/MGqb18dMHs8&#34;&gt;Ver el video en youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace
+varios meses, pero nunca daba el primer paso para empezar a grabar.&lt;/p&gt;
+&lt;p&gt;Hacer el video me llevó casi 11 horas de realización, unas horas del viernes,
+sábado y domingo. El tiempo pasa volando entre el armado de un guion, la
+grabación y la edición final. Arranqué con la intención de hacer algo rápido y
+corto, pero la inexperiencia me hizo grabar, editar y volver a grabar algunas
+partes extra por más tiempo del que me imaginaba.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/grabando-un-screencast/screenflow.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;De hecho, creo que la edición final es lo que más me costó realizar, lo que me
+hizo notar que tengo mucho para prender:&lt;/p&gt;
+&lt;p&gt;Por un lado, creo que me falta mucha práctica para sentirme cómodo durante la
+grabación. Cometo un montón de errores al tipear mientras hablo y necesito ver
+mis apuntes cada vez que quiero explicar algo&amp;hellip; supongo que debería practicar
+varias veces lo que quiero decir y grabar todo de una sola vez. Posiblemente
+haga esto en el próximo video a ver cómo me sale.&lt;/p&gt;
+&lt;p&gt;Otra cosa que noté es que tengo que dedicarle mucha más atención a la calidad
+del sonido, descubrí que la posición del micrófono influye mucho en la calidad
+final. Si pronuncio palabras con &amp;quot;&amp;quot; o &amp;ldquo;P&amp;rdquo; se produce una distorsión muy fuerte.
+Logré minimizar muchas de estas distorsiones y mejorar el audio en general
+&lt;a href=&#34;https://www.youtube.com/watch?v=kmksbyMybSI&#34;&gt;usando audacity y este video&lt;/a&gt;
+pero tal vez me conviene conseguir un filtro &lt;em&gt;anti pop&lt;/em&gt; para la próxima
+grabación y tener el sonido lo más &amp;ldquo;claro&amp;rdquo; posible desde el principio para no
+tener que andar corrigiendo el audio luego de grabar.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/grabando-un-screencast/audacity.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Claro, ahora lo digo como algo que &amp;ldquo;sé&amp;rdquo;, pero al momento de grabar no tenía
+idea que eso podía pasar. Me hubiera gustado saber eso antes de ponerme a
+grabar el video, ¡hubiera ahorrado varias horas de edición!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/grabando-un-screencast/tracks.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Otra cosa que noté es que youtube reconoce las partes del video si pones en la
+descripción un índice de contenidos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/grabando-un-screencast/youtube.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ahora voy a mirar algunos videos de otras personas que graban screencast para
+tomar ideas y tratar de imitar las cosas que me gustan. Es un lindo experimento
+lanzarse a hacer videos, siento que estoy aprendiendo una habilidad nueva y es
+muuuuy difícil, señal de que vale la pena invertir tiempo ahí.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Traducir textos en vim</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
