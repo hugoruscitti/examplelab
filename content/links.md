@@ -4,13 +4,16 @@ draft: false
 ---
 
 En esta sección vas a encontrar una serie de artículos
-que me parecen muy recomendables, algunos de estos lo
-pude traducir, otros no, pero lo que sí hice con todos
-es preservarlos, guardando copias por si algún día
-desparecen de Internet.
+que alguna vez encontré por Internet y que me parecen muy recomendables.
 
-Expliqué mi motivación al realizar este archivo de artículos
-[en este otro post](/posts/2021-01-29-coleccionando-articulos/).
+Algunos de estos artículos logré traducirlos a español, así que podés
+elegir leerlos en su idioma original o en español.
+
+Ten en cuenta que lo que aparece aquí no son links a sitios externos, sino
+versiones preservadas de esos textos a modo de colección. 
+
+Si quieres conocer más sobre mi motivación al crear esta colección te
+recomiendo ver [este otro post](/posts/2021-01-29-coleccionando-articulos/).
 
 <div class="tc">
   <img src="/images/links.png" width="100" height="100" class="br-100 dib">
