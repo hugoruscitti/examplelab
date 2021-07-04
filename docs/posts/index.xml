@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo recortar tiles con ImageMagick</title>
+      <link>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</guid>
+      <description>ImageMagick es un conjunto de herramientas que te permiten procesar imágenes de muchas formas diferentes. Además, se usa a través de la linea de comandos lo que permite automatizar y procesar muchas imágenes a la vez.
+Por ejemplo, algo que necesito hacer muy seguido es tomar una grilla de sprites y dividirla en archivos de imágenes individuales.
+Las grillas (o tiles) son muy eficientes, pero no son nada prácticos a la hora de hacer pruebas o escoger imágenes para un juego.</description>
+    </item>
+    
     <item>
       <title>Grabando un nuevo screencast</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</link>

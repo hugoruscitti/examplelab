@@ -1,658 +1,391 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</loc>
+    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.examplelab.com.ar/</loc>
-    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.examplelab.com.ar/posts/</loc>
+    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.examplelab.com.ar/posts/</loc>
-    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-14-ordenando-mi-coleccion-de-fotos/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-05-cambiando-de-teclado/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/</loc>
     <lastmod>2021-06-03T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</loc>
     <lastmod>2021-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</loc>
     <lastmod>2021-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-05-25-ordenando-musica/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-05-18-creando-un-timer/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-05-11-escribiendo-un-libro/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-05-04-seguimiento-de-habitos/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-04-29-sobre-las-redes-sociales/</loc>
     <lastmod>2021-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-04-23-verbalizar-para-clarificar/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-04-18-todo-esta-bien/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-04-13-mis-juegos-favoritos-2/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-04-09-una-cosa-a-la-vez/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</loc>
     <lastmod>2021-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/</loc>
     <lastmod>2021-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-16-hay-que-reinventar-esta-rueda/</loc>
     <lastmod>2021-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-10-provisorio-hasta-que-haga-falta/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-09-mis-juegos-favoritos-1/</loc>
     <lastmod>2021-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</loc>
     <lastmod>2021-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-05-abrazar-a-sumo/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-03-01-recortes-y-apuntes/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/</loc>
     <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-23-tomar-notas-en-vim/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-22-portapapeles-en-vim/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-18-controlando-el-navegador-con-el-teclado/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-17-personalizando-el-teclado/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-16-la-culpa-no-es-del-dom/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-12-introduccion-a-presupuestos/</loc>
     <lastmod>2021-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-10-abandonar-libros-esta-bien/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-09-sistema-de-eventos-tipados/</loc>
     <lastmod>2021-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-08-estructura-de-proyecto-minimalista/</loc>
     <lastmod>2021-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</loc>
     <lastmod>2021-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-04-mejorar-1-por-ciento/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-03-el-regocijo-de-usar-vim/</loc>
     <lastmod>2021-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-02-02-acerca-de-ser-intencional/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-01-29-coleccionando-articulos/</loc>
     <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-01-27-falacias/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-01-25-remix-de-ceferino/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2020-08-25-doom/</loc>
     <lastmod>2020-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/</loc>
     <lastmod>2020-02-15T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2020-01-24-creando-un-audio-switch/</loc>
     <lastmod>2020-01-24T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/electr%C3%B3nica/</loc>
     <lastmod>2020-01-24T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/</loc>
     <lastmod>2020-01-24T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2018-12-15-la-documentacion-no-muerde/</loc>
     <lastmod>2018-12-15T14:11:38+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2018-03-04-comenzamos-pilas-engine-2/</loc>
     <lastmod>2018-03-04T21:00:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/</loc>
     <lastmod>2016-06-02T19:17:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2016-04-26-publicamos-the-zombie-smasher/</loc>
     <lastmod>2016-04-26T19:18:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</loc>
     <lastmod>2016-04-15T21:02:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</loc>
     <lastmod>2015-11-25T16:17:33+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2015-07-12-draculas/</loc>
     <lastmod>2015-07-12T22:18:39+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2015-05-20-buscar-e-instalar-en-huayra/</loc>
     <lastmod>2015-05-20T03:13:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2015-03-01-indicadores-de-version/</loc>
     <lastmod>2015-03-01T04:30:33+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2015-02-09-llega-huayra-mu/</loc>
     <lastmod>2015-02-09T16:31:56+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2015-01-21-la-renovacion-de-pilas-engine/</loc>
     <lastmod>2015-01-21T02:26:10+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2015-01-06-escalando-imagenes-con-node-webkit/</loc>
     <lastmod>2015-01-06T18:37:43+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-12-13-usando-ember-cli-con-node-webkit/</loc>
     <lastmod>2014-12-13T08:38:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-06-27-presentando-caripela/</loc>
     <lastmod>2014-06-27T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</loc>
     <lastmod>2014-06-11T01:07:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/nodewebkit/</loc>
     <lastmod>2014-06-11T01:07:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/pilas/</loc>
     <lastmod>2014-06-11T01:07:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/programacion/</loc>
     <lastmod>2014-06-11T01:07:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-05-26-empezo-el-curso-online-de-pilas/</loc>
     <lastmod>2014-05-26T02:49:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/arte/</loc>
     <lastmod>2014-05-04T00:23:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/charla/</loc>
     <lastmod>2014-05-04T00:23:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</loc>
     <lastmod>2014-05-04T00:23:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/stopmotion/</loc>
     <lastmod>2014-04-19T21:29:49+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-04-19-stopmotion_kungfu/</loc>
     <lastmod>2014-04-19T21:29:49+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-03-30-taller-de-stop-motion-en-huayra/</loc>
     <lastmod>2014-03-30T05:51:10+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-03-05-se-viene-huayra-motion/</loc>
     <lastmod>2014-03-05T17:42:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-02-28-interrumpiendo-al-programador/</loc>
     <lastmod>2014-02-28T22:56:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-02-20-presentanto-huayra-compartir/</loc>
     <lastmod>2014-02-20T13:14:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-01-29-como-instalar-nodejs-en-huayra-linux/</loc>
     <lastmod>2014-01-29T21:04:56+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</loc>
     <lastmod>2014-01-25T22:01:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/inspiracion/</loc>
     <lastmod>2014-01-25T22:01:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/ruby/</loc>
     <lastmod>2014-01-25T22:01:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/traduccion/</loc>
     <lastmod>2014-01-25T22:01:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-01-19-misol-2013/</loc>
     <lastmod>2014-01-19T21:52:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2014-01-11-paneles-animados/</loc>
     <lastmod>2014-01-11T17:15:41+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</loc>
     <lastmod>2013-12-26T01:15:39+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</loc>
     <lastmod>2013-11-18T10:58:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/evento/</loc>
     <lastmod>2013-11-18T10:58:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/html5/</loc>
     <lastmod>2013-11-18T10:58:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/linux/</loc>
     <lastmod>2013-11-18T10:58:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/python/</loc>
     <lastmod>2013-11-03T23:32:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</loc>
     <lastmod>2013-11-03T23:32:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</loc>
     <lastmod>2013-11-01T21:24:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</loc>
     <lastmod>2012-08-18T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/windows/</loc>
     <lastmod>2012-08-18T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/tip/</loc>
     <lastmod>2012-07-27T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2012-07-27-vagrant/</loc>
     <lastmod>2012-07-27T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</loc>
     <lastmod>2012-02-29T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/</loc>
     <lastmod>2012-01-14T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/gimp/</loc>
     <lastmod>2012-01-14T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/juegos/</loc>
     <lastmod>2012-01-14T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/shaolin/</loc>
     <lastmod>2012-01-14T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</loc>
     <lastmod>2010-07-22T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/interprete/</loc>
     <lastmod>2010-07-22T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</loc>
     <lastmod>2010-06-30T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/cocos2d/</loc>
     <lastmod>2010-06-30T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/tags/pyglet/</loc>
     <lastmod>2010-06-30T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/87/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/advice-from-an-old-programmer/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/all-time-learning-to-program/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/disparar-y-avanzar/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/iam-boring-programmer/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/own-the-tools/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/programmings-dirtiest-little-secret/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/talk/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/the-productivity-funnel/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/traducciones/advice-from-an-old-programmer/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/traducciones/own-the-tools/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/traducciones/the-productivity-funnel/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/traducciones/why-interruptions-are-frustrating-to-developers/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/writing-to-remember/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/links-files/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.examplelab.com.ar/archivo/</loc>
   </url>
-  
 </urlset>

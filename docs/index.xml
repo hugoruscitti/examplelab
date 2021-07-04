@@ -6,7 +6,52 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo recortar tiles con ImageMagick</title>
+      <link>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://imagemagick.org/script/index.php&#34;&gt;ImageMagick&lt;/a&gt; es un conjunto de herramientas que te permiten procesar imágenes
+de muchas formas diferentes. Además, se usa a través de la linea de comandos lo
+que permite automatizar y procesar muchas imágenes a la vez.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, algo que necesito hacer muy seguido es tomar una
+grilla de &lt;em&gt;sprites&lt;/em&gt; y dividirla en archivos de imágenes individuales.&lt;/p&gt;
+&lt;p&gt;Las grillas (o tiles) son muy eficientes, pero no son nada
+prácticos a la hora de hacer pruebas o escoger imágenes para
+un juego.&lt;/p&gt;
+&lt;p&gt;Tomemos esta imagen como ejemplo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-recortar-tiles-con-imagemagick/tiles.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La grilla tiene 4 columnas y 7 filas de imágenes, si queremos
+separar cada una de estas imágenes podemos ejecutar este
+comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;convert SpriteSheet.png -crop 4x7@  +repage  +adjoin  resultado/imagen_%d.png
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y lo que vamos a obtener como resultado son varias imágenes como
+estas:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-recortar-tiles-con-imagemagick/imagenes.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;evitando-bordes&#34;&gt;Evitando bordes&lt;/h1&gt;
+&lt;p&gt;Hay un bug muy común a la hora de usar estas imágenes en un
+juego que requiere algo de atención:&lt;/p&gt;
+&lt;p&gt;Si usamos las imágenes del ejemplo anterior es probable que veamos
+un borde raro en cada imagen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-recortar-tiles-con-imagemagick/bordes.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Esto es así porque en memoria de la placa de video las imágenes
+se almacenan de forma contigua, y las operaciones de suavizado
+suelen hacer que los píxeles de los bordes aparezcan recortados o
+como si se mezclaran entre sí.&lt;/p&gt;
+&lt;p&gt;La solución es muy simple, podemos usar otro comando de &lt;a href=&#34;https://imagemagick.org/script/index.php&#34;&gt;ImageMagick&lt;/a&gt;
+para agregar 2 píxeles transparentes al rededor de cada imagen
+y listo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mogrify -bordercolor none -border 2 resultado/*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Con esto, los archivos deberían quedarnos de esta forma:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-recortar-tiles-con-imagemagick/padding.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es decir, un poco más grandes (20x20 píxeles), pero sin el defecto
+del borde cuando lo usamos dentro de un juego:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-recortar-tiles-con-imagemagick/modos.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Grabando un nuevo screencast</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</link>
@@ -300,7 +345,7 @@ los datos Hexadecimales y agregar una referencia a la lista de operaciones:&lt;/
             paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ma_hexa &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; hex(int(paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ma_hexa, &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt;))[&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:]
             paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;save()
         &lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;ValueError&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;TypeError&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; error:
-            &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Imposible corregir el paquete id={}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;format(paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id))
+            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Imposible corregir el paquete id=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;format(paquete&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id))
 
 
 &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Migration&lt;/span&gt;(migrations&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Migration):
@@ -3855,7 +3900,7 @@ for x in os.listdir(&#39;.&#39;):
 
 &lt;span style=&#34;color:#a6e22e&#34;&gt;getVideos&lt;/span&gt;() {
     &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Ember&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;RSVP&lt;/span&gt;.Promise((&lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;) =&amp;gt; {
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;videoPath&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;_get_video_path&lt;/span&gt;();
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;videoPath&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get_video_path&lt;/span&gt;();
 
 
       &lt;span style=&#34;color:#a6e22e&#34;&gt;fs&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;readdir&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;videoPath&lt;/span&gt;, (&lt;span style=&#34;color:#a6e22e&#34;&gt;error&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;) =&amp;gt; {
@@ -4321,10 +4366,10 @@ pilas = pilasengine.iniciar(habilitar_mensajes_log=True)
 
 class NuevActor(Actor):
 
-    def iniciar(self):
+	def iniciar(self):
         […]
 
-    def actualizar(self):
+	def actualizar(self):
         […]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Esta idea también podríamos llevarla a pilasweb, para que crear actores no necesite anteponer “new” y las sintaxis sean lo más parecidas posibles.&lt;/p&gt;
@@ -6058,11 +6103,11 @@ cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cmdloop()
 
     &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; __init__(self, queue):
         threading&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Thread&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__init__(self)
-        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;killed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; False
+        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;killed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;
         self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;queue &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; queue
 
     &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;run&lt;/span&gt;(self):
-        cocos&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;director&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;director&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;init(resizable&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;False, width&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;800&lt;/span&gt;, height&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;600&lt;/span&gt;)
+        cocos&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;director&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;director&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;init(resizable&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;, width&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;800&lt;/span&gt;, height&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;600&lt;/span&gt;)
         self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;scene &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cocos&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;scene&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Scene(cocos&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;layer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ColorLayer(&lt;span style=&#34;color:#ae81ff&#34;&gt;240&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;240&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;240&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;))
         sprite &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cocos&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sprite&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Sprite(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;cara.png&amp;#39;&lt;/span&gt;)
         sprite&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;scale &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
@@ -6083,7 +6128,7 @@ cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cmdloop()
         self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environment&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;next()
 
     &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kill&lt;/span&gt;(self):
-        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;killed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; True
+        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;killed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
         pyglet&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;app&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exit()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;un-entorno-donde-viven-las-referencias&#34;&gt;Un entorno donde viven las referencias&lt;/h2&gt;
 &lt;p&gt;La parte mas importante del sistema es la que se encarga de ejecutar el código que escribimos en consola.&lt;/p&gt;
@@ -6096,21 +6141,21 @@ cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cmdloop()
 &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    el estado de todas las variables locales y acceder a los comandos desde
 &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    la cola.&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
 
-    &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; True:
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;:
 
         &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
             last &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; queue&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_nowait()
 
             &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; last:
                 &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
-                    &lt;span style=&#34;color:#66d9ef&#34;&gt;exec&lt;/span&gt;(last)
+                    exec(last)
                 &lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt;:
-                    &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Error al ejecutar&amp;#34;&lt;/span&gt;, last
+                    print &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Error al ejecutar&amp;#34;&lt;/span&gt;, last
 
         &lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt; Queue&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Empty:
             &lt;span style=&#34;color:#66d9ef&#34;&gt;pass&lt;/span&gt;
 
-        &lt;span style=&#34;color:#66d9ef&#34;&gt;yield&lt;/span&gt; None
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;yield&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nota: Un enfoque similar usan las aplicaciones REPL, donde incluso existe la funcionalidad de reiniciar el contexto cuando hemos hecho algo mal.&lt;/p&gt;
 &lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
 &lt;p&gt;Python ofrece una gran flexibilidad, y si bien creo que la solución al problema planteado se puede mejorar, actualmente puede ser de utilidad para otras personas.&lt;/p&gt;

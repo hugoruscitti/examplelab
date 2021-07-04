@@ -43,9 +43,10 @@ Django incluye un sistema de migraciones que permite modificar la estructura de 
 <meta property="og:description" content="Cómo automatizar carga de datos en un proyecto Django.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-06-03T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-06-03T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
 
 
 
@@ -210,7 +211,7 @@ los datos Hexadecimales y agregar una referencia a la lista de operaciones:</p>
             paquete<span style="color:#f92672">.</span>ma_hexa <span style="color:#f92672">=</span> hex(int(paquete<span style="color:#f92672">.</span>ma_hexa, <span style="color:#ae81ff">16</span>))[<span style="color:#ae81ff">2</span>:]
             paquete<span style="color:#f92672">.</span>save()
         <span style="color:#66d9ef">except</span> (<span style="color:#a6e22e">ValueError</span>, <span style="color:#a6e22e">TypeError</span>) <span style="color:#66d9ef">as</span> error:
-            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Imposible corregir el paquete id={}&#34;</span><span style="color:#f92672">.</span>format(paquete<span style="color:#f92672">.</span>id))
+            print(<span style="color:#e6db74">&#34;Imposible corregir el paquete id=</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(paquete<span style="color:#f92672">.</span>id))
 
 
 <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Migration</span>(migrations<span style="color:#f92672">.</span>Migration):

@@ -41,9 +41,10 @@ Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero
 <meta property="og:title" content="La renovación de pilas-engine" />
 <meta property="og:description" content="Estamos muy cerca de lanzar la versión ``0.91`` de *pilas-engine*, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión..." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2015-01-21-la-renovacion-de-pilas-engine/" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2015-01-21-la-renovacion-de-pilas-engine/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-01-21T02:26:10+00:00" />
 <meta property="article:modified_time" content="2015-01-21T02:26:10+00:00" /><meta property="og:site_name" content="Examplelab" />
+
 
 
 
@@ -223,10 +224,10 @@ pilas = pilasengine.iniciar(habilitar_mensajes_log=True)
 
 class NuevActor(Actor):
 
-    def iniciar(self):
+	def iniciar(self):
         […]
 
-    def actualizar(self):
+	def actualizar(self):
         […]
 </code></pre>
 <p>Esta idea también podríamos llevarla a pilasweb, para que crear actores no necesite anteponer “new” y las sintaxis sean lo más parecidas posibles.</p>
