@@ -6,7 +6,104 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cambiando de terminal a Alacritty</title>
+      <link>https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/</guid>
+      <description>&lt;p&gt;Hace una semana comencé a utilizar un emulador de terminal llamado
+&lt;a href=&#34;https://github.com/alacritty/alacritty&#34;&gt;Alacritty&lt;/a&gt; en lugar de &lt;a href=&#34;https://iterm2.com/&#34;&gt;iterm2&lt;/a&gt;, el
+terminal que venía usando hace años.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/cambiando-de-terminal/terminal.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En realidad no tengo un motivo muy importante para dejar de usar &lt;a href=&#34;https://iterm2.com/&#34;&gt;iterm2&lt;/a&gt;, pero
+moverme a otro terminal es una excusa para revisar mis archivos de configuración
+y buscar una forma más práctica de trabajar.&lt;/p&gt;
+&lt;p&gt;Algo curioso de Alacritty es que no tiene tabs, pantallas de configuración
+o menús; se configura desde un archivo de texto y es muy minimalista. Además
+promete ser más rápido que otros terminales porque dibuja en pantalla usando
+aceleración de video.&lt;/p&gt;
+&lt;p&gt;No sé muy bien por qué, pero me gusta que el emulador de terminal tenga poca
+funcionalidad, me da la sensación de que el proyecto puede
+avanzar más rápidamente y lograr estabilidad.&lt;/p&gt;
+&lt;p&gt;Después de todo, mucha de la funcionalidad &amp;ldquo;extra&amp;rdquo; que pretendo de
+un terminal se puede obtener usando &lt;a href=&#34;https://github.com/tmux/tmux/wiki&#34;&gt;tmux&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;configuración&#34;&gt;Configuración&lt;/h1&gt;
+&lt;p&gt;Me gusta que la configuración de Alacritty esté en un archivo de texto, porque
+fácilmente puedo recorrer las opciones, identificar qué quiero cambiar y
+resguardar todo.&lt;/p&gt;
+&lt;p&gt;Además, que se trate de texto ayuda a copiar y tomar ideas de otras personas, por
+ejemplo la configuración de colores que estoy usando simplemente la copié
+y pegué del proyecto &lt;a href=&#34;https://draculatheme.com/alacritty&#34;&gt;dracula-theme&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/cambiando-de-terminal/colores.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ah, y cualquier cambio que hagamos a la configuración se recargará
+automáticamente, lo que hace que sea mucho más rápido ajustar y evaluar
+cambios de configuración.&lt;/p&gt;
+&lt;h1 id=&#34;configurando-los-atajos-de-tmux&#34;&gt;Configurando los atajos de tmux&lt;/h1&gt;
+&lt;p&gt;Hace tiempo que quiero habituarme a usar &lt;a href=&#34;https://github.com/tmux/tmux/wiki&#34;&gt;tmux&lt;/a&gt; todos
+los días y con esta transición a Alacritty me vi forzado a hacerlo.&lt;/p&gt;
+&lt;p&gt;Con tmux ahora puedo tener tabs y splits:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/cambiando-de-terminal/tabs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sin embargo, tuve que configurar algunas cosas para sentirme más cómodo a la
+hora de trabajar.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, para cambiar de tabs en tmux hay que pulsar una secuencia
+de caracteres, como &lt;code&gt;ctrl-b&lt;/code&gt; y luego el número de tab al que queremos ir. Mientras
+que para mí, lo ideal sería pulsar simplemente &lt;code&gt;cmd-1&lt;/code&gt; o &lt;code&gt;cmd-2&lt;/code&gt; para ir a
+un tab específico.&lt;/p&gt;
+&lt;p&gt;Además, tengo el hábito de crear tabs con &lt;code&gt;cmd-t&lt;/code&gt; como hacía con &lt;a href=&#34;https://iterm2.com/&#34;&gt;iterm2&lt;/a&gt;, y la
+forma que me ofrece tmux de hacer lo mismo me resulta incómoda. En tmux tendría
+que pulsar &lt;code&gt;ctrl-b&lt;/code&gt; y luego la tecla &lt;code&gt;c&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Por suerte estos atajos se pueden
+personalizar desde el mismo archivo de configuración de alacritty &lt;code&gt;~/.alacritty.yml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;  &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Abrir&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tabs&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nuevos&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;con&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cmd&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;,        &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x63&amp;#34;&lt;/span&gt; }
+
+  &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Acceder&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;los&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tabs&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;con&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;números&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Key1&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x31&amp;#34;&lt;/span&gt; }
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Key2&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x32&amp;#34;&lt;/span&gt; }
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Key3&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x33&amp;#34;&lt;/span&gt; }
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Key4&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x34&amp;#34;&lt;/span&gt; }
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Key5&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x35&amp;#34;&lt;/span&gt; }
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Key6&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x36&amp;#34;&lt;/span&gt; }
+  &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Key7&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x37&amp;#34;&lt;/span&gt; }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Las claves &lt;code&gt;key&lt;/code&gt; y &lt;code&gt;mods&lt;/code&gt; le indican a Alacritty qué teclas queremos
+modificar, mientras que &lt;code&gt;chars&lt;/code&gt; son los caracteres de escape que queremos
+invocar.&lt;/p&gt;
+&lt;p&gt;Para generar esos caracteres de la forma &lt;code&gt;\x05\x31&lt;/code&gt; seguí &lt;a href=&#34;https://arslan.io/2018/02/05/gpu-accelerated-terminal-alacritty/&#34;&gt;las instrucciones
+que aparecen en un artículo&lt;/a&gt; sobre
+alacritty. Básicamente hay que usar el comando &lt;code&gt;xxd -psd&lt;/code&gt;, pulsar el atajo de teclado que
+nos gustaría invocar y anotar la secuencia de caracteres que aparece en pantalla.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, si ejecuto &lt;code&gt;xxd -psd&lt;/code&gt; y pulso la secuencia de caracteres
+&lt;code&gt;ctrl-b&lt;/code&gt; y luego &lt;code&gt;c&lt;/code&gt;, el número que se imprime en pantalla es este:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;→ xxd -psd
+^Bc
+02630a
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;De donde &lt;code&gt;02&lt;/code&gt; simboliza &lt;code&gt;ctrl-b&lt;/code&gt;, &lt;code&gt;63&lt;/code&gt; a &lt;code&gt;c&lt;/code&gt; y por último &lt;code&gt;0a&lt;/code&gt; simboliza
+la tecla &lt;code&gt;enter&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;soporte-truecolor&#34;&gt;Soporte TrueColor&lt;/h1&gt;
+&lt;p&gt;Para que los colores se vean correctamente dentro de tmux y vim tuve que
+cambiar algunas cosas más.&lt;/p&gt;
+&lt;p&gt;Lo primero que hice fue ejecutar &lt;a href=&#34;https://gist.github.com/XVilka/8346728&#34;&gt;unos
+scripts&lt;/a&gt; para imprimir colores en
+la terminal y verificar si se veía correctamente.&lt;/p&gt;
+&lt;p&gt;Noté que los colores se veían perfectos en Alacritty, pero no se veían bien
+dentro de tmux:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/cambiando-de-terminal/comparativa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Luego edité la configuración de tmux agregando esto:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set-option -ga terminal-overrides &amp;quot;,*256col*:Tc&amp;quot;
+set -g default-terminal &amp;quot;screen-256color&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y esta otra configuración dentro de vim:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;Agrega soporte para truecolor
+if exists(&#39;+termguicolors&#39;)
+  let &amp;amp;t_8f = &amp;quot;\&amp;lt;Esc&amp;gt;[38;2;%lu;%lu;%lum&amp;quot;
+  let &amp;amp;t_8b = &amp;quot;\&amp;lt;Esc&amp;gt;[48;2;%lu;%lu;%lum&amp;quot;
+  set termguicolors
+endif
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;¡Y listo!&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Cómo recortar tiles con ImageMagick</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</link>

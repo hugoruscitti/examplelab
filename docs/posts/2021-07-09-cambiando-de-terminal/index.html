@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Cambiando de terminal a Alacritty :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Hace una semana comencé a utilizar un emulador de terminal llamado Alacritty en lugar de iterm2, el terminal que venía usando hace años.
+En realidad no tengo un motivo muy importante para dejar de usar iterm2, pero moverme a otro terminal es una excusa para revisar mis archivos de configuración y buscar una forma más práctica de trabajar.
+Algo curioso de Alacritty es que no tiene tabs, pantallas de configuración o menús; se configura desde un archivo de texto y es muy minimalista."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cambiando de terminal a Alacritty"/>
+<meta name="twitter:description" content="Cambié de terminal y comencé a encontrar varias cosas
+interesantes para mencionar.
+"/>
+
+
+
+<meta property="og:title" content="Cambiando de terminal a Alacritty" />
+<meta property="og:description" content="Cambié de terminal y comencé a encontrar varias cosas
+interesantes para mencionar.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-07-09T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/">Cambiando de terminal a Alacritty</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            09/07/2021
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Hace una semana comencé a utilizar un emulador de terminal llamado
+<a href="https://github.com/alacritty/alacritty">Alacritty</a> en lugar de <a href="https://iterm2.com/">iterm2</a>, el
+terminal que venía usando hace años.</p>
+<p><img src="/images/2021/cambiando-de-terminal/terminal.png" alt=""></p>
+<p>En realidad no tengo un motivo muy importante para dejar de usar <a href="https://iterm2.com/">iterm2</a>, pero
+moverme a otro terminal es una excusa para revisar mis archivos de configuración
+y buscar una forma más práctica de trabajar.</p>
+<p>Algo curioso de Alacritty es que no tiene tabs, pantallas de configuración
+o menús; se configura desde un archivo de texto y es muy minimalista. Además
+promete ser más rápido que otros terminales porque dibuja en pantalla usando
+aceleración de video.</p>
+<p>No sé muy bien por qué, pero me gusta que el emulador de terminal tenga poca
+funcionalidad, me da la sensación de que el proyecto puede
+avanzar más rápidamente y lograr estabilidad.</p>
+<p>Después de todo, mucha de la funcionalidad &ldquo;extra&rdquo; que pretendo de
+un terminal se puede obtener usando <a href="https://github.com/tmux/tmux/wiki">tmux</a>.</p>
+<h1 id="configuración">Configuración</h1>
+<p>Me gusta que la configuración de Alacritty esté en un archivo de texto, porque
+fácilmente puedo recorrer las opciones, identificar qué quiero cambiar y
+resguardar todo.</p>
+<p>Además, que se trate de texto ayuda a copiar y tomar ideas de otras personas, por
+ejemplo la configuración de colores que estoy usando simplemente la copié
+y pegué del proyecto <a href="https://draculatheme.com/alacritty">dracula-theme</a>:</p>
+<p><img src="/images/2021/cambiando-de-terminal/colores.png" alt=""></p>
+<p>Ah, y cualquier cambio que hagamos a la configuración se recargará
+automáticamente, lo que hace que sea mucho más rápido ajustar y evaluar
+cambios de configuración.</p>
+<h1 id="configurando-los-atajos-de-tmux">Configurando los atajos de tmux</h1>
+<p>Hace tiempo que quiero habituarme a usar <a href="https://github.com/tmux/tmux/wiki">tmux</a> todos
+los días y con esta transición a Alacritty me vi forzado a hacerlo.</p>
+<p>Con tmux ahora puedo tener tabs y splits:</p>
+<p><img src="/images/2021/cambiando-de-terminal/tabs.png" alt=""></p>
+<p>Sin embargo, tuve que configurar algunas cosas para sentirme más cómodo a la
+hora de trabajar.</p>
+<p>Por ejemplo, para cambiar de tabs en tmux hay que pulsar una secuencia
+de caracteres, como <code>ctrl-b</code> y luego el número de tab al que queremos ir. Mientras
+que para mí, lo ideal sería pulsar simplemente <code>cmd-1</code> o <code>cmd-2</code> para ir a
+un tab específico.</p>
+<p>Además, tengo el hábito de crear tabs con <code>cmd-t</code> como hacía con <a href="https://iterm2.com/">iterm2</a>, y la
+forma que me ofrece tmux de hacer lo mismo me resulta incómoda. En tmux tendría
+que pulsar <code>ctrl-b</code> y luego la tecla <code>c</code>.</p>
+<p>Por suerte estos atajos se pueden
+personalizar desde el mismo archivo de configuración de alacritty <code>~/.alacritty.yml</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">  <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Abrir</span> <span style="color:#a6e22e">tabs</span> <span style="color:#a6e22e">nuevos</span> <span style="color:#a6e22e">con</span> <span style="color:#a6e22e">cmd</span><span style="color:#f92672">-</span><span style="color:#a6e22e">T</span>
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">T</span>,        <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x63&#34;</span> }
+
+  <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Acceder</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">los</span> <span style="color:#a6e22e">tabs</span> <span style="color:#a6e22e">con</span> <span style="color:#a6e22e">números</span>
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key1</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x31&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key2</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x32&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key3</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x33&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key4</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x34&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key5</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x35&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key6</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x36&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key7</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x37&#34;</span> }
+</code></pre></div><p>Las claves <code>key</code> y <code>mods</code> le indican a Alacritty qué teclas queremos
+modificar, mientras que <code>chars</code> son los caracteres de escape que queremos
+invocar.</p>
+<p>Para generar esos caracteres de la forma <code>\x05\x31</code> seguí <a href="https://arslan.io/2018/02/05/gpu-accelerated-terminal-alacritty/">las instrucciones
+que aparecen en un artículo</a> sobre
+alacritty. Básicamente hay que usar el comando <code>xxd -psd</code>, pulsar el atajo de teclado que
+nos gustaría invocar y anotar la secuencia de caracteres que aparece en pantalla.</p>
+<p>Por ejemplo, si ejecuto <code>xxd -psd</code> y pulso la secuencia de caracteres
+<code>ctrl-b</code> y luego <code>c</code>, el número que se imprime en pantalla es este:</p>
+<pre><code>→ xxd -psd
+^Bc
+02630a
+</code></pre><p>De donde <code>02</code> simboliza <code>ctrl-b</code>, <code>63</code> a <code>c</code> y por último <code>0a</code> simboliza
+la tecla <code>enter</code>.</p>
+<h1 id="soporte-truecolor">Soporte TrueColor</h1>
+<p>Para que los colores se vean correctamente dentro de tmux y vim tuve que
+cambiar algunas cosas más.</p>
+<p>Lo primero que hice fue ejecutar <a href="https://gist.github.com/XVilka/8346728">unos
+scripts</a> para imprimir colores en
+la terminal y verificar si se veía correctamente.</p>
+<p>Noté que los colores se veían perfectos en Alacritty, pero no se veían bien
+dentro de tmux:</p>
+<p><img src="/images/2021/cambiando-de-terminal/comparativa.png" alt=""></p>
+<p>Luego edité la configuración de tmux agregando esto:</p>
+<pre><code>set-option -ga terminal-overrides &quot;,*256col*:Tc&quot;
+set -g default-terminal &quot;screen-256color&quot;
+</code></pre><p>y esta otra configuración dentro de vim:</p>
+<pre><code>&quot;Agrega soporte para truecolor
+if exists('+termguicolors')
+  let &amp;t_8f = &quot;\&lt;Esc&gt;[38;2;%lu;%lu;%lum&quot;
+  let &amp;t_8b = &quot;\&lt;Esc&gt;[48;2;%lu;%lu;%lum&quot;
+  set termguicolors
+endif
+</code></pre><p>¡Y listo!</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/">
+                  <span class="button__text">Cómo recortar tiles con ImageMagick</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2021 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

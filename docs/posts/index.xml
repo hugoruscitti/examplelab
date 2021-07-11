@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cambiando de terminal a Alacritty</title>
+      <link>https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/</guid>
+      <description>Hace una semana comencé a utilizar un emulador de terminal llamado Alacritty en lugar de iterm2, el terminal que venía usando hace años.
+En realidad no tengo un motivo muy importante para dejar de usar iterm2, pero moverme a otro terminal es una excusa para revisar mis archivos de configuración y buscar una forma más práctica de trabajar.
+Algo curioso de Alacritty es que no tiene tabs, pantallas de configuración o menús; se configura desde un archivo de texto y es muy minimalista.</description>
+    </item>
+    
     <item>
       <title>Cómo recortar tiles con ImageMagick</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</link>
