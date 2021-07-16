@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creando tutoriales con amigos</title>
+      <link>https://www.examplelab.com.ar/posts/2021-07-16-creando-tutoriales-con-amigos/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-07-16-creando-tutoriales-con-amigos/</guid>
+      <description>Esta semana grabé unos videotutoriales nuevos de pilas engine junto a unos amigos.
+Primero, grabé un video junto a Fede Sawady en donde nos pusimos a hacer un juego de ninjas estilo Pocky and Rocky:
+Una cosa interesante de este juego es que nos permitió hablar acerca de ángulos y operaciones trigonométricas directamente en la llamada:
+Y aquí creo que surgió algo interesante que no me había pasado en otros videos: Armar el video junto a otra persona da lugar a ideas, preguntas y estrategias que no aparecen cuando grabas el video solo.</description>
+    </item>
+    
     <item>
       <title>Cambiando de terminal a Alacritty</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-09-cambiando-de-terminal/</link>
