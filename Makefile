@@ -32,4 +32,4 @@ deploy:
 	@git add docs
 	@git commit -am "actualizando archivos .html"
 	@git push origin master
-	@echo "${G}Listo, se hizo el deploy en https://www.examplelab.com.ar${N}"
+	@echo "${G}Listo, se hizo el deploy en https://www.examplelab.com.ar (github pages)${N}"
