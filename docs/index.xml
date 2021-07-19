@@ -6,7 +6,38 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avanzar cuadro a cuadro en Youtube</title>
+      <link>https://www.examplelab.com.ar/posts/2021-07-18-avanzar-cuadro-a-cuadro-en-youtube/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-07-18-avanzar-cuadro-a-cuadro-en-youtube/</guid>
+      <description>&lt;p&gt;La semana pasada vi una película de animación con mis sobrinos
+en donde aparecía una computadora que hablaba haciendo unos
+gestos bastante graciosos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/avanzar-cuadro-a-cuadro-en-youtube/pelicula.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Esta animación de la computadora me gustó mucho, así que me dieron ganas de
+verla en cámara lenta, cuadro a cuadro, y ver si podía copiarla para usar en
+algún proyecto.&lt;/p&gt;
+&lt;p&gt;Busqué el video de esa escena de la película en youtube
+y luego encontré que había dos atajos de teclado en el reproductor para
+poder avanzar cuadro a cuadro el video:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Tecla    Acción
+=====    ======
+  ,      Retroceder un cuadro de animación.
+  .      Avanzar un cuadro de animación.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Con estos atajos pude extraer los cuadros de animación de la
+película de manera exacta:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/avanzar-cuadro-a-cuadro-en-youtube/animacion.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;y comenzar a copiar la animación:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/avanzar-cuadro-a-cuadro-en-youtube/ase.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Me pareció buena idea comentar este descubrimiento. Muchas veces
+quise tomar capturas de pantalla puntuales sobre youtube y gracias
+a estos atajos resulta más sencillo.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Creando tutoriales con amigos</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-16-creando-tutoriales-con-amigos/</link>
