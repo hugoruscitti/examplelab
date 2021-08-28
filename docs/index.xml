@@ -6,7 +6,31 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un ajuste mínimo al Dock</title>
+      <link>https://www.examplelab.com.ar/posts/2021-08-28-un-ajuste-minimo-al-dock/</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-08-28-un-ajuste-minimo-al-dock/</guid>
+      <description>&lt;p&gt;Hace tiempo que no escribo en el blog, así que se me
+ocurrió que una forma de retomar el ritmo es explicar
+este pequeño truco.&lt;/p&gt;
+&lt;p&gt;Resulta que Osx tiene un Dock en donde las aplicaciones
+&amp;ldquo;saltan&amp;rdquo; si hay un mensaje importante para atender. Por
+ejemplo si inicias la descarga de un archivo y el navegador
+quiere saber dónde guardar el archivo el navegador va a
+interrumpirte.&lt;/p&gt;
+&lt;p&gt;A mí no me gustan las interrupciones, así que busqué por
+todos lados como desactivar esos íconos saltarines.&lt;/p&gt;
+&lt;p&gt;Por suerte solo hay que ejecutar este comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;defaults write com.apple.dock no-bouncing -bool TRUE
+killall Dock
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y listo, con eso los íconos ya no se ponen a &amp;ldquo;saltar&amp;rdquo; buscando
+llamar tu atención.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Un buen consejo puede estar en cualquier lugar</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-27-un-buen-consejo/</link>
