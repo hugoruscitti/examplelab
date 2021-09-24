@@ -176,7 +176,7 @@ en mensaje de una sección de la aplicación a otra.</p>
 personalizado, &ldquo;conectarnos&rdquo; a ese evento, y luego lanzarlo desde otra
 parte de la aplicación.</p>
 <p>Por ejemplo de esta forma:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Para disparar el evento
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Para disparar el evento
 </span><span style="color:#75715e"></span>window.<span style="color:#a6e22e">dispatchEvent</span>(<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">CustomEvent</span>(<span style="color:#e6db74">&#34;cambia-balance&#34;</span>, { 
   <span style="color:#a6e22e">detail</span><span style="color:#f92672">:</span> { 
     <span style="color:#a6e22e">nuevoBalance</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4000</span>, 
@@ -205,7 +205,7 @@ siempre el motivo del error es muy tonto pero aún así me lleva mucho tiempo en
 <h1 id="eventos-bajo-tipos">Eventos bajo tipos</h1>
 <p>Otra forma de crear el sistema de eventos es comenzar definiendo
 qué estructura deberán tener los eventos:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Eventos</span> <span style="color:#f92672">=</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Eventos</span> <span style="color:#f92672">=</span> {
   <span style="color:#e6db74">&#34;cambia-balance&#34;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">cuentaID</span>: <span style="color:#66d9ef">number</span>, <span style="color:#a6e22e">nuevoBalance</span>: <span style="color:#66d9ef">number</span>},
   <span style="color:#75715e">// otros eventos
 </span><span style="color:#75715e"></span>}
@@ -216,7 +216,7 @@ de dato <code>Evento</code>, en realidad nos estamos refiriendo a un <code>strin
 que también tiene que ser una clave del diccionario Eventos.</p>
 <p>Ahora, para asegurarnos de que el código que envía eventos
 use el sistema de tipos hice esta función:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">enviar</span>&lt;<span style="color:#f92672">T</span> <span style="color:#a6e22e">extends</span> <span style="color:#a6e22e">keyof</span> <span style="color:#a6e22e">Eventos</span>&gt;(<span style="color:#a6e22e">nombre</span>: <span style="color:#66d9ef">T</span>, <span style="color:#a6e22e">datos</span>: <span style="color:#66d9ef">Eventos</span>[<span style="color:#a6e22e">T</span>]) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">enviar</span>&lt;<span style="color:#f92672">T</span> <span style="color:#a6e22e">extends</span> <span style="color:#a6e22e">keyof</span> <span style="color:#a6e22e">Eventos</span>&gt;(<span style="color:#a6e22e">nombre</span>: <span style="color:#66d9ef">T</span>, <span style="color:#a6e22e">datos</span>: <span style="color:#66d9ef">Eventos</span>[<span style="color:#a6e22e">T</span>]) {
   window.<span style="color:#a6e22e">dispatchEvent</span>(<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">CustomEvent</span>(<span style="color:#a6e22e">nombre</span>, { <span style="color:#a6e22e">detail</span>: <span style="color:#66d9ef">datos</span> }));
 }
 </code></pre></div><p>Así, cuando queremos usar esta función para enviar un
@@ -227,7 +227,7 @@ datos necesitamos especificar en cada evento:</p>
 ejecutar el programa para darnos cuenta de que algo anda mal:</p>
 <p><img src="/images/2021/sistema-de-eventos-tipados/tip.png" alt=""></p>
 <p>Luego, la función para conectar mensajes podría tener esta forma:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">conectar</span>&lt;<span style="color:#f92672">T</span> <span style="color:#a6e22e">extends</span> <span style="color:#a6e22e">keyof</span> <span style="color:#a6e22e">Eventos</span>&gt;(<span style="color:#a6e22e">nombre</span>: <span style="color:#66d9ef">T</span>, <span style="color:#a6e22e">fn</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">datos</span>: <span style="color:#66d9ef">Eventos</span>[<span style="color:#a6e22e">T</span>], <span style="color:#a6e22e">evento</span>: <span style="color:#66d9ef">CustomEvent</span>) <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">void</span>) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">conectar</span>&lt;<span style="color:#f92672">T</span> <span style="color:#a6e22e">extends</span> <span style="color:#a6e22e">keyof</span> <span style="color:#a6e22e">Eventos</span>&gt;(<span style="color:#a6e22e">nombre</span>: <span style="color:#66d9ef">T</span>, <span style="color:#a6e22e">fn</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">datos</span>: <span style="color:#66d9ef">Eventos</span>[<span style="color:#a6e22e">T</span>], <span style="color:#a6e22e">evento</span>: <span style="color:#66d9ef">CustomEvent</span>) <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">void</span>) {
   window.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#a6e22e">nombre</span>, (<span style="color:#a6e22e">e</span>: <span style="color:#66d9ef">CustomEvent</span>) <span style="color:#f92672">=&gt;</span> {
     <span style="color:#a6e22e">fn</span>.<span style="color:#a6e22e">call</span>(<span style="color:#66d9ef">this</span>, <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">detail</span>, <span style="color:#a6e22e">e</span>);
   });

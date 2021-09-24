@@ -157,7 +157,7 @@ Técnicamente hablando, la aplicación simplemente busca videos en un directorio
 <p>Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.</p>
 <h2 id="creando-la-aplicación">Creando la aplicación</h2>
 <p>El primer paso fue crear la aplicación ember e instalar algunas pocas extensiones:</p>
-<pre><code>ember new visor-offline
+<pre tabindex="0"><code>ember new visor-offline
 cd visor-offline
 
 ember install ember-electron
@@ -168,7 +168,7 @@ ember install ember-bootstrap
 </ul>
 <h2 id="previsualizando-la-aplicación">Previsualizando la aplicación</h2>
 <p>Lo interesante de ember-electron es que te permite simplificar un montón de pasos, por ejemplo, para ejecutar la aplicación podemos escribir:</p>
-<pre><code>ember electron
+<pre tabindex="0"><code>ember electron
 </code></pre><p>y lo que veremos en pantalla es la aplicación corriendo dentro del entorno de electron:</p>
 <p><img src="/images/2016/06/primer-version.png" alt="primer-version"></p>
 <p>y al igual que sucede cuando ejecutamos <code>ember serve</code>, cualquier cambio que hagamos en el código nos va a mostrar los cambios inmediatamente.</p>
@@ -178,7 +178,7 @@ ember install ember-bootstrap
 <p>Entonces, para descargar videos necesitaba de otra aplicación. Así que elegí usar ClipGrab, una aplicación muy sencilla que permite descargar videos desde youtube en distintos formatos:</p>
 <p><img src="/images/2016/06/descargas.png" alt="descargas"></p>
 <p>Ahora, para generar las miniaturas usé un pequeño script, que internamente invoca al comando <code>ffmpegthumbnailer</code>:</p>
-<pre><code># Archivo: crear_miniaturas.py
+<pre tabindex="0"><code># Archivo: crear_miniaturas.py
 import os
 
 for x in os.listdir('.'):
@@ -191,7 +191,7 @@ for x in os.listdir('.'):
 <p>Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.</p>
 <p>Así que adopté la siguiente convención: los videos se deberían grabar directamente en el directorio <code>c:\videos</code> y las miniaturas generadas en <code>c:\videos\thumbs</code>, así el visor de video solo tendría que ir a buscarlos en esos directorios.</p>
 <p>En el caso de osx y linux el procedimiento es muy similar, solamente que buscará videos en <code>$HOME/videos</code> y las miniaturas en <code>$HOME/videos/thumbs</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/routes/index.js
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/routes/index.js
 </span><span style="color:#75715e"></span>
 <span style="color:#66d9ef">import</span> <span style="color:#a6e22e">Ember</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;ember&#34;</span>;
 
@@ -203,7 +203,7 @@ for x in os.listdir('.'):
   }
 });
 </code></pre></div><p>Y como el hook &ldquo;model&rdquo; está preparado para manejar promesas, implementé la función <code>getVideos</code> para que retorne una promesa:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/services/video.js
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/services/video.js
 </span><span style="color:#75715e"></span>
 [...]
 
@@ -235,7 +235,7 @@ for x in os.listdir('.'):
 
 [...]
 </code></pre></div><p>El siguiente paso es recorrer la lista de videos desde el template:</p>
-<pre><code>{{#each model as |video|}}
+<pre tabindex="0"><code>{{#each model as |video|}}
   {{v-videoThumb video=video}}
 {{else}}
 
@@ -252,7 +252,7 @@ for x in os.listdir('.'):
 <p><img src="/images/2016/06/preview2.png" alt="preview2"></p>
 <h3 id="automatizando-la-generación-de-binarios">Automatizando la generación de binarios</h3>
 <p>En este punto, si quisiéramos crear los binarios desde nuestra propia computadora tendríamos que ejecutar el siguiente comando:</p>
-<pre><code>ember electron:package --platform=win32 --ignore &quot;node_modules/\.bin&quot;
+<pre tabindex="0"><code>ember electron:package --platform=win32 --ignore &quot;node_modules/\.bin&quot;
 </code></pre><p>Sin embargo, algo más interesante es automatizar este procedimiento, hacer que los binarios se generen en un servidor remoto y se suban a github.</p>
 <p>Para eso configuré el servicio <a href="travis-ci.org">travis-ci</a> que va a ejecutar los tests, generar los binarios y los sube a github. Todo de manera automatizada, sin ocupar recursos en mi computadora y super rápido:</p>
 <p><img src="/images/2016/06/travis.png" alt=""></p>

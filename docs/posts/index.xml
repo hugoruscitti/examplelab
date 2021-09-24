@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El propósito de tu tecnología</title>
+      <link>https://www.examplelab.com.ar/posts/2021-09-24-el-proposito-de-tu-tecnologia/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-09-24-el-proposito-de-tu-tecnologia/</guid>
+      <description>Las nuevas tecnologías despiertan la ilusión de muchas personas. Aún no comprendo exactamente por qué.
+¿Cuál es el propósito de tanta tecnología?, ¿Qué problema resuelven realmente?.
+Esta semana, por ejemplo, Facebook lanzó al mercado un par de anteojos con montones de features: se conectan automáticamente a Internet, nos dan servicios e información sobre lo que estamos viendo, incorporan una cámara de fotos etc.
+Además, casi todas las noticias que me llegaron al respecto hablaban de lo mismo: el movimiento de la empresa, el lanzamiento en sí, el interés de los consumidores y las espectativas sobre qué cosas se podrán hacer en el futuro con semejante tecnología.</description>
+    </item>
+    
     <item>
       <title>Un ajuste mínimo al Dock</title>
       <link>https://www.examplelab.com.ar/posts/2021-08-28-un-ajuste-minimo-al-dock/</link>

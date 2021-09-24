@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
     
-      <title>Cambiar palabras en VIM :: Examplelab — Mi blog</title>
+      <title>El propósito de tu tecnología :: Examplelab — Mi blog</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Uno de los comandos que uso mucho en vim es change. Este comando que se puede combinar con un movimiento para cambiar párrafos, palabras, texto delimitado entre comillas y más.
-Una vez que te acostumbras a los comandos de vim ya ni pensás en ellos, cw cambia una palabra, cap un párrafo y ci&amp;quot; el contenido entre comillas etc..
-Poder navegar entre palabras y hacer cambios rápidos está muy bueno cuando tenés código como este, donde hay delimitadores como las comillas, espacios y tags:"/>
+<meta name="description" content="Las nuevas tecnologías despiertan la ilusión de muchas personas. Aún no comprendo exactamente por qué.
+¿Cuál es el propósito de tanta tecnología?, ¿Qué problema resuelven realmente?.
+Esta semana, por ejemplo, Facebook lanzó al mercado un par de anteojos con montones de features: se conectan automáticamente a Internet, nos dan servicios e información sobre lo que estamos viendo, incorporan una cámara de fotos etc.
+Además, casi todas las noticias que me llegaron al respecto hablaban de lo mismo: el movimiento de la empresa, el lanzamiento en sí, el interés de los consumidores y las espectativas sobre qué cosas se podrán hacer en el futuro con semejante tecnología."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/" />
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-09-24-el-proposito-de-tu-tecnologia/" />
 
 
 
@@ -33,21 +34,19 @@ Poder navegar entre palabras y hacer cambios rápidos está muy bueno cuando ten
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Cambiar palabras en VIM"/>
-<meta name="twitter:description" content="Algunos consejos sobre cómo cambiar palabras
-en VIM y configuraciones útiles.
+<meta name="twitter:title" content="El propósito de tu tecnología"/>
+<meta name="twitter:description" content="Unas reflexiones sobre los productos nuevos y las ilusiones que genera en las personas.
 "/>
 
 
 
-<meta property="og:title" content="Cambiar palabras en VIM" />
-<meta property="og:description" content="Algunos consejos sobre cómo cambiar palabras
-en VIM y configuraciones útiles.
+<meta property="og:title" content="El propósito de tu tecnología" />
+<meta property="og:description" content="Unas reflexiones sobre los productos nuevos y las ilusiones que genera en las personas.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-03-30T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-03-30T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-09-24-el-proposito-de-tu-tecnologia/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-09-24T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
 
 
 
@@ -139,11 +138,11 @@ en VIM y configuraciones útiles.
 
 
   <div class="post">
-    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/">Cambiar palabras en VIM</a></h2>
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-09-24-el-proposito-de-tu-tecnologia/">El propósito de tu tecnología</a></h2>
     <div class="post-meta">
       
         <span class="post-date">
-            30/03/2021
+            24/09/2021
         </span>
       
       
@@ -153,31 +152,23 @@ en VIM y configuraciones útiles.
     
 
     <div class="post-content">
-      <p>Uno de los comandos que uso mucho en <em>vim</em> es <code>change</code>. Este comando
-que se puede combinar con un movimiento para cambiar párrafos, palabras, texto
-delimitado entre comillas y más.</p>
-<p>Una vez que te acostumbras a los comandos de <em>vim</em> ya ni pensás en ellos, <code>cw</code> cambia
-una palabra, <code>cap</code> un párrafo y <code>ci&quot;</code> el contenido entre comillas etc..</p>
-<p>Poder navegar entre palabras y hacer cambios rápidos está muy
-bueno cuando tenés código como este, donde hay delimitadores como
-las comillas, espacios y tags:</p>
-<p><img src="/images/2021/cambiar-palabras-en-vim/texto.png" alt="texto"></p>
-<p>Sin embargo, hay algo que hace tiempo que me resultó sorpresivo y
-luego de investigar me di cuenta que se puede configurar: para <em>vim</em>, el
-guion medio es un separador de palabras.</p>
-<p>Por ejemplo, aquí <em>vim</em> identificará 7 palabras dentro de las comillas:</p>
-<p><img src="/images/2021/cambiar-palabras-en-vim/palabras.png" alt="palabras"></p>
-<p>Pero si estamos editando clases en un elemento, el guion del medio no es
-un separador, el guion es parte del nombre de la clase.</p>
-<p>Si pulsamos <code>cw</code> sobre la clase <code>bg-light-gray</code> <em>vim</em> pensará que queremos
-cambiar la palabra <code>bg</code> en lugar del nombre completo de la clase.</p>
-<p>Por suerte <em>vim</em> tiene un parámetro para cambiar este comportamiento:</p>
-<pre tabindex="0"><code>set iskeyword+=-
-</code></pre><p>Colocando esta configuración en el archivo <code>.vimrc</code> ahora los nombres de
-clases se pueden cambiar como si fueran solo 3 palabras:</p>
-<p><img src="/images/2021/cambiar-palabras-en-vim/palabras2.png" alt="palabras conciderando guiones"></p>
-<p>Obviamente <em>vim</em> está repleto de estos detalles configurables, pero este es uno de
-los que quería mencionar hoy porque estuve editando clases css como un loco :P</p>
+      <p>Las nuevas tecnologías despiertan la ilusión de muchas personas. Aún
+no comprendo exactamente por qué.</p>
+<p>¿Cuál es el propósito de tanta tecnología?, ¿Qué problema
+resuelven realmente?.</p>
+<p>Esta semana, por ejemplo, Facebook lanzó al mercado un par
+de anteojos con montones de <em>features</em>: se conectan automáticamente
+a Internet, nos dan servicios e información sobre lo que estamos
+viendo, incorporan una cámara de fotos etc.</p>
+<p>Además, casi todas las noticias que me llegaron al respecto hablaban
+de lo mismo: el movimiento de la empresa, el lanzamiento en sí, el
+interés de los consumidores y las <em>espectativas</em> sobre qué cosas
+se podrán hacer en el futuro con semejante tecnología.</p>
+<p>Pareciera que nadie se pregunta por el propósito ciertas tecnologías o
+simplemente estuviéramos en la búsqueda constante de tener una vida más
+cómoda, fácil y asistida.</p>
+<p>¿Será que necesitamos de toda esta tecnología realmente?, ¿Más
+dispositivos <em>inteligentes</em> y servicios personalizados?</p>
 
     </div>
 
@@ -190,17 +181,10 @@ los que quería mencionar hoy porque estuve editando clases css como un loco :P<
           </div>
           <div class="pagination__buttons">
             
-              <span class="button previous">
-                <a href="https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/">
-                  <span class="button__icon">←</span>
-                  <span class="button__text">Devolviendo el control a tu navegador</span>
-                </a>
-              </span>
-            
             
               <span class="button next">
-                <a href="https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/">
-                  <span class="button__text">Cómo crear apuntes de referencia</span>
+                <a href="https://www.examplelab.com.ar/posts/2021-08-28-un-ajuste-minimo-al-dock/">
+                  <span class="button__text">Un ajuste mínimo al Dock</span>
                   <span class="button__icon">→</span>
                 </a>
               </span>

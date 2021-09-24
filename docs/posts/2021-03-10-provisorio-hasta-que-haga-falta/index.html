@@ -191,7 +191,7 @@ con un script, para generar un <code>.zip</code> con cada proyecto y luego elimi
 que ya no se utilizarán.</p>
 <p>Ah, y en el camino aprendí que <em>PostgreSQL</em> te permite listar el tamaño de las
 tablas más grandes ejecutando este <em>query</em>:</p>
-<pre><code>SELECT relname AS &quot;Table&quot;,
+<pre tabindex="0"><code>SELECT relname AS &quot;Table&quot;,
        Pg_size_pretty(Pg_total_relation_size(relid)) AS &quot;Size&quot;,
        Pg_size_pretty(Pg_total_relation_size(relid) - Pg_relation_size(relid)) AS &quot;External Size&quot;
 FROM   pg_catalog.pg_statio_user_tables
