@@ -157,9 +157,9 @@ Mi sorpresa principal fue encontrarme que ember-cli, no funcionaba junto a node-
 <h2 id="instalando-ember-cli">Instalando ember-cli</h2>
 <p>Para desarrollar aplicaciones con ember es aconsejable usar una herramienta llamada <a href="(http://www.ember-cli.com/)">ember-cli</a>, ya que nos permite crear fácilmente la estructura de la aplicación inicial, ejecutar tests y construir componentes fácilmente.</p>
 <p>Para instalarlo hay que ejecutar el siguiente comando:</p>
-<pre tabindex="0"><code>npm install -g ember-cli
+<pre><code>npm install -g ember-cli
 </code></pre><p>o bien:</p>
-<pre tabindex="0"><code>sudo npm install -g ember-cli
+<pre><code>sudo npm install -g ember-cli
 </code></pre><p>Si no tenés npm, tendrías <a href="http://examplelab.com.ar/como-instalar-nodejs-en-huayra-linux/">que instalar nodejs</a> antes (npm es el gestor de paquetes que incluye nodejs).</p>
 <h2 id="creando-un-proyecto-de-ejemplo">Creando un proyecto de ejemplo</h2>
 <p>Para listar los pasos y mostrar como integrarlo a node-webkit, tomemos un directorio de ejemplo y vamos a construir una aplicación dentro.</p>
@@ -208,7 +208,7 @@ algunos cambios en el archivo <code>app/index.html</code> para resolverlo.</p>
 <p>Lo ideal es que tanto <code>ember-cli</code> y <code>node-webkit</code> puedan acceder a su propia función <code>require</code>, así que redefiní la función de modo tal que responda tal y como espera cada uno:</p>
 <p><img src="/images/2014/12/patch.png" alt=""></p>
 <p>Este es el contenido <code>app/index.html</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
 <span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
   &lt;<span style="color:#f92672">head</span>&gt;
@@ -258,9 +258,9 @@ algunos cambios en el archivo <code>app/index.html</code> para resolverlo.</p>
 </code></pre></div><h2 id="activando-live-reload-con-node-wekbit">Activando live reload con node-wekbit</h2>
 <p>Por último, hay una forma de actividad el modo <code>live-reload</code> en <code>node-webkit</code>, la idea es agregar una sentencia dentro
 del archivo <code>app/index.html</code> para actualizar node-webkit así:</p>
-<pre tabindex="0"><code>&lt;script src='livereload.js'&gt;&lt;/script&gt;
+<pre><code>&lt;script src='livereload.js'&gt;&lt;/script&gt;
 </code></pre><p>y luego crear el archivo <code>public/livereload.js</code> con este contenido:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;fs&#39;</span>);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;fs&#39;</span>);
 
 <span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">watchFile</span>(<span style="color:#e6db74">&#39;index.html&#39;</span>, <span style="color:#66d9ef">function</span>() {
   <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;nw.gui&#39;</span>).<span style="color:#a6e22e">Window</span>.<span style="color:#a6e22e">get</span>().<span style="color:#a6e22e">reloadIgnoringCache</span>();

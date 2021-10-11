@@ -162,7 +162,7 @@ Algo básico con readline</p>
 <p><code>Readline</code> es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.</p>
 <p>Por ejemplo, el interprete de comandos Bash utiliza <code>readline</code> y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&hellip;</p>
 <p>Para crear un programa interactivo de python usando <code>readline</code> se puede usar el módulo <code>readline</code>:</p>
-<pre tabindex="0"><code>import readline
+<pre><code>import readline
 
 nombres = ['pepe', 'pedro']
 
@@ -191,7 +191,7 @@ while 1:
 <p>Ahora bien, con lo que hemos visto ya podemos crear auto-completado de palabras personalizados. Pero si lo que buscamos es auto-completar código python, necesitarías inspeccionar objetos, módulos o bibliotecas.</p>
 <p>Un módulo conveniente para hacer esta tarea es <code>rlcompleter</code>, que se encarga de hacer todo este trabajo de sugerencias por nosotros.</p>
 <p>Esto es interesante para hacer interpretes python personalizados, por ejemplo el siguiente intérprete se puede usar para hacer pruebas sobre dos conjuntos:</p>
-<pre tabindex="0"><code>import rlcompleter
+<pre><code>import rlcompleter
 import readline
 readline.parse_and_bind(&quot;tab: complete&quot;)
 
