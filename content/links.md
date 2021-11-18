@@ -19,6 +19,7 @@ recomiendo ver [este otro post](/posts/2021-01-29-coleccionando-articulos/).
   <img src="/images/links.png" width="100" height="100" class="br-100 dib">
 </div>
 
+- [Slow Down, Finish Faster](https://briandicroce.com/slow-down-finish-faster/)
 - [Programming's Dirtiest Little Secret](/links-files/programmings-dirtiest-little-secret)
 - [I’m a boring programmer (and proud of it)](/links-files/iam-boring-programmer)
 - [Disparar y avanzar](/links-files/disparar-y-avanzar)
