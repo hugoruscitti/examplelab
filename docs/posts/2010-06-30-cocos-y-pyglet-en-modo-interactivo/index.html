@@ -185,13 +185,13 @@ Una aclaración inicial</p>
 <p>Luego, se abrirá una pantalla con un sprite que podrás manipular:</p>
 <p><img src="/images/2013/Oct/screen_cara.png" alt=""></p>
 <p>Por ejemplo, dentro de la consola python tiene dos referencias iniciales: cocos y sprite. Hagamos algo con ellas:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sprite<span style="color:#f92672">.</span>rotate <span style="color:#f92672">=</span> <span style="color:#ae81ff">40</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sprite<span style="color:#f92672">.</span>rotate <span style="color:#f92672">=</span> <span style="color:#ae81ff">40</span>
 </code></pre></div><p>obteniendo:</p>
 <p><img src="/images/2013/Oct/rotate.png" alt=""></p>
 <p>Esto es útil para mostrar que el objeto en cuestión tiene atributos, y que se pueden manipular de manera sencilla.</p>
 <p>También puedes ejecutar sentencias como <code>help(cocos)</code> o similares.</p>
 <p>Ahora bien, con este escenario resulta mas interesante hablar sobre una de las características mas lindas que tiene <a href="http://cocos2d.org/">cocos2d</a>, el submódulo actions:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">media_vuelta <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>actions<span style="color:#f92672">.</span>RotateBy(<span style="color:#ae81ff">180</span>, <span style="color:#ae81ff">2</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">media_vuelta <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>actions<span style="color:#f92672">.</span>RotateBy(<span style="color:#ae81ff">180</span>, <span style="color:#ae81ff">2</span>)
 giro_completo <span style="color:#f92672">=</span> media_vuelta <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>
 
 sprite<span style="color:#f92672">.</span>do(giro_completo)
@@ -212,7 +212,7 @@ Un primer paso: ¿usamos hilos?</p>
 <p><img src="/images/2013/Oct/esquema.png" alt=""></p>
 <h2 id="creando-un-prototipo">Creando un prototipo</h2>
 <p>El programa principal solamente tiene que poner en funcionamiento a los tres componentes juntos:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Cola de mensajes que se utiliza para llevar comandos al hilo.</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Cola de mensajes que se utiliza para llevar comandos al hilo.</span>
 queue <span style="color:#f92672">=</span> Queue<span style="color:#f92672">.</span>Queue()
 
 <span style="color:#75715e"># Hilo que ejecuta la funcionalidad de cocos.</span>
@@ -226,7 +226,7 @@ cmd<span style="color:#f92672">.</span>cmdloop()
 </code></pre></div><p>Donde queue es la cola que se utiliza para enviar o delegar todas las cadena de texto que ingresa el usuario.</p>
 <h2 id="el-intérprete">El intérprete</h2>
 <p>Para crear el intérprete que acepta los comandos del usuario he utilizado la clase Cmd del módulo cmd:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CommandLine</span>(cmd<span style="color:#f92672">.</span>Cmd):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CommandLine</span>(cmd<span style="color:#f92672">.</span>Cmd):
 
     <span style="color:#66d9ef">def</span> __init__(self, app, queue):
         cmd<span style="color:#f92672">.</span>Cmd<span style="color:#f92672">.</span>__init__(self, <span style="color:#e6db74">&#39;TAB&#39;</span>)
@@ -244,7 +244,7 @@ cmd<span style="color:#f92672">.</span>cmdloop()
 </code></pre></div><p>La clase Cmd permite crear un intérprete de comandos parecido al original de python, incluido el autocompletado con la tecla TAB.</p>
 <h2 id="hilo-de-cocos">Hilo de cocos</h2>
 <p>El hilo que muestra la ventana de <a href="http://cocos2d.org/">cocos2d</a> solo tiene que mantener una ventana de la biblioteca visible y actualizar con frecuencia el contexto que ejecuta comandos:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Application</span>(threading<span style="color:#f92672">.</span>Thread):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Application</span>(threading<span style="color:#f92672">.</span>Thread):
 
     <span style="color:#66d9ef">def</span> __init__(self, queue):
         threading<span style="color:#f92672">.</span>Thread<span style="color:#f92672">.</span>__init__(self)
@@ -279,7 +279,7 @@ cmd<span style="color:#f92672">.</span>cmdloop()
 <p>La parte mas importante del sistema es la que se encarga de ejecutar el código que escribimos en consola.</p>
 <p>Para ello he creado un generador, que conoce la cola de donde lee los mensajes que escribimos y los pone en funcionamiento.</p>
 <p>Y dado que se trata de un generador, todo lo que se ejecuta dentro de él se mantiene en la memoria local, representando de alguna manera el contexto o espacio de nombres que buscamos conservar.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">environment</span>(queue, sprite):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">environment</span>(queue, sprite):
     <span style="color:#e6db74">&#34;&#34;&#34;Representa la session y las variables locales de la instancia interactiva.
 </span><span style="color:#e6db74">
 </span><span style="color:#e6db74">    Este entorno funciona como un generador, con la intension de guardar
