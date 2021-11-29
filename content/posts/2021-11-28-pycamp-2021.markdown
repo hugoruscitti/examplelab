@@ -42,6 +42,8 @@ nuevas y reímos un montón; hasta jugamos juegos de mesa, empecé a aprender a
 hacer malabares con pelotitas y programamos un intérprete interactivo de python
 multi-usuario:
 
+![](/images/2021/pycamp-2021/malabares.jpg)
+
 ![](/images/2021/pycamp-2021/h72510.jpg)
 
 ![](/images/2021/pycamp-2021/h7256.jpg)
