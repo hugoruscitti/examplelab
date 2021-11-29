@@ -14,8 +14,8 @@
       
       <guid>https://www.examplelab.com.ar/posts/2021-11-28-pycamp-2021/</guid>
       <description>&lt;p&gt;Este año aproveché a tomarme vacaciones y participar del Pycamp que organizó la
-gente de Pyar en San Rafael, provincia de Mendoza.&lt;/p&gt;
-&lt;p&gt;El pycamp se hizo en un predio de la UTN al lado del lago los Reyunos, rodeado
+gente de &lt;a href=&#34;https://www.python.org.ar/&#34;&gt;Pyar&lt;/a&gt; en San Rafael, provincia de Mendoza.&lt;/p&gt;
+&lt;p&gt;El pycamp se hizo en un predio &lt;a href=&#34;http://www.reyunos.utn.edu.ar/&#34;&gt;UTN los Reyunos&lt;/a&gt;, rodeado
 de montañas, pajaritos y un paisaje espectacular:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h7257.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h7254.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -31,7 +31,7 @@ trabajo y reflexionar:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/164722.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Sin embargo lo más lindo de estas vacaciones para mí fue poder reencontrarme
 con personas que no veía hace un montón de años, conocer a varias personas
-nuevas y reímos un montón, hasta jugamos juegos de mesa, empecé a aprender a
+nuevas y reímos un montón; hasta jugamos juegos de mesa, empecé a aprender a
 hacer malabares con pelotitas y programamos un intérprete interactivo de python
 multi-usuario:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h72510.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -41,9 +41,8 @@ multi-usuario:&lt;/p&gt;
 &lt;p&gt;Me gustaría volver a repetir experiencias como esta, yo había dejado de asistir
 a los pycamp hace unos años sin ningún motivo particular, supongo que dejé de
 asistir por la inercia de trabajar y estar a mil con varios proyectos.&lt;/p&gt;
-&lt;p&gt;Siento que a partir de ahora voy a tomarme más tiempo para tener más
-experiencias así, aprender de otras personas y no pasar tantas horas frente a
-la computadora.&lt;/p&gt;
+&lt;p&gt;A partir de ahora voy a tomarme más tiempo para vivir experiencias como esta,
+aprender de otras personas y no pasar tantas horas frente a la computadora.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h5762.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/pileta-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h72013.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -127,7 +126,7 @@ interrumpirte.&lt;/p&gt;
 &lt;p&gt;A mí no me gustan las interrupciones, así que busqué por
 todos lados como desactivar esos íconos saltarines.&lt;/p&gt;
 &lt;p&gt;Por suerte solo hay que ejecutar este comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;defaults write com.apple.dock no-bouncing -bool TRUE
+&lt;pre&gt;&lt;code&gt;defaults write com.apple.dock no-bouncing -bool TRUE
 killall Dock
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y listo, con eso los íconos ya no se ponen a &amp;ldquo;saltar&amp;rdquo; buscando
 llamar tu atención.&lt;/p&gt;
@@ -192,7 +191,7 @@ algún proyecto.&lt;/p&gt;
 &lt;p&gt;Busqué el video de esa escena de la película en youtube
 y luego encontré que había dos atajos de teclado en el reproductor para
 poder avanzar cuadro a cuadro el video:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Tecla    Acción
+&lt;pre&gt;&lt;code&gt;Tecla    Acción
 =====    ======
   ,      Retroceder un cuadro de animación.
   .      Avanzar un cuadro de animación.
@@ -322,7 +321,7 @@ forma que me ofrece tmux de hacer lo mismo me resulta incómoda. En tmux tendrí
 que pulsar &lt;code&gt;ctrl-b&lt;/code&gt; y luego la tecla &lt;code&gt;c&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Por suerte estos atajos se pueden
 personalizar desde el mismo archivo de configuración de alacritty &lt;code&gt;~/.alacritty.yml&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;  &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Abrir&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tabs&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nuevos&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;con&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cmd&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;  &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Abrir&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tabs&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nuevos&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;con&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cmd&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;
   &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;,        &lt;span style=&#34;color:#a6e22e&#34;&gt;mods&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Command&lt;/span&gt;,     &lt;span style=&#34;color:#a6e22e&#34;&gt;chars&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\x05\x63&amp;#34;&lt;/span&gt; }
 
   &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Acceder&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;los&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tabs&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;con&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;números&lt;/span&gt;
@@ -342,7 +341,7 @@ alacritty. Básicamente hay que usar el comando &lt;code&gt;xxd -psd&lt;/code&gt
 nos gustaría invocar y anotar la secuencia de caracteres que aparece en pantalla.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, si ejecuto &lt;code&gt;xxd -psd&lt;/code&gt; y pulso la secuencia de caracteres
 &lt;code&gt;ctrl-b&lt;/code&gt; y luego &lt;code&gt;c&lt;/code&gt;, el número que se imprime en pantalla es este:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;→ xxd -psd
+&lt;pre&gt;&lt;code&gt;→ xxd -psd
 ^Bc
 02630a
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;De donde &lt;code&gt;02&lt;/code&gt; simboliza &lt;code&gt;ctrl-b&lt;/code&gt;, &lt;code&gt;63&lt;/code&gt; a &lt;code&gt;c&lt;/code&gt; y por último &lt;code&gt;0a&lt;/code&gt; simboliza
@@ -357,10 +356,10 @@ la terminal y verificar si se veía correctamente.&lt;/p&gt;
 dentro de tmux:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/cambiando-de-terminal/comparativa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Luego edité la configuración de tmux agregando esto:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set-option -ga terminal-overrides &amp;quot;,*256col*:Tc&amp;quot;
+&lt;pre&gt;&lt;code&gt;set-option -ga terminal-overrides &amp;quot;,*256col*:Tc&amp;quot;
 set -g default-terminal &amp;quot;screen-256color&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y esta otra configuración dentro de vim:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;quot;Agrega soporte para truecolor
+&lt;pre&gt;&lt;code&gt;&amp;quot;Agrega soporte para truecolor
 if exists(&#39;+termguicolors&#39;)
   let &amp;amp;t_8f = &amp;quot;\&amp;lt;Esc&amp;gt;[38;2;%lu;%lu;%lum&amp;quot;
   let &amp;amp;t_8b = &amp;quot;\&amp;lt;Esc&amp;gt;[48;2;%lu;%lu;%lum&amp;quot;
@@ -389,7 +388,7 @@ un juego.&lt;/p&gt;
 &lt;p&gt;La grilla tiene 4 columnas y 7 filas de imágenes, si queremos
 separar cada una de estas imágenes podemos ejecutar este
 comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;convert SpriteSheet.png -crop 4x7@  +repage  +adjoin  resultado/imagen_%d.png
+&lt;pre&gt;&lt;code&gt;convert SpriteSheet.png -crop 4x7@  +repage  +adjoin  resultado/imagen_%d.png
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y lo que vamos a obtener como resultado son varias imágenes como
 estas:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-recortar-tiles-con-imagemagick/imagenes.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -406,7 +405,7 @@ como si se mezclaran entre sí.&lt;/p&gt;
 &lt;p&gt;La solución es muy simple, podemos usar otro comando de &lt;a href=&#34;https://imagemagick.org/script/index.php&#34;&gt;ImageMagick&lt;/a&gt;
 para agregar 2 píxeles transparentes al rededor de cada imagen
 y listo:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mogrify -bordercolor none -border 2 resultado/*
+&lt;pre&gt;&lt;code&gt;mogrify -bordercolor none -border 2 resultado/*
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Con esto, los archivos deberían quedarnos de esta forma:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-recortar-tiles-con-imagemagick/padding.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Es decir, un poco más grandes (20x20 píxeles), pero sin el defecto
@@ -475,7 +474,7 @@ muuuuy difícil, señal de que vale la pena invertir tiempo ahí.&lt;/p&gt;
 tres idiomas diferentes: inglés, español y portugués.&lt;/p&gt;
 &lt;p&gt;Tenemos tres archivos con los mensajes de la aplicación separados, un
 archivo por cada idioma así:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;{
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;{
 [...]
   &lt;span style=&#34;color:#a6e22e&#34;&gt;cargarNuevamente&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Seus dados já foram enviados. Não é {NAME}?&amp;#34;&lt;/span&gt;,
   &lt;span style=&#34;color:#a6e22e&#34;&gt;cargarNuevamenteLink&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; Clique aqui.&amp;#34;&lt;/span&gt;,
@@ -497,7 +496,7 @@ tener que salir ni abrir un navegador. Además, viene con varios comandos para
 traducir texto selecciona o el contenido del archivo completo.&lt;/p&gt;
 &lt;p&gt;Ahora en mi caso, como los textos están generalmente enmarcados entre comillas,
 hice tres atajos para agilizar las cosas.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;map ttn vi&amp;quot;:&#39;&amp;lt;,&#39;&amp;gt;TranslateR --target_lang=en&amp;lt;cr&amp;gt;
+&lt;pre&gt;&lt;code&gt;map ttn vi&amp;quot;:&#39;&amp;lt;,&#39;&amp;gt;TranslateR --target_lang=en&amp;lt;cr&amp;gt;
 map tte vi&amp;quot;:&#39;&amp;lt;,&#39;&amp;gt;TranslateR --target_lang=es&amp;lt;cr&amp;gt;
 map ttp vi&amp;quot;:&#39;&amp;lt;,&#39;&amp;gt;TranslateR --target_lang=pt&amp;lt;cr&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Así, cuando estoy posicionado sobre un texto y pulso &lt;code&gt;ttn&lt;/code&gt; el texto se traduce
@@ -681,12 +680,12 @@ del repositorio de código.&lt;/p&gt;
 &lt;h1 id=&#34;creando-la-migración-de-datos-para-corregir-el-problema&#34;&gt;Creando la migración de datos para corregir el problema&lt;/h1&gt;
 &lt;p&gt;Para crear un migración de este tipo en Django hay que ejecutar el siguiente
 comando, especificando el nombre de la aplicación y de la migración:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python manage.py makemigrations APP --empty -n NOMBRE
+&lt;pre&gt;&lt;code&gt;python manage.py makemigrations APP --empty -n NOMBRE
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;En nuestro caso, como la aplicación se llama escuelas, y estamos usando pipenv,
 el comando debería quedar así:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py makemigrations escuelas --empty -n corregir_valores_hexadecimales_con_ceros_a_izquierda&amp;quot;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py makemigrations escuelas --empty -n corregir_valores_hexadecimales_con_ceros_a_izquierda&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;En pantalla nos debería aparecer el nombre del archivo generado:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py makemigrations escuelas etc...
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py makemigrations escuelas etc...
 Loading .env environment variables…
 Migrations for &#39;escuelas&#39;:
   escuelas/migrations/0054_corregir_valores_hexadecimales_con_ceros_a_izquierda.py:
@@ -695,7 +694,7 @@ estructura inicial y una descripción de la migración que la precede:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-crear-migraciones-de-datos-con-django/migracion.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Ahora bien, para nuestro caso, tendremos que crear una función para corregir
 los datos Hexadecimales y agregar una referencia a la lista de operaciones:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# -*- coding: utf-8 -*-&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# -*- coding: utf-8 -*-&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# Generated by Django 1.10.4 on 2018-05-08 00:36&lt;/span&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; __future__ &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; unicode_literals
 
@@ -721,14 +720,14 @@ los datos Hexadecimales y agregar una referencia a la lista de operaciones:&lt;/
         migrations&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;RunPython(corregir_valores_hexa, migrations&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;RunPython&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;noop),
     ]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Luego, para ejecutar la migración podemos ejecutar el comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;O incluso ejecutar la migración de forma explícita usando el identificador numérico:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate escuelas 0054&amp;quot;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate escuelas 0054&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Esta última forma de ejecutar la migración es bastante útil cuando queremos
 revertir y volver a ejecutar la migración varias veces. Por ejemplo, si queres
 ejecutar varias veces la migración 0054 deberías revertirla ejecutando primero
 la migración anterior, la 0053:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate escuelas 0053&amp;quot;
+&lt;pre&gt;&lt;code&gt;pipenv run &amp;quot;python manage.py migrate escuelas 0053&amp;quot;
 pipenv run &amp;quot;python manage.py migrate escuelas 0054&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y con esto, corregimos los datos correctamente:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/como-crear-migraciones-de-datos-con-django/admin2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -799,7 +798,7 @@ aplicación llamada &amp;ldquo;maildev&amp;rdquo; para iniciar un servidor de ma
 puede ejecutar para lanzar un servidor de mails local con una interfaz web que
 simula un cliente de webmail.&lt;/p&gt;
 &lt;p&gt;Para instalarlo, se puede ejecutar:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install -g maildev
+&lt;pre&gt;&lt;code&gt;npm install -g maildev
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y para ejecutarlo maildev:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/emails-con-django-en-modo-desarrollo/ima.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Una vez que se ejecuta, si abrís un navegador con esa dirección 1080 se puede
@@ -809,7 +808,7 @@ desarrollo:&lt;/p&gt;
 &lt;p&gt;Ahora bien, desde Django, para emitir los emails a este servidor de prueba
 simplemente hay que configurar la variable EMAIL_PORT en el archivo
 settings.py:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;EMAIL_PORT = 1025
+&lt;pre&gt;&lt;code&gt;EMAIL_PORT = 1025
 EMAIL_HOST = localhost
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y por último, cada vez que emitamos un email, aparecerá en nuestro maildev
 directamente:&lt;/p&gt;
@@ -826,7 +825,7 @@ entorno, podemos hacer que la aplicación automáticamente use un SMTP local si
 está en modo desarrollo o un servidor real si está en producción.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, si tenemos un archivo de configuración (&lt;code&gt;backend/settings.py&lt;/code&gt;)
 así:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;EMAIL_PORT = os.environ.get(&#39;EMAIL_PORT&#39;)
+&lt;pre&gt;&lt;code&gt;EMAIL_PORT = os.environ.get(&#39;EMAIL_PORT&#39;)
 EMAIL_HOST = os.environ.get(&#39;EMAIL_HOST&#39;)
 EMAIL_HOST_USER = os.environ.get(&#39;EMAIL_HOST_USER&#39;, &#39;&#39;)
 EMAIL_HOST_PASSWORD = os.environ.get(&#39;EMAIL_HOST_PASSWORD&#39;, &#39;&#39;)
@@ -834,12 +833,12 @@ EMAIL_USE_TLS = os.environ.get(&#39;EMAIL_USE_TLS&#39;, &#39;&#39;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Es fácil hacer que en nuestro entorno local se utilice el servidor STMP de
 maildev, simplemente tenemos que colocar en el archivo &lt;code&gt;.env&lt;/code&gt; (que lee pipenv)
 el puerto de pruebas de SMTP:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;DATABASE_URL=&amp;quot;postgres://post...&amp;quot;
+&lt;pre&gt;&lt;code&gt;DATABASE_URL=&amp;quot;postgres://post...&amp;quot;
 DISABLE_COLLECTSTATIC=1
 EMAIL_PORT=1025
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y en producción, si usamos dokku podemos simplemente especificar un SMTP real
 usando &lt;code&gt;dokku config&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; ssh dokku@enjam... config app-backend | grep EMAIL
+&lt;pre&gt;&lt;code&gt;&amp;gt; ssh dokku@enjam... config app-backend | grep EMAIL
 EMAIL_HOST_PASSWORD:      f6TYtNv***
 EMAIL_PORT:               587
 EMAIL_HOST_USER:          hu****
@@ -852,10 +851,10 @@ o incluso el minimalista dsmtpd.&lt;/p&gt;
 &lt;p&gt;Y si solamente quieres ver un log para certificar que el correo sale
 correctamente, también podrías ejecutar esto comando sin necesidad de instalar
 nada:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python -m smtpd -n -c DebuggingServer localhost:1025
+&lt;pre&gt;&lt;code&gt;python -m smtpd -n -c DebuggingServer localhost:1025
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Otra alternativa, muy similar a la anterior. Es especificar la variable
 &lt;code&gt;&amp;quot;EMAIL_BACKEND&amp;quot;&lt;/code&gt; en la configuración de Django:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;EMAIL_BACKEND = &#39;django.core.mail.backends.console.EmailBackend&#39;
+&lt;pre&gt;&lt;code&gt;EMAIL_BACKEND = &#39;django.core.mail.backends.console.EmailBackend&#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Esta configuración hace que Django emita por consola el contenido de los emails
 en lugar de enviarlos al servidor smtp.&lt;/p&gt;
 &lt;p&gt;¡Gracias Agus por comentarnos esta última alternativa!&lt;/p&gt;
@@ -1371,11 +1370,11 @@ se mueve todo el tiempo!:&lt;/p&gt;
 &lt;p&gt;Ahora bien, como el navegador es un intérprete, hay ciertas cosas que se pueden inspeccionar
 y cambiar.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, el logo de la pantalla inicial se puedo ocultar usando este &lt;em&gt;css&lt;/em&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;imagen-login&lt;/span&gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;imagen-login&lt;/span&gt; {
   &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt;;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;mientras que el molesto carrusel de publicidades y el chat se pueden ocultar así:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;banner&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;container-12&lt;/span&gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;banner&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;container-12&lt;/span&gt; {
   &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt;;
 }
 
@@ -1416,7 +1415,7 @@ un separador, el guion es parte del nombre de la clase.&lt;/p&gt;
 &lt;p&gt;Si pulsamos &lt;code&gt;cw&lt;/code&gt; sobre la clase &lt;code&gt;bg-light-gray&lt;/code&gt; &lt;em&gt;vim&lt;/em&gt; pensará que queremos
 cambiar la palabra &lt;code&gt;bg&lt;/code&gt; en lugar del nombre completo de la clase.&lt;/p&gt;
 &lt;p&gt;Por suerte &lt;em&gt;vim&lt;/em&gt; tiene un parámetro para cambiar este comportamiento:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set iskeyword+=-
+&lt;pre&gt;&lt;code&gt;set iskeyword+=-
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Colocando esta configuración en el archivo &lt;code&gt;.vimrc&lt;/code&gt; ahora los nombres de
 clases se pueden cambiar como si fueran solo 3 palabras:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/cambiar-palabras-en-vim/palabras2.png&#34; alt=&#34;palabras conciderando guiones&#34;&gt;&lt;/p&gt;
@@ -1468,7 +1467,7 @@ apunte a color, con resaltado de sintaxis y formato.&lt;/p&gt;
 &lt;p&gt;Una vez que tengo una primera versión del apunte, suelo quitar
 la numeración de líneas, poner un esquema de colores claro y exportar
 todo como HTML así:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:set nonumber norelativenumber
+&lt;pre&gt;&lt;code&gt;:set nonumber norelativenumber
 :coloscheme xcodelight
 :TOhtml
 :!open %
@@ -1717,7 +1716,7 @@ con un script, para generar un &lt;code&gt;.zip&lt;/code&gt; con cada proyecto y
 que ya no se utilizarán.&lt;/p&gt;
 &lt;p&gt;Ah, y en el camino aprendí que &lt;em&gt;PostgreSQL&lt;/em&gt; te permite listar el tamaño de las
 tablas más grandes ejecutando este &lt;em&gt;query&lt;/em&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SELECT relname AS &amp;quot;Table&amp;quot;,
+&lt;pre&gt;&lt;code&gt;SELECT relname AS &amp;quot;Table&amp;quot;,
        Pg_size_pretty(Pg_total_relation_size(relid)) AS &amp;quot;Size&amp;quot;,
        Pg_size_pretty(Pg_total_relation_size(relid) - Pg_relation_size(relid)) AS &amp;quot;External Size&amp;quot;
 FROM   pg_catalog.pg_statio_user_tables
@@ -1779,7 +1778,7 @@ dejar de jugar para pensar y elaborar estrategias nuevas.&lt;/p&gt;
       
       <guid>https://www.examplelab.com.ar/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</guid>
       <description>&lt;p&gt;VIM incluye un corrector ortográfico que se puede activar con estos comandos:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set spell
+&lt;pre&gt;&lt;code&gt;set spell
 set spelllang=es
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sin embargo, este corrector solamente puede ayudarnos a detectar &lt;em&gt;typos&lt;/em&gt; y
 algunas faltas de ortografía simples.&lt;/p&gt;
@@ -1802,12 +1801,12 @@ preposiciones y concordancia.&lt;/p&gt;
 un &lt;em&gt;plugin&lt;/em&gt; llamado &lt;a href=&#34;https://github.com/rhysd/vim-grammarous&#34;&gt;vim-grammarous&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;En mi caso, como uso un gestor de paquetes llamado &lt;a href=&#34;https://github.com/junegunn/vim-plug&#34;&gt;vim-plug&lt;/a&gt; lo
 que tuve que hacer es agregar esta línea dentro de mi archivo &lt;code&gt;vimrc&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Plug &#39;rhysd/vim-grammarous&#39;
+&lt;pre&gt;&lt;code&gt;Plug &#39;rhysd/vim-grammarous&#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y luego ejecutar el comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:PlugInstall
+&lt;pre&gt;&lt;code&gt;:PlugInstall
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Luego de ejecutar esos comandos, necesitamos activar el análisis de un
 texto por primera vez para se descarguen algunos archivos más:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:GrammarousCheck --lang=es
+&lt;pre&gt;&lt;code&gt;:GrammarousCheck --lang=es
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Resulta que &lt;em&gt;LanguageTool&lt;/em&gt; funciona como una herramienta externa que incluye
 diccionarios y varios componentes internos, así que en la primera invocación
 va a necesitar instalar todo esto para continuar. En mi caso, la instalación
@@ -1823,7 +1822,7 @@ describe con claridad por qué considera que hay algo mal.&lt;/p&gt;
 para activar esta extensión fácilmente.&lt;/p&gt;
 &lt;p&gt;En mi caso, hice que el editor active la corrección pulsando &lt;code&gt;&amp;lt;space&amp;gt;&lt;/code&gt;
 y luego &lt;code&gt;s&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;noremap &amp;lt;leader&amp;gt;s :GrammarousCheck --lang=es&amp;lt;CR&amp;gt;
+&lt;pre&gt;&lt;code&gt;noremap &amp;lt;leader&amp;gt;s :GrammarousCheck --lang=es&amp;lt;CR&amp;gt;
 noremap &amp;lt;leader&amp;gt;a :GrammarousReset
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
@@ -2158,7 +2157,7 @@ insertar automáticamente código de seguimiento para saber qué partes del
 código resaltar.&lt;/p&gt;
 &lt;p&gt;Por suerte &lt;a href=&#34;https://developers.google.com/blockly/&#34;&gt;Blockly&lt;/a&gt; ya incluye algo para hacer
 esto muy fácilmente, solamente hay que escribir algo como esto:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Blockly&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;JavaScript&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;STATEMENT_PREFIX&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Blockly&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;JavaScript&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;STATEMENT_PREFIX&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`
 &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;  this.pilas.notificar_ejecucion_del_bloque(%1, this.id);
 &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://developers.google.com/blockly/&#34;&gt;Blockly&lt;/a&gt; se va a encargar de insertar
@@ -2176,7 +2175,7 @@ a resaltar por actor.&lt;/p&gt;
 todos los bloques que se ejecutan en un solo ciclo del pilas.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, en una escena donde hay dos actores con bloques
 el diccionario puede quedar así:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;{
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;{
   &lt;span style=&#34;color:#ae81ff&#34;&gt;1278&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; [
     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;M.ujdyfst~C9SNlx%%~W&amp;#34;&lt;/span&gt;,
     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;n#Df-%|n/TtB*Qc([e(d&amp;#34;&lt;/span&gt;
@@ -2248,7 +2247,7 @@ formato original, en markdown.&lt;/p&gt;
 cuando tiene imágenes.&lt;/p&gt;
 &lt;p&gt;Para esos casos, hice un atajo en VIM para generar una versión
 &lt;code&gt;.html&lt;/code&gt; de la nota y verla en el navegador:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;map &amp;lt;leader&amp;gt;P :!pandoc % -o ./tmp.html --standalone --metadata title=&amp;quot;nota&amp;quot;; open tmp.html&amp;lt;CR&amp;gt;
+&lt;pre&gt;&lt;code&gt;map &amp;lt;leader&amp;gt;P :!pandoc % -o ./tmp.html --standalone --metadata title=&amp;quot;nota&amp;quot;; open tmp.html&amp;lt;CR&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;El atajo es bastante rudimentario, pero es un buen comienzo, si veo que me resulta útil puedo
 mejorarlo, y sino descartarlo por otra cosa.&lt;/p&gt;
 &lt;h1 id=&#34;cómo-agregar-imágenes-a-las-notas&#34;&gt;Cómo agregar imágenes a las notas&lt;/h1&gt;
@@ -2265,7 +2264,7 @@ sistema la imagen que captura. Así que para poner imágenes en un
 documento simplemente: tomo la captura, activo la ventana de VIM y pulso
 &lt;code&gt;&amp;lt;leader&amp;gt;i&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Por cierto, también agregué esta configuración a mi archivo &lt;code&gt;vimrc&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nmap &amp;lt;buffer&amp;gt;&amp;lt;silent&amp;gt; &amp;lt;leader&amp;gt;i :call mdip#MarkdownClipboardImage()&amp;lt;CR&amp;gt;
+&lt;pre&gt;&lt;code&gt;nmap &amp;lt;buffer&amp;gt;&amp;lt;silent&amp;gt; &amp;lt;leader&amp;gt;i :call mdip#MarkdownClipboardImage()&amp;lt;CR&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ahora me queda pendiente la tarea de migrar todas mis notas a VIM
 y dar de baja Bear :P&lt;/p&gt;
 </description>
@@ -2291,7 +2290,7 @@ de registro a cada operación de copiado y pegado.&lt;/p&gt;
 &lt;p&gt;Por suerte VIM se puede configurar como queramos. A mí me resultaba muy incómodo
 anteponer ese nombre a cada operación, así que añadí estas dos lineas de
 configuración a mi archivo &lt;code&gt;.vimrc&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;vnoremap &amp;lt;S-y&amp;gt; &amp;quot;+y
+&lt;pre&gt;&lt;code&gt;vnoremap &amp;lt;S-y&amp;gt; &amp;quot;+y
 map &amp;lt;S-p&amp;gt; &amp;quot;+gP
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Con esta configuración, se vuelve mucho más directo copiar y pegar al portapapeles del
 sistema. Con &lt;code&gt;shift-y&lt;/code&gt; en modo visual &amp;ldquo;copiamos&amp;rdquo; el texto de VIM en
@@ -2463,7 +2462,7 @@ array y quieres convertirlo en una tabla para mostrarlos en el DOM del navegador
 insertando elementos al DOM a medida que leo el array de productos.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Que en código podría ser algo así:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tbody&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cuerpo&amp;#34;&lt;/span&gt;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tbody&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cuerpo&amp;#34;&lt;/span&gt;);
 
 &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;usuarios&lt;/span&gt;) {
   &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tr&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;createElement&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tr&amp;#34;&lt;/span&gt;);
@@ -2492,13 +2491,13 @@ de hacerlo uno a uno?.&lt;/p&gt;
 &lt;p&gt;Primero tenemos que crear un
 &lt;a href=&#34;https://developer.mozilla.org/es/docs/Web/API/DocumentFragment&#34;&gt;DocumentFragment&lt;/a&gt;,
 que es básicamente un nodo que no forma parte del documento:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;df&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;createDocumentFragment&lt;/span&gt;();
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;df&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;createDocumentFragment&lt;/span&gt;();
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Luego podemos añadir ahí todos los elementos de la tabla, uno a uno, en lugar
 de añadirlos a la tabla.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;df&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;appendChild&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;tr&lt;/span&gt;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;df&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;appendChild&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;tr&lt;/span&gt;);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y por último, podemos agregar todos los elementos juntos a la tabla, produciendo
 un solo cambio en el dom del documento:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;tbody&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;appendChild&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;df&lt;/span&gt;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;tbody&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;appendChild&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;df&lt;/span&gt;);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tomando el algoritmo original, estos son todos los cambios que tendríamos
 que hacer:&lt;/p&gt;
 
@@ -2719,7 +2718,7 @@ en mensaje de una sección de la aplicación a otra.&lt;/p&gt;
 personalizado, &amp;ldquo;conectarnos&amp;rdquo; a ese evento, y luego lanzarlo desde otra
 parte de la aplicación.&lt;/p&gt;
 &lt;p&gt;Por ejemplo de esta forma:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Para disparar el evento
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Para disparar el evento
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;window.&lt;span style=&#34;color:#a6e22e&#34;&gt;dispatchEvent&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CustomEvent&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cambia-balance&amp;#34;&lt;/span&gt;, { 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;detail&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; { 
     &lt;span style=&#34;color:#a6e22e&#34;&gt;nuevoBalance&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4000&lt;/span&gt;, 
@@ -2748,7 +2747,7 @@ siempre el motivo del error es muy tonto pero aún así me lleva mucho tiempo en
 &lt;h1 id=&#34;eventos-bajo-tipos&#34;&gt;Eventos bajo tipos&lt;/h1&gt;
 &lt;p&gt;Otra forma de crear el sistema de eventos es comenzar definiendo
 qué estructura deberán tener los eventos:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Eventos&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Eventos&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cambia-balance&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;cuentaID&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;number&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;nuevoBalance&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;number&lt;/span&gt;},
   &lt;span style=&#34;color:#75715e&#34;&gt;// otros eventos
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
@@ -2759,7 +2758,7 @@ de dato &lt;code&gt;Evento&lt;/code&gt;, en realidad nos estamos refiriendo a un
 que también tiene que ser una clave del diccionario Eventos.&lt;/p&gt;
 &lt;p&gt;Ahora, para asegurarnos de que el código que envía eventos
 use el sistema de tipos hice esta función:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;enviar&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;T&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyof&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Eventos&lt;/span&gt;&amp;gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nombre&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;T&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;datos&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Eventos&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;]) {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;enviar&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;T&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyof&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Eventos&lt;/span&gt;&amp;gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nombre&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;T&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;datos&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Eventos&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;]) {
   window.&lt;span style=&#34;color:#a6e22e&#34;&gt;dispatchEvent&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CustomEvent&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nombre&lt;/span&gt;, { &lt;span style=&#34;color:#a6e22e&#34;&gt;detail&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;datos&lt;/span&gt; }));
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Así, cuando queremos usar esta función para enviar un
@@ -2770,7 +2769,7 @@ datos necesitamos especificar en cada evento:&lt;/p&gt;
 ejecutar el programa para darnos cuenta de que algo anda mal:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/sistema-de-eventos-tipados/tip.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Luego, la función para conectar mensajes podría tener esta forma:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;conectar&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;T&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyof&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Eventos&lt;/span&gt;&amp;gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nombre&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;T&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;fn&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;datos&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Eventos&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;], &lt;span style=&#34;color:#a6e22e&#34;&gt;evento&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;CustomEvent&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt;) {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;conectar&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;T&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyof&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Eventos&lt;/span&gt;&amp;gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nombre&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;T&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;fn&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;datos&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Eventos&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;], &lt;span style=&#34;color:#a6e22e&#34;&gt;evento&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;CustomEvent&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt;) {
   window.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nombre&lt;/span&gt;, (&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;CustomEvent&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; {
     &lt;span style=&#34;color:#a6e22e&#34;&gt;fn&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;call&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;detail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;);
   });
@@ -2822,7 +2821,7 @@ instaladas de forma global: typescript, python, make, vim, uglify-js etc&amp;hel
 que un proyecto tiene que poder &amp;ldquo;auto-instalarse&amp;rdquo; en cualquier equipo usando &lt;code&gt;npm install&lt;/code&gt;
 desde cero no me gusta sinceramente.&lt;/p&gt;
 &lt;p&gt;Entonces, un proyecto se puede iniciar con 3 archivos, &amp;ldquo;index.html&amp;rdquo;, &amp;ldquo;app.js&amp;rdquo; y &amp;ldquo;app.css&amp;rdquo;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;→ ls 
+&lt;pre&gt;&lt;code&gt;→ ls 
 app.css     app.js      index.html
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y conforme necesite más, puedo ser consciente de qué piezas me conviene
 agregar y si realmente me benefician a no.&lt;/p&gt;
@@ -2832,7 +2831,7 @@ web que actualice el navegador cada vez que realizo cambios en los archivos
 del proyecto.&lt;/p&gt;
 &lt;p&gt;Para eso utilizo &lt;a href=&#34;https://www.npmjs.com/package/live-server&#34;&gt;este comando&lt;/a&gt; que
 instalé de forma global en mi sistema:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;live-server
+&lt;pre&gt;&lt;code&gt;live-server
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Esto es un &amp;ldquo;chiche&amp;rdquo; en realidad, porque solamente me ahorra cambiar
 de ventana y pulsar &lt;code&gt;cmd+r&lt;/code&gt; para recargar la página.&lt;/p&gt;
 &lt;p&gt;Sin embargo para mí esto añade algo de diversión y comodidad, porque puedo
@@ -2852,11 +2851,11 @@ el proyecto en diferentes archivos y tener un solo comando
 para empaquetar todo y llevarlo al navegador.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, los archivos de código los suelo guardar en un directorio
 como &lt;code&gt;src&lt;/code&gt; así:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;→ ls src/
+&lt;pre&gt;&lt;code&gt;→ ls src/
 app.ts  tsconfig.json  utils.ts
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;El archivo &lt;code&gt;tsconfig.json&lt;/code&gt; simplemente describe que queremos convertir
 todos esos archivos &lt;code&gt;.ts&lt;/code&gt; en un único archivo &lt;code&gt;app&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
+&lt;pre&gt;&lt;code&gt;{
   &amp;quot;compilerOptions&amp;quot;: {
     &amp;quot;outFile&amp;quot;: &amp;quot;../dist/app.js&amp;quot;,
     &amp;quot;sourceMap&amp;quot;: true,
@@ -2869,10 +2868,10 @@ todos esos archivos &lt;code&gt;.ts&lt;/code&gt; en un único archivo &lt;code&g
   &amp;quot;include&amp;quot;: [&amp;quot;**/*.ts&amp;quot;]
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Luego, para compilar todo, uso este comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tsc -b src
+&lt;pre&gt;&lt;code&gt;tsc -b src
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;o si quiero compilar automáticamente ante un cambio
 en alguno de los archivos de código fuente:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tsc -b src -w
+&lt;pre&gt;&lt;code&gt;tsc -b src -w
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ok, igual&amp;hellip; se que suena complejo, mi idea de minimalismo en un proyecto
 no consiste en deshacerse de la estructura y rechazar todas las herramientas.&lt;/p&gt;
 &lt;p&gt;Mi idea de un entorno minimalista es &amp;ldquo;volar liviano&amp;rdquo;, quitando las cosas
@@ -3286,7 +3285,7 @@ que me permite agregar páginas en ese archivo:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Para usar este script simplemente hay que ejecutar el siguiente comando
 en una consola:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./descargar URL
+&lt;pre&gt;&lt;code&gt;./descargar URL
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;El script se encarga de descargar el artículo, lo convierte en markdown, agrega
 un link dentro de &lt;a href=&#34;https://www.examplelab.com.ar/links&#34;&gt;&amp;ldquo;links.md&amp;rdquo;&lt;/a&gt; y deja todo listo para que puedas revisar los
 archivos y volver a subir el blog.&lt;/p&gt;
@@ -3812,7 +3811,7 @@ donde va guardando cada una de las acciones que hace la tortuga.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2020/08/861E3835-CA41-4523-953D-94A2D1C4A4BE.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Cuando pulsamos el botón ejecutar la lista debería quedar con un solo elemento, la posición inicial
 de la tortuga:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pasos = [
+&lt;pre&gt;&lt;code&gt;pasos = [
 	{
 		tipo: &amp;quot;posicion-inicial&amp;quot;,
 		x: 150,
@@ -3823,7 +3822,7 @@ de la tortuga:&lt;/p&gt;
 ]
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Luego, como el programa está en ejecución se va a procesar la linea que dice &lt;code&gt;avanzar(50)&lt;/code&gt; y cuando
 terminé de realizarse esa acción, se va a añadir este elemento a la lista:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;lista.push({
+&lt;pre&gt;&lt;code&gt;lista.push({
 	tipo: &amp;quot;movimiento-de-dibujado&amp;quot;,
 	x: 150,
 	y: 200,
@@ -4211,7 +4210,7 @@ experimento me dio muchas satisfacciones y ganas de seguir aprendiendo.&lt;/p&gt
 &lt;p&gt;Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.&lt;/p&gt;
 &lt;h2 id=&#34;creando-la-aplicación&#34;&gt;Creando la aplicación&lt;/h2&gt;
 &lt;p&gt;El primer paso fue crear la aplicación ember e instalar algunas pocas extensiones:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ember new visor-offline
+&lt;pre&gt;&lt;code&gt;ember new visor-offline
 cd visor-offline
 
 ember install ember-electron
@@ -4222,7 +4221,7 @@ ember install ember-bootstrap
 &lt;/ul&gt;
 &lt;h2 id=&#34;previsualizando-la-aplicación&#34;&gt;Previsualizando la aplicación&lt;/h2&gt;
 &lt;p&gt;Lo interesante de ember-electron es que te permite simplificar un montón de pasos, por ejemplo, para ejecutar la aplicación podemos escribir:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ember electron
+&lt;pre&gt;&lt;code&gt;ember electron
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y lo que veremos en pantalla es la aplicación corriendo dentro del entorno de electron:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/primer-version.png&#34; alt=&#34;primer-version&#34;&gt;&lt;/p&gt;
 &lt;p&gt;y al igual que sucede cuando ejecutamos &lt;code&gt;ember serve&lt;/code&gt;, cualquier cambio que hagamos en el código nos va a mostrar los cambios inmediatamente.&lt;/p&gt;
@@ -4232,7 +4231,7 @@ ember install ember-bootstrap
 &lt;p&gt;Entonces, para descargar videos necesitaba de otra aplicación. Así que elegí usar ClipGrab, una aplicación muy sencilla que permite descargar videos desde youtube en distintos formatos:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/descargas.png&#34; alt=&#34;descargas&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Ahora, para generar las miniaturas usé un pequeño script, que internamente invoca al comando &lt;code&gt;ffmpegthumbnailer&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Archivo: crear_miniaturas.py
+&lt;pre&gt;&lt;code&gt;# Archivo: crear_miniaturas.py
 import os
 
 for x in os.listdir(&#39;.&#39;):
@@ -4245,7 +4244,7 @@ for x in os.listdir(&#39;.&#39;):
 &lt;p&gt;Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.&lt;/p&gt;
 &lt;p&gt;Así que adopté la siguiente convención: los videos se deberían grabar directamente en el directorio &lt;code&gt;c:\videos&lt;/code&gt; y las miniaturas generadas en &lt;code&gt;c:\videos\thumbs&lt;/code&gt;, así el visor de video solo tendría que ir a buscarlos en esos directorios.&lt;/p&gt;
 &lt;p&gt;En el caso de osx y linux el procedimiento es muy similar, solamente que buscará videos en &lt;code&gt;$HOME/videos&lt;/code&gt; y las miniaturas en &lt;code&gt;$HOME/videos/thumbs&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// archivo: app/routes/index.js
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// archivo: app/routes/index.js
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Ember&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ember&amp;#34;&lt;/span&gt;;
 
@@ -4257,7 +4256,7 @@ for x in os.listdir(&#39;.&#39;):
   }
 });
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y como el hook &amp;ldquo;model&amp;rdquo; está preparado para manejar promesas, implementé la función &lt;code&gt;getVideos&lt;/code&gt; para que retorne una promesa:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// archivo: app/services/video.js
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// archivo: app/services/video.js
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
 [...]
 
@@ -4289,7 +4288,7 @@ for x in os.listdir(&#39;.&#39;):
 
 [...]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El siguiente paso es recorrer la lista de videos desde el template:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{#each model as |video|}}
+&lt;pre&gt;&lt;code&gt;{{#each model as |video|}}
   {{v-videoThumb video=video}}
 {{else}}
 
@@ -4306,7 +4305,7 @@ for x in os.listdir(&#39;.&#39;):
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/preview2.png&#34; alt=&#34;preview2&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;automatizando-la-generación-de-binarios&#34;&gt;Automatizando la generación de binarios&lt;/h3&gt;
 &lt;p&gt;En este punto, si quisiéramos crear los binarios desde nuestra propia computadora tendríamos que ejecutar el siguiente comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ember electron:package --platform=win32 --ignore &amp;quot;node_modules/\.bin&amp;quot;
+&lt;pre&gt;&lt;code&gt;ember electron:package --platform=win32 --ignore &amp;quot;node_modules/\.bin&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sin embargo, algo más interesante es automatizar este procedimiento, hacer que los binarios se generen en un servidor remoto y se suban a github.&lt;/p&gt;
 &lt;p&gt;Para eso configuré el servicio &lt;a href=&#34;travis-ci.org&#34;&gt;travis-ci&lt;/a&gt; que va a ejecutar los tests, generar los binarios y los sube a github. Todo de manera automatizada, sin ocupar recursos en mi computadora y super rápido:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/travis.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -4388,9 +4387,9 @@ for x in os.listdir(&#39;.&#39;):
 &lt;h3 id=&#34;convertir-el-video-a-imágenes&#34;&gt;Convertir el video a imágenes&lt;/h3&gt;
 &lt;p&gt;Buscamos varias herramientas, pero la que resultó mejor fué &lt;a href=&#34;https://www.ffmpeg.org/&#34;&gt;ffmpeg&lt;/a&gt;, un conversor de videos multiplataforma de consola completamente libre.&lt;/p&gt;
 &lt;p&gt;Para instalarlo en osx se puede usar este comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install ffmpeg
+&lt;pre&gt;&lt;code&gt;brew install ffmpeg
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Una vez instalado, hay que abrir un terminal e invocar a ffmpeg con la ruta del video y el directorio a donde vamos a guardar las imágenes:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mkdir output
+&lt;pre&gt;&lt;code&gt;mkdir output
 ffmpeg -i video_fx_1.mov -f image2 output/%05d.png -frames:v 1
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Así queda el directorio &lt;code&gt;output&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/02/output-2016-02-19-17-46-57.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -4404,7 +4403,7 @@ ffmpeg -i video_fx_1.mov -f image2 output/%05d.png -frames:v 1
 &lt;p&gt;Por último, para que animación se muestre una sola vez, tuvimos que crear un script llamado &lt;code&gt;destroy&lt;/code&gt; con una función que nos permita representar la eliminación de la entidad:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/02/Untitled-2016-02-19-15-18-06.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El script es super sencillo, alcanza con que tenga una sola función:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;using UnityEngine;
+&lt;pre&gt;&lt;code&gt;using UnityEngine;
 using System.Collections;
 
 public class destroy : MonoBehaviour {
@@ -4771,10 +4770,10 @@ class NuevActor(Actor):
 &lt;h2 id=&#34;estructura-inicial&#34;&gt;Estructura inicial&lt;/h2&gt;
 &lt;p&gt;Para armar el ejemplo comencé con la &lt;a href=&#34;https://github.com/hugoruscitti/node-webkit-ember-seed&#34;&gt;estructura inicial del proyecto&lt;/a&gt; que te había comentado en el &lt;a href=&#34;http://examplelab.com.ar/usando-ember-cli-con-node-webkit/&#34;&gt;post anterior&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Luego integré &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;bootstrap&lt;/a&gt; y un tema de &lt;a href=&#34;http://bootswatch.com/&#34;&gt;bootswatch&lt;/a&gt; con los comandos:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install --save-dev ember-cli-bootswatch
+&lt;pre&gt;&lt;code&gt;npm install --save-dev ember-cli-bootswatch
 ember generate ember-cli-bootswatch
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y agregando el nombre del tema &lt;a href=&#34;http://bootswatch.com/lumen/&#34;&gt;lumen&lt;/a&gt; en el archivo &lt;code&gt;app.js&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;[...]
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;[...]
 &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;app&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;EmberApp&lt;/span&gt;({
   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ember-cli-bootswatch&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;lumen&amp;#39;&lt;/span&gt;
 });
@@ -4788,13 +4787,13 @@ ember generate ember-cli-bootswatch
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/image-resizer-node-webkit-2015-01-03-17-41-00.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Hacer la interfaz usando las herramientas que brinda &lt;em&gt;emberjs&lt;/em&gt; es bastante práctico, primero armé dos componentes. Uno para representar la zona donde se pueden soltar archivos y otra para los mensajes.&lt;/p&gt;
 &lt;p&gt;Estos son los comandos que hacen el código inicial de los componentes:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ember generate component iresize-dropzone
+&lt;pre&gt;&lt;code&gt;ember generate component iresize-dropzone
 ember generate component iresize-messages
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/image-resizer-node-webkit-2015-01-03-00-40-48.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Luego, para componer la interfaz armé la ruta &lt;code&gt;index&lt;/code&gt; con:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ember g route index
+&lt;pre&gt;&lt;code&gt;ember g route index
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y luego edité el archivo &lt;code&gt;app/templates/index.hbs&lt;/code&gt; para mostrar estos dos componentes nuevos:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{iresize-dropzone}}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{iresize-dropzone}}
 &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;hr&lt;/span&gt;/&amp;gt;
 {{iresize-messages}}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;incorporando-archivos&#34;&gt;Incorporando archivos&lt;/h2&gt;
@@ -4805,12 +4804,12 @@ ember generate component iresize-messages
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/arrastrar.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;incorporando-imagemagick&#34;&gt;Incorporando ImageMagick&lt;/h2&gt;
 &lt;p&gt;Para incorporar ImageMagick lo mas sencillo es instalar un paquete de node llamado &lt;a href=&#34;https://github.com/yourdeveloper/node-imagemagick&#34;&gt;imagemagick&lt;/a&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install imagemagick --save-dev
+&lt;pre&gt;&lt;code&gt;npm install imagemagick --save-dev
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Este módulo simplemente ofrece una interfaz para acceder a los comandos de ImageMagick, pero no incluye ningún binario o biblioteca para compilar, es simplemente un &lt;em&gt;wrapper&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, en mi equipo tengo instalado ImageMagick, y estos son los dos binarios que puedo usar desde la biblioteca:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;➤ which identify
+&lt;pre&gt;&lt;code&gt;➤ which identify
 /usr/local/bin//identify
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;➤ which convert
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;➤ which convert
 /usr/local/bin//convert
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Así que para convertir o identificar un archivo primero tengo que requerir el módulo, configurar las rutas y luego utilizarlo. Acá hay un ejemplo de invocación:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/index-html-2015-01-03-03-10-36.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -4824,12 +4823,12 @@ ember generate component iresize-messages
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/index-html-2015-01-03-13-12-50.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;encapsulando-imagemagick&#34;&gt;Encapsulando ImageMagick&lt;/h2&gt;
 &lt;p&gt;Para que el código de nuestra aplicación quede sencillo y fácil de comprender, podemos hacer un módulo y colocar ahí todo el código relacionado con ImageMagick:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ember generate util resizer
+&lt;pre&gt;&lt;code&gt;ember generate util resizer
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/image-resizer-node-webkit-2015-01-03-13-37-44.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El código del módulo es un poco largo, pero simplemente obtiene la ruta a los binarios (dependiendo de la plataforma) y luego retorna el resultado en forma de promesa:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/hugoruscitti/image-resizer-node-webkit/blob/master/app/utils/resizer.js&#34;&gt;https://github.com/hugoruscitti/image-resizer-node-webkit/blob/master/app/utils/resizer.js&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;de esta forma, desde el controlador podemos convertir imágenes invocando al módulo &lt;code&gt;resizer&lt;/code&gt; así:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;resizer&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image-resizer-node-webkit/utils/resizer&amp;#39;&lt;/span&gt;;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;resizer&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image-resizer-node-webkit/utils/resizer&amp;#39;&lt;/span&gt;;
 
 &lt;span style=&#34;color:#a6e22e&#34;&gt;resizer&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;resize&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;input_path&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;output_path&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;).
         &lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;) {
@@ -4860,9 +4859,9 @@ ember generate component iresize-messages
 &lt;h2 id=&#34;instalando-ember-cli&#34;&gt;Instalando ember-cli&lt;/h2&gt;
 &lt;p&gt;Para desarrollar aplicaciones con ember es aconsejable usar una herramienta llamada &lt;a href=&#34;(http://www.ember-cli.com/)&#34;&gt;ember-cli&lt;/a&gt;, ya que nos permite crear fácilmente la estructura de la aplicación inicial, ejecutar tests y construir componentes fácilmente.&lt;/p&gt;
 &lt;p&gt;Para instalarlo hay que ejecutar el siguiente comando:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install -g ember-cli
+&lt;pre&gt;&lt;code&gt;npm install -g ember-cli
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;o bien:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo npm install -g ember-cli
+&lt;pre&gt;&lt;code&gt;sudo npm install -g ember-cli
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Si no tenés npm, tendrías &lt;a href=&#34;http://examplelab.com.ar/como-instalar-nodejs-en-huayra-linux/&#34;&gt;que instalar nodejs&lt;/a&gt; antes (npm es el gestor de paquetes que incluye nodejs).&lt;/p&gt;
 &lt;h2 id=&#34;creando-un-proyecto-de-ejemplo&#34;&gt;Creando un proyecto de ejemplo&lt;/h2&gt;
 &lt;p&gt;Para listar los pasos y mostrar como integrarlo a node-webkit, tomemos un directorio de ejemplo y vamos a construir una aplicación dentro.&lt;/p&gt;
@@ -4911,7 +4910,7 @@ algunos cambios en el archivo &lt;code&gt;app/index.html&lt;/code&gt; para resol
 &lt;p&gt;Lo ideal es que tanto &lt;code&gt;ember-cli&lt;/code&gt; y &lt;code&gt;node-webkit&lt;/code&gt; puedan acceder a su propia función &lt;code&gt;require&lt;/code&gt;, así que redefiní la función de modo tal que responda tal y como espera cada uno:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/12/patch.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Este es el contenido &lt;code&gt;app/index.html&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
   &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
@@ -4961,9 +4960,9 @@ algunos cambios en el archivo &lt;code&gt;app/index.html&lt;/code&gt; para resol
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;activando-live-reload-con-node-wekbit&#34;&gt;Activando live reload con node-wekbit&lt;/h2&gt;
 &lt;p&gt;Por último, hay una forma de actividad el modo &lt;code&gt;live-reload&lt;/code&gt; en &lt;code&gt;node-webkit&lt;/code&gt;, la idea es agregar una sentencia dentro
 del archivo &lt;code&gt;app/index.html&lt;/code&gt; para actualizar node-webkit así:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;script src=&#39;livereload.js&#39;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&#39;livereload.js&#39;&amp;gt;&amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y luego crear el archivo &lt;code&gt;public/livereload.js&lt;/code&gt; con este contenido:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;fs&amp;#39;&lt;/span&gt;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;fs&amp;#39;&lt;/span&gt;);
 
 &lt;span style=&#34;color:#a6e22e&#34;&gt;fs&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;watchFile&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;index.html&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
   &lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;nw.gui&amp;#39;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;Window&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;reloadIgnoringCache&lt;/span&gt;();
@@ -5476,7 +5475,7 @@ sudo apt-get install nodejs nodejs-legacy curl
 &lt;p&gt;&amp;ndash; &lt;cite&gt;John Resig en ejohn.org&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Siendo un gran fanático de la música, _Why creó una biblioteca muy interesante de Ruby para generar música de 8 bits. Se llama bloopsaphone, y como ejemplo uno puede tocar el tema de Los Simpsons con este pequeño código:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;require ‘rubygems’
+&lt;pre&gt;&lt;code&gt;require ‘rubygems’
 require ‘bloops’
 
 b = Bloops.new
@@ -5630,7 +5629,7 @@ Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGe
 &lt;p&gt;Luego, si el usuario pulsa el botón &amp;ldquo;alternar panel&amp;rdquo;, se debería ocultar el panel derecho:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/estado_2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Básicamente, armé los contenedores como bloques &lt;code&gt;div&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;&amp;lt;body&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;&amp;lt;body&amp;gt;
 
 		&amp;lt;div id=&#39;botones&#39;&amp;gt;
 			&amp;lt;a href=&#39;&#39; id=&#39;alternar&#39; class=&#39;boton&#39;&amp;gt;alternar panel&amp;lt;/a&amp;gt;
@@ -5640,7 +5639,7 @@ Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGe
 		&amp;lt;div id=&#39;panel&#39; class=&#39;panel&#39;&amp;gt;Panel Alternativo&amp;lt;/div&amp;gt;
 &amp;lt;/body&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y en la hoja de estilos asigné posicionamiento absoluto y tamaño fijo a la clase &lt;code&gt;panel&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;	&amp;lt;style&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;	&amp;lt;style&amp;gt;
 
 	.panel {
     	border: 1px solid #ff175e;
@@ -5665,7 +5664,7 @@ Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGe
 &lt;p&gt;Para ocultar y mostrar paneles podemos simplemente usar css.&lt;/p&gt;
 &lt;p&gt;Podemos crear una clase para representar el panel invisible (desplazado hacia la izquierda) y aplicarselo a un elemento del dom usando javascript.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, para el panel lateral, hay dos clases importantes:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;panel&lt;/span&gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;panel&lt;/span&gt; {
   &lt;span style=&#34;color:#66d9ef&#34;&gt;width&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
 }
 
@@ -5674,7 +5673,7 @@ Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGe
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Es decir, ocultar el panel es simplemente moverlo a la izquierda, tantos pixeles como tenga de ancho, así queda fuera de la pantalla completamente.&lt;/p&gt;
 &lt;p&gt;Luego, para mostrar y ocultar dinámicamente, agregué un botón que asigna o quita la clase &amp;ldquo;panel-invisible&amp;rdquo;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;botonAlternar&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;alternar&amp;#34;&lt;/span&gt;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;botonAlternar&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;alternar&amp;#34;&lt;/span&gt;);
 
 &lt;span style=&#34;color:#a6e22e&#34;&gt;botonAlternar&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onclick&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
   &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;panel&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;panel&amp;#34;&lt;/span&gt;);
@@ -5717,7 +5716,7 @@ Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGe
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Luego tenemos que agregar algunas reglas a nuestro archivo &lt;strong&gt;GruntFile.js&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, mi archivo &lt;strong&gt;GruntFile.js&lt;/strong&gt; a la hora de comenzar un proyecto nuevo se ve así:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;module.exports = function (grunt) {
+&lt;pre&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;module.exports = function (grunt) {
     grunt.initConfig({
       nodewebkit: {
                     options: {
@@ -5854,7 +5853,7 @@ funcionar con versiones mas nuevas también.&lt;/p&gt;
 &lt;h2 id=&#34;creando-el-cargador-básico&#34;&gt;Creando el cargador básico&lt;/h2&gt;
 &lt;p&gt;Nuestro primer cargador solamente incluirá la biblioteca estándar de python y &lt;code&gt;Tkinter&lt;/code&gt; para manejo de interfaz gráfica.&lt;/p&gt;
 &lt;p&gt;Construye un archivo llamado &lt;code&gt;cargador.py&lt;/code&gt; y el siguiente contenido:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import tkMessageBox
+&lt;pre&gt;&lt;code&gt;import tkMessageBox
 import Tkinter
 import imp
 import sys
@@ -5877,7 +5876,7 @@ except Exception, e:
 &lt;h2 id=&#34;generando-el-archivo-ejecutable&#34;&gt;Generando el archivo ejecutable&lt;/h2&gt;
 &lt;p&gt;El siguiente paso es &lt;em&gt;compilar&lt;/em&gt; nuestro cargador para que se pueda ejecutar de manera independiente.&lt;/p&gt;
 &lt;p&gt;Tenemos que crear dos archivos, &lt;code&gt;setup.py&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;from cx_Freeze import setup
+&lt;pre&gt;&lt;code&gt;from cx_Freeze import setup
 from cx_Freeze import Executable
 
 exe = Executable(
@@ -5906,7 +5905,7 @@ ejecutable del cargador:&lt;/p&gt;
 &lt;h2 id=&#34;probando-el-cargador&#34;&gt;Probando el cargador&lt;/h2&gt;
 &lt;p&gt;Ahora la carpeta &lt;code&gt;build&lt;/code&gt; tendrá todos los archivos para incluir, excepto el de nuestro programa.&lt;/p&gt;
 &lt;p&gt;Hagamos un programa sencillo, algo llamado &lt;code&gt;run.py&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import tkMessageBox
+&lt;pre&gt;&lt;code&gt;import tkMessageBox
 import Tkinter
 
 root = Tkinter.Tk()
@@ -5926,7 +5925,7 @@ tkMessageBox.showinfo(&amp;quot;Hola&amp;quot;, &amp;quot;Bienvenido al primer p
 &lt;p&gt;Para crear un cargador especial de &lt;a href=&#34;http://cocos2d.org&#34;&gt;cocos2d&lt;/a&gt; necesitamos instalar &lt;a href=&#34;http://www.pyglet.org&#34;&gt;pyglet&lt;/a&gt;, &lt;a href=&#34;http://pypi.python.org/pypi/numpy&#34;&gt;numpy&lt;/a&gt; y luego &lt;a href=&#34;http://cocos2d.org&#34;&gt;cocos2d&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Una vez concluido el proceso de instalación, tendríamos que volver
 a editar el archivo &lt;code&gt;setup.py&lt;/code&gt; e incluir a &lt;a href=&#34;http://cocos2d.org&#34;&gt;cocos2d&lt;/a&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import cocos
+&lt;pre&gt;&lt;code&gt;import cocos
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y listo, ahora solo queda ejecutar &lt;code&gt;crear_ejecutable.bat&lt;/code&gt;, copiar el archivo
 &lt;code&gt;avbin.dll&lt;/code&gt; de &lt;a href=&#34;http://avbin.github.com/AVbin/Download.html&#34;&gt;avbin&lt;/a&gt; dentro del directorio &lt;code&gt;build&lt;/code&gt;, agregar todas las imagenes que
 necesite el juego y distribuir nuestro cargador:&lt;/p&gt;
@@ -6278,7 +6277,7 @@ Algo básico con readline&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Readline&lt;/code&gt; es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, el interprete de comandos Bash utiliza &lt;code&gt;readline&lt;/code&gt; y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Para crear un programa interactivo de python usando &lt;code&gt;readline&lt;/code&gt; se puede usar el módulo &lt;code&gt;readline&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import readline
+&lt;pre&gt;&lt;code&gt;import readline
 
 nombres = [&#39;pepe&#39;, &#39;pedro&#39;]
 
@@ -6307,7 +6306,7 @@ while 1:
 &lt;p&gt;Ahora bien, con lo que hemos visto ya podemos crear auto-completado de palabras personalizados. Pero si lo que buscamos es auto-completar código python, necesitarías inspeccionar objetos, módulos o bibliotecas.&lt;/p&gt;
 &lt;p&gt;Un módulo conveniente para hacer esta tarea es &lt;code&gt;rlcompleter&lt;/code&gt;, que se encarga de hacer todo este trabajo de sugerencias por nosotros.&lt;/p&gt;
 &lt;p&gt;Esto es interesante para hacer interpretes python personalizados, por ejemplo el siguiente intérprete se puede usar para hacer pruebas sobre dos conjuntos:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import rlcompleter
+&lt;pre&gt;&lt;code&gt;import rlcompleter
 import readline
 readline.parse_and_bind(&amp;quot;tab: complete&amp;quot;)
 
@@ -6403,13 +6402,13 @@ Una aclaración inicial&lt;/p&gt;
 &lt;p&gt;Luego, se abrirá una pantalla con un sprite que podrás manipular:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Oct/screen_cara.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Por ejemplo, dentro de la consola python tiene dos referencias iniciales: cocos y sprite. Hagamos algo con ellas:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;sprite&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;rotate &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;sprite&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;rotate &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;obteniendo:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Oct/rotate.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Esto es útil para mostrar que el objeto en cuestión tiene atributos, y que se pueden manipular de manera sencilla.&lt;/p&gt;
 &lt;p&gt;También puedes ejecutar sentencias como &lt;code&gt;help(cocos)&lt;/code&gt; o similares.&lt;/p&gt;
 &lt;p&gt;Ahora bien, con este escenario resulta mas interesante hablar sobre una de las características mas lindas que tiene &lt;a href=&#34;http://cocos2d.org/&#34;&gt;cocos2d&lt;/a&gt;, el submódulo actions:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;media_vuelta &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cocos&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;actions&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;RotateBy(&lt;span style=&#34;color:#ae81ff&#34;&gt;180&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;media_vuelta &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cocos&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;actions&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;RotateBy(&lt;span style=&#34;color:#ae81ff&#34;&gt;180&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
 giro_completo &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; media_vuelta &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
 
 sprite&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;do(giro_completo)
@@ -6430,7 +6429,7 @@ Un primer paso: ¿usamos hilos?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Oct/esquema.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creando-un-prototipo&#34;&gt;Creando un prototipo&lt;/h2&gt;
 &lt;p&gt;El programa principal solamente tiene que poner en funcionamiento a los tres componentes juntos:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Cola de mensajes que se utiliza para llevar comandos al hilo.&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Cola de mensajes que se utiliza para llevar comandos al hilo.&lt;/span&gt;
 queue &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Queue&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Queue()
 
 &lt;span style=&#34;color:#75715e&#34;&gt;# Hilo que ejecuta la funcionalidad de cocos.&lt;/span&gt;
@@ -6444,7 +6443,7 @@ cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cmdloop()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Donde queue es la cola que se utiliza para enviar o delegar todas las cadena de texto que ingresa el usuario.&lt;/p&gt;
 &lt;h2 id=&#34;el-intérprete&#34;&gt;El intérprete&lt;/h2&gt;
 &lt;p&gt;Para crear el intérprete que acepta los comandos del usuario he utilizado la clase Cmd del módulo cmd:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CommandLine&lt;/span&gt;(cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Cmd):
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CommandLine&lt;/span&gt;(cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Cmd):
 
     &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; __init__(self, app, queue):
         cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__init__(self, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;TAB&amp;#39;&lt;/span&gt;)
@@ -6462,7 +6461,7 @@ cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cmdloop()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;La clase Cmd permite crear un intérprete de comandos parecido al original de python, incluido el autocompletado con la tecla TAB.&lt;/p&gt;
 &lt;h2 id=&#34;hilo-de-cocos&#34;&gt;Hilo de cocos&lt;/h2&gt;
 &lt;p&gt;El hilo que muestra la ventana de &lt;a href=&#34;http://cocos2d.org/&#34;&gt;cocos2d&lt;/a&gt; solo tiene que mantener una ventana de la biblioteca visible y actualizar con frecuencia el contexto que ejecuta comandos:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Application&lt;/span&gt;(threading&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Thread):
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Application&lt;/span&gt;(threading&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Thread):
 
     &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; __init__(self, queue):
         threading&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Thread&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__init__(self)
@@ -6497,7 +6496,7 @@ cmd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cmdloop()
 &lt;p&gt;La parte mas importante del sistema es la que se encarga de ejecutar el código que escribimos en consola.&lt;/p&gt;
 &lt;p&gt;Para ello he creado un generador, que conoce la cola de donde lee los mensajes que escribimos y los pone en funcionamiento.&lt;/p&gt;
 &lt;p&gt;Y dado que se trata de un generador, todo lo que se ejecuta dentro de él se mantiene en la memoria local, representando de alguna manera el contexto o espacio de nombres que buscamos conservar.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;environment&lt;/span&gt;(queue, sprite):
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;environment&lt;/span&gt;(queue, sprite):
     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;Representa la session y las variables locales de la instancia interactiva.
 &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
 &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    Este entorno funciona como un generador, con la intension de guardar
@@ -8550,7 +8549,7 @@ tipo de script se marcan como ignorados en git así que puedo
 colocarlo junto al código en el que estoy trabajando. Este es un
 ejemplo de uno de esos archivos en los que estuve trabajando
 la semana pasada:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# Todos (para hacer):&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# - verificar si se ejecuta dos veces si se actualiza el uso para eses día.&lt;/span&gt;
@@ -8834,7 +8833,7 @@ like to do is have a bash script in each directory named &lt;code&gt;.zing&lt;/c
 ignored by my global git-ignore so I can place them right alongside the
 code I’m working on. Here’s an example of one I was working with last
 week.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# Todos:&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# - check if ran twice if it updates the usage for that day&lt;/span&gt;

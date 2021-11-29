@@ -192,7 +192,7 @@ funcionar con versiones mas nuevas también.</p>
 <h2 id="creando-el-cargador-básico">Creando el cargador básico</h2>
 <p>Nuestro primer cargador solamente incluirá la biblioteca estándar de python y <code>Tkinter</code> para manejo de interfaz gráfica.</p>
 <p>Construye un archivo llamado <code>cargador.py</code> y el siguiente contenido:</p>
-<pre tabindex="0"><code>import tkMessageBox
+<pre><code>import tkMessageBox
 import Tkinter
 import imp
 import sys
@@ -215,7 +215,7 @@ except Exception, e:
 <h2 id="generando-el-archivo-ejecutable">Generando el archivo ejecutable</h2>
 <p>El siguiente paso es <em>compilar</em> nuestro cargador para que se pueda ejecutar de manera independiente.</p>
 <p>Tenemos que crear dos archivos, <code>setup.py</code>:</p>
-<pre tabindex="0"><code>from cx_Freeze import setup
+<pre><code>from cx_Freeze import setup
 from cx_Freeze import Executable
 
 exe = Executable(
@@ -244,7 +244,7 @@ ejecutable del cargador:</p>
 <h2 id="probando-el-cargador">Probando el cargador</h2>
 <p>Ahora la carpeta <code>build</code> tendrá todos los archivos para incluir, excepto el de nuestro programa.</p>
 <p>Hagamos un programa sencillo, algo llamado <code>run.py</code>:</p>
-<pre tabindex="0"><code>import tkMessageBox
+<pre><code>import tkMessageBox
 import Tkinter
 
 root = Tkinter.Tk()
@@ -264,7 +264,7 @@ tkMessageBox.showinfo(&quot;Hola&quot;, &quot;Bienvenido al primer programa de e
 <p>Para crear un cargador especial de <a href="http://cocos2d.org">cocos2d</a> necesitamos instalar <a href="http://www.pyglet.org">pyglet</a>, <a href="http://pypi.python.org/pypi/numpy">numpy</a> y luego <a href="http://cocos2d.org">cocos2d</a>.</p>
 <p>Una vez concluido el proceso de instalación, tendríamos que volver
 a editar el archivo <code>setup.py</code> e incluir a <a href="http://cocos2d.org">cocos2d</a>:</p>
-<pre tabindex="0"><code>import cocos
+<pre><code>import cocos
 </code></pre><p>Y listo, ahora solo queda ejecutar <code>crear_ejecutable.bat</code>, copiar el archivo
 <code>avbin.dll</code> de <a href="http://avbin.github.com/AVbin/Download.html">avbin</a> dentro del directorio <code>build</code>, agregar todas las imagenes que
 necesite el juego y distribuir nuestro cargador:</p>

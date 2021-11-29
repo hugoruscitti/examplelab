@@ -200,7 +200,7 @@ aplicación llamada &ldquo;maildev&rdquo; para iniciar un servidor de mails loca
 puede ejecutar para lanzar un servidor de mails local con una interfaz web que
 simula un cliente de webmail.</p>
 <p>Para instalarlo, se puede ejecutar:</p>
-<pre tabindex="0"><code>npm install -g maildev
+<pre><code>npm install -g maildev
 </code></pre><p>y para ejecutarlo maildev:</p>
 <p><img src="/images/2021/emails-con-django-en-modo-desarrollo/ima.png" alt=""></p>
 <p>Una vez que se ejecuta, si abrís un navegador con esa dirección 1080 se puede
@@ -210,7 +210,7 @@ desarrollo:</p>
 <p>Ahora bien, desde Django, para emitir los emails a este servidor de prueba
 simplemente hay que configurar la variable EMAIL_PORT en el archivo
 settings.py:</p>
-<pre tabindex="0"><code>EMAIL_PORT = 1025
+<pre><code>EMAIL_PORT = 1025
 EMAIL_HOST = localhost
 </code></pre><p>Y por último, cada vez que emitamos un email, aparecerá en nuestro maildev
 directamente:</p>
@@ -227,7 +227,7 @@ entorno, podemos hacer que la aplicación automáticamente use un SMTP local si
 está en modo desarrollo o un servidor real si está en producción.</p>
 <p>Por ejemplo, si tenemos un archivo de configuración (<code>backend/settings.py</code>)
 así:</p>
-<pre tabindex="0"><code>EMAIL_PORT = os.environ.get('EMAIL_PORT')
+<pre><code>EMAIL_PORT = os.environ.get('EMAIL_PORT')
 EMAIL_HOST = os.environ.get('EMAIL_HOST')
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', '')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')
@@ -235,12 +235,12 @@ EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', '')
 </code></pre><p>Es fácil hacer que en nuestro entorno local se utilice el servidor STMP de
 maildev, simplemente tenemos que colocar en el archivo <code>.env</code> (que lee pipenv)
 el puerto de pruebas de SMTP:</p>
-<pre tabindex="0"><code>DATABASE_URL=&quot;postgres://post...&quot;
+<pre><code>DATABASE_URL=&quot;postgres://post...&quot;
 DISABLE_COLLECTSTATIC=1
 EMAIL_PORT=1025
 </code></pre><p>y en producción, si usamos dokku podemos simplemente especificar un SMTP real
 usando <code>dokku config</code>:</p>
-<pre tabindex="0"><code>&gt; ssh dokku@enjam... config app-backend | grep EMAIL
+<pre><code>&gt; ssh dokku@enjam... config app-backend | grep EMAIL
 EMAIL_HOST_PASSWORD:      f6TYtNv***
 EMAIL_PORT:               587
 EMAIL_HOST_USER:          hu****
@@ -253,10 +253,10 @@ o incluso el minimalista dsmtpd.</p>
 <p>Y si solamente quieres ver un log para certificar que el correo sale
 correctamente, también podrías ejecutar esto comando sin necesidad de instalar
 nada:</p>
-<pre tabindex="0"><code>python -m smtpd -n -c DebuggingServer localhost:1025
+<pre><code>python -m smtpd -n -c DebuggingServer localhost:1025
 </code></pre><p>Otra alternativa, muy similar a la anterior. Es especificar la variable
 <code>&quot;EMAIL_BACKEND&quot;</code> en la configuración de Django:</p>
-<pre tabindex="0"><code>EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+<pre><code>EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 </code></pre><p>Esta configuración hace que Django emita por consola el contenido de los emails
 en lugar de enviarlos al servidor smtp.</p>
 <p>¡Gracias Agus por comentarnos esta última alternativa!</p>

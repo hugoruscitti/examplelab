@@ -164,9 +164,9 @@ Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como l
 <h3 id="convertir-el-video-a-imágenes">Convertir el video a imágenes</h3>
 <p>Buscamos varias herramientas, pero la que resultó mejor fué <a href="https://www.ffmpeg.org/">ffmpeg</a>, un conversor de videos multiplataforma de consola completamente libre.</p>
 <p>Para instalarlo en osx se puede usar este comando:</p>
-<pre tabindex="0"><code>brew install ffmpeg
+<pre><code>brew install ffmpeg
 </code></pre><p>Una vez instalado, hay que abrir un terminal e invocar a ffmpeg con la ruta del video y el directorio a donde vamos a guardar las imágenes:</p>
-<pre tabindex="0"><code>mkdir output
+<pre><code>mkdir output
 ffmpeg -i video_fx_1.mov -f image2 output/%05d.png -frames:v 1
 </code></pre><p>Así queda el directorio <code>output</code>:</p>
 <p><img src="/images/2016/02/output-2016-02-19-17-46-57.png" alt=""></p>
@@ -180,7 +180,7 @@ ffmpeg -i video_fx_1.mov -f image2 output/%05d.png -frames:v 1
 <p>Por último, para que animación se muestre una sola vez, tuvimos que crear un script llamado <code>destroy</code> con una función que nos permita representar la eliminación de la entidad:</p>
 <p><img src="/images/2016/02/Untitled-2016-02-19-15-18-06.png" alt=""></p>
 <p>El script es super sencillo, alcanza con que tenga una sola función:</p>
-<pre tabindex="0"><code>using UnityEngine;
+<pre><code>using UnityEngine;
 using System.Collections;
 
 public class destroy : MonoBehaviour {
