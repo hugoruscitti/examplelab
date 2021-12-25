@@ -1,0 +1,67 @@
+---
+layout: post
+title: Descubriendo python-dotenv
+date: '2021-12-25 00:00:00'
+description: |
+  Cómo instalar y usar python-dotenv para leer la configuración de un proyecto como hacía pipenv.
+cover: /images/2021/dotenv/portada.jpg
+---
+
+Hace unos meses dejé de usar `pipenv` y volví a los
+clásicos entornos virtuales de python, donde no tengo
+que lidiar con archivos como `Pipfile` o `Pipfile.lock`.
+
+La idea detrás de `pipenv` me gustaba, pero la implementación
+me dio muchos dolores de cabeza. Por ejemplo, cuando instalas
+una dependencia nueva la herramienta se queda trabajando varios
+minutos:
+
+![](/images/2021/dotenv/espera.png)
+
+Mi mayor preocupación con esto es la sensación de no saber qué
+está pasando por detrás de ese proceso, esperar tanto tiempo y
+luego verlo fallar me pasó tantas veces que ya había empezado
+a odiar la herramienta.
+
+Volver a los entornos virtuales de toda la vida fue un alivio
+para mí. Siento que es más claro lo que está haciendo la computadora
+en cada comento y tengo una "capa" menos entre mi proyecto y
+mi herramienta de trabajo.
+
+Sin embargo en la transición me había quedado sin una característica
+útil: `pipenv` me daba la posibilidad de poner la configuración
+de mis proyectos en un archivo `.env` y se encargaba de levantar
+esa configuración automáticamente.
+
+Tener la [configuración en variables de
+entorno](https://12factor.net/es/config) es algo muy útil, porque te da la
+posibilidad de levantar la aplicación en diferentes entornos sin necesidad de
+configurar manualmente ningún archivo. 
+
+
+Así que me puse a buscar una forma de recuperar esta posibilidad
+de poner la configuración en un archivo `.env` y encontré esta
+biblioteca:
+
+- [python-dotenv](https://pypi.org/project/python-dotenv/)
+
+Usar esta herramienta es muy fácil, primero tuve que instalar
+el paquete así:
+
+```
+pip install "python-dotenv[cli]"
+```
+
+y después simplemente tuve que llamar a mis scripts de python con
+el prefijo `dotenv run --`. 
+
+Por ejemplo:
+
+```
+dotenv run -- python manage.py runserver
+```
+
+Me siento cómodo con la idea de abandonar la complejidad
+de `pipenv`, creo que de esa forma puedo adoptar utilidades
+pequeñas y puntuales como `dotenv` para hacer las cosas lo
+más simple posible.
