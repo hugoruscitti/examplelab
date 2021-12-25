@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
     
-      <title>Cambiar palabras en VIM :: Examplelab — Mi blog</title>
+      <title>Descubriendo python-dotenv :: Examplelab — Mi blog</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Uno de los comandos que uso mucho en vim es change. Este comando que se puede combinar con un movimiento para cambiar párrafos, palabras, texto delimitado entre comillas y más.
-Una vez que te acostumbras a los comandos de vim ya ni pensás en ellos, cw cambia una palabra, cap un párrafo y ci&amp;quot; el contenido entre comillas etc..
-Poder navegar entre palabras y hacer cambios rápidos está muy bueno cuando tenés código como este, donde hay delimitadores como las comillas, espacios y tags:"/>
+<meta name="description" content="Hace unos meses dejé de usar pipenv y volví a los clásicos entornos virtuales de python, donde no tengo que lidiar con archivos como Pipfile o Pipfile.lock.
+La idea detrás de pipenv me gustaba, pero la implementación me dio muchos dolores de cabeza. Por ejemplo, cuando instalas una dependencia nueva la herramienta se queda trabajando varios minutos:
+Mi mayor preocupación con esto es la sensación de no saber qué está pasando por detrás de ese proceso, esperar tanto tiempo y luego verlo fallar me pasó tantas veces que ya había empezado a odiar la herramienta."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/" />
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-12-25-dotenv/" />
 
 
 
@@ -33,21 +33,19 @@ Poder navegar entre palabras y hacer cambios rápidos está muy bueno cuando ten
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Cambiar palabras en VIM"/>
-<meta name="twitter:description" content="Algunos consejos sobre cómo cambiar palabras
-en VIM y configuraciones útiles.
+<meta name="twitter:title" content="Descubriendo python-dotenv"/>
+<meta name="twitter:description" content="Cómo instalar y usar python-dotenv para leer la configuración de un proyecto como hacía pipenv.
 "/>
 
 
 
-<meta property="og:title" content="Cambiar palabras en VIM" />
-<meta property="og:description" content="Algunos consejos sobre cómo cambiar palabras
-en VIM y configuraciones útiles.
+<meta property="og:title" content="Descubriendo python-dotenv" />
+<meta property="og:description" content="Cómo instalar y usar python-dotenv para leer la configuración de un proyecto como hacía pipenv.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-03-30T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-03-30T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-12-25-dotenv/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-25T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
 
 
 
@@ -139,11 +137,11 @@ en VIM y configuraciones útiles.
 
 
   <div class="post">
-    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/">Cambiar palabras en VIM</a></h2>
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2021-12-25-dotenv/">Descubriendo python-dotenv</a></h2>
     <div class="post-meta">
       
         <span class="post-date">
-            30/03/2021
+            25/12/2021
         </span>
       
       
@@ -153,31 +151,47 @@ en VIM y configuraciones útiles.
     
 
     <div class="post-content">
-      <p>Uno de los comandos que uso mucho en <em>vim</em> es <code>change</code>. Este comando
-que se puede combinar con un movimiento para cambiar párrafos, palabras, texto
-delimitado entre comillas y más.</p>
-<p>Una vez que te acostumbras a los comandos de <em>vim</em> ya ni pensás en ellos, <code>cw</code> cambia
-una palabra, <code>cap</code> un párrafo y <code>ci&quot;</code> el contenido entre comillas etc..</p>
-<p>Poder navegar entre palabras y hacer cambios rápidos está muy
-bueno cuando tenés código como este, donde hay delimitadores como
-las comillas, espacios y tags:</p>
-<p><img src="/images/2021/cambiar-palabras-en-vim/texto.png" alt="texto"></p>
-<p>Sin embargo, hay algo que hace tiempo que me resultó sorpresivo y
-luego de investigar me di cuenta que se puede configurar: para <em>vim</em>, el
-guion medio es un separador de palabras.</p>
-<p>Por ejemplo, aquí <em>vim</em> identificará 7 palabras dentro de las comillas:</p>
-<p><img src="/images/2021/cambiar-palabras-en-vim/palabras.png" alt="palabras"></p>
-<p>Pero si estamos editando clases en un elemento, el guion del medio no es
-un separador, el guion es parte del nombre de la clase.</p>
-<p>Si pulsamos <code>cw</code> sobre la clase <code>bg-light-gray</code> <em>vim</em> pensará que queremos
-cambiar la palabra <code>bg</code> en lugar del nombre completo de la clase.</p>
-<p>Por suerte <em>vim</em> tiene un parámetro para cambiar este comportamiento:</p>
-<pre tabindex="0"><code>set iskeyword+=-
-</code></pre><p>Colocando esta configuración en el archivo <code>.vimrc</code> ahora los nombres de
-clases se pueden cambiar como si fueran solo 3 palabras:</p>
-<p><img src="/images/2021/cambiar-palabras-en-vim/palabras2.png" alt="palabras conciderando guiones"></p>
-<p>Obviamente <em>vim</em> está repleto de estos detalles configurables, pero este es uno de
-los que quería mencionar hoy porque estuve editando clases css como un loco :P</p>
+      <p>Hace unos meses dejé de usar <code>pipenv</code> y volví a los
+clásicos entornos virtuales de python, donde no tengo
+que lidiar con archivos como <code>Pipfile</code> o <code>Pipfile.lock</code>.</p>
+<p>La idea detrás de <code>pipenv</code> me gustaba, pero la implementación
+me dio muchos dolores de cabeza. Por ejemplo, cuando instalas
+una dependencia nueva la herramienta se queda trabajando varios
+minutos:</p>
+<p><img src="/images/2021/dotenv/espera.png" alt=""></p>
+<p>Mi mayor preocupación con esto es la sensación de no saber qué
+está pasando por detrás de ese proceso, esperar tanto tiempo y
+luego verlo fallar me pasó tantas veces que ya había empezado
+a odiar la herramienta.</p>
+<p>Volver a los entornos virtuales de toda la vida fue un alivio
+para mí. Siento que es más claro lo que está haciendo la computadora
+en cada comento y tengo una &ldquo;capa&rdquo; menos entre mi proyecto y
+mi herramienta de trabajo.</p>
+<p>Sin embargo en la transición me había quedado sin una característica
+útil: <code>pipenv</code> me daba la posibilidad de poner la configuración
+de mis proyectos en un archivo <code>.env</code> y se encargaba de levantar
+esa configuración automáticamente.</p>
+<p>Tener la <a href="https://12factor.net/es/config">configuración en variables de
+entorno</a> es algo muy útil, porque te da la
+posibilidad de levantar la aplicación en diferentes entornos sin necesidad de
+configurar manualmente ningún archivo.</p>
+<p>Así que me puse a buscar una forma de recuperar esta posibilidad
+de poner la configuración en un archivo <code>.env</code> y encontré esta
+biblioteca:</p>
+<ul>
+<li><a href="https://pypi.org/project/python-dotenv/">python-dotenv</a></li>
+</ul>
+<p>Usar esta herramienta es muy fácil, primero tuve que instalar
+el paquete así:</p>
+<pre tabindex="0"><code>pip install &quot;python-dotenv[cli]&quot;
+</code></pre><p>y después simplemente tuve que llamar a mis scripts de python con
+el prefijo <code>dotenv run --</code>.</p>
+<p>Por ejemplo:</p>
+<pre tabindex="0"><code>dotenv run -- python manage.py runserver
+</code></pre><p>Me siento cómodo con la idea de abandonar la complejidad
+de <code>pipenv</code>, creo que de esa forma puedo adoptar utilidades
+pequeñas y puntuales como <code>dotenv</code> para hacer las cosas lo
+más simple posible.</p>
 
     </div>
 
@@ -190,17 +204,10 @@ los que quería mencionar hoy porque estuve editando clases css como un loco :P<
           </div>
           <div class="pagination__buttons">
             
-              <span class="button previous">
-                <a href="https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/">
-                  <span class="button__icon">←</span>
-                  <span class="button__text">Devolviendo el control a tu navegador</span>
-                </a>
-              </span>
-            
             
               <span class="button next">
-                <a href="https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/">
-                  <span class="button__text">Cómo crear apuntes de referencia</span>
+                <a href="https://www.examplelab.com.ar/posts/2021-11-28-pycamp-2021/">
+                  <span class="button__text">Participando del pycamp 2021</span>
                   <span class="button__icon">→</span>
                 </a>
               </span>

@@ -161,10 +161,10 @@ La aplicación simplemente convierte la imagen que enviemos a 2 tamaños diferen
 <h2 id="estructura-inicial">Estructura inicial</h2>
 <p>Para armar el ejemplo comencé con la <a href="https://github.com/hugoruscitti/node-webkit-ember-seed">estructura inicial del proyecto</a> que te había comentado en el <a href="http://examplelab.com.ar/usando-ember-cli-con-node-webkit/">post anterior</a>.</p>
 <p>Luego integré <a href="http://getbootstrap.com/">bootstrap</a> y un tema de <a href="http://bootswatch.com/">bootswatch</a> con los comandos:</p>
-<pre><code>npm install --save-dev ember-cli-bootswatch
+<pre tabindex="0"><code>npm install --save-dev ember-cli-bootswatch
 ember generate ember-cli-bootswatch
 </code></pre><p>y agregando el nombre del tema <a href="http://bootswatch.com/lumen/">lumen</a> en el archivo <code>app.js</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">[...]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">[...]
 <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">app</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">EmberApp</span>({
   <span style="color:#e6db74">&#39;ember-cli-bootswatch&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;lumen&#39;</span>
 });
@@ -178,13 +178,13 @@ ember generate ember-cli-bootswatch
 <p><img src="/images/2015/01/image-resizer-node-webkit-2015-01-03-17-41-00.png" alt=""></p>
 <p>Hacer la interfaz usando las herramientas que brinda <em>emberjs</em> es bastante práctico, primero armé dos componentes. Uno para representar la zona donde se pueden soltar archivos y otra para los mensajes.</p>
 <p>Estos son los comandos que hacen el código inicial de los componentes:</p>
-<pre><code>ember generate component iresize-dropzone
+<pre tabindex="0"><code>ember generate component iresize-dropzone
 ember generate component iresize-messages
 </code></pre><p><img src="/images/2015/01/image-resizer-node-webkit-2015-01-03-00-40-48.png" alt=""></p>
 <p>Luego, para componer la interfaz armé la ruta <code>index</code> con:</p>
-<pre><code>ember g route index
+<pre tabindex="0"><code>ember g route index
 </code></pre><p>y luego edité el archivo <code>app/templates/index.hbs</code> para mostrar estos dos componentes nuevos:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{iresize-dropzone}}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{iresize-dropzone}}
 &lt;<span style="color:#f92672">hr</span>/&gt;
 {{iresize-messages}}
 </code></pre></div><h2 id="incorporando-archivos">Incorporando archivos</h2>
@@ -195,12 +195,12 @@ ember generate component iresize-messages
 <p><img src="/images/2015/01/arrastrar.gif" alt=""></p>
 <h2 id="incorporando-imagemagick">Incorporando ImageMagick</h2>
 <p>Para incorporar ImageMagick lo mas sencillo es instalar un paquete de node llamado <a href="https://github.com/yourdeveloper/node-imagemagick">imagemagick</a>:</p>
-<pre><code>npm install imagemagick --save-dev
+<pre tabindex="0"><code>npm install imagemagick --save-dev
 </code></pre><p>Este módulo simplemente ofrece una interfaz para acceder a los comandos de ImageMagick, pero no incluye ningún binario o biblioteca para compilar, es simplemente un <em>wrapper</em>.</p>
 <p>Por ejemplo, en mi equipo tengo instalado ImageMagick, y estos son los dos binarios que puedo usar desde la biblioteca:</p>
-<pre><code>➤ which identify
+<pre tabindex="0"><code>➤ which identify
 /usr/local/bin//identify
-</code></pre><pre><code>➤ which convert
+</code></pre><pre tabindex="0"><code>➤ which convert
 /usr/local/bin//convert
 </code></pre><p>Así que para convertir o identificar un archivo primero tengo que requerir el módulo, configurar las rutas y luego utilizarlo. Acá hay un ejemplo de invocación:</p>
 <p><img src="/images/2015/01/index-html-2015-01-03-03-10-36.png" alt=""></p>
@@ -214,12 +214,12 @@ ember generate component iresize-messages
 <p><img src="/images/2015/01/index-html-2015-01-03-13-12-50.png" alt=""></p>
 <h2 id="encapsulando-imagemagick">Encapsulando ImageMagick</h2>
 <p>Para que el código de nuestra aplicación quede sencillo y fácil de comprender, podemos hacer un módulo y colocar ahí todo el código relacionado con ImageMagick:</p>
-<pre><code>ember generate util resizer
+<pre tabindex="0"><code>ember generate util resizer
 </code></pre><p><img src="/images/2015/01/image-resizer-node-webkit-2015-01-03-13-37-44.png" alt=""></p>
 <p>El código del módulo es un poco largo, pero simplemente obtiene la ruta a los binarios (dependiendo de la plataforma) y luego retorna el resultado en forma de promesa:</p>
 <p><a href="https://github.com/hugoruscitti/image-resizer-node-webkit/blob/master/app/utils/resizer.js">https://github.com/hugoruscitti/image-resizer-node-webkit/blob/master/app/utils/resizer.js</a></p>
 <p>de esta forma, desde el controlador podemos convertir imágenes invocando al módulo <code>resizer</code> así:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">resizer</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;image-resizer-node-webkit/utils/resizer&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">resizer</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;image-resizer-node-webkit/utils/resizer&#39;</span>;
 
 <span style="color:#a6e22e">resizer</span>().<span style="color:#a6e22e">resize</span>(<span style="color:#a6e22e">input_path</span>, <span style="color:#a6e22e">output_path</span>, <span style="color:#ae81ff">200</span>, <span style="color:#ae81ff">200</span>).
         <span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>) {
