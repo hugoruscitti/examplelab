@@ -6,7 +6,60 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplificando imports en svelte</title>
+      <link>https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/</guid>
+      <description>&lt;p&gt;Hace unas semanas comencé a migrar un proyecto personal
+a &lt;a href=&#34;https://kit.svelte.dev/&#34;&gt;sveltekit&lt;/a&gt;, en parte porque quiero
+retomar ese proyecto y en parte porque quiero aprender una herramienta
+nueva como &lt;a href=&#34;https://svelte.dev/&#34;&gt;svelte&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sin embargo a la hora de programar me encontraba escribiendo
+código como este:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BotonCrearTransaccion&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;../../../../components/botones/crear-transaccion.svelte&amp;#39;&lt;/span&gt;;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BotonIniciarPresupuesto&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;../../../../components/botones/crear-presupuesto.svelte&amp;#39;&lt;/span&gt;;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;store&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;../../../../stores&amp;#34;&lt;/span&gt;;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Observa todos esos &lt;code&gt;../&lt;/code&gt; que aparecen delante de las rutas.&lt;/p&gt;
+&lt;p&gt;Estas rutas relativas no solo hacen que el código se vea muy feo, sino
+que también me impiden mover archivos dentro del proyecto, por ejemplo
+si quiero poner un componente dentro de una carpeta nueva o algo así. Cada
+archivo que muevo puede &amp;ldquo;romper&amp;rdquo; esas rutas relativas.&lt;/p&gt;
+&lt;p&gt;Así que me puse a investigar este problema y encontré que existe una
+solución, incluso tiene un nombre: &lt;em&gt;module import aliases&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;La idea es bastante simple, en lugar de especificar las rutas
+usando &lt;code&gt;imports&lt;/code&gt; relativos, podemos especificarlos de esta forma:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BotonCrearTransaccion&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;@components/botones/crear-transaccion.svelte&amp;#39;&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Donde ese símbolo &lt;code&gt;@components&lt;/code&gt; es algo que podemos configurar por
+nuestra cuenta. Podría ser &lt;code&gt;@components&lt;/code&gt;, &lt;code&gt;@c&lt;/code&gt;, &lt;code&gt;@src&lt;/code&gt;, lo que nos
+resulte más conveniente.&lt;/p&gt;
+&lt;p&gt;Lo único que hay que hacer para que esto funcione es editar el
+archivo &lt;code&gt;svelte.config.js&lt;/code&gt; y definir estas rutas una sola vez:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; [...]
+&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt; } &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;path&amp;#39;&lt;/span&gt;;
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;config&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
+  &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; [...]
+
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;kit&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;target&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;#svelte&amp;#39;&lt;/span&gt;,
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;vite&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+      &lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;alias&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;@components&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;./src/components&amp;#39;&lt;/span&gt;)
+        }
+      }
+    }
+  }
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y listo.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Descubriendo python-dotenv</title>
       <link>https://www.examplelab.com.ar/posts/2021-12-25-dotenv/</link>

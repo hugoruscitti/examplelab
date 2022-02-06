@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Simplificando imports en svelte :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Hace unas semanas comencé a migrar un proyecto personal a sveltekit, en parte porque quiero retomar ese proyecto y en parte porque quiero aprender una herramienta nueva como svelte.
+Sin embargo a la hora de programar me encontraba escribiendo código como este:
+import BotonCrearTransaccion from &amp;#39;../../../../components/botones/crear-transaccion.svelte&amp;#39;; import BotonIniciarPresupuesto from &amp;#39;../../../../components/botones/crear-presupuesto.svelte&amp;#39;; import store from &amp;#34;../../../../stores&amp;#34;; Observa todos esos ../ que aparecen delante de las rutas.
+Estas rutas relativas no solo hacen que el código se vea muy feo, sino que también me impiden mover archivos dentro del proyecto, por ejemplo si quiero poner un componente dentro de una carpeta nueva o algo así."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simplificando imports en svelte"/>
+<meta name="twitter:description" content="Cómo mejorar la importación de módulos en un proyecto svelte.
+"/>
+
+
+
+<meta property="og:title" content="Simplificando imports en svelte" />
+<meta property="og:description" content="Cómo mejorar la importación de módulos en un proyecto svelte.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-06T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/">Simplificando imports en svelte</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            06/02/2022
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Hace unas semanas comencé a migrar un proyecto personal
+a <a href="https://kit.svelte.dev/">sveltekit</a>, en parte porque quiero
+retomar ese proyecto y en parte porque quiero aprender una herramienta
+nueva como <a href="https://svelte.dev/">svelte</a>.</p>
+<p>Sin embargo a la hora de programar me encontraba escribiendo
+código como este:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">BotonCrearTransaccion</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;../../../../components/botones/crear-transaccion.svelte&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">BotonIniciarPresupuesto</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;../../../../components/botones/crear-presupuesto.svelte&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">store</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;../../../../stores&#34;</span>;
+
+</code></pre></div><p>Observa todos esos <code>../</code> que aparecen delante de las rutas.</p>
+<p>Estas rutas relativas no solo hacen que el código se vea muy feo, sino
+que también me impiden mover archivos dentro del proyecto, por ejemplo
+si quiero poner un componente dentro de una carpeta nueva o algo así. Cada
+archivo que muevo puede &ldquo;romper&rdquo; esas rutas relativas.</p>
+<p>Así que me puse a investigar este problema y encontré que existe una
+solución, incluso tiene un nombre: <em>module import aliases</em>.</p>
+<p>La idea es bastante simple, en lugar de especificar las rutas
+usando <code>imports</code> relativos, podemos especificarlos de esta forma:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">BotonCrearTransaccion</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;@components/botones/crear-transaccion.svelte&#39;</span>;
+</code></pre></div><p>Donde ese símbolo <code>@components</code> es algo que podemos configurar por
+nuestra cuenta. Podría ser <code>@components</code>, <code>@c</code>, <code>@src</code>, lo que nos
+resulte más conveniente.</p>
+<p>Lo único que hay que hacer para que esto funcione es editar el
+archivo <code>svelte.config.js</code> y definir estas rutas una sola vez:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#960050;background-color:#1e0010">#</span> [...]
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">resolve</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;path&#39;</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">config</span> <span style="color:#f92672">=</span> {
+  <span style="color:#960050;background-color:#1e0010">#</span> [...]
+
+  <span style="color:#a6e22e">kit</span><span style="color:#f92672">:</span> {
+    <span style="color:#a6e22e">target</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;#svelte&#39;</span>,
+    <span style="color:#a6e22e">vite</span><span style="color:#f92672">:</span> {
+      <span style="color:#a6e22e">resolve</span><span style="color:#f92672">:</span> {
+        <span style="color:#a6e22e">alias</span><span style="color:#f92672">:</span> {
+          <span style="color:#e6db74">&#39;@components&#39;</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">resolve</span>(<span style="color:#e6db74">&#39;./src/components&#39;</span>)
+        }
+      }
+    }
+  }
+};
+</code></pre></div><p>Y listo.</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://www.examplelab.com.ar/posts/2021-12-25-dotenv/">
+                  <span class="button__text">Descubriendo python-dotenv</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2022 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

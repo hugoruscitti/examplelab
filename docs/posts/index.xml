@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplificando imports en svelte</title>
+      <link>https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/</guid>
+      <description>Hace unas semanas comencé a migrar un proyecto personal a sveltekit, en parte porque quiero retomar ese proyecto y en parte porque quiero aprender una herramienta nueva como svelte.
+Sin embargo a la hora de programar me encontraba escribiendo código como este:
+import BotonCrearTransaccion from &amp;#39;../../../../components/botones/crear-transaccion.svelte&amp;#39;; import BotonIniciarPresupuesto from &amp;#39;../../../../components/botones/crear-presupuesto.svelte&amp;#39;; import store from &amp;#34;../../../../stores&amp;#34;; Observa todos esos ../ que aparecen delante de las rutas.
+Estas rutas relativas no solo hacen que el código se vea muy feo, sino que también me impiden mover archivos dentro del proyecto, por ejemplo si quiero poner un componente dentro de una carpeta nueva o algo así.</description>
+    </item>
+    
     <item>
       <title>Descubriendo python-dotenv</title>
       <link>https://www.examplelab.com.ar/posts/2021-12-25-dotenv/</link>
