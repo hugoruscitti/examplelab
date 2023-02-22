@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Botones asincrónicos con HTMX</title>
+      <link>https://www.examplelab.com.ar/posts/2023-02-21-botones-asincronicos-con-htmx/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-02-21-botones-asincronicos-con-htmx/</guid>
+      <description>HTMX no deja de sorprenderme, me gusta mucho la simplicidad que te propone para resolver problemas.
+Esta semana, por ejemplo, mejoré la forma en la que funcionan los formularios para crear transacciones en una aplicación web de gastos personales que estoy escribiendo.
+Resulta que tenía un formulario que permitía registrar gastos en el sistema, pero esa acción demoraba en ejecutarse en el servidor, así que se me ocurrió agregar esta funcionalidad:</description>
+    </item>
+    
     <item>
       <title>Mostrar si estamos dentro de vim en zsh</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-15-mostrar-sesion-de-vim-dentro-de-zsh/</link>

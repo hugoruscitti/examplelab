@@ -6,7 +6,53 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Botones asincrónicos con HTMX</title>
+      <link>https://www.examplelab.com.ar/posts/2023-02-21-botones-asincronicos-con-htmx/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-02-21-botones-asincronicos-con-htmx/</guid>
+      <description>&lt;p&gt;HTMX no deja de sorprenderme, me gusta mucho la simplicidad
+que te propone para resolver problemas.&lt;/p&gt;
+&lt;p&gt;Esta semana, por ejemplo, mejoré la forma en la que funcionan los
+formularios para crear transacciones en una aplicación web
+de gastos personales que estoy escribiendo.&lt;/p&gt;
+&lt;p&gt;Resulta que tenía un formulario que permitía registrar gastos en
+el sistema, pero esa acción demoraba en ejecutarse en el servidor, así
+que se me ocurrió agregar esta funcionalidad:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Desactivar el botón para prevenir doble clic.&lt;/li&gt;
+&lt;li&gt;Mostrar un indicador tipo &lt;code&gt;spinner&lt;/code&gt; hasta que termine la tarea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sin HTMX, tendría que escribir algo de JavaScript para
+gestionar manualmente la petición al servidor y cambiar algo
+de código del lado del servidor para que esto funcione
+correctamente.&lt;/p&gt;
+&lt;p&gt;Pero con HTMX, es mucho más simple, no tengo que escribir
+JavaScript, solamente agregar algunos atributos extra al
+HTML que ya tengo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;submit&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;data-loading-disable&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;spinner dib f7&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;data-loading&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/static/spinner-animado.svg&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Guardar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;HTMX va a leer dos atributos dentro de este HTML, el primer atributo es
+&amp;ldquo;data-loading-disable&amp;rdquo;, que va a desactivar el botón mientras se realiza la
+acción asincrónica. El segundo atributo que revisará es &amp;ldquo;data-loading&amp;rdquo;, que se
+va encargar de mostrar ese elemento &lt;code&gt;ìmg&lt;/code&gt; (con el spinner) solamente cuando se
+esté esperando la respuesta del servidor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/botones-asincronicos-con-htmx/button.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es decir, logré implementar exactamente lo que quería, pero
+de forma simple.&lt;/p&gt;
+&lt;p&gt;Por cierto, aquí hay una página que explica en detalle cómo usar esta extensión
+de &lt;a href=&#34;https://htmx.org/extensions/loading-states/&#34;&gt;htmlx&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Mostrar si estamos dentro de vim en zsh</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-15-mostrar-sesion-de-vim-dentro-de-zsh/</link>
