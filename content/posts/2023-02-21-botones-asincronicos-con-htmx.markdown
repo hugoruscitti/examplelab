@@ -45,7 +45,7 @@ HTML que ya tengo:
 HTMX va a leer dos atributos dentro de este HTML, el primer atributo es
 "data-loading-disable", que va a desactivar el botón mientras se realiza la
 acción asincrónica. El segundo atributo que revisará es "data-loading", que se
-va encargar de mostrar ese elemento `ìmg` (con el spinner) solamente cuando se
+va encargar de mostrar ese elemento `img` (con el spinner) solamente cuando se
 esté esperando la respuesta del servidor.
 
 ![](/images/2023/botones-asincronicos-con-htmx/button.gif)
@@ -54,5 +54,5 @@ Es decir, logré implementar exactamente lo que quería, pero
 de forma simple.
 
 Por cierto, aquí hay una página que explica en detalle cómo usar esta extensión
-de [htmlx](https://htmx.org/extensions/loading-states/)
+de [htmx](https://htmx.org/extensions/loading-states/)
  
