@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
 Podes ver el proyecto aquí:
-https://hugoruscitti.github.io/tortugas-en-el-tiempo Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código."/>
+ https://hugoruscitti.github.io/tortugas-en-el-tiempo   video { width: 100%; border: 1px solid gray; margin-top: 0.5em; margin-bottom: 0.5em; }  Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/" />
@@ -44,6 +44,7 @@ https://hugoruscitti.github.io/tortugas-en-el-tiempo Motivación Hace algunos a�
 <meta property="og:url" content="https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-08-08T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-08-08T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
 
 
 
@@ -286,22 +287,22 @@ donde va guardando cada una de las acciones que hace la tortuga.</p>
 <p><img src="/images/2020/08/861E3835-CA41-4523-953D-94A2D1C4A4BE.png" alt=""></p>
 <p>Cuando pulsamos el botón ejecutar la lista debería quedar con un solo elemento, la posición inicial
 de la tortuga:</p>
-<pre tabindex="0"><code>pasos = [
+<pre><code>pasos = [
 	{
-		tipo: &#34;posicion-inicial&#34;,
+		tipo: &quot;posicion-inicial&quot;,
 		x: 150,
 		y: 150,
-		lapiz: &#34;abajo&#34;,
+		lapiz: &quot;abajo&quot;,
 		# rotación, etc ...
 	}
 ]
 </code></pre><p>Luego, como el programa está en ejecución se va a procesar la linea que dice <code>avanzar(50)</code> y cuando
 terminé de realizarse esa acción, se va a añadir este elemento a la lista:</p>
-<pre tabindex="0"><code>lista.push({
-	tipo: &#34;movimiento-de-dibujado&#34;,
+<pre><code>lista.push({
+	tipo: &quot;movimiento-de-dibujado&quot;,
 	x: 150,
 	y: 200,
-	lapiz: &#34;abajo&#34;,
+	lapiz: &quot;abajo&quot;,
 	# rotación, etc ...
 })
 </code></pre><p>Es decir, cada acción va a añadir un elemento en esta lista de pasos, detallando la posición de la

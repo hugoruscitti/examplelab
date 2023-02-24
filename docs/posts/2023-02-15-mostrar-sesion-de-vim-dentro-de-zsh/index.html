@@ -50,6 +50,7 @@ Este comando me resulta muy práctico, pero tiene un problema: a veces permanezc
 
 
 
+
   </head>
   <body class="">
     <script>
@@ -158,22 +159,23 @@ problema: a veces permanezco en esa sesión de terminal por
 unos cuantos minutos y luego no recuerdo si estaba en VIM o
 no.</p>
 <p>¿Por qué esto es un problema para mí?, bueno&hellip; digamos que
-a veces escribo &rsquo;exit&rsquo; en el terminal esperando regresar a
+a veces escribo &lsquo;exit&rsquo; en el terminal esperando regresar a
 VIM y no, termino saliendo por completo de mi sesión.</p>
 <h2 id="cómo-identificar-si-estamos-dentro-del-shell-de-vim">¿Cómo identificar si estamos dentro del shell de vim?</h2>
 <p>Busqué cómo resolver esto y noté que VIM coloca una variable
 de entorno llamada VIM cuando abrimos el comando <code>shell</code>:</p>
-<pre tabindex="0"><code>→ env | grep VIM=
+<pre><code>→ env | grep VIM=
 VIM=/opt/homebrew/share/vim
 </code></pre><p>Entonces, para poder identificar si estamos en una sesión
 del <code>shell</code> de VIM podemos simplemente consultar si esa
 variable existe o no.</p>
 <p>Lo siguiente, es la configuración que estoy usando para
 cambiar el <code>prompt</code> de <code>zsh</code>:</p>
-<pre tabindex="0"><code>export EN_VIM=&#34;&#34;
-[[ -v VIM ]] &amp;&amp; export EN_VIM=&#34;(en vim shell)&#34;
+<pre><code>export EN_VIM=&quot;&quot;
+[[ -v VIM ]] &amp;&amp; export EN_VIM=&quot;(en vim shell)&quot;
 
-export PS1=$&#39;... ➖ ${EN_VIM}\n→%f &#39;
+export PS1=$'... ➖ ${EN_VIM}\n→%f '
+
 </code></pre><p>y así es como se ve en funcionamiento:</p>
 <p><img src="/images/2023/mostrar-sesion-de-vim-dentro-de-zsh/prompt.png" alt=""></p>
 
