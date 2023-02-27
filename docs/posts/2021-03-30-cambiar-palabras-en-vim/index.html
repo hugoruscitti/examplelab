@@ -54,7 +54,6 @@ en VIM y configuraciones útiles.
 
 
 
-
   </head>
   <body class="">
     <script>
@@ -172,7 +171,7 @@ un separador, el guion es parte del nombre de la clase.</p>
 <p>Si pulsamos <code>cw</code> sobre la clase <code>bg-light-gray</code> <em>vim</em> pensará que queremos
 cambiar la palabra <code>bg</code> en lugar del nombre completo de la clase.</p>
 <p>Por suerte <em>vim</em> tiene un parámetro para cambiar este comportamiento:</p>
-<pre><code>set iskeyword+=-
+<pre tabindex="0"><code>set iskeyword+=-
 </code></pre><p>Colocando esta configuración en el archivo <code>.vimrc</code> ahora los nombres de
 clases se pueden cambiar como si fueran solo 3 palabras:</p>
 <p><img src="/images/2021/cambiar-palabras-en-vim/palabras2.png" alt="palabras conciderando guiones"></p>

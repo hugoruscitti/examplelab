@@ -51,7 +51,6 @@ Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se p
 
 
 
-
   </head>
   <body class="">
     <script>
@@ -162,9 +161,9 @@ Algo básico con readline</p>
 <p><code>Readline</code> es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.</p>
 <p>Por ejemplo, el interprete de comandos Bash utiliza <code>readline</code> y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&hellip;</p>
 <p>Para crear un programa interactivo de python usando <code>readline</code> se puede usar el módulo <code>readline</code>:</p>
-<pre><code>import readline
+<pre tabindex="0"><code>import readline
 
-nombres = ['pepe', 'pedro']
+nombres = [&#39;pepe&#39;, &#39;pedro&#39;]
 
 def completer(text, state):
     options = [x for x in nombres if x.startswith(text)]
@@ -175,33 +174,33 @@ def completer(text, state):
         return None
 
 readline.set_completer(completer)
-readline.parse_and_bind(&quot;tab: complete&quot;)
+readline.parse_and_bind(&#34;tab: complete&#34;)
 
 while 1:
-    print &quot;&quot;
-    nombre = raw_input(&quot;Escriba un nombre: &quot;)
-    print &quot;Ha ingresado el nombre:&quot;, nombre
+    print &#34;&#34;
+    nombre = raw_input(&#34;Escriba un nombre: &#34;)
+    print &#34;Ha ingresado el nombre:&#34;, nombre
 
     if nombre in nombres:
-        print &quot;\t(ya existia este nombre en la lista de autocompletado).&quot;
+        print &#34;\t(ya existia este nombre en la lista de autocompletado).&#34;
     else:
         nombres.append(nombre)
-        print &quot;\t(agregandolo a la lista de autocompletado).&quot;
+        print &#34;\t(agregandolo a la lista de autocompletado).&#34;
 </code></pre><h2 id="autocompletado-inteligente-con-rlcompleter">Autocompletado inteligente con rlcompleter</h2>
 <p>Ahora bien, con lo que hemos visto ya podemos crear auto-completado de palabras personalizados. Pero si lo que buscamos es auto-completar código python, necesitarías inspeccionar objetos, módulos o bibliotecas.</p>
 <p>Un módulo conveniente para hacer esta tarea es <code>rlcompleter</code>, que se encarga de hacer todo este trabajo de sugerencias por nosotros.</p>
 <p>Esto es interesante para hacer interpretes python personalizados, por ejemplo el siguiente intérprete se puede usar para hacer pruebas sobre dos conjuntos:</p>
-<pre><code>import rlcompleter
+<pre tabindex="0"><code>import rlcompleter
 import readline
-readline.parse_and_bind(&quot;tab: complete&quot;)
+readline.parse_and_bind(&#34;tab: complete&#34;)
 
 grupo_a = set([1, 2, 3])
 grupo_b = set([3, 4, 5])
 
 cmd = None
 
-while cmd not in ['quit', 'exit']:
-    cmd = raw_input('&gt;&gt; ')
+while cmd not in [&#39;quit&#39;, &#39;exit&#39;]:
+    cmd = raw_input(&#39;&gt;&gt; &#39;)
     exec(cmd)
 </code></pre><p>Inicie el script, escriba <code>grup</code> y luego TAB, en pantalla se tienen que mostrar las referencias que comienzan con <code>grup</code>. Luego, si escribe grupo_a. y luego TAB puede ver los atributos del objeto señalado por la referencia</p>
 <p>Internamente, <code>rlcompleter</code> hace todo el trabajo de instronspección por nosotros.</p>
