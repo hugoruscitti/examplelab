@@ -6,7 +6,70 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pycamp en Baradero</title>
+      <link>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</guid>
+      <description>&lt;p&gt;Hace exactamente un año asistí al pycamp en Baradero, uno de
+los pycamp que más disfruté. Me encontré con amigos que no
+veía hace varios años, trabajamos en varios proyectos nuevos
+y me divertí un montón.&lt;/p&gt;
+&lt;p&gt;El lugar en donde se hizo el evento me pareció genial,
+teníamos mucho espacio para trabajar cómodos y naturaleza
+por todos lados:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/lugar.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/asado.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/reunion.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;la-dinámica-del-pycamp&#34;&gt;La dinámica del pycamp&lt;/h2&gt;
+&lt;p&gt;En el pycamp se puede trabajar en los proyectos que uno
+quiera, ver lo que hacen los demás y sumarse para aportar
+ideas o aprender.&lt;/p&gt;
+&lt;p&gt;Se suele comenzar con una grilla de temas y proyectos que
+las personas sugieren unos días antes de comenzar el evento:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/programa-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/programa-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;y a partir de ahí se suelen ir armando grupos y
+profundizando en cada uno de los proyectos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/ideas.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En este pycamp yo estuve en dos proyectos: un instrumentador
+de código y un juego donde se pudiera controlar el tiempo.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/grupo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Los dos proyectos salieron muy bien, pero creo que el
+jueguito fue el que más disfruté; ya que venía con una idea
+del mecanismo de avanzar y retroceder en el tiempo (onda
+Braid), pero no me imaginé que tantas personas se animarían
+a colaborar y darle forma a todo; en el pycamp surgió la
+temática del juego, los gráficos, la música y todo lo demás.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/dibujo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Creo que una buena forma de animar a que las personas se
+sumen y les guste participar es que dividimos todo en
+pequeñas partes, y logramos unirlo al final.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/idea.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es increíble cómo fluyen las ideas cuando estás con gente que
+le pone toda la onda y colabora para que el proyecto
+funcione.&lt;/p&gt;
+&lt;p&gt;Creo que una de las cosas más lindas que me llevo del pycamp
+es ese espíritu de colaboración y ganas de construir juntos.&lt;/p&gt;
+&lt;p&gt;Hubo chicos que se sumaron a dibujar fondos, crear
+personajes, programar y hasta conectar un potenciómetro para
+controlar el tiempo del juego con un volante:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/juego.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/presentacion-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/presentacion-3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reencontrarse-una-vez-más&#34;&gt;Reencontrarse una vez más&lt;/h2&gt;
+&lt;p&gt;Para mí el pycamp es una oportunidad de volver a conectarme
+con gente que quiero mucho y recordar que programar está
+bueno, es divertido y gratificante, como cuando éramos
+chicos y queríamos programar porque queríamos construir cosas
+locas y divertidas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/foto-grupal.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;¡Espero que este próximo pycamp sea tan bueno como este!&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>¿Por qué tomar notas?</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-27-por-que-tomar-notas/</link>
