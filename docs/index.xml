@@ -6,7 +6,65 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jugando con PWA</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-02-jugando-con-pwa/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-02-jugando-con-pwa/</guid>
+      <description>&lt;p&gt;Estamos usando el sistema de presupuestos y gastos
+personales que armé en Django junto con Any.&lt;/p&gt;
+&lt;p&gt;El tema es que ella suele usar el sistema desde el celular y
+no desde una computadora como hago yo. Así que notamos
+varias cosas para mejorar en la aplicación.&lt;/p&gt;
+&lt;p&gt;Por una lado, acceder a la aplicación con el navegador es
+algo incómodo, notamos que se podía hacer una acceso rápido
+desde la pantalla inicio del celular, pero con ese acceso
+igual aparecían las barras de navegación y eso quitaba algo
+de espacio en pantalla.&lt;/p&gt;
+&lt;p&gt;Tampoco se veían bien algunas opciones por el tamaño de la
+pantalla y cómo se mostraban los diálogos modales.&lt;/p&gt;
+&lt;p&gt;Así que me puse a pensar formas de mejorarlo y dí con
+una solución para todo esto: Existe un paquete de django que
+nos permite convertir la aplicación web en una PWA
+(Progressive Web App), haciendo que nuestra aplicación
+Django parezca una aplicación mobile.&lt;/p&gt;
+&lt;p&gt;Este es el paquete:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/silviolleite/django-pwa&#34;&gt;https://github.com/silviolleite/django-pwa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Así que lo instalé y comencé a jugar. Pude hacer que la
+aplicación tenga un icono de acceso y se pueda instalar en
+la pantalla principal del celular, que desaparezcan las
+barras de menú, la URL de la pantalla y algunos detalles
+más.&lt;/p&gt;
+&lt;p&gt;Lo primero que noté luego de configurar el paquete es que la
+aplicación se podía instalar desde la computadora. Lo que me
+resultó muy práctico para probar todos los cambios de forma
+local:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/jugando-con-pwa/instalacio%CC%81n-en-osx.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Una vez que se instala la aplicación web, se puede abrir
+directamente desde la sección de aplicaciones del navegador:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/jugando-con-pwa/apps.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es decir, con solo instalar el paquete y configurar algunos
+parámetros ya pude ver que todo funcionaba bien desde mi
+computadora, ¡bien!.&lt;/p&gt;
+&lt;p&gt;Lo siguiente que miré es cómo se comportaba todo esto en el
+celular, y por suerte se veía perfecto desde el primer
+momento. Las barras desaparecieron:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/jugando-con-pwa/comparativa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Y también pude instalar la aplicación para que aparezca en
+la pantalla principal:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/jugando-con-pwa/inicio.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;No se si todo este tema de las PWA va a seguir existiendo en
+unos años, pero hoy me resolvió algo que hace unos años me
+hubiera llevado un montón de tiempo.&lt;/p&gt;
+&lt;p&gt;Ahora puedo concentrar esfuerzo en hacer una sola
+aplicación, que produce HTML del lado del servidor y que
+además puede funcionar muy similar a una aplicación nativa
+de celulares.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Pycamp en Baradero</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</link>
