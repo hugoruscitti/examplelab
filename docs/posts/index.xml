@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurando un media center con Kodi</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</guid>
+      <description>Esta semana terminé de configurar un media center para ver películas y series en la televisión:
+Hoy, al ver todo configurado y funcionando quedé muy satisfecho así que me gustaría mencionar y enumerar lo que aprendí en el camino:
+¿Por qué? Me gustan las películas, pero tengo apenas una o dos oportunidades de ver una película completa por semana. Me cuesta elegir qué mirar y no quiero descubrir que la película es muy mala mientras la estoy mirando.</description>
+    </item>
+    
     <item>
       <title>Jugando con PWA</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-02-jugando-con-pwa/</link>

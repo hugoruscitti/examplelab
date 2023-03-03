@@ -6,7 +6,76 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurando un media center con Kodi</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</guid>
+      <description>&lt;p&gt;Esta semana terminé de configurar un &lt;em&gt;media center&lt;/em&gt; para ver
+películas y series en la televisión:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/configurando-media-center-kodi/primer-prueba.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hoy, al ver todo configurado y funcionando quedé muy
+satisfecho así que me gustaría mencionar y enumerar lo que
+aprendí en el camino:&lt;/p&gt;
+&lt;h2 id=&#34;por-qué&#34;&gt;¿Por qué?&lt;/h2&gt;
+&lt;p&gt;Me gustan las películas, pero tengo apenas una o dos
+oportunidades de ver una película completa por semana. Me
+cuesta elegir qué mirar y no quiero descubrir que la
+película es muy mala mientras la estoy mirando.&lt;/p&gt;
+&lt;p&gt;Acá es donde una plataforma como Netflix me da problemas,
+últimamente me cuesta mucho decidir qué mirar y la mayoría
+de las veces me encontré con mucha basura y un catálogo muy
+difícil de navegar.&lt;/p&gt;
+&lt;p&gt;Así que me propuse volver a buscar y conseguir las películas
+una a una, cómo hacía hace algunos años atrás: busco
+títulos, miro trailers, leo recomendaciones (de otros
+humanos) en &lt;em&gt;reddit&lt;/em&gt; y luego voy descargar los archivos y
+subtítulos.&lt;/p&gt;
+&lt;p&gt;Me lleva tiempo, pero es algo que puedo hacer en distintos
+momentos. La búsqueda y descarga la puedo hacer en una
+computadora, y en otro momento las puedo ver en el &lt;em&gt;media center&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;qué-haga-una-sola-cosa-pero-bien&#34;&gt;Qué haga una sola cosa, pero bien&lt;/h2&gt;
+&lt;p&gt;Otra cosa que me propuse es buscar es algún sistema para no
+tener que conectar la computadora al televisor y tener algo
+tan práctico como Netflix, algo que pudiera tener conectado
+todo el tiempo al televisor y simplemente mirar.&lt;/p&gt;
+&lt;p&gt;Hablando con un amigo me recomendó instalar un sistema
+llamado Kodi, en una raspberry pi y configurarlo para que
+cumpla esa función.&lt;/p&gt;
+&lt;p&gt;¡Esto era exactamente lo que estaba buscando!, no más
+conectar y desconectar cables, quiero tener todo configurado
+y listo para usar.&lt;/p&gt;
+&lt;p&gt;Encontré que hacer la instalación de todo el sistema en la
+raspberry fue muy sencillo, el sistema lo instalé a través
+de una distribución llamada
+&lt;a href=&#34;https://libreelec.tv/&#34;&gt;LibreELEC&lt;/a&gt; que incluye Kodi y toda
+la configuración necesaria para &amp;ldquo;enchufar y usar&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Una vez que inició el sistema, noté que todo funcionaba
+perfecto. El sistema está pensando para ese propósito, toda
+la interfaz de usuario se ve muy bien en una pantalla
+grande, se puede manejar directamente con un joystick, el
+control remoto o desde un celular.&lt;/p&gt;
+&lt;h2 id=&#34;extras-y-mejoras&#34;&gt;Extras y mejoras&lt;/h2&gt;
+&lt;p&gt;Kodi también viene configurado para compartir la colección
+de películas por un sistema llamado SAMBA, así que desde la
+computadora de escritorio pude cargar más películas y series
+sin tener que usar pendrives o conectar nada, solo
+transfiero los archivos a una carpeta compartida y listo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/configurando-media-center-kodi/compartido.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Incluso viene con una extensión llamada
+&lt;a href=&#34;https://kodi.wiki/view/CEC&#34;&gt;CEC&lt;/a&gt; que me permite manejar el
+sistema por completo usando el mismo control remoto de la
+TV.&lt;/p&gt;
+&lt;h2 id=&#34;lo-más-importante-para-mí&#34;&gt;Lo más importante para mí&lt;/h2&gt;
+&lt;p&gt;Pienso que la cosa más valiosa que encuentro en tener un
+&lt;em&gt;media center&lt;/em&gt; es que puedo volver a pensar con detenimiento
+qué mirar, ya no tengo tantas opciones que van y vienen por
+capricho de Netflix y puedo ser dueño de mi entretenimiento.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Jugando con PWA</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-02-jugando-con-pwa/</link>
