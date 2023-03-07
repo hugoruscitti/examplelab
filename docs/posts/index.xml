@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Cómo pegar texto en vim?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</guid>
+      <description>Pegar texto en Vim debería ser algo sencillo, pero a veces da problemas.
+Por ejemplo, si copias código del navegador y luego intentas pegarlo dentro del editor puede pasar algo como esto:
+El problema es que Vim no reconoce que estamos pegando texto, sino que cree que estamos escribiendo ese texto poco a poco, así que intenta agregar indentaciones mientras va pegando cada una de las lineas.
+Una forma de resolver esto activar y desactivar el indentado cuando estamos por pegar texto:</description>
+    </item>
+    
     <item>
       <title>Las cosas cerca</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/</link>

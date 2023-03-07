@@ -6,7 +6,38 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Cómo pegar texto en vim?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</guid>
+      <description>&lt;p&gt;Pegar texto en Vim debería ser algo sencillo, pero a veces
+da problemas.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, si copias código del navegador y luego intentas
+pegarlo dentro del editor puede pasar algo como esto:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pegar-texto-en-vim/editor.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El problema es que Vim no reconoce que estamos pegando
+texto, sino que cree que estamos escribiendo ese texto poco
+a poco, así que intenta agregar indentaciones mientras va
+pegando cada una de las lineas.&lt;/p&gt;
+&lt;p&gt;Una forma de resolver esto activar y desactivar el indentado
+cuando estamos por pegar texto:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:set paste
+CTRL+V # para pegar el texto
+:set nopaste
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sin embargo, hay una forma mejor. En lugar de usar esos 3
+comandos se puede crear un atajo para copiar y otro para
+pegar desde el portapapeles del sistema:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;map &amp;lt;leader&amp;gt;Y &amp;#34;+gP
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;De esta forma, pulsando &lt;code&gt;&amp;lt;space&amp;gt;Y&lt;/code&gt; se puede pegar respetando
+la indentanción original.&lt;/p&gt;
+&lt;p&gt;Por cierto, escribí sobre el portapapeles del sistema y vim
+en &lt;a href=&#34;https://www.examplelab.com.ar/posts/2021-02-22-portapapeles-en-vim/&#34;&gt;otro post del blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Las cosas cerca</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/</link>

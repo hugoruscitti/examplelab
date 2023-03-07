@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
     
-      <title>Las cosas cerca :: Examplelab — Mi blog</title>
+      <title>¿Cómo pegar texto en vim? :: Examplelab — Mi blog</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Algo que me gustaría mejorar en mi forma de programar es construir sistemas que sean fáciles de entender, modificar y luego adaptar a otras necesidades.
-Siento que lo más frustrante de hacer software es cuando el código no se entiende o lleva mucho tiempo saber cómo funciona (o por qué no funciona).
-Así que hoy, pensando en eso, di por casualidad con un artículo del autor de HTMX que me dejó pensando."/>
+<meta name="description" content="Pegar texto en Vim debería ser algo sencillo, pero a veces da problemas.
+Por ejemplo, si copias código del navegador y luego intentas pegarlo dentro del editor puede pasar algo como esto:
+El problema es que Vim no reconoce que estamos pegando texto, sino que cree que estamos escribiendo ese texto poco a poco, así que intenta agregar indentaciones mientras va pegando cada una de las lineas.
+Una forma de resolver esto activar y desactivar el indentado cuando estamos por pegar texto:"/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/" />
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/" />
 
 
 
@@ -33,19 +34,21 @@ Así que hoy, pensando en eso, di por casualidad con un artículo del autor de H
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Las cosas cerca"/>
-<meta name="twitter:description" content="Una virtud que veo en algunas bibliotecas.
+<meta name="twitter:title" content="¿Cómo pegar texto en vim?"/>
+<meta name="twitter:description" content="Vim puede recibir texto del portapapeles, pero te puede
+hacer un lío con las indentaciones.
 "/>
 
 
 
-<meta property="og:title" content="Las cosas cerca" />
-<meta property="og:description" content="Una virtud que veo en algunas bibliotecas.
+<meta property="og:title" content="¿Cómo pegar texto en vim?" />
+<meta property="og:description" content="Vim puede recibir texto del portapapeles, pero te puede
+hacer un lío con las indentaciones.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-06T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-03-06T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-07T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
 
 
 
@@ -136,11 +139,11 @@ Así que hoy, pensando en eso, di por casualidad con un artículo del autor de H
 
 
   <div class="post">
-    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/">Las cosas cerca</a></h2>
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/">¿Cómo pegar texto en vim?</a></h2>
     <div class="post-meta">
       
         <span class="post-date">
-            06/03/2023
+            07/03/2023
         </span>
       
       
@@ -150,26 +153,28 @@ Así que hoy, pensando en eso, di por casualidad con un artículo del autor de H
     
 
     <div class="post-content">
-      <p>Algo que me gustaría mejorar en mi forma de programar es
-construir sistemas que sean fáciles de entender, modificar y
-luego adaptar a otras necesidades.</p>
-<p>Siento que lo más frustrante de hacer software es cuando el
-código no se entiende o lleva mucho tiempo saber cómo
-funciona (o por qué no funciona).</p>
-<p>Así que hoy, pensando en eso, di por casualidad con un
-<a href="https://htmx.org/essays/locality-of-behaviour/">artículo</a>
-del autor de HTMX que me dejó pensando.</p>
-<p>El artículo menciona que una técnica valiosa de trabajar con
-HTMX es que la funcionalidad del sistema está a la vista,
-en el mismo documento HTML.</p>
-<p>Es decir, que las cosas que funcionan juntas estén juntas:</p>
-<p><img src="/images/2023/las-cosas-cerca/comparativa.png" alt=""></p>
-<p>Esta forma de &ldquo;mantener junto&rdquo; el código me parece muy
-buena, es la clase de cosas que me gustaría que encuentren
-las personas que ven el código que escribo.</p>
-<p>Me gustaría que el código que escribo sea claro, y sea fácil
-responder preguntas cómo: ¿qué hace este botón?, ¿a qué ruta
-invoca?, ¿qué hace con el resultado?, ¿de dónde proviene</p>
+      <p>Pegar texto en Vim debería ser algo sencillo, pero a veces
+da problemas.</p>
+<p>Por ejemplo, si copias código del navegador y luego intentas
+pegarlo dentro del editor puede pasar algo como esto:</p>
+<p><img src="/images/2023/pegar-texto-en-vim/editor.png" alt=""></p>
+<p>El problema es que Vim no reconoce que estamos pegando
+texto, sino que cree que estamos escribiendo ese texto poco
+a poco, así que intenta agregar indentaciones mientras va
+pegando cada una de las lineas.</p>
+<p>Una forma de resolver esto activar y desactivar el indentado
+cuando estamos por pegar texto:</p>
+<pre tabindex="0"><code>:set paste
+CTRL+V # para pegar el texto
+:set nopaste
+</code></pre><p>Sin embargo, hay una forma mejor. En lugar de usar esos 3
+comandos se puede crear un atajo para copiar y otro para
+pegar desde el portapapeles del sistema:</p>
+<pre tabindex="0"><code>map &lt;leader&gt;Y &#34;+gP
+</code></pre><p>De esta forma, pulsando <code>&lt;space&gt;Y</code> se puede pegar respetando
+la indentanción original.</p>
+<p>Por cierto, escribí sobre el portapapeles del sistema y vim
+en <a href="/posts/2021-02-22-portapapeles-en-vim/">otro post del blog</a>.</p>
 
     </div>
 
@@ -182,17 +187,10 @@ invoca?, ¿qué hace con el resultado?, ¿de dónde proviene</p>
           </div>
           <div class="pagination__buttons">
             
-              <span class="button previous">
-                <a href="https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/">
-                  <span class="button__icon">←</span>
-                  <span class="button__text">¿Cómo pegar texto en vim?</span>
-                </a>
-              </span>
-            
             
               <span class="button next">
-                <a href="https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/">
-                  <span class="button__text">Configurando un media center con Kodi</span>
+                <a href="https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/">
+                  <span class="button__text">Las cosas cerca</span>
                   <span class="button__icon">→</span>
                 </a>
               </span>
