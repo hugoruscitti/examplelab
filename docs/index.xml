@@ -6,7 +6,36 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Las cosas cerca</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/</guid>
+      <description>&lt;p&gt;Algo que me gustaría mejorar en mi forma de programar es
+construir sistemas que sean fáciles de entender, modificar y
+luego adaptar a otras necesidades.&lt;/p&gt;
+&lt;p&gt;Siento que lo más frustrante de hacer software es cuando el
+código no se entiende o lleva mucho tiempo saber cómo
+funciona (o por qué no funciona).&lt;/p&gt;
+&lt;p&gt;Así que hoy, pensando en eso, di por casualidad con un
+&lt;a href=&#34;https://htmx.org/essays/locality-of-behaviour/&#34;&gt;artículo&lt;/a&gt;
+del autor de HTMX que me dejó pensando.&lt;/p&gt;
+&lt;p&gt;El artículo menciona que una técnica valiosa de trabajar con
+HTMX es que la funcionalidad del sistema está a la vista,
+en el mismo documento HTML.&lt;/p&gt;
+&lt;p&gt;Es decir, que las cosas que funcionan juntas estén juntas:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/las-cosas-cerca/comparativa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Esta forma de &amp;ldquo;mantener junto&amp;rdquo; el código me parece muy
+buena, es la clase de cosas que me gustaría que encuentren
+las personas que ven el código que escribo.&lt;/p&gt;
+&lt;p&gt;Me gustaría que el código que escribo sea claro, y sea fácil
+responder preguntas cómo: ¿qué hace este botón?, ¿a qué ruta
+invoca?, ¿qué hace con el resultado?, ¿de dónde proviene&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Configurando un media center con Kodi</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</link>
