@@ -6,7 +6,41 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Para qué sirve scrolloff en vim?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/</guid>
+      <description>&lt;p&gt;Imaginá que buscas una linea de código en un archivo muy
+grande, pero usando una pantalla pequeña que solo te permite
+ver una parte del archivo.&lt;/p&gt;
+&lt;p&gt;Podrías mover el cursor hasta esa linea y quedarte en esa
+posición, el area visible del editor va a &amp;ldquo;acompañar&amp;rdquo; el
+movimiento del mouse para que siempre quede en pantalla así:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/scrolloff_en_vim/scrolloff-0.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El problema es que generalmente nos interesa ver qué hay
+debajo y arriba de esa palabra, es decir, el contexto de lo
+que estamos buscando.&lt;/p&gt;
+&lt;p&gt;Cuando esto sucede nos toca mover el cursor hacia abajo y
+arriba para desplazar la pantalla o usar el mouse para
+desplazar el area visible. Algo molesto realmente, porque
+tenemos que hacer movimientos innecesarios con el cursor
+solamente para &amp;ldquo;ver el contexto&amp;rdquo; de dónde estamos dentro del
+documento.&lt;/p&gt;
+&lt;p&gt;Bueno, por suerte Vim tiene un parámetro de configuración
+para resolver este problema fácilmente:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set scrolloff=4
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Con este parámetro, Vim va a intentar mantener al cursor en
+pantalla dejando 4 lineas visibles hacia arriba y abajo en
+todo momento:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/scrolloff_en_vim/scrolloff-4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es un detalle pequeño, pero tener contexto de la linea del
+editor me da comodidad instantanea todos los días :)&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>¿Cómo pegar texto en vim?</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</link>

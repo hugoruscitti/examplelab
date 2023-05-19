@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Para qué sirve scrolloff en vim?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/</guid>
+      <description>Imaginá que buscas una linea de código en un archivo muy grande, pero usando una pantalla pequeña que solo te permite ver una parte del archivo.
+Podrías mover el cursor hasta esa linea y quedarte en esa posición, el area visible del editor va a &amp;ldquo;acompañar&amp;rdquo; el movimiento del mouse para que siempre quede en pantalla así:
+El problema es que generalmente nos interesa ver qué hay debajo y arriba de esa palabra, es decir, el contexto de lo que estamos buscando.</description>
+    </item>
+    
     <item>
       <title>¿Cómo pegar texto en vim?</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</link>
