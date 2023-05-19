@@ -9,9 +9,9 @@ all:
 	@echo ""
 	@echo "${B}Comandos disponibles${N}"
 	@echo ""
-	@echo "    ${G}ejecutar${N}                   ejecuta el modo servidor sin mostrar borradores."
-	@echo "    ${G}compilar${N}                   genera todos los archivos estáticos."
-	@echo "    ${G}deploy${N}                     sube el sitio para que esté online."
+	@echo "    ${G}ejecutar${N}       ejecuta el modo servidor sin mostrar borradores."
+	@echo "    ${G}compilar${N}       genera todos los archivos estáticos."
+	@echo "    ${G}deploy${N}         sube el sitio para que esté online."
 	@echo ""
 	@echo ""
 
@@ -32,4 +32,9 @@ deploy:
 	@git add docs
 	@git commit -am "actualizando archivos .html"
 	@git push origin master
-	@echo "${G}Listo, se hizo el deploy en https://www.examplelab.com.ar (github pages)${N}"
+	@echo "${G}Listo, se hizo el deploy en:${N}"
+	@echo "${G} ${N}"
+	@echo "${G} https://www.examplelab.com.ar ${N}"
+	@echo "${G} ${N}"
+	@echo "${G} (aunque demora unos 2 minutos en estar online realmente)${N}"
+
