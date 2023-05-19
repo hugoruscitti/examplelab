@@ -3,7 +3,8 @@ layout: post
 title: ¿Para qué sirve scrolloff en vim?
 date: '2023-04-19 00:00:00'
 description: |
-  Contenido ...
+  Explico una configuración de vim para ajustar el
+  desplazamiento de pantalla.
 cover: /images/2023/scrolloff_en_vim/portada.jpg
 ---
 
