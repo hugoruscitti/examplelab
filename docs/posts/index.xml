@@ -6,7 +6,30 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Componentes web con vanilla JavaScript</title>
+      <link>https://www.examplelab.com.ar/posts/2023-11-17-componentes-web/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-11-17-componentes-web/</guid>
+      <description>Hoy es mucho más fácil crear componentes web para nuestras aplicaciones, ya no se necesita una biblioteca para hacer esto.
+¿Cómo se hace?, simplemente tenes que inventarte un nombre para el componente, por ejemplo contador-de-clicks y comenzar a utilizarlo dentro de tus archivos html así:
+&amp;lt;contador-de-clicks&amp;gt;&amp;lt;/contador-de-clicks&amp;gt; Luego, para que este componente tenga comporatamiento es necesario escribir algo de código JavaScript para representarlo:
+class ContadorDeClicks extends HTMLElement { constructor() { super(); } connectedCallback() { this.</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué personalizar las herramientas?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-11-17-por-que-personalizar-cosas/</link>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-11-17-por-que-personalizar-cosas/</guid>
+      <description>Hoy comencé a usar Hammerspoon para personalizar mi teclado y crear un atajo rápido para alternar entre ventanas del sistema.
+Creo que lo interesante de configurar el teclado es que me lleva a pensar formas distintas de trabajar, es una oportunidad de &amp;ldquo;entrenar a la computadora&amp;rdquo; para que se ajuste a mí, a mi formar de trabajar y no al revés.
+Alternar entre dos ventanas del sistema es algo que hago con mucha frecuencia: suelo ver el código, alternar al navegador, volver al editor etc&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>¿Para qué sirve scrolloff en vim?</title>
       <link>https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/</link>

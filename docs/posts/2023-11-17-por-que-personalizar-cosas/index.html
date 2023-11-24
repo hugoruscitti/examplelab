@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
     
-      <title>¿Para qué sirve scrolloff en vim? :: Examplelab — Mi blog</title>
+      <title>¿Por qué personalizar las herramientas? :: Examplelab — Mi blog</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Imaginá que buscas una linea de código en un archivo muy grande, pero usando una pantalla pequeña que solo te permite ver una parte del archivo.
-Podrías mover el cursor hasta esa linea y quedarte en esa posición, el area visible del editor va a &amp;ldquo;acompañar&amp;rdquo; el movimiento del mouse para que siempre quede en pantalla así:
-El problema es que generalmente nos interesa ver qué hay debajo y arriba de esa palabra, es decir, el contexto de lo que estamos buscando."/>
+<meta name="description" content="Hoy comencé a usar Hammerspoon para personalizar mi teclado y crear un atajo rápido para alternar entre ventanas del sistema.
+Creo que lo interesante de configurar el teclado es que me lleva a pensar formas distintas de trabajar, es una oportunidad de &amp;ldquo;entrenar a la computadora&amp;rdquo; para que se ajuste a mí, a mi formar de trabajar y no al revés.
+Alternar entre dos ventanas del sistema es algo que hago con mucha frecuencia: suelo ver el código, alternar al navegador, volver al editor etc&amp;hellip;"/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/" />
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2023-11-17-por-que-personalizar-cosas/" />
 
 
 
@@ -33,21 +33,21 @@ El problema es que generalmente nos interesa ver qué hay debajo y arriba de esa
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="¿Para qué sirve scrolloff en vim?"/>
-<meta name="twitter:description" content="Explico una configuración de vim para ajustar el
-desplazamiento de pantalla.
+<meta name="twitter:title" content="¿Por qué personalizar las herramientas?"/>
+<meta name="twitter:description" content="Unas reflexiones sobre por qué conviene dedicar algunas
+horas a configurar el teclado.
 "/>
 
 
 
-<meta property="og:title" content="¿Para qué sirve scrolloff en vim?" />
-<meta property="og:description" content="Explico una configuración de vim para ajustar el
-desplazamiento de pantalla.
+<meta property="og:title" content="¿Por qué personalizar las herramientas?" />
+<meta property="og:description" content="Unas reflexiones sobre por qué conviene dedicar algunas
+horas a configurar el teclado.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-04-19T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-04-19T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2023-11-17-por-que-personalizar-cosas/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-19T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
 
 
 
@@ -138,11 +138,11 @@ desplazamiento de pantalla.
 
 
   <div class="post">
-    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/">¿Para qué sirve scrolloff en vim?</a></h2>
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2023-11-17-por-que-personalizar-cosas/">¿Por qué personalizar las herramientas?</a></h2>
     <div class="post-meta">
       
         <span class="post-date">
-            19/04/2023
+            19/06/2023
         </span>
       
       
@@ -152,31 +152,29 @@ desplazamiento de pantalla.
     
 
     <div class="post-content">
-      <p>Imaginá que buscas una linea de código en un archivo muy
-grande, pero usando una pantalla pequeña que solo te permite
-ver una parte del archivo.</p>
-<p>Podrías mover el cursor hasta esa linea y quedarte en esa
-posición, el area visible del editor va a &ldquo;acompañar&rdquo; el
-movimiento del mouse para que siempre quede en pantalla así:</p>
-<p><img src="/images/2023/scrolloff_en_vim/scrolloff-0.png" alt=""></p>
-<p>El problema es que generalmente nos interesa ver qué hay
-debajo y arriba de esa palabra, es decir, el contexto de lo
-que estamos buscando.</p>
-<p>Cuando esto sucede nos toca mover el cursor hacia abajo y
-arriba para desplazar la pantalla o usar el mouse para
-desplazar el area visible. Algo molesto realmente, porque
-tenemos que hacer movimientos innecesarios con el cursor
-solamente para &ldquo;ver el contexto&rdquo; de dónde estamos dentro del
-documento.</p>
-<p>Bueno, por suerte Vim tiene un parámetro de configuración
-para resolver este problema fácilmente:</p>
-<pre tabindex="0"><code>set scrolloff=4
-</code></pre><p>Con este parámetro, Vim va a intentar mantener al cursor en
-pantalla dejando 4 lineas visibles hacia arriba y abajo en
-todo momento:</p>
-<p><img src="/images/2023/scrolloff_en_vim/scrolloff-4.png" alt=""></p>
-<p>Es un detalle pequeño, pero tener contexto de la linea del
-editor me da comodidad instantanea todos los días :)</p>
+      <p>Hoy comencé a usar Hammerspoon para personalizar mi teclado
+y crear un atajo rápido para alternar entre ventanas del
+sistema.</p>
+<p>Creo que lo interesante de configurar el teclado es que me
+lleva a pensar formas distintas de trabajar, es una
+oportunidad de &ldquo;entrenar a la computadora&rdquo; para que se
+ajuste a mí, a mi formar de trabajar y no al revés.</p>
+<p>Alternar entre dos ventanas del sistema es algo que hago con
+mucha frecuencia: suelo ver el código, alternar al
+navegador, volver al editor etc&hellip;</p>
+<p>Entonces, cambié la configuración del teclado para que la
+tecla CTRL tenga una función adicional: Si pulso y suelto la
+tecla CTRL muy rápido, sin combinarla con otra tecla, se
+alterna con la ventana anterior.</p>
+<p>Esto era algo que tenía configurado hace tiempo usando un
+programa llamado karabiner-elements, pero por algún motivo
+dejó de funcionar y me resistí hasta ahora en tratar de
+arreglarlo.</p>
+<p>Posiblemente esto se vuelva parte de mi memoria muscular y
+se vuelva un problema cuando intente usar otra compuradora
+que no sea la mia, como cuando pulso &ldquo;esc&rdquo; sin darme cuenta
+que no estoy en vim; pero creo que puedo vivir con eso, no
+me preocupa.</p>
 
     </div>
 
@@ -190,16 +188,16 @@ editor me da comodidad instantanea todos los días :)</p>
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="https://www.examplelab.com.ar/posts/2023-11-17-por-que-personalizar-cosas/">
+                <a href="https://www.examplelab.com.ar/posts/2023-11-17-componentes-web/">
                   <span class="button__icon">←</span>
-                  <span class="button__text">¿Por qué personalizar las herramientas?</span>
+                  <span class="button__text">Componentes web con vanilla JavaScript</span>
                 </a>
               </span>
             
             
               <span class="button next">
-                <a href="https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/">
-                  <span class="button__text">¿Cómo pegar texto en vim?</span>
+                <a href="https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/">
+                  <span class="button__text">¿Para qué sirve scrolloff en vim?</span>
                   <span class="button__icon">→</span>
                 </a>
               </span>
