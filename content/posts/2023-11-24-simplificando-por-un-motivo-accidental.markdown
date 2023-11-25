@@ -34,7 +34,7 @@ intentando arreglarlo me puse a pensar en el "sistema
 completo" y si quería seguir manteniendo todo eso.
 
 
-Por una lado, es razonable que la automatización deje de
+Por un lado, es razonable que la automatización deje de
 funcionar con el paso del tiempo. Mucho de lo que hice
 depende de servicios externos; las empresas actualizan su
 software, las versiones nuevas sustituyen las anteriores,
