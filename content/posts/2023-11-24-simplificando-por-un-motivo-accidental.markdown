@@ -26,7 +26,7 @@ servidor no pudo actualizar los binarios y los
 Obviamente me puse a investigar e intentar corregir las
 cosas pero llegué a este punto: "no anda nada"
 
-![](/images/2023/simplificando-a-la-fuerza/fails.png)
+![](/images/2023/simplificando-por-un-motivo-accidental/fails.png)
 
 Sentí que toda la estructura que funcionaba perfecto se vino
 "abajo" sin una causa directa. Así que en lugar de seguir
@@ -91,14 +91,14 @@ Ahora mis *scripts* son locales, más simples y fáciles de
 mantener. Lo más automatizado que tengo es este
 [makefile](https://github.com/pilas-engine/pilas-engine/blob/master/Makefile):
 
-![](/images/2023/simplificando-a-la-fuerza/make.png)
+![](/images/2023/simplificando-por-un-motivo-accidental/make.png)
 
 y para cada cosa que tengo que hacer suelo dedicar un
 comando de Make para simplificar una tarea.
 
 Por ejemplo, para subir binarios ejecuto este comando:
 
-![](/images/2023/simplificando-a-la-fuerza/binarios.png)
+![](/images/2023/simplificando-por-un-motivo-accidental/binarios.png)
 
 Claro, seguramente voy a tener que ajustar cosas en el
 futuro, pero siento que este enfoque más artesanal y sólido
