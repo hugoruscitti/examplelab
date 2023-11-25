@@ -50,6 +50,7 @@ En este artículo veremos una alternativa para empaquetar y distribuir nuestros 
 
 
 
+
   </head>
   <body class="">
     <script>
@@ -191,7 +192,7 @@ funcionar con versiones mas nuevas también.</p>
 <h2 id="creando-el-cargador-básico">Creando el cargador básico</h2>
 <p>Nuestro primer cargador solamente incluirá la biblioteca estándar de python y <code>Tkinter</code> para manejo de interfaz gráfica.</p>
 <p>Construye un archivo llamado <code>cargador.py</code> y el siguiente contenido:</p>
-<pre tabindex="0"><code>import tkMessageBox
+<pre><code>import tkMessageBox
 import Tkinter
 import imp
 import sys
@@ -200,32 +201,32 @@ import os
 window = Tkinter.Tk()
 window.wm_withdraw()
 
-if not os.path.exists(&#39;run.py&#39;):
-    tkMessageBox.showerror(&#34;Error&#34;, &#34;No se encuentra el archivo run.py&#34;)
+if not os.path.exists('run.py'):
+    tkMessageBox.showerror(&quot;Error&quot;, &quot;No se encuentra el archivo run.py&quot;)
     sys.exit(1)
 
 try:
-    imp.load_source(&#34;__main__&#34;, &#34;run.py&#34;)
+    imp.load_source(&quot;__main__&quot;, &quot;run.py&quot;)
 except Exception, e:
 
-    tkMessageBox.showerror(&#34;Error&#34;, e)
+    tkMessageBox.showerror(&quot;Error&quot;, e)
 </code></pre><p>Este programa solamente va a buscar y ejecutar un archivo llamado <code>run.py</code>, y si no lo encuentra va a emitir un mensaje de error:</p>
 <p><img src="/images/2013/Oct/error.png" alt=""></p>
 <h2 id="generando-el-archivo-ejecutable">Generando el archivo ejecutable</h2>
 <p>El siguiente paso es <em>compilar</em> nuestro cargador para que se pueda ejecutar de manera independiente.</p>
 <p>Tenemos que crear dos archivos, <code>setup.py</code>:</p>
-<pre tabindex="0"><code>from cx_Freeze import setup
+<pre><code>from cx_Freeze import setup
 from cx_Freeze import Executable
 
 exe = Executable(
-        script=&#34;cargador.py&#34;,
-        base=&#34;Win32GUI&#34;,
+        script=&quot;cargador.py&quot;,
+        base=&quot;Win32GUI&quot;,
 )
 
 setup(
-    name=&#34;Cargador&#34;,
-    version=&#34;0.1&#34;,
-    description=&#34;Un cargador de juegos&#34;,
+    name=&quot;Cargador&quot;,
+    version=&quot;0.1&quot;,
+    description=&quot;Un cargador de juegos&quot;,
     executables=[exe],
 )
 </code></pre><p>y <code>crear_ejecutable.bat</code>:</p>
@@ -243,12 +244,12 @@ ejecutable del cargador:</p>
 <h2 id="probando-el-cargador">Probando el cargador</h2>
 <p>Ahora la carpeta <code>build</code> tendrá todos los archivos para incluir, excepto el de nuestro programa.</p>
 <p>Hagamos un programa sencillo, algo llamado <code>run.py</code>:</p>
-<pre tabindex="0"><code>import tkMessageBox
+<pre><code>import tkMessageBox
 import Tkinter
 
 root = Tkinter.Tk()
 root.withdraw()
-tkMessageBox.showinfo(&#34;Hola&#34;, &#34;Bienvenido al primer programa de ejemplo&#34;)
+tkMessageBox.showinfo(&quot;Hola&quot;, &quot;Bienvenido al primer programa de ejemplo&quot;)
 </code></pre><p>Listo, ahora solo hay que colocarlo en la carpeta <code>build</code> y ejecutar el nuevo archivo <code>cargador.exe</code></p>
 <p><img src="/images/2013/Oct/exito.png" alt=""></p>
 <h2 id="versión-2-añadiendo-soporte-para-pygame">Versión 2: añadiendo soporte para pygame</h2>
@@ -263,7 +264,7 @@ tkMessageBox.showinfo(&#34;Hola&#34;, &#34;Bienvenido al primer programa de ejem
 <p>Para crear un cargador especial de <a href="http://cocos2d.org">cocos2d</a> necesitamos instalar <a href="http://www.pyglet.org">pyglet</a>, <a href="http://pypi.python.org/pypi/numpy">numpy</a> y luego <a href="http://cocos2d.org">cocos2d</a>.</p>
 <p>Una vez concluido el proceso de instalación, tendríamos que volver
 a editar el archivo <code>setup.py</code> e incluir a <a href="http://cocos2d.org">cocos2d</a>:</p>
-<pre tabindex="0"><code>import cocos
+<pre><code>import cocos
 </code></pre><p>Y listo, ahora solo queda ejecutar <code>crear_ejecutable.bat</code>, copiar el archivo
 <code>avbin.dll</code> de <a href="http://avbin.github.com/AVbin/Download.html">avbin</a> dentro del directorio <code>build</code>, agregar todas las imagenes que
 necesite el juego y distribuir nuestro cargador:</p>

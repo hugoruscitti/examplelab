@@ -58,6 +58,7 @@ una alternativa modesta.
 
 
 
+
   </head>
   <body class="">
     <script>
@@ -188,7 +189,7 @@ instaladas de forma global: typescript, python, make, vim, uglify-js etc&hellip;
 que un proyecto tiene que poder &ldquo;auto-instalarse&rdquo; en cualquier equipo usando <code>npm install</code>
 desde cero no me gusta sinceramente.</p>
 <p>Entonces, un proyecto se puede iniciar con 3 archivos, &ldquo;index.html&rdquo;, &ldquo;app.js&rdquo; y &ldquo;app.css&rdquo;:</p>
-<pre tabindex="0"><code>→ ls 
+<pre><code>→ ls 
 app.css     app.js      index.html
 </code></pre><p>Y conforme necesite más, puedo ser consciente de qué piezas me conviene
 agregar y si realmente me benefician a no.</p>
@@ -198,7 +199,7 @@ web que actualice el navegador cada vez que realizo cambios en los archivos
 del proyecto.</p>
 <p>Para eso utilizo <a href="https://www.npmjs.com/package/live-server">este comando</a> que
 instalé de forma global en mi sistema:</p>
-<pre tabindex="0"><code>live-server
+<pre><code>live-server
 </code></pre><p>Esto es un &ldquo;chiche&rdquo; en realidad, porque solamente me ahorra cambiar
 de ventana y pulsar <code>cmd+r</code> para recargar la página.</p>
 <p>Sin embargo para mí esto añade algo de diversión y comodidad, porque puedo
@@ -218,27 +219,27 @@ el proyecto en diferentes archivos y tener un solo comando
 para empaquetar todo y llevarlo al navegador.</p>
 <p>Por ejemplo, los archivos de código los suelo guardar en un directorio
 como <code>src</code> así:</p>
-<pre tabindex="0"><code>→ ls src/
+<pre><code>→ ls src/
 app.ts  tsconfig.json  utils.ts
 </code></pre><p>El archivo <code>tsconfig.json</code> simplemente describe que queremos convertir
 todos esos archivos <code>.ts</code> en un único archivo <code>app</code>:</p>
-<pre tabindex="0"><code>{
-  &#34;compilerOptions&#34;: {
-    &#34;outFile&#34;: &#34;../dist/app.js&#34;,
-    &#34;sourceMap&#34;: true,
-    &#34;target&#34;: &#34;es6&#34;,
-    &#34;module&#34;: &#34;amd&#34;,
-    &#34;paths&#34;: {
-      &#34;~*&#34;: [&#34;./*&#34;]
+<pre><code>{
+  &quot;compilerOptions&quot;: {
+    &quot;outFile&quot;: &quot;../dist/app.js&quot;,
+    &quot;sourceMap&quot;: true,
+    &quot;target&quot;: &quot;es6&quot;,
+    &quot;module&quot;: &quot;amd&quot;,
+    &quot;paths&quot;: {
+      &quot;~*&quot;: [&quot;./*&quot;]
     }
   },
-  &#34;include&#34;: [&#34;**/*.ts&#34;]
+  &quot;include&quot;: [&quot;**/*.ts&quot;]
 }
 </code></pre><p>Luego, para compilar todo, uso este comando:</p>
-<pre tabindex="0"><code>tsc -b src
+<pre><code>tsc -b src
 </code></pre><p>o si quiero compilar automáticamente ante un cambio
 en alguno de los archivos de código fuente:</p>
-<pre tabindex="0"><code>tsc -b src -w
+<pre><code>tsc -b src -w
 </code></pre><p>ok, igual&hellip; se que suena complejo, mi idea de minimalismo en un proyecto
 no consiste en deshacerse de la estructura y rechazar todas las herramientas.</p>
 <p>Mi idea de un entorno minimalista es &ldquo;volar liviano&rdquo;, quitando las cosas
