@@ -51,7 +51,7 @@
 
         <div>
           {{ if .Params.Cover }}
-            <a href="{{.RelPermalink}}" style="display: block; min-width: 128px; min-height: 128px; background-color: gray;"><img src="{{ .Params.Cover | absURL }}" class="no-mw ba"/></a>
+            <a href="{{.RelPermalink}}" style="display: block; min-width: 128px; min-height: 128px; background-color: gray;"><img loading="lazy" src="{{ .Params.Cover | absURL }}" class="no-mw ba"/></a>
           {{ else }}
             <a href="{{.RelPermalink}}" style="display: block; min-width: 128px; min-height: 128px; background-color: gray;"><div class="dib bg-silver"></div></a>
            {{ end }}
