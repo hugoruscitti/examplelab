@@ -27,7 +27,7 @@ servidor no pudo actualizar los binarios y los
 &lt;em&gt;tests&lt;/em&gt; dejaron de iniciar (y aún no se por qué).&lt;/p&gt;
 &lt;p&gt;Obviamente me puse a investigar e intentar corregir las
 cosas pero llegué a este punto: &amp;ldquo;no anda nada&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/simplificando-a-la-fuerza/fails.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/simplificando-por-un-motivo-accidental/fails.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Sentí que toda la estructura que funcionaba perfecto se vino
 &amp;ldquo;abajo&amp;rdquo; sin una causa directa. Así que en lugar de seguir
 intentando arreglarlo me puse a pensar en el &amp;ldquo;sistema
@@ -80,11 +80,11 @@ proyecto.&lt;/p&gt;
 &lt;p&gt;Ahora mis &lt;em&gt;scripts&lt;/em&gt; son locales, más simples y fáciles de
 mantener. Lo más automatizado que tengo es este
 &lt;a href=&#34;https://github.com/pilas-engine/pilas-engine/blob/master/Makefile&#34;&gt;makefile&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/simplificando-a-la-fuerza/make.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/simplificando-por-un-motivo-accidental/make.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;y para cada cosa que tengo que hacer suelo dedicar un
 comando de Make para simplificar una tarea.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, para subir binarios ejecuto este comando:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/simplificando-a-la-fuerza/binarios.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/simplificando-por-un-motivo-accidental/binarios.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Claro, seguramente voy a tener que ajustar cosas en el
 futuro, pero siento que este enfoque más artesanal y sólido
 puede darme menos problemas en el futuro.&lt;/p&gt;
