@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Imágenes &#34;Lasy&#34; en el navegador</title>
+      <link>https://www.examplelab.com.ar/posts/2023-11-24-imagenes-async-en-el-navegador/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-11-24-imagenes-async-en-el-navegador/</guid>
+      <description>Esta semana aprendí algo nuevo sobre la etiqueta img:
+Resulta que podemos indicarle al navegador si en nuestro sitio se pueden cargar las imágenes bajo demanda, a medida que el usuario desplaza el contenido.
+Lo único que tenemos que hacer es armar la etiqueta img de esta forma:
+&amp;lt;img loading=&amp;#34;lazy&amp;#34; src=&amp;#34;/images/2013/pilas/portada.jpg&amp;#34;/&amp;gt; Probando el cambio en mi blog Para aprovechar la ocasión se me ocurrió mejorar la forma en la que se cargan las imágenes en este blog, a ver si notaba algún resultado.</description>
+    </item>
+    
+    <item>
       <title>Simplificando por un motivo accidental</title>
       <link>https://www.examplelab.com.ar/posts/2023-11-24-simplificando-por-un-motivo-accidental/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>

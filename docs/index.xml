@@ -8,6 +8,36 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Imágenes &#34;Lasy&#34; en el navegador</title>
+      <link>https://www.examplelab.com.ar/posts/2023-11-24-imagenes-async-en-el-navegador/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-11-24-imagenes-async-en-el-navegador/</guid>
+      <description>&lt;p&gt;Esta semana aprendí algo nuevo sobre la etiqueta &lt;strong&gt;img&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Resulta que podemos indicarle al navegador si en nuestro
+sitio se pueden cargar las imágenes bajo demanda, a medida
+que el usuario desplaza el contenido.&lt;/p&gt;
+&lt;p&gt;Lo único que tenemos que hacer es armar la etiqueta &lt;em&gt;img&lt;/em&gt; de esta forma:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;loading&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lazy&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/images/2013/pilas/portada.jpg&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;probando-el-cambio-en-mi-blog&#34;&gt;Probando el cambio en mi blog&lt;/h1&gt;
+&lt;p&gt;Para aprovechar la ocasión se me ocurrió mejorar la forma en
+la que se cargan las imágenes en este blog, a ver si notaba
+algún resultado.&lt;/p&gt;
+&lt;p&gt;Hace unos días, cuando se ingresaba a este blog el navegador
+cargaba todas las portadas de artículos juntas:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/imagenes-async-en-el-navegador/antes.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es decir, hacía 111 peticiones para cargar todas las
+imágenes.&lt;/p&gt;
+&lt;p&gt;Ahora, cambiando las etiquetas &lt;em&gt;img&lt;/em&gt; para que se carguen
+bajo demanda el navegador solamente solicita las imágenes a
+medida que las necesita.&lt;/p&gt;
+&lt;p&gt;Esta es una captura de pantalla de las peticiones que hace
+el navegador al ingresar al blog:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/imagenes-async-en-el-navegador/despues.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Simplificando por un motivo accidental</title>
       <link>https://www.examplelab.com.ar/posts/2023-11-24-simplificando-por-un-motivo-accidental/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
