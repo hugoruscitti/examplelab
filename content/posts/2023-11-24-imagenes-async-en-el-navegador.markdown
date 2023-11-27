@@ -34,14 +34,14 @@ cargaba todas las portadas de artículos juntas:
 ![](/images/2023/imagenes-async-en-el-navegador/antes.png)
 
 Es decir, hacía 111 peticiones para cargar todas las
-imagenes.
+imágenes.
 
 Ahora, cambiando las etiquetas *img* para que se carguen
 bajo demanda el navegador solamente solicita las imágenes a
 medida que las necesita.
 
 Esta es una captura de pantalla de las peticiones que hace
-el navegador al incresar al blog:
+el navegador al ingresar al blog:
 
 ![](/images/2023/imagenes-async-en-el-navegador/despues.png)
 
