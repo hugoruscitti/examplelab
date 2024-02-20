@@ -6,202 +6,103 @@
     <description>Recent content in Tags on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2020 23:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>electrónica</title>
-      <link>https://www.examplelab.com.ar/tags/electr%C3%B3nica/</link>
-      <pubDate>Fri, 24 Jan 2020 23:00:00 +0000</pubDate>
+      <title>reflexión</title>
+      <link>https://www.examplelab.com.ar/tags/reflexi%C3%B3n/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/electr%C3%B3nica/</guid>
+      <guid>https://www.examplelab.com.ar/tags/reflexi%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>nodewebkit</title>
-      <link>https://www.examplelab.com.ar/tags/nodewebkit/</link>
-      <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
+      <title>web</title>
+      <link>https://www.examplelab.com.ar/tags/web/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/nodewebkit/</guid>
+      <guid>https://www.examplelab.com.ar/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>pilas</title>
-      <link>https://www.examplelab.com.ar/tags/pilas/</link>
-      <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
+      <title>vim</title>
+      <link>https://www.examplelab.com.ar/tags/vim/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/pilas/</guid>
+      <guid>https://www.examplelab.com.ar/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>programacion</title>
-      <link>https://www.examplelab.com.ar/tags/programacion/</link>
-      <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
+      <title>proyecto</title>
+      <link>https://www.examplelab.com.ar/tags/proyecto/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/programacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arte</title>
-      <link>https://www.examplelab.com.ar/tags/arte/</link>
-      <pubDate>Sun, 04 May 2014 00:23:57 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/arte/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>charla</title>
-      <link>https://www.examplelab.com.ar/tags/charla/</link>
-      <pubDate>Sun, 04 May 2014 00:23:57 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/charla/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stopmotion</title>
-      <link>https://www.examplelab.com.ar/tags/stopmotion/</link>
-      <pubDate>Sat, 19 Apr 2014 21:29:49 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/stopmotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>inspiracion</title>
-      <link>https://www.examplelab.com.ar/tags/inspiracion/</link>
-      <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/inspiracion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ruby</title>
-      <link>https://www.examplelab.com.ar/tags/ruby/</link>
-      <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>traduccion</title>
-      <link>https://www.examplelab.com.ar/tags/traduccion/</link>
-      <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/traduccion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>evento</title>
-      <link>https://www.examplelab.com.ar/tags/evento/</link>
-      <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/evento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html5</title>
-      <link>https://www.examplelab.com.ar/tags/html5/</link>
-      <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/html5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.examplelab.com.ar/tags/linux/</link>
-      <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/linux/</guid>
+      <guid>https://www.examplelab.com.ar/tags/proyecto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
       <link>https://www.examplelab.com.ar/tags/python/</link>
-      <pubDate>Sun, 03 Nov 2013 23:32:32 +0000</pubDate>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.examplelab.com.ar/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>windows</title>
-      <link>https://www.examplelab.com.ar/tags/windows/</link>
-      <pubDate>Sat, 18 Aug 2012 15:00:00 +0000</pubDate>
+      <title>programación</title>
+      <link>https://www.examplelab.com.ar/tags/programaci%C3%B3n/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/windows/</guid>
+      <guid>https://www.examplelab.com.ar/tags/programaci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tip</title>
-      <link>https://www.examplelab.com.ar/tags/tip/</link>
-      <pubDate>Fri, 27 Jul 2012 15:00:00 +0000</pubDate>
+      <title>imágenes</title>
+      <link>https://www.examplelab.com.ar/tags/im%C3%A1genes/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/tip/</guid>
+      <guid>https://www.examplelab.com.ar/tags/im%C3%A1genes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gimp</title>
-      <link>https://www.examplelab.com.ar/tags/gimp/</link>
-      <pubDate>Sat, 14 Jan 2012 15:00:00 +0000</pubDate>
+      <title>pilas</title>
+      <link>https://www.examplelab.com.ar/tags/pilas/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/gimp/</guid>
+      <guid>https://www.examplelab.com.ar/tags/pilas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>django</title>
+      <link>https://www.examplelab.com.ar/tags/django/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>juegos</title>
       <link>https://www.examplelab.com.ar/tags/juegos/</link>
-      <pubDate>Sat, 14 Jan 2012 15:00:00 +0000</pubDate>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.examplelab.com.ar/tags/juegos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>shaolin</title>
-      <link>https://www.examplelab.com.ar/tags/shaolin/</link>
-      <pubDate>Sat, 14 Jan 2012 15:00:00 +0000</pubDate>
+      <title>linux</title>
+      <link>https://www.examplelab.com.ar/tags/linux/</link>
+      <pubDate>Wed, 20 May 2015 03:13:32 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/tags/shaolin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interprete</title>
-      <link>https://www.examplelab.com.ar/tags/interprete/</link>
-      <pubDate>Thu, 22 Jul 2010 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/interprete/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cocos2d</title>
-      <link>https://www.examplelab.com.ar/tags/cocos2d/</link>
-      <pubDate>Wed, 30 Jun 2010 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/cocos2d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pyglet</title>
-      <link>https://www.examplelab.com.ar/tags/pyglet/</link>
-      <pubDate>Wed, 30 Jun 2010 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/tags/pyglet/</guid>
+      <guid>https://www.examplelab.com.ar/tags/linux/</guid>
       <description></description>
     </item>
     

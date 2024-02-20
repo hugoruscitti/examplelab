@@ -50,7 +50,6 @@ Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero
 
 
 
-
   </head>
   <body class="">
     <script>
@@ -147,6 +146,12 @@ Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero
     </div>
 
     
+      <span class="post-tags">
+        
+          #<a href="https://www.examplelab.com.ar/tags/pilas/">pilas</a>&nbsp;
+        
+      </span>
+    
 
     <div class="post-content">
       <p>Estamos muy cerca de lanzar la versión <code>0.91</code> de <em>pilas-engine</em>, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión y contarte el por qué de estos cambios.</p>
@@ -225,10 +230,10 @@ pilas = pilasengine.iniciar(habilitar_mensajes_log=True)
 class NuevActor(Actor):
 
 	def iniciar(self):
-        […]
+		[…]
 
 	def actualizar(self):
-        […]
+		[…]
 </code></pre>
 <p>Esta idea también podríamos llevarla a pilasweb, para que crear actores no necesite anteponer “new” y las sintaxis sean lo más parecidas posibles.</p>
 <h2 id="testing">Testing</h2>

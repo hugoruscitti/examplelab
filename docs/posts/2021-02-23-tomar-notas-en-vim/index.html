@@ -53,7 +53,6 @@ de la aplicación Bear que uso a diario.
 
 
 
-
   </head>
   <body class="">
     <script>
@@ -150,6 +149,14 @@ de la aplicación Bear que uso a diario.
     </div>
 
     
+      <span class="post-tags">
+        
+          #<a href="https://www.examplelab.com.ar/tags/reflexi%C3%B3n/">reflexión</a>&nbsp;
+        
+          #<a href="https://www.examplelab.com.ar/tags/vim/">vim</a>&nbsp;
+        
+      </span>
+    
 
     <div class="post-content">
       <p>Tomar notas está bueno, te da mucha claridad sobre lo que estás haciendo
@@ -188,7 +195,7 @@ formato original, en markdown.</p>
 cuando tiene imágenes.</p>
 <p>Para esos casos, hice un atajo en VIM para generar una versión
 <code>.html</code> de la nota y verla en el navegador:</p>
-<pre><code>map &lt;leader&gt;P :!pandoc % -o ./tmp.html --standalone --metadata title=&quot;nota&quot;; open tmp.html&lt;CR&gt;
+<pre tabindex="0"><code>map &lt;leader&gt;P :!pandoc % -o ./tmp.html --standalone --metadata title=&#34;nota&#34;; open tmp.html&lt;CR&gt;
 </code></pre><p>El atajo es bastante rudimentario, pero es un buen comienzo, si veo que me resulta útil puedo
 mejorarlo, y sino descartarlo por otra cosa.</p>
 <h1 id="cómo-agregar-imágenes-a-las-notas">Cómo agregar imágenes a las notas</h1>
@@ -205,7 +212,7 @@ sistema la imagen que captura. Así que para poner imágenes en un
 documento simplemente: tomo la captura, activo la ventana de VIM y pulso
 <code>&lt;leader&gt;i</code>.</p>
 <p>Por cierto, también agregué esta configuración a mi archivo <code>vimrc</code>:</p>
-<pre><code>nmap &lt;buffer&gt;&lt;silent&gt; &lt;leader&gt;i :call mdip#MarkdownClipboardImage()&lt;CR&gt;
+<pre tabindex="0"><code>nmap &lt;buffer&gt;&lt;silent&gt; &lt;leader&gt;i :call mdip#MarkdownClipboardImage()&lt;CR&gt;
 </code></pre><p>Ahora me queda pendiente la tarea de migrar todas mis notas a VIM
 y dar de baja Bear :P</p>
 

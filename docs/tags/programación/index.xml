@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programación on Examplelab</title>
+    <link>https://www.examplelab.com.ar/tags/programaci%C3%B3n/</link>
+    <description>Recent content in programación on Examplelab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Participando del pycamp 2021</title>
+      <link>https://www.examplelab.com.ar/posts/2021-11-28-pycamp-2021/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-11-28-pycamp-2021/</guid>
+      <description>Este año aproveché a tomarme vacaciones y participar del Pycamp que organizó la gente de Pyar en San Rafael, provincia de Mendoza.
+El pycamp se hizo en el predio UTN los Reyunos, rodeado de montañas, pajaritos y un paisaje espectacular:
+Al lado del predio también había un parador en donde se podía hacer varias actividades, como kayak, remo, tirolesa, y varias cosas más. Yo alquilé el kayak varios días seguidos, lo que me sirvió como terapia para desconectar del trabajo y reflexionar:</description>
+    </item>
+    
+    <item>
+      <title>Grabando un nuevo screencast</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</guid>
+      <description>Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de programación usando pilas-engine. Hablé de variables, valores, funciones y condicionales, todo dentro del editor de pilas:
+Ver el video en youtube Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace varios meses, pero nunca daba el primer paso para empezar a grabar.
+Hacer el video me llevó casi 11 horas de realización, unas horas del viernes, sábado y domingo.</description>
+    </item>
+    
+    <item>
+      <title>Replanteando la Programación Funcional</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</guid>
+      <description>Esta semana escuché una entrevista a Eric Normand en donde describía la programación funcional de una manera completamente diferente para mí.
+Resulta que mis nociones de programación funcional vienen de mi paso por la facultad de ingeniería, donde descubrí la programación funcional en una materia llamada Paradigmas de Programación.
+En esa materia abordamos la programación funcional desde sus fundamentos, usando haskell y resolviendo ejercicios para familiarizarnos con el enfoque del paradigma.</description>
+    </item>
+    
+    <item>
+      <title>Haciendo un sistema de eventos tipado</title>
+      <link>https://www.examplelab.com.ar/posts/2021-02-09-sistema-de-eventos-tipados/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-02-09-sistema-de-eventos-tipados/</guid>
+      <description>Cuando empecé a investigar acerca de TypeScript no le vi mucha utilidad. Declarar tipos de datos para variables simples como number o string no me parecía nada valioso.
+Sin embargo, cuando se trata de estructuras de datos la cosa se pone interesante. TypeScript nos permite describir la &amp;ldquo;forma&amp;rdquo; que deberán tener ciertas estructuras de datos y eso hace que nuestro código gane algo de consistencia adicional.
+Después de todo, la pieza más importante de un programa son sus estructuras de datos y ayuda mucho poder detectar inconsistencias mientras estamos escribiendo el código.</description>
+    </item>
+    
+    <item>
+      <title>¿Y si programamos en castellano?</title>
+      <link>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</guid>
+      <description>Tomar decisiones todo el día demanda mucha energía, incluso cosas simples como: qué vas a almorzar, o qué nombre le vas a poner a esa función en el código.
+Cada pequeña decisión te consume un poco de tiempo y energía.
+Por eso creo que vamos desarrollando la tendencia a responder en modo automático, como si nos dijéramos a nosotros mismos:
+&amp;ldquo;Esto se hace así, siempre lo hicimos así, ni nos preguntemos por qué&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>La documentación no muerde</title>
+      <link>https://www.examplelab.com.ar/posts/2018-12-15-la-documentacion-no-muerde/</link>
+      <pubDate>Sat, 15 Dec 2018 14:11:38 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2018-12-15-la-documentacion-no-muerde/</guid>
+      <description>Sé que suena un poco fuerte, pero no te ofendas&amp;hellip; esta leyenda es para mí, y la escribo acá como una forma de no olvidarme lo que pasó hoy y seguir aprendiendo.
+Si sos como yo, y programas hace algunos años, seguramente recurrís con urgencia a google o stack overflow cuando algo no sale bien, ya sea por un error imprevisto o un desafío que parece trivial, es fácil recurrir rápidamente a Internet como una herramienta auxiliar.</description>
+    </item>
+    
+    <item>
+      <title>Hackatón de Program.AR</title>
+      <link>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</link>
+      <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</guid>
+      <description>Este viernes se realizó al hackatón del primer foro regional &amp;lt;program.AR\&amp;gt; en la universidad de Quilmes.
+La experiencia estuvo increible:
+Al evento asistimos el equipo completo de huayra y muchos amigos de la comunidad educativa: los chicos de educ.ar, sadosky, Jefatura de Gobierno y pyar.
+El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un poco mas de tiempo, la ocasión sirvió para conocernos, debatir ideas y divertirnos.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</link>
+      <pubDate>Sun, 04 May 2014 00:23:57 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</guid>
+      <description>Bret Victor dió una charla impresionante llamada Inventing on Principle, invitando a las personas a descubrir un principio, algo que los guíe, una causa por que pelear.
+Es difícil resumir el potencial y lo inspirador de su enfoque. Sus ideas son transformadoras y valiosas para todos los programadores, artistas y creativos del mundo.
+Por ese motivo realizamos una traducción al español de su charla con un grupo de amigos. Hicimos un gran trabajo, nos llevó varios días realizarlo, y hoy pudimos terminar la compaginación y ponerlo online.</description>
+    </item>
+    
+  </channel>
+</rss>

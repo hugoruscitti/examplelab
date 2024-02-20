@@ -6,7 +6,51 @@
     <description>Recent content in python on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2013 23:32:32 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pycamp en Baradero</title>
+      <link>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</guid>
+      <description>Hace exactamente un año asistí al pycamp en Baradero, uno de los pycamp que más disfruté. Me encontré con amigos que no veía hace varios años, trabajamos en varios proyectos nuevos y me divertí un montón.
+El lugar en donde se hizo el evento me pareció genial, teníamos mucho espacio para trabajar cómodos y naturaleza por todos lados:
+La dinámica del pycamp En el pycamp se puede trabajar en los proyectos que uno quiera, ver lo que hacen los demás y sumarse para aportar ideas o aprender.</description>
+    </item>
+    
+    <item>
+      <title>Descubriendo python-dotenv</title>
+      <link>https://www.examplelab.com.ar/posts/2021-12-25-dotenv/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-12-25-dotenv/</guid>
+      <description>Hace unos meses dejé de usar pipenv y volví a los clásicos entornos virtuales de python, donde no tengo que lidiar con archivos como Pipfile o Pipfile.lock.
+La idea detrás de pipenv me gustaba, pero la implementación me dio muchos dolores de cabeza. Por ejemplo, cuando instalas una dependencia nueva la herramienta se queda trabajando varios minutos:
+Mi mayor preocupación con esto es la sensación de no saber qué está pasando por detrás de ese proceso, esperar tanto tiempo y luego verlo fallar me pasó tantas veces que ya había empezado a odiar la herramienta.</description>
+    </item>
+    
+    <item>
+      <title>Cómo crear migraciones de datos con Django</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</guid>
+      <description>Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.
+Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en producción realizadas con Django y nos pareció buena idea mencionar cómo lo resolvimos.
+Django incluye un sistema de migraciones que permite modificar la estructura de la base de datos de forma reproducible y consistente. Cada cambio que hacemos en los modelos, como agregar o modificar campos, generan migraciones automáticas para propagar los cambios sobre la base de datos.</description>
+    </item>
+    
+    <item>
+      <title>Emails con Django en modo desarrollo</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</guid>
+      <description>Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.
+Es un práctica común configurar e implementar envío de emails desde un sistema web. Casi todas las empresas llegan a tener la necesidad de informar a sus usuarios sobre eventos del sistema como las notificaciones o recuperación de contraseñas.
+En este artículo queremos contarte la forma que encontramos en enjambre-bit para implementar esas tareas de forma segura y sencilla.</description>
+    </item>
+    
     <item>
       <title>Semana de la juventud en Bariloche</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
@@ -27,8 +71,7 @@ Ojalá pueda visitar nuevamente bariloche con un taller de pilas-engine renovado
       <guid>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
       <description>Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013 de la ciudad de Rosario.
 Aquí estan las diapositivas:
- y el video:
- </description>
+y el video:</description>
     </item>
     
     <item>
@@ -40,6 +83,29 @@ Aquí estan las diapositivas:
       <description>Si escribes juegos usando python, seguramente te has encontrado en problemas al distribuir juegos sobre windows.
 Python es un gran lenguaje, pero cuando se utiliza con varias bibliotecas sobre Windows termina siendo algo difícil de transportar de un equipo a otro, y si quieres presentar tus juegos a muchas personas eso termina convirtiendose en un problema.
 En este artículo veremos una alternativa para empaquetar y distribuir nuestros juegos sobre windows de manera bastante sencilla, crearemos varios cargadores de juegos para bibliotecas como pygame, cocos2d y pilas-engine.</description>
+    </item>
+    
+    <item>
+      <title>Rediseñando los eventos de pilas-engine</title>
+      <link>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</link>
+      <pubDate>Wed, 29 Feb 2012 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</guid>
+      <description>El sistema de eventos de pilas-engine necesitaba varias mejoras. Desde que lo implementé, siempre tuve la sensación de que se podía simplificar y mejorar notablemente.
+Por suerte hoy logré implementar los cambios que quería, le dediqué varias horas pero valió la pena el esfuerzo, quedó mucho mejor de lo que esperaba, y en el camino aprendí varias cosas nuevas.
+¿Por qué es importante? Casi todos los motores de juegos tienen algún sistema de eventos, de alguna u otra forma se te permite conocer el estado de las teclas, del mouse etc.</description>
+    </item>
+    
+    <item>
+      <title>Creando intérpretes interactivos con python</title>
+      <link>https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</link>
+      <pubDate>Thu, 22 Jul 2010 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</guid>
+      <description>Python, al ser un lenguaje dinámico, facilita mucho la creación de intérpretes.
+En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos. Algo básico con readline
+Readline es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.
+Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&amp;hellip;</description>
     </item>
     
     <item>

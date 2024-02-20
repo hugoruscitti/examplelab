@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proyecto on Examplelab</title>
+    <link>https://www.examplelab.com.ar/tags/proyecto/</link>
+    <description>Recent content in proyecto on Examplelab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/proyecto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurando un media center con Kodi</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</guid>
+      <description>Esta semana terminé de configurar un media center para ver películas y series en la televisión:
+Hoy, al ver todo configurado y funcionando quedé muy satisfecho así que me gustaría mencionar y enumerar lo que aprendí en el camino:
+¿Por qué? Me gustan las películas, pero tengo apenas una o dos oportunidades de ver una película completa por semana. Me cuesta elegir qué mirar y no quiero descubrir que la película es muy mala mientras la estoy mirando.</description>
+    </item>
+    
+    <item>
+      <title>Creando un timer</title>
+      <link>https://www.examplelab.com.ar/posts/2021-05-18-creando-un-timer/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-05-18-creando-un-timer/</guid>
+      <description>El mes pasado escribí sobre como me ayuda hacer una sola cosa a la vez para realizar tareas durante el día.
+Sin embargo en el artículo me faltó describir cómo armé mi temporizador externo:
+El temporizador lo pude construir usando una plaqueta arduino, un display LCD 16x2, un botón de arcade y algunas cosas más.
+Empecé viendo algunos videos de youtube donde explicaban como conectar la plaqueta arduino, cargar un programa e incluso mostrar mensajes en la pantalla LCD:</description>
+    </item>
+    
+    <item>
+      <title>Una cosa a la vez</title>
+      <link>https://www.examplelab.com.ar/posts/2021-04-09-una-cosa-a-la-vez/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-04-09-una-cosa-a-la-vez/</guid>
+      <description>En las computadoras es muy fácil abrir varias aplicaciones, tener muchas pestañas del navegador abiertas e ir saltando de una aplicación a otra.
+Sin embargo, al menos para mí, es muy tedioso trabajar sin mantener el foco en algo específico, puedo estar horas saltando de un tema a otro, haciendo varias cosas y aun así sentir que no logré completar nada útil al finalizar el día.
+Necesito concentrarme en algo específico, dedicarle esfuerzo y terminarlo.</description>
+    </item>
+    
+    <item>
+      <title>Tortugas en el tiempo</title>
+      <link>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</guid>
+      <description>En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
+Podes ver el proyecto aquí:
+https://hugoruscitti.github.io/tortugas-en-el-tiempo Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.</description>
+    </item>
+    
+    <item>
+      <title>Creando un cuadro 3D de Dragon Punch</title>
+      <link>https://www.examplelab.com.ar/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/</link>
+      <pubDate>Sat, 15 Feb 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2020-02-15-creando-un-cuadro-3d-de-dragon-punch/</guid>
+      <description>Junto a Wally nos propusimos hacer unos cuadros para homenajear un video juego que habíamos hecho hace un par de años.
+Lo divertido de ese mini proyecto es que nos aventuramos a realizar el cuadro usando relieve, para que tenga un aspecto de profundidad entre el fondo de la escena y los Sprites del juego:
+El proyecto fue tan divertido que me pareció buena idea escribir sobre ello por si te gustaría hacer algo similar y estás buscando ideas.</description>
+    </item>
+    
+    <item>
+      <title>Armando un Audio Switch</title>
+      <link>https://www.examplelab.com.ar/posts/2020-01-24-creando-un-audio-switch/</link>
+      <pubDate>Fri, 24 Jan 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2020-01-24-creando-un-audio-switch/</guid>
+      <description>Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar de trabajo: compré una silla para mejorar mi postura, un escritorio grande, un monitor y algunas cosas más … Después de todo, la computadora (y sus accesorios) son mi herramienta de trabajo, por mas tonto que suene, me pagan por hacer cosas con ella :|
+Sin embargo, había una pequeña piedra en el zapato que desató un proyecto simple y divertido:</description>
+    </item>
+    
+    <item>
+      <title>StopMotion de &#34;yie ar kung-fu&#34;</title>
+      <link>https://www.examplelab.com.ar/posts/2014-04-19-stopmotion_kungfu/</link>
+      <pubDate>Sat, 19 Apr 2014 21:29:49 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2014-04-19-stopmotion_kungfu/</guid>
+      <description>Esta semana estuvimos haciendo nuestro primer mini corto de stomotion con Walter Velazquez:
+Hicimos un pequeño homenajeando al videojuego &amp;ldquo;yie ar kung-fu&amp;rdquo;, un juego que habíamos jugado miles de veces cuando eramos chicos, usando la consola family game (también llamada NES).
+Así se veía el mítico videojuego original en sus días de gloria:
+Nuestra idea era homenajearlo con una animación de stopmotion, usando personajes de papel y huayra-motion.
+Recursos Empezamos definiendo rápidamente la idea de la animación, Walter ya tenía en mente las secuencias principales y los materiales para utilizar.</description>
+    </item>
+    
+  </channel>
+</rss>

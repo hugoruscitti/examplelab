@@ -50,7 +50,6 @@ Técnicamente hablando, la aplicación simplemente busca videos en un directorio
 
 
 
-
   </head>
   <body class="">
     <script>
@@ -147,6 +146,12 @@ Técnicamente hablando, la aplicación simplemente busca videos en un directorio
     </div>
 
     
+      <span class="post-tags">
+        
+          #<a href="https://www.examplelab.com.ar/tags/web/">web</a>&nbsp;
+        
+      </span>
+    
 
     <div class="post-content">
       <h2 id="introducción">Introducción</h2>
@@ -157,7 +162,7 @@ Técnicamente hablando, la aplicación simplemente busca videos en un directorio
 <p>Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.</p>
 <h2 id="creando-la-aplicación">Creando la aplicación</h2>
 <p>El primer paso fue crear la aplicación ember e instalar algunas pocas extensiones:</p>
-<pre><code>ember new visor-offline
+<pre tabindex="0"><code>ember new visor-offline
 cd visor-offline
 
 ember install ember-electron
@@ -168,7 +173,7 @@ ember install ember-bootstrap
 </ul>
 <h2 id="previsualizando-la-aplicación">Previsualizando la aplicación</h2>
 <p>Lo interesante de ember-electron es que te permite simplificar un montón de pasos, por ejemplo, para ejecutar la aplicación podemos escribir:</p>
-<pre><code>ember electron
+<pre tabindex="0"><code>ember electron
 </code></pre><p>y lo que veremos en pantalla es la aplicación corriendo dentro del entorno de electron:</p>
 <p><img src="/images/2016/06/primer-version.png" alt="primer-version"></p>
 <p>y al igual que sucede cuando ejecutamos <code>ember serve</code>, cualquier cambio que hagamos en el código nos va a mostrar los cambios inmediatamente.</p>
@@ -178,68 +183,68 @@ ember install ember-bootstrap
 <p>Entonces, para descargar videos necesitaba de otra aplicación. Así que elegí usar ClipGrab, una aplicación muy sencilla que permite descargar videos desde youtube en distintos formatos:</p>
 <p><img src="/images/2016/06/descargas.png" alt="descargas"></p>
 <p>Ahora, para generar las miniaturas usé un pequeño script, que internamente invoca al comando <code>ffmpegthumbnailer</code>:</p>
-<pre><code># Archivo: crear_miniaturas.py
+<pre tabindex="0"><code># Archivo: crear_miniaturas.py
 import os
 
-for x in os.listdir('.'):
-  if x.lower().endswith('.mp4'):
-    print(&quot;Creando miniatura para: &quot; + x)
+for x in os.listdir(&#39;.&#39;):
+  if x.lower().endswith(&#39;.mp4&#39;):
+    print(&#34;Creando miniatura para: &#34; + x)
     video_input = x
-    file_output = &quot;thumbs/&quot; + video_input.replace(&quot;.mp4&quot;, &quot;.jpg&quot;)
-    os.system(&quot;ffmpegthumbnailer -i '%s' -o '%s' -s400&quot; %(video_input, file_output))
+    file_output = &#34;thumbs/&#34; + video_input.replace(&#34;.mp4&#34;, &#34;.jpg&#34;)
+    os.system(&#34;ffmpegthumbnailer -i &#39;%s&#39; -o &#39;%s&#39; -s400&#34; %(video_input, file_output))
 </code></pre><h2 id="cargando-el-listado-de-videos">Cargando el listado de videos</h2>
 <p>Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.</p>
 <p>Así que adopté la siguiente convención: los videos se deberían grabar directamente en el directorio <code>c:\videos</code> y las miniaturas generadas en <code>c:\videos\thumbs</code>, así el visor de video solo tendría que ir a buscarlos en esos directorios.</p>
 <p>En el caso de osx y linux el procedimiento es muy similar, solamente que buscará videos en <code>$HOME/videos</code> y las miniaturas en <code>$HOME/videos/thumbs</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/routes/index.js
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">Ember</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;ember&#34;</span>;
-
-<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">Route</span>.<span style="color:#a6e22e">extend</span>({
-  <span style="color:#a6e22e">videos</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">inject</span>.<span style="color:#a6e22e">service</span>(),
-
-  <span style="color:#a6e22e">model</span>() {
-    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#34;videos&#34;</span>).<span style="color:#a6e22e">getVideos</span>();
-  }
-});
-</code></pre></div><p>Y como el hook &ldquo;model&rdquo; está preparado para manejar promesas, implementé la función <code>getVideos</code> para que retorne una promesa:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// archivo: app/services/video.js
-</span><span style="color:#75715e"></span>
-[...]
-
-<span style="color:#a6e22e">getVideos</span>() {
-    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">RSVP</span>.Promise((<span style="color:#a6e22e">resolve</span>) =&gt; {
-      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#ae81ff">_</span><span style="color:#a6e22e">get_video_path</span>();
-
-
-      <span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">readdir</span>(<span style="color:#a6e22e">videoPath</span>, (<span style="color:#a6e22e">error</span>, <span style="color:#a6e22e">data</span>) =&gt; {
-
-        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">items</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">map</span>((<span style="color:#a6e22e">file</span>) =&gt; {
-          <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">&#34;.mp4&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>);
-
-          <span style="color:#66d9ef">return</span> {
-            <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">title</span>,
-            <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">title</span>,
-            <span style="color:#a6e22e">img</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/thumbs/&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;.jpg&#34;</span>,
-            <span style="color:#a6e22e">video</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">file</span>
-          };
-        });
-
-        <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">items</span>);
-
-      });
-
-    });
-  }
-},
-
-[...]
-</code></pre></div><p>El siguiente paso es recorrer la lista de videos desde el template:</p>
-<pre><code>{{#each model as |video|}}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// archivo: app/routes/index.js
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">Ember</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;ember&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">Route</span>.<span style="color:#a6e22e">extend</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">videos</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">inject</span>.<span style="color:#a6e22e">service</span>(),
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">model</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#34;videos&#34;</span>).<span style="color:#a6e22e">getVideos</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>Y como el hook &ldquo;model&rdquo; está preparado para manejar promesas, implementé la función <code>getVideos</code> para que retorne una promesa:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// archivo: app/services/video.js
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>[...]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">getVideos</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Ember</span>.<span style="color:#a6e22e">RSVP</span>.Promise((<span style="color:#a6e22e">resolve</span>) =&gt; {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">_get_video_path</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">readdir</span>(<span style="color:#a6e22e">videoPath</span>, (<span style="color:#a6e22e">error</span>, <span style="color:#a6e22e">data</span>) =&gt; {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">items</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">map</span>((<span style="color:#a6e22e">file</span>) =&gt; {
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">&#34;.mp4&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">title</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">title</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">img</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/thumbs/&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;.jpg&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">video</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">videoPath</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">file</span>
+</span></span><span style="display:flex;"><span>          };
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">items</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>},
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[...]
+</span></span></code></pre></div><p>El siguiente paso es recorrer la lista de videos desde el template:</p>
+<pre tabindex="0"><code>{{#each model as |video|}}
   {{v-videoThumb video=video}}
 {{else}}
 
-  &lt;div class=&quot;mensaje-error&quot;&gt;
+  &lt;div class=&#34;mensaje-error&#34;&gt;
     &lt;p&gt;Lo siento, no hay videos para mostrar.&lt;/p&gt;
 
     &lt;p&gt;Por favor descarga los videos que quieras visualizar
@@ -252,7 +257,7 @@ for x in os.listdir('.'):
 <p><img src="/images/2016/06/preview2.png" alt="preview2"></p>
 <h3 id="automatizando-la-generación-de-binarios">Automatizando la generación de binarios</h3>
 <p>En este punto, si quisiéramos crear los binarios desde nuestra propia computadora tendríamos que ejecutar el siguiente comando:</p>
-<pre><code>ember electron:package --platform=win32 --ignore &quot;node_modules/\.bin&quot;
+<pre tabindex="0"><code>ember electron:package --platform=win32 --ignore &#34;node_modules/\.bin&#34;
 </code></pre><p>Sin embargo, algo más interesante es automatizar este procedimiento, hacer que los binarios se generen en un servidor remoto y se suban a github.</p>
 <p>Para eso configuré el servicio <a href="travis-ci.org">travis-ci</a> que va a ejecutar los tests, generar los binarios y los sube a github. Todo de manera automatizada, sin ocupar recursos en mi computadora y super rápido:</p>
 <p><img src="/images/2016/06/travis.png" alt=""></p>

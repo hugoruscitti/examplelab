@@ -55,7 +55,6 @@ bibliotecas.
 
 
 
-
   </head>
   <body class="">
     <script>
@@ -152,6 +151,12 @@ bibliotecas.
     </div>
 
     
+      <span class="post-tags">
+        
+          #<a href="https://www.examplelab.com.ar/tags/web/">web</a>&nbsp;
+        
+      </span>
+    
 
     <div class="post-content">
       <p>Hoy es mucho más fácil crear componentes web para nuestras
@@ -160,41 +165,41 @@ esto.</p>
 <p>¿Cómo se hace?, simplemente tenes que inventarte un nombre
 para el componente, por ejemplo <strong>contador-de-clicks</strong> y
 comenzar a utilizarlo dentro de tus archivos <em>html</em> así:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">contador-de-clicks</span>&gt;&lt;/<span style="color:#f92672">contador-de-clicks</span>&gt;
-</code></pre></div><p>Luego, para que este componente tenga comporatamiento es
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">contador-de-clicks</span>&gt;&lt;/<span style="color:#f92672">contador-de-clicks</span>&gt;
+</span></span></code></pre></div><p>Luego, para que este componente tenga comporatamiento es
 necesario escribir algo de código JavaScript para
 representarlo:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ContadorDeClicks</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">HTMLElement</span> {
-
-  <span style="color:#a6e22e">constructor</span>() {
-    <span style="color:#66d9ef">super</span>();
-  }
-  
-  <span style="color:#a6e22e">connectedCallback</span>() {
-    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`&lt;button&gt;Has hecho &lt;span&gt;</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&lt;/span&gt; clicks&lt;/button&gt;`</span>;
-    
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">boton</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;button&#34;</span>);
-    <span style="color:#a6e22e">boton</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">onClick</span>.<span style="color:#a6e22e">bind</span>(<span style="color:#66d9ef">this</span>));
-  }
-  
-  <span style="color:#a6e22e">disconnectedCallback</span>() {
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">boton</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;button&#34;</span>);
-    <span style="color:#a6e22e">boton</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">onClick</span>.<span style="color:#a6e22e">bind</span>(<span style="color:#66d9ef">this</span>));
-  }
-  
-  <span style="color:#a6e22e">onClick</span>() {
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">boton</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;button&#34;</span>);
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">etiqueta</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">boton</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;span&#34;</span>);
-    
-    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
-    <span style="color:#a6e22e">etiqueta</span>.<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span>;
-  }
-  
-}
-</code></pre></div><p>y por último vincularlo al documento así:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">customElements</span>.<span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#34;contador-de-clicks&#34;</span>, <span style="color:#a6e22e">ContadorDeClicks</span>);
-</code></pre></div><p>Este es un pequeño preview de cómo funciona:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ContadorDeClicks</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">HTMLElement</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">constructor</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">super</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">connectedCallback</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`&lt;button&gt;Has hecho &lt;span&gt;</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&lt;/span&gt; clicks&lt;/button&gt;`</span>;
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">boton</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;button&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">boton</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">onClick</span>.<span style="color:#a6e22e">bind</span>(<span style="color:#66d9ef">this</span>));
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">disconnectedCallback</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">boton</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;button&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">boton</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">onClick</span>.<span style="color:#a6e22e">bind</span>(<span style="color:#66d9ef">this</span>));
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">onClick</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">boton</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;button&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">etiqueta</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">boton</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;span&#34;</span>);
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">etiqueta</span>.<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">contador</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>y por último vincularlo al documento así:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">customElements</span>.<span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#34;contador-de-clicks&#34;</span>, <span style="color:#a6e22e">ContadorDeClicks</span>);
+</span></span></code></pre></div><p>Este es un pequeño preview de cómo funciona:</p>
 <p><img src="/images/2023/componentes-web/clicks-2.gif" alt=""></p>
 <p>Con esto, se puede lograr un nuevo elemento, aislarlo del
 resto de la aplicación y mejorarlo como una pieza

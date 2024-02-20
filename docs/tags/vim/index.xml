@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Examplelab</title>
+    <link>https://www.examplelab.com.ar/tags/vim/</link>
+    <description>Recent content in vim on Examplelab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Para qué sirve scrolloff en vim?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-04-19-scrolloff_en_vim/</guid>
+      <description>Imaginá que buscas una linea de código en un archivo muy grande, pero usando una pantalla pequeña que solo te permite ver una parte del archivo.
+Podrías mover el cursor hasta esa linea y quedarte en esa posición, el area visible del editor va a &amp;ldquo;acompañar&amp;rdquo; el movimiento del mouse para que siempre quede en pantalla así:
+El problema es que generalmente nos interesa ver qué hay debajo y arriba de esa palabra, es decir, el contexto de lo que estamos buscando.</description>
+    </item>
+    
+    <item>
+      <title>¿Cómo pegar texto en vim?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-03-07-pegar-texto-en-vim/</guid>
+      <description>Pegar texto en Vim debería ser algo sencillo, pero a veces da problemas.
+Por ejemplo, si copias código del navegador y luego intentas pegarlo dentro del editor puede pasar algo como esto:
+El problema es que Vim no reconoce que estamos pegando texto, sino que cree que estamos escribiendo ese texto poco a poco, así que intenta agregar indentaciones mientras va pegando cada una de las lineas.
+Una forma de resolver esto activar y desactivar el indentado cuando estamos por pegar texto:</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué tomar notas?</title>
+      <link>https://www.examplelab.com.ar/posts/2023-02-27-por-que-tomar-notas/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-02-27-por-que-tomar-notas/</guid>
+      <description>&amp;ldquo;La mente es para tener ideas, y no para guardar cosas&amp;rdquo; es una de las frases mas lindas del libro GTD de David Allen.
+En ese libro, una de las ideas primordiales era que la información, tareas y proyectos nos producían stress y nos agotaban la mente si no teníamos una forma de lidiar con todo eso.
+La mente asocia ideas con emociones, no puede distinguir con exactitud qué es urgente, importante o trivial; mezcla el trabajo con la vida personal y nos recuerda las cosas en los momentos menos oportunos.</description>
+    </item>
+    
+    <item>
+      <title>Mostrar si estamos dentro de vim en zsh</title>
+      <link>https://www.examplelab.com.ar/posts/2023-02-15-mostrar-sesion-de-vim-dentro-de-zsh/</link>
+      <pubDate>Mon, 13 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2023-02-15-mostrar-sesion-de-vim-dentro-de-zsh/</guid>
+      <description>Vim tiene un comando llamado :shell que te permite abrir un terminal, ejecutar algunos comandos y regresar nuevamente al editor escribiendo exit.
+En cierta forma, es similar a pausar VIM, ponerlo en segundo plano, ejecutar algunos comandos y luego volver al editor.
+Este comando me resulta muy práctico, pero tiene un problema: a veces permanezco en esa sesión de terminal por unos cuantos minutos y luego no recuerdo si estaba en VIM o no.</description>
+    </item>
+    
+    <item>
+      <title>Traducir textos en vim</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</guid>
+      <description>Estoy trabajando en una aplicación web que tiene que soportar tres idiomas diferentes: inglés, español y portugués.
+Tenemos tres archivos con los mensajes de la aplicación separados, un archivo por cada idioma así:
+{ [...] cargarNuevamente: &amp;#34;Seus dados já foram enviados. Não é {NAME}?&amp;#34;, cargarNuevamenteLink: &amp;#34; Clique aqui.&amp;#34;, cerrar: &amp;#34;Fechar&amp;#34;, ciudad: &amp;#34;Cidade&amp;#34;, comienzo: &amp;#34;Começo do projeto&amp;#34;, completeDatos: &amp;#34;Registre-se e obtenha as informações das oportunidades.&amp;#34;, [...] } El tema es que cada vez que agregamos mensajes o pantallas tengo que salir del editor, y traducir los mensajes a todos los idiomas.</description>
+    </item>
+    
+    <item>
+      <title>Es lindo usar prettier</title>
+      <link>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</guid>
+      <description>Prettier es una herramienta que ajusta automáticamente el estilo de tu código, como ajustar la indentación del código de forma consistente, colocar ; en cada línea, separar con un espacio los operadores y varias cosas más.
+Al principio parece algo puramente accesorio, pero con el tiempo se vuelve una herramienta con mucho sentido.
+Usando prettier se puede delegar a la computadora muchas tareas pequeñas de consistencia sin alterar el funcionamiento del programa.</description>
+    </item>
+    
+    <item>
+      <title>Cómo crear apuntes de referencia</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/</guid>
+      <description>Algo que me sirve mucho a la hora de programar es ir tomando notas de aquellos nombres de funciones, módulos o ejemplos que me resultan útiles.
+A estas notas las suelo compactar y reducir para que me sirvan de apunte. Solo recolecto aquello que uso con frecuencia.
+Después de todo, programar está lleno de símbolos a los que tenemos que recurrir una y otra vez.
+Si no tomo nota de estas cosas, me veo obligado a abrir un navegador, ingresar a google y realizar búsquedas para encontrar la respuesta a algo que ya hice con anterioridad.</description>
+    </item>
+    
+    <item>
+      <title>Mejoras en el corrector ortográfico de VIM</title>
+      <link>https://www.examplelab.com.ar/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-03-08-mejoras-en-el-corrector-ortografico-de-vim/</guid>
+      <description>VIM incluye un corrector ortográfico que se puede activar con estos comandos:
+set spell set spelllang=es Sin embargo, este corrector solamente puede ayudarnos a detectar typos y algunas faltas de ortografía simples.
+Lo bueno es que VIM puede usar un corrector más completo llamado LanguageTool, que además de detectar errores ortográficos también detecta otros tipos de errores, como usos incorrectos de artículos, frases complejas y más.
+¿Qué es LanguageTool? LanguageTool es una herramienta que puede analizar textos y realizar sugerencias para mejorar ortografía, gramática y estilo.</description>
+    </item>
+    
+    <item>
+      <title>Tomar notas en VIM</title>
+      <link>https://www.examplelab.com.ar/posts/2021-02-23-tomar-notas-en-vim/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-02-23-tomar-notas-en-vim/</guid>
+      <description>Tomar notas está bueno, te da mucha claridad sobre lo que estás haciendo día a día y es una buena oportunidad para hacer una pausa, reflexionar y tomar alguna que otra decisión.
+Uso una aplicación llamada Bear para tomar todas mis notas, algunas notas se convierten en bocetos de artículos que me interesan, resúmenes de libros e incluso algunas notas van dedicadas a una especie de diario personal que uso para reflexionar.</description>
+    </item>
+    
+    <item>
+      <title>Portapapeles en VIM</title>
+      <link>https://www.examplelab.com.ar/posts/2021-02-22-portapapeles-en-vim/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-02-22-portapapeles-en-vim/</guid>
+      <description>VIM tiene un sistema de portapapeles propio, independiente del sistema.
+Esto nos permite tener múltiples portapapeles dentro de VIM y algo de independencia con el resto del sistema.
+Sin embargo, muchas veces me pasa que quiero copiar y pegar texto entre distintas aplicaciones, y VIM es un poquito incómodo a la hora de hacer estas cosas.
+Resulta que VIM gestiona todo lo que copiamos o pegamos en registros nombrados. Así que para acceder al portapapeles del sistema tenemos que anteponer un nombre de registro a cada operación de copiado y pegado.</description>
+    </item>
+    
+    <item>
+      <title>El regocijo de usar VIM</title>
+      <link>https://www.examplelab.com.ar/posts/2021-02-03-el-regocijo-de-usar-vim/</link>
+      <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2021-02-03-el-regocijo-de-usar-vim/</guid>
+      <description>VIM es un editor de texto muy particular, para empezar: está ligeramente orientado a facilitar operaciones como navegar y editar texto en lugar de ser un editor principalmente para escribir. Esto hace que toda la experiencia de usar la herramienta esté mediada por este enfoque inicial.
+Por ejemplo, cuando ingresas en VIM, el editor espera que ingreses comandos pulsando teclas, en lugar de trasladar esas teclas en caracteres y colocarlas en el archivo de texto como hacen la mayoría de los editores de texto.</description>
+    </item>
+    
+  </channel>
+</rss>
