@@ -3,9 +3,11 @@ layout: post
 title: Creando tutoriales con amigos
 date: '2021-07-16 00:00:00'
 description: |
-  Algunas ideas interesantes que me encontré cuando
-  grabé unos tutoriales nuevos de pilas engine.
+ Algunas ideas interesantes que me encontré cuando
+ grabé unos tutoriales nuevos de pilas engine.
 cover: /images/2021/creando-tutoriales-con-amigos/portada.jpg
+tags:
+- pilas
 ---
 
 Esta semana grabé unos videotutoriales nuevos de [pilas

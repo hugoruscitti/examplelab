@@ -8,6 +8,8 @@ description: |
   de configuración. En este post intentaré mostrar
   una alternativa modesta.
 cover: /images/2021/estructura-de-proyecto-minimalista/portada.jpg
+taggs:
+- web
 ---
 
 Hace algunos meses me empecé a interesar en formas simples

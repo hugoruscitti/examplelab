@@ -6,6 +6,8 @@ description: |
   Muestro una alternativa para usar el navegador
   directamente con el teclado y varios atajos.
 cover: /images/2021/controlando-el-navegador-con-el-teclado/portada.jpg
+tags:
+- reflexión
 ---
 
 Usar el teclado para navegar dentro de un editor se volvió un camino

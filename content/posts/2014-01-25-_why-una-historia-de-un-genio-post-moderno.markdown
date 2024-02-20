@@ -1,13 +1,11 @@
 ---
-layout: post
-title: '_why: La historia de un genio post-moderno'
-date: '2014-01-25 22:01:47'
-tags:
-- ruby
-- programacion
-- traduccion
-- inspiracion
-description: Why the Lucky Stiff fue uno de los programadores mas brillantes e inspiradores de estos tiempos...
+ayout: post
+itle: '_why: La historia de un genio post-moderno'
+ate: '2014-01-25 22:01:47'
+ags:
+ programación
+ traducción
+escription: Why the Lucky Stiff fue uno de los programadores mas brillantes e inspiradores de estos tiempos...
 cover: /images/2014/Jan/portada-why.jpg
 ---
 

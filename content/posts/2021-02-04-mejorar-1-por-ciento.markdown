@@ -7,6 +7,8 @@ description: |
   de no haber progresado en nada... para esos días
   conviene al menos saber que hicimos el 1% de algo bueno.
 cover: /images/2021/mejorar-1-por-ciento/portada.jpg
+tags:
+- reflexión
 ---
 
 Siempre que termino de trabajar me pongo a pensar

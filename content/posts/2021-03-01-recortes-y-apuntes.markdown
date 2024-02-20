@@ -6,6 +6,8 @@ description: |
   Cómo mejoré mi uso de información haciendo
   recortes y apuntes para recordar cosas útiles.
 cover: /images/2021/recortes-y-apuntes/portada.jpg
+tags:
+- reflexión
 ---
 
 Tenemos mucha suerte de vivir en una época en donde existe acceso

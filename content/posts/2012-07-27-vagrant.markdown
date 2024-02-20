@@ -1,9 +1,9 @@
 ---
-layout: post
+yout: post
 title: Vagrant para entornos web
 date: '2012-07-27 15:00:00'
 tags:
-- tip
+- linux
 description: Vagrant permite facilitar la instalación y armado de entornos para aplicaciones ...
 cover: /images/2013/Oct/portada-vagrant.jpg
 

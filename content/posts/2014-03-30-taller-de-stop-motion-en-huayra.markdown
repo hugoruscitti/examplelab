@@ -4,6 +4,8 @@ title: Taller de stop-motion en huayra
 date: '2014-03-30 05:51:10'
 description: El viernes pasado armamos con los chicos de huayra un taller de stopmotion...
 cover: /images/2014/Mar/portada-taller.jpg
+tags:
+- linux
 ---
 
 El viernes pasado armamos con los chicos de huayra un taller de **stopmotion**.

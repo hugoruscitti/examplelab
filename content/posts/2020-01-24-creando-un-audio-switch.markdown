@@ -5,7 +5,7 @@ date: '2020-01-24 23:00:00'
 description: "Desde que comencé a trabajar desde casa me propuse mejorar poco a poco mi lugar de trabajo: comp..."
 cover: "/images/2020/01/portada.jpg"
 tags:
-- electrónica
+- proyecto
 ---
 
 

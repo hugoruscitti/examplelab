@@ -6,6 +6,8 @@ description: |
   Hice algunos ajustes al mapa de teclado para que sea más
   sencillo pulsar ESC y otras mini-optimizaciones.
 cover: /images/2021/personalizando-el-teclado/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace unos meses leí [un artículo](/links-files/programmings-dirtiest-little-secret/) que me animó a practicar

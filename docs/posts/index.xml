@@ -491,13 +491,13 @@ Es fácil habituarse a un navegador, dar por sentado que todo lo que hace es alg
       <link>https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/</link>
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/</guid>
-      <description>Uno de los comandos que uso mucho en vim es change. Este comando que se puede combinar con un movimiento para cambiar párrafos, palabras, texto delimitado entre comillas y más.
-Una vez que te acostumbras a los comandos de vim ya ni pensás en ellos, cw cambia una palabra, cap un párrafo y ci&amp;quot; el contenido entre comillas etc..
-Poder navegar entre palabras y hacer cambios rápidos está muy bueno cuando tenés código como este, donde hay delimitadores como las comillas, espacios y tags:</description>
-    </item>
-    
-    <item>
+     <guid>https://www.examplelab.com.ar/posts/2021-03-30-cambiar-palabras-en-vim/</guid>
+     <description>Uno de los comandos que uso mucho en vim es change. Este comando que se puede combinar con un movimiento para cambiar párrafos, palabras, texto delimitado entre comillas y más.
+na vez que te acostumbras a los comandos de vim ya ni pensás en ellos, cw cambia una palabra, cap un párrafo y ci&amp;quot; el contenido entre comillas etc..
+oder navegar entre palabras y hacer cambios rápidos está muy bueno cuando tenés código como este, donde hay delimitadores como las comillas, espacios y tags:</description>
+   </item>
+   
+   <item>
       <title>Cómo crear apuntes de referencia</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-29-como-crear-apuntes-de-referencia/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>

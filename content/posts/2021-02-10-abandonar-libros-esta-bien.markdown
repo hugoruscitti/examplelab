@@ -8,6 +8,8 @@ description: |
   y cada vez que los veo digo "tengo que retomarlo", hasta
   hoy...
 cover: /images/2021/abandonar-libros-esta-bien/portada.jpg
+tags:
+- reflexión
 ---
 
 Leer libros es algo que parece natural y que nadie nos

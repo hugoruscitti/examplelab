@@ -4,6 +4,8 @@ title: Presentando huayra-caripela
 date: '2014-06-27 22:00:00'
 description: Hace unas semanas empezamos a realizar una aplicación que sirve para hacer avatares y personalizar...
 cover: /images/2014/Jun/portada-caripela.jpg
+tags:
+- linux
 ---
 
 Hace unas semanas empezamos a realizar una aplicación nueva:  *huayra-caripela*.

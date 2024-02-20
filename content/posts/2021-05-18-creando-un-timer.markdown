@@ -3,8 +3,10 @@ layout: post
 title: Creando un timer
 date: '2021-05-18 00:00:00'
 description: |
-  Armé un timer pomodoro usando arduino y unos componentes extra.
+ Armé un timer pomodoro usando arduino y unos componentes extra.
 cover: /images/2021/creando-un-timer/portada.jpg
+tags:
+- proyecto
 ---
 
 El mes pasado escribí sobre como me ayuda [hacer una sola cosa a la vez](../2021-04-09-una-cosa-a-la-vez) para

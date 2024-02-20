@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Hackatón de Program.AR
-image: "/images/2014/10/0000033340.jpg"
 date: '2014-06-11 01:07:26'
 tags:
 - pilas
-- nodewebkit
-- programacion
+- programación
 description: Este viernes se realizó al hackatón del primer foro regional Programar en la universidad de Quilmes. ...
 cover: /images/2014/Jun/portada-programar.jpg
 ---

@@ -7,6 +7,8 @@ description: |
   dibujo para chicos pero que también se puede mirar con
   ojos adultos.
 cover: /images/2021/abrazar-a-sumo/portada.jpg
+tags:
+- reflexión
 ---
 
 No me da pena reconocer que que miro dibujos animados.

@@ -5,6 +5,9 @@ date: '2021-04-05 00:00:00'
 description: |
   Cómo personalizar la forma en la que tu navegador muestra contenidos de la web.
 cover: /images/2021/devolviendo-el-control-a-tu-navegador/portada.jpg
+tags:
+- web
+- reflexión
 ---
 
 Algo que me gusta mucho de la web es que está diseñada para ser interpretada

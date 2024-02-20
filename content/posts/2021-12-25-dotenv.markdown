@@ -5,6 +5,8 @@ date: '2021-12-25 00:00:00'
 description: |
   Cómo instalar y usar python-dotenv para leer la configuración de un proyecto como hacía pipenv.
 cover: /images/2021/dotenv/portada.jpg
+tags:
+- python
 ---
 
 Hace unos meses dejé de usar `pipenv` y volví a los

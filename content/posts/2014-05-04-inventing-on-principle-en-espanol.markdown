@@ -1,11 +1,9 @@
 ---
-layout: post
-title: Inventing on Principle en español
+yout: post
+datle: Inventing on Principle en español
 date: '2014-05-04 00:23:57'
 tags:
-- charla
-- programacion
-- arte
+- programación
 description: Bret Victor dió una charla impresionante llamada Inventing on Principle, invitando a las personas a descubrir un principio, algo que los guíe, una causa por qué pelear...
 cover: /images/2014/May/portada-principle.jpg
 ---

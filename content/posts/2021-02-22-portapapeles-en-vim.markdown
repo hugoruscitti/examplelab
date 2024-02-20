@@ -6,6 +6,8 @@ description: |
   Un pequeño consejo para copiar y pegar entre
   VIM y el portapapeles del sistema operativo.
 cover: /images/2021/portapapeles-en-vim/portada.jpg
+tags:
+- vim
 ---
 
 VIM tiene un sistema de portapapeles propio, independiente del sistema.

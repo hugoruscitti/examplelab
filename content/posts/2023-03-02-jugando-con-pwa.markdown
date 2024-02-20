@@ -5,6 +5,8 @@ date: '2023-03-02 00:00:00'
 description: |
   Adapté una app django al formato PWA
 cover: /images/2023/jugando-con-pwa/portada.jpg
+tags:
+- web
 ---
 
 Estamos usando el sistema de presupuestos y gastos

@@ -4,6 +4,9 @@ title: Rediseñando los eventos de pilas-engine
 date: '2012-02-29 15:00:00'
 description: Hoy pude rediseñar el sistema de eventos de PilasEngine con varias mejoras que tenía en mente ...
 cover: /images/2013/Oct/portada-eventos.jpg
+tags:
+- python
+- pilas
 ---
 
 El sistema de eventos de [pilas-engine] necesitaba

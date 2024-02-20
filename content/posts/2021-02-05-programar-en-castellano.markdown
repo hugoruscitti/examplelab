@@ -6,6 +6,9 @@ description: |
   Los programadores elegimos automáticamente escribir código
   en inglés, no importa el cliente ni el proyecto. ¿Por qué será? 
 cover: /images/2021/programar-en-castellano/portada.jpg
+tags:
+- programación
+- reflexión
 ---
 
 Tomar decisiones todo el día demanda mucha energía, incluso

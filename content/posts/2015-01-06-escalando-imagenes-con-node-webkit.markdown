@@ -6,19 +6,30 @@ date: '2015-01-06 18:37:43'
 
 description: "En este artículo quiero mostrar cómo se pueden procesar imágenes de manera rápida y multiplataforma desde node-webkit..."
 cover: '/images/2015/01/portada-escalar.jpg'
+tags:
+- web
 ---
 
-En este artículo quiero mostrar cómo se pueden procesar imágenes de manera rápida y multiplataforma desde [node-webkit](https://github.com/rogerwang/node-webkit), usando [ImageMagick](http://www.imagemagick.org/) y [emberjs](http://emberjs.com/).
+En este artículo quiero mostrar cómo se pueden procesar imágenes de manera
+rápida y multiplataforma desde
+[node-webkit](https://github.com/rogerwang/node-webkit), usando
+[ImageMagick](http://www.imagemagick.org/) y [emberjs](http://emberjs.com/).
 
-*ImageMagick* es un conjunto de herramientas para procesar imágenes: escalar, recortar, convertir y aplicar efectos principalmente.
+*ImageMagick* es un conjunto de herramientas para procesar imágenes: escalar,
+recortar, convertir y aplicar efectos principalmente.
 
 
 
 # Un pequeño ejemplo
 
-Para mostrar cómo combinar estas dos tecnologías, armé un proyecto mas pequeño a modo de ejemplo. Está disponible en el repositorio [hugoruscitti/image-resizer-node-webkit](https://github.com/hugoruscitti/image-resizer-node-webkit) de mi cuenta en github.
+Para mostrar cómo combinar estas dos tecnologías, armé un proyecto mas pequeño a
+modo de ejemplo. Está disponible en el repositorio
+[hugoruscitti/image-resizer-node-webkit](https://github.com/hugoruscitti/image-resizer-node-webkit)
+de mi cuenta en github.
 
-La aplicación simplemente convierte la imagen que enviemos a 2 tamaños diferentes, y lo informa en pantalla. No importa cuan grande sea la imagen, el trabajo pesado lo hará imagemagick :)
+La aplicación simplemente convierte la imagen que enviemos a 2 tamaños
+diferentes, y lo informa en pantalla. No importa cuan grande sea la imagen, el
+trabajo pesado lo hará imagemagick :)
 
 ![](/images/2015/01/animacion.gif)
 

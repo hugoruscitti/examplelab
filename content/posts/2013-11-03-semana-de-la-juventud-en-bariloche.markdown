@@ -1,10 +1,9 @@
 ---
-layout: post
+yout: post
 title: Semana de la juventud en Bariloche
 date: '2013-11-03 23:32:32'
 tags:
 - python
-- evento
 - pilas
 description: Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre pilas-engine...
 cover: /images/2013/Nov/portada-semana-de-la-juventud.jpg

@@ -4,6 +4,8 @@ title: Mostrar si estamos dentro de vim en zsh
 date: '2023-02-13 23:00:00'
 description: "Mi configuración de zsh para indicar si estamos en el shell de VIM."
 cover: "/images/2023/mostrar-sesion-de-vim-dentro-de-zsh/portada.jpg"
+tags:
+- vim
 ---
 
 Vim tiene un comando llamado `:shell` que te permite abrir

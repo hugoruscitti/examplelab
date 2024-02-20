@@ -6,6 +6,9 @@ description: |
   La idea detrás de tomar notas y cómo impacta en mi día a
   día.
 cover: /images/2023/por-que-tomar-notas/portada.jpg
+tags:
+- reflexión
+- vim
 ---
 
 "La mente es para tener ideas, y no para guardar cosas" es

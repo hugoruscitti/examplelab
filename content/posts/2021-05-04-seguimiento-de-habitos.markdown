@@ -5,6 +5,8 @@ date: '2021-05-04 00:00:00'
 description: |
   Hice una revisión de mi seguimiento de hábitos y elaboré algunas ideas para mejorarlos.
 cover: /images/2021/seguimiento-de-habitos/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace unos meses leí el libro [Hábitos

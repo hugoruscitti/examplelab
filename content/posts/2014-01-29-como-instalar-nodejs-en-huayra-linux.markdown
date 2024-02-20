@@ -4,6 +4,8 @@ title: Como instalar nodejs en huayra-linux
 date: '2014-01-29 21:04:56'
 description: NodeJs es una de las herramientas que estoy utilizando en huayra como plataforma ...
 cover:  /images/2014/Jan/portada-nodejs.jpg
+tags:
+- linux
 ---
 
 **Importante:** **En huayra 3.0 se incluyó nodejs de forma nativa, así que estas instrucciones no son necesaria, solamente son útiles para versiones anteriores a la huayra 3.0 u otros sistemas que no incluyan nodejs.**

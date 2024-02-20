@@ -3,9 +3,11 @@ layout: post
 title: Falacias, falacias por todos lados
 date: '2021-01-27 00:00:00'
 description: |
-  Las falacias están en todos lados, desde la oficina
-  hasta los newsletters de JavaScript.
+ Las falacias están en todos lados, desde la oficina
+ hasta los newsletters de JavaScript.
 cover: /images/2021/falacias/portada.jpg
+tags:
+- reflexión
 ---
 
 No soy bueno argumentando, de hecho, en muchas discusiones 

@@ -3,8 +3,10 @@ layout: post
 title: Avanzar cuadro a cuadro en Youtube
 date: '2021-07-18 00:00:00'
 description: |
-  Cómo tomar capturas de pantalla exactas en youtube.
+ Cómo tomar capturas de pantalla exactas en youtube.
 cover: /images/2021/avanzar-cuadro-a-cuadro-en-youtube/portada.jpg
+tags:
+- imágenes
 ---
 
 La semana pasada vi una película de animación con mis sobrinos

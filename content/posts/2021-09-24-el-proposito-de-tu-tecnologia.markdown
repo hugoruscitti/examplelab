@@ -5,6 +5,8 @@ date: '2021-09-24 00:00:00'
 description: |
   Unas reflexiones sobre los productos nuevos y las ilusiones que genera en las personas.
 cover: /images/2021/el-proposito-de-tu-tecnologia/portada.jpg
+tags:
+- reflexión
 ---
 
 Las nuevas tecnologías despiertan la ilusión de muchas personas. Aún

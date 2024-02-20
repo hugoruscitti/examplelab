@@ -4,6 +4,8 @@ title: "¡ Dragon Punch !"
 date: '2015-11-25 16:17:33'
 cover: "/images/2015/11/portada.jpg"
 description: "Hicimos un videojuego nuevo llamado Dragon Punch, inspirado en la serie animada Dragon Ball..."
+tags:
+- juegos
 ---
 
 Hoy quiero mostrarles un juego en el que venimos trabajando hace algunos meses: **Dragon Punch**, inspirado en la serie animada Dragon Ball.

@@ -3,7 +3,7 @@ layout: post
 title: Creando intérpretes interactivos con python
 date: '2010-07-22 15:00:00'
 tags:
-- interprete
+- python
 description: En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos....
 cover: /images/2013/Oct/portada-interpretes.jpg
 

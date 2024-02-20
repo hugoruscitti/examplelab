@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Planificar y hacer
@@ -7,6 +6,8 @@ description: |
   Algunos argumentos sobre cómo se pueden dividir la planificación
   de la ejecución de tareas para ser más productivos.
 cover: /images/2021/planificar-y-hacer/portada.jpg
+tags:
+- reflexión
 ---
 
 Esta semana empecé a leer 

@@ -4,9 +4,11 @@ layout: post
 title: Provisorio hasta que haga falta
 date: '2021-03-10 00:00:00'
 description: |
-  ¿Conviene hacer las cosas bien o esperar a que sea realmente
-  necesario?
+ ¿Conviene hacer las cosas bien o esperar a que sea realmente
+ necesario?
 cover: /images/2021/provisorio-hasta-que-haga-falta/portada.jpg
+tags:
+- pilas
 ---
 
 Hace más de dos años hice una *API* para que los usuarios de

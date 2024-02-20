@@ -6,6 +6,9 @@ description: |
   Estuve experimentando en tomar notas en VIM en lugar
   de la aplicación Bear que uso a diario.
 cover: /images/2021/tomar-notas-en-vim/portada.jpg
+tags:
+- reflexión
+- vim
 ---
 
 Tomar notas está bueno, te da mucha claridad sobre lo que estás haciendo

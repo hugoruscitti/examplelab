@@ -4,6 +4,8 @@ title: Creando un visor de videos offline con electron y ember
 date: "2016-06-02 19:17:18"
 description: "Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5..."
 cover: "/images/2016/06/portada.jpg"
+tags:
+- web
 ---
 
 ## Introducción

@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Automatizando lanzamientos en node-webkit
-date: '2013-12-26 01:15:39'
-description: Cómo automatizar empaquetado de aplicaciones con grunt-node-webkit-builder...
+daate: '2013-12-26 01:15:39'
+deescription: Cómo automatizar empaquetado de aplicaciones con grunt-node-webkit-builder...
 cover: /images/2013/Dec/portada-empaquetado.jpg
+tags:
+- linux
 ---
 
 Existe una tarea para **grunt** que nos permite  automatizar el empaquetado de nuestras aplicaciones para cada plataforma: [grunt-node-webkit-builder](https://npmjs.org/package/grunt-node-webkit-builder).

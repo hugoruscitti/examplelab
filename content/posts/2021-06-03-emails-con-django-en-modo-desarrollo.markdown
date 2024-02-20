@@ -3,8 +3,11 @@ layout: post
 title: Emails con Django en modo desarrollo
 date: '2021-06-03 00:00:00'
 description: |
-  Cómo configurar un servidor de emails para hacer pruebas locales mientras se programa una aplicación web con Django.
+ Cómo configurar un servidor de emails para hacer pruebas locales mientras se programa una aplicación web con Django.
 cover: /images/2021/emails-con-django-en-modo-desarrollo/portada.jpg
+tags:
+- django
+- python
 ---
 
 > Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.

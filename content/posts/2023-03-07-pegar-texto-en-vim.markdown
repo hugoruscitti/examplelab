@@ -6,6 +6,8 @@ description: |
   Vim puede recibir texto del portapapeles, pero te puede
   hacer un lío con las indentaciones.
 cover: /images/2023/pegar-texto-en-vim/portada.jpg
+tags:
+- vim
 ---
 
 Pegar texto en Vim debería ser algo sencillo, pero a veces

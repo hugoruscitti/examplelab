@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Escribiendo en el blog todos los días durante un mes
@@ -8,6 +7,8 @@ description: |
   blogs todos los días, por un mes y ver si podíamos adquirir el
   hábito de publicar a diario.
 cover: /images/2021/un-mes-escribiendo-todos-los-dias/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace un mes nos desafiamos con [OSiUX](https://osiux.com/) a escribir en

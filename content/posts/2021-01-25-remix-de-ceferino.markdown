@@ -3,9 +3,12 @@ layout: post
 title: Haciendo un Remix del juego Ceferino
 date: '2021-01-25 00:00:00'
 description: |
-  Hice una versión renovada del juego Don Ceferino
-  Hazaña usando pilas-engine para la web.
+ Hice una versión renovada del juego Don Ceferino
+ Hazaña usando pilas-engine para la web.
 cover: /images/2021/ceferino/portada.jpg
+tags:
+- juegos
+- pilas
 ---
 
 [Don Ceferino Hazaña](http://losersjuegos.com.ar/juegos/ceferino) es uno de los

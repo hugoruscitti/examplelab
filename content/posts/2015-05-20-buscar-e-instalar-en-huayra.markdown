@@ -6,7 +6,8 @@ date: '2015-05-20 03:13:32'
 
 description: "Creamos una herramienta para facilitar la instalación de software en Huayra"
 cover: '/images/2015/05/portada.jpg'
-
+tags:
+- linux
 ---
 
 Esta semana creamos una herramienta nueva para todos los usuarios de huayra linux: **huayra-alias**.

@@ -6,6 +6,8 @@ description: |
   Cómo crear componentes web sin usar frameworks o
   bibliotecas.
 cover: /images/2023/componentes-web/portada.jpg
+tags:
+- web
 ---
 
 Hoy es mucho más fácil crear componentes web para nuestras

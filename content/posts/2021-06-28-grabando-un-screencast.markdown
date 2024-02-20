@@ -6,6 +6,9 @@ description: |
   Grabé un video explicando conceptos iniciales de programación, algunas 
   cosas que aprendí e ideas para mejorar.
 cover: /images/2021/grabando-un-screencast/portada.jpg
+tags:
+- pilas
+- programación
 ---
 
 Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de

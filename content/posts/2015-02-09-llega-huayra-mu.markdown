@@ -6,6 +6,8 @@ date: '2015-02-09 16:31:56'
 
 description: "Hoy quiero presentarles una aplicación nueva, diseñada especialmente para el nuevo huayra 3..."
 cover: '/images/2015/02/portada.jpg'
+tags:
+- linux
 ---
 
 Hoy quiero presentarles una aplicación nueva, diseñada especialmente para el nuevo huayra 3.0, [huayra-mu](https://github.com/hugoruscitti/huayra-mu):

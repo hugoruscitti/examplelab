@@ -5,6 +5,8 @@ date: '2021-03-09 00:00:00'
 description: |
   Una lista de los videojuegos que más disfruté y recomiendo.
 cover: /images/2021/mis-juegos-favoritos-1/portada.jpg
+tags:
+- juegos
 ---
 
 Hay un montón de videojuegos que me gustaría recomendar a

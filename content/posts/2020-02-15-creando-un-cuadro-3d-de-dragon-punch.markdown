@@ -4,6 +4,8 @@ title: Creando un cuadro 3D de Dragon Punch
 date: '2020-02-15 23:00:00'
 description: "Junto a Wally creamos un cuadro con relieve en homenaje a nuestro juego Dragon Punch. Usamos tijeras, gomitas, pegamento..."
 cover: "/images/2020/02/15/portada.jpg"
+tags:
+- proyecto
 ---
 
 Junto a Wally nos propusimos hacer unos cuadros para homenajear un video juego

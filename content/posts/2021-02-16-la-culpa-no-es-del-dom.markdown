@@ -7,6 +7,9 @@ description: |
   JavaScript hace que las aplicaciones sean más rápidas porque 
   "el DOM es lento". Aquí te voy a contar por qué es una idea equivocada.
 cover: /images/2021/la-culpa-no-es-del-dom/portada.jpg
+tags:
+- reflexión
+- web
 ---
 
 Usar un Framework para escribir tu aplicación JavaScript tiene varias

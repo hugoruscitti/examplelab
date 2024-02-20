@@ -6,7 +6,9 @@ date: '2015-03-01 04:30:33'
 
 description: "Esta semana pusimos en marcha un indicador de versiones muy simple para las aplicaciones de Huayra ..."
 cover: '/images/2015/03/portada.jpg'
-
+tags:
+- pilas
+- linux
 ---
 
 Esta semana pusimos en marcha un indicador de versiones muy simple para las aplicaciones de [huayra](http://huayra.conectarigualdad.gob.ar/).

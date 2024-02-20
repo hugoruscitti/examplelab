@@ -7,6 +7,8 @@ description: |
   e ir volviéndome menos proclive a ser guiado por recomendaciones
   o contenidos relacionados...
 cover: /images/2021/intencion/portada.jpg
+tags:
+- reflexión
 ---
 
 Algo valioso de tener la oportunidad de leer libros e indagar en

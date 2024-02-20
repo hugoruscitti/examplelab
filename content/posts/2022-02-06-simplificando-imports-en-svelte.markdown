@@ -5,6 +5,8 @@ date: '2022-02-06 00:00:00'
 description: |
   Cómo mejorar la importación de módulos en un proyecto svelte.
 cover: /images/2022/simplificando-imports-en-svelte/portada.jpg
+tags:
+- web
 ---
 
 Hace unas semanas comencé a migrar un proyecto personal

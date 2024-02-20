@@ -4,6 +4,9 @@ title: Tortugas en el tiempo
 date: '2020-08-08 00:00:00'
 description: En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
 cover: /images/2020/08/portada.jpg
+tags:
+- proyecto
+- web
 ---
 
 En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para

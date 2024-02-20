@@ -3,9 +3,11 @@ layout: post
 title: Resaltando bloques en Pilas
 date: '2021-02-24 00:00:00'
 description: |
-  Cuento cómo hice que los bloques de pilas
-  se resalten cuando entran en ejecución.
+ Cuento cómo hice que los bloques de pilas
+ se resalten cuando entran en ejecución.
 cover: /images/2021/resaltando-bloques-en-pilas/portada.jpg
+tags:
+- pilas
 ---
 
 Pilas permite visualizar el código que se está ejecutando en todo momento.

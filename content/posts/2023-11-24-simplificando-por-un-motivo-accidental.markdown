@@ -6,6 +6,8 @@ description: |
   Cambié la forma de hacer releases en pilas, usando menos
   herramientas y haciendo todo más simple.
 cover: /images/2023/simplificando-por-un-motivo-accidental/portada.jpg
+tags:
+- reflexión
 ---
 
 Me propuse publicar una nueva versión de pilas, pero como no

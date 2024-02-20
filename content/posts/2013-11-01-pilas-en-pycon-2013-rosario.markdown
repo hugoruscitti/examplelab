@@ -1,12 +1,10 @@
 ---
-layout: post
+yout: post
 title: Pilas en pycon 2013 Rosario
 date: '2013-11-01 21:24:50'
 tags:
 - python
-- evento
 - pilas
-- charla
 description: Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013...
 cover: /images/2013/pilas/portada.jpg
 ---

@@ -4,6 +4,8 @@ title: Presentando huayra-compartir
 date: '2014-02-20 13:14:26'
 description: Esta semana quiero presentarles un software que estamos escribiendo en conectar igualdad...
 cover: /images/2014/Feb/portada-huayra-compartir.jpg
+tags:
+- linux
 ---
 
 Esta semana quiero presentarles un software que estamos escribiendo en conectar igualdad. Es una aplicación que vamos a incluir en el sistema operativo **huayra GNU/Linux 2.0**:

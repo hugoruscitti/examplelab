@@ -5,6 +5,8 @@ date: '2021-06-28 00:00:00'
 description: |
   Cómo traducir cadenas de textos desde VIM muy rápidamente.
 cover: /images/2021/traducir-textos-en-vim/portada.jpg
+tags:
+- vim
 ---
 
 Estoy trabajando en una aplicación web que tiene que soportar

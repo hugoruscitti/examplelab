@@ -5,6 +5,8 @@ date: '2023-02-28 00:00:00'
 description: |
   Mi post (flashback) sobre el pycamp 2022 en Baradero
 cover: /images/2023/pycamp-en-baradero/portada.jpg
+tags:
+- python
 ---
 
 Hace exactamente un año asistí al pycamp en Baradero, uno de

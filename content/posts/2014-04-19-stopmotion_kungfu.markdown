@@ -1,9 +1,9 @@
 ---
-layout: post
+yout: post
 title: StopMotion de "yie ar kung-fu"
 date: '2014-04-19 21:29:49'
 tags:
-- stopmotion
+- proyecto
 description: Esta semana estuvimos haciendo nuestro primer mini corto de stopmotion...
 cover: /images/2014/Apr/portada-stopmotion.jpg
 ---

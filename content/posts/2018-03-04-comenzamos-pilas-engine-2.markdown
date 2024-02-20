@@ -5,6 +5,8 @@ image: "/images/2018/03/IMG_3696.jpg"
 date: "2018-03-04 21:00:46"
 description: "Un resumen de las motivaciones e ideas claves que me llevaron a implementar Pilas Engine 2"
 cover: "/images/2018/03/portada.jpg"
+tags:
+- pilas
 ---
 
 Wooow, ¡Pilas está cerca de cumplir 8 años!, y semejante acontecimiento me hizo tomar valor para encarar un cambio muy grande que veníamos planeando con la comunidad hace tiempo: crear la versión 2 de Pilas Engine.

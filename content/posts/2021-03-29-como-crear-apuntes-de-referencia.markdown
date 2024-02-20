@@ -7,6 +7,8 @@ description: |
   apuntes rápidos para tener como referencia la hora
   de programar.
 cover: /images/2021/como-crear-apuntes-de-referencia/portada.jpg
+tags:
+- vim
 ---
 
 Algo que me sirve mucho a la hora de programar es ir tomando

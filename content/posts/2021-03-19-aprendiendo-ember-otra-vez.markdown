@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Aprendiendo Ember, otra vez
@@ -8,6 +7,8 @@ description: |
   al día tuve que volver a aprender desde cero, como si
   no conociera nada de la herramienta que uso hace años.
 cover: /images/2021/aprendiendo-ember-otra-vez/portada.jpg
+tags:
+- web
 ---
 
 Hace más o menos 7 años mi biblioteca favorita para programar

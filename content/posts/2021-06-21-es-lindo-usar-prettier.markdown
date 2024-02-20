@@ -5,6 +5,9 @@ date: "2021-06-21 00:00:00"
 description: |
   Algunas razones para usar prettier a la hora de programar.
 cover: /images/2021/es-lindo-usar-prettier/portada.jpg
+tags:
+- reflexión
+- vim
 ---
 
 [Prettier](https://prettier.io/) es una herramienta que ajusta automáticamente

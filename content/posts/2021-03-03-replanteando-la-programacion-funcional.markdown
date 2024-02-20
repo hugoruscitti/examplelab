@@ -7,6 +7,9 @@ description: |
   de herramientas y habilidades podemos tomar muchas cosas
   de ahí para simplificar gran parte de nuestro trabajo.
 cover: /images/2021/replanteando-la-programacion-funcional/portada.jpg
+tags:
+- reflexión
+- programación
 ---
 
 Esta semana escuché una [entrevista a Eric Normand](https://changelog.com/jsparty/163)

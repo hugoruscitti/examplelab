@@ -16,11 +16,11 @@ delimitado entre comillas y más.
 Una vez que te acostumbras a los comandos de *vim* ya ni pensás en ellos, `cw` cambia
 una palabra, `cap` un párrafo y `ci"` el contenido entre comillas etc..
 
-Poder navegar entre palabras y hacer cambios rápidos está muy
-bueno cuando tenés código como este, donde hay delimitadores como
-las comillas, espacios y tags:
+der navegar entre palabras y hacer cambios rápidos está muy
+eno cuando tenés código como este, donde hay delimitadores como
+s comillas, espacios y tags:
 
-![texto](/images/2021/cambiar-palabras-en-vim/texto.png)
+texto](/images/2021/cambiar-palabras-en-vim/texto.png)
 
 Sin embargo, hay algo que hace tiempo que me resultó sorpresivo y
 luego de investigar me di cuenta que se puede configurar: para *vim*, el

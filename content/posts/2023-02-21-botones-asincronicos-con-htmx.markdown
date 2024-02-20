@@ -5,6 +5,8 @@ date: '2023-02-22 00:00:00'
 description: |
   Cómo mejorar la apariencia de botones que demoran en responder.
 cover: /images/2023/botones-asincronicos-con-htmx/portada.jpg
+tags:
+- web
 ---
 
 HTMX no deja de sorprenderme, me gusta mucho la simplicidad

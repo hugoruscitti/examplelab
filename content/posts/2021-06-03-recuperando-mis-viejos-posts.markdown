@@ -6,6 +6,8 @@ date: '2021-06-03 10:00:00'
 description: |
   Algunas ideas que tuve al copiar y resguardar post que escribí en otro blog.
 cover: /images/2021/recuperando-mis-viejos-posts/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace algunos meses el blog de la empresa para la que trabajo

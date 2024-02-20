@@ -3,11 +3,9 @@ layout: post
 title: Encuentro Linux en Temuco, Chile
 date: '2013-11-18 10:58:16'
 tags:
-- evento
 - pilas
 - linux
-- nodewebkit
-- html5
+- web
 description: Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en Temuco Chile...
 cover: /images/2013/Nov/portada-temuco.jpg
 ---

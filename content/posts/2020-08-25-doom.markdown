@@ -6,6 +6,8 @@ description: |
   Volví a jugar Doom después de casi 25 años y te cuento en detalle
   cómo fue reencontrarme con este gran videojuego.
 cover: /images/2020/doom/portada.jpg
+tags:
+- juegos
 ---
 
 Volví a jugar al juego Doom después de casi 25 años y la experiencia fue fenomenal.

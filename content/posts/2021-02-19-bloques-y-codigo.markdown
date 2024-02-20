@@ -6,6 +6,9 @@ description: |
   Muchas herramientas orientadas a aprender a programar
   usan bloques o código, ¿por qué no ambas?
 cover: /images/2021/bloques-y-codigo/portada.jpg
+tags:
+- pilas
+- reflexión
 ---
 
 Hace unas semanas me propuse hacer un experimento dentro de

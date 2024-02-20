@@ -4,9 +4,11 @@ title: Imágenes "Lasy" en el navegador
 date: '2023-11-24 00:00:00'
 draft: false
 description: |
-  Cómo hacer que la carga de imágenes se haga bajo demanda
-  en html.
+ Cómo hacer que la carga de imágenes se haga bajo demanda
+ en html.
 cover: /images/2023/imagenes-async-en-el-navegador/portada.jpg
+tags:
+- web
 ---
 
 Esta semana aprendí algo nuevo sobre la etiqueta **img**:

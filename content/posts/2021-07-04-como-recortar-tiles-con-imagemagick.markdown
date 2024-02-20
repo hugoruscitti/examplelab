@@ -5,6 +5,8 @@ date: '2021-07-04 00:00:00'
 description: |
   Una lista de comandos y ejemplos para convertir grillas de imágenes en archivos individuales.
 cover: /images/2021/como-recortar-tiles-con-imagemagick/portada.jpg
+tags:
+- imágenes
 ---
 
 [ImageMagick](https://imagemagick.org/script/index.php) es un conjunto de herramientas que te permiten procesar imágenes

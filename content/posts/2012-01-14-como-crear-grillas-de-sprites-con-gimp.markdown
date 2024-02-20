@@ -1,12 +1,10 @@
 ---
-layout: post
+yout: post
 title: Como crear grillas de sprites con Gimp
 date: '2012-01-14 15:00:00'
 tags:
-- juegos
-- gimp
-- shaolin
-description: En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego...
+- imágenes
+desscription: En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego...
 cover: /images/2013/Oct/portada-grilla.jpg
 ---
 

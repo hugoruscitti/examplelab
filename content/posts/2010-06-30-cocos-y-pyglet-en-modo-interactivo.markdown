@@ -4,10 +4,8 @@ title: Cocos y pyglet en modo interactivo
 date: '2010-06-30 15:00:00'
 tags:
 - python
-- interprete
-- pyglet
-- cocos2d
 description: Python tiene una herramienta super interesante para los nuevos programadores...
+
 cover: /images/2013/Oct/portada-cocos-pyglet.jpg
 ---
 

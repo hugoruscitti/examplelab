@@ -4,6 +4,8 @@ title: Se viene huayra-motion ...
 date: '2014-03-05 17:42:52'
 description: Una de las novedades que tenemos preparadas para huayra 2 es huayra stopmotion...
 cover: /images/2014/Mar/portada-presentacion-huayra-stopmotion.jpg
+tags:
+- linux
 ---
 
 **Huayra-motion** es una de las novedades que tenemos preparadas para el lanzamiento de  **huayra 2**:

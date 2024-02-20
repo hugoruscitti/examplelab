@@ -6,7 +6,10 @@ date: '2015-01-21 02:26:10'
 
 description: "Estamos muy cerca de lanzar la versión ``0.91`` de *pilas-engine*, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión..."
 cover: '/images/2015/01/portada.jpg'
+tags:
+- pilas
 ---
+
 
 Estamos muy cerca de lanzar la versión ``0.91`` de *pilas-engine*, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión y contarte el por qué de estos cambios.
 

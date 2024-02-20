@@ -3,10 +3,13 @@ layout: post
 title: El regocijo de usar VIM
 date: '2021-02-03 00:00:00'
 description: |
-  VIM es un editor único, incorpora un lenguaje para hacer
-  operaciones de manera muy directa y tal vez eso sea lo
-  más interesante de todo.
+ VIM es un editor único, incorpora un lenguaje para hacer
+ operaciones de manera muy directa y tal vez eso sea lo
+ más interesante de todo.
 cover: /images/2021/el-regocijo-de-usar-vim/portada.jpg
+tags:
+- reflexión
+- vim
 ---
 
 VIM es un editor de texto muy particular, para empezar: está

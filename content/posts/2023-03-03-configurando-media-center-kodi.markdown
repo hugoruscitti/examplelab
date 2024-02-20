@@ -6,6 +6,9 @@ description: |
   Configuré un media center para ver películas y series en
   la televisión
 cover: /images/2023/configurando-media-center-kodi/portada.jpg
+tags:
+- proyecto
+- reflexión
 ---
 
 Esta semana terminé de configurar un *media center* para ver

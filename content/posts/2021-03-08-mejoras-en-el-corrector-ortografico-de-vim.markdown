@@ -6,6 +6,8 @@ description: |
   Vim puede funcionar junto a un corrector ortográfico
   que detecta errores gramaticales que se llama LanguageTool.
 cover: /images/2021/mejoras-en-el-corrector-ortografico-de-vim/portada.jpg
+tags:
+- vim
 ---
 
 VIM incluye un corrector ortográfico que se puede activar con estos comandos:

@@ -1,10 +1,9 @@
 ---
-layout: post
+yout: post
 title: Haciendo un cargador de juegos python
 date: '2012-08-18 15:00:00'
 tags:
 - python
-- windows
 description: En este artículo veremos una alternativa para empaquetar y distribuir nuestros juegos sobre windows de manera bastante sencilla...
 cover: /images/2013/Oct/portada-cargador.jpg
 ---

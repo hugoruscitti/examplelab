@@ -5,6 +5,9 @@ date: '2021-06-03 00:00:00'
 description: |
   Cómo automatizar carga de datos en un proyecto Django.
 cover: /images/2021/como-crear-migraciones-de-datos-con-django/portada.jpg
+tags:
+- django
+- python
 ---
 
 > Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.

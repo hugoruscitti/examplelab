@@ -5,6 +5,8 @@ date: '2021-05-25 00:00:00'
 description: |
   Sobre dejar de usar servicios de música por streaming y tener una colección de música digital.
 cover: /images/2021/ordenando-musica/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace unos días di de baja mi suscripción a Spotify Premium.

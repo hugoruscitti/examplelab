@@ -2,9 +2,10 @@
 layout: post
 title: El desafío de escribir todos los días
 date: '2023-02-24 00:00:00'
-description: |
-  Nos desafiamos con amigos a escribir posts todos los días.
-cover: /images/2023/desafio-escribir-todos-los-dias/portada.jpg
+description: Nos desafiamos con amigos a escribir posts todos los días.
+cover: '/images/2023/desafio-escribir-todos-los-dias/portada.jpg'
+tags:
+- reflexión
 ---
 
 Hace unos días comenzamos un desafío junto a
@@ -66,5 +67,4 @@ Estos días voy a organizarme para escribir más temprano, por
 las mañanas antes de comenzar a trabajar.
 
 Ya veremos como resulta...
-
 

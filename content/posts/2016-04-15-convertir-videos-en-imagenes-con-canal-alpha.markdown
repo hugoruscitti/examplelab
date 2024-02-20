@@ -5,6 +5,9 @@ image: "/images/2016/02/fuego.jpg"
 date: '2016-04-15 21:02:50'
 cover: "/images/2016/02/portada.jpg"
 description: "Como estuvimos agregando efectos especiales a varios de nuestros juegos, armé una guía detallando todos los pasos que seguimos para realizarlos."
+tags:
+- juegos
+- imágenes
 ---
 
 Esta semana estuvimos agregando efectos especiales a uno de nuestros juegos en unity:

@@ -9,6 +9,8 @@ description: |
   completo. ¿Cómo podemos salvar aquello que es valioso
   para nosotros?
 cover: /images/2021/coleccionando-articulos/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace unos meses vi un artículo llamado [This Page is Designed to Last](https://jeffhuang.com/designed_to_last/)

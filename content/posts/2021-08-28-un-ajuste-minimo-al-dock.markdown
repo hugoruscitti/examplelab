@@ -5,6 +5,8 @@ date: '2021-08-28 00:00:00'
 description: |
   ¿Te molestan los íconos que saltan en el Dock de Osx?, ¿no?, ¡a mí sí!
 cover: /images/2021/un-ajuste-minimo-al-dock/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace tiempo que no escribo en el blog, así que se me

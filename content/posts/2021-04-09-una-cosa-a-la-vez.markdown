@@ -5,6 +5,9 @@ date: '2021-04-09 00:00:00'
 description: |
   Algunas recomendaciones para trabajar y no abrumarse.
 cover: /images/2021/una-cosa-a-la-vez/portada.jpg
+tags:
+- reflexión
+- proyecto
 ---
 
 En las computadoras es muy fácil abrir varias aplicaciones, tener

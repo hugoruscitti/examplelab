@@ -6,6 +6,9 @@ date: '2015-07-12 22:18:39'
 
 description: "Publicamos nuestro nuevo videojuego Dracula's Nightmare, tanto para android como para iOS..."
 cover: '/images/2015/07/12/portada.jpg'
+
+tags:
+- juegos
 ---
 
 Esta semana [Wally](https://www.facebook.com/walter.velazquez.94), [BalbiNos](https://www.facebook.com/balbinos) y yo, publicamos nuestro primer videojuego para iOS (y pronto android): **Dracula's Nightmare** en el marco de nuestro emprendimiento independiente _2players_ :

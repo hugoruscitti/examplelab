@@ -8,6 +8,8 @@ description: |
   no, te da la posibilidad de tomar el control de tu
   situación financiera.
 cover: /images/2021/introduccion-a-presupuestos/portada.jpg
+tags:
+- reflexión
 ---
 
 La plata se puede volver un tema de estrés y mucha incertidumbre, incluso si

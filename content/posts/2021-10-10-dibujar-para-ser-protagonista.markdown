@@ -3,8 +3,10 @@ layout: post
 title: Dibujar para ser protagonista
 date: '2021-10-10 00:00:00'
 description: |
-  Cómo dibujar y crear historias puede ayudar a convertirnos en protagonistas y dejar de ser espectadores.
+ Cómo dibujar y crear historias puede ayudar a convertirnos en protagonistas y dejar de ser espectadores.
 cover: /images/2021/dibujar-para-ser-protagonista/portada.jpg
+tags:
+- reflexión
 ---
 
 La idea más importante de [Pilas](https://www.pilas-engine.com.ar) es que los

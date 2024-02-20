@@ -5,6 +5,8 @@ date: '2021-06-05 00:00:00'
 description: |
   Cómo es pasarse a un teclado mecánico para el trabajo de todos los días.
 cover: /images/2021/cambiando-de-teclado/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace unos meses decidí comprar un [teclado

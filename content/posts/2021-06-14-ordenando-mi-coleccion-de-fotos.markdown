@@ -5,6 +5,8 @@ date: '2021-06-14 00:00:00'
 description: |
   Hice una limpieza y organización de fotos poniendo en prácticas algunas ideas de KonMari
 cover: /images/2021/ordenando-mi-coleccion-de-fotos/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace unos días me di cuenta que estaba quedándome sin espacio en mi servicio de

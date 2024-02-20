@@ -6,6 +6,8 @@ date: '2021-04-13 00:00:00'
 description: |
   Mi segundo listado de juegos favoritos.
 cover: /images/2021/mis-juegos-favoritos-2/portada.jpg
+tags:
+- juegos
 ---
 
 El mes pasado [listé algunos de mis juegos favoritos](/posts/2021-03-09-mis-juegos-favoritos-1/), pero me faltó

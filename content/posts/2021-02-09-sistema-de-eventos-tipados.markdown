@@ -8,6 +8,8 @@ description: |
   errores comunes gracias al sistema de tipos que trae el
   lenguaje.
 cover: /images/2021/sistema-de-eventos-tipados/portada.jpg
+tags:
+- programación
 ---
 
 Cuando empecé a investigar acerca de TypeScript no le vi

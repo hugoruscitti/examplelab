@@ -5,6 +5,8 @@ date: '2021-04-29 00:00:00'
 description: |
   Una reseña sobre un documental que vi sobre redes sociales.
 cover: /images/2021/sobre-las-redes-sociales/portada.jpg
+tags:
+- reflexión
 ---
 
 Hace unos días vi un documental llamado *El Dilema de las Redes Sociales*.

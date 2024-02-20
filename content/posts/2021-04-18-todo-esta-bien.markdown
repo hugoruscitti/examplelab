@@ -5,6 +5,8 @@ date: '2021-04-18 00:00:00'
 description: |
   Una reflexión sobre privilegios, malos momentos y quejas.
 cover: /images/2021/todo-esta-bien/portada.jpg
+tags:
+- reflexión
 ---
 
 Sé que el título del post puede sonar incorrecto en estas épocas de pandemia e
