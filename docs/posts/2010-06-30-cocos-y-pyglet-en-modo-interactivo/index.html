@@ -22,7 +22,7 @@ Introducción Lamentablemente la consola de python no se puede usar en cualquier
 <script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
 
 
-<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css?v=2">
 
 <link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
 <link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
@@ -44,6 +44,7 @@ Introducción Lamentablemente la consola de python no se puede usar en cualquier
 <meta property="og:url" content="https://www.examplelab.com.ar/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2010-06-30T15:00:00+00:00" />
 <meta property="article:modified_time" content="2010-06-30T15:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
 
 
 
@@ -178,17 +179,17 @@ Una aclaración inicial</p>
 <p>Luego, se abrirá una pantalla con un sprite que podrás manipular:</p>
 <p><img src="/images/2013/Oct/screen_cara.png" alt=""></p>
 <p>Por ejemplo, dentro de la consola python tiene dos referencias iniciales: cocos y sprite. Hagamos algo con ellas:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sprite<span style="color:#f92672">.</span>rotate <span style="color:#f92672">=</span> <span style="color:#ae81ff">40</span>
-</span></span></code></pre></div><p>obteniendo:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sprite<span style="color:#f92672">.</span>rotate <span style="color:#f92672">=</span> <span style="color:#ae81ff">40</span>
+</code></pre></div><p>obteniendo:</p>
 <p><img src="/images/2013/Oct/rotate.png" alt=""></p>
 <p>Esto es útil para mostrar que el objeto en cuestión tiene atributos, y que se pueden manipular de manera sencilla.</p>
 <p>También puedes ejecutar sentencias como <code>help(cocos)</code> o similares.</p>
 <p>Ahora bien, con este escenario resulta mas interesante hablar sobre una de las características mas lindas que tiene <a href="http://cocos2d.org/">cocos2d</a>, el submódulo actions:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>media_vuelta <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>actions<span style="color:#f92672">.</span>RotateBy(<span style="color:#ae81ff">180</span>, <span style="color:#ae81ff">2</span>)
-</span></span><span style="display:flex;"><span>giro_completo <span style="color:#f92672">=</span> media_vuelta <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>sprite<span style="color:#f92672">.</span>do(giro_completo)
-</span></span></code></pre></div><p>Eso mostrará una animación de rotación completa en 4 segundos. Y como ninguna acción detiene nuesta consola de python, podemos incluso seguir escribiendo mienstras se ejecuta la acción.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">media_vuelta <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>actions<span style="color:#f92672">.</span>RotateBy(<span style="color:#ae81ff">180</span>, <span style="color:#ae81ff">2</span>)
+giro_completo <span style="color:#f92672">=</span> media_vuelta <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>
+
+sprite<span style="color:#f92672">.</span>do(giro_completo)
+</code></pre></div><p>Eso mostrará una animación de rotación completa en 4 segundos. Y como ninguna acción detiene nuesta consola de python, podemos incluso seguir escribiendo mienstras se ejecuta la acción.</p>
 <h2 id="cómo-funciona">¿Cómo funciona?</h2>
 <p>A continuación veremos paso a paso la implementación del prototipo que se utiliza mas arriba.</p>
 <h2 id="objetivo">Objetivo</h2>
@@ -205,96 +206,96 @@ Un primer paso: ¿usamos hilos?</p>
 <p><img src="/images/2013/Oct/esquema.png" alt=""></p>
 <h2 id="creando-un-prototipo">Creando un prototipo</h2>
 <p>El programa principal solamente tiene que poner en funcionamiento a los tres componentes juntos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Cola de mensajes que se utiliza para llevar comandos al hilo.</span>
-</span></span><span style="display:flex;"><span>queue <span style="color:#f92672">=</span> Queue<span style="color:#f92672">.</span>Queue()
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hilo que ejecuta la funcionalidad de cocos.</span>
-</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> Application(queue)
-</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>start()
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Interprete de comandos que envia todas las lineas que se escriben</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># directamente a la cola de mensajes que consume el hilo.</span>
-</span></span><span style="display:flex;"><span>cmd <span style="color:#f92672">=</span> CommandLine(app, queue)
-</span></span><span style="display:flex;"><span>cmd<span style="color:#f92672">.</span>cmdloop()
-</span></span></code></pre></div><p>Donde queue es la cola que se utiliza para enviar o delegar todas las cadena de texto que ingresa el usuario.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Cola de mensajes que se utiliza para llevar comandos al hilo.</span>
+queue <span style="color:#f92672">=</span> Queue<span style="color:#f92672">.</span>Queue()
+
+<span style="color:#75715e"># Hilo que ejecuta la funcionalidad de cocos.</span>
+app <span style="color:#f92672">=</span> Application(queue)
+app<span style="color:#f92672">.</span>start()
+
+<span style="color:#75715e"># Interprete de comandos que envia todas las lineas que se escriben</span>
+<span style="color:#75715e"># directamente a la cola de mensajes que consume el hilo.</span>
+cmd <span style="color:#f92672">=</span> CommandLine(app, queue)
+cmd<span style="color:#f92672">.</span>cmdloop()
+</code></pre></div><p>Donde queue es la cola que se utiliza para enviar o delegar todas las cadena de texto que ingresa el usuario.</p>
 <h2 id="el-intérprete">El intérprete</h2>
 <p>Para crear el intérprete que acepta los comandos del usuario he utilizado la clase Cmd del módulo cmd:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CommandLine</span>(cmd<span style="color:#f92672">.</span>Cmd):
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, app, queue):
-</span></span><span style="display:flex;"><span>        cmd<span style="color:#f92672">.</span>Cmd<span style="color:#f92672">.</span>__init__(self, <span style="color:#e6db74">&#39;TAB&#39;</span>)
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>queue <span style="color:#f92672">=</span> queue
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>app <span style="color:#f92672">=</span> app
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>prompt <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&gt;&gt;&gt; &#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">default</span>(self, line):
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;Cualquier sentencia la envia a la cola de comandos que consume cocos.&#34;</span>
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>queue<span style="color:#f92672">.</span>put(line)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">do_exit</span>(self, line):
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>kill()
-</span></span><span style="display:flex;"><span>        sys<span style="color:#f92672">.</span>exit(<span style="color:#ae81ff">0</span>)
-</span></span></code></pre></div><p>La clase Cmd permite crear un intérprete de comandos parecido al original de python, incluido el autocompletado con la tecla TAB.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CommandLine</span>(cmd<span style="color:#f92672">.</span>Cmd):
+
+    <span style="color:#66d9ef">def</span> __init__(self, app, queue):
+        cmd<span style="color:#f92672">.</span>Cmd<span style="color:#f92672">.</span>__init__(self, <span style="color:#e6db74">&#39;TAB&#39;</span>)
+        self<span style="color:#f92672">.</span>queue <span style="color:#f92672">=</span> queue
+        self<span style="color:#f92672">.</span>app <span style="color:#f92672">=</span> app
+        self<span style="color:#f92672">.</span>prompt <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&gt;&gt;&gt; &#34;</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">default</span>(self, line):
+        <span style="color:#e6db74">&#34;Cualquier sentencia la envia a la cola de comandos que consume cocos.&#34;</span>
+        self<span style="color:#f92672">.</span>queue<span style="color:#f92672">.</span>put(line)
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">do_exit</span>(self, line):
+        self<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>kill()
+        sys<span style="color:#f92672">.</span>exit(<span style="color:#ae81ff">0</span>)
+</code></pre></div><p>La clase Cmd permite crear un intérprete de comandos parecido al original de python, incluido el autocompletado con la tecla TAB.</p>
 <h2 id="hilo-de-cocos">Hilo de cocos</h2>
 <p>El hilo que muestra la ventana de <a href="http://cocos2d.org/">cocos2d</a> solo tiene que mantener una ventana de la biblioteca visible y actualizar con frecuencia el contexto que ejecuta comandos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Application</span>(threading<span style="color:#f92672">.</span>Thread):
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, queue):
-</span></span><span style="display:flex;"><span>        threading<span style="color:#f92672">.</span>Thread<span style="color:#f92672">.</span>__init__(self)
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>killed <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>queue <span style="color:#f92672">=</span> queue
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run</span>(self):
-</span></span><span style="display:flex;"><span>        cocos<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>init(resizable<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">600</span>)
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>scene <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>scene<span style="color:#f92672">.</span>Scene(cocos<span style="color:#f92672">.</span>layer<span style="color:#f92672">.</span>ColorLayer(<span style="color:#ae81ff">240</span>, <span style="color:#ae81ff">240</span>, <span style="color:#ae81ff">240</span>, <span style="color:#ae81ff">255</span>))
-</span></span><span style="display:flex;"><span>        sprite <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>sprite<span style="color:#f92672">.</span>Sprite(<span style="color:#e6db74">&#39;cara.png&#39;</span>)
-</span></span><span style="display:flex;"><span>        sprite<span style="color:#f92672">.</span>scale <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>        sprite<span style="color:#f92672">.</span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">400</span>
-</span></span><span style="display:flex;"><span>        sprite<span style="color:#f92672">.</span>y <span style="color:#f92672">=</span> <span style="color:#ae81ff">300</span>
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>scene<span style="color:#f92672">.</span>add(sprite)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Genera el entorno de la session, y le pasa datos que puede</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># manipular.</span>
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>environment <span style="color:#f92672">=</span> environment(queue, sprite)
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>environment<span style="color:#f92672">.</span>next()
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>scene<span style="color:#f92672">.</span>schedule_interval(self<span style="color:#f92672">.</span>environment_update, <span style="color:#ae81ff">0.01</span>)
-</span></span><span style="display:flex;"><span>        cocos<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>run(self<span style="color:#f92672">.</span>scene)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">environment_update</span>(self, dt):
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;Mantiene en funcionamiento.&#34;</span>
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>environment<span style="color:#f92672">.</span>next()
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">kill</span>(self):
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>killed <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
-</span></span><span style="display:flex;"><span>        pyglet<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>exit()
-</span></span></code></pre></div><h2 id="un-entorno-donde-viven-las-referencias">Un entorno donde viven las referencias</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Application</span>(threading<span style="color:#f92672">.</span>Thread):
+
+    <span style="color:#66d9ef">def</span> __init__(self, queue):
+        threading<span style="color:#f92672">.</span>Thread<span style="color:#f92672">.</span>__init__(self)
+        self<span style="color:#f92672">.</span>killed <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+        self<span style="color:#f92672">.</span>queue <span style="color:#f92672">=</span> queue
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run</span>(self):
+        cocos<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>init(resizable<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">600</span>)
+        self<span style="color:#f92672">.</span>scene <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>scene<span style="color:#f92672">.</span>Scene(cocos<span style="color:#f92672">.</span>layer<span style="color:#f92672">.</span>ColorLayer(<span style="color:#ae81ff">240</span>, <span style="color:#ae81ff">240</span>, <span style="color:#ae81ff">240</span>, <span style="color:#ae81ff">255</span>))
+        sprite <span style="color:#f92672">=</span> cocos<span style="color:#f92672">.</span>sprite<span style="color:#f92672">.</span>Sprite(<span style="color:#e6db74">&#39;cara.png&#39;</span>)
+        sprite<span style="color:#f92672">.</span>scale <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+        sprite<span style="color:#f92672">.</span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">400</span>
+        sprite<span style="color:#f92672">.</span>y <span style="color:#f92672">=</span> <span style="color:#ae81ff">300</span>
+        self<span style="color:#f92672">.</span>scene<span style="color:#f92672">.</span>add(sprite)
+
+        <span style="color:#75715e"># Genera el entorno de la session, y le pasa datos que puede</span>
+        <span style="color:#75715e"># manipular.</span>
+        self<span style="color:#f92672">.</span>environment <span style="color:#f92672">=</span> environment(queue, sprite)
+        self<span style="color:#f92672">.</span>environment<span style="color:#f92672">.</span>next()
+
+        self<span style="color:#f92672">.</span>scene<span style="color:#f92672">.</span>schedule_interval(self<span style="color:#f92672">.</span>environment_update, <span style="color:#ae81ff">0.01</span>)
+        cocos<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>director<span style="color:#f92672">.</span>run(self<span style="color:#f92672">.</span>scene)
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">environment_update</span>(self, dt):
+        <span style="color:#e6db74">&#34;Mantiene en funcionamiento.&#34;</span>
+        self<span style="color:#f92672">.</span>environment<span style="color:#f92672">.</span>next()
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">kill</span>(self):
+        self<span style="color:#f92672">.</span>killed <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+        pyglet<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>exit()
+</code></pre></div><h2 id="un-entorno-donde-viven-las-referencias">Un entorno donde viven las referencias</h2>
 <p>La parte mas importante del sistema es la que se encarga de ejecutar el código que escribimos en consola.</p>
 <p>Para ello he creado un generador, que conoce la cola de donde lee los mensajes que escribimos y los pone en funcionamiento.</p>
 <p>Y dado que se trata de un generador, todo lo que se ejecuta dentro de él se mantiene en la memoria local, representando de alguna manera el contexto o espacio de nombres que buscamos conservar.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">environment</span>(queue, sprite):
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Representa la session y las variables locales de la instancia interactiva.
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Este entorno funciona como un generador, con la intension de guardar
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    el estado de todas las variables locales y acceder a los comandos desde
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    la cola.&#34;&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
-</span></span><span style="display:flex;"><span>            last <span style="color:#f92672">=</span> queue<span style="color:#f92672">.</span>get_nowait()
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> last:
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">try</span>:
-</span></span><span style="display:flex;"><span>                    exec(last)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">except</span>:
-</span></span><span style="display:flex;"><span>                    print <span style="color:#e6db74">&#34;Error al ejecutar&#34;</span>, last
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> Queue<span style="color:#f92672">.</span>Empty:
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">pass</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">None</span>
-</span></span></code></pre></div><p>Nota: Un enfoque similar usan las aplicaciones REPL, donde incluso existe la funcionalidad de reiniciar el contexto cuando hemos hecho algo mal.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">environment</span>(queue, sprite):
+    <span style="color:#e6db74">&#34;&#34;&#34;Representa la session y las variables locales de la instancia interactiva.
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">    Este entorno funciona como un generador, con la intension de guardar
+</span><span style="color:#e6db74">    el estado de todas las variables locales y acceder a los comandos desde
+</span><span style="color:#e6db74">    la cola.&#34;&#34;&#34;</span>
+
+    <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+
+        <span style="color:#66d9ef">try</span>:
+            last <span style="color:#f92672">=</span> queue<span style="color:#f92672">.</span>get_nowait()
+
+            <span style="color:#66d9ef">if</span> last:
+                <span style="color:#66d9ef">try</span>:
+                    exec(last)
+                <span style="color:#66d9ef">except</span>:
+                    print <span style="color:#e6db74">&#34;Error al ejecutar&#34;</span>, last
+
+        <span style="color:#66d9ef">except</span> Queue<span style="color:#f92672">.</span>Empty:
+            <span style="color:#66d9ef">pass</span>
+
+        <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">None</span>
+</code></pre></div><p>Nota: Un enfoque similar usan las aplicaciones REPL, donde incluso existe la funcionalidad de reiniciar el contexto cuando hemos hecho algo mal.</p>
 <h2 id="conclusión">Conclusión</h2>
 <p>Python ofrece una gran flexibilidad, y si bien creo que la solución al problema planteado se puede mejorar, actualmente puede ser de utilidad para otras personas.</p>
 <p>Personalmente, lo encuentro útil para explicar algunos conceptos de programación mediante un enfoque práctico. Ideas como abstracción, encapsulación o polimorfismo quedan mas claras si se las puede reflejar con un ejemplo visible.</p>

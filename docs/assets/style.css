@@ -1090,3 +1090,7 @@ div.code-toolbar>.toolbar a:focus,div.code-toolbar>.toolbar a:hover,div.code-too
 .measure-2 {
   max-width: 700px;
 }
+
+code {
+  font-size: initial !important;
+}
