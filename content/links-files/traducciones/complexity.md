@@ -126,7 +126,7 @@ no ayuda a resolver nuestro objetivo inicial del proyecto".
 
 Dentro de Google
 usamos una plantilla para describir el diseño de los proyectos nuevos, en esa
-planilla tenemos una sección llamada "no-objetivos", donde se enumeran
+plantilla tenemos una sección llamada "no-objetivos", donde se enumeran
 extensiones o mejoras razonables al proyecto que se intentarán evitar.
 
 
