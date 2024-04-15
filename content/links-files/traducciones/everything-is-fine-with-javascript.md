@@ -114,8 +114,8 @@ cada tarea. Esta no es una lista exhaustiva de herramientas, como mucho puede
 que conozcas 5 sistemas por completo. Posiblemente te vuelvas productivo
 conociendo estos sistemas, no por juguetear con cada alternativa.
 
-Si alguien es más apasionado que vos sobre decisiones tecnológias, está equivocado y deberías ignorarlo
--------------------------------------------------------------------------------------------------------
+Si alguien es más apasionado que vos sobre decisiones tecnológicas, está equivocado y deberías ignorarlo
+--------------------------------------------------------------------------------------------------------
 
 <!--If you read the snark, it sounds like you’re required to switch-->
 <!--frameworks as soon as a new one accrues more stars on GitHub. Or that-->
