@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title> :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Complexity is the enemy Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html April 23, 2011
+I&amp;rsquo;m almost through my seventh year working at Google(!). I have learned many things there, more than I could ever write down. I thought I would at least share with you something that&amp;rsquo;s only come to me with more experience.
+Complexity is the death of software. It&amp;rsquo;s hard to quantify the cost of, and it tends to creep in slowly, so it&amp;rsquo;s a slow boil of getting worse that&amp;rsquo;s hard to see until it&amp;rsquo;s too late."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/links-files/complexity/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css?v=2">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Complexity is the enemy Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html April 23, 2011
+I&rsquo;m almost through my seventh year working at Google(!). I have learned many things there, more than I could ever write down. I thought I would at least share with you something that&rsquo;s only come to me with more experience.
+Complexity is the death of software. It&rsquo;s hard to quantify the cost of, and it tends to creep in slowly, so it&rsquo;s a slow boil of getting worse that&rsquo;s hard to see until it&rsquo;s too late."/>
+
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="Complexity is the enemy Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html April 23, 2011
+I&rsquo;m almost through my seventh year working at Google(!). I have learned many things there, more than I could ever write down. I thought I would at least share with you something that&rsquo;s only come to me with more experience.
+Complexity is the death of software. It&rsquo;s hard to quantify the cost of, and it tends to creep in slowly, so it&rsquo;s a slow boil of getting worse that&rsquo;s hard to see until it&rsquo;s too late." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/links-files/complexity/" /><meta property="article:section" content="links-files" />
+
+<meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/links-files/complexity/"></a></h2>
+    <div class="post-meta">
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <h1 id="complexity-is-the-enemy">Complexity is the enemy</h1>
+<ul>
+<li>Artículo extraído desde: <a href="https://neugierig.org/software/blog/2011/04/complexity.html">https://neugierig.org/software/blog/2011/04/complexity.html</a></li>
+</ul>
+<p>April 23, 2011</p>
+<p>I&rsquo;m almost through my seventh year working at Google(!). I have learned
+many things there, more than I could ever write down. I thought I would
+at least share with you something that&rsquo;s only come to me with more
+experience.</p>
+<p>Complexity is the death of software. It&rsquo;s hard to quantify the cost of,
+and it tends to creep in slowly, so it&rsquo;s a slow boil of getting worse
+that&rsquo;s hard to see until it&rsquo;s too late. On the other side, frequently
+it&rsquo;s easy to see a benefit of increasing complexity: a new layer of
+indirection allows new feature X, or splitting a process that ran on one
+machine into two allows you to surmount your current scaling hurdle. But
+now you must keep another layer of indirection in your head, or
+implement an RPC layer and manage two machines.</p>
+<p>The above is hopefully just as obvious to a new programmer as it is to a
+veteran. What I think I&rsquo;ve learned through my few years in the industry
+is a better understanding of how the balance works out; when complexity
+is warranted and when it should be rejected. I frequently think back to
+a friend&rsquo;s comment on the <a href="http://golang.org/">Go compiler</a> written by
+<a href="http://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>: it&rsquo;s fast
+because it just doesn&rsquo;t do much, the code is very straightforward.</p>
+<p>It turns out that, much like it&rsquo;s easier to write a long blog post than
+it is to make the same point succinctly, it&rsquo;s difficult to write
+software that is straightforward. This is easiest to see in programming
+langauge design; new languages by novices tend to have lots of features,
+while few have the crisp clarity of C. In today&rsquo;s programs it&rsquo;s
+frequently related to how many objects are involved; in distributed
+systems it&rsquo;s about how many moving parts there are.</p>
+<p>Another word for this problem is cleverness: to quote another one of the
+C hackers, &ldquo;Debugging is twice as hard as writing the code in the first
+place. Therefore, if you write the code as cleverly as possible, you
+are, by definition, not smart enough to debug it.&rdquo;</p>
+<p>What helps? I wonder if it maybe just comes down to experience — getting
+bitten by one too many projects where someone thought metaprogramming
+was cool. But I&rsquo;ve found having specific design goals to evaluate new
+code by can help. It&rsquo;s easier to reject new code if you can say &ldquo;this
+does not help solve the initial goals of the project&rdquo;. Within Google the
+template document for describing the design of a new project has a
+section right at the top to list <em>non-goals</em>: reasonable extensions of
+the project that you intend to reject.</p>
+<p>Ironically, I&rsquo;ve found that using <em>weaker</em> tools can help with
+complexity. It&rsquo;s hard to write a complicated C program because it can&rsquo;t
+do very much. C programs tend to use lots of arrays because that&rsquo;s all
+you get, but it turns out that arrays are great — compact memory
+representation, O(1) access, good data locality. I&rsquo;d never advocate
+intentionally using a weak tool, though. Instead, my lesson has been:
+write Python code like it was C.</p>
+
+    </div>
+
+    
+
+
+    
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2024 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

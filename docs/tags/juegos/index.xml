@@ -58,7 +58,7 @@ No solo pude experimentar la nostalgia de volver disfrutar un videojuego que me 
       <guid>https://www.examplelab.com.ar/posts/2016-04-26-publicamos-the-zombie-smasher/</guid>
       <description>Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!
 En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:
- ¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
+¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
 Lo que aprendimos Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo.</description>
     </item>
     
@@ -82,7 +82,7 @@ Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como l
       <guid>https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</guid>
       <description>Hoy quiero mostrarles un juego en el que venimos trabajando hace algunos meses: Dragon Punch, inspirado en la serie animada Dragon Ball.
 Gameplay El juego está orientado a usuarios de dispositivos móviles, como celulares y tablets, así que la forma de jugar es haciendo movimientos de desplazamiento sobre la pantalla:
- El objetivo del juego es que el jugador pueda controlar a yamcha para defenderse de los saibamens, dando golpes de puño y patadas.</description>
+El objetivo del juego es que el jugador pueda controlar a yamcha para defenderse de los saibamens, dando golpes de puño y patadas.</description>
     </item>
     
     <item>
@@ -93,7 +93,7 @@ Gameplay El juego está orientado a usuarios de dispositivos móviles, como celu
       <guid>https://www.examplelab.com.ar/posts/2015-07-12-draculas/</guid>
       <description>Esta semana Wally, BalbiNos y yo, publicamos nuestro primer videojuego para iOS (y pronto android): Dracula&amp;rsquo;s Nightmare en el marco de nuestro emprendimiento independiente 2players :
 ¿En que consiste? El juego es super sencillo, es un juego de supervivencia donde manejamos un pequeño vampiro que tiene que sobrevivir a todos los objetos que le arrojan los pueblerinos enfurecidos:
- El proceso de desarrollo Para realizar el juego nos pusimos a investigar varias alternativas, probamos con HTML5 junto cocoonjs, V-Play, SpriteKit y Unity.</description>
+El proceso de desarrollo Para realizar el juego nos pusimos a investigar varias alternativas, probamos con HTML5 junto cocoonjs, V-Play, SpriteKit y Unity.</description>
     </item>
     
   </channel>

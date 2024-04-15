@@ -52,7 +52,6 @@ Las grillas (o tiles) son muy eficientes, pero no son nada prácticos a la hora 
 
 
 
-
   </head>
   <body class="">
     <script>
@@ -170,7 +169,7 @@ un juego.</p>
 <p>La grilla tiene 4 columnas y 7 filas de imágenes, si queremos
 separar cada una de estas imágenes podemos ejecutar este
 comando:</p>
-<pre><code>convert SpriteSheet.png -crop 4x7@  +repage  +adjoin  resultado/imagen_%d.png
+<pre tabindex="0"><code>convert SpriteSheet.png -crop 4x7@  +repage  +adjoin  resultado/imagen_%d.png
 </code></pre><p>Y lo que vamos a obtener como resultado son varias imágenes como
 estas:</p>
 <p><img src="/images/2021/como-recortar-tiles-con-imagemagick/imagenes.png" alt=""></p>
@@ -187,7 +186,7 @@ como si se mezclaran entre sí.</p>
 <p>La solución es muy simple, podemos usar otro comando de <a href="https://imagemagick.org/script/index.php">ImageMagick</a>
 para agregar 2 píxeles transparentes al rededor de cada imagen
 y listo:</p>
-<pre><code>mogrify -bordercolor none -border 2 resultado/*
+<pre tabindex="0"><code>mogrify -bordercolor none -border 2 resultado/*
 </code></pre><p>Con esto, los archivos deberían quedarnos de esta forma:</p>
 <p><img src="/images/2021/como-recortar-tiles-con-imagemagick/padding.png" alt=""></p>
 <p>Es decir, un poco más grandes (20x20 píxeles), pero sin el defecto

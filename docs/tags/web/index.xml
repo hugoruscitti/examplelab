@@ -104,7 +104,7 @@ Se suele decir que cambiar el DOM con las APIs nativas del navegador es un proce
       <guid>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</guid>
       <description>En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
 Podes ver el proyecto aquí:
- https://hugoruscitti.github.io/tortugas-en-el-tiempo   video { width: 100%; border: 1px solid gray; margin-top: 0.5em; margin-bottom: 0.5em; }  Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.</description>
+https://hugoruscitti.github.io/tortugas-en-el-tiempo Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.</description>
     </item>
     
     <item>
@@ -150,7 +150,7 @@ Mi sorpresa principal fue encontrarme que ember-cli, no funcionaba junto a node-
       <description>Hace unos dias, implementé animaciones en los paneles de huayra-stopmotion. Al principio opté por usar la forma mas rudimentaria de mostrar y ocultar paneles, pero luego descubrí como implementarlo usando css3 y un poquito de javascript:
 En este post me gustaría contarte cómo lo implementé, ya que puede resultarte útil a la hora de hacer algo similar.
 Acá está la versión completa en jsfiddle:
- El layout Para mantener el maquetado lo mas sencillo posible, vamos a crear tres contenedores:</description>
+El layout Para mantener el maquetado lo mas sencillo posible, vamos a crear tres contenedores:</description>
     </item>
     
     <item>

@@ -307,7 +307,7 @@ Las grillas (o tiles) son muy eficientes, pero no son nada prácticos a la hora 
       
       <guid>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</guid>
       <description>Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de programación usando pilas-engine. Hablé de variables, valores, funciones y condicionales, todo dentro del editor de pilas:
- Ver el video en youtube  Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace varios meses, pero nunca daba el primer paso para empezar a grabar.
+Ver el video en youtube Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace varios meses, pero nunca daba el primer paso para empezar a grabar.
 Hacer el video me llevó casi 11 horas de realización, unas horas del viernes, sábado y domingo.</description>
     </item>
     
@@ -371,7 +371,7 @@ Me gusta la idea de conservar esos artículos en mi dominio, solo así sé que l
       
       <guid>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</guid>
       <description>Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.
- Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en producción realizadas con Django y nos pareció buena idea mencionar cómo lo resolvimos.
+Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en producción realizadas con Django y nos pareció buena idea mencionar cómo lo resolvimos.
 Django incluye un sistema de migraciones que permite modificar la estructura de la base de datos de forma reproducible y consistente. Cada cambio que hacemos en los modelos, como agregar o modificar campos, generan migraciones automáticas para propagar los cambios sobre la base de datos.</description>
     </item>
     
@@ -382,7 +382,7 @@ Django incluye un sistema de migraciones que permite modificar la estructura de 
       
       <guid>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</guid>
       <description>Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.
- Es un práctica común configurar e implementar envío de emails desde un sistema web. Casi todas las empresas llegan a tener la necesidad de informar a sus usuarios sobre eventos del sistema como las notificaciones o recuperación de contraseñas.
+Es un práctica común configurar e implementar envío de emails desde un sistema web. Casi todas las empresas llegan a tener la necesidad de informar a sus usuarios sobre eventos del sistema como las notificaciones o recuperación de contraseñas.
 En este artículo queremos contarte la forma que encontramos en enjambre-bit para implementar esas tareas de forma segura y sencilla.</description>
     </item>
     
@@ -527,8 +527,8 @@ Si no tomo nota de estas cosas, me veo obligado a abrir un navegador, ingresar a
       
       <guid>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</guid>
       <description>Esta semana empecé a leer un libro sobre productividad que comienza con una idea muy simple:
- El problema de la productividad es que muchas personas tratamos de hacer dos cosas al mismo tiempo: Un minuto estamos &amp;ldquo;planificando&amp;rdquo;, luego nos ponemos a &amp;ldquo;hacer&amp;rdquo;, en unos instantes volvemos a &amp;ldquo;planificar&amp;rdquo; y así continuamos durante todo el día.
- Creo que es fácil advertir donde está el problema, cambiar de contexto durante el transcurso día es muy abrumador.</description>
+El problema de la productividad es que muchas personas tratamos de hacer dos cosas al mismo tiempo: Un minuto estamos &amp;ldquo;planificando&amp;rdquo;, luego nos ponemos a &amp;ldquo;hacer&amp;rdquo;, en unos instantes volvemos a &amp;ldquo;planificar&amp;rdquo; y así continuamos durante todo el día.
+Creo que es fácil advertir donde está el problema, cambiar de contexto durante el transcurso día es muy abrumador.</description>
     </item>
     
     <item>
@@ -841,7 +841,7 @@ No solo pude experimentar la nostalgia de volver disfrutar un videojuego que me 
       <guid>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</guid>
       <description>En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
 Podes ver el proyecto aquí:
- https://hugoruscitti.github.io/tortugas-en-el-tiempo   video { width: 100%; border: 1px solid gray; margin-top: 0.5em; margin-bottom: 0.5em; }  Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.</description>
+https://hugoruscitti.github.io/tortugas-en-el-tiempo Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.</description>
     </item>
     
     <item>
@@ -904,7 +904,7 @@ Técnicamente hablando, la aplicación simplemente busca videos en un directorio
       <guid>https://www.examplelab.com.ar/posts/2016-04-26-publicamos-the-zombie-smasher/</guid>
       <description>Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!
 En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:
- ¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
+¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
 Lo que aprendimos Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo.</description>
     </item>
     
@@ -928,7 +928,7 @@ Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como l
       <guid>https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</guid>
       <description>Hoy quiero mostrarles un juego en el que venimos trabajando hace algunos meses: Dragon Punch, inspirado en la serie animada Dragon Ball.
 Gameplay El juego está orientado a usuarios de dispositivos móviles, como celulares y tablets, así que la forma de jugar es haciendo movimientos de desplazamiento sobre la pantalla:
- El objetivo del juego es que el jugador pueda controlar a yamcha para defenderse de los saibamens, dando golpes de puño y patadas.</description>
+El objetivo del juego es que el jugador pueda controlar a yamcha para defenderse de los saibamens, dando golpes de puño y patadas.</description>
     </item>
     
     <item>
@@ -939,7 +939,7 @@ Gameplay El juego está orientado a usuarios de dispositivos móviles, como celu
       <guid>https://www.examplelab.com.ar/posts/2015-07-12-draculas/</guid>
       <description>Esta semana Wally, BalbiNos y yo, publicamos nuestro primer videojuego para iOS (y pronto android): Dracula&amp;rsquo;s Nightmare en el marco de nuestro emprendimiento independiente 2players :
 ¿En que consiste? El juego es super sencillo, es un juego de supervivencia donde manejamos un pequeño vampiro que tiene que sobrevivir a todos los objetos que le arrojan los pueblerinos enfurecidos:
- El proceso de desarrollo Para realizar el juego nos pusimos a investigar varias alternativas, probamos con HTML5 junto cocoonjs, V-Play, SpriteKit y Unity.</description>
+El proceso de desarrollo Para realizar el juego nos pusimos a investigar varias alternativas, probamos con HTML5 junto cocoonjs, V-Play, SpriteKit y Unity.</description>
     </item>
     
     <item>
@@ -1021,7 +1021,7 @@ Mi sorpresa principal fue encontrarme que ember-cli, no funcionaba junto a node-
       <description>Hace unas semanas empezamos a realizar una aplicación nueva: huayra-caripela.
 Es una aplicación muy sencilla, que sirve para hacer avatares y personalizar las preferencias de tu usuario en huayra linux:
 Como se puede ver en la captura, &amp;ldquo;caripela&amp;rdquo; te muestra una galería de objetos en pantalla para armar un rostro, con muchas posibles combinaciones:
- ¿Por qué? Pensamos que sería buena idea contar con una aplicación que te permita dibujar fácilmente, realizar un avatar representativo y que puedas darle un toque personal a tu configuración de usuario.</description>
+¿Por qué? Pensamos que sería buena idea contar con una aplicación que te permita dibujar fácilmente, realizar un avatar representativo y que puedas darle un toque personal a tu configuración de usuario.</description>
     </item>
     
     <item>
@@ -1133,7 +1133,7 @@ Hoy lamentablemente no tenemos nodejs como paquete pre-instalado en la distribuc
       
       <guid>https://www.examplelab.com.ar/posts/2014-01-19-misol-2013/</guid>
       <description>El mes pasado tuve la posibilidad de asistir y participar como orador del Festival Misionero de Software Libre.
- La experiencia fué alucinante, viajé junto a Héctor Sanchez desde Buenos Aires, y allá en misiones nos recibió Josi Guaimas.
+La experiencia fué alucinante, viajé junto a Héctor Sanchez desde Buenos Aires, y allá en misiones nos recibió Josi Guaimas.
 Les dejo algunas de las fotos que tomaron los organizadores del evento:
 ¡ Mil agradecimientos a Josi Guaimas y a todos los que hicieron posible el festival !!!</description>
     </item>
@@ -1147,7 +1147,7 @@ Les dejo algunas de las fotos que tomaron los organizadores del evento:
       <description>Hace unos dias, implementé animaciones en los paneles de huayra-stopmotion. Al principio opté por usar la forma mas rudimentaria de mostrar y ocultar paneles, pero luego descubrí como implementarlo usando css3 y un poquito de javascript:
 En este post me gustaría contarte cómo lo implementé, ya que puede resultarte útil a la hora de hacer algo similar.
 Acá está la versión completa en jsfiddle:
- El layout Para mantener el maquetado lo mas sencillo posible, vamos a crear tres contenedores:</description>
+El layout Para mantener el maquetado lo mas sencillo posible, vamos a crear tres contenedores:</description>
     </item>
     
     <item>
@@ -1181,8 +1181,7 @@ Ojalá pueda visitar nuevamente bariloche con un taller de pilas-engine renovado
       <guid>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
       <description>Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013 de la ciudad de Rosario.
 Aquí estan las diapositivas:
- y el video:
- </description>
+y el video:</description>
     </item>
     
     <item>
@@ -1262,7 +1261,7 @@ Introducción Lamentablemente la consola de python no se puede usar en cualquier
       <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
       <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
 Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
- Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
+Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
     </item>
     
     <item>
@@ -1274,7 +1273,7 @@ Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la ha
       <description>Existe una tarea para grunt que nos permite automatizar el empaquetado de nuestras aplicaciones para cada plataforma: grunt-node-webkit-builder.
 Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;
 Instalación El primer paso es instalarnos la tarea para grunt:
-npm install grunt-node-webkit-builder --save  Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
+npm install grunt-node-webkit-builder --save Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
 Por ejemplo, mi archivo GruntFile.js a la hora de comenzar un proyecto nuevo se ve así:</description>
     </item>
     

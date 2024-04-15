@@ -21,7 +21,7 @@ ejecutar:
 	hugo serve --disableLiveReload
 
 compilar:
-	hugo
+	hugo -d docs
 
 deploy: 
 	@echo "Sincronizando repositorio"

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title> :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="La complejidad es el enemigo Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html Traducción por Hugo Ruscitti 23 de Abril de 20211
+Estoy cerca de cumplir 7 años trabajando en Google. Aprendí muchas cosas aquí, muchas más de las que podría escribir. Y pensé que podría compartir con vos algo que solo vino a mí a través de la experiencia.
+La complejidad es mortal para el software. Es difícil medir su costo y tiende a introducirse muy lentamente, así que crece volviéndose peor al punto que es difícil verlo hasta que es muy tarde."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/links-files/traducciones/complexity/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css?v=2">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="La complejidad es el enemigo Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html Traducción por Hugo Ruscitti 23 de Abril de 20211
+Estoy cerca de cumplir 7 años trabajando en Google. Aprendí muchas cosas aquí, muchas más de las que podría escribir. Y pensé que podría compartir con vos algo que solo vino a mí a través de la experiencia.
+La complejidad es mortal para el software. Es difícil medir su costo y tiende a introducirse muy lentamente, así que crece volviéndose peor al punto que es difícil verlo hasta que es muy tarde."/>
+
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="La complejidad es el enemigo Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html Traducción por Hugo Ruscitti 23 de Abril de 20211
+Estoy cerca de cumplir 7 años trabajando en Google. Aprendí muchas cosas aquí, muchas más de las que podría escribir. Y pensé que podría compartir con vos algo que solo vino a mí a través de la experiencia.
+La complejidad es mortal para el software. Es difícil medir su costo y tiende a introducirse muy lentamente, así que crece volviéndose peor al punto que es difícil verlo hasta que es muy tarde." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/links-files/traducciones/complexity/" /><meta property="article:section" content="links-files" />
+
+<meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/links-files/traducciones/complexity/"></a></h2>
+    <div class="post-meta">
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <h1 id="la-complejidad-es-el-enemigo">La complejidad es el enemigo</h1>
+<ul>
+<li>Artículo extraído desde: <a href="https://neugierig.org/software/blog/2011/04/complexity.html">https://neugierig.org/software/blog/2011/04/complexity.html</a></li>
+<li>Traducción por Hugo Ruscitti</li>
+</ul>
+<p>23 de Abril de 20211</p>
+<!--
+I'm almost through my seventh year working at Google(!). I have learned
+many things there, more than I could ever write down. I thought I would
+at least share with you something that's only come to me with more
+experience.
+-->
+<p>Estoy cerca de cumplir 7 años trabajando en Google. Aprendí muchas cosas aquí,
+muchas más de las que podría escribir. Y pensé que podría compartir con vos algo
+que solo vino a mí a través de la experiencia.</p>
+<!--
+Complexity is the death of software. It's hard to quantify the cost of,
+and it tends to creep in slowly, so it's a slow boil of getting worse
+that's hard to see until it's too late. On the other side, frequently
+it's easy to see a benefit of increasing complexity: a new layer of
+indirection allows new feature X, or splitting a process that ran on one
+machine into two allows you to surmount your current scaling hurdle. But
+now you must keep another layer of indirection in your head, or
+implement an RPC layer and manage two machines.
+-->
+<p>La complejidad es mortal para el software. Es difícil medir su costo y tiende a
+introducirse muy lentamente, así que crece volviéndose peor al punto que es
+difícil verlo hasta que es muy tarde. Por otro lado, es fácil ver los beneficios
+de incrementar la complejidad: Una nueva capa intermedia permite la
+característica X, o dividir un proceso que corría en una computadora para que se
+ejecute en dos te permitiría superar el obstáculo de escalabilidad. Pero ahora
+deberías mantener otra capa de indirección en tu cabeza o implementar un nuevo
+mecanismo de comunicación entre dos computadoras.</p>
+<!--
+The above is hopefully just as obvious to a new programmer as it is to a
+veteran. What I think I've learned through my few years in the industry
+is a better understanding of how the balance works out; when complexity
+is warranted and when it should be rejected. I frequently think back to
+a friend's comment on the [Go compiler](http://golang.org/) written by
+[Ken Thompson](http://en.wikipedia.org/wiki/Ken_Thompson): it's fast
+because it just doesn't do much, the code is very straightforward.
+-->
+<p>Esto que mencioné es evidente tanto para los nuevos programadores como
+para los veteranos. Lo que logré durante mis años en la industria es un
+mejor entendimiento sobre cómo balancear estas cosas. Cuándo se justifica la
+complejidad y cuando no. Recuerdo con frecuencia un comentario de un amigo
+sobre el <a href="http://golang.org/">compilador de Go</a> creado por <a href="http://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>:
+este compilador es rápido porque no hace demasiado, el código es muy simple.</p>
+<!--
+It turns out that, much like it's easier to write a long blog post than
+it is to make the same point succinctly, it's difficult to write
+software that is straightforward. .
+-->
+<p>Resulta que, al igual es que más fácil escribir un artículo largo que escribir
+uno breve que señale lo mismo de manera concisa, es difícil escribir software que
+sea sencillo y breve.</p>
+<!-- This is easiest to see in programming
+langauge design; new languages by novices tend to have lots of features,
+while few have the crisp clarity of C. -->
+<p>Esto se puede ver con facilidad en el diseño de lenguajes de programación,
+los lenguajes nuevos suelen tener un montón de características, mientras muy
+pocos logran tener la simpleza y claridad de C.</p>
+<!-- In today's programs it's
+frequently related to how many objects are involved; in distributed
+systems it's about how many moving parts there are.
+-->
+<p>En los programas de hoy en día, se suele pensar más en la cantidad de objetos
+que están involucrados que en otra cosa. En los sistemas distribuidos pasa lo
+mismo, solo que se piensa en cuantas piezas móviles hay.</p>
+<!--
+Another word for this problem is cleverness: to quote another one of the
+C hackers, "Debugging is twice as hard as writing the code in the first
+place. Therefore, if you write the code as cleverly as possible, you
+are, by definition, not smart enough to debug it."
+-->
+<p>Otra palabra para este problema es &ldquo;inteligencia&rdquo;. Esto se decía otro de los hackers
+de C: &ldquo;Depurar un programa es el doble de difícil que escribir el código en
+primer lugar. Después de todo, si escribes el código lo más &ldquo;inteligente&rdquo; que
+puedas, estás, por definición, condenándote a no poder depurar ese programa, ya
+que no serás doblemente inteligente al momento de depurarlo.&rdquo;</p>
+<!--
+What helps? I wonder if it maybe just comes down to experience — getting
+bitten by one too many projects where someone thought metaprogramming
+was cool.-->
+<p>¿Qué ayuda?, me pregunto si esto se reduce solamente a la experiencia: haber
+sido mordido por tantos proyectos donde alguien pensó que la meta-programación
+era lo mejor y cosas similares.</p>
+<!--
+
+But I've found having specific design goals to evaluate new
+code by can help. It's easier to reject new code if you can say "this
+does not help solve the initial goals of the project". Within Google the
+template document for describing the design of a new project has a
+section right at the top to list *non-goals*: reasonable extensions of
+the project that you intend to reject.
+-->
+<p>Encontré que tener objetivos específicos para evaluar el código nuevo es de
+mucha ayuda. Es más fácil rechazar código nuevo si puedes decir algo cómo &ldquo;Esto
+no ayuda a resolver nuestro objetivo inicial del proyecto&rdquo;.</p>
+<p>Dentro de Google
+usamos una plantilla para describir el diseño de los proyectos nuevos, en esa
+planilla tenemos una sección llamada &ldquo;no-objetivos&rdquo;, donde se enumeran
+extensiones o mejoras razonables al proyecto que se intentarán evitar.</p>
+<!--
+Ironically, I've found that using *weaker* tools can help with
+complexity. It's hard to write a complicated C program because it can't
+do very much. C programs tend to use lots of arrays because that's all
+you get, but it turns out that arrays are great — compact memory
+representation, O(1) access, good data locality. I'd never advocate
+intentionally using a weak tool, though. Instead, my lesson has been:
+write Python code like it was C.
+-->
+<p>Irónicamente, encontré que usar las herramientas <em>menos sofisticadas</em> pueden
+ayudar con la complejidad. Es difícil escribir un programa complicado en C
+porque no puede hacer demasiado. Los programas en C suelen tener un montón de
+<code>arrays</code> porque es todo lo que tienes, y eso está bíen, porque los datos ocupan
+poco lugar, los accesos a los elementos son directos, la información está
+alocada en la misma página de memoria, etc. Sin embargo, nunca recomendaría usar una
+herramienta rudimentaria porque sí, en lugar de eso, mi lección ha sido:
+&ldquo;Escribe código python como si fuera C.&rdquo;</p>
+
+    </div>
+
+    
+
+
+    
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2024 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>
