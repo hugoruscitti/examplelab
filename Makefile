@@ -32,9 +32,11 @@ deploy:
 	@git add docs
 	@git commit -am "actualizando archivos .html"
 	@git push origin master
+	@echo ""
 	@echo "${G}Listo, se hizo el deploy en:${N}"
 	@echo "${G} ${N}"
 	@echo "${G} https://www.examplelab.com.ar ${N}"
 	@echo "${G} ${N}"
 	@echo "${G} (aunque demora unos 2 minutos en estar online realmente)${N}"
+	@echo ""
 
