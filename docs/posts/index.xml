@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creando un reproductor de música como Winamp</title>
+      <link>https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/</link>
+      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/</guid>
+      <description>Winamp fue mi reproductor de música favorito por muchos años, me trae a la mente muy lindos recuerdos.
+Tan solo ver esa pequeña pantalla con botones me lleva a mis primeros años frente a la computadora, cuando intentaba aprender a programar en Delphi mientras escuchaba música desde archivos mp3.
+Si bien pasaron muchos años, extraño tener un programa como ese en mi computadora. Así que me puse a crear una versión homenaje de Winamp, imitando algunas de sus funcionalidades.</description>
+    </item>
+    
     <item>
       <title>Fechas importantes y aniversarios</title>
       <link>https://www.examplelab.com.ar/posts/2024-02-23-fechas-importantes-y-aniversarios/</link>

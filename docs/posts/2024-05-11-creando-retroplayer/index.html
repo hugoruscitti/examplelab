@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Creando un reproductor de música como Winamp :: Examplelab — Mi blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Winamp fue mi reproductor de música favorito por muchos años, me trae a la mente muy lindos recuerdos.
+Tan solo ver esa pequeña pantalla con botones me lleva a mis primeros años frente a la computadora, cuando intentaba aprender a programar en Delphi mientras escuchaba música desde archivos mp3.
+Si bien pasaron muchos años, extraño tener un programa como ese en mi computadora. Así que me puse a crear una versión homenaje de Winamp, imitando algunas de sus funcionalidades."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/" />
+
+
+
+
+<script src="https://www.examplelab.com.ar/js/menu.js"></script>
+<script src="https://www.examplelab.com.ar/js/prism.js"></script>
+<script src="https://www.examplelab.com.ar/js/theme.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/assets/style.css?v=2">
+
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/estilo.css">
+<link rel="stylesheet" href="https://www.examplelab.com.ar/css/tachyons.min.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Creando un reproductor de música como Winamp"/>
+<meta name="twitter:description" content="Hice un reproductor de audio para rendir homenaje a Winamp, el mejor player de música de todos los tiempos.
+"/>
+
+
+
+<meta property="og:title" content="Creando un reproductor de música como Winamp" />
+<meta property="og:description" content="Hice un reproductor de audio para rendir homenaje a Winamp, el mejor player de música de todos los tiempos.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-05-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-05-11T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <script>
+      procesar_theme();
+    </script>
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner measure-2">
+    <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about/index.html">Acerca de</a></li>
+        
+      
+        
+          <li><a href="/posts/index.html">Artículos</a></li>
+        
+      
+        
+          <li><a href="/links/index.html">Links</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about/index.html">Acerca de</a></li>
+      
+    
+      
+        <li><a href="/posts/index.html">Artículos</a></li>
+      
+    
+      
+        <li><a href="/links/index.html">Links</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+
+  <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
+    <div id="preview-content">
+      <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
+    </div>
+  </div>
+
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/">Creando un reproductor de música como Winamp</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            11/05/2024
+        </span>
+      
+      
+      
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>Winamp fue mi reproductor de música favorito por muchos años, me trae a la mente
+muy lindos recuerdos.</p>
+<p><img src="/images/2024/creando-retroplayer/winamp-original.png" alt=""></p>
+<p>Tan solo ver esa pequeña pantalla con botones me lleva a mis primeros años
+frente a la computadora, cuando intentaba aprender a programar en Delphi
+mientras escuchaba música desde archivos <code>mp3</code>.</p>
+<p>Si bien pasaron muchos años, extraño tener un programa como ese en mi
+computadora. Así que me puse a crear una versión homenaje de Winamp, imitando
+algunas de sus funcionalidades.</p>
+<h2 id="cómo-hacer-un-reproductor-de-música">¿Cómo hacer un reproductor de música?</h2>
+<p>Hay muchas formas diferentes de hacer un reproductor de música, muchas
+tecnologías de donde elegir y enfoques de todo tipo. Pero desde el primer
+momento me pareció buena idea hacer las cosas lo más artesanalmente posible.</p>
+<p>Comencé a escribir el proyecto usando vanilla JavaScript, sin frameworks ni
+compiladores, tratando de reducir al mínimo las dependencias, y así tener un
+proyecto simple y fácil de ejecutar.</p>
+<p>También aproveché a declarar la aplicación como una PWA, de forma que se pueda
+instalar en el escritorio como una aplicación independiente del acceso a
+internet y la estética de un navegador.</p>
+<h2 id="qué-hacer-y-qué-no-hacer">¿Qué hacer y qué no hacer?</h2>
+<p>Parece una pregunta tonta, pero winamp hacía muchas cosas, y tratar de hacer una
+copia fiel del programa es imposible para mí.</p>
+<p>Lo único que me gustaría implementar es la funcionalidad básica de reproducir
+archivos desde una carpeta. Agregarle botones para navegar la lista de canciones
+y algunas cosas más.</p>
+<p>Es fácil listar las cosas que quiero hacer, pero… ¿Qué cosas debería dejar
+afuera?</p>
+<ul>
+<li>No quiero leer o procesar <code>metadata</code> de los archivos, ni el nombre del
+artista, ni el año de lanzamiento, etc. Voy a identificar a las canciones por
+el nombre de archivo.</li>
+<li>No quiero un ecualizador.</li>
+<li>La lista de canciones tiene que estar visible todo el tiempo. No ser una
+ventana independiente y configurable.</li>
+<li>No quiero integración con el sistema, la ventana tiene que ser como cualquier
+otra. Ni notificaciones, ni atajos de teclado para pasar canciones.</li>
+<li>No quiero implementar ningún menú de opciones, que todo funcione por omisión.</li>
+<li>Quiero quitar el paneo, con el control de volumen está bien.</li>
+</ul>
+<h2 id="primeros-pasos-haciendo-mi-propio-winamp">Primeros pasos haciendo mi propio Winamp</h2>
+<p>Para comenzar, hice un proyecto web que se pueda instalar como una aplicación
+PWA. Muy simple, sin ningún <code>feature</code> especial, solo una ventana con un botón:</p>
+<p><img src="/images/2024/creando-retroplayer/primer-version.png" alt=""></p>
+<p>Armar esta primera versión me gustó porque pude crear una estructura muy simple.
+Usé módulos, HTML, JavaScript sin dependencias ni frameworks.</p>
+<p>Además, logré hacer que se pueda instalar como una aplicación de escritorio.</p>
+<h2 id="buscando-la-estética-de-winamp">Buscando la estética de Winamp</h2>
+<p>Para imitar la estética de Winamp, usé un <code>skin</code> moderno <a href="https://forums.winamp.com/forum/skinning-and-design/modern-skins/314306-winamp-classic-modern-by-victhor">que encontré en
+Internet</a>.
+Este <code>skin</code> es muy similar a la versión original, pero está diseñado desde cero,
+usando imágenes con más resolución y más colores:</p>
+<p><img src="/images/2024/creando-retroplayer/comparacion-original-moderno.png" alt=""></p>
+<p>Llevar los archivos del <code>skin</code> a la aplicación fue sencillo, tuve que editar
+algunas imágenes para separarlas en archivos <code>.png</code> y vincularlas con el archivo
+<code>.css</code>:</p>
+<p><img src="/images/2024/creando-retroplayer/imagenes-del-skin.png" alt=""></p>
+<p>Luego, dentro de la estructura HTML, tuve que crear algunos elementos del tamaño
+esperado y asociarle estas imágenes para “vestir” la interfaz de usuario.</p>
+<p>Acá se ve cómo estos elementos se combinan entre sí:</p>
+<p><img src="/images/2024/creando-retroplayer/winamp-inspector.png" alt=""></p>
+<p>Por un lado, la estructura HTML que representa el botón, luego el CSS con la
+imagen del botón y a la izquierda de la pantalla el resultado.</p>
+<h2 id="arrastrando-archivos">Arrastrando archivos</h2>
+<p>Lo siguiente que hice fue incorporar una forma de cargar archivos para
+reproducirlos.</p>
+<p>Opté por la estrategia más sencilla, el reproductor solo permite reproducir
+canciones si se arrastra y suelta una carpeta completa con archivos <code>.mp3</code></p>
+<h2 id="visualización-de-frecuencia">Visualización de frecuencia</h2>
+<p>Para recrear el visualizador de frecuencia investigué la documentación de
+Mozilla y encontré un artículo que explicaba a la perfección lo que estaba
+buscando:</p>
+<p><img src="/images/2024/creando-retroplayer/mdn-visualizador.png" alt=""></p>
+<p>De hecho, el artículo también menciona a Winamp.</p>
+<p>Jugué un montón con esta parte del programa, y fue una de las cosas más
+gratificantes de hacer.</p>
+<p>Así quedaba el visualizador luego de unas cuantas horas de pruebas:</p>
+<p><img src="/images/2024/creando-retroplayer/winamp-animacion.gif" alt=""></p>
+<h2 id="publicando-el-resultado-como-una-pwa">Publicando el resultado como una PWA</h2>
+<p>Para publicar el proyecto, lo más sencillo que encontré fue usar <code>gitpages</code>, un
+servicio que ofrece GitHub para publicar sitios estáticos a partir de un
+repositorio. Lo único que tuve que hacer es ingresar a la configuración del
+repositorio y activar esta opción:</p>
+<p><img src="/images/2024/creando-retroplayer/winamp-configuracion-de-gitpages.png" alt=""></p>
+<p>La aplicación me quedó tal y como esperaba, funciona sin problemas (al menos
+para mi caso de uso), y me gusta como se ve:</p>
+<p><img src="/images/2024/creando-retroplayer/winamp-version-final.png" alt=""></p>
+<p>Por cierto, si quieres usar e instalar la aplicación en tu computadora visita
+esta web:</p>
+<ul>
+<li><a href="https://hugoruscitti.github.io/retroplayer/">https://hugoruscitti.github.io/retroplayer/</a></li>
+<li>(o el repositorio en: <a href="https://github.com/hugoruscitti/retroplayer">https://github.com/hugoruscitti/retroplayer</a>)</li>
+</ul>
+<p>y luego pulsa el botón instalar en la barra de navegación del navegador:</p>
+<p><img src="/images/2024/creando-retroplayer/winamp-instalancion-pwa.png" alt=""></p>
+<h2 id="ideas-a-futuro">Ideas a futuro</h2>
+<p>No voy a agregar mejoras al programa por ahora, me gustaría usar la aplicación
+un par de meses y evaluar ahí qué añadir.</p>
+<p>También me gustaría reflexionar sobre qué buenas ideas y patrones encontré
+haciendo el sistema de eventos y creando los componentes desde cero sin usar
+frameworks, tal vez escriba más sobre esto en futuros post.</p>
+<p>¡Gracias por leer!</p>
+
+    </div>
+
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leer otros artículos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://www.examplelab.com.ar/posts/2024-02-23-fechas-importantes-y-aniversarios/">
+                  <span class="button__text">Fechas importantes y aniversarios</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  <img width="64" height="64" src="/logo.png" alt="Logo" />
+  <span class="logo__text pl2"> examplelab</span>
+</a>
+
+      <div class="copyright">
+        <span>© 2010-2024 Hugo Ruscitti</span>
+      </div>
+    
+  </div>
+</footer>
+
+
+<script src="https://www.examplelab.com.ar/assets/prism.js"></script>
+
+
+      
+    </div>
+  </body>
+</html>

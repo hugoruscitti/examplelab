@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.examplelab.com.ar/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <loc>https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/</loc>
+    <lastmod>2024-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.examplelab.com.ar/posts/2024-02-23-fechas-importantes-y-aniversarios/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <loc>https://www.examplelab.com.ar/</loc>
+    <lastmod>2024-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/</loc>
+    <lastmod>2024-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.examplelab.com.ar/posts/2024-02-23-fechas-importantes-y-aniversarios/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/2023-11-24-imagenes-async-en-el-navegador/</loc>
