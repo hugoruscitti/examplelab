@@ -6,7 +6,43 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El camino de Valentín</title>
+      <link>https://www.examplelab.com.ar/posts/2024-06-10-el-camino-de-valentin/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2024-06-10-el-camino-de-valentin/</guid>
+      <description>&lt;p&gt;¡En unas semanas va a nacer mi hijo Valentín!&lt;/p&gt;
+&lt;p&gt;Con Any estamos superilusionados y felices esperando su nacimiento. Tenemos
+fecha probable de parto en dos meses y ya estamos preparando todo para recibir
+el bebé.&lt;/p&gt;
+&lt;p&gt;Así que me pareció buena idea crear una aplicación que nos permita mirar cuánto
+tiempo falta para su nacimiento y qué camino recorrimos hasta ahora.&lt;/p&gt;
+&lt;p&gt;Primero, pensé una forma de representar la evolución del embarazo y el punto en
+donde nos encontramos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/el-camino-de-valentin/grafico.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Cada fila en este diagrama representa las semanas del embarazo. El corazón
+simboliza el día actual y los colores de los círculos representan días.&lt;/p&gt;
+&lt;p&gt;Esta forma de visualizar las semanas la diseñé en papel, y luego la convertí en
+HTML y CSS. Luego, con ese boceto funcionando, agregué algo de JavaScript y la
+fecha probable de parto para hacerla funcionar.&lt;/p&gt;
+&lt;p&gt;Hasta aquí, tenía una página web que solamente podía ver yo. Sin embargo, como
+ya había aprendido algo de PWA haciendo &lt;a href=&#34;https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/&#34;&gt;mi propia versión de
+winamp&lt;/a&gt;
+hace unas semanas, se me ocurrió crear una aplicación mobile usando lo que había
+aprendido.&lt;/p&gt;
+&lt;p&gt;Así quedó luego de unas horas de trabajo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/el-camino-de-valentin/icono.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/el-camino-de-valentin/captura-mobile-valentin.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Lo bueno de haber creado esta aplicación es que pude compartirla con mi familia
+y ver que les gustó mucho. ¡De hecho reconocieron algunas mejoras de animaciones
+y efectos que agregué hace unos días!&lt;/p&gt;
+&lt;p&gt;Si querés ver o modificar el código del proyecto visita el
+&lt;a href=&#34;https://github.com/hugoruscitti/el-camino-de-valentin&#34;&gt;repositorio&lt;/a&gt; en GitHub.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Creando un reproductor de música como Winamp</title>
       <link>https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/</link>

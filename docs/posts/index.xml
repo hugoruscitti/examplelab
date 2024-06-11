@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El camino de Valentín</title>
+      <link>https://www.examplelab.com.ar/posts/2024-06-10-el-camino-de-valentin/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2024-06-10-el-camino-de-valentin/</guid>
+      <description>¡En unas semanas va a nacer mi hijo Valentín!
+Con Any estamos superilusionados y felices esperando su nacimiento. Tenemos fecha probable de parto en dos meses y ya estamos preparando todo para recibir el bebé.
+Así que me pareció buena idea crear una aplicación que nos permita mirar cuánto tiempo falta para su nacimiento y qué camino recorrimos hasta ahora.
+Primero, pensé una forma de representar la evolución del embarazo y el punto en donde nos encontramos:</description>
+    </item>
+    
     <item>
       <title>Creando un reproductor de música como Winamp</title>
       <link>https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/</link>
