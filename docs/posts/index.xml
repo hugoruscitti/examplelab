@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apunte VanillaJS</title>
+      <link>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</guid>
+      <description>Comencé a programar mis experimentos directamente en JavaScript, sin usar frameworks e intentando lograr una estructura de proyecto simple, fácil de mantener y transportar.
+Así que me pareció útil crear este artículo con recetas y apuntes para facilitar la creación de proyectos nuevos:
+¿Cómo empezar? El punto de entrada para una aplicación simple es un archivo index.html similar a este:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Título&amp;lt;/title&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1&amp;#34;&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;css/style.</description>
+    </item>
+    
     <item>
       <title>El camino de Valentín</title>
       <link>https://www.examplelab.com.ar/posts/2024-06-10-el-camino-de-valentin/</link>
@@ -1150,6 +1162,17 @@ Hoy lamentablemente no tenemos nodejs como paquete pre-instalado en la distribuc
     </item>
     
     <item>
+      <title>_why: La historia de un genio post-moderno</title>
+      <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
+      <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
+      <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
+Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
+Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
+    </item>
+    
+    <item>
       <title>FMSL 2013</title>
       <link>https://www.examplelab.com.ar/posts/2014-01-19-misol-2013/</link>
       <pubDate>Sun, 19 Jan 2014 21:52:52 +0000</pubDate>
@@ -1171,6 +1194,19 @@ Les dejo algunas de las fotos que tomaron los organizadores del evento:
 En este post me gustaría contarte cómo lo implementé, ya que puede resultarte útil a la hora de hacer algo similar.
 Acá está la versión completa en jsfiddle:
 El layout Para mantener el maquetado lo mas sencillo posible, vamos a crear tres contenedores:</description>
+    </item>
+    
+    <item>
+      <title>Automatizando lanzamientos en node-webkit</title>
+      <link>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
+      <pubDate>Thu, 26 Dec 2013 01:15:39 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
+      <description>Existe una tarea para grunt que nos permite automatizar el empaquetado de nuestras aplicaciones para cada plataforma: grunt-node-webkit-builder.
+Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;
+Instalación El primer paso es instalarnos la tarea para grunt:
+npm install grunt-node-webkit-builder --save Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
+Por ejemplo, mi archivo GruntFile.js a la hora de comenzar un proyecto nuevo se ve así:</description>
     </item>
     
     <item>
@@ -1274,30 +1310,6 @@ Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se p
       <description>Python tiene una herramienta super interesante para los nuevos programadores: una consola interactiva donde se puede editar, corregir y ejecutar código de manera super sencilla.
 Esto resulta de mucha utilidad cuando quieres dar clases sobre programación o simplemente dar una demostración sobre alguna biblioteca.
 Introducción Lamentablemente la consola de python no se puede usar en cualquier escenario, por ejemplo si quieres dar una demostración de la biblioteca cocos2d desde la consola interactiva se te pueden presentar algunos problemas.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
-      <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
-Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
-Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
-    </item>
-    
-    <item>
-      <title>Automatizando lanzamientos en node-webkit</title>
-      <link>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
-      <description>Existe una tarea para grunt que nos permite automatizar el empaquetado de nuestras aplicaciones para cada plataforma: grunt-node-webkit-builder.
-Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;
-Instalación El primer paso es instalarnos la tarea para grunt:
-npm install grunt-node-webkit-builder --save Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
-Por ejemplo, mi archivo GruntFile.js a la hora de comenzar un proyecto nuevo se ve así:</description>
     </item>
     
   </channel>

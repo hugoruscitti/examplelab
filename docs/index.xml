@@ -6,7 +6,117 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apunte VanillaJS</title>
+      <link>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</guid>
+      <description>&lt;p&gt;Comencé a programar mis experimentos directamente en JavaScript, sin usar
+frameworks e intentando lograr una estructura de proyecto simple, fácil de
+mantener y transportar.&lt;/p&gt;
+&lt;p&gt;Así que me pareció útil crear este artículo con recetas y apuntes para facilitar
+la creación de proyectos nuevos:&lt;/p&gt;
+&lt;h2 id=&#34;cómo-empezar&#34;&gt;¿Cómo empezar?&lt;/h2&gt;
+&lt;p&gt;El punto de entrada para una aplicación simple es un archivo &lt;code&gt;index.html&lt;/code&gt;
+similar a este:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Título&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;viewport&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;width=device-width, initial-scale=1&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;css/style.css&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;module&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;js/main.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ojo, en este script se asume que el archivo &lt;code&gt;main.js&lt;/code&gt; es un módulo, ver la
+siguiente sección para más detalles.&lt;/p&gt;
+&lt;h2 id=&#34;módulos-y-componentes&#34;&gt;Módulos y componentes&lt;/h2&gt;
+&lt;p&gt;Para dividir el código en archivos se puede tener un script principal llamado
+&lt;code&gt;main.js&lt;/code&gt; y cargarlo desde la página principal así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;module&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;js/main.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y dentro de &lt;code&gt;main.js&lt;/code&gt; se pueden cargar los otros archivos así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Drop&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;./components/drop.js&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;customElements&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;define&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;x-drop&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;Drop&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Donde el archivo &lt;code&gt;drop.js&lt;/code&gt; podría ser un &lt;em&gt;Web Component&lt;/em&gt; como este:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Drop&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HTMLElement&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;constructor&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;super&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;World&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;observedAttributes&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;name&amp;#39;&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;connectedCallback&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;textContent&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hello World!&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;attributeChangedCallback&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;property&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;oldValue&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;newValue&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;attribute changed&amp;#34;&lt;/span&gt;, {&lt;span style=&#34;color:#a6e22e&#34;&gt;property&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;oldValue&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;newValue&lt;/span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;disconnectedCallback&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;default&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Drop&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y si el archivo expone varias funciones, se pueden cargar así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt; } &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;./utils.js&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y exponer de esta forma en el archivo &lt;code&gt;utils.js&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;default&lt;/span&gt; {&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;};
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;compilación-para-distribuir&#34;&gt;Compilación para distribuir&lt;/h2&gt;
+&lt;p&gt;Luego si se quiere hacer una unificación de los módulos en un único archivo se
+puede ejecutar este comando:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx rollup js/main.js --file bundle.js
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ojo, tener en cuenta que los navegadores suelen hacer un &lt;code&gt;cache&lt;/code&gt; por nombre de
+archivo, así que suele ser buena idea cargar el archivo &lt;code&gt;bundle.js&lt;/code&gt; en el
+archivo &lt;code&gt;html&lt;/code&gt; usando algo como esto:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;bundle.js?version-hash-o-fecha=2&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;eventos&#34;&gt;Eventos&lt;/h2&gt;
+&lt;p&gt;El evento más importante de una aplicación VanillaJs es &lt;code&gt;DOMContentLoaded&lt;/code&gt;, y se
+conecta así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    window.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;DOMContentLoaded&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; () {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Documento listo para usar.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;detectar-errores-en-javascript&#34;&gt;Detectar errores en JavaScript&lt;/h2&gt;
+&lt;p&gt;Para generar un reporte de posibles errores se puede ejecutar este comando:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;find ./js -name &amp;#34;*.js&amp;#34; -exec npx quick-lint-js &amp;#34;{}&amp;#34; \;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;o una versión mucho más rápida si se instala la herramienta globalmente:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install -g quick-ling-js
+find ./js -name &amp;#34;*.js&amp;#34; -exec quick-lint-js &amp;#34;{}&amp;#34; \;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;y el resultado en pantalla debería ser como este:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./js/main.js:21:1: warning: assignment to undeclared variable [E0059]
+./js/main.js:23:13: warning: use of undeclared variable: b [E0057]
+./js/components/drop.js:34:5: warning: use of undeclared variable: drop_zone
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Esta herramienta está buena porque solamente nos alertará los posibles bugs del
+programa. No va a generar mensajes por temas de estilo, nombres de métodos ni
+otras minucias.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>El camino de Valentín</title>
       <link>https://www.examplelab.com.ar/posts/2024-06-10-el-camino-de-valentin/</link>
@@ -6434,6 +6544,202 @@ sudo apt-get install nodejs nodejs-legacy curl
     </item>
     
     <item>
+      <title>_why: La historia de un genio post-moderno</title>
+      <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
+      <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
+      <description>&lt;div class=&#39;nota&#39;&gt;
+  &lt;p&gt;Esta es una traducción de un &lt;a href=&#34;http://www.smashingmagazine.com/2010/05/15/why-a-tale-of-a-post-modern-genius/&#34;&gt;artículo&lt;/a&gt; publicado por &lt;a href=&#34;http://www.smashingmagazine.com/&#34;&gt;Smash Magazine&lt;/a&gt; en el 2010.&lt;/p&gt;
+  &lt;p&gt;Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. &lt;/p&gt;
+  &lt;p&gt;¡Que la disfruten!&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso  mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.&lt;/p&gt;
+&lt;p&gt;La popularidad de _Why creció junto con la popopularidad del lenguaje de programación Ruby. Cuando el éxito del framework Rails se disparó en el año 2005, un numeroso grupo de jóvenes desarrolladores empezaron a querer aprender más sobre Ruby, y ahí fue cuando la mayoría de ellos se encontró con &lt;a href=&#34;http://mislav.uniqpath.com/poignant-guide/&#34;&gt;La conmovedora guía para Ruby de Why&lt;/a&gt;, una guia Creative Commons que contenía todas las características de su autor: una mente artística e inquieta con una visión muy diferente acerca de la programación.&lt;/p&gt;
+&lt;p&gt;Incluso aquellos que no llegaron a leer la Guía de _Why, no podrían programar en Ruby sin un toque de la brillantez de _Why. Para ese entonces él había creado varias bibliotecas que eran partes funtamentales de las tareas cotidianas de programación en ruby, como por ejemplo Hpricot, un parser HTML con una API que de algúna manera se parece al estílo de manipulación de DOM de jquery.&lt;/p&gt;
+&lt;p&gt;Tal vez hayan notado que nos referimos a _Why en pasado. Así que la pregunta es, ¿desapareció?  Si. Por lo mucho que vale para nosotros, solamente tenemos su presencia online: &amp;ldquo;Why the lucky stiff&amp;rdquo;. Nadie supo su nombre real o cual es su trabajo, ni siquiera de dónde vino. En agosto del 2009, cerró casi todas sus cuentas online y sitios web, incluyendo sus repositorios de software, con todo el código que cientos de programadores esperaban usar como dependecias.&lt;/p&gt;
+&lt;p&gt;Su desaparición ha dejado una horda de códigos huérfanos. Y mientras que nadie sabe bien por qué hizo lo que hizo, hay teorías sólidas, las más fuertes son que su identidad real se descubrió, por muy raro que suene.&lt;/p&gt;
+&lt;p&gt;Este artículo cuenta las historias de este artista post-moderno, que la gente llegó a conocer como &lt;em&gt;Why the Lucky Stiff&lt;/em&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“¿No es loco? … uno hace algunos dibujos en su casa o graba un poco de música en el sótano y de repente sos famoso en todo el mundo.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;_Why, en conversación con Geoffrey Grosenbach&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;profesor-freelance-sin-previo-aviso&#34;&gt;Profesor freelance (sin previo aviso)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/the_foxes_4b.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(Decí algo en vos alta! Tal ves el lo use como un ejemplo! -¿Cómo qué? ¿Cómo “chunky bacon”?)&lt;/p&gt;
+&lt;p&gt;En su blog, _Why se describe como un “profesor freelance”, aun cuando el nunca tomó trabajos para enseñar, ya sean freelance o cualquier otros. El dió esta descripción de su actividad en una presentación del evento &amp;ldquo;Art &amp;amp;&amp;amp; Code&amp;rdquo;. Dijo que el enseña “solamente en citas no planeadas”. Como él explica, significa que enseña arbitrariamente a chicos y adolescentes en cualquier espacio, cuandoquiera que la oportunidad se presente. El cuenta la historia de un día normal, mientras iba al trabajo en un tren y trabajando en un código: un grupo de chicos que jugaba cerca miraba lo que el hacía. Estaban intrigados cuando descubrieron que hacía una especie de “hackeo”. El les mostró lo que estaba haciendo (un juego simple), y ellos empezaron a jugar con el código, esa fue su primera clase.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/baby.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(Televisión en vivo en el año 2012: “Gracias a la guía de Why &amp;hellip; incluso los bebés pueden aprender Ruby! Es así de simple! &amp;hellip;  &lt;code&gt;class&amp;lt;&amp;lt;self!!”&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;A pesar de lo esotérica que parezca su técnica de aprendizaje, está respaldada por argumentos fuertes y significativos. Estos argumentos los explaya en su ensayo &amp;ldquo;&lt;a href=&#34;http://www.advogato.org/article/671.html&#34;&gt;The Little coder’s predicament&lt;/a&gt;&amp;rdquo; y más tarde en el “&lt;a href=&#34;https://github.com/hacketyhack/hacketyhack/wiki/The-Hackety-Manifesto&#34;&gt;Manifiesto de Hackety Hack&lt;/a&gt;”. La idea general de estos ensayos es que en los días primitivos de las computadoras, máquinas como el Commodore 64 eran fácilmente programables; un niño podía jugar con ella, generar sonidos mediante códigos y crear juegos simples. Pero en la actualidad, las computadoras son increíblemente más poderosas y proporcionalmente menos &amp;ldquo;hackeables&amp;rdquo;. Esta “hackeabilidad” que _Why identifica, y el proceso de descubrir como “controlar una computadora”, es el momento en el que nacen muchos programadores brillantes. Como por ejemplo, es exactamente así como Linus Torvalds, creador de Linux, empezó a programar.&lt;/p&gt;
+&lt;p&gt;“Hackety Hack” es un manifiesto no solo en palabras sino también en código. Es un software que funciona en Windows/Mac y sirve como una plataforma donde los chicos pueden escribir programas muy fácilmente. Hace posible crear un blog en 6 lineas de código, o tu propio cliente de mensajería en otras pocas líneas.&lt;/p&gt;
+&lt;p&gt;Aquí hay un video de la presentación de _why en el evento Art &amp;amp;&amp;amp; Code, donde habla acerca de la escencia de la programación y su motivación por Hackety Hack. Asegúrate de no perderte la parte donde presenta su juego de cartas, Kaxxt, y explica la naturaleza de programar.&lt;/p&gt;
+&lt;iframe src=&#34;//player.vimeo.com/video/5047563&#34; width=&#34;500&#34; height=&#34;275&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&#34;http://vimeo.com/5047563&#34;&gt;ART &amp;&amp; CODE Symposium: Hackety Hack, why the lucky stiff&lt;/a&gt; from &lt;a href=&#34;http://vimeo.com/sfci&#34;&gt;STUDIO for Creative Inquiry&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Un dia _Why apareció inesperadamente en mi casa para una comida. Le ofrecí llevarlo a su hotel o casa con mi auto, pero el insistió en tomar el autobús y encontrar su propia manera de llegar.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Geoffrey Grosenbach&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;la-conmovedora-guía-de-why-para-ruby&#34;&gt;(La conmovedora) Guía de Why para Ruby.&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/2007_cover_shut.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Además de enseñar sin previo aviso, _Why ha sido famoso por su tutorial de introducción al lenguaje de programación Ruby, llamado “La guía (conmovedora) de _Why para Ruby”. La guía conmovedora es completamente diferente a lo que uno esperaría de un libro dedicado a un lenguaje de programación. Es en parte una guía técnica, pero en mayor medida es una novela de humor subconsciente, llena de dibujos animados, que te enseñan a escribir programas en Ruby. La guía está licenciada bajo la Creative Commons y se puede ver a través de HTML o descargar como PDF.&lt;/p&gt;
+&lt;p&gt;No solamente se convirtió en un hit de culto en la comunidad Ruby, sino que también tuvo impacto en muchos programadores alrededor del mundo. Lo que es aún más poderoso, &amp;ldquo;the poignant guide&amp;rdquo; ayudo a formar la cultura de muchas personas que eran nuevas en programación. Su inspiración puede ser vista en proyectos como “&lt;a href=&#34;http://learnyouahaskell.com&#34;&gt;Learn you a Haskell for great good&lt;/a&gt;” y en programadores como Ryan Dahl (creador de NODE.JS). Sus cómic y su arte también dejaron su marca en la gente.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/leahculvertattoo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;_Why escribió un segundo libro, una guía tutorial, tipo referencia rápida para su proyecto “Shoes”. Shoes es una herramienta para construir interfaces de usuario gráficas (GUI) que puede ser usada para crear aplicaciones de escritorio de manera sencilla, con la sintaxis de Ruby. El libro se llama “Nobody Knows Shoes” (nadie sabe sobre Shoes) y es otra obra maestra. Concebido impreso y en PDF, el diseño de la editorial de  NKS (Nobody Knows Shoes) es todo un logro: consistente (aunque raramente organizado), y legible (a pesar de ser caótico). El libro empieza con un montaje de una figura moviéndose “alrededor” del libro mientras que otro personaje clama: “Midas, no deberías caminar hacía allá!! […]NooooOOO, estás a punto de chocarte con un libro sobre nerds y  computacióóón …” La última página del libro dice, “Midas conoce Shoes”. Esta es sólo una de las casi sencillas bromas que son tan comunes de él.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/shoes.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;“El maravilloso regalo de Shoes”: (10 primeros puntos escenciales):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;PARA&amp;rdquo; pronunciado como Anna Apera.&lt;/li&gt;
+&lt;li&gt;y 3. Son stacks &amp;amp; flows (muy muy importante)&lt;/li&gt;
+&lt;li&gt;BOTÓN&lt;/li&gt;
+&lt;li&gt;Imágen (totalmente fácil)&lt;/li&gt;
+&lt;li&gt;Editar-Linea (puede hablar sobre cajas editables brevemente)&lt;/li&gt;
+&lt;li&gt;LINK (igualito al de la página web web web)&lt;/li&gt;
+&lt;li&gt;Ocho es papel tapiz;&lt;/li&gt;
+&lt;li&gt;Shoes.url; y finalmente&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Clear o borrar (incluye una discusión sobre añadir, pre-añadir, etc.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Aprecio sus elogios, pero me cuesta creer que le guste mi arte a alguien.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Definitivamente voy a morir sin ser reconocido,  y sólo unos pocos verán el trabajo que hago. Pero me gusta mucho que sea así !!! Una de las peores cosas que una persona puede tener en la vida es reconocimiento. Pero una palmada en la cabeza es muy, muy malo también. He tenido algunas palmadas en la cabeza, y también he vomitado sangre algunas veces en el camino.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Why the Lucky Stiff&lt;/cite&gt;, en respuesta a un email de Fábio Akita&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;blogging&#34;&gt;Blogging&lt;/h3&gt;
+&lt;p&gt;_why mantenía varios blogs. En su página principal &amp;ldquo;whytheluckystiff.net&amp;rdquo; almacenaba sus pensamientos, caricaturas, poemas y otras historias. Las categorías del blog eran “historias” “comics” “incidentes” “cuartetos” “hackeo” y “juegos de cinco minutos para gemelos que no tienen su otro gemelo con ellos y una ilimitada colección de animales”. Era también donde el guardaba links hacia todas sus otras creaciones, como libros y blogs.&lt;/p&gt;
+&lt;p&gt;Cuando Ruby era todavía virtualmente desconocido fuera de Japón, _why creó un blog llamado RedHanded, en el cual difundía el lenguaje, discutía sus cualidades y consolidaba la comunidad. El sitio web fue cerrado después de que Ruby creciera y particularmente después del boom del material para la orientación en Ruby, lanzado en los Estados Unidos.&lt;/p&gt;
+&lt;p&gt;El blog servía a su propósito muy bien. Se podían encontrar entrevistas y comentarios de gente que más tarde se convertiría en celebridades de la web, como David Heinemeir Hansson, creador del framework Ruby on Rails y fundador de 37 signals. David fue el blanco de varias bromas de _Why a lo largo del camino.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/hackety_org_header.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hackety.org era el blog en el cual _Why hablaba sobre temas de programación en el contexto de su manifiesto del Hacker.  Allí, demostró su increíble conocimiento de código y hackeo, creando motores de juegos simples o bibliotecas procesadoras de imágenes y sonidos. También es una lectura para disfrutar de la programación por geeks y amantes del arte &lt;em&gt;underground&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Otro blog relativamente desconocido de _Why era de imágenes únicamente, que contenía preciosos scraps de galerías complicadas de encontrar. El blog pobremente podía ser definido, a pesar de que las palabras “eerie” ; “surreal” y “kitsch” aparecían frecuentemente. Se llamaba “&lt;a href=&#34;http://web.archive.org/web/*/whytheluckystiff.net/quiet/&#34;&gt;what a quiet stiff&lt;/a&gt;”.&lt;/p&gt;
+&lt;p&gt;_Why fue el que acuñó el término “Tumblelog”, refiriéndose al blog &lt;a href=&#34;http://anarchaia.org/&#34;&gt;Anarchaia&lt;/a&gt; por &lt;a href=&#34;http://chneukirchen.org/&#34;&gt;Christian Neukirchen&lt;/a&gt;. En su blog RedHanded, el declaró, “Blogguear ha mutado en formas más simples (especialmente en variantes como link –y mob- y aud-y video), pero no creo que jamás haya visto un blog como el de Chris Neukirchen, Anarchia, en donde se funden un puñado de formas dispares de citación (links, citas, flickrings) en un largo, estrecho y distraído tumblelog.&lt;/p&gt;
+&lt;h4 id=&#34;música&#34;&gt;Música&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/poignantguide_soundtrack.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El soundtrack de la guía (conmovedora) de why para ruby (Hecho sin esfuerzos por The Thirsty Cups)&lt;/p&gt;
+&lt;p&gt;Además de escribir el libro, crear las caricaturas y hacer el sitio web para la Guía Conmovedora, _Why creó con sus manos &amp;ldquo;The Thirsty Cups&amp;rdquo; (las copas sedientas), un soundtrack donde cada canción acompaña a un  capítulo de la Guía. Innecesario sería decir que el estilo de la música es ampliamente imaginativo, divertido e impredecible.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pocas personas saben que el realizó un álbum para que acompañe la Guía Conmovedora de Why para Ruby. Una de mis canciones favoritas del álbum es la del segundo capítulo: “&lt;a href=&#34;http://web.archive.org/web/20070703051421/http://poignantguide.net/sdtrk/chap%202%20-%20this%20book%20is%20made%20(of%20rabbits%20and%20lemonade).mp3&#34;&gt;Este libro está hecho (de conejos y Limonada).&lt;/a&gt;”( “This Book Is Made (of Rabbits and Lemonade).”)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nada capta el ethos artístico de _Why mejor que ésta canción.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;John Resig en ejohn.org&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Siendo un gran fanático de la música, _Why creó una biblioteca muy interesante de Ruby para generar música de 8 bits. Se llama bloopsaphone, y como ejemplo uno puede tocar el tema de Los Simpsons con este pequeño código:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;require ‘rubygems’
+require ‘bloops’
+
+b = Bloops.new
+b.tempo = 180
+sound = b.sound Bloops::SQUARE
+sound.volume = 0.4
+sound.sustain = 0.3
+sound.attack = 0.1
+sound.decay = 0.3
+b.tune sound, “32 + C E F# 8:A G E C – 8:A 8:F# 8:F# 8:F# 2:G”
+b.play
+sleep 1 while !b.stopped?
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;Mi primera experiencia viendo a _Why en persona fue en el año 2005 en FOSCON en Portland, Oregon. Fue en una reunión abierta de Rubystas en una tarde, durante el transcurso de la conferencia de OSCON.
+Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGeek, un lugar perfecto. Uno camina entre estántes llenos de equipos viejos de computación y partes listas para ser reconstruídas y donadas a personas. _Why y su banda, un trío, se subieron al escenario y tocaron un repertorio de canciones originales con letras humorísticas sobre Ruby. Durante ello, su laptop se quedó sin batería, y le trajeron un cargador de batería del taller de reciclado.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Como es de esperarse de un no-conformista con la Rubycomunidad, el tenía una laptop con Linux, mientras que la mayoría tenía su sistema Apple. Mientras el conectaba el cargador, las luces disminuyeron y la laptop resaltó con brillantéz. Nosotros estábamos seguros de que iba a prenderse en llamas, pero sobrevivió.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Como también hizo en muchos otros conciertos, el no estaba ahí solamente para cantarle a la audiencia. Escribió un servidor al que la audiencia podía conectarse con su intérprete de Ruby (Drb en realidad) y cambiar los colores que aparecían en la pantalla del escenario. Captó varias risotadas mientras que chisporroteaba de vida.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Todavía recuerdo ese evento como uno de los más importantes de cualquier Conferencia de Ruby en la que haya estado.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Geoffrey Grosenbach&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;no-con-un-bang&#34;&gt;No con un “Bang”…&lt;/h4&gt;
+&lt;p&gt;Why the lucky stiff desapareció en Agosto del 2009. Casi todas sus cuentas de Internet fueron cerradas, todos sus sitios web se desactivaron, incluso los códigos que el lanzó como open-source fueron eliminados. El motivo real de su desaparición es y será por siempre un misterio, pero la mejor pista es que su identidad podría haber sido finalmente descubierta.&lt;/p&gt;
+&lt;p&gt;La gente ha juntado suficiente evidencia para estar seguros sobre su verdadero nombre y ocupación. Se encontraron nuevos contenidos en Internet y nuevas bandas de música. Todos los detalles personales que el trató de conservar como privados, se volvieron públicos: el nombre de su esposa, el nombre de su hermana. Y con esto, el desapareció.&lt;/p&gt;
+&lt;p&gt;La gente respondió de diferentes maneras. Algunos lo entendieron, otros lo desaprobaron.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ver la eliminación completa de su persona online no me sorprende terriblmente. Allá en el 2007, _Why cerró su blog más importante (RedHanded). Ese evento si me shockeó de verdad, pero me ayudó a entenderlo mejor como persona. El blog, aunque el haya puesto años de trabajo en el y la gente lo identificara con el fuertemente, era inmaterial. Ya no se sentía como el lugar correcto para hablar, así que el se mudó a otro lugar, abandonando el viejo sitio.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;John Resig, creador de jQuery&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sacar todos tus códigos de la red y borrar enteramente tu persona sin algúna advertencia o ayudando a la gente a tomar proyectos en los que pasaron años invirtiendo es una acción bastante estúpida. Es algo duro decirlo así, pero me siento muy violentado sobre esto, porque mientras que yo respeto la idea de impermanencia, no tengo respeto por alguien que tiene tan poco agradecimiento hacia las inversiones y sentimientos de otras personas.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Zed Shaw, creador del servidor Mongrel Web server&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A pesar de las diferentes repercusiones de su decisión al borrar su prescencia y su trabajo, todos los que conocieron a _Why comparten la tristeza por su ausencia.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why the Lucky stiff era una parte importante en la comunidad Ruby. El ayudó a darnos ese inusual carácter y sentido de la imaginación y diversión. Estoy muy triste de ver irse a _Why. Estoy seguro que ha tenido sus razones, pero aún así es una gran pérdida.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;David Heinemeier Hansson&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Su suicidio virtual, como la muerte auto-inducida de un amigo o de un ser amado, deja un indescriptible agujero dentro mío. No me gusta, no estaba listo para ello, y no me parece justo que el lo haya hecho. Sin embargo, como un personaje real de un comic, aún muerto el continuará siendo mi musa para crear cosas divertidas que existen solamente para ser brillantes e interesantes. Larga vida al coding por diversión. Gracias _Why&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Dr. Nic&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para _Why: Gracias por traernos tu código y arte a través de estos años. Ha sido ampliamente apreciado, mucho mas de lo que imaginas. Por favor continua disfrutando tu vida y brindando tu alegría y extravagancia. A otros alrededor del mundo.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;John Resig&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Desafortunadamente, el decidió irse, y no hay explicación oficial para ello. El sólo se fue. Después de todo lo que hizo, pienso que nadie puede demandar nada de el :-) Pero lo extrañaremos porque el fue un programador excepcional.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Fábio Akita&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;lo-que-podemos-aprender-de-_why&#34;&gt;Lo que podemos aprender de _why&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/why.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Why the Lucky Stiff era por sobre todas las cosas un artista que trató de hacer una obra de arte con cualquier cosa que el hacía, tanto una presentación como un programa escrito en C. El inspira a las personas porque planeó todo lo que hizo con una estética propia de su pensamiento.&lt;/p&gt;
+&lt;h4 id=&#34;diversión&#34;&gt;Diversión&lt;/h4&gt;
+&lt;p&gt;La lección más importante que la gente dice haber aprendido del lenguaje de programación Ruby es una lección que el código de _Why incorpora en el corazón de su código: Programar (o lo que sea que hagas) debería ser divertido. Debe haber alegría en tu oficio, y hay un valor preciado en mejorar y juguetear con ello.&lt;/p&gt;
+&lt;h4 id=&#34;pathos&#34;&gt;Pathos&lt;/h4&gt;
+&lt;p&gt;Pathos es “el poder de evocar sentimientos”. Es también uno de los tres modos de persuasión en retórica. Si lo que haces no evoca sentimientos en las personas, entonces seguramente esté muerto. El trabajo de _Why ciertamente no conformaba a todos, pero la gente no podía, y todavía no puede, ser indiferente a ello.&lt;/p&gt;
+&lt;h4 id=&#34;no-temas-correr-riesgos&#34;&gt;No temas correr riesgos&lt;/h4&gt;
+&lt;p&gt;Aquí es donde _Why se pone controversial. Contrario a lo que la mayoría de los desarrolladores creen y respaldan, el estilo de programación de _Why no era limpio, legible o testeado. Todo lo opuesto. Esto le daría escalofrios a la mayoría de los programadores de metodologías ágiles, pero _Why tenía un argumento, y esta carta que escribió en el 2005 lo explica claramente.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yo no escribo test para mis códigos. No escribo muchos comentarios. Cambio de estilos muy frecuentemente. Y a la mayoría de ellos, les doy la espalda a la forma predominante de “coding”, porque eso iría en contra de la esencia misma de experimentación. Acortado: todo lo que hago es no darle importancia.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Entonces, mi manera de medir un gran programador es diferente de algún pensamiento predominante en el tema. Me gustaría escuchar lo que Matz diría sobre esto. Debería preguntárselo, en serio.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Admiro a los programadores que toman riesgos. Ellos no están asustados de escribir códigos peligrosos o “malísimos”. Si te preocupas demasiado sobre ser limpio y prolijo, no puedes derribar las barreras (no lo creo!). También admiro a programadores que se rehúsan a quedarse con una idea sobre “la manera en que es el mundo”. Estos programadores ignoran el protocolo y procedimiento. Me gusta mucho Autrijus Tang porque el toma todos los idiomas y todos los procedimientos. No hay una manera incorrecta en su mundo.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Como sea, uno dice que quiere ser mejor. Es decir, es todo lo que se necesita. Uno se siente conducido, se comprométe con ello. Podría escribir scripts cortos para compartir con la gente en la web. Pequeños scripts de Ruby, de programas en Rails o &lt;a href=&#34;http://viewsourcecode.org/why/redhanded/inspect/hereIsMousehole12.html&#34;&gt;MouseHole&lt;/a&gt;, scripts para mostrar. Veinte líneas acá y allá, y pronto la gente está empujándote y estás compitiendo por construir esos scripts y pensar tu estilo, nuevas innovaciones y esas cosas.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;_why&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;_Why está defendiendo aquí una idea que ha sido evocada por diferentes personas en diferentes modos. El punto no trata sobre si hay que escribir “tests” o no. El punto es, no tengas miedo de correr riesgos. Si estás familiarizado con el trabajo de &lt;a href=&#34;http://99u.com/articles/6249/seth-godin-the-truth-about-shipping&#34;&gt;Seth Godin&lt;/a&gt;, reconocerás que _Why se trata sobre todo de “mostrar”. El solo crea cosas y las pone allí afuera en lo salvaje, sin temer lo que la gente pensará, ni si su código es visto cómo “malísimo” o “poco profesional”.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/Quote_by_Why_The_Lucky_Stiff__when_you_don_t_create_things__you_become_define____2014_01_21_14_39_21.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cuando no creas cosas, te conviertes en algo definido por tus gustos más que por tu habilidad. Tus gustos sólo alejan y excluyen a las personas, así que creá.&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Why the Lucky Stiff&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
       <title>FMSL 2013</title>
       <link>https://www.examplelab.com.ar/posts/2014-01-19-misol-2013/</link>
       <pubDate>Sun, 19 Jan 2014 21:52:52 +0000</pubDate>
@@ -6550,6 +6856,50 @@ sudo apt-get install nodejs nodejs-legacy curl
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions&#34;&gt;Mozilla: Using CSS transitions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://mir.aculo.us/2013/10/10/how-to-create-a-web-app-that-looks-like-a-ios-7-native-app-part-2-behavior/&#34;&gt;How to create a web app that looks like a iOS 7 native app - Part 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatizando lanzamientos en node-webkit</title>
+      <link>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
+      <pubDate>Thu, 26 Dec 2013 01:15:39 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
+      <description>&lt;p&gt;Existe una tarea para &lt;strong&gt;grunt&lt;/strong&gt; que nos permite  automatizar el empaquetado de nuestras aplicaciones para cada plataforma: &lt;a href=&#34;https://npmjs.org/package/grunt-node-webkit-builder&#34;&gt;grunt-node-webkit-builder&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
+&lt;p&gt;El primer paso es instalarnos la tarea para grunt:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install grunt-node-webkit-builder --save
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Luego tenemos que agregar algunas reglas a nuestro archivo &lt;strong&gt;GruntFile.js&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, mi archivo &lt;strong&gt;GruntFile.js&lt;/strong&gt; a la hora de comenzar un proyecto nuevo se ve así:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;module.exports = function (grunt) {
+    grunt.initConfig({
+      nodewebkit: {
+                    options: {
+                              build_dir: &amp;#39;./webkitbuilds&amp;#39;,
+                              mac: true,
+                              win: true,
+                              linux32: true,
+                              linux64: true
+                  },
+                  src: [
+                    &amp;#39;./app/**/*&amp;#39;,
+                    &amp;#39;./node_modules/**/*&amp;#39;,
+                  ]
+              },
+      });
+
+      grunt.loadNpmTasks(&amp;#39;grunt-node-webkit-builder&amp;#39;);
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Luego, para empaquetar la aplicación en todos los sistemas que definimos anteriormente tenemos que ejecutar el siguiente comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;grunt nodewebkit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La tarea &lt;code&gt;nodewebkit&lt;/code&gt; se encarga de bajar las versiones compiladas de nodewebkit justo para empaquetar. Esto demora un buen rato la primera vez, porque tiene que descargar unos &lt;code&gt;300 MB&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Dec/build.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Por último, el resultado del empaquetado va a estar dentro del directorio &amp;ldquo;releases&amp;rdquo;. Listo para distribuir:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Dec/resultado.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Y listo, ahora cada vez que quieras hacer un release, lo único que hay que ejecutar es el comando &lt;code&gt;grunt nodewebkit&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -9943,202 +10293,6 @@ and I never have to look it up again.”&lt;/p&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
-      <description>&lt;div class=&#39;nota&#39;&gt;
-  &lt;p&gt;Esta es una traducción de un &lt;a href=&#34;http://www.smashingmagazine.com/2010/05/15/why-a-tale-of-a-post-modern-genius/&#34;&gt;artículo&lt;/a&gt; publicado por &lt;a href=&#34;http://www.smashingmagazine.com/&#34;&gt;Smash Magazine&lt;/a&gt; en el 2010.&lt;/p&gt;
-  &lt;p&gt;Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. &lt;/p&gt;
-  &lt;p&gt;¡Que la disfruten!&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso  mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.&lt;/p&gt;
-&lt;p&gt;La popularidad de _Why creció junto con la popopularidad del lenguaje de programación Ruby. Cuando el éxito del framework Rails se disparó en el año 2005, un numeroso grupo de jóvenes desarrolladores empezaron a querer aprender más sobre Ruby, y ahí fue cuando la mayoría de ellos se encontró con &lt;a href=&#34;http://mislav.uniqpath.com/poignant-guide/&#34;&gt;La conmovedora guía para Ruby de Why&lt;/a&gt;, una guia Creative Commons que contenía todas las características de su autor: una mente artística e inquieta con una visión muy diferente acerca de la programación.&lt;/p&gt;
-&lt;p&gt;Incluso aquellos que no llegaron a leer la Guía de _Why, no podrían programar en Ruby sin un toque de la brillantez de _Why. Para ese entonces él había creado varias bibliotecas que eran partes funtamentales de las tareas cotidianas de programación en ruby, como por ejemplo Hpricot, un parser HTML con una API que de algúna manera se parece al estílo de manipulación de DOM de jquery.&lt;/p&gt;
-&lt;p&gt;Tal vez hayan notado que nos referimos a _Why en pasado. Así que la pregunta es, ¿desapareció?  Si. Por lo mucho que vale para nosotros, solamente tenemos su presencia online: &amp;ldquo;Why the lucky stiff&amp;rdquo;. Nadie supo su nombre real o cual es su trabajo, ni siquiera de dónde vino. En agosto del 2009, cerró casi todas sus cuentas online y sitios web, incluyendo sus repositorios de software, con todo el código que cientos de programadores esperaban usar como dependecias.&lt;/p&gt;
-&lt;p&gt;Su desaparición ha dejado una horda de códigos huérfanos. Y mientras que nadie sabe bien por qué hizo lo que hizo, hay teorías sólidas, las más fuertes son que su identidad real se descubrió, por muy raro que suene.&lt;/p&gt;
-&lt;p&gt;Este artículo cuenta las historias de este artista post-moderno, que la gente llegó a conocer como &lt;em&gt;Why the Lucky Stiff&lt;/em&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“¿No es loco? … uno hace algunos dibujos en su casa o graba un poco de música en el sótano y de repente sos famoso en todo el mundo.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;_Why, en conversación con Geoffrey Grosenbach&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;profesor-freelance-sin-previo-aviso&#34;&gt;Profesor freelance (sin previo aviso)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/the_foxes_4b.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;(Decí algo en vos alta! Tal ves el lo use como un ejemplo! -¿Cómo qué? ¿Cómo “chunky bacon”?)&lt;/p&gt;
-&lt;p&gt;En su blog, _Why se describe como un “profesor freelance”, aun cuando el nunca tomó trabajos para enseñar, ya sean freelance o cualquier otros. El dió esta descripción de su actividad en una presentación del evento &amp;ldquo;Art &amp;amp;&amp;amp; Code&amp;rdquo;. Dijo que el enseña “solamente en citas no planeadas”. Como él explica, significa que enseña arbitrariamente a chicos y adolescentes en cualquier espacio, cuandoquiera que la oportunidad se presente. El cuenta la historia de un día normal, mientras iba al trabajo en un tren y trabajando en un código: un grupo de chicos que jugaba cerca miraba lo que el hacía. Estaban intrigados cuando descubrieron que hacía una especie de “hackeo”. El les mostró lo que estaba haciendo (un juego simple), y ellos empezaron a jugar con el código, esa fue su primera clase.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/baby.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;(Televisión en vivo en el año 2012: “Gracias a la guía de Why &amp;hellip; incluso los bebés pueden aprender Ruby! Es así de simple! &amp;hellip;  &lt;code&gt;class&amp;lt;&amp;lt;self!!”&lt;/code&gt;)&lt;/p&gt;
-&lt;p&gt;A pesar de lo esotérica que parezca su técnica de aprendizaje, está respaldada por argumentos fuertes y significativos. Estos argumentos los explaya en su ensayo &amp;ldquo;&lt;a href=&#34;http://www.advogato.org/article/671.html&#34;&gt;The Little coder’s predicament&lt;/a&gt;&amp;rdquo; y más tarde en el “&lt;a href=&#34;https://github.com/hacketyhack/hacketyhack/wiki/The-Hackety-Manifesto&#34;&gt;Manifiesto de Hackety Hack&lt;/a&gt;”. La idea general de estos ensayos es que en los días primitivos de las computadoras, máquinas como el Commodore 64 eran fácilmente programables; un niño podía jugar con ella, generar sonidos mediante códigos y crear juegos simples. Pero en la actualidad, las computadoras son increíblemente más poderosas y proporcionalmente menos &amp;ldquo;hackeables&amp;rdquo;. Esta “hackeabilidad” que _Why identifica, y el proceso de descubrir como “controlar una computadora”, es el momento en el que nacen muchos programadores brillantes. Como por ejemplo, es exactamente así como Linus Torvalds, creador de Linux, empezó a programar.&lt;/p&gt;
-&lt;p&gt;“Hackety Hack” es un manifiesto no solo en palabras sino también en código. Es un software que funciona en Windows/Mac y sirve como una plataforma donde los chicos pueden escribir programas muy fácilmente. Hace posible crear un blog en 6 lineas de código, o tu propio cliente de mensajería en otras pocas líneas.&lt;/p&gt;
-&lt;p&gt;Aquí hay un video de la presentación de _why en el evento Art &amp;amp;&amp;amp; Code, donde habla acerca de la escencia de la programación y su motivación por Hackety Hack. Asegúrate de no perderte la parte donde presenta su juego de cartas, Kaxxt, y explica la naturaleza de programar.&lt;/p&gt;
-&lt;iframe src=&#34;//player.vimeo.com/video/5047563&#34; width=&#34;500&#34; height=&#34;275&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&#34;http://vimeo.com/5047563&#34;&gt;ART &amp;&amp; CODE Symposium: Hackety Hack, why the lucky stiff&lt;/a&gt; from &lt;a href=&#34;http://vimeo.com/sfci&#34;&gt;STUDIO for Creative Inquiry&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Un dia _Why apareció inesperadamente en mi casa para una comida. Le ofrecí llevarlo a su hotel o casa con mi auto, pero el insistió en tomar el autobús y encontrar su propia manera de llegar.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;Geoffrey Grosenbach&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;la-conmovedora-guía-de-why-para-ruby&#34;&gt;(La conmovedora) Guía de Why para Ruby.&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/2007_cover_shut.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Además de enseñar sin previo aviso, _Why ha sido famoso por su tutorial de introducción al lenguaje de programación Ruby, llamado “La guía (conmovedora) de _Why para Ruby”. La guía conmovedora es completamente diferente a lo que uno esperaría de un libro dedicado a un lenguaje de programación. Es en parte una guía técnica, pero en mayor medida es una novela de humor subconsciente, llena de dibujos animados, que te enseñan a escribir programas en Ruby. La guía está licenciada bajo la Creative Commons y se puede ver a través de HTML o descargar como PDF.&lt;/p&gt;
-&lt;p&gt;No solamente se convirtió en un hit de culto en la comunidad Ruby, sino que también tuvo impacto en muchos programadores alrededor del mundo. Lo que es aún más poderoso, &amp;ldquo;the poignant guide&amp;rdquo; ayudo a formar la cultura de muchas personas que eran nuevas en programación. Su inspiración puede ser vista en proyectos como “&lt;a href=&#34;http://learnyouahaskell.com&#34;&gt;Learn you a Haskell for great good&lt;/a&gt;” y en programadores como Ryan Dahl (creador de NODE.JS). Sus cómic y su arte también dejaron su marca en la gente.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/leahculvertattoo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;_Why escribió un segundo libro, una guía tutorial, tipo referencia rápida para su proyecto “Shoes”. Shoes es una herramienta para construir interfaces de usuario gráficas (GUI) que puede ser usada para crear aplicaciones de escritorio de manera sencilla, con la sintaxis de Ruby. El libro se llama “Nobody Knows Shoes” (nadie sabe sobre Shoes) y es otra obra maestra. Concebido impreso y en PDF, el diseño de la editorial de  NKS (Nobody Knows Shoes) es todo un logro: consistente (aunque raramente organizado), y legible (a pesar de ser caótico). El libro empieza con un montaje de una figura moviéndose “alrededor” del libro mientras que otro personaje clama: “Midas, no deberías caminar hacía allá!! […]NooooOOO, estás a punto de chocarte con un libro sobre nerds y  computacióóón …” La última página del libro dice, “Midas conoce Shoes”. Esta es sólo una de las casi sencillas bromas que son tan comunes de él.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/shoes.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;“El maravilloso regalo de Shoes”: (10 primeros puntos escenciales):&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;ldquo;PARA&amp;rdquo; pronunciado como Anna Apera.&lt;/li&gt;
-&lt;li&gt;y 3. Son stacks &amp;amp; flows (muy muy importante)&lt;/li&gt;
-&lt;li&gt;BOTÓN&lt;/li&gt;
-&lt;li&gt;Imágen (totalmente fácil)&lt;/li&gt;
-&lt;li&gt;Editar-Linea (puede hablar sobre cajas editables brevemente)&lt;/li&gt;
-&lt;li&gt;LINK (igualito al de la página web web web)&lt;/li&gt;
-&lt;li&gt;Ocho es papel tapiz;&lt;/li&gt;
-&lt;li&gt;Shoes.url; y finalmente&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Clear o borrar (incluye una discusión sobre añadir, pre-añadir, etc.)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Aprecio sus elogios, pero me cuesta creer que le guste mi arte a alguien.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Definitivamente voy a morir sin ser reconocido,  y sólo unos pocos verán el trabajo que hago. Pero me gusta mucho que sea así !!! Una de las peores cosas que una persona puede tener en la vida es reconocimiento. Pero una palmada en la cabeza es muy, muy malo también. He tenido algunas palmadas en la cabeza, y también he vomitado sangre algunas veces en el camino.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;Why the Lucky Stiff&lt;/cite&gt;, en respuesta a un email de Fábio Akita&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;blogging&#34;&gt;Blogging&lt;/h3&gt;
-&lt;p&gt;_why mantenía varios blogs. En su página principal &amp;ldquo;whytheluckystiff.net&amp;rdquo; almacenaba sus pensamientos, caricaturas, poemas y otras historias. Las categorías del blog eran “historias” “comics” “incidentes” “cuartetos” “hackeo” y “juegos de cinco minutos para gemelos que no tienen su otro gemelo con ellos y una ilimitada colección de animales”. Era también donde el guardaba links hacia todas sus otras creaciones, como libros y blogs.&lt;/p&gt;
-&lt;p&gt;Cuando Ruby era todavía virtualmente desconocido fuera de Japón, _why creó un blog llamado RedHanded, en el cual difundía el lenguaje, discutía sus cualidades y consolidaba la comunidad. El sitio web fue cerrado después de que Ruby creciera y particularmente después del boom del material para la orientación en Ruby, lanzado en los Estados Unidos.&lt;/p&gt;
-&lt;p&gt;El blog servía a su propósito muy bien. Se podían encontrar entrevistas y comentarios de gente que más tarde se convertiría en celebridades de la web, como David Heinemeir Hansson, creador del framework Ruby on Rails y fundador de 37 signals. David fue el blanco de varias bromas de _Why a lo largo del camino.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/hackety_org_header.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Hackety.org era el blog en el cual _Why hablaba sobre temas de programación en el contexto de su manifiesto del Hacker.  Allí, demostró su increíble conocimiento de código y hackeo, creando motores de juegos simples o bibliotecas procesadoras de imágenes y sonidos. También es una lectura para disfrutar de la programación por geeks y amantes del arte &lt;em&gt;underground&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Otro blog relativamente desconocido de _Why era de imágenes únicamente, que contenía preciosos scraps de galerías complicadas de encontrar. El blog pobremente podía ser definido, a pesar de que las palabras “eerie” ; “surreal” y “kitsch” aparecían frecuentemente. Se llamaba “&lt;a href=&#34;http://web.archive.org/web/*/whytheluckystiff.net/quiet/&#34;&gt;what a quiet stiff&lt;/a&gt;”.&lt;/p&gt;
-&lt;p&gt;_Why fue el que acuñó el término “Tumblelog”, refiriéndose al blog &lt;a href=&#34;http://anarchaia.org/&#34;&gt;Anarchaia&lt;/a&gt; por &lt;a href=&#34;http://chneukirchen.org/&#34;&gt;Christian Neukirchen&lt;/a&gt;. En su blog RedHanded, el declaró, “Blogguear ha mutado en formas más simples (especialmente en variantes como link –y mob- y aud-y video), pero no creo que jamás haya visto un blog como el de Chris Neukirchen, Anarchia, en donde se funden un puñado de formas dispares de citación (links, citas, flickrings) en un largo, estrecho y distraído tumblelog.&lt;/p&gt;
-&lt;h4 id=&#34;música&#34;&gt;Música&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/poignantguide_soundtrack.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;El soundtrack de la guía (conmovedora) de why para ruby (Hecho sin esfuerzos por The Thirsty Cups)&lt;/p&gt;
-&lt;p&gt;Además de escribir el libro, crear las caricaturas y hacer el sitio web para la Guía Conmovedora, _Why creó con sus manos &amp;ldquo;The Thirsty Cups&amp;rdquo; (las copas sedientas), un soundtrack donde cada canción acompaña a un  capítulo de la Guía. Innecesario sería decir que el estilo de la música es ampliamente imaginativo, divertido e impredecible.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Pocas personas saben que el realizó un álbum para que acompañe la Guía Conmovedora de Why para Ruby. Una de mis canciones favoritas del álbum es la del segundo capítulo: “&lt;a href=&#34;http://web.archive.org/web/20070703051421/http://poignantguide.net/sdtrk/chap%202%20-%20this%20book%20is%20made%20(of%20rabbits%20and%20lemonade).mp3&#34;&gt;Este libro está hecho (de conejos y Limonada).&lt;/a&gt;”( “This Book Is Made (of Rabbits and Lemonade).”)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Nada capta el ethos artístico de _Why mejor que ésta canción.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;John Resig en ejohn.org&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Siendo un gran fanático de la música, _Why creó una biblioteca muy interesante de Ruby para generar música de 8 bits. Se llama bloopsaphone, y como ejemplo uno puede tocar el tema de Los Simpsons con este pequeño código:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;require ‘rubygems’
-require ‘bloops’
-
-b = Bloops.new
-b.tempo = 180
-sound = b.sound Bloops::SQUARE
-sound.volume = 0.4
-sound.sustain = 0.3
-sound.attack = 0.1
-sound.decay = 0.3
-b.tune sound, “32 + C E F# 8:A G E C – 8:A 8:F# 8:F# 8:F# 2:G”
-b.play
-sleep 1 while !b.stopped?
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;Mi primera experiencia viendo a _Why en persona fue en el año 2005 en FOSCON en Portland, Oregon. Fue en una reunión abierta de Rubystas en una tarde, durante el transcurso de la conferencia de OSCON.
-Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGeek, un lugar perfecto. Uno camina entre estántes llenos de equipos viejos de computación y partes listas para ser reconstruídas y donadas a personas. _Why y su banda, un trío, se subieron al escenario y tocaron un repertorio de canciones originales con letras humorísticas sobre Ruby. Durante ello, su laptop se quedó sin batería, y le trajeron un cargador de batería del taller de reciclado.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Como es de esperarse de un no-conformista con la Rubycomunidad, el tenía una laptop con Linux, mientras que la mayoría tenía su sistema Apple. Mientras el conectaba el cargador, las luces disminuyeron y la laptop resaltó con brillantéz. Nosotros estábamos seguros de que iba a prenderse en llamas, pero sobrevivió.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Como también hizo en muchos otros conciertos, el no estaba ahí solamente para cantarle a la audiencia. Escribió un servidor al que la audiencia podía conectarse con su intérprete de Ruby (Drb en realidad) y cambiar los colores que aparecían en la pantalla del escenario. Captó varias risotadas mientras que chisporroteaba de vida.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Todavía recuerdo ese evento como uno de los más importantes de cualquier Conferencia de Ruby en la que haya estado.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;Geoffrey Grosenbach&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;no-con-un-bang&#34;&gt;No con un “Bang”…&lt;/h4&gt;
-&lt;p&gt;Why the lucky stiff desapareció en Agosto del 2009. Casi todas sus cuentas de Internet fueron cerradas, todos sus sitios web se desactivaron, incluso los códigos que el lanzó como open-source fueron eliminados. El motivo real de su desaparición es y será por siempre un misterio, pero la mejor pista es que su identidad podría haber sido finalmente descubierta.&lt;/p&gt;
-&lt;p&gt;La gente ha juntado suficiente evidencia para estar seguros sobre su verdadero nombre y ocupación. Se encontraron nuevos contenidos en Internet y nuevas bandas de música. Todos los detalles personales que el trató de conservar como privados, se volvieron públicos: el nombre de su esposa, el nombre de su hermana. Y con esto, el desapareció.&lt;/p&gt;
-&lt;p&gt;La gente respondió de diferentes maneras. Algunos lo entendieron, otros lo desaprobaron.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Ver la eliminación completa de su persona online no me sorprende terriblmente. Allá en el 2007, _Why cerró su blog más importante (RedHanded). Ese evento si me shockeó de verdad, pero me ayudó a entenderlo mejor como persona. El blog, aunque el haya puesto años de trabajo en el y la gente lo identificara con el fuertemente, era inmaterial. Ya no se sentía como el lugar correcto para hablar, así que el se mudó a otro lugar, abandonando el viejo sitio.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;John Resig, creador de jQuery&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Sacar todos tus códigos de la red y borrar enteramente tu persona sin algúna advertencia o ayudando a la gente a tomar proyectos en los que pasaron años invirtiendo es una acción bastante estúpida. Es algo duro decirlo así, pero me siento muy violentado sobre esto, porque mientras que yo respeto la idea de impermanencia, no tengo respeto por alguien que tiene tan poco agradecimiento hacia las inversiones y sentimientos de otras personas.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;Zed Shaw, creador del servidor Mongrel Web server&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A pesar de las diferentes repercusiones de su decisión al borrar su prescencia y su trabajo, todos los que conocieron a _Why comparten la tristeza por su ausencia.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Why the Lucky stiff era una parte importante en la comunidad Ruby. El ayudó a darnos ese inusual carácter y sentido de la imaginación y diversión. Estoy muy triste de ver irse a _Why. Estoy seguro que ha tenido sus razones, pero aún así es una gran pérdida.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;David Heinemeier Hansson&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Su suicidio virtual, como la muerte auto-inducida de un amigo o de un ser amado, deja un indescriptible agujero dentro mío. No me gusta, no estaba listo para ello, y no me parece justo que el lo haya hecho. Sin embargo, como un personaje real de un comic, aún muerto el continuará siendo mi musa para crear cosas divertidas que existen solamente para ser brillantes e interesantes. Larga vida al coding por diversión. Gracias _Why&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;Dr. Nic&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Para _Why: Gracias por traernos tu código y arte a través de estos años. Ha sido ampliamente apreciado, mucho mas de lo que imaginas. Por favor continua disfrutando tu vida y brindando tu alegría y extravagancia. A otros alrededor del mundo.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;John Resig&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Desafortunadamente, el decidió irse, y no hay explicación oficial para ello. El sólo se fue. Después de todo lo que hizo, pienso que nadie puede demandar nada de el :-) Pero lo extrañaremos porque el fue un programador excepcional.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;Fábio Akita&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;lo-que-podemos-aprender-de-_why&#34;&gt;Lo que podemos aprender de _why&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/why.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Why the Lucky Stiff era por sobre todas las cosas un artista que trató de hacer una obra de arte con cualquier cosa que el hacía, tanto una presentación como un programa escrito en C. El inspira a las personas porque planeó todo lo que hizo con una estética propia de su pensamiento.&lt;/p&gt;
-&lt;h4 id=&#34;diversión&#34;&gt;Diversión&lt;/h4&gt;
-&lt;p&gt;La lección más importante que la gente dice haber aprendido del lenguaje de programación Ruby es una lección que el código de _Why incorpora en el corazón de su código: Programar (o lo que sea que hagas) debería ser divertido. Debe haber alegría en tu oficio, y hay un valor preciado en mejorar y juguetear con ello.&lt;/p&gt;
-&lt;h4 id=&#34;pathos&#34;&gt;Pathos&lt;/h4&gt;
-&lt;p&gt;Pathos es “el poder de evocar sentimientos”. Es también uno de los tres modos de persuasión en retórica. Si lo que haces no evoca sentimientos en las personas, entonces seguramente esté muerto. El trabajo de _Why ciertamente no conformaba a todos, pero la gente no podía, y todavía no puede, ser indiferente a ello.&lt;/p&gt;
-&lt;h4 id=&#34;no-temas-correr-riesgos&#34;&gt;No temas correr riesgos&lt;/h4&gt;
-&lt;p&gt;Aquí es donde _Why se pone controversial. Contrario a lo que la mayoría de los desarrolladores creen y respaldan, el estilo de programación de _Why no era limpio, legible o testeado. Todo lo opuesto. Esto le daría escalofrios a la mayoría de los programadores de metodologías ágiles, pero _Why tenía un argumento, y esta carta que escribió en el 2005 lo explica claramente.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Yo no escribo test para mis códigos. No escribo muchos comentarios. Cambio de estilos muy frecuentemente. Y a la mayoría de ellos, les doy la espalda a la forma predominante de “coding”, porque eso iría en contra de la esencia misma de experimentación. Acortado: todo lo que hago es no darle importancia.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Entonces, mi manera de medir un gran programador es diferente de algún pensamiento predominante en el tema. Me gustaría escuchar lo que Matz diría sobre esto. Debería preguntárselo, en serio.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Admiro a los programadores que toman riesgos. Ellos no están asustados de escribir códigos peligrosos o “malísimos”. Si te preocupas demasiado sobre ser limpio y prolijo, no puedes derribar las barreras (no lo creo!). También admiro a programadores que se rehúsan a quedarse con una idea sobre “la manera en que es el mundo”. Estos programadores ignoran el protocolo y procedimiento. Me gusta mucho Autrijus Tang porque el toma todos los idiomas y todos los procedimientos. No hay una manera incorrecta en su mundo.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Como sea, uno dice que quiere ser mejor. Es decir, es todo lo que se necesita. Uno se siente conducido, se comprométe con ello. Podría escribir scripts cortos para compartir con la gente en la web. Pequeños scripts de Ruby, de programas en Rails o &lt;a href=&#34;http://viewsourcecode.org/why/redhanded/inspect/hereIsMousehole12.html&#34;&gt;MouseHole&lt;/a&gt;, scripts para mostrar. Veinte líneas acá y allá, y pronto la gente está empujándote y estás compitiendo por construir esos scripts y pensar tu estilo, nuevas innovaciones y esas cosas.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;_why&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;_Why está defendiendo aquí una idea que ha sido evocada por diferentes personas en diferentes modos. El punto no trata sobre si hay que escribir “tests” o no. El punto es, no tengas miedo de correr riesgos. Si estás familiarizado con el trabajo de &lt;a href=&#34;http://99u.com/articles/6249/seth-godin-the-truth-about-shipping&#34;&gt;Seth Godin&lt;/a&gt;, reconocerás que _Why se trata sobre todo de “mostrar”. El solo crea cosas y las pone allí afuera en lo salvaje, sin temer lo que la gente pensará, ni si su código es visto cómo “malísimo” o “poco profesional”.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/Quote_by_Why_The_Lucky_Stiff__when_you_don_t_create_things__you_become_define____2014_01_21_14_39_21.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Cuando no creas cosas, te conviertes en algo definido por tus gustos más que por tu habilidad. Tus gustos sólo alejan y excluyen a las personas, así que creá.&lt;/p&gt;
-&lt;p&gt;&amp;ndash; &lt;cite&gt;Why the Lucky Stiff&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Acerca de este sitio</title>
       <link>https://www.examplelab.com.ar/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -10153,50 +10307,6 @@ otros proyectos que me parecen interesantes.&lt;/p&gt;
 &lt;p&gt;Si queres conversar conmigo, enviame un mail a la dirección de mail que aparece
 en &lt;a href=&#34;https://github.com/hugoruscitti&#34;&gt;mi perfil de github&lt;/a&gt; o dejame
 un mensaje en mi canal de &lt;a href=&#34;https://www.youtube.com/user/hugoruscitti/videos&#34;&gt;youtube&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Automatizando lanzamientos en node-webkit</title>
-      <link>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
-      <description>&lt;p&gt;Existe una tarea para &lt;strong&gt;grunt&lt;/strong&gt; que nos permite  automatizar el empaquetado de nuestras aplicaciones para cada plataforma: &lt;a href=&#34;https://npmjs.org/package/grunt-node-webkit-builder&#34;&gt;grunt-node-webkit-builder&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
-&lt;p&gt;El primer paso es instalarnos la tarea para grunt:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;npm install grunt-node-webkit-builder --save
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Luego tenemos que agregar algunas reglas a nuestro archivo &lt;strong&gt;GruntFile.js&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Por ejemplo, mi archivo &lt;strong&gt;GruntFile.js&lt;/strong&gt; a la hora de comenzar un proyecto nuevo se ve así:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-prettyprint&#34; data-lang=&#34;prettyprint&#34;&gt;module.exports = function (grunt) {
-    grunt.initConfig({
-      nodewebkit: {
-                    options: {
-                              build_dir: &amp;#39;./webkitbuilds&amp;#39;,
-                              mac: true,
-                              win: true,
-                              linux32: true,
-                              linux64: true
-                  },
-                  src: [
-                    &amp;#39;./app/**/*&amp;#39;,
-                    &amp;#39;./node_modules/**/*&amp;#39;,
-                  ]
-              },
-      });
-
-      grunt.loadNpmTasks(&amp;#39;grunt-node-webkit-builder&amp;#39;);
-  }
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Luego, para empaquetar la aplicación en todos los sistemas que definimos anteriormente tenemos que ejecutar el siguiente comando:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;grunt nodewebkit
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;La tarea &lt;code&gt;nodewebkit&lt;/code&gt; se encarga de bajar las versiones compiladas de nodewebkit justo para empaquetar. Esto demora un buen rato la primera vez, porque tiene que descargar unos &lt;code&gt;300 MB&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Dec/build.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Por último, el resultado del empaquetado va a estar dentro del directorio &amp;ldquo;releases&amp;rdquo;. Listo para distribuir:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Dec/resultado.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Y listo, ahora cada vez que quieras hacer un release, lo único que hay que ejecutar es el comando &lt;code&gt;grunt nodewebkit&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     

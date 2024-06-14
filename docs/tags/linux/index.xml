@@ -114,6 +114,19 @@ Les dejo algunas de las fotos que tomaron los organizadores del evento:
     </item>
     
     <item>
+      <title>Automatizando lanzamientos en node-webkit</title>
+      <link>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
+      <pubDate>Thu, 26 Dec 2013 01:15:39 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
+      <description>Existe una tarea para grunt que nos permite automatizar el empaquetado de nuestras aplicaciones para cada plataforma: grunt-node-webkit-builder.
+Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;
+Instalación El primer paso es instalarnos la tarea para grunt:
+npm install grunt-node-webkit-builder --save Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
+Por ejemplo, mi archivo GruntFile.js a la hora de comenzar un proyecto nuevo se ve así:</description>
+    </item>
+    
+    <item>
       <title>Encuentro Linux en Temuco, Chile</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</link>
       <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
@@ -134,19 +147,6 @@ El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pi
 El objetivo de este post es recomendar la herramienta y compartir algunos de los comandos que mas utilizo con vagrant.
 ¿Por qué usar vagrant? Si desarrollas aplicaciones web, es muy probable que necesites configurar tu entorno instalando bases de datos, bibliotecas, servidores etc.
 vagrant te permite manejar máquinas virtuales, y mantener los entornos de tu aplicación independientes de tu sistema, o casi.</description>
-    </item>
-    
-    <item>
-      <title>Automatizando lanzamientos en node-webkit</title>
-      <link>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
-      <description>Existe una tarea para grunt que nos permite automatizar el empaquetado de nuestras aplicaciones para cada plataforma: grunt-node-webkit-builder.
-Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;
-Instalación El primer paso es instalarnos la tarea para grunt:
-npm install grunt-node-webkit-builder --save Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
-Por ejemplo, mi archivo GruntFile.js a la hora de comenzar un proyecto nuevo se ve así:</description>
     </item>
     
   </channel>
