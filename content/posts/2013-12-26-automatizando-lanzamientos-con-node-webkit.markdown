@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatizando lanzamientos en node-webkit
-daate: '2013-12-26 01:15:39'
+date: '2013-12-26 01:15:39'
 deescription: Cómo automatizar empaquetado de aplicaciones con grunt-node-webkit-builder...
 cover: /images/2013/Dec/portada-empaquetado.jpg
 tags:
