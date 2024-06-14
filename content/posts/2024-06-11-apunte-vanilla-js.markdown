@@ -27,7 +27,7 @@ similar a este:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/main.js"></script>
   </head>
   <body>
   </body>
@@ -96,7 +96,7 @@ Y exponer de esta forma en el archivo `utils.js`:
 function log() {
 }
 
-function test(a) {
+function test() {
 }
 
 export default {log, test};
