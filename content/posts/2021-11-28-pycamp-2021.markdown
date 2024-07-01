@@ -7,7 +7,7 @@ description: |
   evento espectacular llamado pycamp.
 cover: /images/2021/pycamp-2021/portada.jpg
 tags:
-- programación
+- python
 ---
 
 Este año aproveché a tomarme vacaciones y participar del Pycamp que organizó la
