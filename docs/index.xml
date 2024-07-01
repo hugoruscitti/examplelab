@@ -6,7 +6,88 @@
     <description>Recent content on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 18:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creando retro-python en el PyCamp</title>
+      <link>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</link>
+      <pubDate>Sun, 30 Jun 2024 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</guid>
+      <description>&lt;p&gt;El fin de semana pasado participé del PyCamp, un evento de 4 días
+organizado por amigos de la comunidad de PyAr (Python Argentina):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/foto-grupal.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Volví muy entusiasmado y con mucha felicidad de haber disfrutado cada momento,
+para mí el PyCamp es un evento único, me deja ilusionado y con muchas ganas de
+inventar cosas nuevas.&lt;/p&gt;
+&lt;h1 id=&#34;sobre-retro-python&#34;&gt;Sobre retro-python&lt;/h1&gt;
+&lt;p&gt;Uno de los proyectos en los que trabajamos fue &lt;code&gt;retro-python&lt;/code&gt;, una idea que
+propuse unos días antes de comenzar el evento y que resultó muy bien, ya que
+pudimos crear la herramienta y publicarla para mostrar al final del evento:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://retro-python.com.ar&#34;&gt;https://retro-python.com.ar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Con &lt;strong&gt;retro-python&lt;/strong&gt; se pueden crear dibujos, animaciones y juegos usando Python
+y algo de código como se ve aquí:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/cielo.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Estas son algunas de las creaciones que se pueden hacer:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/creaciones.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Muchas de estas creaciones están animadas, podés verlas en funcionamiento
+visitando la &lt;a href=&#34;https://retro-python.com.ar&#34;&gt;página de la herramienta&lt;/a&gt; y haciendo
+&lt;em&gt;click&lt;/em&gt; en los ejemplos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/ejemplos.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;acerca-de-la-idea&#34;&gt;Acerca de la idea&lt;/h1&gt;
+&lt;p&gt;La idea inicial del proyecto fue crear un entorno de programación que permita a
+las personas crear un programa para dibujar o producir animaciones, todo en una
+pantalla de píxeles similar a una computadora antigua.&lt;/p&gt;
+&lt;p&gt;Este es uno de los bocetos que usamos para comenzar:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/boceto.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A la izquierda está la pantalla con el resultado de ejecutar el programa y a la
+derecha está el código que introduce el usuario.&lt;/p&gt;
+&lt;p&gt;Mi inspiración vino principalmente de otra herramienta llamada pico-8
+(&lt;a href=&#34;https://www.lexaloffle.com/pico-8.php&#34;&gt;https://www.lexaloffle.com/pico-8.php&lt;/a&gt;) y mi recuerdo de las clásicas revistas
+de computación de los años 80, donde podías encontrarte con un listado de
+código, copiarlo en tu Commodore 64 y ver algo hermoso en la pantalla:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/pagina.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;página de la revista Input publicada en 1983
+(&lt;a href=&#34;https://archive.org/details/Input_Vol_1_No_01_1997_Marshall_Cavendish_GB/page/n17/mode/2up&#34;&gt;ver en archive.org&lt;/a&gt;),
+donde se muestra un código que podíamos escribir en nuestra computadora y el
+resultado en pantalla.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yo nací en 1983, así que me perdí una parte grande de esta época dorada de las
+revistas y el descubrimiento de la programación en Basic. Sin embargo, pensé en
+este proyecto como una forma de recuperar algo de todo eso que se perdió en los
+80s: la posibilidad de curiosear, crear dibujos en la pantalla o de &amp;ldquo;jugar&amp;rdquo;
+creando animaciones a partir de números, funciones y píxeles.&lt;/p&gt;
+&lt;h1 id=&#34;cómo-empezamos-a-implementar-retro-python&#34;&gt;¿Cómo empezamos a implementar retro-python?&lt;/h1&gt;
+&lt;p&gt;Unos días antes de comenzar el evento, las personas que vamos a participar del
+PyCamp escribimos en el foro de PyAr una propuesta del proyecto en el que nos
+gustaría participar:&lt;/p&gt;
+&lt;p&gt;Esta es una captura de pantalla de lo que escribí en el foro:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/propuesta-en-el-foro.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Luego, cuando comenzó el evento volvimos a charlar de los proyectos y nos
+comenzamos a organizar en equipos de personas interesadas en participar en cada
+proyecto:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/trabajando.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;retro-python&lt;/em&gt; tuvo varias colaboraciones y personas que se interesaron y
+implementarlo, en particular 4 personas estuvimos en el día a día de la creación
+de retro python&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/equipo.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En la foto estamos (de izquierda a derecha): José Cabrera, Hebert Ferrer, yo
+(Hugo Ruscitti) y Luis Cova.&lt;/p&gt;
+&lt;p&gt;También fue muy importante para mí hablar con osiux y rodo de
+&lt;a href=&#34;https://gcoop.coop&#34;&gt;gcoop&lt;/a&gt;, ya que me dieron muy buenas ideas y acompañaron con
+pruebas y mejoras.&lt;/p&gt;
+&lt;h3 id=&#34;el-futuro-de-retro-python&#34;&gt;El futuro de retro-python&lt;/h3&gt;
+&lt;p&gt;Mi idea a futuro es dedicar algunas horas los fines de semana a crear algunas
+mejoras para retro-python, al menos mantener el proyecto funcionando y que se
+pueda usar.&lt;/p&gt;
+&lt;p&gt;De hecho, creo que puede ser un lindo proyecto para llevar al próximo PyCamp;
+tal vez puedo pensar en alguna característica nueva y proponerla como proyecto.&lt;/p&gt;
+&lt;p&gt;Me gustaría cuidar del proyecto y mantenerlo cuidadosamente, así como hago con
+&lt;a href=&#34;https://pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt;, mi intensión es verlo crecer
+de forma sostenida y por amor a las cosas que me gusta hacer y compartir.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Apunte VanillaJS</title>
       <link>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</link>

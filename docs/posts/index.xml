@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Examplelab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 18:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creando retro-python en el PyCamp</title>
+      <link>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</link>
+      <pubDate>Sun, 30 Jun 2024 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</guid>
+      <description>El fin de semana pasado participé del PyCamp, un evento de 4 días organizado por amigos de la comunidad de PyAr (Python Argentina):
+Volví muy entusiasmado y con mucha felicidad de haber disfrutado cada momento, para mí el PyCamp es un evento único, me deja ilusionado y con muchas ganas de inventar cosas nuevas.
+Sobre retro-python Uno de los proyectos en los que trabajamos fue retro-python, una idea que propuse unos días antes de comenzar el evento y que resultó muy bien, ya que pudimos crear la herramienta y publicarla para mostrar al final del evento:</description>
+    </item>
+    
     <item>
       <title>Apunte VanillaJS</title>
       <link>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</link>
