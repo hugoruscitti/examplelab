@@ -181,7 +181,7 @@ ember install ember-bootstrap
 <p><img src="/images/2016/06/primer-version.png" alt="primer-version"></p>
 <p>y al igual que sucede cuando ejecutamos <code>ember serve</code>, cualquier cambio que hagamos en el código nos va a mostrar los cambios inmediatamente.</p>
 <h2 id="cargando-datos">Cargando datos</h2>
-<p>Mi intensión es tener una aplicación sencilla y segura. Sin muchas opciones o modos de uso: El visor-offline inicia, busca videos mp4 en el directorio de la aplicación y permite visualizarlos.</p>
+<p>Mi intención es tener una aplicación sencilla y segura. Sin muchas opciones o modos de uso: El visor-offline inicia, busca videos mp4 en el directorio de la aplicación y permite visualizarlos.</p>
 <p>Nada más.</p>
 <p>Entonces, para descargar videos necesitaba de otra aplicación. Así que elegí usar ClipGrab, una aplicación muy sencilla que permite descargar videos desde youtube en distintos formatos:</p>
 <p><img src="/images/2016/06/descargas.png" alt="descargas"></p>
@@ -196,7 +196,7 @@ for x in os.listdir(&#39;.&#39;):
     file_output = &#34;thumbs/&#34; + video_input.replace(&#34;.mp4&#34;, &#34;.jpg&#34;)
     os.system(&#34;ffmpegthumbnailer -i &#39;%s&#39; -o &#39;%s&#39; -s400&#34; %(video_input, file_output))
 </code></pre><h2 id="cargando-el-listado-de-videos">Cargando el listado de videos</h2>
-<p>Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.</p>
+<p>Mi intención es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.</p>
 <p>Así que adopté la siguiente convención: los videos se deberían grabar directamente en el directorio <code>c:\videos</code> y las miniaturas generadas en <code>c:\videos\thumbs</code>, así el visor de video solo tendría que ir a buscarlos en esos directorios.</p>
 <p>En el caso de osx y linux el procedimiento es muy similar, solamente que buscará videos en <code>$HOME/videos</code> y las miniaturas en <code>$HOME/videos/thumbs</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// archivo: app/routes/index.js

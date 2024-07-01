@@ -83,7 +83,7 @@ pueda usar.&lt;/p&gt;
 &lt;p&gt;De hecho, creo que puede ser un lindo proyecto para llevar al próximo PyCamp;
 tal vez puedo pensar en alguna característica nueva y proponerla como proyecto.&lt;/p&gt;
 &lt;p&gt;Me gustaría cuidar del proyecto y mantenerlo cuidadosamente, así como hago con
-&lt;a href=&#34;https://pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt;, mi intensión es verlo crecer
+&lt;a href=&#34;https://pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt;, mi intención es verlo crecer
 de forma sostenida y por amor a las cosas que me gusta hacer y compartir.&lt;/p&gt;
 </description>
     </item>
@@ -5454,7 +5454,7 @@ ember install ember-bootstrap
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/primer-version.png&#34; alt=&#34;primer-version&#34;&gt;&lt;/p&gt;
 &lt;p&gt;y al igual que sucede cuando ejecutamos &lt;code&gt;ember serve&lt;/code&gt;, cualquier cambio que hagamos en el código nos va a mostrar los cambios inmediatamente.&lt;/p&gt;
 &lt;h2 id=&#34;cargando-datos&#34;&gt;Cargando datos&lt;/h2&gt;
-&lt;p&gt;Mi intensión es tener una aplicación sencilla y segura. Sin muchas opciones o modos de uso: El visor-offline inicia, busca videos mp4 en el directorio de la aplicación y permite visualizarlos.&lt;/p&gt;
+&lt;p&gt;Mi intención es tener una aplicación sencilla y segura. Sin muchas opciones o modos de uso: El visor-offline inicia, busca videos mp4 en el directorio de la aplicación y permite visualizarlos.&lt;/p&gt;
 &lt;p&gt;Nada más.&lt;/p&gt;
 &lt;p&gt;Entonces, para descargar videos necesitaba de otra aplicación. Así que elegí usar ClipGrab, una aplicación muy sencilla que permite descargar videos desde youtube en distintos formatos:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/descargas.png&#34; alt=&#34;descargas&#34;&gt;&lt;/p&gt;
@@ -5469,7 +5469,7 @@ for x in os.listdir(&amp;#39;.&amp;#39;):
     file_output = &amp;#34;thumbs/&amp;#34; + video_input.replace(&amp;#34;.mp4&amp;#34;, &amp;#34;.jpg&amp;#34;)
     os.system(&amp;#34;ffmpegthumbnailer -i &amp;#39;%s&amp;#39; -o &amp;#39;%s&amp;#39; -s400&amp;#34; %(video_input, file_output))
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cargando-el-listado-de-videos&#34;&gt;Cargando el listado de videos&lt;/h2&gt;
-&lt;p&gt;Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.&lt;/p&gt;
+&lt;p&gt;Mi intención es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.&lt;/p&gt;
 &lt;p&gt;Así que adopté la siguiente convención: los videos se deberían grabar directamente en el directorio &lt;code&gt;c:\videos&lt;/code&gt; y las miniaturas generadas en &lt;code&gt;c:\videos\thumbs&lt;/code&gt;, así el visor de video solo tendría que ir a buscarlos en esos directorios.&lt;/p&gt;
 &lt;p&gt;En el caso de osx y linux el procedimiento es muy similar, solamente que buscará videos en &lt;code&gt;$HOME/videos&lt;/code&gt; y las miniaturas en &lt;code&gt;$HOME/videos/thumbs&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// archivo: app/routes/index.js
@@ -5968,7 +5968,7 @@ class NuevActor(Actor):
 &lt;p&gt;Ejecutando “make” podemos ver el comando disponible para ejecutar los test y otras cosas:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/image05.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Ahora cuando cambiamos el código de pilas, tenemos la posibilidad de corroborar que la mayor parte de la biblioteca continúa funcionando correctamente.&lt;/p&gt;
-&lt;p&gt;Mi intensión es hacer que estos tests funcionen bien sobre “travis-ci.org”, así podemos tener tests automáticos cada vez que hacemos “push” sobre github, de la misma forma que ocurre con pilasweb.&lt;/p&gt;
+&lt;p&gt;Mi intención es hacer que estos tests funcionen bien sobre “travis-ci.org”, así podemos tener tests automáticos cada vez que hacemos “push” sobre github, de la misma forma que ocurre con pilasweb.&lt;/p&gt;
 &lt;p&gt;Este es un ejemplo de travis ejecutando tests de un cambio que introdujo irving:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/01/image03.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;otras-ideas-para-pensar&#34;&gt;Otras ideas para pensar…&lt;/h2&gt;
