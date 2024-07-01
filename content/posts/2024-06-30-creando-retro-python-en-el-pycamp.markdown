@@ -110,5 +110,5 @@ De hecho, creo que puede ser un lindo proyecto para llevar al próximo PyCamp;
 tal vez puedo pensar en alguna característica nueva y proponerla como proyecto.
 
 Me gustaría cuidar del proyecto y mantenerlo cuidadosamente, así como hago con
-[pilas-engine](https://pilas-engine.com.ar/), mi intensión es verlo crecer
+[pilas-engine](https://pilas-engine.com.ar/), mi intención es verlo crecer
 de forma sostenida y por amor a las cosas que me gusta hacer y compartir.

@@ -52,7 +52,7 @@ y al igual que sucede cuando ejecutamos `ember serve`, cualquier cambio que haga
 
 ## Cargando datos
 
-Mi intensión es tener una aplicación sencilla y segura. Sin muchas opciones o modos de uso: El visor-offline inicia, busca videos mp4 en el directorio de la aplicación y permite visualizarlos.
+Mi intención es tener una aplicación sencilla y segura. Sin muchas opciones o modos de uso: El visor-offline inicia, busca videos mp4 en el directorio de la aplicación y permite visualizarlos.
 
 Nada más.
 
@@ -76,7 +76,7 @@ for x in os.listdir('.'):
 
 ## Cargando el listado de videos
 
-Mi intensión es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.
+Mi intención es que la aplicación tenga una lógica muy sencilla, sin bases de datos o sincronización, simplemente un visor de videos ya descargados previamente.
 
 Así que adopté la siguiente convención: los videos se deberían grabar directamente en el directorio `c:\videos` y las miniaturas generadas en `c:\videos\thumbs`, así el visor de video solo tendría que ir a buscarlos en esos directorios.
 

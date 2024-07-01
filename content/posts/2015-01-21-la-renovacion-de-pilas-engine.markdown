@@ -165,7 +165,7 @@ Ejecutando “make” podemos ver el comando disponible para ejecutar los test y
 
 Ahora cuando cambiamos el código de pilas, tenemos la posibilidad de corroborar que la mayor parte de la biblioteca continúa funcionando correctamente.
 
-Mi intensión es hacer que estos tests funcionen bien sobre “travis-ci.org”, así podemos tener tests automáticos cada vez que hacemos “push” sobre github, de la misma forma que ocurre con pilasweb.
+Mi intención es hacer que estos tests funcionen bien sobre “travis-ci.org”, así podemos tener tests automáticos cada vez que hacemos “push” sobre github, de la misma forma que ocurre con pilasweb.
 
 Este es un ejemplo de travis ejecutando tests de un cambio que introdujo irving:
 
