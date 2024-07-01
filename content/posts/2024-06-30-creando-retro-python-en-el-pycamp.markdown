@@ -85,7 +85,7 @@ Luego, cuando comenzó el evento volvimos a charlar de los proyectos y nos
 comenzamos a organizar en equipos de personas interesadas en participar en cada
 proyecto:
 
-![](/images/2024/creando-retro-python-en-el-pycamp/trabajando.png)
+![](/images/2024/creando-retro-python-en-el-pycamp/trabajando.jpg)
 
 *retro-python* tuvo varias colaboraciones y personas que se interesaron y
 implementarlo, en particular 4 personas estuvimos en el día a día de la creación
