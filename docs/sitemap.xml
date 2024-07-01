@@ -11,6 +11,12 @@
     <loc>https://www.examplelab.com.ar/posts/</loc>
     <lastmod>2024-06-30T18:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.examplelab.com.ar/tags/python/</loc>
+    <lastmod>2024-06-30T18:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.examplelab.com.ar/tags/</loc>
+    <lastmod>2024-06-30T18:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</loc>
     <lastmod>2024-06-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -30,9 +36,6 @@
     <lastmod>2023-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/2023-11-24-simplificando-por-un-motivo-accidental/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.examplelab.com.ar/tags/</loc>
     <lastmod>2023-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/tags/web/</loc>
@@ -68,9 +71,6 @@
     <loc>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.examplelab.com.ar/tags/python/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2023-02-27-por-que-tomar-notas/</loc>
     <lastmod>2023-02-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -90,9 +90,6 @@
     <lastmod>2021-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-11-28-pycamp-2021/</loc>
-    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.examplelab.com.ar/tags/programaci%C3%B3n/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-10-10-dibujar-para-ser-protagonista/</loc>
@@ -126,6 +123,9 @@
     <lastmod>2021-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.examplelab.com.ar/tags/programaci%C3%B3n/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/2021-06-28-traducir-textos-en-vim/</loc>
