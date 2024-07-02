@@ -67,3 +67,14 @@ li.item-de-archivo a {
 .no-user-select {
   user-select: none;
 }
+
+.post-content a {
+  color: #7a4fbd;
+  text-decoration: none;
+}
+
+.dark-theme .post-content a {
+  color: #b291e6;
+  text-decoration: none;
+}
+
