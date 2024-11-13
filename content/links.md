@@ -20,8 +20,7 @@ recomiendo ver [este otro post](/posts/2021-01-29-coleccionando-articulos/).
 </div>
 
 - [Tech Notes: Complexity is the enemy](/links-files/complexity) - [🇦🇷 traducción](/links-files/traducciones/complexity/)
-- [Weizenbaum examines computers and society](http://tech.mit.edu/V105/N16/weisen.16n.html)
-- [Slow Down, Finish Faster](https://briandicroce.com/slow-down-finish-faster/)
+- [Weizenbaum examines computers and society](/links-files/weizenbaum-examines-computers-and-society)
 - [Programming's Dirtiest Little Secret](/links-files/programmings-dirtiest-little-secret)
 - [I’m a boring programmer (and proud of it)](/links-files/iam-boring-programmer)
 - [Disparar y avanzar](/links-files/disparar-y-avanzar)
@@ -34,3 +33,4 @@ recomiendo ver [este otro post](/posts/2021-01-29-coleccionando-articulos/).
 - [Write Like You Talk](/links-files/talk)
 - [The Productivity Funnel](/links-files/the-productivity-funnel) - [🇦🇷 traducción](/links-files/traducciones/the-productivity-funnel/)
 - [Why interruptions are frustrating to developers](/links-files/why-interruptions-are-frustrating-to-developers) - [🇦🇷 traducción](/links-files/traducciones/why-interruptions-are-frustrating-to-developers/)
+- [Weizenbaum examines computers abd society - The Tech](/links-files/weisen.16n)
