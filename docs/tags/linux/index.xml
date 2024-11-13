@@ -52,7 +52,7 @@ El proyecto generado quedará guardado dentro de un directorio, en donde podemos
       <description>Hace unas semanas empezamos a realizar una aplicación nueva: huayra-caripela.
 Es una aplicación muy sencilla, que sirve para hacer avatares y personalizar las preferencias de tu usuario en huayra linux:
 Como se puede ver en la captura, &amp;ldquo;caripela&amp;rdquo; te muestra una galería de objetos en pantalla para armar un rostro, con muchas posibles combinaciones:
-¿Por qué? Pensamos que sería buena idea contar con una aplicación que te permita dibujar fácilmente, realizar un avatar representativo y que puedas darle un toque personal a tu configuración de usuario.</description>
+ ¿Por qué? Pensamos que sería buena idea contar con una aplicación que te permita dibujar fácilmente, realizar un avatar representativo y que puedas darle un toque personal a tu configuración de usuario.</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ Hoy lamentablemente no tenemos nodejs como paquete pre-instalado en la distribuc
       
       <guid>https://www.examplelab.com.ar/posts/2014-01-19-misol-2013/</guid>
       <description>El mes pasado tuve la posibilidad de asistir y participar como orador del Festival Misionero de Software Libre.
-La experiencia fué alucinante, viajé junto a Héctor Sanchez desde Buenos Aires, y allá en misiones nos recibió Josi Guaimas.
+ La experiencia fué alucinante, viajé junto a Héctor Sanchez desde Buenos Aires, y allá en misiones nos recibió Josi Guaimas.
 Les dejo algunas de las fotos que tomaron los organizadores del evento:
 ¡ Mil agradecimientos a Josi Guaimas y a todos los que hicieron posible el festival !!!</description>
     </item>
@@ -122,7 +122,7 @@ Les dejo algunas de las fotos que tomaron los organizadores del evento:
       <description>Existe una tarea para grunt que nos permite automatizar el empaquetado de nuestras aplicaciones para cada plataforma: grunt-node-webkit-builder.
 Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;
 Instalación El primer paso es instalarnos la tarea para grunt:
-npm install grunt-node-webkit-builder --save Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
+npm install grunt-node-webkit-builder --save  Luego tenemos que agregar algunas reglas a nuestro archivo GruntFile.js.
 Por ejemplo, mi archivo GruntFile.js a la hora de comenzar un proyecto nuevo se ve así:</description>
     </item>
     

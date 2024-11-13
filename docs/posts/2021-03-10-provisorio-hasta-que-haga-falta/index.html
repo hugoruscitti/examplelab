@@ -56,6 +56,7 @@ necesario?
 
 
 
+
   </head>
   <body class="">
     <script>
@@ -199,9 +200,9 @@ con un script, para generar un <code>.zip</code> con cada proyecto y luego elimi
 que ya no se utilizarán.</p>
 <p>Ah, y en el camino aprendí que <em>PostgreSQL</em> te permite listar el tamaño de las
 tablas más grandes ejecutando este <em>query</em>:</p>
-<pre tabindex="0"><code>SELECT relname AS &#34;Table&#34;,
-       Pg_size_pretty(Pg_total_relation_size(relid)) AS &#34;Size&#34;,
-       Pg_size_pretty(Pg_total_relation_size(relid) - Pg_relation_size(relid)) AS &#34;External Size&#34;
+<pre><code>SELECT relname AS &quot;Table&quot;,
+       Pg_size_pretty(Pg_total_relation_size(relid)) AS &quot;Size&quot;,
+       Pg_size_pretty(Pg_total_relation_size(relid) - Pg_relation_size(relid)) AS &quot;External Size&quot;
 FROM   pg_catalog.pg_statio_user_tables
 ORDER  BY Pg_total_relation_size(relid) DESC;
 </code></pre><p>Además, existe un comando llamado <code>VACUUM FULL</code> que libera espacio luego

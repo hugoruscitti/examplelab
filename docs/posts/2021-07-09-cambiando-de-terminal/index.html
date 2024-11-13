@@ -57,6 +57,7 @@ interesantes para mencionar.
 
 
 
+
   </head>
   <body class="">
     <script>
@@ -198,18 +199,18 @@ forma que me ofrece tmux de hacer lo mismo me resulta incómoda. En tmux tendrí
 que pulsar <code>ctrl-b</code> y luego la tecla <code>c</code>.</p>
 <p>Por suerte estos atajos se pueden
 personalizar desde el mismo archivo de configuración de alacritty <code>~/.alacritty.yml</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Abrir</span> <span style="color:#a6e22e">tabs</span> <span style="color:#a6e22e">nuevos</span> <span style="color:#a6e22e">con</span> <span style="color:#a6e22e">cmd</span><span style="color:#f92672">-</span><span style="color:#a6e22e">T</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">T</span>,        <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x63&#34;</span> }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Acceder</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">los</span> <span style="color:#a6e22e">tabs</span> <span style="color:#a6e22e">con</span> <span style="color:#a6e22e">números</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key1</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x31&#34;</span> }
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key2</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x32&#34;</span> }
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key3</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x33&#34;</span> }
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key4</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x34&#34;</span> }
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key5</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x35&#34;</span> }
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key6</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x36&#34;</span> }
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key7</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x37&#34;</span> }
-</span></span></code></pre></div><p>Las claves <code>key</code> y <code>mods</code> le indican a Alacritty qué teclas queremos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">  <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Abrir</span> <span style="color:#a6e22e">tabs</span> <span style="color:#a6e22e">nuevos</span> <span style="color:#a6e22e">con</span> <span style="color:#a6e22e">cmd</span><span style="color:#f92672">-</span><span style="color:#a6e22e">T</span>
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">T</span>,        <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x63&#34;</span> }
+
+  <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Acceder</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">los</span> <span style="color:#a6e22e">tabs</span> <span style="color:#a6e22e">con</span> <span style="color:#a6e22e">números</span>
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key1</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x31&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key2</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x32&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key3</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x33&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key4</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x34&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key5</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x35&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key6</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x36&#34;</span> }
+  <span style="color:#f92672">-</span> { <span style="color:#a6e22e">key</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Key7</span>,     <span style="color:#a6e22e">mods</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Command</span>,     <span style="color:#a6e22e">chars</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\x05\x37&#34;</span> }
+</code></pre></div><p>Las claves <code>key</code> y <code>mods</code> le indican a Alacritty qué teclas queremos
 modificar, mientras que <code>chars</code> son los caracteres de escape que queremos
 invocar.</p>
 <p>Para generar esos caracteres de la forma <code>\x05\x31</code> seguí <a href="https://arslan.io/2018/02/05/gpu-accelerated-terminal-alacritty/">las instrucciones
@@ -218,7 +219,7 @@ alacritty. Básicamente hay que usar el comando <code>xxd -psd</code>, pulsar el
 nos gustaría invocar y anotar la secuencia de caracteres que aparece en pantalla.</p>
 <p>Por ejemplo, si ejecuto <code>xxd -psd</code> y pulso la secuencia de caracteres
 <code>ctrl-b</code> y luego <code>c</code>, el número que se imprime en pantalla es este:</p>
-<pre tabindex="0"><code>→ xxd -psd
+<pre><code>→ xxd -psd
 ^Bc
 02630a
 </code></pre><p>De donde <code>02</code> simboliza <code>ctrl-b</code>, <code>63</code> a <code>c</code> y por último <code>0a</code> simboliza
@@ -233,13 +234,13 @@ la terminal y verificar si se veía correctamente.</p>
 dentro de tmux:</p>
 <p><img src="/images/2021/cambiando-de-terminal/comparativa.png" alt=""></p>
 <p>Luego edité la configuración de tmux agregando esto:</p>
-<pre tabindex="0"><code>set-option -ga terminal-overrides &#34;,*256col*:Tc&#34;
-set -g default-terminal &#34;screen-256color&#34;
+<pre><code>set-option -ga terminal-overrides &quot;,*256col*:Tc&quot;
+set -g default-terminal &quot;screen-256color&quot;
 </code></pre><p>y esta otra configuración dentro de vim:</p>
-<pre tabindex="0"><code>&#34;Agrega soporte para truecolor
-if exists(&#39;+termguicolors&#39;)
-  let &amp;t_8f = &#34;\&lt;Esc&gt;[38;2;%lu;%lu;%lum&#34;
-  let &amp;t_8b = &#34;\&lt;Esc&gt;[48;2;%lu;%lu;%lum&#34;
+<pre><code>&quot;Agrega soporte para truecolor
+if exists('+termguicolors')
+  let &amp;t_8f = &quot;\&lt;Esc&gt;[38;2;%lu;%lu;%lum&quot;
+  let &amp;t_8b = &quot;\&lt;Esc&gt;[48;2;%lu;%lu;%lum&quot;
   set termguicolors
 endif
 </code></pre><p>¡Y listo!</p>

@@ -58,6 +58,7 @@ que detecta errores gramaticales que se llama LanguageTool.
 
 
 
+
   </head>
   <body class="">
     <script>
@@ -163,7 +164,7 @@ que detecta errores gramaticales que se llama LanguageTool.
 
     <div class="post-content">
       <p>VIM incluye un corrector ortográfico que se puede activar con estos comandos:</p>
-<pre tabindex="0"><code>set spell
+<pre><code>set spell
 set spelllang=es
 </code></pre><p>Sin embargo, este corrector solamente puede ayudarnos a detectar <em>typos</em> y
 algunas faltas de ortografía simples.</p>
@@ -186,12 +187,12 @@ preposiciones y concordancia.</p>
 un <em>plugin</em> llamado <a href="https://github.com/rhysd/vim-grammarous">vim-grammarous</a>.</p>
 <p>En mi caso, como uso un gestor de paquetes llamado <a href="https://github.com/junegunn/vim-plug">vim-plug</a> lo
 que tuve que hacer es agregar esta línea dentro de mi archivo <code>vimrc</code>:</p>
-<pre tabindex="0"><code>Plug &#39;rhysd/vim-grammarous&#39;
+<pre><code>Plug 'rhysd/vim-grammarous'
 </code></pre><p>y luego ejecutar el comando:</p>
-<pre tabindex="0"><code>:PlugInstall
+<pre><code>:PlugInstall
 </code></pre><p>Luego de ejecutar esos comandos, necesitamos activar el análisis de un
 texto por primera vez para se descarguen algunos archivos más:</p>
-<pre tabindex="0"><code>:GrammarousCheck --lang=es
+<pre><code>:GrammarousCheck --lang=es
 </code></pre><p>Resulta que <em>LanguageTool</em> funciona como una herramienta externa que incluye
 diccionarios y varios componentes internos, así que en la primera invocación
 va a necesitar instalar todo esto para continuar. En mi caso, la instalación
@@ -207,7 +208,7 @@ describe con claridad por qué considera que hay algo mal.</p>
 para activar esta extensión fácilmente.</p>
 <p>En mi caso, hice que el editor active la corrección pulsando <code>&lt;space&gt;</code>
 y luego <code>s</code>:</p>
-<pre tabindex="0"><code>noremap &lt;leader&gt;s :GrammarousCheck --lang=es&lt;CR&gt;
+<pre><code>noremap &lt;leader&gt;s :GrammarousCheck --lang=es&lt;CR&gt;
 noremap &lt;leader&gt;a :GrammarousReset
 </code></pre>
     </div>

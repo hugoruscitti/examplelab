@@ -58,6 +58,7 @@ hacer un lío con las indentaciones.
 
 
 
+
   </head>
   <body class="">
     <script>
@@ -173,13 +174,13 @@ a poco, así que intenta agregar indentaciones mientras va
 pegando cada una de las lineas.</p>
 <p>Una forma de resolver esto activar y desactivar el indentado
 cuando estamos por pegar texto:</p>
-<pre tabindex="0"><code>:set paste
+<pre><code>:set paste
 CTRL+V # para pegar el texto
 :set nopaste
 </code></pre><p>Sin embargo, hay una forma mejor. En lugar de usar esos 3
 comandos se puede crear un atajo para copiar y otro para
 pegar desde el portapapeles del sistema:</p>
-<pre tabindex="0"><code>map &lt;leader&gt;Y &#34;+gP
+<pre><code>map &lt;leader&gt;Y &quot;+gP
 </code></pre><p>De esta forma, pulsando <code>&lt;space&gt;Y</code> se puede pegar respetando
 la indentanción original.</p>
 <p>Por cierto, escribí sobre el portapapeles del sistema y vim
