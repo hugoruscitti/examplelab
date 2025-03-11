@@ -7,6 +7,7 @@ description: |
 cover: /images/2023/pycamp-en-baradero/portada.jpg
 tags:
 - python
+- pycamp
 ---
 
 Hace exactamente un año asistí al pycamp en Baradero, uno de

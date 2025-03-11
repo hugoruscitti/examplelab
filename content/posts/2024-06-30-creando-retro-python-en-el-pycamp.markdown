@@ -8,6 +8,7 @@ description: |
 cover: /images/2024/creando-retro-python-en-el-pycamp/portada.jpg
 tags:
 - python
+- pycamp
 ---
 
 El fin de semana pasado participé del PyCamp, un evento de 4 días

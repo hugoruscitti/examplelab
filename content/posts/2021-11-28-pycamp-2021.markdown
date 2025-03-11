@@ -8,6 +8,7 @@ description: |
 cover: /images/2021/pycamp-2021/portada.jpg
 tags:
 - python
+- pycamp
 ---
 
 Este año aproveché a tomarme vacaciones y participar del Pycamp que organizó la
