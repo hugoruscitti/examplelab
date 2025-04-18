@@ -12,6 +12,7 @@ all:
 	@echo "    ${G}ejecutar${N}       ejecuta el modo servidor sin mostrar borradores."
 	@echo "    ${G}compilar${N}       genera todos los archivos estáticos."
 	@echo "    ${G}deploy${N}         sube el sitio para que esté online."
+	@echo "    ${G}open${N}           abre el sitio web."
 	@echo ""
 	@echo ""
 
@@ -40,3 +41,5 @@ deploy:
 	@echo "${G} (aunque demora unos 2 minutos en estar online realmente)${N}"
 	@echo ""
 
+open:
+	open https://www.examplelab.com.ar
