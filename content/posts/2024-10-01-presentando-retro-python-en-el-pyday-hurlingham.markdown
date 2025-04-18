@@ -84,7 +84,8 @@ alegría enorme.
 
 Otra cosa hermosa del evento fue encontrarme con proyectos
 tangibles y creaciones que exceden el desarrollo de
-software: Me encantó encontrarme con osiux que llevó una
+software: Me encantó encontrarme con
+[osiux](https://osiux.com/) que llevó una
 estación para sacar fotos que construyeron en gcoop y
 también pude ver charlas como la de alecu y su
 ventilastation:
