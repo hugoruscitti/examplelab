@@ -67,7 +67,7 @@ Unos días antes de arrancar el evento, conversamos con
 algunos chicos que iban a asistir al evento y se nos ocurrió
 llevar la "maquinita" (aka pytari) con el juego que armamos
 en el pyday pasado. Así que subí al auto y me fui para
-Hurlinham llevando la maquinita y un poster que cuenta la
+Hurlingham llevando la maquinita y un poster que cuenta la
 historia del juego.
 
 
