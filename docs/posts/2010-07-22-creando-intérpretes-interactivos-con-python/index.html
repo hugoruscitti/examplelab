@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     
-      <title>Creando intérpretes interactivos con python :: Examplelab — Mi blog</title>
+      <title>Creando intérpretes interactivos con python :: Examplelab</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Python, al ser un lenguaje dinámico, facilita mucho la creación de intérpretes.
 En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos. Algo básico con readline
 Readline es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.
-Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&amp;hellip;"/>
+Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&hellip;
+"/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/" />
@@ -33,22 +34,26 @@ Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se p
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creando intérpretes interactivos con python"/>
-<meta name="twitter:description" content="En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos...."/>
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1?1">
 
 
 
-<meta property="og:title" content="Creando intérpretes interactivos con python" />
-<meta property="og:description" content="En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos...." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2010-07-22T15:00:00+00:00" />
-<meta property="article:modified_time" content="2010-07-22T15:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Creando intérpretes interactivos con python">
+  <meta name="twitter:description" content="En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos....">
 
+
+
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/">
+  <meta property="og:site_name" content="Examplelab">
+  <meta property="og:title" content="Creando intérpretes interactivos con python">
+  <meta property="og:description" content="En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos....">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-07-22T15:00:00+00:00">
+    <meta property="article:modified_time" content="2010-07-22T15:00:00+00:00">
+    <meta property="article:tag" content="Python">
 
 
 
@@ -165,9 +170,9 @@ Algo básico con readline</p>
 <p><code>Readline</code> es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.</p>
 <p>Por ejemplo, el interprete de comandos Bash utiliza <code>readline</code> y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&hellip;</p>
 <p>Para crear un programa interactivo de python usando <code>readline</code> se puede usar el módulo <code>readline</code>:</p>
-<pre><code>import readline
+<pre tabindex="0"><code>import readline
 
-nombres = ['pepe', 'pedro']
+nombres = [&#39;pepe&#39;, &#39;pedro&#39;]
 
 def completer(text, state):
     options = [x for x in nombres if x.startswith(text)]
@@ -178,33 +183,33 @@ def completer(text, state):
         return None
 
 readline.set_completer(completer)
-readline.parse_and_bind(&quot;tab: complete&quot;)
+readline.parse_and_bind(&#34;tab: complete&#34;)
 
 while 1:
-    print &quot;&quot;
-    nombre = raw_input(&quot;Escriba un nombre: &quot;)
-    print &quot;Ha ingresado el nombre:&quot;, nombre
+    print &#34;&#34;
+    nombre = raw_input(&#34;Escriba un nombre: &#34;)
+    print &#34;Ha ingresado el nombre:&#34;, nombre
 
     if nombre in nombres:
-        print &quot;\t(ya existia este nombre en la lista de autocompletado).&quot;
+        print &#34;\t(ya existia este nombre en la lista de autocompletado).&#34;
     else:
         nombres.append(nombre)
-        print &quot;\t(agregandolo a la lista de autocompletado).&quot;
+        print &#34;\t(agregandolo a la lista de autocompletado).&#34;
 </code></pre><h2 id="autocompletado-inteligente-con-rlcompleter">Autocompletado inteligente con rlcompleter</h2>
 <p>Ahora bien, con lo que hemos visto ya podemos crear auto-completado de palabras personalizados. Pero si lo que buscamos es auto-completar código python, necesitarías inspeccionar objetos, módulos o bibliotecas.</p>
 <p>Un módulo conveniente para hacer esta tarea es <code>rlcompleter</code>, que se encarga de hacer todo este trabajo de sugerencias por nosotros.</p>
 <p>Esto es interesante para hacer interpretes python personalizados, por ejemplo el siguiente intérprete se puede usar para hacer pruebas sobre dos conjuntos:</p>
-<pre><code>import rlcompleter
+<pre tabindex="0"><code>import rlcompleter
 import readline
-readline.parse_and_bind(&quot;tab: complete&quot;)
+readline.parse_and_bind(&#34;tab: complete&#34;)
 
 grupo_a = set([1, 2, 3])
 grupo_b = set([3, 4, 5])
 
 cmd = None
 
-while cmd not in ['quit', 'exit']:
-    cmd = raw_input('&gt;&gt; ')
+while cmd not in [&#39;quit&#39;, &#39;exit&#39;]:
+    cmd = raw_input(&#39;&gt;&gt; &#39;)
     exec(cmd)
 </code></pre><p>Inicie el script, escriba <code>grup</code> y luego TAB, en pantalla se tienen que mostrar las referencias que comienzan con <code>grup</code>. Luego, si escribe grupo_a. y luego TAB puede ver los atributos del objeto señalado por la referencia</p>
 <p>Internamente, <code>rlcompleter</code> hace todo el trabajo de instronspección por nosotros.</p>
@@ -264,7 +269,7 @@ while cmd not in ['quit', 'exit']:
       
         <div class="pagination">
           <div class="pagination__title">
-            <span class="pagination__title-h">Leer otros artículos</span>
+            <span class="pagination__title-h">Read other posts</span>
             <hr />
           </div>
           <div class="pagination__buttons">

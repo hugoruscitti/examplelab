@@ -1,168 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web on Examplelab</title>
+    <title>Web on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/web/</link>
-    <description>Recent content in web on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Web on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Imágenes &#34;Lasy&#34; en el navegador</title>
       <link>https://www.examplelab.com.ar/posts/2023-11-24-imagenes-async-en-el-navegador/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-11-24-imagenes-async-en-el-navegador/</guid>
-      <description>Esta semana aprendí algo nuevo sobre la etiqueta img:
-Resulta que podemos indicarle al navegador si en nuestro sitio se pueden cargar las imágenes bajo demanda, a medida que el usuario desplaza el contenido.
-Lo único que tenemos que hacer es armar la etiqueta img de esta forma:
-&amp;lt;img loading=&amp;#34;lazy&amp;#34; src=&amp;#34;/images/2013/pilas/portada.jpg&amp;#34;/&amp;gt; Probando el cambio en mi blog Para aprovechar la ocasión se me ocurrió mejorar la forma en la que se cargan las imágenes en este blog, a ver si notaba algún resultado.</description>
+      <description>&lt;p&gt;Esta semana aprendí algo nuevo sobre la etiqueta &lt;strong&gt;img&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;Resulta que podemos indicarle al navegador si en nuestro&#xA;sitio se pueden cargar las imágenes bajo demanda, a medida&#xA;que el usuario desplaza el contenido.&lt;/p&gt;&#xA;&lt;p&gt;Lo único que tenemos que hacer es armar la etiqueta &lt;em&gt;img&lt;/em&gt; de esta forma:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;loading&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lazy&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/images/2013/pilas/portada.jpg&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;probando-el-cambio-en-mi-blog&#34;&gt;Probando el cambio en mi blog&lt;/h1&gt;&#xA;&lt;p&gt;Para aprovechar la ocasión se me ocurrió mejorar la forma en&#xA;la que se cargan las imágenes en este blog, a ver si notaba&#xA;algún resultado.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Componentes web con vanilla JavaScript</title>
       <link>https://www.examplelab.com.ar/posts/2023-11-17-componentes-web/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-11-17-componentes-web/</guid>
-      <description>Hoy es mucho más fácil crear componentes web para nuestras aplicaciones, ya no se necesita una biblioteca para hacer esto.
-¿Cómo se hace?, simplemente tenes que inventarte un nombre para el componente, por ejemplo contador-de-clicks y comenzar a utilizarlo dentro de tus archivos html así:
-&amp;lt;contador-de-clicks&amp;gt;&amp;lt;/contador-de-clicks&amp;gt; Luego, para que este componente tenga comporatamiento es necesario escribir algo de código JavaScript para representarlo:
-class ContadorDeClicks extends HTMLElement { constructor() { super(); } connectedCallback() { this.</description>
+      <description>&lt;p&gt;Hoy es mucho más fácil crear componentes web para nuestras&#xA;aplicaciones, ya no se necesita una biblioteca para hacer&#xA;esto.&lt;/p&gt;&#xA;&lt;p&gt;¿Cómo se hace?, simplemente tenes que inventarte un nombre&#xA;para el componente, por ejemplo &lt;strong&gt;contador-de-clicks&lt;/strong&gt; y&#xA;comenzar a utilizarlo dentro de tus archivos &lt;em&gt;html&lt;/em&gt; así:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;contador-de-clicks&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;contador-de-clicks&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Luego, para que este componente tenga comporatamiento es&#xA;necesario escribir algo de código JavaScript para&#xA;representarlo:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ContadorDeClicks&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HTMLElement&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;constructor&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;super&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;connectedCallback&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;contador&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerHTML&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;button&amp;gt;Has hecho &amp;lt;span&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;contador&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;/span&amp;gt; clicks&amp;lt;/button&amp;gt;`&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;boton&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;boton&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onClick&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;bind&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;));&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;disconnectedCallback&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;boton&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;boton&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;removeEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onClick&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;bind&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;));&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;onClick&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;boton&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;etiqueta&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;boton&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;span&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;contador&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;etiqueta&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;textContent&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;contador&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;y por último vincularlo al documento así:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Jugando con PWA</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-02-jugando-con-pwa/</link>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-03-02-jugando-con-pwa/</guid>
-      <description>Estamos usando el sistema de presupuestos y gastos personales que armé en Django junto con Any.
-El tema es que ella suele usar el sistema desde el celular y no desde una computadora como hago yo. Así que notamos varias cosas para mejorar en la aplicación.
-Por una lado, acceder a la aplicación con el navegador es algo incómodo, notamos que se podía hacer una acceso rápido desde la pantalla inicio del celular, pero con ese acceso igual aparecían las barras de navegación y eso quitaba algo de espacio en pantalla.</description>
+      <description>&lt;p&gt;Estamos usando el sistema de presupuestos y gastos&#xA;personales que armé en Django junto con Any.&lt;/p&gt;&#xA;&lt;p&gt;El tema es que ella suele usar el sistema desde el celular y&#xA;no desde una computadora como hago yo. Así que notamos&#xA;varias cosas para mejorar en la aplicación.&lt;/p&gt;&#xA;&lt;p&gt;Por una lado, acceder a la aplicación con el navegador es&#xA;algo incómodo, notamos que se podía hacer una acceso rápido&#xA;desde la pantalla inicio del celular, pero con ese acceso&#xA;igual aparecían las barras de navegación y eso quitaba algo&#xA;de espacio en pantalla.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Botones asincrónicos con HTMX</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-21-botones-asincronicos-con-htmx/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-02-21-botones-asincronicos-con-htmx/</guid>
-      <description>HTMX no deja de sorprenderme, me gusta mucho la simplicidad que te propone para resolver problemas.
-Esta semana, por ejemplo, mejoré la forma en la que funcionan los formularios para crear transacciones en una aplicación web de gastos personales que estoy escribiendo.
-Resulta que tenía un formulario que permitía registrar gastos en el sistema, pero esa acción demoraba en ejecutarse en el servidor, así que se me ocurrió agregar esta funcionalidad:</description>
+      <description>&lt;p&gt;HTMX no deja de sorprenderme, me gusta mucho la simplicidad&#xA;que te propone para resolver problemas.&lt;/p&gt;&#xA;&lt;p&gt;Esta semana, por ejemplo, mejoré la forma en la que funcionan los&#xA;formularios para crear transacciones en una aplicación web&#xA;de gastos personales que estoy escribiendo.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que tenía un formulario que permitía registrar gastos en&#xA;el sistema, pero esa acción demoraba en ejecutarse en el servidor, así&#xA;que se me ocurrió agregar esta funcionalidad:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Simplificando imports en svelte</title>
       <link>https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2022-02-06-simplificando-imports-en-svelte/</guid>
-      <description>Hace unas semanas comencé a migrar un proyecto personal a sveltekit, en parte porque quiero retomar ese proyecto y en parte porque quiero aprender una herramienta nueva como svelte.
-Sin embargo a la hora de programar me encontraba escribiendo código como este:
-import BotonCrearTransaccion from &amp;#39;../../../../components/botones/crear-transaccion.svelte&amp;#39;; import BotonIniciarPresupuesto from &amp;#39;../../../../components/botones/crear-presupuesto.svelte&amp;#39;; import store from &amp;#34;../../../../stores&amp;#34;; Observa todos esos ../ que aparecen delante de las rutas.
-Estas rutas relativas no solo hacen que el código se vea muy feo, sino que también me impiden mover archivos dentro del proyecto, por ejemplo si quiero poner un componente dentro de una carpeta nueva o algo así.</description>
+      <description>&lt;p&gt;Hace unas semanas comencé a migrar un proyecto personal&#xA;a &lt;a href=&#34;https://kit.svelte.dev/&#34;&gt;sveltekit&lt;/a&gt;, en parte porque quiero&#xA;retomar ese proyecto y en parte porque quiero aprender una herramienta&#xA;nueva como &lt;a href=&#34;https://svelte.dev/&#34;&gt;svelte&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo a la hora de programar me encontraba escribiendo&#xA;código como este:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BotonCrearTransaccion&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;../../../../components/botones/crear-transaccion.svelte&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BotonIniciarPresupuesto&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;../../../../components/botones/crear-presupuesto.svelte&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;store&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;../../../../stores&amp;#34;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Observa todos esos &lt;code&gt;../&lt;/code&gt; que aparecen delante de las rutas.&lt;/p&gt;&#xA;&lt;p&gt;Estas rutas relativas no solo hacen que el código se vea muy feo, sino&#xA;que también me impiden mover archivos dentro del proyecto, por ejemplo&#xA;si quiero poner un componente dentro de una carpeta nueva o algo así. Cada&#xA;archivo que muevo puede &amp;ldquo;romper&amp;rdquo; esas rutas relativas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Devolviendo el control a tu navegador</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</guid>
-      <description>Algo que me gusta mucho de la web es que está diseñada para ser interpretada por un navegador:
-Tomemos como ejemplo alguna de las extensiones para bloquear contenido tipo AdBlock, ¿acaso no es una genialidad poder bloquear publicidades usando JavaScript?. ¿Y qué tal poder aumentar el tamaño de los textos pulsando CTRL +?, ¿y ver la actividad de red y bloquear dominios?.
-Es fácil habituarse a un navegador, dar por sentado que todo lo que hace es algo común, pero lo cierto es que casi ningún otro medio nos permite tener tanto control sobre el contenido como hace un navegador.</description>
+      <description>&lt;p&gt;Algo que me gusta mucho de la web es que está diseñada para ser interpretada&#xA;por un navegador:&lt;/p&gt;&#xA;&lt;p&gt;Tomemos como ejemplo alguna de las extensiones para bloquear contenido&#xA;tipo &lt;a href=&#34;https://es.wikipedia.org/wiki/AdBlock&#34;&gt;AdBlock&lt;/a&gt;, ¿acaso no es una&#xA;genialidad poder bloquear&#xA;publicidades usando JavaScript?. ¿Y qué tal poder aumentar el tamaño de los textos pulsando&#xA;&lt;code&gt;CTRL +&lt;/code&gt;?, ¿y ver la actividad de red y bloquear dominios?.&lt;/p&gt;&#xA;&lt;p&gt;Es fácil habituarse a un navegador, dar por sentado que todo lo que hace es algo común, pero lo cierto&#xA;es que casi ningún otro medio nos permite tener tanto control sobre el contenido como hace&#xA;un navegador. Con un navegador podemos inspeccionar y ver cómo están hechas las cosas, incluso modificarlas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Aprendiendo Ember, otra vez</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</link>
       <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-19-aprendiendo-ember-otra-vez/</guid>
-      <description>Hace más o menos 7 años mi biblioteca favorita para programar en JavaScript era AngularJS. Usaba la biblioteca en todos los proyectos que podía y me leía cada post que aparecía para aprender más. Quería hacer aplicaciones web conociendo la herramienta de principio a fin.
-Aprendí mucho, y al tiempo noté que trabajaba bastante bien con AngularJS, conocía algunos trucos para hacer las cosas de manera modular, comunicar componentes sin que la cosa se volviera inmanejable y escribir tests, que era algo que ni sabía como hacer al principio.</description>
+      <description>&lt;p&gt;Hace más o menos 7 años mi biblioteca favorita para programar&#xA;en JavaScript era &lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJS&lt;/a&gt;. Usaba la biblioteca en todos&#xA;los proyectos que podía y me leía cada post que aparecía para&#xA;aprender más. Quería hacer aplicaciones web&#xA;conociendo la herramienta de principio a fin.&lt;/p&gt;&#xA;&lt;p&gt;Aprendí mucho, y al tiempo noté que trabajaba&#xA;bastante bien con &lt;em&gt;AngularJS&lt;/em&gt;, conocía algunos trucos para hacer&#xA;las cosas de manera modular, comunicar componentes sin que la&#xA;cosa se volviera inmanejable y escribir tests, que era algo que&#xA;ni sabía como hacer al principio.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>La culpa no es del DOM</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-16-la-culpa-no-es-del-dom/</link>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-16-la-culpa-no-es-del-dom/</guid>
-      <description>Usar un Framework para escribir tu aplicación JavaScript tiene varias ventajas, sin embargo, creo que hay que revisar una idea que vi en varias charlas técnicas y algún que otro tutorial cuando se intenta justificar el uso de un Framework que me parece incorrecta.
-Se suele decir que cambiar el DOM con las APIs nativas del navegador es un proceso costoso (computacionalmente hablando) y que por ese motivo conviene usar virtualDom o una abstracción similar.</description>
+      <description>&lt;p&gt;Usar un Framework para escribir tu aplicación JavaScript tiene varias&#xA;ventajas, sin embargo, creo que hay que revisar una idea que vi en varias charlas&#xA;técnicas y algún que otro tutorial cuando se intenta justificar el&#xA;uso de un Framework que me parece incorrecta.&lt;/p&gt;&#xA;&lt;p&gt;Se suele decir que cambiar &lt;a href=&#34;https://www.reddit.com/r/javascript/comments/6115ay/why_do_developers_think_the_dom_is_slow/&#34;&gt;el DOM con las APIs nativas del navegador&#xA;es un proceso costoso&lt;/a&gt;&#xA;(computacionalmente hablando) y que por ese motivo conviene usar virtualDom o una abstracción similar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tortugas en el tiempo</title>
       <link>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/</guid>
-      <description>En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
-Podes ver el proyecto aquí:
- https://hugoruscitti.github.io/tortugas-en-el-tiempo   video { width: 100%; border: 1px solid gray; margin-top: 0.5em; margin-bottom: 0.5em; }  Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.</description>
+      <description>&lt;p&gt;En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para&#xA;dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de&#xA;aprendizaje y código.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2020/08/inicio.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Podes ver el proyecto aquí:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hugoruscitti.github.io/tortugas-en-el-tiempo&#34;&gt;https://hugoruscitti.github.io/tortugas-en-el-tiempo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;style&gt;&#xA;video {&#xA;  width: 100%;&#xA;  border: 1px solid gray;&#xA;  margin-top: 0.5em;&#xA;  margin-bottom: 0.5em;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;motivación&#34;&gt;Motivación&lt;/h2&gt;&#xA;&lt;p&gt;Hace algunos años vi una charla llamada &lt;a href=&#34;https://youtu.be/e7QYMgSk9s0&#34;&gt;“Inventing on Principle”&lt;/a&gt;&#xA;que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y&#xA;pensamos acerca del código.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Creando un visor de videos offline con electron y ember</title>
       <link>https://www.examplelab.com.ar/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/</link>
       <pubDate>Thu, 02 Jun 2016 19:17:18 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2016-06-02-creando-un-visor-de-videos-offline-con-electron-y-ember/</guid>
-      <description>Introducción Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5:
-La aplicación en sí es muy simple, está pensanda para crear una biblioteca de videos para mirar con los más chiquitos de la familia sin necesidad de Internet, youtube o publicidades.
-Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.</description>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Esta semana me propuse hacer una aplicación muy sencilla con ember y electron, un visor de videos offline HTML5:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/preview.png&#34; alt=&#34;preview&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La aplicación en sí es muy simple, está pensanda para crear una biblioteca de videos para mirar con los más chiquitos de la familia sin necesidad de Internet, youtube o publicidades.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/visor-1.png&#34; alt=&#34;visor&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Técnicamente hablando, la aplicación simplemente busca videos en un directorio del equipo, los lista en pantalla y permite visualizarlos usando HTML5.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Escalando imágenes con node-webkit</title>
       <link>https://www.examplelab.com.ar/posts/2015-01-06-escalando-imagenes-con-node-webkit/</link>
       <pubDate>Tue, 06 Jan 2015 18:37:43 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2015-01-06-escalando-imagenes-con-node-webkit/</guid>
-      <description>En este artículo quiero mostrar cómo se pueden procesar imágenes de manera rápida y multiplataforma desde node-webkit, usando ImageMagick y emberjs.
-ImageMagick es un conjunto de herramientas para procesar imágenes: escalar, recortar, convertir y aplicar efectos principalmente.
-Un pequeño ejemplo Para mostrar cómo combinar estas dos tecnologías, armé un proyecto mas pequeño a modo de ejemplo. Está disponible en el repositorio hugoruscitti/image-resizer-node-webkit de mi cuenta en github.
-La aplicación simplemente convierte la imagen que enviemos a 2 tamaños diferentes, y lo informa en pantalla.</description>
+      <description>&lt;p&gt;En este artículo quiero mostrar cómo se pueden procesar imágenes de manera&#xA;rápida y multiplataforma desde&#xA;&lt;a href=&#34;https://github.com/rogerwang/node-webkit&#34;&gt;node-webkit&lt;/a&gt;, usando&#xA;&lt;a href=&#34;http://www.imagemagick.org/&#34;&gt;ImageMagick&lt;/a&gt; y &lt;a href=&#34;http://emberjs.com/&#34;&gt;emberjs&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;ImageMagick&lt;/em&gt; es un conjunto de herramientas para procesar imágenes: escalar,&#xA;recortar, convertir y aplicar efectos principalmente.&lt;/p&gt;&#xA;&lt;h1 id=&#34;un-pequeño-ejemplo&#34;&gt;Un pequeño ejemplo&lt;/h1&gt;&#xA;&lt;p&gt;Para mostrar cómo combinar estas dos tecnologías, armé un proyecto mas pequeño a&#xA;modo de ejemplo. Está disponible en el repositorio&#xA;&lt;a href=&#34;https://github.com/hugoruscitti/image-resizer-node-webkit&#34;&gt;hugoruscitti/image-resizer-node-webkit&lt;/a&gt;&#xA;de mi cuenta en github.&lt;/p&gt;&#xA;&lt;p&gt;La aplicación simplemente convierte la imagen que enviemos a 2 tamaños&#xA;diferentes, y lo informa en pantalla. No importa cuan grande sea la imagen, el&#xA;trabajo pesado lo hará imagemagick :)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Usando ember-cli con node-webkit</title>
       <link>https://www.examplelab.com.ar/posts/2014-12-13-usando-ember-cli-con-node-webkit/</link>
       <pubDate>Sat, 13 Dec 2014 08:38:28 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-12-13-usando-ember-cli-con-node-webkit/</guid>
-      <description>Hace unas semanas estoy muy entusiasmado con emberjs y la posibilidad de incorporarlo en las aplicaciones desktop que desarrollamos en huayra y conectar igualdad.
-emberjs es un framework javascript para construir aplicaciones web, en cierta manera es similar a angularjs, pero con un enfoque diferente y algunas herramientas fantásticas como ember-cli.
-Mi sorpresa principal fue encontrarme que ember-cli, no funcionaba junto a node-webkit inmediatamente. Me llevó varias horas comprender el motivo y poder resolverlo, así que en este post voy a resumir lo que aprendí y lo quiero compartir con ustedes.</description>
+      <description>&lt;p&gt;Hace unas semanas estoy muy entusiasmado con &lt;a href=&#34;http://emberjs.com/&#34;&gt;emberjs&lt;/a&gt; y la&#xA;posibilidad de incorporarlo en las aplicaciones desktop que desarrollamos en&#xA;&lt;a href=&#34;http://huayra.conectarigualdad.gob.ar&#34;&gt;huayra&lt;/a&gt; y &lt;a href=&#34;http://www.conectarigualdad.gob.ar/&#34;&gt;conectar&#xA;igualdad&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/12/0cf15665a9146ba852bf042b0652780a.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://emberjs.com/&#34;&gt;emberjs&lt;/a&gt; es un framework javascript para construir aplicaciones web, en cierta manera es similar a &lt;a href=&#34;https://angularjs.org/&#34;&gt;angularjs&lt;/a&gt;, pero con un &lt;a href=&#34;http://eviltrout.com/2013/06/15/ember-vs-angular.html&#34;&gt;enfoque diferente&lt;/a&gt; y algunas herramientas fantásticas como &lt;a href=&#34;http://www.ember-cli.com/&#34;&gt;ember-cli&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Mi sorpresa principal fue encontrarme que&#xA;&lt;a href=&#34;http://www.ember-cli.com/&#34;&gt;ember-cli&lt;/a&gt;, no funcionaba junto a node-webkit&#xA;inmediatamente. Me llevó varias horas comprender el motivo y poder resolverlo,&#xA;así que en este post voy a resumir lo que aprendí y lo quiero compartir con&#xA;ustedes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Paneles animados</title>
       <link>https://www.examplelab.com.ar/posts/2014-01-11-paneles-animados/</link>
       <pubDate>Sat, 11 Jan 2014 17:15:41 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-01-11-paneles-animados/</guid>
-      <description>Hace unos dias, implementé animaciones en los paneles de huayra-stopmotion. Al principio opté por usar la forma mas rudimentaria de mostrar y ocultar paneles, pero luego descubrí como implementarlo usando css3 y un poquito de javascript:
-En este post me gustaría contarte cómo lo implementé, ya que puede resultarte útil a la hora de hacer algo similar.
-Acá está la versión completa en jsfiddle:
- El layout Para mantener el maquetado lo mas sencillo posible, vamos a crear tres contenedores:</description>
+      <description>&lt;p&gt;Hace unos dias, implementé animaciones en los paneles de &lt;strong&gt;huayra-stopmotion&lt;/strong&gt;. Al principio opté por usar la forma mas rudimentaria de mostrar y ocultar paneles, pero luego descubrí como implementarlo usando css3 y un poquito de javascript:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jan/stopmotion.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En este post me gustaría contarte cómo lo implementé, ya que puede resultarte útil a la hora de hacer algo similar.&lt;/p&gt;&#xA;&lt;p&gt;Acá está la versión completa en jsfiddle:&lt;/p&gt;&#xA;&lt;iframe width=&#34;100%&#34; height=&#34;300&#34; src=&#34;http://jsfiddle.net/hugoruscitti/TVBHC/embedded/result,js,html,css&#34; allowfullscreen=&#34;allowfullscreen&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&#xA;&lt;h2 id=&#34;el-layout&#34;&gt;El layout&lt;/h2&gt;&#xA;&lt;p&gt;Para mantener el maquetado lo mas sencillo posible, vamos a crear tres contenedores:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Encuentro Linux en Temuco, Chile</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</link>
       <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</guid>
-      <description>Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en la ciudad de Temuco:
-Es la primera vez que visito Temuco, y de principio a fin estuvo espectacular, la Universidad de la Frontera en donde se realizó el evento es muy linda, está rodeada de jardines y espacios comunes grandes y cómodos:
-El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pilas-engine y al dia siguiente otra sobre node-webkit.</description>
+      <description>&lt;p&gt;Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en la ciudad de Temuco:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0661_JPG.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0636_JPG.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es la primera vez que visito Temuco, y de principio a fin estuvo espectacular, la Universidad de la Frontera en donde se realizó el evento es muy linda, está rodeada de jardines y espacios comunes grandes y cómodos:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0646_JPG.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0642_JPG.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0633_JPG.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pilas-engine y al dia siguiente otra sobre node-webkit. Asistí a otras charlas muy buenas, una sobre git, opencv y django.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

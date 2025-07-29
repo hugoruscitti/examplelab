@@ -1,57 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>imágenes on Examplelab</title>
+    <title>Imágenes on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/im%C3%A1genes/</link>
-    <description>Recent content in imágenes on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/im%C3%A1genes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Imágenes on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/im%C3%A1genes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Avanzar cuadro a cuadro en Youtube</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-18-avanzar-cuadro-a-cuadro-en-youtube/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-07-18-avanzar-cuadro-a-cuadro-en-youtube/</guid>
-      <description>La semana pasada vi una película de animación con mis sobrinos en donde aparecía una computadora que hablaba haciendo unos gestos bastante graciosos:
-Esta animación de la computadora me gustó mucho, así que me dieron ganas de verla en cámara lenta, cuadro a cuadro, y ver si podía copiarla para usar en algún proyecto.
-Busqué el video de esa escena de la película en youtube y luego encontré que había dos atajos de teclado en el reproductor para poder avanzar cuadro a cuadro el video:</description>
+      <description>&lt;p&gt;La semana pasada vi una película de animación con mis sobrinos&#xA;en donde aparecía una computadora que hablaba haciendo unos&#xA;gestos bastante graciosos:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/avanzar-cuadro-a-cuadro-en-youtube/pelicula.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta animación de la computadora me gustó mucho, así que me dieron ganas de&#xA;verla en cámara lenta, cuadro a cuadro, y ver si podía copiarla para usar en&#xA;algún proyecto.&lt;/p&gt;&#xA;&lt;p&gt;Busqué el video de esa escena de la película en youtube&#xA;y luego encontré que había dos atajos de teclado en el reproductor para&#xA;poder avanzar cuadro a cuadro el video:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cómo recortar tiles con ImageMagick</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</link>
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-07-04-como-recortar-tiles-con-imagemagick/</guid>
-      <description>ImageMagick es un conjunto de herramientas que te permiten procesar imágenes de muchas formas diferentes. Además, se usa a través de la linea de comandos lo que permite automatizar y procesar muchas imágenes a la vez.
-Por ejemplo, algo que necesito hacer muy seguido es tomar una grilla de sprites y dividirla en archivos de imágenes individuales.
-Las grillas (o tiles) son muy eficientes, pero no son nada prácticos a la hora de hacer pruebas o escoger imágenes para un juego.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://imagemagick.org/script/index.php&#34;&gt;ImageMagick&lt;/a&gt; es un conjunto de herramientas que te permiten procesar imágenes&#xA;de muchas formas diferentes. Además, se usa a través de la linea de comandos lo&#xA;que permite automatizar y procesar muchas imágenes a la vez.&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, algo que necesito hacer muy seguido es tomar una&#xA;grilla de &lt;em&gt;sprites&lt;/em&gt; y dividirla en archivos de imágenes individuales.&lt;/p&gt;&#xA;&lt;p&gt;Las grillas (o tiles) son muy eficientes, pero no son nada&#xA;prácticos a la hora de hacer pruebas o escoger imágenes para&#xA;un juego.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Agregando efectos especiales en juegos 2D</title>
       <link>https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</link>
       <pubDate>Fri, 15 Apr 2016 21:02:50 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</guid>
-      <description>Esta semana estuvimos agregando efectos especiales a uno de nuestros juegos en unity:
-Pero a diferencia de lo que hicimos en otros juegos, aquí no usamos partículas sino efectos prediseñados de video, que luego de procesarlos como imágenes se pueden integrar a unity.
-¿Por qué? Los efectos de videos tienen una apariencia espectacular, sobretodo cuando de trata de juegos 2d, caricaturescos y divertidos.
-Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como la la serie toonstool-fx.</description>
+      <description>&lt;p&gt;Esta semana estuvimos agregando efectos especiales a uno de nuestros juegos en unity:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/02/Untitled-2016-02-19-15-45-33.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pero a diferencia de lo que hicimos en otros juegos, aquí no usamos partículas sino efectos prediseñados de video, que luego de procesarlos como imágenes se pueden integrar a unity.&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-qué&#34;&gt;¿Por qué?&lt;/h2&gt;&#xA;&lt;p&gt;Los efectos de videos tienen una apariencia espectacular, sobretodo cuando de trata de juegos 2d, caricaturescos y divertidos.&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, mirá la galería de efectos que produjo &lt;a href=&#34;http://videohive.net/user/dyomin&#34;&gt;dyomin&lt;/a&gt; en videhive, como la la serie &lt;a href=&#34;http://videohive.net/item/toonstool-fx-kit/12815828&#34;&gt;toonstool-fx&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Como crear grillas de sprites con Gimp</title>
       <link>https://www.examplelab.com.ar/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/</link>
       <pubDate>Sat, 14 Jan 2012 15:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2012-01-14-como-crear-grillas-de-sprites-con-gimp/</guid>
-      <description>En este artículo veremos cómo crear una grilla de imágenes para colocar en un videojuego.
-Usaremos gimp junto a unos complementos que escribí hace varios meses. Y por último, vamos a poner esa grilla en acción usando el motor pilas
-Conceptos iniciales Básicamente, una grilla se utiliza en los videojuegos 2D para representar todos los cuadros de una animación:
-Por ejemplo, en la imagen anterior tenemos 5 cuadros de animación en la misma imagen (tomado el juego sbfury de losersjuegos).</description>
+      <description>&lt;p&gt;En este artículo veremos cómo crear una grilla de&#xA;imágenes para colocar en un videojuego.&lt;/p&gt;&#xA;&lt;p&gt;Usaremos &lt;a href=&#34;http://www.gimp.org/&#34;&gt;gimp&lt;/a&gt; junto a unos complementos que escribí&#xA;hace varios meses. Y por último, vamos&#xA;a poner esa grilla en acción usando el motor &lt;a href=&#34;http://www.pilas-engine.com.ar&#34;&gt;pilas&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;conceptos-iniciales&#34;&gt;Conceptos iniciales&lt;/h1&gt;&#xA;&lt;p&gt;Básicamente, una grilla se utiliza en los videojuegos 2D&#xA;para representar todos los cuadros de una animación:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Oct/special-2.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, en la imagen anterior tenemos 5 cuadros&#xA;de animación en la misma imagen (tomado el juego&#xA;&lt;a href=&#34;https://github.com/hugoruscitti/sbfury&#34;&gt;sbfury&lt;/a&gt; de losersjuegos).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

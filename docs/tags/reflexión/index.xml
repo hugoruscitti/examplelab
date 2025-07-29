@@ -1,410 +1,271 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reflexión on Examplelab</title>
+    <title>Reflexión on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/reflexi%C3%B3n/</link>
-    <description>Recent content in reflexión on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/reflexi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Reflexión on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/reflexi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simplificando por un motivo accidental</title>
       <link>https://www.examplelab.com.ar/posts/2023-11-24-simplificando-por-un-motivo-accidental/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-11-24-simplificando-por-un-motivo-accidental/</guid>
-      <description>Me propuse publicar una nueva versión de pilas, pero como no hacía esto hace tiempo aparecieron problemas.
-El mecanismo para publicar versiones estaba automatizado, con tests, integración continua, generación automática de binarios en circle-ci y publicación.
-Lamentablemente, mucha de la automatización que tenía funcionando para hacerme la vida más fácil dejó de funcionar: el sistema de CI me informó que mis imágenes de docker estaban en desuso, github cambió unas llaves por un tema de seguridad así que el servidor no pudo actualizar los binarios y los tests dejaron de iniciar (y aún no se por qué).</description>
+      <description>&lt;p&gt;Me propuse publicar una nueva versión de pilas, pero como no&#xA;hacía esto hace tiempo aparecieron problemas.&lt;/p&gt;&#xA;&lt;p&gt;El mecanismo para publicar versiones estaba automatizado,&#xA;con &lt;em&gt;tests&lt;/em&gt;, integración continua, generación automática de&#xA;binarios en circle-ci y publicación.&lt;/p&gt;&#xA;&lt;p&gt;Lamentablemente, mucha de la automatización que tenía&#xA;funcionando para hacerme la vida más fácil dejó de&#xA;funcionar: el sistema de CI me&#xA;informó que mis imágenes de docker estaban en desuso, github&#xA;cambió unas llaves por un tema de seguridad así que el&#xA;servidor no pudo actualizar los binarios y los&#xA;&lt;em&gt;tests&lt;/em&gt; dejaron de iniciar (y aún no se por qué).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Configurando un media center con Kodi</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</link>
       <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</guid>
-      <description>Esta semana terminé de configurar un media center para ver películas y series en la televisión:
-Hoy, al ver todo configurado y funcionando quedé muy satisfecho así que me gustaría mencionar y enumerar lo que aprendí en el camino:
-¿Por qué? Me gustan las películas, pero tengo apenas una o dos oportunidades de ver una película completa por semana. Me cuesta elegir qué mirar y no quiero descubrir que la película es muy mala mientras la estoy mirando.</description>
+      <description>&lt;p&gt;Esta semana terminé de configurar un &lt;em&gt;media center&lt;/em&gt; para ver&#xA;películas y series en la televisión:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/configurando-media-center-kodi/primer-prueba.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hoy, al ver todo configurado y funcionando quedé muy&#xA;satisfecho así que me gustaría mencionar y enumerar lo que&#xA;aprendí en el camino:&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-qué&#34;&gt;¿Por qué?&lt;/h2&gt;&#xA;&lt;p&gt;Me gustan las películas, pero tengo apenas una o dos&#xA;oportunidades de ver una película completa por semana. Me&#xA;cuesta elegir qué mirar y no quiero descubrir que la&#xA;película es muy mala mientras la estoy mirando.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¿Por qué tomar notas?</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-27-por-que-tomar-notas/</link>
       <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-02-27-por-que-tomar-notas/</guid>
-      <description>&amp;ldquo;La mente es para tener ideas, y no para guardar cosas&amp;rdquo; es una de las frases mas lindas del libro GTD de David Allen.
-En ese libro, una de las ideas primordiales era que la información, tareas y proyectos nos producían stress y nos agotaban la mente si no teníamos una forma de lidiar con todo eso.
-La mente asocia ideas con emociones, no puede distinguir con exactitud qué es urgente, importante o trivial; mezcla el trabajo con la vida personal y nos recuerda las cosas en los momentos menos oportunos.</description>
+      <description>&lt;p&gt;&amp;ldquo;La mente es para tener ideas, y no para guardar cosas&amp;rdquo; es&#xA;una de las frases mas lindas del libro GTD de David Allen.&lt;/p&gt;&#xA;&lt;p&gt;En ese libro, una de las ideas primordiales era que la&#xA;información, tareas y proyectos nos producían &lt;em&gt;stress&lt;/em&gt; y nos&#xA;agotaban la mente si no teníamos una forma de lidiar con&#xA;todo eso.&lt;/p&gt;&#xA;&lt;p&gt;La mente asocia ideas con emociones, no puede distinguir&#xA;con exactitud qué es urgente, importante o trivial; mezcla&#xA;el trabajo con la vida personal y nos recuerda las cosas en&#xA;los momentos menos oportunos. Todo eso nos agota, produce&#xA;&lt;em&gt;stress&lt;/em&gt; y nos dispersa.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>El desafío de escribir todos los días</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-24-desafio-escribir-todos-los-dias/</link>
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-02-24-desafio-escribir-todos-los-dias/</guid>
-      <description>Hace unos días comenzamos un desafío junto a OSiUX y Nacho: Vamos a escribir en nuestros blogs todos los días durante un mes.
-Hace un tiempo hicimos un desafío similar con OSiUX y quedamos muy contentos con el resultado. Desafiarse a escribir todos los días con amigos te da una energía extra para alcanzar la meta.
-Sin embargo, me sigue resultando muy difícil.
-¿Por qué? Los tres tenemos blogs pero nos cuesta mucho escribir.</description>
+      <description>&lt;p&gt;Hace unos días comenzamos un desafío junto a&#xA;&lt;a href=&#34;https://osiux.com/&#34;&gt;OSiUX&lt;/a&gt; y Nacho:&#xA;Vamos a escribir en nuestros blogs todos los días durante un mes.&lt;/p&gt;&#xA;&lt;p&gt;Hace un tiempo &lt;a href=&#34;https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/&#34;&gt;hicimos un desafío&#xA;similar&lt;/a&gt; con OSiUX y&#xA;quedamos muy contentos con el resultado. Desafiarse a&#xA;escribir todos los días con amigos te da una energía extra&#xA;para alcanzar la meta.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, me sigue resultando muy difícil.&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-qué&#34;&gt;¿Por qué?&lt;/h2&gt;&#xA;&lt;p&gt;Los tres tenemos blogs pero nos cuesta mucho escribir.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dibujar para ser protagonista</title>
       <link>https://www.examplelab.com.ar/posts/2021-10-10-dibujar-para-ser-protagonista/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-10-10-dibujar-para-ser-protagonista/</guid>
-      <description>La idea más importante de Pilas es que los chicos deben ser protagonistas de la tecnología en lugar de espectadores.
-Crear juegos les permite ser protagonistas, ver a la tecnología como una herramienta para &amp;ldquo;crear cosas&amp;rdquo; y no solamente divertirse. Le da el control y la posibilidad de ser creativos.
-Sin embargo, ser protagonistas es una cuestión filosófica en la vida, se trata sobre cómo encaramos quienes somos y qué hacemos en todo momento.</description>
+      <description>&lt;p&gt;La idea más importante de &lt;a href=&#34;https://www.pilas-engine.com.ar&#34;&gt;Pilas&lt;/a&gt; es que los&#xA;chicos deben ser protagonistas de la tecnología en lugar de espectadores.&lt;/p&gt;&#xA;&lt;p&gt;Crear juegos les permite ser protagonistas, ver a la tecnología como una&#xA;herramienta para &amp;ldquo;crear cosas&amp;rdquo; y no solamente divertirse. Le da el control y la posibilidad&#xA;de ser creativos.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, ser protagonistas es una cuestión filosófica en la vida, se trata sobre&#xA;cómo encaramos quienes somos y qué hacemos en todo momento. No hacen falta las computadoras ni&#xA;herramientas sofisticadas. Por ejemplo, &amp;ldquo;dibujar&amp;rdquo; es una actividad que pone a los chicos&#xA;en un rol protagónico y es una de las formas más accesibles de lograrlo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>El propósito de tu tecnología</title>
       <link>https://www.examplelab.com.ar/posts/2021-09-24-el-proposito-de-tu-tecnologia/</link>
       <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-09-24-el-proposito-de-tu-tecnologia/</guid>
-      <description>Las nuevas tecnologías despiertan la ilusión de muchas personas. Aún no comprendo exactamente por qué.
-¿Cuál es el propósito de tanta tecnología?, ¿Qué problema resuelven realmente?.
-Esta semana, por ejemplo, Facebook lanzó al mercado un par de anteojos con montones de features: se conectan automáticamente a Internet, nos dan servicios e información sobre lo que estamos viendo, incorporan una cámara de fotos etc.
-Además, casi todas las noticias que me llegaron al respecto hablaban de lo mismo: el movimiento de la empresa, el lanzamiento en sí, el interés de los consumidores y las espectativas sobre qué cosas se podrán hacer en el futuro con semejante tecnología.</description>
+      <description>&lt;p&gt;Las nuevas tecnologías despiertan la ilusión de muchas personas. Aún&#xA;no comprendo exactamente por qué.&lt;/p&gt;&#xA;&lt;p&gt;¿Cuál es el propósito de tanta tecnología?, ¿Qué problema&#xA;resuelven realmente?.&lt;/p&gt;&#xA;&lt;p&gt;Esta semana, por ejemplo, Facebook lanzó al mercado un par&#xA;de anteojos con montones de &lt;em&gt;features&lt;/em&gt;: se conectan automáticamente&#xA;a Internet, nos dan servicios e información sobre lo que estamos&#xA;viendo, incorporan una cámara de fotos etc.&lt;/p&gt;&#xA;&lt;p&gt;Además, casi todas las noticias que me llegaron al respecto hablaban&#xA;de lo mismo: el movimiento de la empresa, el lanzamiento en sí, el&#xA;interés de los consumidores y las &lt;em&gt;espectativas&lt;/em&gt; sobre qué cosas&#xA;se podrán hacer en el futuro con semejante tecnología.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Un ajuste mínimo al Dock</title>
       <link>https://www.examplelab.com.ar/posts/2021-08-28-un-ajuste-minimo-al-dock/</link>
       <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-08-28-un-ajuste-minimo-al-dock/</guid>
-      <description>Hace tiempo que no escribo en el blog, así que se me ocurrió que una forma de retomar el ritmo es explicar este pequeño truco.
-Resulta que Osx tiene un Dock en donde las aplicaciones &amp;ldquo;saltan&amp;rdquo; si hay un mensaje importante para atender. Por ejemplo si inicias la descarga de un archivo y el navegador quiere saber dónde guardar el archivo el navegador va a interrumpirte.
-A mí no me gustan las interrupciones, así que busqué por todos lados como desactivar esos íconos saltarines.</description>
+      <description>&lt;p&gt;Hace tiempo que no escribo en el blog, así que se me&#xA;ocurrió que una forma de retomar el ritmo es explicar&#xA;este pequeño truco.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que Osx tiene un Dock en donde las aplicaciones&#xA;&amp;ldquo;saltan&amp;rdquo; si hay un mensaje importante para atender. Por&#xA;ejemplo si inicias la descarga de un archivo y el navegador&#xA;quiere saber dónde guardar el archivo el navegador va a&#xA;interrumpirte.&lt;/p&gt;&#xA;&lt;p&gt;A mí no me gustan las interrupciones, así que busqué por&#xA;todos lados como desactivar esos íconos saltarines.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Es lindo usar prettier</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-21-es-lindo-usar-prettier/</guid>
-      <description>Prettier es una herramienta que ajusta automáticamente el estilo de tu código, como ajustar la indentación del código de forma consistente, colocar ; en cada línea, separar con un espacio los operadores y varias cosas más.
-Al principio parece algo puramente accesorio, pero con el tiempo se vuelve una herramienta con mucho sentido.
-Usando prettier se puede delegar a la computadora muchas tareas pequeñas de consistencia sin alterar el funcionamiento del programa.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://prettier.io/&#34;&gt;Prettier&lt;/a&gt; es una herramienta que ajusta automáticamente&#xA;el estilo de tu código, como ajustar la indentación del código de forma&#xA;consistente, colocar &lt;code&gt;;&lt;/code&gt; en cada línea, separar con un espacio los operadores y&#xA;varias cosas más.&lt;/p&gt;&#xA;&lt;p&gt;Al principio parece algo puramente accesorio, pero con el tiempo se vuelve una&#xA;herramienta con mucho sentido.&lt;/p&gt;&#xA;&lt;p&gt;Usando &lt;a href=&#34;https://prettier.io/&#34;&gt;prettier&lt;/a&gt; se puede delegar a la computadora&#xA;muchas tareas pequeñas de consistencia sin alterar el funcionamiento del&#xA;programa. La computadora no solo hace eso a la perfección, sino que además te&#xA;libera tiempo y energía para que puedas invertirla en otras cosas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ordenando mi colección de fotos</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-14-ordenando-mi-coleccion-de-fotos/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-14-ordenando-mi-coleccion-de-fotos/</guid>
-      <description>Hace unos días me di cuenta que estaba quedándome sin espacio en mi servicio de almacenamiento de fotos, pero en lugar de contratar más espacio me puse a evaluar si realmente tenía tantas fotos que quisiera conservar.
-Resultó que tenía demasiadas fotos, muchas repetidas y otras demasiado similares. Creo que a muchas personas nos pasa lo mismo, queremos retratar un momento y por las dudas sacamos 3 o 4 fotos iguales pensando que luego vamos a tomarnos el tiempo de elegir la mejor y borrar las otras.</description>
+      <description>&lt;p&gt;Hace unos días me di cuenta que estaba quedándome sin espacio en mi servicio de&#xA;almacenamiento de fotos, pero en lugar de contratar más espacio me puse a evaluar si&#xA;realmente tenía tantas fotos que quisiera conservar.&lt;/p&gt;&#xA;&lt;p&gt;Resultó que tenía demasiadas fotos, muchas repetidas y otras demasiado&#xA;similares. Creo que a muchas personas nos pasa lo mismo, queremos retratar un&#xA;momento y por las dudas sacamos 3 o 4 fotos iguales pensando que luego vamos&#xA;a tomarnos el tiempo de elegir la mejor y borrar las otras.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cambiando de teclado</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-05-cambiando-de-teclado/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-05-cambiando-de-teclado/</guid>
-      <description>Hace unos meses decidí comprar un teclado mecánico por curiosidad, un amigo me comentó mil veces sobre su teclado mecánico y luego de ver varios videos de reseñas no me pude resistir a comprar uno para ver de qué se trataba.
-Y sí, debo admitir que caí en la moda de los teclados mecánicos de una, no solo me acostumbré a sus teclas grandes y ruidosas, sino que también empecé a notar que la experiencia de escribir en este tipo de teclados es mucho mejor.</description>
+      <description>&lt;p&gt;Hace unos meses decidí comprar un &lt;a href=&#34;https://www.redragonzone.com/collections/keyboard/products/redragon-k530-draconic-60-compact-rgb-wireless-mechanical-keyboard-61-keys-tkl-designed-5-0-bluetooth-gaming-keyboard-with-brown-switches&#34;&gt;teclado&#xA;mecánico&lt;/a&gt;&#xA;por curiosidad, un amigo me comentó mil veces sobre su teclado mecánico y luego&#xA;de ver varios videos de reseñas no me pude resistir a comprar uno para ver de&#xA;qué se trataba.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/cambiando-de-teclado/teclado.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Y sí, debo admitir que caí en la moda de los teclados mecánicos de una, no solo&#xA;me acostumbré a sus teclas grandes y ruidosas, sino que también empecé a notar&#xA;que la experiencia de escribir en este tipo de teclados es mucho mejor.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recuperando mis viejos posts</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/</link>
       <pubDate>Thu, 03 Jun 2021 10:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-03-recuperando-mis-viejos-posts/</guid>
-      <description>Hace algunos meses el blog de la empresa para la que trabajo se cayó y tardamos unos días en darnos cuenta y volver a levantarlo.
-Sin embargo, me dejó algo preocupado notar que algunos artículos que escribí y que me gustaría conservar pueden perderse porque no los tengo a mano.
-Me gusta la idea de conservar esos artículos en mi dominio, solo así sé que los voy a tener como referencia siempre que los necesite y voy a poder resguardarlos, hacerles mejoras o borrarlos si ya no me gustan o los veo irrelevantes.</description>
+      <description>&lt;p&gt;Hace algunos meses el blog de la empresa para la que trabajo&#xA;se cayó y tardamos unos días en darnos cuenta y volver a levantarlo.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, me dejó algo preocupado notar que algunos artículos que escribí y&#xA;que me gustaría conservar pueden perderse porque no los tengo a mano.&lt;/p&gt;&#xA;&lt;p&gt;Me gusta la idea de conservar esos artículos en mi dominio, solo así&#xA;sé que los voy a tener como referencia siempre que los necesite y voy a poder&#xA;resguardarlos, hacerles mejoras o borrarlos si ya no me gustan o los veo&#xA;irrelevantes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ordenando Música</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-25-ordenando-musica/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-05-25-ordenando-musica/</guid>
-      <description>Hace unos días di de baja mi suscripción a Spotify Premium.
-El servicio de Spotify es bastante bueno, sin embargo, me di cuenta de que necesito algo más simple y fácil de gestionar.
-Empecé a notar que tengo demasiados álbumes en mi perfil de usuario; hay muchas canciones sueltas y playlists que crecieron orgánicamente. Algunas cosas me gustan mucho, pero otras no tanto.
-El problema de tener tantas cosas es que aquellas que me gusta muchísimo se mezclan con las que simplemente me gustan un poco.</description>
+      <description>&lt;p&gt;Hace unos días di de baja mi suscripción a Spotify Premium.&lt;/p&gt;&#xA;&lt;p&gt;El servicio de Spotify es bastante bueno, sin embargo, me di cuenta de que&#xA;necesito algo más simple y fácil de gestionar.&lt;/p&gt;&#xA;&lt;p&gt;Empecé a notar que tengo demasiados álbumes en mi perfil de usuario; hay muchas&#xA;canciones sueltas y playlists que crecieron orgánicamente. Algunas cosas me gustan&#xA;mucho, pero otras no tanto.&lt;/p&gt;&#xA;&lt;p&gt;El problema de tener tantas cosas es que aquellas que me gusta muchísimo se&#xA;mezclan con las que simplemente me gustan un poco. Entre tanta variedad es como&#xA;si mi atención se tuviera que dividir entre varias opciones.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Escribiendo un libro</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-11-escribiendo-un-libro/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-05-11-escribiendo-un-libro/</guid>
-      <description>Hace unos meses que estoy escribiendo un software para crear presupuestos personales, mi intención es crear un producto que permita resolver el problema de estrés y falta de control que muchas personas tienen con sus finanzas personales.
-Sin embargo el software por sí solo no alcanza, creo que para resolver el problema de las finanzas personales hay que tener en cuenta varios principios y técnicas, volverlo una metodología que se pueda sostener en el tiempo y tenga sentido.</description>
+      <description>&lt;p&gt;Hace unos meses que estoy escribiendo un software para&#xA;crear presupuestos personales, mi intención es crear un&#xA;producto que permita resolver el problema de estrés y&#xA;falta de control que muchas personas tienen con sus&#xA;finanzas personales.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo el software por sí solo no alcanza, creo que&#xA;para resolver el problema de las finanzas personales hay&#xA;que tener en cuenta varios principios y técnicas, volverlo&#xA;una metodología que se pueda sostener en el tiempo y tenga&#xA;sentido.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Seguimiento de hábitos</title>
       <link>https://www.examplelab.com.ar/posts/2021-05-04-seguimiento-de-habitos/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-05-04-seguimiento-de-habitos/</guid>
-      <description>Hace unos meses leí el libro Hábitos Atómicos y desde entonces estoy intentando incorporar pequeños hábitos que me gustaría tener de aquí en adelante.
-La premisa del libro de James Clear es bastante sencilla, porque nos propone elegir una serie de hábitos pequeños, fáciles de realizar, pero que tenemos que mantener y ejercitar de forma consistente todos los días.
-Lo que se intenta hacer con esta premisa es que podamos ir construyendo evidencia de que podemos practicar estos hábitos periódicamente y así construir una identidad alrededor de ellas.</description>
+      <description>&lt;p&gt;Hace unos meses leí el libro &lt;a href=&#34;https://jamesclear.com/atomic-habits&#34;&gt;Hábitos&#xA;Atómicos&lt;/a&gt; y desde entonces estoy&#xA;intentando incorporar pequeños hábitos que me gustaría tener de aquí en&#xA;adelante.&lt;/p&gt;&#xA;&lt;p&gt;La premisa del libro de &lt;a href=&#34;https://jamesclear.com/&#34;&gt;James Clear&lt;/a&gt; es bastante sencilla, porque&#xA;nos propone elegir una serie de hábitos pequeños, fáciles de realizar,&#xA;pero que tenemos que mantener y ejercitar de forma consistente todos los días.&lt;/p&gt;&#xA;&lt;p&gt;Lo que se intenta hacer con esta premisa es que podamos ir construyendo&#xA;evidencia de que podemos practicar estos hábitos periódicamente y así&#xA;construir una identidad alrededor de ellas. En palabras de &lt;em&gt;James Clear&lt;/em&gt;&#xA;la idea es plantearnos: &amp;ldquo;¿En qué tipo de persona quieres convertirte?&amp;rdquo; y&#xA;a partir de ahí elegir aquellas actividades que haría esa persona para&#xA;construir su identidad.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sobre las redes sociales</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-29-sobre-las-redes-sociales/</link>
       <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-04-29-sobre-las-redes-sociales/</guid>
-      <description>Hace unos días vi un documental llamado El Dilema de las Redes Sociales.
-Comencé a ver el documental con muchas expectativas, porque trataba de un tema que me parece importante, donde había mucho espacio para analizar, hacer recomendaciones para mejorar la relación con la tecnología y aprender algunos trucos.
-Imaginé que el documental iba en la misma dirección que mis expectativas.
-Sin embargo, el documental nos muestra una serie de problemas a tal velocidad que se vuelve abrumador.</description>
+      <description>&lt;p&gt;Hace unos días vi un documental llamado &lt;em&gt;El Dilema de las Redes Sociales&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Comencé a ver el documental con muchas expectativas, porque trataba&#xA;de un tema que me parece importante, donde había mucho espacio&#xA;para analizar, hacer recomendaciones para mejorar la relación con la tecnología&#xA;y aprender algunos trucos.&lt;/p&gt;&#xA;&lt;p&gt;Imaginé que el documental iba en la misma dirección que mis expectativas.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, el documental nos muestra una serie de problemas a tal velocidad&#xA;que se vuelve abrumador. Incluso problemas que tienen soluciones&#xA;simples y son fácilmente abordables parecen imposibles de resolver cuando&#xA;se describen a tal velocidad.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Todo está bien</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-18-todo-esta-bien/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-04-18-todo-esta-bien/</guid>
-      <description>Sé que el título del post puede sonar incorrecto en estas épocas de pandemia e incertidumbre económica, pero siento que son estos momentos tan adversos los que nos hacen valorar muchas cosas que dábamos por sentado.
-Para mí, quejarme es una suerte de desahogo, me acostumbré a hacerlo de tal forma que hoy me cuesta cambiarlo. Ahora pienso: ¿cuántas veces me quejé por boludeces como hacer fila en un cajero automático?</description>
+      <description>&lt;p&gt;Sé que el título del post puede sonar incorrecto en estas épocas de pandemia e&#xA;incertidumbre económica, pero siento que son estos momentos tan adversos los&#xA;que nos hacen valorar muchas cosas que dábamos por sentado.&lt;/p&gt;&#xA;&lt;p&gt;Para mí, quejarme es una suerte de desahogo, me acostumbré a hacerlo de tal&#xA;forma que hoy me cuesta cambiarlo. Ahora pienso: ¿cuántas veces me quejé por&#xA;boludeces como hacer fila en un cajero automático?, ¿por esperar en un restaurant&#xA;a que traigan la comida?, ¿y las veces que me quejé porque internet funcionaba lento?.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Una cosa a la vez</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-09-una-cosa-a-la-vez/</link>
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-04-09-una-cosa-a-la-vez/</guid>
-      <description>En las computadoras es muy fácil abrir varias aplicaciones, tener muchas pestañas del navegador abiertas e ir saltando de una aplicación a otra.
-Sin embargo, al menos para mí, es muy tedioso trabajar sin mantener el foco en algo específico, puedo estar horas saltando de un tema a otro, haciendo varias cosas y aun así sentir que no logré completar nada útil al finalizar el día.
-Necesito concentrarme en algo específico, dedicarle esfuerzo y terminarlo.</description>
+      <description>&lt;p&gt;En las computadoras es muy fácil abrir varias aplicaciones, tener&#xA;muchas pestañas del navegador abiertas e ir &lt;em&gt;saltando&lt;/em&gt; de una aplicación&#xA;a otra.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, al menos para mí, es muy tedioso trabajar&#xA;sin mantener el foco en algo específico, puedo estar horas saltando de un tema&#xA;a otro, haciendo varias cosas y aun así sentir que no logré completar nada útil&#xA;al finalizar el día.&lt;/p&gt;&#xA;&lt;p&gt;Necesito concentrarme en algo específico, dedicarle esfuerzo y terminarlo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Devolviendo el control a tu navegador</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-04-05-devolviendo-el-control-a-tu-navegador/</guid>
-      <description>Algo que me gusta mucho de la web es que está diseñada para ser interpretada por un navegador:
-Tomemos como ejemplo alguna de las extensiones para bloquear contenido tipo AdBlock, ¿acaso no es una genialidad poder bloquear publicidades usando JavaScript?. ¿Y qué tal poder aumentar el tamaño de los textos pulsando CTRL +?, ¿y ver la actividad de red y bloquear dominios?.
-Es fácil habituarse a un navegador, dar por sentado que todo lo que hace es algo común, pero lo cierto es que casi ningún otro medio nos permite tener tanto control sobre el contenido como hace un navegador.</description>
+      <description>&lt;p&gt;Algo que me gusta mucho de la web es que está diseñada para ser interpretada&#xA;por un navegador:&lt;/p&gt;&#xA;&lt;p&gt;Tomemos como ejemplo alguna de las extensiones para bloquear contenido&#xA;tipo &lt;a href=&#34;https://es.wikipedia.org/wiki/AdBlock&#34;&gt;AdBlock&lt;/a&gt;, ¿acaso no es una&#xA;genialidad poder bloquear&#xA;publicidades usando JavaScript?. ¿Y qué tal poder aumentar el tamaño de los textos pulsando&#xA;&lt;code&gt;CTRL +&lt;/code&gt;?, ¿y ver la actividad de red y bloquear dominios?.&lt;/p&gt;&#xA;&lt;p&gt;Es fácil habituarse a un navegador, dar por sentado que todo lo que hace es algo común, pero lo cierto&#xA;es que casi ningún otro medio nos permite tener tanto control sobre el contenido como hace&#xA;un navegador. Con un navegador podemos inspeccionar y ver cómo están hechas las cosas, incluso modificarlas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Planificar y hacer</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-24-planificar-y-hacer/</guid>
-      <description>Esta semana empecé a leer un libro sobre productividad que comienza con una idea muy simple:
- El problema de la productividad es que muchas personas tratamos de hacer dos cosas al mismo tiempo: Un minuto estamos &amp;ldquo;planificando&amp;rdquo;, luego nos ponemos a &amp;ldquo;hacer&amp;rdquo;, en unos instantes volvemos a &amp;ldquo;planificar&amp;rdquo; y así continuamos durante todo el día.
- Creo que es fácil advertir donde está el problema, cambiar de contexto durante el transcurso día es muy abrumador.</description>
+      <description>&lt;p&gt;Esta semana empecé a leer&#xA;&lt;a href=&#34;https://www.amazon.com/Time-Management-Procrastination-Increase-Productivity-ebook/dp/B07HL9LPP9&#34;&gt;un libro&lt;/a&gt;&#xA;sobre productividad que comienza con una idea muy simple:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;El problema de la productividad es que muchas personas tratamos&#xA;de hacer dos cosas al mismo tiempo: Un minuto estamos &amp;ldquo;planificando&amp;rdquo;, luego&#xA;nos ponemos a &amp;ldquo;hacer&amp;rdquo;, en unos instantes volvemos a &amp;ldquo;planificar&amp;rdquo; y así&#xA;continuamos durante todo el día.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Creo que es fácil advertir donde está el problema, cambiar de contexto&#xA;durante el transcurso día es muy abrumador. Si mantenemos entrelazados&#xA;estos dos modos de trabajo es difícil advertir cuánta energía nos insume&#xA;trabajar así.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Abrazar a Sumo</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-05-abrazar-a-sumo/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-05-abrazar-a-sumo/</guid>
-      <description>No me da pena reconocer que que miro dibujos animados.
-&amp;ldquo;El 90% de todo es mierda&amp;rdquo; como dice la Revelación de Sturgeon, incluidos los dibujos animados, sin embargo cuando miramos de cerca y buscamos ese 10% restante podemos encontrar cosas que vale la pena rescatar, historias que pueden transmitirnos sentimientos y miradas del mundo que ningún otro medio puede hacer.
-Este es el caso de algunos de los episodios de Clarence, una serie de Cartoon Network que me parece diferente a todas las demás.</description>
+      <description>&lt;p&gt;No me da pena reconocer que que miro dibujos animados.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;El 90% de todo es mierda&amp;rdquo; como dice la &lt;a href=&#34;https://es.wikipedia.org/wiki/Ley_de_Sturgeon&#34;&gt;Revelación de Sturgeon&lt;/a&gt;,&#xA;incluidos los dibujos animados, sin embargo cuando&#xA;miramos de cerca y buscamos ese 10% restante podemos encontrar cosas&#xA;que vale la pena rescatar, historias que pueden transmitirnos sentimientos y&#xA;miradas del mundo que ningún otro medio puede hacer.&lt;/p&gt;&#xA;&lt;p&gt;Este es el caso de algunos de los episodios de &lt;a href=&#34;https://es.wikipedia.org/wiki/Clarence_%28serie_animada%29&#34;&gt;Clarence&lt;/a&gt;, una&#xA;serie de &lt;em&gt;Cartoon Network&lt;/em&gt; que me parece diferente a todas las demás.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Replanteando la Programación Funcional</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</guid>
-      <description>Esta semana escuché una entrevista a Eric Normand en donde describía la programación funcional de una manera completamente diferente para mí.
-Resulta que mis nociones de programación funcional vienen de mi paso por la facultad de ingeniería, donde descubrí la programación funcional en una materia llamada Paradigmas de Programación.
-En esa materia abordamos la programación funcional desde sus fundamentos, usando haskell y resolviendo ejercicios para familiarizarnos con el enfoque del paradigma.</description>
+      <description>&lt;p&gt;Esta semana escuché una &lt;a href=&#34;https://changelog.com/jsparty/163&#34;&gt;entrevista a Eric Normand&lt;/a&gt;&#xA;en donde describía la programación funcional de una manera completamente&#xA;diferente para mí.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que mis nociones de programación funcional vienen de mi paso por la facultad&#xA;de ingeniería, donde descubrí la programación funcional en una materia llamada Paradigmas&#xA;de Programación.&lt;/p&gt;&#xA;&lt;p&gt;En esa materia abordamos la programación funcional desde sus fundamentos, usando&#xA;&lt;a href=&#34;https://www.haskell.com/&#34;&gt;haskell&lt;/a&gt; y resolviendo ejercicios para familiarizarnos con el enfoque&#xA;del paradigma. Estos ejercicios consistían en cálculos matemáticos, operaciones con listas&#xA;de números, algoritmos recursivos y esas cosas&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recortes y apuntes</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-01-recortes-y-apuntes/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-01-recortes-y-apuntes/</guid>
-      <description>Tenemos mucha suerte de vivir en una época en donde existe acceso a tantas formas de aprendizaje.
-Tenemos acceso a videos, blogs, conferencias y podcasts de forma prácticamente gratuita, solo necesitas algo de tiempo y una conexión a Internet.
-Sin embargo, si te pasa lo mismo que a mí, mucho de lo que veas se te va a olvidar. Incluso aquellas cosas útiles y valiosas.
-Aquí es donde entra en juego la idea de apuntes y recortes.</description>
+      <description>&lt;p&gt;Tenemos mucha suerte de vivir en una época en donde existe acceso&#xA;a tantas formas de aprendizaje.&lt;/p&gt;&#xA;&lt;p&gt;Tenemos acceso a videos, blogs, conferencias y podcasts&#xA;de forma prácticamente gratuita, solo necesitas algo&#xA;de tiempo y una conexión a Internet.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, si te pasa lo mismo que a mí, mucho de lo que&#xA;veas se te va a olvidar. Incluso aquellas cosas útiles&#xA;y valiosas.&lt;/p&gt;&#xA;&lt;p&gt;Aquí es donde entra en juego la idea de apuntes y recortes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Escribiendo en el blog todos los días durante un mes</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/</link>
       <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/</guid>
-      <description>Hace un mes nos desafiamos con OSiUX a escribir en nuestros blogs durante un mes, y yo gané. Bueno, en realidad, los dos ganamos&amp;hellip;
-Resulta que hace un mes OSiUX me envió un artículo llamado Prove you can write regularly before you think about the tools donde el autor menciona una realidad: mucha personas se preocupan más por encontrar la mejor herramienta para crear sus blogs que en escribir regularmente.</description>
+      <description>&lt;p&gt;Hace un mes nos desafiamos con &lt;a href=&#34;https://osiux.com/&#34;&gt;OSiUX&lt;/a&gt; a escribir en&#xA;nuestros blogs durante un mes, y yo gané. Bueno, en realidad, los dos ganamos&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Resulta que hace un mes OSiUX me envió un artículo llamado&#xA;&lt;a href=&#34;https://critter.blog/2021/01/14/prove-you-can-write-regularly-before-you-think-about-the-tools/&#34;&gt;Prove you can write regularly before you think about the tools&lt;/a&gt;&#xA;donde el autor menciona una realidad: mucha personas se preocupan más por encontrar&#xA;la mejor herramienta para crear sus blogs que en escribir regularmente.&lt;/p&gt;&#xA;&lt;p&gt;Y tanto OSiUX como yo nos sentimos completamente identificados. Es como&#xA;si ese post estuviera dirigido a nosotros.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tomar notas en VIM</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-23-tomar-notas-en-vim/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-23-tomar-notas-en-vim/</guid>
-      <description>Tomar notas está bueno, te da mucha claridad sobre lo que estás haciendo día a día y es una buena oportunidad para hacer una pausa, reflexionar y tomar alguna que otra decisión.
-Uso una aplicación llamada Bear para tomar todas mis notas, algunas notas se convierten en bocetos de artículos que me interesan, resúmenes de libros e incluso algunas notas van dedicadas a una especie de diario personal que uso para reflexionar.</description>
+      <description>&lt;p&gt;Tomar notas está bueno, te da mucha claridad sobre lo que estás haciendo&#xA;día a día y es una buena oportunidad para hacer una pausa, reflexionar y&#xA;tomar alguna que otra decisión.&lt;/p&gt;&#xA;&lt;p&gt;Uso una aplicación llamada &lt;a href=&#34;https://bear.app/&#34;&gt;Bear&lt;/a&gt; para tomar todas&#xA;mis notas, algunas notas se convierten en bocetos de artículos que me&#xA;interesan, resúmenes&#xA;de libros e incluso algunas notas van dedicadas a una especie de diario&#xA;personal que uso para reflexionar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sobre Bloques vs Código</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/</guid>
-      <description>Hace unas semanas me propuse hacer un experimento dentro de pilas-engine para permitir que las personas puedan programar usando bloques.
-Al principio imaginé que podría hacer dos versiones diferentes de pilas-engine, ya que algunas personas podrían querer programar en código, mientras que otras podrían preferir usar bloques (como en scratch).
-Sin embargo noté que las dos cosas pueden funcionar juntas. Los actores podría responder a las órdenes que les damos escribiendo código o encastrando bloques.</description>
+      <description>&lt;p&gt;Hace unas semanas me propuse hacer un experimento dentro de&#xA;&lt;a href=&#34;https://pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt; para permitir que las personas&#xA;puedan programar usando bloques.&lt;/p&gt;&#xA;&lt;p&gt;Al principio imaginé que podría hacer dos versiones diferentes&#xA;de &lt;a href=&#34;https://pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt;, ya que&#xA;algunas personas podrían querer&#xA;programar en código, mientras que otras podrían preferir usar&#xA;bloques (como en &lt;a href=&#34;https://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo noté que las dos cosas pueden funcionar juntas. Los&#xA;actores podría responder a las órdenes que les damos escribiendo código&#xA;o encastrando bloques.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Controlando el navegador con el teclado</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-18-controlando-el-navegador-con-el-teclado/</link>
       <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-18-controlando-el-navegador-con-el-teclado/</guid>
-      <description>Usar el teclado para navegar dentro de un editor se volvió un camino de ida para mí, a tal punto que empecé a reemplazar el mouse por el teclado en todo los lugares que pude, por ejemplo en el navegador:
-Hace unos años vengo utilizando una extensión llamada SurfingKeys que está disponible para Brave, Firefox y Chrome.
-Esta extensión hace que usar el navegador se parezca un poquito más a utilizar VIM, tiene modos, atajos de teclado y hasta un mini-editor de textos para sentirse como en VIM.</description>
+      <description>&lt;p&gt;Usar el teclado para navegar dentro de un editor se volvió un camino&#xA;de ida para mí, a tal punto que empecé a reemplazar el mouse por el teclado&#xA;en todo los lugares que pude, por ejemplo en el navegador:&lt;/p&gt;&#xA;&lt;p&gt;Hace unos años vengo utilizando una extensión llamada&#xA;&lt;a href=&#34;https://github.com/brookhong/Surfingkeys&#34;&gt;SurfingKeys&lt;/a&gt; que&#xA;está disponible para Brave, Firefox y Chrome.&lt;/p&gt;&#xA;&lt;p&gt;Esta extensión hace que usar el navegador se parezca un poquito más&#xA;a utilizar VIM, tiene modos, atajos de teclado y hasta un mini-editor&#xA;de textos para sentirse como en VIM.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Personalizando el teclado</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-17-personalizando-el-teclado/</link>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-17-personalizando-el-teclado/</guid>
-      <description>Hace unos meses leí un artículo que me animó a practicar mecanografía todos los días. No solo me dieron ganas de escribir más rápido, sino que hizo re-diseñar la forma en la que uso el teclado.
-Y es que con los años fui desarrollando la costumbre de escribir muy libremente y hoy estoy tratando de &amp;ldquo;volver a aprender&amp;rdquo; para mejorar varios problemas: casi no uso los dedos meñiques, mis manos se desplazan un montón mientras escribo porque al no usar los meñiques me cuesta alcanzar algunas teclas, y suelo cometer varios errores al escribir.</description>
+      <description>&lt;p&gt;Hace unos meses leí &lt;a href=&#34;https://www.examplelab.com.ar/links-files/programmings-dirtiest-little-secret/&#34;&gt;un artículo&lt;/a&gt; que me animó a practicar&#xA;mecanografía todos los días. No solo me dieron ganas de escribir&#xA;más rápido, sino que hizo re-diseñar la forma en la que uso el teclado.&lt;/p&gt;&#xA;&lt;p&gt;Y es que con los años fui desarrollando la costumbre de escribir muy&#xA;libremente y hoy estoy tratando de &amp;ldquo;volver a aprender&amp;rdquo; para mejorar varios&#xA;problemas: casi no uso los dedos meñiques, mis manos se desplazan un&#xA;montón mientras escribo porque al no usar los meñiques me cuesta alcanzar algunas teclas, y suelo&#xA;cometer varios errores al escribir. Casi no miro el teclado al escribir, lo que es bueno, pero&#xA;necesito buscar con la mirada algunas teclas que no uso muy seguido como los números o símbolos como | ^ &amp;amp;&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>La culpa no es del DOM</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-16-la-culpa-no-es-del-dom/</link>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-16-la-culpa-no-es-del-dom/</guid>
-      <description>Usar un Framework para escribir tu aplicación JavaScript tiene varias ventajas, sin embargo, creo que hay que revisar una idea que vi en varias charlas técnicas y algún que otro tutorial cuando se intenta justificar el uso de un Framework que me parece incorrecta.
-Se suele decir que cambiar el DOM con las APIs nativas del navegador es un proceso costoso (computacionalmente hablando) y que por ese motivo conviene usar virtualDom o una abstracción similar.</description>
+      <description>&lt;p&gt;Usar un Framework para escribir tu aplicación JavaScript tiene varias&#xA;ventajas, sin embargo, creo que hay que revisar una idea que vi en varias charlas&#xA;técnicas y algún que otro tutorial cuando se intenta justificar el&#xA;uso de un Framework que me parece incorrecta.&lt;/p&gt;&#xA;&lt;p&gt;Se suele decir que cambiar &lt;a href=&#34;https://www.reddit.com/r/javascript/comments/6115ay/why_do_developers_think_the_dom_is_slow/&#34;&gt;el DOM con las APIs nativas del navegador&#xA;es un proceso costoso&lt;/a&gt;&#xA;(computacionalmente hablando) y que por ese motivo conviene usar virtualDom o una abstracción similar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Introducción a presupuestos</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-12-introduccion-a-presupuestos/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-12-introduccion-a-presupuestos/</guid>
-      <description>La plata se puede volver un tema de estrés y mucha incertidumbre, incluso si tenes el privilegio de contar con un trabajo que te permite llegar a fin de mes sin sobresaltos. Cuanto más ganas, más gastas, nos pasa a todos.
-El estrés está en cada momento en que me pregunto: ¿podré afrontar este gasto?, ¿estaré hipotecando mi futuro si hago este pago en cuotas?, ¿será que voy a poder tomarme vacaciones?</description>
+      <description>&lt;p&gt;La plata se puede volver un tema de estrés y mucha incertidumbre, incluso si&#xA;tenes el privilegio de contar con un trabajo que te permite llegar a fin de mes&#xA;sin sobresaltos. Cuanto más ganas, más gastas, nos pasa a todos.&lt;/p&gt;&#xA;&lt;p&gt;El estrés está en cada momento en que me pregunto: ¿podré&#xA;afrontar este gasto?, ¿estaré hipotecando mi futuro si&#xA;hago este pago en cuotas?, ¿será que voy a poder tomarme&#xA;vacaciones?, ¿tengo reservas ante una eventualidad?.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Abandonar libros está bien</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-10-abandonar-libros-esta-bien/</link>
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-10-abandonar-libros-esta-bien/</guid>
-      <description>Leer libros es algo que parece natural y que nadie nos tiene que decir cómo hacerlo. Sin embargo, creo que durante muchos años estuve leyendo con algunas ideas incorrectas sobre la lectura en general.
-Alguna de las ideas que tenía en mente sobre la lectura creo que las aprendí en la escuela, pero nunca reflexioné sobre ellas como para darme cuenta que no funcionan bien en mi vida.
-Una de esas ideas era que los libros había que leerlos completos; comenzar por el principio, leerlos en orden y llegar a la conclusión para dar el libro por finalizado.</description>
+      <description>&lt;p&gt;Leer libros es algo que parece natural y que nadie nos&#xA;tiene que decir cómo hacerlo. Sin embargo, creo que&#xA;durante muchos años estuve leyendo con algunas ideas&#xA;incorrectas sobre la lectura en general.&lt;/p&gt;&#xA;&lt;p&gt;Alguna de las ideas que tenía en mente sobre la lectura&#xA;creo que las aprendí en la escuela, pero nunca reflexioné&#xA;sobre ellas como para darme cuenta que no funcionan bien&#xA;en mi vida.&lt;/p&gt;&#xA;&lt;p&gt;Una de esas ideas era que los libros había que&#xA;leerlos completos; comenzar por el principio, leerlos en&#xA;orden y llegar a la conclusión para dar el libro por finalizado.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¿Y si programamos en castellano?</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</guid>
-      <description>Tomar decisiones todo el día demanda mucha energía, incluso cosas simples como: qué vas a almorzar, o qué nombre le vas a poner a esa función en el código.
-Cada pequeña decisión te consume un poco de tiempo y energía.
-Por eso creo que vamos desarrollando la tendencia a responder en modo automático, como si nos dijéramos a nosotros mismos:
-&amp;ldquo;Esto se hace así, siempre lo hicimos así, ni nos preguntemos por qué&amp;rdquo;.</description>
+      <description>&lt;p&gt;Tomar decisiones todo el día demanda mucha energía, incluso&#xA;cosas simples como: qué vas a almorzar, o qué nombre le vas&#xA;a poner a esa función en el código.&lt;/p&gt;&#xA;&lt;p&gt;Cada pequeña decisión te consume un poco de tiempo y energía.&lt;/p&gt;&#xA;&lt;p&gt;Por eso creo que vamos desarrollando la tendencia a responder en modo&#xA;automático, como si nos dijéramos a nosotros mismos:&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Esto se hace así, siempre lo hicimos así, ni nos preguntemos por qué&amp;rdquo;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mejorar 1% cada día</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-04-mejorar-1-por-ciento/</link>
       <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-04-mejorar-1-por-ciento/</guid>
-      <description>Siempre que termino de trabajar me pongo a pensar si el día me sirvió o no. Me gusta sentir que aprendí algo nuevo, que pude resolver un problema o simplemente saber que no estuve perdiendo el tiempo frente a la computadora.
-Sin embargo hay días donde es difícil hacer esa lectura, ya sea porque me quedó una tarea muy aburrida por hacer o porque algún detalle me hizo retroceder y pelear con la herramienta en lugar de avanzar.</description>
+      <description>&lt;p&gt;Siempre que termino de trabajar me pongo a pensar&#xA;si el día me sirvió o no. Me gusta sentir&#xA;que aprendí algo nuevo, que pude resolver un problema&#xA;o simplemente saber que no estuve perdiendo el tiempo frente&#xA;a la computadora.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo hay días donde es difícil hacer esa lectura, ya&#xA;sea porque me quedó una tarea muy aburrida por hacer o porque&#xA;algún detalle me hizo retroceder y pelear con la herramienta&#xA;en lugar de avanzar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>El regocijo de usar VIM</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-03-el-regocijo-de-usar-vim/</link>
       <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-03-el-regocijo-de-usar-vim/</guid>
-      <description>VIM es un editor de texto muy particular, para empezar: está ligeramente orientado a facilitar operaciones como navegar y editar texto en lugar de ser un editor principalmente para escribir. Esto hace que toda la experiencia de usar la herramienta esté mediada por este enfoque inicial.
-Por ejemplo, cuando ingresas en VIM, el editor espera que ingreses comandos pulsando teclas, en lugar de trasladar esas teclas en caracteres y colocarlas en el archivo de texto como hacen la mayoría de los editores de texto.</description>
+      <description>&lt;p&gt;VIM es un editor de texto muy particular, para empezar: está&#xA;ligeramente orientado a facilitar operaciones como navegar y editar&#xA;texto en lugar de ser un editor principalmente para escribir. Esto&#xA;hace que toda la experiencia de usar la herramienta esté mediada&#xA;por este enfoque inicial.&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, cuando ingresas en VIM, el editor espera que ingreses&#xA;comandos pulsando teclas, en lugar de trasladar esas teclas en caracteres&#xA;y colocarlas en el archivo de texto como hacen la mayoría de los&#xA;editores de texto.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Acerca de ser intencional</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-02-acerca-de-ser-intencional/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-02-acerca-de-ser-intencional/</guid>
-      <description>Algo valioso de tener la oportunidad de leer libros e indagar en las ideas de otras personas es poder encontrarse con palabras que describen exactamente lo que que antes era invisible.
-Este es el caso de la palabra &amp;ldquo;intención&amp;rdquo; para mí.
-Al principio del año pasado pude leer el libro Digital Minimalism en donde se menciona este concepto de &amp;ldquo;intención&amp;rdquo; como uno de los pilares a la hora de pensar en Internet como una herramienta a nuestro servicio y todo lo que trae aparejado para nuestra dieta de información.</description>
+      <description>&lt;p&gt;Algo valioso de tener la oportunidad de leer libros e indagar en&#xA;las ideas de otras personas es poder encontrarse con palabras que&#xA;describen exactamente lo que que antes era invisible.&lt;/p&gt;&#xA;&lt;p&gt;Este es el caso de la palabra &amp;ldquo;intención&amp;rdquo; para mí.&lt;/p&gt;&#xA;&lt;p&gt;Al principio del año pasado pude leer el libro&#xA;&lt;a href=&#34;https://www.calnewport.com/books/digital-minimalism/&#34;&gt;Digital Minimalism&lt;/a&gt;&#xA;en donde&#xA;se menciona este concepto de &amp;ldquo;intención&amp;rdquo; como uno de los pilares a la hora de&#xA;pensar en Internet como una herramienta a nuestro servicio y todo lo&#xA;que trae aparejado para nuestra dieta de información.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Coleccionado artículos web</title>
       <link>https://www.examplelab.com.ar/posts/2021-01-29-coleccionando-articulos/</link>
       <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-01-29-coleccionando-articulos/</guid>
-      <description>Hace unos meses vi un artículo llamado This Page is Designed to Last que me hizo pensar en lo efímera que es la web.
-El artículo describe cómo va cambiando la web con los años: y como los artículos, foros, tutoriales y recursos dejan de existir de un día para otro.
-Y esto no es algo que solo afecta a quienes publican contenido en la web, también afecta a quienes leemos, aprendemos y queremos compartir lo que nos gusta de la web con otras personas:</description>
+      <description>&lt;p&gt;Hace unos meses vi un artículo llamado &lt;a href=&#34;https://jeffhuang.com/designed_to_last/&#34;&gt;This Page is Designed to Last&lt;/a&gt;&#xA;que me hizo pensar en lo efímera que es la web.&lt;/p&gt;&#xA;&lt;p&gt;El artículo describe cómo va cambiando la web con los años: y como los&#xA;artículos, foros, tutoriales y recursos dejan de existir de un día para otro.&lt;/p&gt;&#xA;&lt;p&gt;Y esto no es algo que solo afecta a quienes publican contenido en la web, también afecta&#xA;a quienes leemos, aprendemos y queremos compartir lo que nos gusta de la web con otras&#xA;personas:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Falacias, falacias por todos lados</title>
       <link>https://www.examplelab.com.ar/posts/2021-01-27-falacias/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-01-27-falacias/</guid>
-      <description>No soy bueno argumentando, de hecho, en muchas discusiones me siento frustrado al sentir que no puedo dar a entender mi punto de vista &amp;hellip; Y alguna vez, incluso sin darme cuenta, me han hecho notar que malinterpreté argumentos de otras personas y caí en alguna de las falacias más conocidas.
-Hoy recordé una de esas conversaciones, una especie de discusión sobre tests y calidad de software que terminaron en nada.</description>
+      <description>&lt;p&gt;No soy bueno argumentando, de hecho, en muchas discusiones&#xA;me siento frustrado al sentir que no puedo dar a entender mi punto&#xA;de vista &amp;hellip; Y alguna vez, incluso sin darme cuenta, me han hecho notar&#xA;que malinterpreté argumentos de otras personas y caí en alguna de las&#xA;falacias más conocidas.&lt;/p&gt;&#xA;&lt;p&gt;Hoy recordé una de esas conversaciones, una especie de discusión sobre&#xA;tests y calidad de software que terminaron en nada.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Interrumpiendo al programador</title>
       <link>https://www.examplelab.com.ar/posts/2014-02-28-interrumpiendo-al-programador/</link>
       <pubDate>Fri, 28 Feb 2014 22:56:09 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-02-28-interrumpiendo-al-programador/</guid>
-      <description>Esta simple caricatura explica el impacto de las interrupciones en la cabeza de un programador:</description>
+      <description>&lt;p&gt;Esta simple caricatura explica el impacto de las interrupciones en la cabeza de&#xA;un programador:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Feb/3uyRWGJ.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

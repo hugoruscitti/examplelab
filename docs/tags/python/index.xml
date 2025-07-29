@@ -1,146 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Examplelab</title>
+    <title>Python on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/python/</link>
-    <description>Recent content in python on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 18:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Python on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Jun 2024 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creando retro-python en el PyCamp</title>
       <link>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</link>
       <pubDate>Sun, 30 Jun 2024 18:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</guid>
-      <description>El fin de semana pasado participé del PyCamp, un evento de 4 días organizado por amigos de la comunidad de PyAr (Python Argentina):
-Volví muy entusiasmado y con mucha felicidad de haber disfrutado cada momento, para mí el PyCamp es un evento único, me deja ilusionado y con muchas ganas de inventar cosas nuevas.
-Sobre retro-python Uno de los proyectos en los que trabajamos fue retro-python, una idea que propuse unos días antes de comenzar el evento y que resultó muy bien, ya que pudimos crear la herramienta y publicarla para mostrar al final del evento:</description>
+      <description>&lt;p&gt;El fin de semana pasado participé del PyCamp, un evento de 4 días&#xA;organizado por amigos de la comunidad de PyAr (Python Argentina):&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/creando-retro-python-en-el-pycamp/foto-grupal.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Volví muy entusiasmado y con mucha felicidad de haber disfrutado cada momento,&#xA;para mí el PyCamp es un evento único, me deja ilusionado y con muchas ganas de&#xA;inventar cosas nuevas.&lt;/p&gt;&#xA;&lt;h1 id=&#34;sobre-retro-python&#34;&gt;Sobre retro-python&lt;/h1&gt;&#xA;&lt;p&gt;Uno de los proyectos en los que trabajamos fue &lt;code&gt;retro-python&lt;/code&gt;, una idea que&#xA;propuse unos días antes de comenzar el evento y que resultó muy bien, ya que&#xA;pudimos crear la herramienta y publicarla para mostrar al final del evento:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pycamp en Baradero</title>
       <link>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</link>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2023-02-28-pycamp-en-baradero/</guid>
-      <description>Hace exactamente un año asistí al pycamp en Baradero, uno de los pycamp que más disfruté. Me encontré con amigos que no veía hace varios años, trabajamos en varios proyectos nuevos y me divertí un montón.
-El lugar en donde se hizo el evento me pareció genial, teníamos mucho espacio para trabajar cómodos y naturaleza por todos lados:
-La dinámica del pycamp En el pycamp se puede trabajar en los proyectos que uno quiera, ver lo que hacen los demás y sumarse para aportar ideas o aprender.</description>
+      <description>&lt;p&gt;Hace exactamente un año asistí al pycamp en Baradero, uno de&#xA;los pycamp que más disfruté. Me encontré con amigos que no&#xA;veía hace varios años, trabajamos en varios proyectos nuevos&#xA;y me divertí un montón.&lt;/p&gt;&#xA;&lt;p&gt;El lugar en donde se hizo el evento me pareció genial,&#xA;teníamos mucho espacio para trabajar cómodos y naturaleza&#xA;por todos lados:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/lugar.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/asado.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2023/pycamp-en-baradero/reunion.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;la-dinámica-del-pycamp&#34;&gt;La dinámica del pycamp&lt;/h2&gt;&#xA;&lt;p&gt;En el pycamp se puede trabajar en los proyectos que uno&#xA;quiera, ver lo que hacen los demás y sumarse para aportar&#xA;ideas o aprender.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Descubriendo python-dotenv</title>
       <link>https://www.examplelab.com.ar/posts/2021-12-25-dotenv/</link>
       <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-12-25-dotenv/</guid>
-      <description>Hace unos meses dejé de usar pipenv y volví a los clásicos entornos virtuales de python, donde no tengo que lidiar con archivos como Pipfile o Pipfile.lock.
-La idea detrás de pipenv me gustaba, pero la implementación me dio muchos dolores de cabeza. Por ejemplo, cuando instalas una dependencia nueva la herramienta se queda trabajando varios minutos:
-Mi mayor preocupación con esto es la sensación de no saber qué está pasando por detrás de ese proceso, esperar tanto tiempo y luego verlo fallar me pasó tantas veces que ya había empezado a odiar la herramienta.</description>
+      <description>&lt;p&gt;Hace unos meses dejé de usar &lt;code&gt;pipenv&lt;/code&gt; y volví a los&#xA;clásicos entornos virtuales de python, donde no tengo&#xA;que lidiar con archivos como &lt;code&gt;Pipfile&lt;/code&gt; o &lt;code&gt;Pipfile.lock&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;La idea detrás de &lt;code&gt;pipenv&lt;/code&gt; me gustaba, pero la implementación&#xA;me dio muchos dolores de cabeza. Por ejemplo, cuando instalas&#xA;una dependencia nueva la herramienta se queda trabajando varios&#xA;minutos:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/dotenv/espera.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mi mayor preocupación con esto es la sensación de no saber qué&#xA;está pasando por detrás de ese proceso, esperar tanto tiempo y&#xA;luego verlo fallar me pasó tantas veces que ya había empezado&#xA;a odiar la herramienta.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Participando del pycamp 2021</title>
       <link>https://www.examplelab.com.ar/posts/2021-11-28-pycamp-2021/</link>
       <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-11-28-pycamp-2021/</guid>
-      <description>Este año aproveché a tomarme vacaciones y participar del Pycamp que organizó la gente de Pyar en San Rafael, provincia de Mendoza.
-El pycamp se hizo en el predio UTN los Reyunos, rodeado de montañas, pajaritos y un paisaje espectacular:
-Al lado del predio también había un parador en donde se podía hacer varias actividades, como kayak, remo, tirolesa, y varias cosas más. Yo alquilé el kayak varios días seguidos, lo que me sirvió como terapia para desconectar del trabajo y reflexionar:</description>
+      <description>&lt;p&gt;Este año aproveché a tomarme vacaciones y participar del Pycamp que organizó la&#xA;gente de &lt;a href=&#34;https://www.python.org.ar/&#34;&gt;Pyar&lt;/a&gt; en San Rafael, provincia de Mendoza.&lt;/p&gt;&#xA;&lt;p&gt;El pycamp se hizo en el predio &lt;a href=&#34;http://www.reyunos.utn.edu.ar/&#34;&gt;UTN los Reyunos&lt;/a&gt;, rodeado&#xA;de montañas, pajaritos y un paisaje espectacular:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h7257.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h7254.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/pycamp-2021/h72511.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Al lado del predio también había un parador en donde se podía hacer varias&#xA;actividades, como kayak, remo, tirolesa, y varias cosas más. Yo alquilé el&#xA;kayak varios días seguidos, lo que me sirvió como terapia para desconectar del&#xA;trabajo y reflexionar:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cómo crear migraciones de datos con Django</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</guid>
-      <description>Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.
- Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en producción realizadas con Django y nos pareció buena idea mencionar cómo lo resolvimos.
-Django incluye un sistema de migraciones que permite modificar la estructura de la base de datos de forma reproducible y consistente. Cada cambio que hacemos en los modelos, como agregar o modificar campos, generan migraciones automáticas para propagar los cambios sobre la base de datos.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en&#xA;producción realizadas con Django y nos pareció buena idea mencionar cómo lo&#xA;resolvimos.&lt;/p&gt;&#xA;&lt;p&gt;Django incluye un sistema de migraciones que permite modificar la estructura de&#xA;la base de datos de forma reproducible y consistente. Cada cambio que hacemos&#xA;en los modelos, como agregar o modificar campos, generan migraciones&#xA;automáticas para propagar los cambios sobre la base de datos.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Emails con Django en modo desarrollo</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</guid>
-      <description>Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.
- Es un práctica común configurar e implementar envío de emails desde un sistema web. Casi todas las empresas llegan a tener la necesidad de informar a sus usuarios sobre eventos del sistema como las notificaciones o recuperación de contraseñas.
-En este artículo queremos contarte la forma que encontramos en enjambre-bit para implementar esas tareas de forma segura y sencilla.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Es un práctica común configurar e implementar envío de emails desde un sistema&#xA;web. Casi todas las empresas llegan a tener la necesidad de informar a sus&#xA;usuarios sobre eventos del sistema como las notificaciones o recuperación de&#xA;contraseñas.&lt;/p&gt;&#xA;&lt;p&gt;En este artículo queremos contarte la forma que encontramos en enjambre-bit&#xA;para implementar esas tareas de forma segura y sencilla.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Semana de la juventud en Bariloche</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
       <pubDate>Sun, 03 Nov 2013 23:32:32 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</guid>
-      <description>Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre pilas-engine a chicos de escuelas secundarias.
-El evento estuvo espectacular, los chicos armaron stands, participaron de talleres de edición de videos con openshot, competencias de fútbol tenis, bailes y mucho más:
-Y por si fuera poco, el centro cívico de la ciudad de Bariloche es espectacular, la vista al Lago Nahuel Huapi es increible:
-Ojalá pueda visitar nuevamente bariloche con un taller de pilas-engine renovado.</description>
+      <description>&lt;p&gt;Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre &lt;a href=&#34;http://www.pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt; a chicos de escuelas secundarias.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_05612.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El evento estuvo espectacular, los chicos armaron stands, participaron de talleres de edición de videos con openshot, competencias de fútbol tenis, bailes y mucho más:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0580.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0585.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0590.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0542.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Y por si fuera poco, el &lt;a href=&#34;http://es.wikipedia.org/wiki/Centro_C%C3%ADvico_Bariloche&#34;&gt;centro cívico&lt;/a&gt; de la ciudad de &lt;strong&gt;Bariloche&lt;/strong&gt; es espectacular, la vista al &lt;em&gt;Lago Nahuel Huapi&lt;/em&gt; es increible:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pilas en pycon 2013 Rosario</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</link>
       <pubDate>Fri, 01 Nov 2013 21:24:50 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
-      <description>Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013 de la ciudad de Rosario.
-Aquí estan las diapositivas:
- y el video:
- </description>
+      <description>&lt;p&gt;Esta semana publiqué el video de mi charla sobre &lt;strong&gt;pilas-engine&lt;/strong&gt; en el evento &lt;a href=&#34;http://ar.pycon.org/2013&#34;&gt;PyCon 2013&lt;/a&gt; de la ciudad de Rosario.&lt;/p&gt;&#xA;&lt;p&gt;Aquí estan las diapositivas:&lt;/p&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3bca4350246c013116920a063b0afe2f&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;y el video:&lt;/p&gt;&#xA;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/tXA2BgzrvzA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Haciendo un cargador de juegos python</title>
       <link>https://www.examplelab.com.ar/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</link>
       <pubDate>Sat, 18 Aug 2012 15:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2012-08-18-haciendo-un-cargador-de-juegos-python/</guid>
-      <description>Si escribes juegos usando python, seguramente te has encontrado en problemas al distribuir juegos sobre windows.
-Python es un gran lenguaje, pero cuando se utiliza con varias bibliotecas sobre Windows termina siendo algo difícil de transportar de un equipo a otro, y si quieres presentar tus juegos a muchas personas eso termina convirtiendose en un problema.
-En este artículo veremos una alternativa para empaquetar y distribuir nuestros juegos sobre windows de manera bastante sencilla, crearemos varios cargadores de juegos para bibliotecas como pygame, cocos2d y pilas-engine.</description>
+      <description>&lt;p&gt;Si escribes juegos usando python, seguramente te has encontrado en problemas al distribuir juegos sobre windows.&lt;/p&gt;&#xA;&lt;p&gt;Python es un gran lenguaje, pero cuando se utiliza con varias bibliotecas&#xA;sobre Windows termina siendo algo difícil de transportar de un equipo a otro, y si quieres&#xA;presentar tus juegos a muchas personas eso termina convirtiendose en un problema.&lt;/p&gt;&#xA;&lt;p&gt;En este artículo veremos una alternativa para empaquetar y distribuir nuestros juegos sobre windows de&#xA;manera bastante sencilla, crearemos varios cargadores de juegos para bibliotecas como &lt;a href=&#34;http://www.pygame.org&#34;&gt;pygame&lt;/a&gt;, &lt;a href=&#34;http://cocos2d.org&#34;&gt;cocos2d&lt;/a&gt; y&#xA;&lt;a href=&#34;http://www.pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rediseñando los eventos de pilas-engine</title>
       <link>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</link>
       <pubDate>Wed, 29 Feb 2012 15:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</guid>
-      <description>El sistema de eventos de pilas-engine necesitaba varias mejoras. Desde que lo implementé, siempre tuve la sensación de que se podía simplificar y mejorar notablemente.
-Por suerte hoy logré implementar los cambios que quería, le dediqué varias horas pero valió la pena el esfuerzo, quedó mucho mejor de lo que esperaba, y en el camino aprendí varias cosas nuevas.
-¿Por qué es importante? Casi todos los motores de juegos tienen algún sistema de eventos, de alguna u otra forma se te permite conocer el estado de las teclas, del mouse etc.</description>
+      <description>&lt;p&gt;El sistema de eventos de &lt;a href=&#34;http://www.pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt; necesitaba&#xA;varias mejoras. Desde que lo implementé, siempre tuve&#xA;la sensación de que se podía simplificar y mejorar&#xA;notablemente.&lt;/p&gt;&#xA;&lt;p&gt;Por suerte hoy logré implementar los cambios que quería,&#xA;le dediqué varias horas pero valió la pena el esfuerzo, quedó&#xA;mucho mejor de lo que esperaba, y en el camino aprendí varias cosas&#xA;nuevas.&lt;/p&gt;&#xA;&lt;h1 id=&#34;por-qué-es-importante&#34;&gt;¿Por qué es importante?&lt;/h1&gt;&#xA;&lt;p&gt;Casi todos los motores de juegos tienen algún sistema de eventos,&#xA;de alguna u otra forma se te permite conocer el estado de las&#xA;teclas, del mouse etc.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Creando intérpretes interactivos con python</title>
       <link>https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</link>
       <pubDate>Thu, 22 Jul 2010 15:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2010-07-22-creando-int%C3%A9rpretes-interactivos-con-python/</guid>
-      <description>Python, al ser un lenguaje dinámico, facilita mucho la creación de intérpretes.
-En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos. Algo básico con readline
-Readline es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.
-Por ejemplo, el interprete de comandos Bash utiliza readline y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&amp;hellip;</description>
+      <description>&lt;p&gt;Python, al ser un lenguaje dinámico, facilita mucho la creación de intérpretes.&lt;/p&gt;&#xA;&lt;p&gt;En este artículo veremos algunas herramientas para que podamos crear nuestro propio intérprete de comandos.&#xA;Algo básico con readline&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Readline&lt;/code&gt; es una biblioteca muy popular en GNU/Linux, se puede integrar a casi cualquier programa y permite crear auto-completados de comandos, historiales y búsquedas.&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, el interprete de comandos Bash utiliza &lt;code&gt;readline&lt;/code&gt; y por lo tanto se puede auto-completar comandos con TAB, recorrer el historial pulsado ARRIBA en el teclado y mas&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cocos y pyglet en modo interactivo</title>
       <link>https://www.examplelab.com.ar/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</link>
       <pubDate>Wed, 30 Jun 2010 15:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2010-06-30-cocos-y-pyglet-en-modo-interactivo/</guid>
-      <description>Python tiene una herramienta super interesante para los nuevos programadores: una consola interactiva donde se puede editar, corregir y ejecutar código de manera super sencilla.
-Esto resulta de mucha utilidad cuando quieres dar clases sobre programación o simplemente dar una demostración sobre alguna biblioteca.
-Introducción Lamentablemente la consola de python no se puede usar en cualquier escenario, por ejemplo si quieres dar una demostración de la biblioteca cocos2d desde la consola interactiva se te pueden presentar algunos problemas.</description>
+      <description>&lt;p&gt;Python tiene una herramienta super interesante para los nuevos programadores: una consola interactiva donde se puede editar, corregir y ejecutar código de manera super sencilla.&lt;/p&gt;&#xA;&lt;p&gt;Esto resulta de mucha utilidad cuando quieres dar clases sobre programación o simplemente dar una demostración sobre alguna biblioteca.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Lamentablemente la consola de python no se puede usar en cualquier escenario, por ejemplo si quieres dar una demostración de la biblioteca &lt;a href=&#34;http://cocos2d.org/&#34;&gt;cocos2d&lt;/a&gt; desde la consola interactiva se te pueden presentar algunos problemas.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

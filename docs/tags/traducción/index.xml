@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>traducción on Examplelab</title>
+    <title>Traducción on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/traducci%C3%B3n/</link>
-    <description>Recent content in traducción on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2014 22:01:47 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/traducci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Traducción on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Jan 2014 22:01:47 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/traducci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>_why: La historia de un genio post-moderno</title>
       <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
       <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
-      <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
-Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
- Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
+      <description>&lt;div class=&#39;nota&#39;&gt;&#xA;  &lt;p&gt;Esta es una traducción de un &lt;a href=&#34;http://www.smashingmagazine.com/2010/05/15/why-a-tale-of-a-post-modern-genius/&#34;&gt;artículo&lt;/a&gt; publicado por &lt;a href=&#34;http://www.smashingmagazine.com/&#34;&gt;Smash Magazine&lt;/a&gt; en el 2010.&lt;/p&gt;&#xA;  &lt;p&gt;Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. &lt;/p&gt;&#xA;  &lt;p&gt;¡Que la disfruten!&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso  mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

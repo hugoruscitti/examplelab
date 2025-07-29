@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     
-      <title>Agregando efectos especiales en juegos 2D :: Examplelab — Mi blog</title>
+      <title>Agregando efectos especiales en juegos 2D :: Examplelab</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Esta semana estuvimos agregando efectos especiales a uno de nuestros juegos en unity:
 Pero a diferencia de lo que hicimos en otros juegos, aquí no usamos partículas sino efectos prediseñados de video, que luego de procesarlos como imágenes se pueden integrar a unity.
 ¿Por qué? Los efectos de videos tienen una apariencia espectacular, sobretodo cuando de trata de juegos 2d, caricaturescos y divertidos.
-Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como la la serie toonstool-fx."/>
+Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como la la serie toonstool-fx.
+"/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/" />
@@ -33,22 +34,27 @@ Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como l
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Agregando efectos especiales en juegos 2D"/>
-<meta name="twitter:description" content="Como estuvimos agregando efectos especiales a varios de nuestros juegos, armé una guía detallando todos los pasos que seguimos para realizarlos."/>
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1?1">
 
 
 
-<meta property="og:title" content="Agregando efectos especiales en juegos 2D" />
-<meta property="og:description" content="Como estuvimos agregando efectos especiales a varios de nuestros juegos, armé una guía detallando todos los pasos que seguimos para realizarlos." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2016-04-15T21:02:50+00:00" />
-<meta property="article:modified_time" content="2016-04-15T21:02:50+00:00" /><meta property="og:site_name" content="Examplelab" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Agregando efectos especiales en juegos 2D">
+  <meta name="twitter:description" content="Como estuvimos agregando efectos especiales a varios de nuestros juegos, armé una guía detallando todos los pasos que seguimos para realizarlos.">
 
+
+
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/">
+  <meta property="og:site_name" content="Examplelab">
+  <meta property="og:title" content="Agregando efectos especiales en juegos 2D">
+  <meta property="og:description" content="Como estuvimos agregando efectos especiales a varios de nuestros juegos, armé una guía detallando todos los pasos que seguimos para realizarlos.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-04-15T21:02:50+00:00">
+    <meta property="article:modified_time" content="2016-04-15T21:02:50+00:00">
+    <meta property="article:tag" content="Juegos">
+    <meta property="article:tag" content="Imágenes">
 
 
 
@@ -175,9 +181,9 @@ Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como l
 <h3 id="convertir-el-video-a-imágenes">Convertir el video a imágenes</h3>
 <p>Buscamos varias herramientas, pero la que resultó mejor fué <a href="https://www.ffmpeg.org/">ffmpeg</a>, un conversor de videos multiplataforma de consola completamente libre.</p>
 <p>Para instalarlo en osx se puede usar este comando:</p>
-<pre><code>brew install ffmpeg
+<pre tabindex="0"><code>brew install ffmpeg
 </code></pre><p>Una vez instalado, hay que abrir un terminal e invocar a ffmpeg con la ruta del video y el directorio a donde vamos a guardar las imágenes:</p>
-<pre><code>mkdir output
+<pre tabindex="0"><code>mkdir output
 ffmpeg -i video_fx_1.mov -f image2 output/%05d.png -frames:v 1
 </code></pre><p>Así queda el directorio <code>output</code>:</p>
 <p><img src="/images/2016/02/output-2016-02-19-17-46-57.png" alt=""></p>
@@ -191,7 +197,7 @@ ffmpeg -i video_fx_1.mov -f image2 output/%05d.png -frames:v 1
 <p>Por último, para que animación se muestre una sola vez, tuvimos que crear un script llamado <code>destroy</code> con una función que nos permita representar la eliminación de la entidad:</p>
 <p><img src="/images/2016/02/Untitled-2016-02-19-15-18-06.png" alt=""></p>
 <p>El script es super sencillo, alcanza con que tenga una sola función:</p>
-<pre><code>using UnityEngine;
+<pre tabindex="0"><code>using UnityEngine;
 using System.Collections;
 
 public class destroy : MonoBehaviour {
@@ -213,7 +219,7 @@ public class destroy : MonoBehaviour {
       
         <div class="pagination">
           <div class="pagination__title">
-            <span class="pagination__title-h">Leer otros artículos</span>
+            <span class="pagination__title-h">Read other posts</span>
             <hr />
           </div>
           <div class="pagination__buttons">

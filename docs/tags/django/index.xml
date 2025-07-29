@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>django on Examplelab</title>
+    <title>Django on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/django/</link>
-    <description>Recent content in django on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Django on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cómo crear migraciones de datos con Django</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-03-como-crear-migraciones-de-datos-con-django/</guid>
-      <description>Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.
- Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en producción realizadas con Django y nos pareció buena idea mencionar cómo lo resolvimos.
-Django incluye un sistema de migraciones que permite modificar la estructura de la base de datos de forma reproducible y consistente. Cada cambio que hacemos en los modelos, como agregar o modificar campos, generan migraciones automáticas para propagar los cambios sobre la base de datos.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Nota: Este artículo lo escribí originalmente en Julio de 2018 y se publicó en otra web.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hoy corregimos un problema de carga de datos en una de nuestras aplicaciones en&#xA;producción realizadas con Django y nos pareció buena idea mencionar cómo lo&#xA;resolvimos.&lt;/p&gt;&#xA;&lt;p&gt;Django incluye un sistema de migraciones que permite modificar la estructura de&#xA;la base de datos de forma reproducible y consistente. Cada cambio que hacemos&#xA;en los modelos, como agregar o modificar campos, generan migraciones&#xA;automáticas para propagar los cambios sobre la base de datos.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Emails con Django en modo desarrollo</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-03-emails-con-django-en-modo-desarrollo/</guid>
-      <description>Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.
- Es un práctica común configurar e implementar envío de emails desde un sistema web. Casi todas las empresas llegan a tener la necesidad de informar a sus usuarios sobre eventos del sistema como las notificaciones o recuperación de contraseñas.
-En este artículo queremos contarte la forma que encontramos en enjambre-bit para implementar esas tareas de forma segura y sencilla.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Nota: Este artículo lo escribí originalmente en Abril del 2020 y se publicó en otra web.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Es un práctica común configurar e implementar envío de emails desde un sistema&#xA;web. Casi todas las empresas llegan a tener la necesidad de informar a sus&#xA;usuarios sobre eventos del sistema como las notificaciones o recuperación de&#xA;contraseñas.&lt;/p&gt;&#xA;&lt;p&gt;En este artículo queremos contarte la forma que encontramos en enjambre-bit&#xA;para implementar esas tareas de forma segura y sencilla.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

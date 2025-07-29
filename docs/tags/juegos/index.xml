@@ -1,100 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>juegos on Examplelab</title>
+    <title>Juegos on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/juegos/</link>
-    <description>Recent content in juegos on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/juegos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Juegos on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/juegos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mis juegos favoritos 2</title>
       <link>https://www.examplelab.com.ar/posts/2021-04-13-mis-juegos-favoritos-2/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-04-13-mis-juegos-favoritos-2/</guid>
-      <description>El mes pasado listé algunos de mis juegos favoritos, pero me faltó mencionar algunos muy buenos, así que hoy agrego otros tres juegos que disfruté y recomiendo jugar.
-The Talos Principle El juego te propone una serie de puzzles bastante desafiantes, añadiendo nuevos elementos y mecánicas en cada habitación:
-Además, el juego está ambientado es una especie de mundo creado especialmente para nosotros, con elementos modernos como robots, sensores y portales, pero mezclando algunas construcciones antiguas.</description>
+      <description>&lt;p&gt;El mes pasado &lt;a href=&#34;https://www.examplelab.com.ar/posts/2021-03-09-mis-juegos-favoritos-1/&#34;&gt;listé algunos de mis juegos favoritos&lt;/a&gt;, pero me faltó&#xA;mencionar algunos muy buenos, así que hoy agrego otros tres&#xA;juegos que disfruté y recomiendo jugar.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-talos-principle&#34;&gt;The Talos Principle&lt;/h1&gt;&#xA;&lt;p&gt;El juego te propone una serie de puzzles bastante desafiantes, añadiendo nuevos&#xA;elementos y mecánicas en cada habitación:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/mis-juegos-favoritos-2/nivel1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Además, el juego está ambientado es una especie de mundo creado especialmente&#xA;para nosotros, con elementos modernos como robots, sensores y portales, pero&#xA;mezclando algunas construcciones antiguas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mis juegos favoritos</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-09-mis-juegos-favoritos-1/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-09-mis-juegos-favoritos-1/</guid>
-      <description>Hay un montón de videojuegos que me gustaría recomendar a otras personas, así que se me ocurrió hacer un listado de los juegos que más me gustaron y publicarlos en el blog.
-El listado no tiene ningún orden en particular y está incompleto, estimo que dentro de unos días haré otro post para incluir más juegos.
-The Beginner&amp;rsquo;s Guide Este juego entra en un género llamado Walking simulator, una clase de juegos que se disfrutan recorriendo escenas, leyendo textos y disfrutando de narraciones de una voz en off que nos va contando una historia.</description>
+      <description>&lt;p&gt;Hay un montón de videojuegos que me gustaría recomendar a&#xA;otras personas, así&#xA;que se me ocurrió hacer un listado de los juegos que más&#xA;me gustaron y publicarlos en el blog.&lt;/p&gt;&#xA;&lt;p&gt;El listado no tiene ningún orden en particular y está incompleto, estimo&#xA;que dentro de unos días haré otro post para incluir más juegos.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-beginners-guide&#34;&gt;The Beginner&amp;rsquo;s Guide&lt;/h1&gt;&#xA;&lt;p&gt;Este juego entra en un género llamado &lt;em&gt;Walking simulator&lt;/em&gt;, una clase de juegos&#xA;que se disfrutan recorriendo escenas, leyendo textos y disfrutando de narraciones&#xA;de una voz en &lt;em&gt;off&lt;/em&gt; que nos va contando una historia.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Haciendo un Remix del juego Ceferino</title>
       <link>https://www.examplelab.com.ar/posts/2021-01-25-remix-de-ceferino/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-01-25-remix-de-ceferino/</guid>
-      <description>Don Ceferino Hazaña es uno de los primeros juegos que hicimos con Walter Velazquez allá por el año 2004:
-Creo que fue uno de los juegos a los que más tiempo y ganas le dedicamos, yo apenas estaba aprendiendo a programar así que me costó el triple de lo que esperaba al principio. Fue una de las primeras estimaciones &amp;ldquo;fallidas&amp;rdquo; de mi vida, imaginé que el juego completo se podría hacer en &amp;ldquo;un par de semanas&amp;rdquo;, y casi estuvimos un año entero haciéndolo :P</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://losersjuegos.com.ar/juegos/ceferino&#34;&gt;Don Ceferino Hazaña&lt;/a&gt; es uno de los&#xA;primeros juegos que hicimos con Walter Velazquez allá por el año 2004:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/ceferino/capturas.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Creo que fue uno de los juegos a los que más tiempo y ganas le dedicamos, yo&#xA;apenas estaba aprendiendo a programar así que me costó el triple de lo que&#xA;esperaba al principio. Fue una de las primeras estimaciones &amp;ldquo;fallidas&amp;rdquo; de mi&#xA;vida, imaginé que el juego completo se podría hacer en &amp;ldquo;un par de semanas&amp;rdquo;, y&#xA;casi estuvimos un año entero haciéndolo :P&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Volviendo a jugar Doom</title>
       <link>https://www.examplelab.com.ar/posts/2020-08-25-doom/</link>
       <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2020-08-25-doom/</guid>
-      <description>Volví a jugar al juego Doom después de casi 25 años y la experiencia fue fenomenal.
-No solo pude experimentar la nostalgia de volver disfrutar un videojuego que me encantaba de chico, volver a escuchar los mismos sonidos, los gráficos pixelados y recordar niveles; también me volví a encontrar con un gran juego perfectamente diseñado.
-¿Qué lo hace un gran juego? ¿Por qué vale la pena volver a jugarlo en 2020?</description>
+      <description>&lt;p&gt;Volví a jugar al juego Doom después de casi 25 años y la experiencia fue fenomenal.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2020/doom/title.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;No solo pude experimentar la nostalgia de volver disfrutar un videojuego que me&#xA;encantaba de chico, volver a escuchar los mismos sonidos, los gráficos&#xA;pixelados y recordar niveles; también me volví a encontrar con un gran juego&#xA;perfectamente diseñado.&lt;/p&gt;&#xA;&lt;p&gt;¿Qué lo hace un gran juego? ¿Por qué vale la pena volver a jugarlo en 2020?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¡ The Zombie Smasher !</title>
       <link>https://www.examplelab.com.ar/posts/2016-04-26-publicamos-the-zombie-smasher/</link>
       <pubDate>Tue, 26 Apr 2016 19:18:46 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2016-04-26-publicamos-the-zombie-smasher/</guid>
-      <description>Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!
-En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:
- ¿De qué se trata? El juego tiene una mecánica muy similar a Dragon Punch, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:
-Lo que aprendimos Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo.</description>
+      <description>&lt;p&gt;Esta semana publicamos un videojuego nuevo para iOS: ¡The Zombie Smasher!&lt;/p&gt;&#xA;&lt;p&gt;En este post me gustaría hacer una pequeña reseña del juego y cómo lo realizamos:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/04/teaser.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jufMEynEfQQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;h2 id=&#34;de-qué-se-trata&#34;&gt;¿De qué se trata?&lt;/h2&gt;&#xA;&lt;p&gt;El juego tiene una mecánica muy similar a &lt;a href=&#34;http://examplelab.com.ar/nuestro-juego-nuevo-dragon-punch/&#34;&gt;Dragon Punch&lt;/a&gt;, de hecho partimos del mismo código base. Comenzamos mejorando los controladores de efectos sonoros y las músicas, luego agregamos niveles y mucho más:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/04/2-1.jpeg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/04/4.jpeg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/04/6-1.jpeg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/04/7-1.jpeg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/04/8-1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/04/sprites-final-hero.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;lo-que-aprendimos&#34;&gt;Lo que aprendimos&lt;/h2&gt;&#xA;&lt;p&gt;Unity es fascinante, no sólo para desarrollar el juego en sí, sino su ecosistema completo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Agregando efectos especiales en juegos 2D</title>
       <link>https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</link>
       <pubDate>Fri, 15 Apr 2016 21:02:50 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2016-04-15-convertir-videos-en-imagenes-con-canal-alpha/</guid>
-      <description>Esta semana estuvimos agregando efectos especiales a uno de nuestros juegos en unity:
-Pero a diferencia de lo que hicimos en otros juegos, aquí no usamos partículas sino efectos prediseñados de video, que luego de procesarlos como imágenes se pueden integrar a unity.
-¿Por qué? Los efectos de videos tienen una apariencia espectacular, sobretodo cuando de trata de juegos 2d, caricaturescos y divertidos.
-Por ejemplo, mirá la galería de efectos que produjo dyomin en videhive, como la la serie toonstool-fx.</description>
+      <description>&lt;p&gt;Esta semana estuvimos agregando efectos especiales a uno de nuestros juegos en unity:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/02/Untitled-2016-02-19-15-45-33.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pero a diferencia de lo que hicimos en otros juegos, aquí no usamos partículas sino efectos prediseñados de video, que luego de procesarlos como imágenes se pueden integrar a unity.&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-qué&#34;&gt;¿Por qué?&lt;/h2&gt;&#xA;&lt;p&gt;Los efectos de videos tienen una apariencia espectacular, sobretodo cuando de trata de juegos 2d, caricaturescos y divertidos.&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, mirá la galería de efectos que produjo &lt;a href=&#34;http://videohive.net/user/dyomin&#34;&gt;dyomin&lt;/a&gt; en videhive, como la la serie &lt;a href=&#34;http://videohive.net/item/toonstool-fx-kit/12815828&#34;&gt;toonstool-fx&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¡ Dragon Punch !</title>
       <link>https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</link>
       <pubDate>Wed, 25 Nov 2015 16:17:33 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2015-11-25-nuestro-juego-nuevo-dragon-punch/</guid>
-      <description>Hoy quiero mostrarles un juego en el que venimos trabajando hace algunos meses: Dragon Punch, inspirado en la serie animada Dragon Ball.
-Gameplay El juego está orientado a usuarios de dispositivos móviles, como celulares y tablets, así que la forma de jugar es haciendo movimientos de desplazamiento sobre la pantalla:
- El objetivo del juego es que el jugador pueda controlar a yamcha para defenderse de los saibamens, dando golpes de puño y patadas.</description>
+      <description>&lt;p&gt;Hoy quiero mostrarles un juego en el que venimos trabajando hace algunos meses: &lt;strong&gt;Dragon Punch&lt;/strong&gt;, inspirado en la serie animada Dragon Ball.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/09/1536x2008ss-80-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/09/screenshot---dragon-ball-punch-1-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;gameplay&#34;&gt;Gameplay&lt;/h2&gt;&#xA;&lt;p&gt;El juego está orientado a usuarios de dispositivos móviles, como celulares y tablets, así que la forma de jugar es haciendo movimientos de desplazamiento sobre la pantalla:&lt;/p&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Q1a0ZfhDM68&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;El objetivo del juego es que el jugador pueda controlar a &lt;strong&gt;yamcha&lt;/strong&gt; para defenderse de los &lt;strong&gt;saibamens&lt;/strong&gt;, dando golpes de puño y patadas. El juego entregará puntos por cada &lt;strong&gt;saibamens&lt;/strong&gt; que se golpee.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¡ Publicamos Dracula&#39;s Nightmare !</title>
       <link>https://www.examplelab.com.ar/posts/2015-07-12-draculas/</link>
       <pubDate>Sun, 12 Jul 2015 22:18:39 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2015-07-12-draculas/</guid>
-      <description>Esta semana Wally, BalbiNos y yo, publicamos nuestro primer videojuego para iOS (y pronto android): Dracula&amp;rsquo;s Nightmare en el marco de nuestro emprendimiento independiente 2players :
-¿En que consiste? El juego es super sencillo, es un juego de supervivencia donde manejamos un pequeño vampiro que tiene que sobrevivir a todos los objetos que le arrojan los pueblerinos enfurecidos:
- El proceso de desarrollo Para realizar el juego nos pusimos a investigar varias alternativas, probamos con HTML5 junto cocoonjs, V-Play, SpriteKit y Unity.</description>
+      <description>&lt;p&gt;Esta semana &lt;a href=&#34;https://www.facebook.com/walter.velazquez.94&#34;&gt;Wally&lt;/a&gt;, &lt;a href=&#34;https://www.facebook.com/balbinos&#34;&gt;BalbiNos&lt;/a&gt; y yo, publicamos nuestro primer videojuego para iOS (y pronto android): &lt;strong&gt;Dracula&amp;rsquo;s Nightmare&lt;/strong&gt; en el marco de nuestro emprendimiento independiente &lt;em&gt;2players&lt;/em&gt; :&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/07/1-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2015/07/5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;en-que-consiste&#34;&gt;¿En que consiste?&lt;/h3&gt;&#xA;&lt;p&gt;El juego es super sencillo, es un juego de supervivencia donde manejamos un pequeño vampiro que tiene que sobrevivir a todos los objetos que le arrojan los pueblerinos enfurecidos:&lt;/p&gt;&#xA;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/mqCYd2yqp9w&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;h3 id=&#34;el-proceso-de-desarrollo&#34;&gt;El proceso de desarrollo&lt;/h3&gt;&#xA;&lt;p&gt;Para realizar el juego nos pusimos a investigar varias alternativas, probamos con HTML5 junto cocoonjs, V-Play, SpriteKit y &lt;a href=&#34;https://unity3d.com/es&#34;&gt;Unity&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

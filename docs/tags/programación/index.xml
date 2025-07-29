@@ -1,100 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programación on Examplelab</title>
+    <title>Programación on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/programaci%C3%B3n/</link>
-    <description>Recent content in programación on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Programación on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grabando un nuevo screencast</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</guid>
-      <description>Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de programación usando pilas-engine. Hablé de variables, valores, funciones y condicionales, todo dentro del editor de pilas:
- Ver el video en youtube  Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace varios meses, pero nunca daba el primer paso para empezar a grabar.
-Hacer el video me llevó casi 11 horas de realización, unas horas del viernes, sábado y domingo.</description>
+      <description>&lt;p&gt;Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de&#xA;programación usando pilas-engine. Hablé de variables, valores, funciones y&#xA;condicionales, todo dentro del editor de pilas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/MGqb18dMHs8&#34;&gt;Ver el video en youtube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace&#xA;varios meses, pero nunca daba el primer paso para empezar a grabar.&lt;/p&gt;&#xA;&lt;p&gt;Hacer el video me llevó casi 11 horas de realización, unas horas del viernes,&#xA;sábado y domingo. El tiempo pasa volando entre el armado de un guion, la&#xA;grabación y la edición final. Arranqué con la intención de hacer algo rápido y&#xA;corto, pero la inexperiencia me hizo grabar, editar y volver a grabar algunas&#xA;partes extra por más tiempo del que me imaginaba.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Replanteando la Programación Funcional</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-03-replanteando-la-programacion-funcional/</guid>
-      <description>Esta semana escuché una entrevista a Eric Normand en donde describía la programación funcional de una manera completamente diferente para mí.
-Resulta que mis nociones de programación funcional vienen de mi paso por la facultad de ingeniería, donde descubrí la programación funcional en una materia llamada Paradigmas de Programación.
-En esa materia abordamos la programación funcional desde sus fundamentos, usando haskell y resolviendo ejercicios para familiarizarnos con el enfoque del paradigma.</description>
+      <description>&lt;p&gt;Esta semana escuché una &lt;a href=&#34;https://changelog.com/jsparty/163&#34;&gt;entrevista a Eric Normand&lt;/a&gt;&#xA;en donde describía la programación funcional de una manera completamente&#xA;diferente para mí.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que mis nociones de programación funcional vienen de mi paso por la facultad&#xA;de ingeniería, donde descubrí la programación funcional en una materia llamada Paradigmas&#xA;de Programación.&lt;/p&gt;&#xA;&lt;p&gt;En esa materia abordamos la programación funcional desde sus fundamentos, usando&#xA;&lt;a href=&#34;https://www.haskell.com/&#34;&gt;haskell&lt;/a&gt; y resolviendo ejercicios para familiarizarnos con el enfoque&#xA;del paradigma. Estos ejercicios consistían en cálculos matemáticos, operaciones con listas&#xA;de números, algoritmos recursivos y esas cosas&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Haciendo un sistema de eventos tipado</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-09-sistema-de-eventos-tipados/</link>
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-09-sistema-de-eventos-tipados/</guid>
-      <description>Cuando empecé a investigar acerca de TypeScript no le vi mucha utilidad. Declarar tipos de datos para variables simples como number o string no me parecía nada valioso.
-Sin embargo, cuando se trata de estructuras de datos la cosa se pone interesante. TypeScript nos permite describir la &amp;ldquo;forma&amp;rdquo; que deberán tener ciertas estructuras de datos y eso hace que nuestro código gane algo de consistencia adicional.
-Después de todo, la pieza más importante de un programa son sus estructuras de datos y ayuda mucho poder detectar inconsistencias mientras estamos escribiendo el código.</description>
+      <description>&lt;p&gt;Cuando empecé a investigar acerca de TypeScript no le vi&#xA;mucha utilidad. Declarar tipos de datos para&#xA;variables simples como number o string no me parecía nada&#xA;valioso.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, cuando se trata de estructuras de datos la cosa&#xA;se pone interesante. TypeScript nos permite describir la &amp;ldquo;forma&amp;rdquo;&#xA;que deberán tener ciertas estructuras de datos y eso hace&#xA;que nuestro código gane algo de consistencia adicional.&lt;/p&gt;&#xA;&lt;p&gt;Después de todo, la pieza más importante de un programa son&#xA;sus estructuras de datos y ayuda mucho poder detectar inconsistencias&#xA;mientras estamos escribiendo el código.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¿Y si programamos en castellano?</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-05-programar-en-castellano/</guid>
-      <description>Tomar decisiones todo el día demanda mucha energía, incluso cosas simples como: qué vas a almorzar, o qué nombre le vas a poner a esa función en el código.
-Cada pequeña decisión te consume un poco de tiempo y energía.
-Por eso creo que vamos desarrollando la tendencia a responder en modo automático, como si nos dijéramos a nosotros mismos:
-&amp;ldquo;Esto se hace así, siempre lo hicimos así, ni nos preguntemos por qué&amp;rdquo;.</description>
+      <description>&lt;p&gt;Tomar decisiones todo el día demanda mucha energía, incluso&#xA;cosas simples como: qué vas a almorzar, o qué nombre le vas&#xA;a poner a esa función en el código.&lt;/p&gt;&#xA;&lt;p&gt;Cada pequeña decisión te consume un poco de tiempo y energía.&lt;/p&gt;&#xA;&lt;p&gt;Por eso creo que vamos desarrollando la tendencia a responder en modo&#xA;automático, como si nos dijéramos a nosotros mismos:&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Esto se hace así, siempre lo hicimos así, ni nos preguntemos por qué&amp;rdquo;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>La documentación no muerde</title>
       <link>https://www.examplelab.com.ar/posts/2018-12-15-la-documentacion-no-muerde/</link>
       <pubDate>Sat, 15 Dec 2018 14:11:38 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2018-12-15-la-documentacion-no-muerde/</guid>
-      <description>Sé que suena un poco fuerte, pero no te ofendas&amp;hellip; esta leyenda es para mí, y la escribo acá como una forma de no olvidarme lo que pasó hoy y seguir aprendiendo.
-Si sos como yo, y programas hace algunos años, seguramente recurrís con urgencia a google o stack overflow cuando algo no sale bien, ya sea por un error imprevisto o un desafío que parece trivial, es fácil recurrir rápidamente a Internet como una herramienta auxiliar.</description>
+      <description>&lt;p&gt;Sé que suena un poco fuerte, pero no te ofendas&amp;hellip; esta leyenda es para mí, y la escribo acá como una forma de no olvidarme lo que pasó hoy y seguir aprendiendo.&lt;/p&gt;&#xA;&lt;p&gt;Si sos como yo, y programas hace algunos años, seguramente recurrís con urgencia a google o stack overflow cuando algo no sale bien, ya sea por un error imprevisto o un desafío que parece trivial, es fácil recurrir rápidamente a Internet como una herramienta auxiliar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hackatón de Program.AR</title>
       <link>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</link>
       <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</guid>
-      <description>Este viernes se realizó al hackatón del primer foro regional &amp;lt;program.AR\&amp;gt; en la universidad de Quilmes.
-La experiencia estuvo increible:
-Al evento asistimos el equipo completo de huayra y muchos amigos de la comunidad educativa: los chicos de educ.ar, sadosky, Jefatura de Gobierno y pyar.
-El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un poco mas de tiempo, la ocasión sirvió para conocernos, debatir ideas y divertirnos.</description>
+      <description>&lt;p&gt;Este viernes se realizó al hackatón del primer foro regional &lt;code&gt;&amp;lt;program.AR\&amp;gt;&lt;/code&gt; en la universidad de Quilmes.&lt;/p&gt;&#xA;&lt;p&gt;La experiencia estuvo increible:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/10454306_245544275652369_1875185198295326733_n.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/BpcrF_oIIAAkQyb.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/0000033340.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Al evento asistimos el equipo completo de &lt;em&gt;huayra&lt;/em&gt; y muchos amigos de la comunidad educativa: los chicos de &lt;em&gt;educ.ar&lt;/em&gt;, &lt;em&gt;sadosky&lt;/em&gt;, &lt;em&gt;Jefatura de Gobierno&lt;/em&gt; y &lt;em&gt;pyar&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un poco mas de tiempo, la ocasión sirvió para conocernos, debatir ideas y divertirnos.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</link>
       <pubDate>Sun, 04 May 2014 00:23:57 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</guid>
-      <description>Bret Victor dió una charla impresionante llamada Inventing on Principle, invitando a las personas a descubrir un principio, algo que los guíe, una causa por que pelear.
-Es difícil resumir el potencial y lo inspirador de su enfoque. Sus ideas son transformadoras y valiosas para todos los programadores, artistas y creativos del mundo.
-Por ese motivo realizamos una traducción al español de su charla con un grupo de amigos. Hicimos un gran trabajo, nos llevó varios días realizarlo, y hoy pudimos terminar la compaginación y ponerlo online.</description>
+      <description>&lt;p&gt;&lt;em&gt;Bret Victor&lt;/em&gt; dió una charla impresionante llamada &lt;strong&gt;Inventing on Principle&lt;/strong&gt;, invitando a las personas a descubrir un principio, algo que los guíe, una causa por que pelear.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/May/bret_victor___inventing_on_principle_1280x720_mp4_2014_05_03_15_27_37_2014_05_03_15_27_39.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es difícil resumir el potencial y lo inspirador de su enfoque. Sus ideas son transformadoras y valiosas para todos los programadores, artistas y creativos del mundo.&lt;/p&gt;&#xA;&lt;p&gt;Por ese motivo &lt;a href=&#34;https://github.com/JuloWaks/Subtitulos-Bret-Victor&#34;&gt;realizamos una traducción&lt;/a&gt; al español de su charla con un grupo de amigos. Hicimos un gran trabajo, nos llevó varios días realizarlo, y hoy pudimos terminar la compaginación y ponerlo online.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>_why: La historia de un genio post-moderno</title>
       <link>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</link>
       <pubDate>Sat, 25 Jan 2014 22:01:47 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-01-25-_why-una-historia-de-un-genio-post-moderno/</guid>
-      <description>Esta es una traducción de un artículo publicado por Smash Magazine en el 2010.
-Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. ¡Que la disfruten!
- Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.</description>
+      <description>&lt;div class=&#39;nota&#39;&gt;&#xA;  &lt;p&gt;Esta es una traducción de un &lt;a href=&#34;http://www.smashingmagazine.com/2010/05/15/why-a-tale-of-a-post-modern-genius/&#34;&gt;artículo&lt;/a&gt; publicado por &lt;a href=&#34;http://www.smashingmagazine.com/&#34;&gt;Smash Magazine&lt;/a&gt; en el 2010.&lt;/p&gt;&#xA;  &lt;p&gt;Hice esta traducción hace un buen tiempo junto a Rocio Viñas, pero nunca la había publicado. &lt;/p&gt;&#xA;  &lt;p&gt;¡Que la disfruten!&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Why the Lucky Stiff (o _Why para ser mas breves) fue uno de los programadores mas brillantes e inspiradores de estos tiempos. Se volvió famoso  mediante una serie de blogs y una cantidad increible de proyectos open-source que mantuvo durante mas de 7 años.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

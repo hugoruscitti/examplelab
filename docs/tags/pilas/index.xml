@@ -1,179 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pilas on Examplelab</title>
+    <title>Pilas on Examplelab</title>
     <link>https://www.examplelab.com.ar/tags/pilas/</link>
-    <description>Recent content in pilas on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/tags/pilas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Pilas on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.examplelab.com.ar/tags/pilas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creando tutoriales con amigos</title>
       <link>https://www.examplelab.com.ar/posts/2021-07-16-creando-tutoriales-con-amigos/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-07-16-creando-tutoriales-con-amigos/</guid>
-      <description>Esta semana grabé unos videotutoriales nuevos de pilas engine junto a unos amigos.
-Primero, grabé un video junto a Fede Sawady en donde nos pusimos a hacer un juego de ninjas estilo Pocky and Rocky:
-Una cosa interesante de este juego es que nos permitió hablar acerca de ángulos y operaciones trigonométricas directamente en la llamada:
-Y aquí creo que surgió algo interesante que no me había pasado en otros videos: Armar el video junto a otra persona da lugar a ideas, preguntas y estrategias que no aparecen cuando grabas el video solo.</description>
+      <description>&lt;p&gt;Esta semana grabé unos videotutoriales nuevos de &lt;a href=&#34;https://www.pilas-engine.com.ar&#34;&gt;pilas&#xA;engine&lt;/a&gt; junto a unos amigos.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-tutoriales-con-amigos/portadas.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Primero, grabé un video junto a Fede Sawady en donde nos pusimos&#xA;a hacer un juego de ninjas estilo &lt;a href=&#34;https://en.wikipedia.org/wiki/Pocky_%26_Rocky&#34;&gt;Pocky and Rocky&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-tutoriales-con-amigos/ninjas.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Una cosa interesante de este juego es que nos permitió hablar&#xA;acerca de ángulos y operaciones trigonométricas directamente&#xA;en la llamada:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/creando-tutoriales-con-amigos/bocetos.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Y aquí creo que surgió algo interesante que no me había pasado&#xA;en otros videos: Armar el video junto a otra persona&#xA;da lugar a ideas, preguntas y estrategias que no aparecen&#xA;cuando grabas el video solo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Grabando un nuevo screencast</title>
       <link>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-06-28-grabando-un-screencast/</guid>
-      <description>Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de programación usando pilas-engine. Hablé de variables, valores, funciones y condicionales, todo dentro del editor de pilas:
- Ver el video en youtube  Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace varios meses, pero nunca daba el primer paso para empezar a grabar.
-Hacer el video me llevó casi 11 horas de realización, unas horas del viernes, sábado y domingo.</description>
+      <description>&lt;p&gt;Este fin de semana me propuse grabar un screencast sobre conceptos iniciales de&#xA;programación usando pilas-engine. Hablé de variables, valores, funciones y&#xA;condicionales, todo dentro del editor de pilas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/MGqb18dMHs8&#34;&gt;Ver el video en youtube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tenía muchas ganas de grabar un video así, venía pensando en esta idea hace&#xA;varios meses, pero nunca daba el primer paso para empezar a grabar.&lt;/p&gt;&#xA;&lt;p&gt;Hacer el video me llevó casi 11 horas de realización, unas horas del viernes,&#xA;sábado y domingo. El tiempo pasa volando entre el armado de un guion, la&#xA;grabación y la edición final. Arranqué con la intención de hacer algo rápido y&#xA;corto, pero la inexperiencia me hizo grabar, editar y volver a grabar algunas&#xA;partes extra por más tiempo del que me imaginaba.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Provisorio hasta que haga falta</title>
       <link>https://www.examplelab.com.ar/posts/2021-03-10-provisorio-hasta-que-haga-falta/</link>
       <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-03-10-provisorio-hasta-que-haga-falta/</guid>
-      <description>Hace más de dos años hice una API para que los usuarios de pilas-engine puedan guardar y compartir sus juegos a través de una url pública.
-Esto funcionó a la perfección por más de dos años&amp;hellip; pero ayer empezó a dar problemas: El equipo en donde estaba corriendo esta aplicación se quedó sin espacio disponible y cuando me puse a investigar encontré que una de las bases de datos había crecido un montón.</description>
+      <description>&lt;p&gt;Hace más de dos años hice una &lt;em&gt;API&lt;/em&gt; para que los usuarios de&#xA;&lt;a href=&#34;https://www.pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt; puedan guardar&#xA;y compartir sus juegos a través de una &lt;em&gt;url&lt;/em&gt; pública.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/provisorio-hasta-que-haga-falta/exportar.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esto funcionó a la perfección por más de dos años&amp;hellip; pero ayer empezó&#xA;a dar problemas: El equipo en donde estaba corriendo esta aplicación se quedó sin&#xA;espacio disponible y cuando me puse a investigar encontré que una de&#xA;las bases de datos había crecido un montón.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Resaltando bloques en Pilas</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/</link>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/</guid>
-      <description>Pilas permite visualizar el código que se está ejecutando en todo momento.
-La aplicación pinta con un color diferente las lineas de código que efectivamente se ejecutaron:
-Este resaltado es útil incluso para los que programamos hace tiempo. Porque sin esto te ves obligado a llenar el código de console.log para asegurarte de qué está haciendo el programa.
-Sin embargo, cuando empecé a jugar con la idea de añadir bloques a Pilas, noté que el resaltado de código era algo que faltaba.</description>
+      <description>&lt;p&gt;Pilas permite visualizar el código que se está ejecutando en todo momento.&lt;/p&gt;&#xA;&lt;p&gt;La aplicación pinta con un color diferente las lineas de código que&#xA;efectivamente se ejecutaron:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/resaltando-bloques-en-pilas/resaltado-de-codigo.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Este resaltado es útil incluso para los que programamos hace tiempo. Porque&#xA;sin esto te ves obligado a llenar el código de &lt;code&gt;console.log&lt;/code&gt; para asegurarte&#xA;de qué está haciendo el programa.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo, cuando empecé a jugar con la idea de &lt;a href=&#34;https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/&#34;&gt;añadir bloques a Pilas&lt;/a&gt;, noté&#xA;que el resaltado de código era algo que faltaba. Sin resaltado me veo obligado a tener&#xA;que imaginarme el programa ejecutando en mi cabeza, imaginando qué bloque se está ejecutando.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sobre Bloques vs Código</title>
       <link>https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-02-19-bloques-y-codigo/</guid>
-      <description>Hace unas semanas me propuse hacer un experimento dentro de pilas-engine para permitir que las personas puedan programar usando bloques.
-Al principio imaginé que podría hacer dos versiones diferentes de pilas-engine, ya que algunas personas podrían querer programar en código, mientras que otras podrían preferir usar bloques (como en scratch).
-Sin embargo noté que las dos cosas pueden funcionar juntas. Los actores podría responder a las órdenes que les damos escribiendo código o encastrando bloques.</description>
+      <description>&lt;p&gt;Hace unas semanas me propuse hacer un experimento dentro de&#xA;&lt;a href=&#34;https://pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt; para permitir que las personas&#xA;puedan programar usando bloques.&lt;/p&gt;&#xA;&lt;p&gt;Al principio imaginé que podría hacer dos versiones diferentes&#xA;de &lt;a href=&#34;https://pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt;, ya que&#xA;algunas personas podrían querer&#xA;programar en código, mientras que otras podrían preferir usar&#xA;bloques (como en &lt;a href=&#34;https://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo noté que las dos cosas pueden funcionar juntas. Los&#xA;actores podría responder a las órdenes que les damos escribiendo código&#xA;o encastrando bloques.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Haciendo un Remix del juego Ceferino</title>
       <link>https://www.examplelab.com.ar/posts/2021-01-25-remix-de-ceferino/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2021-01-25-remix-de-ceferino/</guid>
-      <description>Don Ceferino Hazaña es uno de los primeros juegos que hicimos con Walter Velazquez allá por el año 2004:
-Creo que fue uno de los juegos a los que más tiempo y ganas le dedicamos, yo apenas estaba aprendiendo a programar así que me costó el triple de lo que esperaba al principio. Fue una de las primeras estimaciones &amp;ldquo;fallidas&amp;rdquo; de mi vida, imaginé que el juego completo se podría hacer en &amp;ldquo;un par de semanas&amp;rdquo;, y casi estuvimos un año entero haciéndolo :P</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://losersjuegos.com.ar/juegos/ceferino&#34;&gt;Don Ceferino Hazaña&lt;/a&gt; es uno de los&#xA;primeros juegos que hicimos con Walter Velazquez allá por el año 2004:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2021/ceferino/capturas.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Creo que fue uno de los juegos a los que más tiempo y ganas le dedicamos, yo&#xA;apenas estaba aprendiendo a programar así que me costó el triple de lo que&#xA;esperaba al principio. Fue una de las primeras estimaciones &amp;ldquo;fallidas&amp;rdquo; de mi&#xA;vida, imaginé que el juego completo se podría hacer en &amp;ldquo;un par de semanas&amp;rdquo;, y&#xA;casi estuvimos un año entero haciéndolo :P&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¡Comenzamos Pilas Engine 2!</title>
       <link>https://www.examplelab.com.ar/posts/2018-03-04-comenzamos-pilas-engine-2/</link>
       <pubDate>Sun, 04 Mar 2018 21:00:46 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2018-03-04-comenzamos-pilas-engine-2/</guid>
-      <description>Wooow, ¡Pilas está cerca de cumplir 8 años!, y semejante acontecimiento me hizo tomar valor para encarar un cambio muy grande que veníamos planeando con la comunidad hace tiempo: crear la versión 2 de Pilas Engine.
-Desde que el proyecto comenzó el 1 de Agosto de 2010 pudimos transitar todos estos años mejorando y ayudando a un montón de personas a aprender a programar videojuegos. El motor creció, formamos una gran comunidad y aprendimos mucho.</description>
+      <description>&lt;p&gt;Wooow, ¡Pilas está cerca de cumplir 8 años!, y semejante acontecimiento me hizo tomar valor para encarar un cambio muy grande que veníamos planeando con la comunidad hace tiempo: crear la versión 2 de Pilas Engine.&lt;/p&gt;&#xA;&lt;p&gt;Desde que el proyecto comenzó el 1 de Agosto de 2010 pudimos transitar todos estos años mejorando y ayudando a un montón de personas a aprender a programar videojuegos. El motor creció, formamos una gran comunidad y aprendimos mucho.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Haciendo indicadores de actualización</title>
       <link>https://www.examplelab.com.ar/posts/2015-03-01-indicadores-de-version/</link>
       <pubDate>Sun, 01 Mar 2015 04:30:33 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2015-03-01-indicadores-de-version/</guid>
-      <description>Esta semana pusimos en marcha un indicador de versiones muy simple para las aplicaciones de huayra.
-Hicimos algo similar a lo que venía haciendo en pilas-engine, pero de manera mas sencilla:
-La idea es muy simple, cada vez que se abre una aplicación, buscamos informar a los usuarios si existe una versión mas reciente en nuestros servidores, y si es así, lo informamos.
-¿Cómo se ve en las aplicaciones? Imaginá que el usuario abre una aplicación como huayra-curriculum, si está usando la versión más reciente va a observar algo así:</description>
+      <description>&lt;p&gt;Esta semana pusimos en marcha un indicador de versiones muy simple para las aplicaciones de &lt;a href=&#34;http://huayra.conectarigualdad.gob.ar/&#34;&gt;huayra&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hicimos algo similar a lo que venía haciendo en &lt;a href=&#34;http://www.pilas-engine.com.ar/&#34;&gt;pilas-engine&lt;/a&gt;, pero de manera mas sencilla:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/12/pilas-engine-2014-12-28-11-47-09.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La idea es muy simple, cada vez que se abre una aplicación, buscamos informar a los usuarios si existe una versión mas reciente en nuestros servidores, y si es así, lo informamos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cómo-se-ve-en-las-aplicaciones&#34;&gt;¿Cómo se ve en las aplicaciones?&lt;/h2&gt;&#xA;&lt;p&gt;Imaginá que el usuario abre una aplicación como &lt;strong&gt;huayra-curriculum&lt;/strong&gt;, si está usando la versión más reciente va a observar algo así:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>La renovación de pilas-engine</title>
       <link>https://www.examplelab.com.ar/posts/2015-01-21-la-renovacion-de-pilas-engine/</link>
       <pubDate>Wed, 21 Jan 2015 02:26:10 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2015-01-21-la-renovacion-de-pilas-engine/</guid>
-      <description>Estamos muy cerca de lanzar la versión 0.91 de pilas-engine, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión y contarte el por qué de estos cambios.
-Esta es una versión muy especial, principalmente porque añadimos muchos cambios en la estructura completa del motor.
-Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero, Walter Velazquez y el equipo de HuayraLinux hicieron posible esta nueva versión.</description>
+      <description>&lt;p&gt;Estamos muy cerca de lanzar la versión &lt;code&gt;0.91&lt;/code&gt; de &lt;em&gt;pilas-engine&lt;/em&gt;, así que me pareció buena idea compartir en el blog las características más importantes de esta nueva versión y contarte el por qué de estos cambios.&lt;/p&gt;&#xA;&lt;p&gt;Esta es una versión muy especial, principalmente porque añadimos muchos cambios en la estructura completa del motor.&lt;/p&gt;&#xA;&lt;p&gt;Por supuesto no hice estos cambios solo. Irving, Quique Porta, Fernando Salamero, Walter Velazquez y el equipo de HuayraLinux hicieron posible esta nueva versión.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hackatón de Program.AR</title>
       <link>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</link>
       <pubDate>Wed, 11 Jun 2014 01:07:26 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-06-11-llego-program-ar/</guid>
-      <description>Este viernes se realizó al hackatón del primer foro regional &amp;lt;program.AR\&amp;gt; en la universidad de Quilmes.
-La experiencia estuvo increible:
-Al evento asistimos el equipo completo de huayra y muchos amigos de la comunidad educativa: los chicos de educ.ar, sadosky, Jefatura de Gobierno y pyar.
-El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un poco mas de tiempo, la ocasión sirvió para conocernos, debatir ideas y divertirnos.</description>
+      <description>&lt;p&gt;Este viernes se realizó al hackatón del primer foro regional &lt;code&gt;&amp;lt;program.AR\&amp;gt;&lt;/code&gt; en la universidad de Quilmes.&lt;/p&gt;&#xA;&lt;p&gt;La experiencia estuvo increible:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/10454306_245544275652369_1875185198295326733_n.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/BpcrF_oIIAAkQyb.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/0000033340.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Al evento asistimos el equipo completo de &lt;em&gt;huayra&lt;/em&gt; y muchos amigos de la comunidad educativa: los chicos de &lt;em&gt;educ.ar&lt;/em&gt;, &lt;em&gt;sadosky&lt;/em&gt;, &lt;em&gt;Jefatura de Gobierno&lt;/em&gt; y &lt;em&gt;pyar&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un poco mas de tiempo, la ocasión sirvió para conocernos, debatir ideas y divertirnos.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>¡Empezó el curso online de pilas!</title>
       <link>https://www.examplelab.com.ar/posts/2014-05-26-empezo-el-curso-online-de-pilas/</link>
       <pubDate>Mon, 26 May 2014 02:49:18 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2014-05-26-empezo-el-curso-online-de-pilas/</guid>
-      <description>Esta semana arrancó la clase 3 del curso online de pilas-engine, un tutorial completo de programación, orientado a jóvenes que quieren crear sus propios videojuegos.
-El curso está online gracias a educ.ar, que nos capacitó y puso a nuestra disposición un sin-fin de herramientas y apoyo.
-¿ Y cómo es ? El curso va dirigido a jóvenes de escuelas secundarias, con ganas de aprender a realizar sus propios videojuegos; programando, diseñando e incluso haciendo sus propios gráficos.</description>
+      <description>&lt;p&gt;Esta semana arrancó la clase 3 del curso online de &lt;a href=&#34;http://pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt;, un tutorial completo de programación, orientado a jóvenes que quieren crear sus propios videojuegos.&lt;/p&gt;&#xA;&lt;p&gt;El curso está online gracias a &lt;a href=&#34;http://www.educ.ar/&#34;&gt;educ.ar&lt;/a&gt;, que nos capacitó y puso a nuestra disposición un sin-fin de herramientas y apoyo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-y-cómo-es-&#34;&gt;¿ Y cómo es ?&lt;/h2&gt;&#xA;&lt;p&gt;El curso va dirigido a jóvenes de escuelas secundarias, con ganas de aprender a realizar sus propios videojuegos; programando, diseñando e incluso haciendo sus propios gráficos.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Encuentro Linux en Temuco, Chile</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</link>
       <pubDate>Mon, 18 Nov 2013 10:58:16 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2013-11-18-encuentro-linux-en-temuco-chile/</guid>
-      <description>Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en la ciudad de Temuco:
-Es la primera vez que visito Temuco, y de principio a fin estuvo espectacular, la Universidad de la Frontera en donde se realizó el evento es muy linda, está rodeada de jardines y espacios comunes grandes y cómodos:
-El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pilas-engine y al dia siguiente otra sobre node-webkit.</description>
+      <description>&lt;p&gt;Este mes tuve la posibilidad de participar de un evento muy interesante llamado Encuentro Linux, en la ciudad de Temuco:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0661_JPG.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0636_JPG.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es la primera vez que visito Temuco, y de principio a fin estuvo espectacular, la Universidad de la Frontera en donde se realizó el evento es muy linda, está rodeada de jardines y espacios comunes grandes y cómodos:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0646_JPG.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0642_JPG.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0633_JPG.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El evento comenzó el dia jueves, tuve la oportunidad de dar una charla sobre pilas-engine y al dia siguiente otra sobre node-webkit. Asistí a otras charlas muy buenas, una sobre git, opencv y django.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Semana de la juventud en Bariloche</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</link>
       <pubDate>Sun, 03 Nov 2013 23:32:32 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2013-11-03-semana-de-la-juventud-en-bariloche/</guid>
-      <description>Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre pilas-engine a chicos de escuelas secundarias.
-El evento estuvo espectacular, los chicos armaron stands, participaron de talleres de edición de videos con openshot, competencias de fútbol tenis, bailes y mucho más:
-Y por si fuera poco, el centro cívico de la ciudad de Bariloche es espectacular, la vista al Lago Nahuel Huapi es increible:
-Ojalá pueda visitar nuevamente bariloche con un taller de pilas-engine renovado.</description>
+      <description>&lt;p&gt;Esta semana tuve la oportunidad de viajar a Bariloche para dar un taller sobre &lt;a href=&#34;http://www.pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt; a chicos de escuelas secundarias.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_05612.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El evento estuvo espectacular, los chicos armaron stands, participaron de talleres de edición de videos con openshot, competencias de fútbol tenis, bailes y mucho más:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0580.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0585.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0590.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2013/Nov/IMG_0542.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Y por si fuera poco, el &lt;a href=&#34;http://es.wikipedia.org/wiki/Centro_C%C3%ADvico_Bariloche&#34;&gt;centro cívico&lt;/a&gt; de la ciudad de &lt;strong&gt;Bariloche&lt;/strong&gt; es espectacular, la vista al &lt;em&gt;Lago Nahuel Huapi&lt;/em&gt; es increible:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pilas en pycon 2013 Rosario</title>
       <link>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</link>
       <pubDate>Fri, 01 Nov 2013 21:24:50 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
-      <description>Esta semana publiqué el video de mi charla sobre pilas-engine en el evento PyCon 2013 de la ciudad de Rosario.
-Aquí estan las diapositivas:
- y el video:
- </description>
+      <description>&lt;p&gt;Esta semana publiqué el video de mi charla sobre &lt;strong&gt;pilas-engine&lt;/strong&gt; en el evento &lt;a href=&#34;http://ar.pycon.org/2013&#34;&gt;PyCon 2013&lt;/a&gt; de la ciudad de Rosario.&lt;/p&gt;&#xA;&lt;p&gt;Aquí estan las diapositivas:&lt;/p&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3bca4350246c013116920a063b0afe2f&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;y el video:&lt;/p&gt;&#xA;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/tXA2BgzrvzA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Rediseñando los eventos de pilas-engine</title>
       <link>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</link>
       <pubDate>Wed, 29 Feb 2012 15:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/posts/2012-02-29-redisenando-los-eventos-de-pilas-engine/</guid>
-      <description>El sistema de eventos de pilas-engine necesitaba varias mejoras. Desde que lo implementé, siempre tuve la sensación de que se podía simplificar y mejorar notablemente.
-Por suerte hoy logré implementar los cambios que quería, le dediqué varias horas pero valió la pena el esfuerzo, quedó mucho mejor de lo que esperaba, y en el camino aprendí varias cosas nuevas.
-¿Por qué es importante? Casi todos los motores de juegos tienen algún sistema de eventos, de alguna u otra forma se te permite conocer el estado de las teclas, del mouse etc.</description>
+      <description>&lt;p&gt;El sistema de eventos de &lt;a href=&#34;http://www.pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt; necesitaba&#xA;varias mejoras. Desde que lo implementé, siempre tuve&#xA;la sensación de que se podía simplificar y mejorar&#xA;notablemente.&lt;/p&gt;&#xA;&lt;p&gt;Por suerte hoy logré implementar los cambios que quería,&#xA;le dediqué varias horas pero valió la pena el esfuerzo, quedó&#xA;mucho mejor de lo que esperaba, y en el camino aprendí varias cosas&#xA;nuevas.&lt;/p&gt;&#xA;&lt;h1 id=&#34;por-qué-es-importante&#34;&gt;¿Por qué es importante?&lt;/h1&gt;&#xA;&lt;p&gt;Casi todos los motores de juegos tienen algún sistema de eventos,&#xA;de alguna u otra forma se te permite conocer el estado de las&#xA;teclas, del mouse etc.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

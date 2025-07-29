@@ -1,211 +1,151 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Links-files on Examplelab</title>
+    <title>Links-Files on Examplelab</title>
     <link>https://www.examplelab.com.ar/links-files/</link>
-    <description>Recent content in Links-files on Examplelab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.examplelab.com.ar/links-files/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Links-Files on Examplelab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://www.examplelab.com.ar/links-files/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/87/</guid>
-      <description>Write Code Like You Just Learned How to Program  Artículo extraído desde: https://prog21.dadgum.com/87.html  I&amp;rsquo;m reading Do More Faster, which is more than a bit of an advertisement for the TechStars start-up incubator, but it&amp;rsquo;s a good read nonetheless. What struck me is that several of the people who went through the program, successfully enough to at least get initial funding, didn&amp;rsquo;t know how to program. They learned it so they could implement their start-up ideas.</description>
+      <description>&lt;h1 id=&#34;write-code-like-you-just-learned-how-to-program&#34;&gt;Write Code Like You Just Learned How to Program&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://prog21.dadgum.com/87.html&#34;&gt;https://prog21.dadgum.com/87.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;m reading &lt;a href=&#34;http://www.amazon.com/Do-More-Faster-TechStars-Accelerate/dp/0470929839&#34;&gt;Do More&#xA;Faster&lt;/a&gt;,&#xA;which is more than a bit of an advertisement for the TechStars start-up&#xA;incubator, but it&amp;rsquo;s a good read nonetheless. What struck me is that&#xA;several of the people who went through the program, successfully enough&#xA;to at least get initial funding, didn&amp;rsquo;t know how to program. They&#xA;learned it so they could implement their start-up ideas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/advice-from-an-old-programmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/advice-from-an-old-programmer/</guid>
-      <description>Advice from an Old Programmer  Artículo extraído del libro:  Learn Python the hard way de Zed Shaw    You’ve finished this book and have decided to continue with programming. Maybe it will be a career for you, or maybe it will be a hobby. You’ll need some advice to make sure you continue on the right path and get the most enjoyment out of your newly chosen activity.</description>
+      <description>&lt;h1 id=&#34;advice-from-an-old-programmer&#34;&gt;Advice from an Old Programmer&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído del libro:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learnpythonthehardway.org/python3/&#34;&gt;Learn Python the hard way de Zed Shaw&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You’ve finished this book and have decided to continue with programming. Maybe&#xA;it will be a career for you, or maybe it will be a hobby. You’ll need some&#xA;advice to make sure you continue on the right path and get the most enjoyment&#xA;out of your newly chosen activity.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been programming for a very long time. So long that it’s incredibly boring&#xA;to me. At the time that I wrote this book, I knew about 20 programming&#xA;languages and could learn new ones in about a day to a week depending on how&#xA;weird they were. Eventually, though, this just became boring and couldn’t hold&#xA;my interest anymore. This doesn’t mean I think programming is boring, or that&#xA;you will think it’s boring, only that I find it uninteresting at this point in&#xA;my journey.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/all-time-learning-to-program/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/all-time-learning-to-program/</guid>
-      <description>This is Why You Spent All that Time Learning to Program There&amp;rsquo;s a standard format for local TV news broadcasts that&amp;rsquo;s easy to criticize. (By &amp;ldquo;local,&amp;rdquo; I mean any American town large enough to have its own television station.)
-There&amp;rsquo;s an initial shock-value teaser to keep you watching. News stories are read in a dramatic, sensationalist fashion by attractive people who fill most of the screen. There&amp;rsquo;s an inset image over the shoulder of the reader.</description>
+      <description>&lt;h1 id=&#34;this-is-why-you-spent-all-that-time-learning-to-program&#34;&gt;This is Why You Spent All that Time Learning to Program&lt;/h1&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a standard format for local TV news broadcasts that&amp;rsquo;s easy to&#xA;criticize. (By &amp;ldquo;local,&amp;rdquo; I mean any American town large enough to have&#xA;its own television station.)&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s an initial shock-value teaser to keep you watching. News stories&#xA;are read in a dramatic, sensationalist fashion by attractive people who&#xA;fill most of the screen. There&amp;rsquo;s an inset image over the shoulder of the&#xA;reader. Periodically there&amp;rsquo;s a cutaway to a reporter in the field; it&amp;rsquo;s&#xA;often followed-up with side-by-side images of the newscaster and&#xA;reporter while the former asks a few token questions to latter. There&amp;rsquo;s&#xA;pretend banter between newscasters after a feel-good story.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/complexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/complexity/</guid>
-      <description>Complexity is the enemy  Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html  April 23, 2011
-I&amp;rsquo;m almost through my seventh year working at Google(!). I have learned many things there, more than I could ever write down. I thought I would at least share with you something that&amp;rsquo;s only come to me with more experience.
-Complexity is the death of software. It&amp;rsquo;s hard to quantify the cost of, and it tends to creep in slowly, so it&amp;rsquo;s a slow boil of getting worse that&amp;rsquo;s hard to see until it&amp;rsquo;s too late.</description>
+      <description>&lt;h1 id=&#34;complexity-is-the-enemy&#34;&gt;Complexity is the enemy&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde: &lt;a href=&#34;https://neugierig.org/software/blog/2011/04/complexity.html&#34;&gt;https://neugierig.org/software/blog/2011/04/complexity.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;April 23, 2011&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m almost through my seventh year working at Google(!). I have learned&#xA;many things there, more than I could ever write down. I thought I would&#xA;at least share with you something that&amp;rsquo;s only come to me with more&#xA;experience.&lt;/p&gt;&#xA;&lt;p&gt;Complexity is the death of software. It&amp;rsquo;s hard to quantify the cost of,&#xA;and it tends to creep in slowly, so it&amp;rsquo;s a slow boil of getting worse&#xA;that&amp;rsquo;s hard to see until it&amp;rsquo;s too late. On the other side, frequently&#xA;it&amp;rsquo;s easy to see a benefit of increasing complexity: a new layer of&#xA;indirection allows new feature X, or splitting a process that ran on one&#xA;machine into two allows you to surmount your current scaling hurdle. But&#xA;now you must keep another layer of indirection in your head, or&#xA;implement an RPC layer and manage two machines.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/disparar-y-avanzar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/disparar-y-avanzar/</guid>
-      <description>Disparar y avanzar From The Joel on Software Translation Project Artículo original: Fire And Motion
-Hay veces en las que no me sale nada.
-Fijo. Llego a la oficina, doy un par de vueltas, veo si hay correo cada diez segundos, navego por la red y tal vez haga algunas tareas tontas como pagar la factura de la American Express. Pero lo de volver a escribir código con fluidez no ocurre.</description>
+      <description>&lt;h1 id=&#34;disparar-y-avanzar&#34;&gt;Disparar y avanzar&lt;/h1&gt;&#xA;&lt;h3 id=&#34;from-the-joel-on-software-translation-project&#34;&gt;From The Joel on Software Translation Project&lt;/h3&gt;&#xA;&lt;p&gt;Artículo original:&#xA;&lt;a href=&#34;https://web.archive.org/web/20160629045135/http://www.joelonsoftware.com/articles/fog0000000339.html&#34; class=&#34;external text&#34;&gt;Fire And Motion&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hay veces en las que no me sale nada.&lt;/p&gt;&#xA;&lt;p&gt;Fijo. Llego a la oficina, doy un par de vueltas, veo si hay correo cada&#xA;diez segundos, navego por la red y tal vez haga algunas tareas tontas&#xA;como pagar la factura de la American Express. Pero lo de volver a&#xA;escribir código con fluidez no ocurre.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/everything-is-fine-with-javascript/</guid>
-      <description>Everything is fine with JavaScript  Artículo extraído desde:  https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html     this is the only paper that’s willing to tell the truth: that everything is just fine.
- There’s a sort of blog post you’ve probably read - a sarcastic stab at JavaScript and npm and frameworks. There are too many, it’ll say, and it’s confusing, and how did we make such complicated things? It’ll grab names from the ecosystem and present them as equal choices in a comic attempt to construct decision paralysis.</description>
+      <description>&lt;h1 id=&#34;everything-is-fine-with-javascript&#34;&gt;Everything is fine with JavaScript&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&#34;&gt;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/everything-is-fine-with-javascript-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;this is the only paper that’s willing to tell the truth: that&#xA;everything is just fine.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;There’s a sort of blog post you’ve probably read - a sarcastic stab at&#xA;JavaScript and &lt;code&gt;npm&lt;/code&gt; and frameworks. There are too many, it’ll say, and&#xA;it’s confusing, and how did we make such complicated things? It’ll grab&#xA;names from the ecosystem and present them as equal choices in a comic&#xA;attempt to construct decision paralysis. Everything moves too fast, and&#xA;there is too much of it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/iam-boring-programmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/iam-boring-programmer/</guid>
-      <description>I’m a boring programmer (and proud of it) I have a confession to make — I’m not a rock star programmer. Nor am I a hacker. I don’t know ninjutsu. Nobody has ever called me a wizard.
-Still, I take pride in the fact that I’m a good, solid programmer. One who works hard at his craft and really enjoys it, even without the fancy labels.
-Yet every week I see a call for ninja programmers, who I assume slice lines of code with incredible precision.</description>
+      <description>&lt;h1 id=&#34;im-a-boring-programmer-and-proud-of-it&#34;&gt;I’m a boring programmer (and proud of it)&lt;/h1&gt;&#xA;&lt;p&gt;I have a confession to make — I’m not a rock star programmer. Nor am I a&#xA;hacker. I don’t know ninjutsu. Nobody has ever called me a wizard.&lt;/p&gt;&#xA;&lt;p&gt;Still, I take pride in the fact that I’m a good, solid programmer. One&#xA;who works hard at his craft and really enjoys it, even without the fancy&#xA;labels.&lt;/p&gt;&#xA;&lt;p&gt;Yet every week I see a call for ninja programmers, who I assume slice&#xA;lines of code with incredible precision. I read about tech rock stars,&#xA;who I imagine write functions as beautiful as the “Stairway to Heaven”&#xA;solo. I hear people throw around the word hacker (and the associated&#xA;hack, hackfest, and hackathon) as if haphazardly chopping something into&#xA;little bits or prying your way into an unauthorized system is a good&#xA;thing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/own-the-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/own-the-tools/</guid>
-      <description>Own the Tools  Artículo extraído desde: https://www.raptitude.com/2020/12/own-the-tools  When I need to look up a word, most of the time I do it in a paper dictionary.
-I’m pretty quick at flipping to the right place, and I try to get quicker each time. However, it will never be as quick as typing the word into Google.
-My switch back to paper wasn’t motivated by cantankerousness. It wasn’t a romantic thing or a hipster thing, or an “I love the smell of books” thing.</description>
+      <description>&lt;h1 id=&#34;own-the-tools&#34;&gt;Own the Tools&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://www.raptitude.com/2020/12/own-the-tools&#34;&gt;https://www.raptitude.com/2020/12/own-the-tools&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When I need to look up a word, most of the time I do it in a paper&#xA;dictionary.&lt;/p&gt;&#xA;&lt;p&gt;I’m pretty quick at flipping to the right place, and I try to get quicker each&#xA;time. However, it will never be as quick as typing the word into Google.&lt;/p&gt;&#xA;&lt;p&gt;My switch back to paper wasn’t motivated by cantankerousness. It wasn’t a&#xA;romantic thing or a hipster thing, or an “I love the smell of books” thing. I&#xA;just found that after years of relying on online dictionaries, a real one&#xA;offers a better experience in every way except the speed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/programmings-dirtiest-little-secret/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/programmings-dirtiest-little-secret/</guid>
-      <description>Programming&amp;rsquo;s Dirtiest Little Secret  Archivo descargado desde: steve-yegge.blogspot.com  This is another one I&amp;rsquo;ve wanted to write forever. Man, I&amp;rsquo;ve tried a bunch of times. No ruck. Not Rucky. Once again I&amp;rsquo;m stuck feeling so strongly about something that I&amp;rsquo;m tripping over myself trying to get my point across.
-So! Only one thing left to try: bust open a bottle of wine and see if that gets the ol&#39; creative juices flowing all over my keyboard.</description>
+      <description>&lt;h1 id=&#34;programmings-dirtiest-little-secret&#34;&gt;Programming&amp;rsquo;s Dirtiest Little Secret&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Archivo descargado desde: &lt;a href=&#34;https://steve-yegge.blogspot.com/2008/09/programmings-dirtiest-little-secret.html&#34;&gt;steve-yegge.blogspot.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is another one I&amp;rsquo;ve wanted to write forever. Man, I&amp;rsquo;ve tried a&#xA;bunch of times. No ruck. Not Rucky. Once again I&amp;rsquo;m stuck feeling so&#xA;strongly about something that I&amp;rsquo;m tripping over myself trying to get my&#xA;point across.&lt;/p&gt;&#xA;&lt;p&gt;So! Only one thing left to try: bust open a bottle of wine and see if&#xA;that gets the ol&amp;rsquo; creative juices flowing all over my keyboard. Rather&#xA;than top-down, which is boring, let&amp;rsquo;s go bottoms-up.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/talk/</guid>
-      <description>Write like you talk  Artículo extraído desde: http://www.paulgraham.com/talk.html  Here&amp;rsquo;s a simple trick for getting more people to read what you write: write in spoken language.
-Something comes over most people when they start writing. They write in a different language than they&amp;rsquo;d use if they were talking to a friend. The sentence structure and even the words are different. No one uses &amp;ldquo;pen&amp;rdquo; as a verb in spoken English.</description>
+      <description>&lt;h2 id=&#34;write-like-you-talk&#34;&gt;Write like you talk&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;http://www.paulgraham.com/talk.html&#34;&gt;http://www.paulgraham.com/talk.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a simple trick for getting more people to read what you write: write in&#xA;spoken language.&lt;/p&gt;&#xA;&lt;p&gt;Something comes over most people when they start writing. They write in a&#xA;different language than they&amp;rsquo;d use if they were talking to a friend. The&#xA;sentence structure and even the words are different. No one uses &amp;ldquo;pen&amp;rdquo; as a&#xA;verb in spoken English. You&amp;rsquo;d feel like an idiot using &amp;ldquo;pen&amp;rdquo; instead of &amp;ldquo;write&amp;rdquo;&#xA;in a conversation with a friend.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/the-productivity-funnel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/the-productivity-funnel/</guid>
-      <description>The Productivity Funnel  Artículo extraído desde: calnewport.com/blog  In light of our recent discussions of “productivity,” both in this newsletter and on my podcast, I thought it might be useful to provide a more formal definition of what exactly I mean when I reference this concept.
-In the most general sense, productivity is about navigating from a large constellation of possible things you could be doing to the actual execution of a much smaller number of things each day.</description>
+      <description>&lt;h1 id=&#34;the-productivity-funnel&#34;&gt;The Productivity Funnel&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://www.calnewport.com/blog/2021/04/20/the-productivity-funnel&#34;&gt;calnewport.com/blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In light of our recent discussions of “productivity,” both in this newsletter&#xA;and on my podcast, I thought it might be useful to provide a more formal&#xA;definition of what exactly I mean when I reference this concept.&lt;/p&gt;&#xA;&lt;p&gt;In the most general sense, productivity is about navigating from a large&#xA;constellation of possible things you could be doing to the actual execution of&#xA;a much smaller number of things each day.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/advice-from-an-old-programmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/traducciones/advice-from-an-old-programmer/</guid>
-      <description>Consejo de un viejo programador  Artículo extraído del libro:  Learn Python the hard way de Zed Shaw   Traducción por Hugo Ruscitti  Has finalizado este libro y has decidido continuar con la programación. Tal vez esto se convierta en una carrera para vos, o tal vez un hobby. Por ese motivo te daré un consejo para que puedas continuar por el camino correcto y disfrutar lo mayor posible de esta nueva habilidad.</description>
+      <description>&lt;h1 id=&#34;consejo-de-un-viejo-programador&#34;&gt;Consejo de un viejo programador&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído del libro:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learnpythonthehardway.org/python3/&#34;&gt;Learn Python the hard way de Zed Shaw&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Traducción por Hugo Ruscitti&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!--You’ve finished this book and have decided to continue with programming. Maybe--&gt;&#xA;&lt;!--it will be a career for you, or maybe it will be a hobby. You’ll need some--&gt;&#xA;&lt;!--advice to make sure you continue on the right path and get the most enjoyment--&gt;&#xA;&lt;!--out of your newly chosen activity.--&gt;&#xA;&lt;p&gt;Has finalizado este libro y has decidido continuar con la programación. Tal vez&#xA;esto se convierta en una carrera para vos, o tal vez un hobby. Por ese motivo&#xA;te daré un consejo para que puedas continuar por el camino correcto y disfrutar&#xA;lo mayor posible de esta nueva habilidad.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/complexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/traducciones/complexity/</guid>
-      <description>La complejidad es el enemigo  Artículo extraído desde: https://neugierig.org/software/blog/2011/04/complexity.html Traducción por Hugo Ruscitti  23 de Abril de 20211
-Estoy cerca de cumplir 7 años trabajando en Google. Aprendí muchas cosas aquí, muchas más de las que podría escribir. Y pensé que podría compartir con vos algo que solo vino a mí a través de la experiencia.
-La complejidad es mortal para el software. Es difícil medir su costo y tiende a introducirse muy lentamente, así que crece volviéndose peor al punto que es difícil verlo hasta que es muy tarde.</description>
+      <description>&lt;h1 id=&#34;la-complejidad-es-el-enemigo&#34;&gt;La complejidad es el enemigo&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde: &lt;a href=&#34;https://neugierig.org/software/blog/2011/04/complexity.html&#34;&gt;https://neugierig.org/software/blog/2011/04/complexity.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Traducción por Hugo Ruscitti&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;23 de Abril de 20211&lt;/p&gt;&#xA;&lt;!--&#xA;I&#39;m almost through my seventh year working at Google(!). I have learned&#xA;many things there, more than I could ever write down. I thought I would&#xA;at least share with you something that&#39;s only come to me with more&#xA;experience.&#xA;--&gt;&#xA;&lt;p&gt;Estoy cerca de cumplir 7 años trabajando en Google. Aprendí muchas cosas aquí,&#xA;muchas más de las que podría escribir. Y pensé que podría compartir con vos algo&#xA;que solo vino a mí a través de la experiencia.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/traducciones/everything-is-fine-with-javascript/</guid>
-      <description>Todo está bien con JavaScript  Artículo extraído desde:  https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html   Traducción por Hugo Ruscitti   Este es el único diario dispuesto a decir la verdad: todo está bien.
- Hay una serie de blog posts que seguramente has leído - una puñalada sarcástica sobre JavaScript, npm y frameworks. Estos artículos mencionan que hay demasiadas opciones, que es confuso, y sobre lo complicadas que parecen las cosas. También toman montones de nombres del ecosistema y los presentan como opciones equivalentes en un intento cómico por construir un escenario de parálisis de decisión.</description>
+      <description>&lt;h1 id=&#34;todo-está-bien-con-javascript&#34;&gt;Todo está bien con JavaScript&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&#34;&gt;https://macwright.com/2016/10/04/everything-is-fine-with-javascript.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Traducción por Hugo Ruscitti&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/link-files/everything-is-fine-with-javascript-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Este es el único diario dispuesto a decir la verdad: todo está bien.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;!--There’s a sort of blog post you’ve probably read - a sarcastic stab at--&gt;&#xA;&lt;!--JavaScript and `npm` and frameworks. There are too many, it’ll say, and--&gt;&#xA;&lt;!--it’s confusing, and how did we make such complicated things? It’ll grab--&gt;&#xA;&lt;!--names from the ecosystem and present them as equal choices in a comic--&gt;&#xA;&lt;!--attempt to construct decision paralysis. Everything moves too fast, and--&gt;&#xA;&lt;!--there is too much of it.--&gt;&#xA;&lt;p&gt;Hay una serie de blog posts que seguramente has leído - una puñalada sarcástica&#xA;sobre JavaScript, &lt;code&gt;npm&lt;/code&gt; y frameworks. Estos artículos mencionan que hay demasiadas&#xA;opciones, que es confuso, y sobre lo complicadas que parecen las cosas. También&#xA;toman montones de nombres del ecosistema y los presentan como opciones equivalentes&#xA;en un intento cómico por construir un escenario de parálisis de decisión. Todo se&#xA;mueve muy rápido y hay demasiado de todo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/own-the-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/traducciones/own-the-tools/</guid>
-      <description>Sé dueño de las herramientas  Artículo extraído desde:  https://www.raptitude.com/2020/12/own-the-tools   Traducción por Hugo Ruscitti  Cuando necesito consultar una palabra, casi siempre lo hago en un diccionario de papel.
-Soy muy rápido buscando la página exacta, y trato que volverme cada vez más rápido con la práctica. De todas formas, nunca va a ser más rápido que escribir la palabra en Google.
-Usar un diccionario físico no es de cascarrabias.</description>
+      <description>&lt;h1 id=&#34;sé-dueño-de-las-herramientas&#34;&gt;Sé dueño de las herramientas&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.raptitude.com/2020/12/own-the-tools&#34;&gt;https://www.raptitude.com/2020/12/own-the-tools&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Traducción por Hugo Ruscitti&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!--When I need to look up a word, most of the time I do it in a paper--&gt;&#xA;&lt;!--dictionary. --&gt;&#xA;&lt;p&gt;Cuando necesito consultar una palabra, casi siempre lo hago en un diccionario&#xA;de papel.&lt;/p&gt;&#xA;&lt;!--I’m pretty quick at flipping to the right place, and I try to get quicker each--&gt;&#xA;&lt;!--time. However, it will never be as quick as typing the word into Google.--&gt;&#xA;&lt;p&gt;Soy muy rápido buscando la página exacta, y trato que volverme cada vez más&#xA;rápido con la práctica. De todas formas, nunca va a ser más rápido que escribir&#xA;la palabra en Google.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/the-productivity-funnel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/traducciones/the-productivity-funnel/</guid>
-      <description>El Embudo de la productividad  Artículo extraído desde: calnewport.com/blog  En búsqueda de clarificar nuestra reciente conversación sobre &amp;ldquo;productividad&amp;rdquo;, pensé que sería útil proveer una definición más formal sobre qué significa para mí este concepto.
-En el sentido general, productividad es acerca de navegar el camino desde una gran constelación de cosas que podrías estar haciendo hasta la ejecución de un número mucho más pequeño de tareas que realizas cada día.</description>
+      <description>&lt;h1 id=&#34;el-embudo-de-la-productividad&#34;&gt;El Embudo de la productividad&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://www.calnewport.com/blog/2021/04/20/the-productivity-funnel&#34;&gt;calnewport.com/blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!--&#xA;In light of our recent discussions of “productivity,” both in this newsletter&#xA;and on my podcast, I thought it might be useful to provide a more formal&#xA;definition of what exactly I mean when I reference this concept.&#xA;--&gt;&#xA;&lt;p&gt;En búsqueda de clarificar nuestra reciente conversación sobre &amp;ldquo;productividad&amp;rdquo;, pensé&#xA;que sería útil proveer una definición más formal sobre qué significa para mí este&#xA;concepto.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/traducciones/why-interruptions-are-frustrating-to-developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/traducciones/why-interruptions-are-frustrating-to-developers/</guid>
-      <description>¿Por qué las interrupciones son frustrantes para los programadores?  Artículo extraído desde: https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers  Imagina que tu atención es como una torre de cartas y las interrupciones son como tirarlas abajo de un golpe. Si tu productividad depende de tener una torre de cartas, ¿no te sentirías frustrado al verla caer?.
-Escuché esta analogía de un amigo mío hace varios años, y la estuve repitiendo cada vez que quería explicar el concepto de concentración de forma visual, así que contacté a mi amigo para saber si él tenía la fuente de esa analogía:</description>
+      <description>&lt;h1 id=&#34;por-qué-las-interrupciones-son-frustrantes-para-los-programadores&#34;&gt;¿Por qué las interrupciones son frustrantes para los programadores?&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&#34;&gt;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!--Imagine your focus was a card tower and interruptions were knocking it--&gt;&#xA;&lt;!--down. If your productivity depended on having a card tower, wouldn’t you--&gt;&#xA;&lt;!--get frustrated?--&gt;&#xA;&lt;p&gt;Imagina que tu atención es como una torre de cartas y las interrupciones son&#xA;como tirarlas abajo de un golpe. Si tu productividad depende de tener una&#xA;torre de cartas, ¿no te sentirías frustrado al verla caer?.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/weizenbaum-examines-computers-and-society/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/weizenbaum-examines-computers-and-society/</guid>
-      <description>Weizenbaum examines computers abd society  Artículo extraído desde: https://web.archive.org/web/20090325194547/https://tech.mit.edu/V105/N16/weisen.16n.html  Professor Joseph Weizenbaum is well-known, both as a teacher of computer science and as an activist for scientific and educational responsibility. He designed the first computerized banking system before coming to MIT in the 1960s. He invented ELIZA, the first &amp;ldquo;psychiatric&amp;rdquo; program, and was moved by the reaction to it to write the best-selling Computer Power and Human Reason*.*</description>
+      <description>&lt;h1 id=&#34;weizenbaum-examines-computers-abd-society&#34;&gt;Weizenbaum examines computers abd society&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://web.archive.org/web/20090325194547/https://tech.mit.edu/V105/N16/weisen.16n.html&#34;&gt;https://web.archive.org/web/20090325194547/https://tech.mit.edu/V105/N16/weisen.16n.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;Professor Joseph Weizenbaum is well-known, both as a teacher of&#xA;computer science and as an activist for scientific and educational&#xA;responsibility. He designed the first computerized banking system before&#xA;coming to MIT in the 1960s. He invented ELIZA, the first &amp;ldquo;psychiatric&amp;rdquo;&#xA;program, and was moved by the reaction to it to write the best-selling&lt;/em&gt;&#xA;Computer Power and Human Reason*.*&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Q: &lt;em&gt;What, if anything, do you think should be the role of the computer&#xA;in education?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/why-interruptions-are-frustrating-to-developers/</guid>
-      <description>Why interruptions are frustrating to developers  Artículo extraído desde: https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers  Imagine your focus was a card tower and interruptions were knocking it down. If your productivity depended on having a card tower, wouldn’t you get frustrated?
-I heard this analogy from a friend of mine several years ago. I’ve repeated the analogy for a quick visual of focus and have always liked it, so I reached out to my friend to see if he had a source.</description>
+      <description>&lt;h1 id=&#34;why-interruptions-are-frustrating-to-developers&#34;&gt;Why interruptions are frustrating to developers&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&#34;&gt;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Imagine your focus was a card tower and interruptions were knocking it&#xA;down. If your productivity depended on having a card tower, wouldn’t you&#xA;get frustrated?&lt;/p&gt;&#xA;&lt;p&gt;I heard this analogy from a friend of mine several years ago. I’ve&#xA;repeated the analogy for a quick visual of focus and have always liked&#xA;it, so I reached out to my friend to see if he had a source.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.examplelab.com.ar/links-files/writing-to-remember/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.examplelab.com.ar/links-files/writing-to-remember/</guid>
-      <description>Writing to Remember  Artículo extraído desde: https://cognition.happycog.com/article/writing-to-remember  For the last 5 ½ years, I’ve worked from home. So except for the occasional on-site meeting, almost all of my meetings have been done on the phone. If you were a fly on the wall in my office during a phone meeting, you’d see me with my head down scribbling notes while listening, scribbling notes while talking, and even asking for a moment so I can take more notes.</description>
+      <description>&lt;h2 id=&#34;writing-to-remember&#34;&gt;Writing to Remember&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artículo extraído desde:&#xA;&lt;a href=&#34;https://cognition.happycog.com/article/writing-to-remember&#34;&gt;https://cognition.happycog.com/article/writing-to-remember&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For the last 5 ½ years, I’ve worked from home. So except for the&#xA;occasional on-site meeting, almost all of my meetings have been done on&#xA;the phone. If you&#xA;were a fly on the wall in my office during a phone meeting, you’d see me&#xA;with my head down scribbling notes while listening, scribbling notes&#xA;while talking, and even asking for a moment so I can take more notes.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

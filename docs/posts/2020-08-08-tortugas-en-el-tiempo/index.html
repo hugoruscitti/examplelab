@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     
-      <title>Tortugas en el tiempo :: Examplelab — Mi blog</title>
+      <title>Tortugas en el tiempo :: Examplelab</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.
 Podes ver el proyecto aquí:
- https://hugoruscitti.github.io/tortugas-en-el-tiempo   video { width: 100%; border: 1px solid gray; margin-top: 0.5em; margin-bottom: 0.5em; }  Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código."/>
+https://hugoruscitti.github.io/tortugas-en-el-tiempo Motivación Hace algunos años vi una charla llamada “Inventing on Principle” que me dejó con varias inquietudes a la hora de pensar sobre cómo programamos computadoras y pensamos acerca del código.
+"/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/" />
@@ -32,22 +33,27 @@ Podes ver el proyecto aquí:
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tortugas en el tiempo"/>
-<meta name="twitter:description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código."/>
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1?1">
 
 
 
-<meta property="og:title" content="Tortugas en el tiempo" />
-<meta property="og:description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-08-08T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-08-08T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tortugas en el tiempo">
+  <meta name="twitter:description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.">
 
+
+
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/">
+  <meta property="og:site_name" content="Examplelab">
+  <meta property="og:title" content="Tortugas en el tiempo">
+  <meta property="og:description" content="En este artículo describo como realicé un pequeño editor de código que permite ejecutar código para dibujar en pantalla, recreando parte de la clásica tortuga de Logo e investigando sobre ideas de aprendizaje y código.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-08-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-08-08T00:00:00+00:00">
+    <meta property="article:tag" content="Proyecto">
+    <meta property="article:tag" content="Web">
 
 
 
@@ -184,12 +190,10 @@ pensamos acerca del código.</p>
 <blockquote>
 <p>Así es como programamos: escribes un montón de código en un editor de textos, tratas de imaginar
 en tu cabeza que hará cada linea de código. Luego lo compilas, ejecutas y algo sucede. Pero si
-algo sale mal, tienes que ir devuelta al código.</p>
-</blockquote>
+algo sale mal, tienes que ir devuelta al código.</p></blockquote>
 <p>y sigue con una frase que me quedó resonando en la cabeza:</p>
 <blockquote>
-<p>La mayoría del tiempo estamos frente al código, trabajando a ciegas en un editor de texto, sin tener una conexión con lo que estamos haciendo.</p>
-</blockquote>
+<p>La mayoría del tiempo estamos frente al código, trabajando a ciegas en un editor de texto, sin tener una conexión con lo que estamos haciendo.</p></blockquote>
 <p>Y da un ejemplo adicional:</p>
 <p><img src="/images/2020/08/034947C6-A4E5-4B97-9633-E80CDE1C5ABF.png" alt=""></p>
 <blockquote>
@@ -202,8 +206,7 @@ jugando a ser computadoras.</p>
 <p>Pero para escribir código en la computadora… ¿Por qué simulamos lo
 que haría la computadora en nuestra mente?, ¿Porqué simplemente no lo hace la computadora y nos
 muestra?</p>
-<p>(<a href="https://youtu.be/e7QYMgSk9s0?t=1043">https://youtu.be/e7QYMgSk9s0?t=1043</a>)</p>
-</blockquote>
+<p>(<a href="https://youtu.be/e7QYMgSk9s0?t=1043">https://youtu.be/e7QYMgSk9s0?t=1043</a>)</p></blockquote>
 <p>Luego de ver esta charla me quedé con una sensación incómoda con respecto al código y cómo
 programamos. Pienso que estas ideas son una suerte punto de partida para pensar y diseñar formas
 nuevas de programación.</p>
@@ -219,7 +222,7 @@ práctica.</p>
 <p>Así que en búsqueda de tener algo de práctica con estas ideas y como excusa para volver a leer
 textos como <a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a> me propuse crear
 una herramienta de programación similar a
-<a href="https://es.wikipedia.org/wiki/Logo_(lenguaje_de_programaci%C3%B3n)">logo</a>, pero mucho más acotado, y
+<a href="https://es.wikipedia.org/wiki/Logo_%28lenguaje_de_programaci%C3%B3n%29">logo</a>, pero mucho más acotado, y
 con algunas mejoras como el resaltado de código, la posibilidad de realizar una depuración paso a
 paso y algunas cosas más.</p>
 <h2 id="qué-permite-hacer-esta-herramienta">¿Qué permite hacer esta herramienta?</h2>
@@ -298,22 +301,22 @@ donde va guardando cada una de las acciones que hace la tortuga.</p>
 <p><img src="/images/2020/08/861E3835-CA41-4523-953D-94A2D1C4A4BE.png" alt=""></p>
 <p>Cuando pulsamos el botón ejecutar la lista debería quedar con un solo elemento, la posición inicial
 de la tortuga:</p>
-<pre><code>pasos = [
+<pre tabindex="0"><code>pasos = [
 	{
-		tipo: &quot;posicion-inicial&quot;,
+		tipo: &#34;posicion-inicial&#34;,
 		x: 150,
 		y: 150,
-		lapiz: &quot;abajo&quot;,
+		lapiz: &#34;abajo&#34;,
 		# rotación, etc ...
 	}
 ]
 </code></pre><p>Luego, como el programa está en ejecución se va a procesar la linea que dice <code>avanzar(50)</code> y cuando
 terminé de realizarse esa acción, se va a añadir este elemento a la lista:</p>
-<pre><code>lista.push({
-	tipo: &quot;movimiento-de-dibujado&quot;,
+<pre tabindex="0"><code>lista.push({
+	tipo: &#34;movimiento-de-dibujado&#34;,
 	x: 150,
 	y: 200,
-	lapiz: &quot;abajo&quot;,
+	lapiz: &#34;abajo&#34;,
 	# rotación, etc ...
 })
 </code></pre><p>Es decir, cada acción va a añadir un elemento en esta lista de pasos, detallando la posición de la
@@ -404,7 +407,7 @@ herramienta de verdad) me dio mucho impulso para programar algunos experimentos 
       
         <div class="pagination">
           <div class="pagination__title">
-            <span class="pagination__title-h">Leer otros artículos</span>
+            <span class="pagination__title-h">Read other posts</span>
             <hr />
           </div>
           <div class="pagination__buttons">

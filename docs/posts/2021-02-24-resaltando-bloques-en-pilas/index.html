@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     
-      <title>Resaltando bloques en Pilas :: Examplelab — Mi blog</title>
+      <title>Resaltando bloques en Pilas :: Examplelab</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Pilas permite visualizar el código que se está ejecutando en todo momento.
 La aplicación pinta con un color diferente las lineas de código que efectivamente se ejecutaron:
 Este resaltado es útil incluso para los que programamos hace tiempo. Porque sin esto te ves obligado a llenar el código de console.log para asegurarte de qué está haciendo el programa.
-Sin embargo, cuando empecé a jugar con la idea de añadir bloques a Pilas, noté que el resaltado de código era algo que faltaba."/>
+Sin embargo, cuando empecé a jugar con la idea de añadir bloques a Pilas, noté que el resaltado de código era algo que faltaba. Sin resaltado me veo obligado a tener que imaginarme el programa ejecutando en mi cabeza, imaginando qué bloque se está ejecutando.
+"/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/" />
@@ -33,26 +34,28 @@ Sin embargo, cuando empecé a jugar con la idea de añadir bloques a Pilas, not�
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.examplelab.com.ar/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1">
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Resaltando bloques en Pilas"/>
-<meta name="twitter:description" content="Cuento cómo hice que los bloques de pilas
-se resalten cuando entran en ejecución.
-"/>
+<link rel="shortcut icon" href="https://www.examplelab.com.ar/favicon-16x16.png?1?1">
 
 
 
-<meta property="og:title" content="Resaltando bloques en Pilas" />
-<meta property="og:description" content="Cuento cómo hice que los bloques de pilas
-se resalten cuando entran en ejecución.
-" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-02-24T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-02-24T00:00:00+00:00" /><meta property="og:site_name" content="Examplelab" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Resaltando bloques en Pilas">
+  <meta name="twitter:description" content="Cuento cómo hice que los bloques de pilas
+se resalten cuando entran en ejecución.">
 
+
+
+<meta property="og:url" content="https://www.examplelab.com.ar/posts/2021-02-24-resaltando-bloques-en-pilas/">
+  <meta property="og:site_name" content="Examplelab">
+  <meta property="og:title" content="Resaltando bloques en Pilas">
+  <meta property="og:description" content="Cuento cómo hice que los bloques de pilas
+se resalten cuando entran en ejecución.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-02-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-02-24T00:00:00+00:00">
+    <meta property="article:tag" content="Pilas">
 
 
 
@@ -170,7 +173,7 @@ efectivamente se ejecutaron:</p>
 <p>Este resaltado es útil incluso para los que programamos hace tiempo. Porque
 sin esto te ves obligado a llenar el código de <code>console.log</code> para asegurarte
 de qué está haciendo el programa.</p>
-<p>Sin embargo, cuando empecé a jugar con la idea de <a href="/posts/2021-02-19-bloques-y-codigo">añadir bloques a Pilas</a>, noté
+<p>Sin embargo, cuando empecé a jugar con la idea de <a href="/posts/2021-02-19-bloques-y-codigo/">añadir bloques a Pilas</a>, noté
 que el resaltado de código era algo que faltaba. Sin resaltado me veo obligado a tener
 que imaginarme el programa ejecutando en mi cabeza, imaginando qué bloque se está ejecutando.</p>
 <p>Claramente necesitaba poder resaltar bloques en pilas.</p>
@@ -191,10 +194,10 @@ insertar automáticamente código de seguimiento para saber qué partes del
 código resaltar.</p>
 <p>Por suerte <a href="https://developers.google.com/blockly/">Blockly</a> ya incluye algo para hacer
 esto muy fácilmente, solamente hay que escribir algo como esto:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">Blockly</span>.<span style="color:#a6e22e">JavaScript</span>.<span style="color:#a6e22e">STATEMENT_PREFIX</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`
-</span><span style="color:#e6db74">  this.pilas.notificar_ejecucion_del_bloque(%1, this.id);
-</span><span style="color:#e6db74">`</span>;
-</code></pre></div><p><a href="https://developers.google.com/blockly/">Blockly</a> se va a encargar de insertar
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">Blockly</span>.<span style="color:#a6e22e">JavaScript</span>.<span style="color:#a6e22e">STATEMENT_PREFIX</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  this.pilas.notificar_ejecucion_del_bloque(%1, this.id);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">`</span>;
+</span></span></code></pre></div><p><a href="https://developers.google.com/blockly/">Blockly</a> se va a encargar de insertar
 esta llamada a pilas antes de cada una de las sentencias, por ejemplo:</p>
 <p><img src="/images/2021/resaltando-bloques-en-pilas/comparativa.png" alt=""></p>
 <p>Quienes usen pilas no van a notar que este código se agrega automáticamente, ya que
@@ -209,23 +212,23 @@ a resaltar por actor.</p>
 todos los bloques que se ejecutan en un solo ciclo del pilas.</p>
 <p>Por ejemplo, en una escena donde hay dos actores con bloques
 el diccionario puede quedar así:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">{
-  <span style="color:#ae81ff">1278</span><span style="color:#f92672">:</span> [
-    <span style="color:#e6db74">&#34;M.ujdyfst~C9SNlx%%~W&#34;</span>,
-    <span style="color:#e6db74">&#34;n#Df-%|n/TtB*Qc([e(d&#34;</span>
-  ],
-  <span style="color:#ae81ff">1585</span><span style="color:#f92672">:</span> [
-    <span style="color:#e6db74">&#34;Sux_IEGyGca,_Slu#R?!&#34;</span>
-  ]
-}
-</code></pre></div><p>Los números <code>1278</code> y <code>1585</code> son los identificadores de actores, mientras
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">1278</span><span style="color:#f92672">:</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;M.ujdyfst~C9SNlx%%~W&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;n#Df-%|n/TtB*Qc([e(d&#34;</span>
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">1585</span><span style="color:#f92672">:</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Sux_IEGyGca,_Slu#R?!&#34;</span>
+</span></span><span style="display:flex;"><span>  ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Los números <code>1278</code> y <code>1585</code> son los identificadores de actores, mientras
 que las cadenas de texto como <code>&quot;M.ujdyfst...</code> son los identificadores
 de bloques.</p>
 <h2 id="resaltando-bloques">Resaltando bloques</h2>
 <p>Ahora, con este diccionario la tarea se volvió mucho más sencilla, porque
 pude separar en dos lugares independientes &ldquo;qué bloques colorear&rdquo; vs &ldquo;dónde colorearlos&rdquo;.</p>
 <p>Pilas tiene un sistema de eventos similar al que comenté en
-<a href="/posts/2021-02-09-sistema-de-eventos-tipados">este otro post</a>, así que pude enviar
+<a href="/posts/2021-02-09-sistema-de-eventos-tipados/">este otro post</a>, así que pude enviar
 el diccionario a través de un evento que puede capturar el componente de Blockly.</p>
 <p>Este es un ejemplo de cómo quedó la integración cuando se usa el modo
 pausa:</p>
@@ -243,7 +246,7 @@ la velocidad del motor.</p>
       
         <div class="pagination">
           <div class="pagination__title">
-            <span class="pagination__title-h">Leer otros artículos</span>
+            <span class="pagination__title-h">Read other posts</span>
             <hr />
           </div>
           <div class="pagination__buttons">
