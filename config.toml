@@ -1,7 +1,6 @@
 baseurl = "https://www.examplelab.com.ar/"
 languageCode = "en-us"
 theme = "simple"
-paginate = 10000
 
 [params]
   contentTypeName = "posts"

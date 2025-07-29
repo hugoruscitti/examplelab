@@ -9,13 +9,20 @@ tags:
 - web
 ---
 
-Hace unas semanas estoy muy entusiasmado con [emberjs](http://emberjs.com/) y la posibilidad de incorporarlo en las aplicaciones desktop que desarrollamos en  [huayra](http://huayra.conectarigualdad.gob.ar) y [conectar igualdad](http://www.conectarigualdad.gob.ar/).
+Hace unas semanas estoy muy entusiasmado con [emberjs](http://emberjs.com/) y la
+posibilidad de incorporarlo en las aplicaciones desktop que desarrollamos en
+[huayra](http://huayra.conectarigualdad.gob.ar) y [conectar
+igualdad](http://www.conectarigualdad.gob.ar/).
 
 ![](/images/2014/12/0cf15665a9146ba852bf042b0652780a.png)
 
 [emberjs](http://emberjs.com/) es un framework javascript para construir aplicaciones web, en cierta manera es similar a [angularjs](https://angularjs.org/), pero con un [enfoque diferente](http://eviltrout.com/2013/06/15/ember-vs-angular.html) y algunas herramientas fantásticas como [ember-cli](http://www.ember-cli.com/).
 
-Mi sorpresa principal fue encontrarme que [ember-cli](http://www.ember-cli.com/), no funcionaba junto a node-webkit inmediatamente. Me llevó varias horas comprender el motivo y poder resolverlo, así que en este post voy a resumir lo que aprendí y lo quiero compartir con ustedes.
+Mi sorpresa principal fue encontrarme que
+[ember-cli](http://www.ember-cli.com/), no funcionaba junto a node-webkit
+inmediatamente. Me llevó varias horas comprender el motivo y poder resolverlo,
+así que en este post voy a resumir lo que aprendí y lo quiero compartir con
+ustedes.
 
 **NOTA**: Si queres tomar un atajo, todo los pasos que realizo acá están en un repositorio que armé para iniciar proyectos llamado [node-webkit-ember-seed](https://github.com/hugoruscitti/node-webkit-ember-seed).
 
@@ -23,7 +30,7 @@ Mi sorpresa principal fue encontrarme que [ember-cli](http://www.ember-cli.com/)
 
 ## Instalando ember-cli
 
-Para desarrollar aplicaciones con ember es aconsejable usar una herramienta llamada [ember-cli]((http://www.ember-cli.com/)), ya que nos permite crear fácilmente la estructura de la aplicación inicial, ejecutar tests y construir componentes fácilmente.
+Para desarrollar aplicaciones con ember es aconsejable usar una herramienta llamada [ember-cli](http://www.ember-cli.com/), ya que nos permite crear fácilmente la estructura de la aplicación inicial, ejecutar tests y construir componentes fácilmente.
 
 Para instalarlo hay que ejecutar el siguiente comando:
 
