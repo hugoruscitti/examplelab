@@ -6,8 +6,15 @@
     <description>Recent content in Python on Examplelab</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Jun 2024 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.examplelab.com.ar/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Presentando retro-python en pyday Hurlingham</title>
+      <link>https://www.examplelab.com.ar/posts/2024-10-01-presentando-retro-python-en-el-pyday-hurlingham/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.examplelab.com.ar/posts/2024-10-01-presentando-retro-python-en-el-pyday-hurlingham/</guid>
+      <description>&lt;p&gt;La semana pasada estuve en el PyDay que se realizó en la&#xA;universidad de Hurlingham. Presenté una charla sobre&#xA;retro-python y conté brevemente cómo se utiliza:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2024/presentando-retro-python-en-el-pyday-hurlingham/primera.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;PyDay es un evento organizado por Python Argentina y&#xA;consiste en un día entero dedicado a hablar sobre Python y&#xA;proyectos relacionados con el lenguaje, se dieron charlas&#xA;sobre bibliotecas de python, automatización, código&#xA;asincrónico, datos y mucho más.&lt;/p&gt;&#xA;&lt;p&gt;Para mí fue muy gratificante participar del evento después&#xA;de tantos años sin presentar charlas, me pude encontrar con&#xA;amigos de la comunidad de python y el salón principal estaba&#xA;lleno de asistentes!!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Creando retro-python en el PyCamp</title>
       <link>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</link>

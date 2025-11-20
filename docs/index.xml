@@ -7018,8 +7018,11 @@ Nos conocimos en la parte trasera del taller de reciclaje de computación FreeGe
       <pubDate>Thu, 26 Dec 2013 01:15:39 +0000</pubDate>
       
       <guid>https://www.examplelab.com.ar/posts/2013-12-26-automatizando-lanzamientos-con-node-webkit/</guid>
-      <description>&lt;p&gt;Existe una tarea para &lt;strong&gt;grunt&lt;/strong&gt; que nos permite  automatizar el empaquetado de nuestras aplicaciones para cada plataforma: &lt;a href=&#34;https://npmjs.org/package/grunt-node-webkit-builder&#34;&gt;grunt-node-webkit-builder&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir en linux, windows y mac en unos minutos&amp;hellip;&lt;/p&gt;
+      <description>&lt;p&gt;Existe una tarea para &lt;strong&gt;grunt&lt;/strong&gt; que nos permite  automatizar el empaquetado de
+nuestras aplicaciones para cada plataforma:
+&lt;a href=&#34;https://npmjs.org/package/grunt-node-webkit-builder&#34;&gt;grunt-node-webkit-builder&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Esto es super útil, imaginá que podés tener tu aplicación lista para distribuir
+en linux, windows y mac en unos minutos&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
 &lt;p&gt;El primer paso es instalarnos la tarea para grunt:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;npm install grunt-node-webkit-builder --save
@@ -10760,29 +10763,6 @@ and I never have to look it up again.”&lt;/p&gt;&lt;/blockquote&gt;
     </item>
     
     <item>
-      <title>Acerca de este sitio</title>
-      <link>https://www.examplelab.com.ar/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.examplelab.com.ar/about/</guid>
-      <description>&lt;p&gt;Hola soy Hugo, autor de &lt;a href=&#34;https://www.pilas-engine.com.ar&#34; target=&#34;_blank&#34;&gt;pilas-engine&lt;/a&gt;,
-&lt;a href=&#34;https://retro-python.com.ar&#34; target=&#34;_blank&#34;&gt;retro-python&lt;/a&gt; y
-Tech Lead en &lt;a href=&#34;https://www.mercadolibre.com&#34; target=&#34;_blank&#34;&gt;meli&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Este es mi blog personal, en donde escribo sobre cosas que voy
-aprendiendo, en particular sobre desarrollo de software, pero también de
-gestión personal y filosofía.&lt;/p&gt;
-&lt;div class=&#34;tc&#34;&gt;
-  &lt;img src=&#34;https://www.examplelab.com.ar/images/avatar.jpg&#34; width=&#34;128&#34; height=&#34;128&#34; class=&#34;br-100 dib&#34;&gt;
-&lt;/div&gt;
-&lt;p&gt;Mi blog no tiene un sistema de comentarios, sin embargo me podés enviar un mail
-a la dirección de mail que aparece en
-&lt;a href=&#34;https://github.com/hugoruscitti&#34;&gt;mi perfil de github&lt;/a&gt;
-o dejarme un mensaje en mi canal de
-&lt;a href=&#34;https://www.youtube.com/user/hugoruscitti/videos&#34; target=&#34;_blank&#34;&gt;youtube&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Link y artículos</title>
       <link>https://www.examplelab.com.ar/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -10827,30 +10807,85 @@ recomiendo ver &lt;a href=&#34;https://www.examplelab.com.ar/posts/2021-01-29-co
       <guid>https://www.examplelab.com.ar/proyectos/</guid>
       <description>&lt;p&gt;Estos son los proyectos en los que trabajo regularmente en mis ratos libres.&lt;/p&gt;
 &lt;style&gt;
+
   .proyecto {
     display: flex;
-    border: 1px solid gray;
+    padding-bottom: 3em;
+    padding-top: 2em;
+    
   }
   
-  .proyecto img {
-    min-width: 320px;
-    max-width: 320px;
-  }
+    .proyecto .imagen {
+      padding-top: 10px;
+    }
+  
+    .proyecto img {
+      min-width: 320px;
+      max-width: 320px;
+      outline: 1px solid gray;
+    }
+    
+    .proyecto .texto {
+      padding-left: 15px;
+    }
+    
+    .proyecto .texto p {
+      text-align: left !important;
+      margin-top: 0px;
+    }
 &lt;/style&gt;
 &lt;div class=&#34;proyecto&#34;&gt;
-  &lt;div&gt;
-    &lt;img src=&#34;https://www.examplelab.com.ar/images/2025/creando-el-diario-de-valentin/diario.png&#34; alt=&#34;&#34; class=&#34;pointer&#34;&gt;
+  &lt;div class=&#34;imagen&#34;&gt;
+    &lt;img src=&#34;https://www.examplelab.com.ar/images/proyectos/pilas-engine.png&#34; alt=&#34;&#34; class=&#34;pointer&#34;&gt;
   &lt;/div&gt;
-&lt;div class=&#34;texto&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt;&lt;/p&gt;
-  &lt;p&gt;Pilas es un motor para crear videojuegos de forma
-  creativa y didáctica.&lt;/p&gt;
+  &lt;div class=&#34;texto&#34;&gt;
+    &lt;p&gt;&lt;a href=&#34;https://pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt; es una
+    herramienta que construí para crear videojuegos y acercar a los
+    chicos y chicas a la programación de computadoras.
+    &lt;/p&gt;
+    &lt;p&gt;Si bien está orienta a quienes están aprendiendo a programar, se pueden
+    hacer muchas cosas interesantes y divertidas.&lt;/p&gt;
+    &lt;p&gt;Escribí muchos &lt;a href=&#34;https://www.examplelab.com.ar/tags/pilas/&#34;&gt;artículos sobre pilas&lt;/a&gt; en
+    este blog por si te interesa conocer más.&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;proyecto&#34;&gt;
+  &lt;div class=&#34;imagen&#34;&gt;
+    &lt;img src=&#34;https://www.examplelab.com.ar/images/proyectos/retro-python.png&#34; alt=&#34;&#34; class=&#34;pointer&#34;&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;texto&#34;&gt;
+    &lt;p&gt;&lt;a href=&#34;https://retro-python.com.ar&#34;&gt;retro-python&lt;/a&gt; es una herramienta
+    para crear dibujos, animaciones y juegos programando.&lt;/p&gt;
+    &lt;p&gt;Intenta ser similar a pico-8, pero enteramente web y usando el lenguaje
+    de programación python.&lt;p&gt;
+    &lt;p&gt;Escribí varios artículos sobre &lt;a href=&#34;https://www.examplelab.com.ar/tags/retro-python/&#34;&gt;retro-python en el blog&lt;/a&gt; por
+    si quieres conocerlo mejor.&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt;: una herramienta para crear video juegos.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://retro-python.com.ar&#34;&gt;retro-python&lt;/a&gt;: un entorno retro para crear animaciones y juegos.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&#34;proyecto&#34;&gt;
+  &lt;div class=&#34;imagen&#34;&gt;
+    &lt;img src=&#34;https://www.examplelab.com.ar/images/proyectos/retro-player.png&#34; alt=&#34;&#34; class=&#34;pointer&#34;&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;texto&#34;&gt;
+    &lt;p&gt;&lt;a href=&#34;https://github.com/hugoruscitti/retroplayer&#34;&gt;retro-player &lt;/a&gt;
+    es un reproductor de audio en formato mp3 que imita al clásico winamp, pero
+    funciona como aplicación web (PWA) y tiene imágenes de alta resolución.&lt;/p&gt;
+    &lt;p&gt;Escribí sobre este proyecto y &lt;a href=&#34;https://www.examplelab.com.ar/posts/2024-05-11-creando-retroplayer/&#34;&gt;cómo lo construí aquí&lt;/a&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;proyecto&#34;&gt;
+  &lt;div class=&#34;imagen&#34;&gt;
+    &lt;img src=&#34;https://www.examplelab.com.ar/images/proyectos/tortugas-en-el-tiempo.png&#34; alt=&#34;&#34; class=&#34;pointer&#34;&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;texto&#34;&gt;
+    &lt;p&gt;&lt;a href=&#34;https://hugoruscitti.github.io/tortugas-en-el-tiempo&#34;&gt;Tortugas en el tiempo &lt;/a&gt;
+    es un experimento que realicé recreando Logo y su clásica tortuga que dibuja
+    en pantalla.&lt;/p&gt;
+    &lt;p&gt;El experimento fué muy útil para aprender sobre instrumentación de código y me
+    ayudó a experimentar ideas nuevas que luego llevé a pilas y retro-python.&lt;/p&gt;
+    &lt;p&gt;Escribí sobre lo que aprendí en &lt;a href=&#34;https://www.examplelab.com.ar/posts/2020-08-08-tortugas-en-el-tiempo/&#34;&gt;este artículo&lt;/a&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Tengo algunos proyectos más en mi cuenta de &lt;a href=&#34;https://github.com/hugoruscitti&#34;&gt;en github&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -10862,6 +10897,29 @@ recomiendo ver &lt;a href=&#34;https://www.examplelab.com.ar/posts/2021-01-29-co
       
       <guid>https://www.examplelab.com.ar/archivo/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Sobre mí y este sitio</title>
+      <link>https://www.examplelab.com.ar/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/about/</guid>
+      <description>&lt;p&gt;Hola soy Hugo, autor de &lt;a href=&#34;https://www.pilas-engine.com.ar&#34; target=&#34;_blank&#34;&gt;pilas-engine&lt;/a&gt;,
+&lt;a href=&#34;https://retro-python.com.ar&#34; target=&#34;_blank&#34;&gt;retro-python&lt;/a&gt; y
+Tech Lead en &lt;a href=&#34;https://www.mercadolibre.com&#34; target=&#34;_blank&#34;&gt;meli&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Este es mi blog personal, en donde escribo sobre cosas que voy
+aprendiendo, en particular sobre desarrollo de software, pero también de
+gestión personal y filosofía.&lt;/p&gt;
+&lt;div class=&#34;tc&#34;&gt;
+  &lt;img src=&#34;https://www.examplelab.com.ar/images/avatar.jpg&#34; width=&#34;128&#34; height=&#34;128&#34; class=&#34;br-100 dib&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;Mi blog no tiene un sistema de comentarios, sin embargo me podés enviar un mail
+a la dirección de mail que aparece en
+&lt;a href=&#34;https://github.com/hugoruscitti&#34;&gt;mi perfil de github&lt;/a&gt;
+o dejarme un mensaje en mi canal de
+&lt;a href=&#34;https://www.youtube.com/user/hugoruscitti/videos&#34; target=&#34;_blank&#34;&gt;youtube&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

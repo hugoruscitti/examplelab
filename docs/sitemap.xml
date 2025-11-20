@@ -14,16 +14,19 @@
     <loc>https://www.examplelab.com.ar/posts/2024-10-01-presentando-retro-python-en-el-pyday-hurlingham/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.examplelab.com.ar/tags/python/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.examplelab.com.ar/tags/retro-python/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.examplelab.com.ar/tags/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.examplelab.com.ar/posts/2024-06-30-creando-retro-python-en-el-pycamp/</loc>
     <lastmod>2024-06-30T18:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/tags/pycamp/</loc>
-    <lastmod>2024-06-30T18:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.examplelab.com.ar/tags/python/</loc>
-    <lastmod>2024-06-30T18:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.examplelab.com.ar/tags/</loc>
     <lastmod>2024-06-30T18:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.examplelab.com.ar/posts/2024-06-11-apunte-vanilla-js/</loc>
@@ -450,8 +453,6 @@
   </url><url>
     <loc>https://www.examplelab.com.ar/links-files/writing-to-remember/</loc>
   </url><url>
-    <loc>https://www.examplelab.com.ar/about/</loc>
-  </url><url>
     <loc>https://www.examplelab.com.ar/categories/</loc>
   </url><url>
     <loc>https://www.examplelab.com.ar/links/</loc>
@@ -461,5 +462,7 @@
     <loc>https://www.examplelab.com.ar/proyectos/</loc>
   </url><url>
     <loc>https://www.examplelab.com.ar/archivo/</loc>
+  </url><url>
+    <loc>https://www.examplelab.com.ar/about/</loc>
   </url>
 </urlset>

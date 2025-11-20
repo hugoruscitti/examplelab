@@ -78,3 +78,7 @@ li.item-de-archivo a {
   text-decoration: none;
 }
 
+
+.menu {
+  border-right: 0px !important;
+}
