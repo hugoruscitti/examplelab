@@ -1,5 +1,5 @@
 ---
-title: "Acerca de este sitio"
+title: "Sobre mí y este sitio"
 draft: false
 ---
 

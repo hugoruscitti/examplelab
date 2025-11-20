@@ -33,14 +33,19 @@ theme = "simple"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "acerca de"
-        name = "Acerca de"
-        url = "/about/index.html"
-      [[languages.en.menu.main]]
         identifier = "articulos"
         name = "Artículos"
         url = "/posts/index.html"
       [[languages.en.menu.main]]
+        identifier = "proyectos"
+        name = "Mis proyectos"
+        url = "/proyectos/index.html"
+      [[languages.en.menu.main]]
         identifier = "links"
         name = "Links"
         url = "/links/index.html"
+
+      [[languages.en.menu.main]]
+        identifier = "acerca de"
+        name = "Sobre mí"
+        url = "/about/index.html"

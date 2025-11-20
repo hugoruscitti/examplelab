@@ -10820,6 +10820,42 @@ recomiendo ver &lt;a href=&#34;https://www.examplelab.com.ar/posts/2021-01-29-co
     </item>
     
     <item>
+      <title>Mis proyectos</title>
+      <link>https://www.examplelab.com.ar/proyectos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/proyectos/</guid>
+      <description>&lt;p&gt;Estos son los proyectos en los que trabajo regularmente en mis ratos libres.&lt;/p&gt;
+&lt;style&gt;
+  .proyecto {
+    display: flex;
+    border: 1px solid gray;
+  }
+  
+  .proyecto img {
+    min-width: 320px;
+    max-width: 320px;
+  }
+&lt;/style&gt;
+&lt;div class=&#34;proyecto&#34;&gt;
+  &lt;div&gt;
+    &lt;img src=&#34;https://www.examplelab.com.ar/images/2025/creando-el-diario-de-valentin/diario.png&#34; alt=&#34;&#34; class=&#34;pointer&#34;&gt;
+  &lt;/div&gt;
+&lt;div class=&#34;texto&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Pilas es un motor para crear videojuegos de forma
+  creativa y didáctica.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pilas-engine.com.ar&#34;&gt;pilas-engine&lt;/a&gt;: una herramienta para crear video juegos.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://retro-python.com.ar&#34;&gt;retro-python&lt;/a&gt;: un entorno retro para crear animaciones y juegos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tengo algunos proyectos más en mi cuenta de &lt;a href=&#34;https://github.com/hugoruscitti&#34;&gt;en github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Posts Archive</title>
       <link>https://www.examplelab.com.ar/archivo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

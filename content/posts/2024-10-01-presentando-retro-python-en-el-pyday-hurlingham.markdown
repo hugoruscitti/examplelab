@@ -6,6 +6,9 @@ description: |
   Una reseña sobre cómo fue volver a dar una charla después
   de tanto tiempo.
 cover: /images/2024/presentando-retro-python-en-el-pyday-hurlingham/portada.jpg
+tags:
+- python
+- retro-python
 ---
 
 La semana pasada estuve en el PyDay que se realizó en la
