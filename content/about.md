@@ -7,9 +7,8 @@ Hola soy Hugo, autor de <a href="https://www.pilas-engine.com.ar" target="_blank
 <a href="https://retro-python.com.ar" target="_blank">retro-python</a> y
 Tech Lead en <a href="https://www.mercadolibre.com" target="_blank">meli</a>.
 
-Este es mi blog personal, en donde escribo sobre cosas que voy
-aprendiendo, en particular sobre desarrollo de software, pero también de
-gestión personal y filosofía.
+Construí este sitio para escribir sobre cosas que voy aprendiendo, en particular sobre
+desarrollo de software, pero también de gestión personal y filosofía.
 
 <div class="tc">
   <img src="/images/avatar.jpg" width="128" height="128" class="br-100 dib">

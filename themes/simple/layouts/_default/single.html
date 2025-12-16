@@ -1,7 +1,7 @@
 {{ define "main" }}
 
   <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
-    <div id="preview-content">
+    <div id="preview-content" class="flex justify-center">
       <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
     </div>
   </div>
@@ -37,7 +37,7 @@
       {{ if or .NextInSection .PrevInSection }}
         <div class="pagination">
           <div class="pagination__title">
-            <span class="pagination__title-h">{{ $.Site.Params.ReadOtherPosts | default "Read other posts" }}</span>
+            <span class="pagination__title-h">Leer otros artículos</span>
             <hr />
           </div>
           <div class="pagination__buttons">

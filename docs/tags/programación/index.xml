@@ -6,6 +6,7 @@
     <description>Recent content in Programación on Examplelab</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <copyright>© Hugo Ruscitti</copyright>
     <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.examplelab.com.ar/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -51,10 +52,10 @@
       <description>&lt;p&gt;Este viernes se realizó al hackatón del primer foro regional &lt;code&gt;&amp;lt;program.AR\&amp;gt;&lt;/code&gt; en la universidad de Quilmes.&lt;/p&gt;&#xA;&lt;p&gt;La experiencia estuvo increible:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/10454306_245544275652369_1875185198295326733_n.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/BpcrF_oIIAAkQyb.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/Jun/0000033340.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Al evento asistimos el equipo completo de &lt;em&gt;huayra&lt;/em&gt; y muchos amigos de la comunidad educativa: los chicos de &lt;em&gt;educ.ar&lt;/em&gt;, &lt;em&gt;sadosky&lt;/em&gt;, &lt;em&gt;Jefatura de Gobierno&lt;/em&gt; y &lt;em&gt;pyar&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El evento estuvo espectacular, y si bien nos quedamos con ganas de programar un poco mas de tiempo, la ocasión sirvió para conocernos, debatir ideas y divertirnos.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</link>
+      <title>Inventing on Principle en español</title>
+      <link>https://www.examplelab.com.ar/inventing-on-principle-en-espanol/</link>
       <pubDate>Sun, 04 May 2014 00:23:57 +0000</pubDate>
-      <guid>https://www.examplelab.com.ar/posts/2014-05-04-inventing-on-principle-en-espanol/</guid>
+      <guid>https://www.examplelab.com.ar/inventing-on-principle-en-espanol/</guid>
       <description>&lt;p&gt;&lt;em&gt;Bret Victor&lt;/em&gt; dió una charla impresionante llamada &lt;strong&gt;Inventing on Principle&lt;/strong&gt;, invitando a las personas a descubrir un principio, algo que los guíe, una causa por que pelear.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2014/May/bret_victor___inventing_on_principle_1280x720_mp4_2014_05_03_15_27_37_2014_05_03_15_27_39.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es difícil resumir el potencial y lo inspirador de su enfoque. Sus ideas son transformadoras y valiosas para todos los programadores, artistas y creativos del mundo.&lt;/p&gt;&#xA;&lt;p&gt;Por ese motivo &lt;a href=&#34;https://github.com/JuloWaks/Subtitulos-Bret-Victor&#34;&gt;realizamos una traducción&lt;/a&gt; al español de su charla con un grupo de amigos. Hicimos un gran trabajo, nos llevó varios días realizarlo, y hoy pudimos terminar la compaginación y ponerlo online.&lt;/p&gt;</description>
     </item>
     <item>

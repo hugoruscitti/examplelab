@@ -37,7 +37,9 @@ Estos son los proyectos en los que trabajo regularmente en mis ratos libres.
 <div class="proyecto">
 
   <div class="imagen">
-    <img src="/images/proyectos/pilas-engine.png" alt="" class="pointer">
+    <a href="https://pilas-engine.com.ar" target="_blank">
+      <img x-sin-click src="/images/proyectos/pilas-engine.png" alt="" class="pointer">
+    </a>
   </div>
 
   <div class="texto">
@@ -57,7 +59,9 @@ Estos son los proyectos en los que trabajo regularmente en mis ratos libres.
 <div class="proyecto">
 
   <div class="imagen">
-    <img src="/images/proyectos/retro-python.png" alt="" class="pointer">
+    <a href="https://retro-python.com.ar" target="_blank">
+      <img x-sin-click src="/images/proyectos/retro-python.png" alt="" class="pointer">
+    </a>
   </div>
 
   <div class="texto">
@@ -74,7 +78,9 @@ Estos son los proyectos en los que trabajo regularmente en mis ratos libres.
 <div class="proyecto">
 
   <div class="imagen">
-    <img src="/images/proyectos/retro-player.png" alt="" class="pointer">
+    <a href="https://github.com/hugoruscitti/retroplayer" target="_blank"> 
+      <img x-sin-click src="/images/proyectos/retro-player.png" alt="" class="pointer">
+    </a>
   </div>
 
   <div class="texto">
@@ -88,11 +94,30 @@ Estos son los proyectos en los que trabajo regularmente en mis ratos libres.
 </div>
 
 
+<div class="proyecto">
+
+  <div class="imagen">
+    <a href="https://hugoruscitti.github.io/fechas-relativas" target="_blank">
+      <img x-sin-click src="/images/proyectos/fechas-relativas.png" alt="" class="pointer">
+    </a>
+  </div>
+
+  <div class="texto">
+    <p><a href="https://hugoruscitti.github.io/fechas-relativas">Fechas Relativas</a>
+    es una aplicación web que permite recordar eventos y fechas importantes.
+    Esta aplicación se puede instalar como una PWA o como un script.</p>
+    <p>Escribí sobre cómo hice este sistema <a href="/posts/2024-02-23-fechas-importantes-y-aniversarios/">en este artículo</a>.</p>
+  </div>
+
+</div>
+
 
 <div class="proyecto">
 
   <div class="imagen">
-    <img src="/images/proyectos/tortugas-en-el-tiempo.png" alt="" class="pointer">
+    <a href="https://hugoruscitti.github.io/tortugas-en-el-tiempo" target="_blank">
+      <img x-sin-click src="/images/proyectos/tortugas-en-el-tiempo.png" alt="" class="pointer">
+    </a>
   </div>
 
   <div class="texto">

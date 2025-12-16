@@ -13,6 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
     let imagenes = document.querySelectorAll(".post-content img");
 
     imagenes.forEach(function(imagen) {
+
+      if (imagen.hasAttribute("x-sin-click")) {
+        return;
+      }
+
       imagen.classList.add("pointer");
 
       imagen.addEventListener("click", function() {

@@ -19,7 +19,7 @@ pilas-engine es una herramienta que construí para crear videojuegos y acercar a
 <script src="https://www.examplelab.com.ar/js/menu.js"></script>
 <script src="https://www.examplelab.com.ar/js/prism.js"></script>
 <script src="https://www.examplelab.com.ar/js/theme.js"></script>
-<script src="https://www.examplelab.com.ar/js/imagenes.js"></script>
+<script src="https://www.examplelab.com.ar/js/imagenes.js?v=2"></script>
 
 <script defer data-domain="examplelab.com.ar" src="https://stats.pilas-engine.com.ar/js/script.js"></script>
 
@@ -140,7 +140,7 @@ pilas-engine es una herramienta que construí para crear videojuegos y acercar a
         
 
   <div id="preview" role="button" class="dn no-user-select pointer overflow-auto vh-100 vw-100 bg-black-50 fixed z-max absolute--fill items-center justify-center">
-    <div id="preview-content">
+    <div id="preview-content" class="flex justify-center">
       <img src="/images/2021/la-culpa-no-es-del-dom/diff.png">
     </div>
   </div>
@@ -188,7 +188,9 @@ pilas-engine es una herramienta que construí para crear videojuegos y acercar a
 </style>
 <div class="proyecto">
   <div class="imagen">
-    <img src="/images/proyectos/pilas-engine.png" alt="" class="pointer">
+    <a href="https://pilas-engine.com.ar" target="_blank">
+      <img x-sin-click src="/images/proyectos/pilas-engine.png" alt="" class="pointer">
+    </a>
   </div>
   <div class="texto">
     <p><a href="https://pilas-engine.com.ar">pilas-engine</a> es una
@@ -203,7 +205,9 @@ pilas-engine es una herramienta que construí para crear videojuegos y acercar a
 </div>
 <div class="proyecto">
   <div class="imagen">
-    <img src="/images/proyectos/retro-python.png" alt="" class="pointer">
+    <a href="https://retro-python.com.ar" target="_blank">
+      <img x-sin-click src="/images/proyectos/retro-python.png" alt="" class="pointer">
+    </a>
   </div>
   <div class="texto">
     <p><a href="https://retro-python.com.ar">retro-python</a> es una herramienta
@@ -216,7 +220,9 @@ pilas-engine es una herramienta que construí para crear videojuegos y acercar a
 </div>
 <div class="proyecto">
   <div class="imagen">
-    <img src="/images/proyectos/retro-player.png" alt="" class="pointer">
+    <a href="https://github.com/hugoruscitti/retroplayer" target="_blank"> 
+      <img x-sin-click src="/images/proyectos/retro-player.png" alt="" class="pointer">
+    </a>
   </div>
   <div class="texto">
     <p><a href="https://github.com/hugoruscitti/retroplayer">retro-player </a>
@@ -227,7 +233,22 @@ pilas-engine es una herramienta que construí para crear videojuegos y acercar a
 </div>
 <div class="proyecto">
   <div class="imagen">
-    <img src="/images/proyectos/tortugas-en-el-tiempo.png" alt="" class="pointer">
+    <a href="https://hugoruscitti.github.io/fechas-relativas" target="_blank">
+      <img x-sin-click src="/images/proyectos/fechas-relativas.png" alt="" class="pointer">
+    </a>
+  </div>
+  <div class="texto">
+    <p><a href="https://hugoruscitti.github.io/fechas-relativas">Fechas Relativas</a>
+    es una aplicación web que permite recordar eventos y fechas importantes.
+    Esta aplicación se puede instalar como una PWA o como un script.</p>
+    <p>Escribí sobre cómo hice este sistema <a href="/posts/2024-02-23-fechas-importantes-y-aniversarios/">en este artículo</a>.</p>
+  </div>
+</div>
+<div class="proyecto">
+  <div class="imagen">
+    <a href="https://hugoruscitti.github.io/tortugas-en-el-tiempo" target="_blank">
+      <img x-sin-click src="/images/proyectos/tortugas-en-el-tiempo.png" alt="" class="pointer">
+    </a>
   </div>
   <div class="texto">
     <p><a href="https://hugoruscitti.github.io/tortugas-en-el-tiempo">Tortugas en el tiempo </a>
@@ -257,14 +278,7 @@ pilas-engine es una herramienta que construí para crear videojuegos y acercar a
         <footer class="footer">
   <div class="footer__inner">
     
-      <a href="/" class="logo" style="text-decoration: none;">
-  <img width="64" height="64" src="/logo.png" alt="Logo" />
-  <span class="logo__text pl2"> examplelab</span>
-</a>
-
-      <div class="copyright">
-        <span>© 2010-2025 Hugo Ruscitti</span>
-      </div>
+      <div class="copyright copyright--user">© Hugo Ruscitti</div>
     
   </div>
 </footer>
