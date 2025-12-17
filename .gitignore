@@ -3,6 +3,4 @@ _site
 .jekyll-metadata
 dist
 .DS_Store
-public
-public_remoto
 .hugo_build.lock
