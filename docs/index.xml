@@ -5628,9 +5628,7 @@ for x in os.listdir(&amp;#39;.&amp;#39;):
   &amp;lt;/div&amp;gt;
 
 {{/if}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Y luego de algunos retoques de estilo quedo así:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2016/06/preview2.png&#34; alt=&#34;preview2&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;automatizando-la-generación-de-binarios&#34;&gt;Automatizando la generación de binarios&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;automatizando-la-generación-de-binarios&#34;&gt;Automatizando la generación de binarios&lt;/h3&gt;
 &lt;p&gt;En este punto, si quisiéramos crear los binarios desde nuestra propia computadora tendríamos que ejecutar el siguiente comando:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ember electron:package --platform=win32 --ignore &amp;#34;node_modules/\.bin&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sin embargo, algo más interesante es automatizar este procedimiento, hacer que los binarios se generen en un servidor remoto y se suban a github.&lt;/p&gt;

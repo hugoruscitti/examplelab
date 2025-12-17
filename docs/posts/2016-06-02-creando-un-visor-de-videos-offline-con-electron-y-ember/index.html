@@ -270,9 +270,7 @@ for x in os.listdir(&#39;.&#39;):
   &lt;/div&gt;
 
 {{/if}}
-</code></pre><p>Y luego de algunos retoques de estilo quedo así:</p>
-<p><img src="/images/2016/06/preview2.png" alt="preview2"></p>
-<h3 id="automatizando-la-generación-de-binarios">Automatizando la generación de binarios</h3>
+</code></pre><h3 id="automatizando-la-generación-de-binarios">Automatizando la generación de binarios</h3>
 <p>En este punto, si quisiéramos crear los binarios desde nuestra propia computadora tendríamos que ejecutar el siguiente comando:</p>
 <pre tabindex="0"><code>ember electron:package --platform=win32 --ignore &#34;node_modules/\.bin&#34;
 </code></pre><p>Sin embargo, algo más interesante es automatizar este procedimiento, hacer que los binarios se generen en un servidor remoto y se suban a github.</p>
