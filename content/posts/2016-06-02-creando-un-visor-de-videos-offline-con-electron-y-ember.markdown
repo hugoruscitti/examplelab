@@ -150,9 +150,6 @@ El siguiente paso es recorrer la lista de videos desde el template:
 {{/if}}
 ```
 
-Y luego de algunos retoques de estilo quedo así:
-
-![preview2](/images/2016/06/preview2.png)
 
 ### Automatizando la generación de binarios
 
