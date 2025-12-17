@@ -31,7 +31,7 @@ deploy:
 	@hugo -d docs
 	@echo "Subiendo cambios"
 	@git add docs
-	@git commit -am "actualizando archivos .html"
+	@git commit -am "actualizando archivos .html" --allow-empty
 	@git push origin master
 	@echo ""
 	@echo "${G}Listo, se hizo el deploy en:${N}"
