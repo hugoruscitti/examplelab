@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <style>
+    * { margin: 0; padding: 0; }
+    html, body {
+      width: 100%; 
+      height: 100%; 
+      display: flex;
+      overflow: hidden;
+      background: #434242;
+    }
+
+    canvas {
+      width: 512px;
+      height: 256px;
+      display: block;
+      margin: auto;
+
+      image-rendering: pixelated;
+    }
+
+    .dn {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <img class="dn" src="pajaro.png" id="image">
+  <canvas id="game"></canvas>
+
+  <script src="imgui.umd.js"></script>
+  <script src="imgui_impl.umd.js"></script>
+  <script>
+
+  const image = document.getElementById("image");
+
+  image.addEventListener("load", () => {
+    console.log("inicio!");
+    iniciar();
+  });
+
+  if (image.complete) {
+    iniciar();
+  }
+
+  const game = document.getElementById("game");
+  const ctx = game.getContext("2d");
+
+  let cuadro = 0;
+  let amplitud = 50;
+  let opacidad = 1;
+
+  async function iniciar() {
+    await ImGui.default();
+
+    ImGui.CreateContext();
+    ImGui_Impl.Init(ctx);
+
+    ImGui.StyleColorsDark();
+
+    window.requestAnimationFrame(_loop);
+  }
+
+  function dibujar(cuadro, x, y) {
+    const w = 38;
+    const h = 38;
+
+    ctx.drawImage(image, cuadro*w, 0, w, h, x, y, w, h);
+  }
+
+  function _loop(time) {
+    ImGui_Impl.NewFrame(time);
+    ImGui.NewFrame();
+
+    ImGui.SetNextWindowPos(new ImGui.ImVec2(200, 20), ImGui.Cond.FirstUseEver);
+    ImGui.SetNextWindowSize(new ImGui.ImVec2(294, 140), ImGui.Cond.FirstUseEver);
+
+    ImGui.Begin("ImGui");
+
+    ImGui.Text(`Cuadro de animación ${cuadro}`);
+
+
+    ImGui.SliderFloat('amplitud', (n) => {
+      if (n !== undefined) {
+        amplitud = n;
+      }
+      return amplitud;
+    }, 0, 100.0);
+
+    ImGui.SliderFloat('opacidad', (n) => {
+      if (n !== undefined) {
+        opacidad = n;
+      }
+      return opacidad;
+    }, 0.0, 1.0);
+
+    ImGui.End();
+
+    ImGui.EndFrame();
+
+    ImGui.Render();
+
+    ctx.fillStyle = `rgba(128, 49, 117, ${opacidad})`;
+    ctx.fillRect(0, 0, 512, 256);
+
+    dibujar(parseInt(cuadro/5) %2, 80, 110 + Math.sin(cuadro/10) * amplitud);
+
+    ImGui_Impl.RenderDrawData(ImGui.GetDrawData());
+
+    cuadro += 1;
+    window.requestAnimationFrame(_loop);
+  }
+
+  </script>
+</body>
+
+</html>
