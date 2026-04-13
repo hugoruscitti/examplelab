@@ -7,7 +7,90 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Hugo Ruscitti</copyright>
-    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explorando ImGui</title>
+      <link>https://www.examplelab.com.ar/posts/2026-04-06-explorando-imgui/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2026-04-06-explorando-imgui/</guid>
+      <description>&lt;p&gt;Hace mucho tiempo que tengo la idea de volver a hacer juegos, así que me propuse
+empezar con algunos experimentos, mi intención es contarte acá lo que voy
+descubriendo.&lt;/p&gt;
+&lt;h2 id=&#34;un-juego-con-interfaz-de-usuario&#34;&gt;Un juego con interfaz de usuario&lt;/h2&gt;
+&lt;p&gt;Una idea que quiero explorar es la de exponer controles que me permitan observar
+y ajustar variables del juego en tiempo de ejecución, me gusta la idea de hacer
+un juego que incluya controles para mí, que estoy haciendo el juego, algo así
+como un editor incluido en el mismo juego.&lt;/p&gt;
+&lt;p&gt;Buscando formas de hacer esto di con una biblioteca llamada ImGui, que se ajusta
+muy bien a este tipo de desafíos.&lt;/p&gt;
+&lt;p&gt;Te muestro un ejemplo de lo que pude armar hasta ahora:&lt;/p&gt;
+&lt;iframe id=&#34;ejemplo&#34; src=&#34;https://www.examplelab.com.ar/explorando-imgui/index-canvas.html&#34; style=&#34;border: 0&#34; width=512 height=256&gt;&lt;/iframe&gt;
+&lt;div&gt;
+&lt;script&gt;
+function reiniciar() {
+  let ejemplo = document.querySelector(&#34;#ejemplo&#34;)
+  ejemplo.contentWindow.location.reload();
+}
+&lt;/script&gt;
+&lt;a href=&#34;#&#34; onclick=&#34;reiniciar(); return false&#34;&gt;Reiniciar ejemplo&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Si interactuás con el ejemplo que está más arriba, vas a notar que el movimiento
+del pájaro cambia de acuerdo a la variable &lt;code&gt;amplitud&lt;/code&gt; y que la &lt;code&gt;opacidad&lt;/code&gt; te
+permite generar un efecto visual con solo deslizar el control.&lt;/p&gt;
+&lt;p&gt;Probá con valores como &lt;code&gt;opacidad = 0.1&lt;/code&gt; y mové la ventana.&lt;/p&gt;
+&lt;h2 id=&#34;el-modelo-inmediato&#34;&gt;El modelo inmediato&lt;/h2&gt;
+&lt;p&gt;Lo que más me sorprendió de ImGui, es que te permite crear una interfaz como esa
+de forma muy simple, porque podés invocar a los componentes directamente en el
+bucle del juego así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cuadro&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;amplitud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;opacidad&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;iniciar&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;borrar_el_fondo&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;opacidad&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ImGui&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Text&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`Cuadro de animación &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;cuadro&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;amplitud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ImGui&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;SliderFloat&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;amplitud&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;amplitud&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;opacidad&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ImGui&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;SliderFloat&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;opacidad&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;opacidad&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;dibujar_pajaro&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;esperar&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Claro, este código está simplificado, pero es solo para ilustrar que no se requiere
+mucho trabajo &amp;ldquo;mental&amp;rdquo; armar la interfaz de usuario así.&lt;/p&gt;
+&lt;p&gt;La interfaz se dibuja &amp;ldquo;al vuelo&amp;rdquo;, cuadro a cuadro, como una animación dentro del
+bucle del juego.&lt;/p&gt;
+&lt;p&gt;Pienso que la idea central de ImGui es permitirnos usar una API inmediata, que nos hace
+pensar en los componentes como funciones que dibujan nuestra UI y
+gestionan la interacción del usuario en un solo frame.&lt;/p&gt;
+&lt;h2 id=&#34;y-ahora&#34;&gt;¿Y ahora?&lt;/h2&gt;
+&lt;p&gt;Bueno, para mí es un cambio de enfoque que me gusta, yo venía pensando
+interfaces de usuario de otra forma, pensando que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;suele haber un &amp;ldquo;momento de inicialización&amp;rdquo; y construcción de los componentes.&lt;/li&gt;
+&lt;li&gt;luego un bloque de código dedicado a &amp;ldquo;conectar eventos con callbacks&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;y finalmente alguna función para &amp;ldquo;delegar y esperar&amp;rdquo; el resto a la biblioteca.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pero acá, con ImGui, aparece algo más fácil de pensar e integrar, al menos para
+mí. Si quiero controlar una variable simplemente puedo dibujar un deslizador en
+pantalla y listo.&lt;/p&gt;
+&lt;p&gt;Otra cosa que me gusta mucho es que se puede entender &amp;ldquo;cómo funciona&amp;rdquo; la
+aplicación mirando una porción de código muy breve, sin tener que navegar entre
+funciones, clases o distintos archivos. Esto me recordó mucho a la idea del
+autor de htmx sobre lo valioso de
+&lt;a href=&#34;https://www.examplelab.com.ar/posts/2023-03-06-las-cosas-cerca/&#34;&gt;mantener las cosas juntas&lt;/a&gt;, del que
+escribí hace un tiempo.&lt;/p&gt;
+&lt;p&gt;Y por supuesto me gusta mucho que tenga una demo web con todo lo que se puede
+hacer: &lt;a href=&#34;https://pthom.github.io/imgui_explorer/&#34;&gt;https://pthom.github.io/imgui_explorer/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ahora me queda seguir jugando un poco más con estas ideas y ver qué sale de
+estos experimentos divertidos.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Creando el diario de Valentín</title>
       <link>https://www.examplelab.com.ar/posts/2025-09-09-creando-el-diario-de-valentin/</link>
