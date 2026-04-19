@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ImGui Cheatsheet</title>
+    <style>
+        @page {
+            size: landscape;
+            margin: 0.5cm;
+        }
+        @media print {
+            body { font-size: 8pt; }
+            .no-print { display: none !important; }
+            .col { page-break-inside: avoid; }
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 9pt;
+            margin: 0;
+            padding: 10px;
+        }
+        h1 { font-size: 14pt; margin: 0 0 8px 0; }
+        h2 { font-size: 10pt; margin: 8px 0 4px 0; padding-bottom: 2px; }
+        code {
+            background: #f0f0f0;
+            padding: 0 3px;
+            border-radius: 2px;
+            font-family: "SF Mono", Monaco, Consolas, monospace;
+            font-size: 7.5pt;
+        }
+        pre {
+            background: #f5f5f5;
+            padding: 4px;
+            border-radius: 2px;
+            overflow-x: auto;
+            font-size: 7pt;
+            line-height: 1.2;
+            margin: 2px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 8px;
+        }
+        .col {
+            background: #fafafa;
+            padding: 6px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="col">
+            <h2>Inicialización</h2>
+            <pre>
+await ImGui.default();
+ImGui.CreateContext();
+ImGui_Impl.Init(ctx);
+ImGui.StyleColorsDark();
+
+ImGui_Impl.NewFrame(time);
+ImGui.NewFrame();
+ImGui.EndFrame();
+ImGui.Render();
+ImGui_Impl.RenderDrawData(ImGui.GetDrawData());</pre>
+
+            <h2>Windows</h2>
+            <pre>
+ImGui.Begin("title");
+ImGui.End();
+
+NoTitleBar, NoResize
+NoMove, NoScrollbar
+NoCollapse, AlwaysAutoResize
+MenuBar, NoBackground</pre>
+
+            <h2>Widgets</h2>
+            <pre>
+ImGui.Text("msg");
+ImGui.TextColored(c, "msg");
+ImGui.LabelText("lbl", "val");
+ImGui.Button("label"); // bool
+ImGui.SmallButton("lbl");
+ImGui.Checkbox("lbl", fn);
+ImGui.RadioButton("lbl", fn);</pre>
+
+            <h2>Sliders</h2>
+            <pre>
+ImGui.SliderFloat(fn, min, max);
+ImGui.SliderInt(fn, min, max);
+ImGui.SliderFloat2/3/4(fn, min, max);
+ImGui.DragFloat(fn, spd, min, max);
+ImGui.DragInt(fn, spd, min, max);
+
+// Pattern:
+ImGui.SliderFloat("l", (n)=>{
+    if(n!==undefined) v=n;
+    return v;
+}, 0, 100);</pre>
+
+            <h2>Inputs</h2>
+            <pre>
+ImGui.InputText(fn);
+ImGui.InputFloat(fn, step, fast);
+ImGui.InputInt(fn, step, fast);
+ImGui.InputTextMultiline(fn,w,h);
+ImGui.InputTextWithHint("l","hint",fn);
+
+// InputText Flags:
+EnterReturnsTrue, ReadOnly
+Password, Multiline
+CallbackHistory, AutoSelectAll</pre>
+
+        </div>
+
+        <div class="col">
+            <h2>Trees</h2>
+            <pre>
+ImGui.TreeNode("lbl"); // bool
+ImGui.TreePush("id");
+ImGui.TreePop();
+ImGui.Indent(); ImGui.Unindent();
+
+// Flags:
+DefaultOpen, OpenOnArrow
+Leaf, Bullet</pre>
+
+            <h2>Selectables</h2>
+            <pre>
+ImGui.Selectable("lbl");
+ImGui.Selectable(fn);
+ImGui.Selectable(fn, flags, size);
+AllowDoubleClick</pre>
+
+            <h2>Combo</h2>
+            <pre>
+ImGui.Combo("lbl", fn, ["a","b","c"]);
+ImGui.Combo(fn, (i)=>items[i],null,len);
+
+// Flags:
+NoArrowButton
+NoPreview
+HeightLarge</pre>
+
+            <h2>ListBox</h2>
+            <pre>
+ImGui.ListBox(fn, items, h);
+ImGui.BeginListBox(w,h);
+  Selectable("item");
+ImGui.EndListBox();</pre>
+
+            <h2>Tabs</h2>
+            <pre>
+ImGui.BeginTabBar("id");
+  ImGui.BeginTabItem("lbl");
+  ImGui.EndTabItem();
+ImGui.EndTabBar();
+
+// TabItem returns false if closed
+ImGui.BeginTabItem(fn);</pre>
+
+            <h2>Tables</h2>
+            <pre>
+ImGui.BeginTable("id", n);
+  TableNextRow();
+  TableNextColumn(); Text();
+  TableNextColumn(); Text();
+ImGui.EndTable();
+
+// Flags:
+Resizable, Reorderable
+RowBg, BordersInner
+BordersOuter
+
+TableSetupColumn(l,flags,w);</pre>
+        </div>
+
+        <div class="col">
+            <h2>Menus</h2>
+            <pre>
+ImGui.BeginMenuBar();
+  ImGui.BeginMenu("File");
+    MenuItem("New","Ctrl+N");
+    MenuItem("Open",fn);
+    Separator();
+    MenuItem("Exit");
+  ImGui.EndMenu();
+ImGui.EndMenuBar();</pre>
+
+            <h2>Popups</h2>
+            <pre>
+ImGui.OpenPopup("id");
+ImGui.BeginPopup("id");
+ImGui.EndPopup();
+
+ImGui.BeginPopupModal("t",fn);
+ImGui.EndPopup();
+
+ImGui.CloseCurrentPopup();
+</pre>
+
+            <h2>Spacing</h2>
+            <pre>
+ImGui.SameLine(off, sp);
+ImGui.NewLine();
+ImGui.Spacing();
+ImGui.Dummy(w, h);
+ImGui.Separator();
+ImGui.SeparatorText("l");
+ImGui.Indent(w); Unindent(w);
+ImGui.BeginGroup(); EndGroup();</pre>
+
+            <h2>Images</h2>
+            <pre>
+ImGui.Image(tex, size);
+ImGui.Image(tex,size,uv0,uv1,tint,border);
+ImGui.ImageButton(id,tex,size);
+
+// uv0,uv1: {x:0,y:0} a {1,1}</pre>
+
+            <h2>Tooltips</h2>
+            <pre>
+Text("hover me");
+if(IsItemHovered()){
+    SetTooltip("tooltip!");
+}
+
+if(IsItemHovered()){
+    BeginTooltip();
+    Text("line");
+    EndTooltip();
+}</pre>
+
+            <h2>Progress</h2>
+            <pre>
+ImGui.ProgressBar(frac);
+ImGui.ProgressBar(frac,size,"txt");
+ImGui.Spinner(label,r,thick);</pre>
+        </div>
+
+        <div class="col">
+            <h2>Window Utils</h2>
+            <pre>
+SetNextWindowPos(x,y,cond);
+SetNextWindowSize(w,h,cond);
+SetNextWindowFocus();
+SetNextWindowBgAlpha(a);
+
+// Cond:
+None, Always, Once
+FirstUseEver, Appearing</pre>
+
+            <h2>Hover States</h2>
+            <pre>
+IsItemHovered();
+IsItemActive();
+IsItemClicked();
+IsItemFocused();
+IsItemEdited();
+IsItemDeactivated();
+
+PushID("id"); PopID();</pre>
+
+            <h2>Plotting</h2>
+            <pre>
+ImGui.PlotLines(lbl,val,off,txt,min,max,sz);
+ImGui.PlotHistogram(lbl,val,off,txt,min,max,sz);</pre>
+
+            <h2>Cond Flags</h2>
+            <pre>
+Cond.None
+Cond.Always
+Cond.Once
+Cond.FirstUseEver
+Cond.Appearing</pre>
+
+            <h2>Window Flags</h2>
+            <pre>
+NoTitleBar
+NoResize
+NoMove
+NoScrollbar
+NoCollapse
+AlwaysAutoResize
+MenuBar
+NoBackground
+NoSavedSettings</pre>
+
+
+            <h2>Color</h2>
+            <pre>
+ImGui.ColorPicker3(fn);
+ImGui.ColorPicker4(fn);
+ImGui.ColorEdit3(fn);
+ImGui.ColorEdit4(fn);
+
+// Color: {r,g,b,a}</pre>
+
+        </div>
+    </div>
+
+</body>
+</html>

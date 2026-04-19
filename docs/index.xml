@@ -7,7 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Hugo Ruscitti</copyright>
-    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.examplelab.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Volviendo al laboratorio</title>
+      <link>https://www.examplelab.com.ar/posts/2026-04-19-volviendo-al-laboratorio/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.examplelab.com.ar/posts/2026-04-19-volviendo-al-laboratorio/</guid>
+      <description>&lt;p&gt;Este mes empecé a dedicarle tiempo a mis proyectos personales, algo que
+no estuve haciendo los últimos meses; quiero decir, a veces me sentaba a
+escribir o leer, pero nunca de forma sistemática y con regularidad.&lt;/p&gt;
+&lt;p&gt;Tan solo arrancar a escribir me hizo recordar lo mucho que extrañaba pensar y
+soñar con ponerme a programar para mí mismo, haciendo experimentos y jugando con
+mis ideas.&lt;/p&gt;
+&lt;p&gt;Por darte algunos ejemplos: empecé a escribir de nuevo en este blog, arranqué a
+programar un jueguito muy simple y también visité a Maléfico para charlar sobre
+un juego que está haciendo con Godot.&lt;/p&gt;
+&lt;p&gt;Poner la mente en estas actividades es renovador para mí, es como entrar en un
+modo mental que me apasiona, me genera ideas nuevas y me invita a pasar un buen
+rato del día pensando en desafíos divertidos de resolver.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2026/volviendo-al-laboratorio/laboratorio.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Además de esto, creo que muchas personas estamos pasando por un proceso similar:
+tenemos algo de tiempo libre, muchas ganas de hacer cosas, pero nos quedamos a
+mitad de camino.&lt;/p&gt;
+&lt;p&gt;En fin, voy a continuar con el juego que estoy programando poco a poco, jugar
+con algunas ideas y ver si llego a construir algo que potencie mis ganas de seguir
+aprendiendo.&lt;/p&gt;
+&lt;p&gt;¿Vos tenés proyectos en mente?, ¿cuándo vas a arrancar?&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Explorando ImGui</title>
       <link>https://www.examplelab.com.ar/posts/2026-04-06-explorando-imgui/</link>
