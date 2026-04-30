@@ -5,6 +5,9 @@ date: '2026-04-19 00:00:00'
 description: |
   Algunas reflexiones sobre programar cosas para uno mismo.
 cover: /images/2026/volviendo-al-laboratorio/portada.jpg
+tags:
+- reflexión
+- proyecto
 ---
 
 Este mes empecé a dedicarle tiempo a mis proyectos personales, algo que

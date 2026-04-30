@@ -5,6 +5,9 @@ date: '2026-04-06 00:00:00'
 description: |
   De qué se trata ImGui y por qué me gustaría usarlo en mis juegos.
 cover: /images/2026/explorando-imgui/portada.jpg
+tags:
+- imgui
+- videojuegos
 ---
 
 Hace mucho tiempo que tengo la idea de volver a hacer juegos, así que me propuse
