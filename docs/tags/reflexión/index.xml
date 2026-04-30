@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Hugo Ruscitti</copyright>
-    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.examplelab.com.ar/tags/reflexi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡Hola humano!</title>
+      <link>https://www.examplelab.com.ar/posts/2026-04-29-hola-humano/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.examplelab.com.ar/posts/2026-04-29-hola-humano/</guid>
+      <description>&lt;p&gt;Para mí, escribir en este blog es un lindo ejercicio mental y emocional, porque&#xA;dar a conocer mis ideas y experimentos me pone en un rol activo que no es fácil, lleva&#xA;tiempo y requiere esfuerzo.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2026/hola-humano/hola.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pero al mismo tiempo, escribir me permite conectar con aquella Internet que&#xA;tanto me gustaba, un lugar en donde podías encontrar personas creando cosas&#xA;copadas y compartiendo su conocimiento. Los blogs simbolizan esos lugares en&#xA;donde se pueden compartir experiencias, o mejor dicho, en donde se puede&#xA;aprender de otros humanos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Volviendo al laboratorio</title>
+      <link>https://www.examplelab.com.ar/posts/2026-04-19-volviendo-al-laboratorio/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.examplelab.com.ar/posts/2026-04-19-volviendo-al-laboratorio/</guid>
+      <description>&lt;p&gt;Este mes empecé a dedicarle tiempo a mis proyectos personales, algo que&#xA;no estuve haciendo los últimos meses; quiero decir, a veces me sentaba a&#xA;escribir o leer, pero nunca de forma sistemática y con regularidad.&lt;/p&gt;&#xA;&lt;p&gt;Tan solo arrancar a escribir me hizo recordar lo mucho que extrañaba pensar y&#xA;soñar con ponerme a programar para mí mismo, haciendo experimentos y jugando con&#xA;mis ideas.&lt;/p&gt;&#xA;&lt;p&gt;Por darte algunos ejemplos: empecé a escribir de nuevo en este blog, arranqué a&#xA;programar un jueguito muy simple y también visité a Maléfico para charlar sobre&#xA;un juego que está haciendo con Godot.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Simplificando por un motivo accidental</title>
       <link>https://www.examplelab.com.ar/posts/2023-11-24-simplificando-por-un-motivo-accidental/</link>

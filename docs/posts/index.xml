@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Hugo Ruscitti</copyright>
-    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.examplelab.com.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡Hola humano!</title>
+      <link>https://www.examplelab.com.ar/posts/2026-04-29-hola-humano/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.examplelab.com.ar/posts/2026-04-29-hola-humano/</guid>
+      <description>&lt;p&gt;Para mí, escribir en este blog es un lindo ejercicio mental y emocional, porque&#xA;dar a conocer mis ideas y experimentos me pone en un rol activo que no es fácil, lleva&#xA;tiempo y requiere esfuerzo.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.examplelab.com.ar/images/2026/hola-humano/hola.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pero al mismo tiempo, escribir me permite conectar con aquella Internet que&#xA;tanto me gustaba, un lugar en donde podías encontrar personas creando cosas&#xA;copadas y compartiendo su conocimiento. Los blogs simbolizan esos lugares en&#xA;donde se pueden compartir experiencias, o mejor dicho, en donde se puede&#xA;aprender de otros humanos.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Volviendo al laboratorio</title>
       <link>https://www.examplelab.com.ar/posts/2026-04-19-volviendo-al-laboratorio/</link>

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Hugo Ruscitti</copyright>
-    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.examplelab.com.ar/tags/proyecto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Volviendo al laboratorio</title>
+      <link>https://www.examplelab.com.ar/posts/2026-04-19-volviendo-al-laboratorio/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.examplelab.com.ar/posts/2026-04-19-volviendo-al-laboratorio/</guid>
+      <description>&lt;p&gt;Este mes empecé a dedicarle tiempo a mis proyectos personales, algo que&#xA;no estuve haciendo los últimos meses; quiero decir, a veces me sentaba a&#xA;escribir o leer, pero nunca de forma sistemática y con regularidad.&lt;/p&gt;&#xA;&lt;p&gt;Tan solo arrancar a escribir me hizo recordar lo mucho que extrañaba pensar y&#xA;soñar con ponerme a programar para mí mismo, haciendo experimentos y jugando con&#xA;mis ideas.&lt;/p&gt;&#xA;&lt;p&gt;Por darte algunos ejemplos: empecé a escribir de nuevo en este blog, arranqué a&#xA;programar un jueguito muy simple y también visité a Maléfico para charlar sobre&#xA;un juego que está haciendo con Godot.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Configurando un media center con Kodi</title>
       <link>https://www.examplelab.com.ar/posts/2023-03-03-configurando-media-center-kodi/</link>
